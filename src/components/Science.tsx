@@ -66,6 +66,7 @@ export default function Science() {
                   rotationSpeed={-0.08}
                   detail={0.85}
                   lean={-0.25}
+                  dof={false}
                 />
               </motion.div>
 

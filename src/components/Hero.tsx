@@ -26,7 +26,8 @@ export default function Hero() {
       {/* Volumetric washes */}
       <div className="pointer-events-none absolute inset-0 bg-hero-radial" />
       <div className="pointer-events-none absolute inset-0 bg-grid-dots opacity-50" />
-      <div className="pointer-events-none absolute -top-48 right-[8%] h-[560px] w-[560px] rounded-full bg-violet/[0.16] blur-[150px] animate-shimmer" />
+      <div className="pointer-events-none absolute -top-48 right-[8%] h-[560px] w-[560px] rounded-full bg-ember/[0.13] blur-[150px] animate-shimmer" />
+      <div className="pointer-events-none absolute right-[18%] top-[30%] h-72 w-72 rounded-full bg-ember-deep/[0.1] blur-[120px]" />
       <div className="pointer-events-none absolute bottom-[12%] left-[2%] h-80 w-80 rounded-full bg-teal/[0.07] blur-[130px]" />
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-56 bg-gradient-to-t from-navy-deeper to-transparent" />
 

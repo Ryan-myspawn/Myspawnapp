@@ -82,4 +82,4 @@ Reusable with props:
 />
 ```
 
-Violet emissive backbones, alternating teal/emerald base-pair rungs, gold hydrogen-bond nodes, a drifting multi-color particle galaxy, warm gold rim lighting, and Bloom + Vignette post-processing. Scales down gracefully on mobile.
+Photoreal molten-orange helix: organic molecule-bead clusters (instanced spheres) along each backbone with teal sparkle accents, dark glassy steel rungs with rare glowing teal/ember pairs, fine dust plus large soft bokeh orbs, real depth-of-field (`dof` prop), Bloom + Vignette, fog depth, cinematic axial lean, and mouse parallax. Rendering pauses automatically when scrolled offscreen. Scales down gracefully on mobile.

@@ -24,6 +24,11 @@ export default {
         gold: {
           DEFAULT: "#F5C26B",
         },
+        ember: {
+          DEFAULT: "#FF8C42",
+          deep: "#E85A1A",
+          soft: "#FFB35C",
+        },
         offwhite: "#F4F6FA",
       },
       fontFamily: {
@@ -40,7 +45,7 @@ export default {
       },
       backgroundImage: {
         "hero-radial":
-          "radial-gradient(ellipse 75% 60% at 72% 40%, rgba(96,85,172,0.2), transparent 62%), radial-gradient(ellipse 50% 40% at 20% 75%, rgba(0,201,167,0.06), transparent 60%)",
+          "radial-gradient(ellipse 75% 60% at 72% 40%, rgba(255,140,66,0.14), transparent 62%), radial-gradient(ellipse 50% 40% at 20% 75%, rgba(0,201,167,0.06), transparent 60%)",
       },
       animation: {
         marquee: "marquee 42s linear infinite",
