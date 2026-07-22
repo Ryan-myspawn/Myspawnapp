@@ -37,24 +37,50 @@
   .text-gradient {
     @apply bg-clip-text text-transparent;
     background-image: linear-gradient(
-      110deg,
-      #f4f6fa 20%,
-      #8b81cf 50%,
-      #00c9a7 85%
+      105deg,
+      #b7aee8 0%,
+      #8b81cf 45%,
+      #00c9a7 100%
     );
   }
 
   .text-gradient-gold {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(110deg, #f5c26b 0%, #f4f6fa 60%);
+    background-image: linear-gradient(110deg, #f5c26b 0%, #f4f6fa 70%);
+  }
+
+  /* Ghost outline numerals for editorial section markers */
+  .text-stroke {
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(244, 246, 250, 0.18);
+  }
+
+  /* Cinematic film grain laid over the whole page */
+  .noise-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    pointer-events: none;
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
   }
 
   /* Fine dot-grid texture used behind sections */
   .bg-grid-dots {
     background-image: radial-gradient(
-      rgba(244, 246, 250, 0.05) 1px,
+      rgba(244, 246, 250, 0.045) 1px,
       transparent 1px
     );
-    background-size: 28px 28px;
+    background-size: 32px 32px;
+  }
+
+  /* Hairline rules */
+  .hairline-t {
+    border-top: 1px solid rgba(244, 246, 250, 0.08);
+  }
+  .hairline-b {
+    border-bottom: 1px solid rgba(244, 246, 250, 0.08);
   }
 }

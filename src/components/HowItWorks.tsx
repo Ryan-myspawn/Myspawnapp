@@ -1,111 +1,82 @@
-import { motion } from "framer-motion";
 import { Package, Microscope, LineChart } from "lucide-react";
-import { Reveal, SectionKicker } from "@/components/ui/reveal";
+import { Reveal, SectionHeader } from "@/components/ui/reveal";
 
 const steps = [
   {
     icon: Package,
-    step: "01",
+    number: "01",
     title: "Collect at Home",
-    body: "A beautifully simple saliva kit arrives at your door. Five minutes, zero needles, prepaid return.",
-    color: "text-violet-soft",
-    ring: "border-violet/40",
+    body: "A beautifully simple saliva kit arrives at your door. Five minutes, zero needles, prepaid return — a quiet moment at your kitchen table.",
+    meta: "Day 0 · 5 minutes",
   },
   {
     icon: Microscope,
-    step: "02",
+    number: "02",
     title: "We Sequence & Decode",
-    body: "Your sample is sequenced in our certified labs, then decoded by AI trained on millions of genomes.",
-    color: "text-teal",
-    ring: "border-teal/40",
+    body: "Your sample is sequenced in our CLIA-certified labs at 30× depth, then decoded by AI trained on millions of genomes.",
+    meta: "Day 2–12 · CLIA-certified",
   },
   {
     icon: LineChart,
-    step: "03",
+    number: "03",
     title: "Insights for Life",
-    body: "Explore living reports that evolve as science advances — your genome keeps teaching you, forever.",
-    color: "text-gold",
-    ring: "border-gold/40",
+    body: "Explore living reports that evolve as science advances — your genome keeps teaching you, forever. No new sample required.",
+    meta: "Forever · Updated quarterly",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative overflow-hidden bg-navy py-28 lg:py-36">
-      <div className="pointer-events-none absolute right-[-10%] top-[20%] h-[420px] w-[420px] rounded-full bg-teal/[0.07] blur-[140px]" />
+    <section id="how-it-works" className="relative overflow-hidden bg-navy py-28 lg:py-40">
+      <div className="pointer-events-none absolute right-[-12%] top-[15%] h-[460px] w-[460px] rounded-full bg-teal/[0.05] blur-[150px]" />
+      <div className="pointer-events-none absolute left-[-8%] bottom-[10%] h-[380px] w-[380px] rounded-full bg-violet/[0.1] blur-[140px]" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
-        <Reveal className="mx-auto max-w-2xl text-center">
-          <SectionKicker>The Process</SectionKicker>
-          <h2 className="font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            Three steps to <span className="text-gradient-gold">yourself</span>
-          </h2>
-          <p className="mt-5 text-lg font-light leading-relaxed text-offwhite/60">
-            From a quiet moment at your kitchen table to the deepest map of who
-            you are.
-          </p>
-        </Reveal>
+        <SectionHeader
+          index="02"
+          kicker="The Process"
+          title={
+            <>
+              Three steps to{" "}
+              <span className="font-serif font-normal italic text-gradient-gold">
+                yourself
+              </span>
+            </>
+          }
+          note="From a swab at your kitchen table to the deepest map of who you are."
+        />
 
-        <div className="relative mt-20">
-          {/* Connecting DNA thread — animated dashed helix line (desktop) */}
-          <svg
-            className="pointer-events-none absolute left-0 top-10 hidden h-24 w-full lg:block"
-            viewBox="0 0 1200 80"
-            fill="none"
-            preserveAspectRatio="none"
-            aria-hidden
-          >
-            <motion.path
-              d="M60 40 C 210 -10, 390 90, 600 40 C 810 -10, 990 90, 1140 40"
-              stroke="url(#thread)"
-              strokeWidth="1.5"
-              strokeDasharray="6 8"
-              initial={{ pathLength: 0, opacity: 0 }}
-              whileInView={{ pathLength: 1, opacity: 1 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 2.2, ease: "easeInOut" }}
-            />
-            <motion.path
-              d="M60 40 C 210 90, 390 -10, 600 40 C 810 90, 990 -10, 1140 40"
-              stroke="url(#thread)"
-              strokeWidth="1.5"
-              strokeDasharray="6 8"
-              initial={{ pathLength: 0, opacity: 0 }}
-              whileInView={{ pathLength: 1, opacity: 0.5 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 2.2, delay: 0.2, ease: "easeInOut" }}
-            />
-            <defs>
-              <linearGradient id="thread" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#6055AC" />
-                <stop offset="0.5" stopColor="#00C9A7" />
-                <stop offset="1" stopColor="#F5C26B" />
-              </linearGradient>
-            </defs>
-          </svg>
-
-          <div className="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-8">
-            {steps.map((s, i) => (
-              <Reveal key={s.step} delay={i * 0.18} className="relative">
-                <div className="flex flex-col items-center text-center">
-                  <div
-                    className={`relative z-10 grid h-20 w-20 place-items-center rounded-full border ${s.ring} bg-navy-deep shadow-glow-card`}
-                  >
-                    <s.icon className={`h-8 w-8 ${s.color}`} strokeWidth={1.6} />
-                    <span className="absolute -right-1 -top-1 grid h-7 w-7 place-items-center rounded-full bg-gradient-to-br from-violet to-teal font-heading text-[10px] font-bold text-white">
-                      {s.step}
-                    </span>
-                  </div>
-                  <h3 className="mt-7 font-heading text-xl font-bold text-white">
-                    {s.title}
-                  </h3>
-                  <p className="mt-3 max-w-xs text-sm font-light leading-relaxed text-offwhite/55">
-                    {s.body}
-                  </p>
+        <div className="mt-4">
+          {steps.map((s, i) => (
+            <Reveal key={s.number} delay={i * 0.12}>
+              <div className="group grid grid-cols-1 gap-6 border-b border-white/[0.07] py-12 transition-colors duration-500 hover:bg-white/[0.015] lg:grid-cols-12 lg:items-center lg:gap-10 lg:py-16">
+                {/* Ghost numeral */}
+                <div className="lg:col-span-3">
+                  <span className="font-heading text-7xl font-bold leading-none text-stroke transition-all duration-700 group-hover:[-webkit-text-stroke-color:rgba(0,201,167,0.4)] lg:text-8xl">
+                    {s.number}
+                  </span>
                 </div>
-              </Reveal>
-            ))}
-          </div>
+
+                <div className="flex items-center gap-5 lg:col-span-4">
+                  <span className="grid h-14 w-14 shrink-0 place-items-center rounded-full border border-white/10 bg-white/[0.03] transition-all duration-500 group-hover:border-teal/40 group-hover:shadow-glow-teal">
+                    <s.icon className="h-6 w-6 text-violet-pale transition-colors duration-500 group-hover:text-teal" strokeWidth={1.6} />
+                  </span>
+                  <div>
+                    <h3 className="font-heading text-2xl font-bold tracking-tight text-white">
+                      {s.title}
+                    </h3>
+                    <div className="mt-1.5 text-[10px] font-medium uppercase tracking-[0.22em] text-offwhite/35">
+                      {s.meta}
+                    </div>
+                  </div>
+                </div>
+
+                <p className="max-w-md text-[15px] font-light leading-relaxed text-offwhite/50 lg:col-span-5">
+                  {s.body}
+                </p>
+              </div>
+            </Reveal>
+          ))}
         </div>
       </div>
     </section>

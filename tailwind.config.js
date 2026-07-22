@@ -13,6 +13,7 @@ export default {
           DEFAULT: "#6055AC",
           bright: "#7B6FD0",
           soft: "#8B81CF",
+          pale: "#B7AEE8",
         },
         teal: {
           DEFAULT: "#00C9A7",
@@ -28,25 +29,35 @@ export default {
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
         heading: ["'Plus Jakarta Sans'", "Inter", "ui-sans-serif", "sans-serif"],
+        serif: ["'Instrument Serif'", "Georgia", "serif"],
       },
       boxShadow: {
-        "glow-violet": "0 0 40px -8px rgba(96, 85, 172, 0.55)",
-        "glow-teal": "0 0 40px -8px rgba(0, 201, 167, 0.4)",
-        "glow-card": "0 0 0 1px rgba(255,255,255,0.06), 0 24px 60px -20px rgba(0,0,0,0.6)",
+        "glow-violet": "0 0 60px -12px rgba(96, 85, 172, 0.5)",
+        "glow-teal": "0 0 60px -12px rgba(0, 201, 167, 0.35)",
+        "glow-card":
+          "0 0 0 1px rgba(255,255,255,0.06), 0 32px 80px -24px rgba(0,0,0,0.7)",
+        sheen: "inset 0 1px 0 rgba(255,255,255,0.22)",
       },
       backgroundImage: {
         "hero-radial":
-          "radial-gradient(ellipse 80% 60% at 70% 40%, rgba(96,85,172,0.22), transparent 60%), radial-gradient(ellipse 50% 40% at 25% 70%, rgba(0,201,167,0.08), transparent 60%)",
+          "radial-gradient(ellipse 75% 60% at 72% 40%, rgba(96,85,172,0.2), transparent 62%), radial-gradient(ellipse 50% 40% at 20% 75%, rgba(0,201,167,0.06), transparent 60%)",
       },
       animation: {
-        "pulse-slow": "pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        shimmer: "shimmer 8s ease-in-out infinite",
+        marquee: "marquee 42s linear infinite",
+        shimmer: "shimmer 9s ease-in-out infinite",
       },
       keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
         shimmer: {
-          "0%, 100%": { opacity: "0.6" },
+          "0%, 100%": { opacity: "0.55" },
           "50%": { opacity: "1" },
         },
+      },
+      letterSpacing: {
+        tightest: "-0.045em",
       },
     },
   },

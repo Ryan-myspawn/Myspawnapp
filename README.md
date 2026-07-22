@@ -41,7 +41,9 @@ Design tokens (colors, fonts, glows) live in `tailwind.config.js`:
 | `emerald` | `#10B981` | Secondary accent |
 | `gold` | `#F5C26B` | Warm highlights |
 
-Fonts: **Plus Jakarta Sans** (headings) + **Inter** (body), loaded in `index.html`.
+Fonts: **Plus Jakarta Sans** (tight-tracked display headings) + **Instrument Serif** (italic editorial accents) + **Inter** (body), loaded in `index.html`.
+
+Signature details: film-grain overlay, hairline rules and `( 01 )` section numbering, masked line-reveal headlines, marquee logo strip, bento feature grid, ghost-outline process numerals, scroll parallax, and a monumental footer wordmark.
 
 ## Structure
 

@@ -15,6 +15,8 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen bg-navy-deeper">
+      {/* Cinematic film grain over everything */}
+      <div aria-hidden className="noise-overlay" />
       <Navbar />
       <main>
         <Hero />
