@@ -76,7 +76,7 @@ export function SectionHeader({
   note?: string;
 }) {
   return (
-    <div className="hairline-b pb-10 lg:pb-14">
+    <div className="pb-8 lg:pb-10">
       <Reveal className="flex items-baseline gap-4">
         <span className="font-heading text-sm tracking-[0.25em] text-offwhite/30">
           ( {index} )

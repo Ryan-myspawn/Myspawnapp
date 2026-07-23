@@ -101,8 +101,8 @@ export default function SiteBackground() {
         draggable={false}
       />
       {/* Readability scrim — keeps foreground text legible over the photo */}
-      <div className="absolute inset-0 bg-navy-deeper/55" />
-      <div className="absolute inset-0 bg-gradient-to-b from-navy-deeper/45 via-transparent to-navy-deeper/60" />
+      <div className="absolute inset-0 bg-navy-deeper/62" />
+      <div className="absolute inset-0 bg-gradient-to-b from-navy-deeper/40 via-transparent to-navy-deeper/55" />
       <div
         className="absolute inset-0"
         style={{

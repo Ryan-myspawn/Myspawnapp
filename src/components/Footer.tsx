@@ -22,7 +22,7 @@ const columns = [
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/[0.06] bg-navy-deeper/55 backdrop-blur-sm">
+    <footer className="relative overflow-hidden">
       <div className="relative mx-auto max-w-7xl px-6 pt-20 lg:px-10">
         <div className="grid grid-cols-2 gap-10 pb-16 md:grid-cols-6">
           <div className="col-span-2">
@@ -68,7 +68,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-4 border-t border-white/[0.06] py-8 sm:flex-row">
+        <div className="flex flex-col items-center justify-between gap-4 py-8 sm:flex-row">
           <p className="text-xs font-light text-offwhite/30">
             © {new Date().getFullYear()} {COMPANY_NAME}, Inc. All rights reserved.
           </p>

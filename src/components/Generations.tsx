@@ -25,7 +25,7 @@ const stories = [
 
 export default function Generations() {
   return (
-    <section id="generations" className="relative overflow-hidden bg-navy-deeper/25 py-28 lg:py-40">
+    <section id="generations" className="relative overflow-hidden py-28 lg:py-40">
       <div className="pointer-events-none absolute inset-0 bg-grid-dots opacity-30" />
       <div className="pointer-events-none absolute bottom-[-15%] left-1/2 h-96 w-[820px] -translate-x-1/2 rounded-full bg-gold/[0.05] blur-[160px]" />
 

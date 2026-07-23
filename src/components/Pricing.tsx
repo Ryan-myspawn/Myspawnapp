@@ -48,7 +48,7 @@ const tiers = [
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="relative overflow-hidden bg-navy-deeper/35 py-28 backdrop-blur-[2px] lg:py-40">
+    <section id="pricing" className="relative overflow-hidden py-28 lg:py-40">
       <div className="pointer-events-none absolute left-1/2 top-[-5%] h-[400px] w-[700px] -translate-x-1/2 rounded-full bg-violet/[0.08] blur-[160px]" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">

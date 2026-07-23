@@ -32,7 +32,7 @@ export default function Science() {
   const y = useTransform(scrollYProgress, [0, 1], [50, -50]);
 
   return (
-    <section id="science" className="relative overflow-hidden bg-navy-deeper/35 py-28 backdrop-blur-[2px] lg:py-40">
+    <section id="science" className="relative overflow-hidden py-28 lg:py-40">
       <div className="pointer-events-none absolute left-[-10%] top-[30%] h-[480px] w-[480px] rounded-full bg-violet/[0.08] blur-[150px]" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
@@ -88,7 +88,7 @@ export default function Science() {
           <div className="order-1 lg:order-2">
             {stats.map((s, i) => (
               <Reveal key={s.title} delay={0.1 + i * 0.12}>
-                <div className="group grid grid-cols-[auto_1fr] items-baseline gap-8 border-b border-white/[0.07] py-9 first:border-t">
+                <div className="group grid grid-cols-[auto_1fr] items-baseline gap-8 py-7">
                   <span className="w-24 font-heading text-4xl font-bold tracking-tightest text-white transition-colors duration-500 group-hover:text-gradient lg:text-5xl">
                     {s.value}
                   </span>

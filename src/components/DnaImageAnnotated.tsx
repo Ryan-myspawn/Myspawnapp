@@ -69,8 +69,9 @@ export default function DnaImageAnnotated({
 
   return (
     <div className={`relative overflow-hidden ${className ?? ""}`}>
-      {/* Artwork layer — masked so it melts into the page (UI stays crisp) */}
-      <div className="absolute inset-0 [mask-image:radial-gradient(135%_125%_at_58%_45%,black_58%,transparent_100%)]">
+      {/* Artwork layer — long feathered edges so it melts into the page-wide
+          backdrop (same image), leaving no visible seam. UI stays crisp. */}
+      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,black_66%,transparent)] lg:[mask-image:linear-gradient(to_right,transparent,black_52%)]">
         {/* Cinematic artwork — slow Ken Burns twist so it never sits static */}
         <img
           src={dnaHero}
@@ -79,10 +80,7 @@ export default function DnaImageAnnotated({
           draggable={false}
         />
         {/* Warmth + depth grading over the photo */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-navy-deeper/55 via-transparent to-ember/10" />
-        {/* Soften the seam into the dark hero on the left / bottom */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-2/5 bg-gradient-to-r from-navy-deeper via-navy-deeper/40 to-transparent" />
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-navy-deeper to-transparent lg:hidden" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-navy-deeper/45 via-transparent to-ember/10" />
         {/* Travelling specular sweep — implies the helix turning in the light */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -inset-y-1/2 left-0 w-2/3 -skew-x-12 bg-gradient-to-r from-transparent via-white/10 to-transparent mix-blend-screen motion-safe:animate-sweep" />
@@ -116,7 +114,7 @@ export default function DnaImageAnnotated({
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.7 }}
               transition={{ duration: 0.35 }}
-              className="grid h-8 w-8 place-items-center rounded-lg text-base font-bold text-navy-deeper"
+              className="grid h-7 w-7 place-items-center rounded-lg text-sm font-bold text-navy-deeper"
               style={{
                 backgroundColor: COLOR[featured],
                 boxShadow: `0 0 22px -4px ${COLOR[featured]}`,
@@ -158,37 +156,37 @@ export default function DnaImageAnnotated({
         ))}
       </div>
 
-      {/* Live explanation card */}
-      <div className="absolute bottom-5 left-5 z-20 max-w-[15rem] sm:bottom-7 sm:left-7">
+      {/* Live explanation card — compact */}
+      <div className="absolute bottom-4 left-4 z-20 max-w-[11.5rem] sm:bottom-6 sm:left-6">
         <AnimatePresence mode="wait">
           <motion.div
             key={featured}
-            initial={{ opacity: 0, y: 12, filter: "blur(6px)" }}
+            initial={{ opacity: 0, y: 10, filter: "blur(5px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-            exit={{ opacity: 0, y: -8, filter: "blur(6px)" }}
-            transition={{ duration: 0.5, ease: EASE }}
-            className="rounded-2xl border border-white/10 bg-navy-deeper/70 p-4 backdrop-blur-md"
+            exit={{ opacity: 0, y: -6, filter: "blur(5px)" }}
+            transition={{ duration: 0.45, ease: EASE }}
+            className="rounded-xl border border-white/10 bg-navy-deeper/70 p-2.5 backdrop-blur-md"
           >
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
               <span
-                className="grid h-9 w-9 place-items-center rounded-xl text-lg font-bold text-navy-deeper"
+                className="grid h-6 w-6 shrink-0 place-items-center rounded-md text-xs font-bold text-navy-deeper"
                 style={{
                   backgroundColor: COLOR[featured],
-                  boxShadow: `0 0 24px -4px ${COLOR[featured]}`,
+                  boxShadow: `0 0 16px -4px ${COLOR[featured]}`,
                 }}
               >
                 {featured}
               </span>
-              <div>
-                <div className="font-heading text-base font-bold leading-tight text-white">
+              <div className="leading-none">
+                <div className="font-heading text-[13px] font-bold leading-tight text-white">
                   {info.name}
                 </div>
-                <div className="text-[10px] font-medium uppercase tracking-[0.18em] text-offwhite/40">
-                  {info.kind} · pairs with {COMPLEMENT[featured]}
+                <div className="mt-0.5 text-[8px] font-medium uppercase tracking-[0.16em] text-offwhite/40">
+                  {info.kind} · pairs {COMPLEMENT[featured]}
                 </div>
               </div>
             </div>
-            <p className="mt-3 text-xs font-light leading-relaxed text-offwhite/60">
+            <p className="mt-1.5 text-[10px] font-light leading-snug text-offwhite/55">
               {info.blurb}
             </p>
           </motion.div>

@@ -27,7 +27,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative overflow-hidden bg-navy-deeper/25 py-28 lg:py-40">
+    <section id="how-it-works" className="relative overflow-hidden py-28 lg:py-40">
       <div className="pointer-events-none absolute right-[-12%] top-[15%] h-[460px] w-[460px] rounded-full bg-teal/[0.05] blur-[150px]" />
       <div className="pointer-events-none absolute left-[-8%] bottom-[10%] h-[380px] w-[380px] rounded-full bg-violet/[0.1] blur-[140px]" />
 
@@ -49,7 +49,7 @@ export default function HowItWorks() {
         <div className="mt-4">
           {steps.map((s, i) => (
             <Reveal key={s.number} delay={i * 0.12}>
-              <div className="group grid grid-cols-1 gap-6 border-b border-white/[0.07] py-12 transition-colors duration-500 hover:bg-white/[0.015] lg:grid-cols-12 lg:items-center lg:gap-10 lg:py-16">
+              <div className="group grid grid-cols-1 gap-6 py-10 lg:grid-cols-12 lg:items-center lg:gap-10 lg:py-14">
                 {/* Ghost numeral */}
                 <div className="lg:col-span-3">
                   <span className="font-heading text-7xl font-bold leading-none text-stroke transition-all duration-700 group-hover:[-webkit-text-stroke-color:rgba(0,201,167,0.4)] lg:text-8xl">

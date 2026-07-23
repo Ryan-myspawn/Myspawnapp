@@ -37,7 +37,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="relative bg-navy-deeper/35 py-28 backdrop-blur-[2px] lg:py-40">
+    <section id="features" className="relative py-28 lg:py-40">
       <div className="pointer-events-none absolute inset-0 bg-grid-dots opacity-40" />
       <div className="pointer-events-none absolute left-1/2 top-0 h-96 w-[720px] -translate-x-1/2 rounded-full bg-violet/[0.08] blur-[160px]" />
 
