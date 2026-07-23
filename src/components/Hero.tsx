@@ -37,7 +37,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2, delay: 0.4, ease: "easeOut" }}
-        className="absolute inset-x-0 top-14 h-[46vh] min-h-[320px] lg:inset-x-auto lg:-right-[6%] lg:top-0 lg:h-full lg:w-[58%]"
+        className="absolute inset-x-0 top-14 h-[46vh] min-h-[320px] [mask-image:linear-gradient(to_bottom,black_78%,transparent)] lg:inset-x-auto lg:-right-[6%] lg:top-0 lg:h-full lg:w-[62%] lg:[mask-image:linear-gradient(to_right,transparent,black_22%)]"
       >
         <DnaScene
           className="h-full w-full"

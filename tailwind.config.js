@@ -45,7 +45,7 @@ export default {
       },
       backgroundImage: {
         "hero-radial":
-          "radial-gradient(ellipse 75% 60% at 72% 40%, rgba(255,140,66,0.14), transparent 62%), radial-gradient(ellipse 50% 40% at 20% 75%, rgba(0,201,167,0.06), transparent 60%)",
+          "radial-gradient(ellipse 75% 60% at 72% 40%, rgba(255,138,60,0.16), transparent 62%), radial-gradient(ellipse 55% 45% at 12% 18%, rgba(23,126,140,0.12), transparent 60%), radial-gradient(ellipse 50% 40% at 20% 80%, rgba(0,201,167,0.06), transparent 60%)",
       },
       animation: {
         marquee: "marquee 42s linear infinite",
