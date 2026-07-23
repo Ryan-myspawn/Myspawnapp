@@ -69,9 +69,10 @@ export default function DnaImageAnnotated({
 
   return (
     <div className={`relative overflow-hidden ${className ?? ""}`}>
-      {/* Artwork layer — long feathered edges so it melts into the page-wide
-          backdrop (same image), leaving no visible seam. UI stays crisp. */}
-      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,black_66%,transparent)] lg:[mask-image:linear-gradient(to_right,transparent,black_52%)]">
+      {/* Artwork layer — desktop only. On mobile the hero shows the single
+          page-wide backdrop directly (no second image = no seam). Feathered
+          left edge melts it into that same backdrop on desktop. */}
+      <div className="absolute inset-0 hidden lg:block lg:[mask-image:linear-gradient(to_right,transparent,black_52%)]">
         {/* Cinematic artwork — slow Ken Burns twist so it never sits static */}
         <img
           src={dnaHero}

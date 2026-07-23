@@ -85,7 +85,7 @@ export default function Hero() {
           {/* Hairline stat strip */}
           <motion.div
             {...fadeUp(0.9)}
-            className="mt-16 grid max-w-lg grid-cols-3 divide-x divide-white/[0.08] border-y border-white/[0.08]"
+            className="mt-16 grid max-w-lg grid-cols-3 divide-x divide-white/[0.08]"
           >
             {[
               { value: "3.2B", label: "Base pairs read" },
