@@ -50,6 +50,8 @@ export default {
       animation: {
         marquee: "marquee 42s linear infinite",
         shimmer: "shimmer 9s ease-in-out infinite",
+        kenburns: "kenburns 26s ease-in-out infinite",
+        sweep: "sweep 7s ease-in-out infinite",
       },
       keyframes: {
         marquee: {
@@ -59,6 +61,18 @@ export default {
         shimmer: {
           "0%, 100%": { opacity: "0.55" },
           "50%": { opacity: "1" },
+        },
+        kenburns: {
+          "0%, 100%": {
+            transform: "translate(-50%, -50%) scale(1.06) rotate(-1.4deg)",
+          },
+          "50%": {
+            transform: "translate(-52%, -49%) scale(1.14) rotate(1.4deg)",
+          },
+        },
+        sweep: {
+          "0%": { transform: "translateX(-120%) skewX(-12deg)" },
+          "55%, 100%": { transform: "translateX(320%) skewX(-12deg)" },
         },
       },
       letterSpacing: {

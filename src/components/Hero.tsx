@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LineReveal, EASE } from "@/components/ui/reveal";
-import DnaScene from "@/components/three/DnaScene";
+import DnaImageAnnotated from "@/components/DnaImageAnnotated";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 30, filter: "blur(8px)" },
@@ -31,22 +31,15 @@ export default function Hero() {
       <div className="pointer-events-none absolute bottom-[12%] left-[2%] h-80 w-80 rounded-full bg-teal/[0.07] blur-[130px]" />
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-56 bg-gradient-to-t from-navy-deeper to-transparent" />
 
-      {/* ------ 3D DNA — bleeds off the right edge ------ */}
+      {/* ------ Annotated DNA — rotating base-pair explainer ------ */}
       <motion.div
         style={{ y: yDna, opacity: fade }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 2, delay: 0.4, ease: "easeOut" }}
-        className="absolute inset-x-0 top-14 h-[46vh] min-h-[320px] [mask-image:linear-gradient(to_bottom,black_78%,transparent)] lg:inset-x-auto lg:-right-[6%] lg:top-0 lg:h-full lg:w-[62%] lg:[mask-image:linear-gradient(to_right,transparent,black_22%)]"
+        transition={{ duration: 1.6, delay: 0.4, ease: "easeOut" }}
+        className="absolute inset-x-0 top-14 h-[48vh] min-h-[340px] lg:inset-x-auto lg:right-0 lg:top-0 lg:h-full lg:w-[56%]"
       >
-        <DnaScene
-          className="h-full w-full"
-          scale={1}
-          particleCount={700}
-          interactive
-          rotationSpeed={0.1}
-          lean={0.3}
-        />
+        <DnaImageAnnotated className="h-full w-full" />
       </motion.div>
 
       {/* ------ Copy ------ */}
