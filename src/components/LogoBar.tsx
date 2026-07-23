@@ -12,7 +12,7 @@ const partners = [
 export default function LogoBar() {
   const row = [...partners, ...partners];
   return (
-    <section className="relative overflow-hidden border-y border-white/[0.06] bg-navy-deeper py-10">
+    <section className="relative overflow-hidden border-y border-white/[0.06] bg-navy-deeper/45 py-10 backdrop-blur-sm">
       <p className="mb-8 text-center text-[10px] font-medium uppercase tracking-[0.35em] text-offwhite/30">
         Trusted by pioneering institutions worldwide
       </p>

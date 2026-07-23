@@ -22,7 +22,7 @@ const columns = [
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/[0.06] bg-navy-deeper">
+    <footer className="relative overflow-hidden border-t border-white/[0.06] bg-navy-deeper/55 backdrop-blur-sm">
       <div className="relative mx-auto max-w-7xl px-6 pt-20 lg:px-10">
         <div className="grid grid-cols-2 gap-10 pb-16 md:grid-cols-6">
           <div className="col-span-2">

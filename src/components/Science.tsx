@@ -32,7 +32,7 @@ export default function Science() {
   const y = useTransform(scrollYProgress, [0, 1], [50, -50]);
 
   return (
-    <section id="science" className="relative overflow-hidden bg-navy-deeper py-28 lg:py-40">
+    <section id="science" className="relative overflow-hidden bg-navy-deeper/35 py-28 backdrop-blur-[2px] lg:py-40">
       <div className="pointer-events-none absolute left-[-10%] top-[30%] h-[480px] w-[480px] rounded-full bg-violet/[0.08] blur-[150px]" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">

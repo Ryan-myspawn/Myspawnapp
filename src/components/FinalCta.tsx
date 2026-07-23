@@ -5,7 +5,7 @@ import { COMPANY_NAME } from "@/lib/config";
 
 export default function FinalCta() {
   return (
-    <section className="relative overflow-hidden bg-navy py-32 lg:py-44">
+    <section className="relative overflow-hidden bg-navy-deeper/20 py-32 lg:py-44">
       {/* Cinematic closing light */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-1/2 h-[520px] w-[960px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet/[0.12] blur-[170px]" />

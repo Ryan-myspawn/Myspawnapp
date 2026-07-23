@@ -27,7 +27,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative overflow-hidden bg-navy py-28 lg:py-40">
+    <section id="how-it-works" className="relative overflow-hidden bg-navy-deeper/25 py-28 lg:py-40">
       <div className="pointer-events-none absolute right-[-12%] top-[15%] h-[460px] w-[460px] rounded-full bg-teal/[0.05] blur-[150px]" />
       <div className="pointer-events-none absolute left-[-8%] bottom-[10%] h-[380px] w-[380px] rounded-full bg-violet/[0.1] blur-[140px]" />
 

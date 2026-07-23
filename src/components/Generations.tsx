@@ -25,7 +25,7 @@ const stories = [
 
 export default function Generations() {
   return (
-    <section id="generations" className="relative overflow-hidden bg-navy py-28 lg:py-40">
+    <section id="generations" className="relative overflow-hidden bg-navy-deeper/25 py-28 lg:py-40">
       <div className="pointer-events-none absolute inset-0 bg-grid-dots opacity-30" />
       <div className="pointer-events-none absolute bottom-[-15%] left-1/2 h-96 w-[820px] -translate-x-1/2 rounded-full bg-gold/[0.05] blur-[160px]" />
 
@@ -68,7 +68,7 @@ export default function Generations() {
               <motion.figure
                 whileHover={{ y: -5 }}
                 transition={{ type: "spring", stiffness: 260, damping: 24 }}
-                className="group h-full rounded-3xl border border-white/[0.07] bg-gradient-to-b from-white/[0.035] to-transparent p-8 transition-colors duration-500 hover:border-white/[0.14]"
+                className="group h-full rounded-3xl border border-white/[0.07] bg-navy-deeper/45 p-8 backdrop-blur-md transition-colors duration-500 hover:border-white/[0.14]"
               >
                 <blockquote className="text-[15px] font-light leading-relaxed text-offwhite/65">
                   “{s.quote}”

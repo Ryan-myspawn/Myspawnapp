@@ -37,7 +37,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="relative bg-navy-deeper py-28 lg:py-40">
+    <section id="features" className="relative bg-navy-deeper/35 py-28 backdrop-blur-[2px] lg:py-40">
       <div className="pointer-events-none absolute inset-0 bg-grid-dots opacity-40" />
       <div className="pointer-events-none absolute left-1/2 top-0 h-96 w-[720px] -translate-x-1/2 rounded-full bg-violet/[0.08] blur-[160px]" />
 
@@ -62,7 +62,7 @@ export default function Features() {
               <motion.div
                 whileHover={{ y: -5 }}
                 transition={{ type: "spring", stiffness: 260, damping: 24 }}
-                className="group relative h-full overflow-hidden rounded-3xl border border-white/[0.07] bg-gradient-to-b from-white/[0.04] to-transparent p-8 transition-colors duration-500 hover:border-white/[0.14] lg:p-10"
+                className="group relative h-full overflow-hidden rounded-3xl border border-white/[0.07] bg-navy-deeper/45 p-8 backdrop-blur-md transition-colors duration-500 hover:border-white/[0.14] lg:p-10"
               >
                 {/* Gradient orb bloom on hover */}
                 <div

@@ -22,7 +22,7 @@ export default function Hero() {
   const fade = useTransform(scrollYProgress, [0, 0.75], [1, 0]);
 
   return (
-    <section ref={ref} className="relative min-h-screen w-full overflow-hidden bg-navy">
+    <section ref={ref} className="relative min-h-screen w-full overflow-hidden">
       {/* Volumetric washes */}
       <div className="pointer-events-none absolute inset-0 bg-hero-radial" />
       <div className="pointer-events-none absolute inset-0 bg-grid-dots opacity-50" />
