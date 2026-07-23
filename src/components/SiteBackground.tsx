@@ -97,7 +97,7 @@ export default function SiteBackground() {
       <img
         src={dnaHero}
         alt=""
-        className="absolute left-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 object-cover object-center blur-[2px] motion-safe:animate-kenburns"
+        className="absolute left-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 object-cover object-center blur-[3px] motion-safe:animate-kenburns"
         draggable={false}
       />
       {/* Readability scrim — keeps foreground text legible over the photo */}

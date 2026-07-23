@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LineReveal, EASE } from "@/components/ui/reveal";
-import DnaImageAnnotated from "@/components/DnaImageAnnotated";
+import HeroHelix3D from "@/components/HeroHelix3D";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 30, filter: "blur(8px)" },
@@ -30,15 +30,15 @@ export default function Hero() {
       <div className="pointer-events-none absolute right-[18%] top-[30%] h-72 w-72 rounded-full bg-ember-deep/[0.1] blur-[120px]" />
       <div className="pointer-events-none absolute bottom-[12%] left-[2%] h-80 w-80 rounded-full bg-teal/[0.07] blur-[130px]" />
 
-      {/* ------ Annotated DNA — rotating base-pair explainer ------ */}
+      {/* ------ Rotating 3D DNA with A/G/T/C labels riding the bases ------ */}
       <motion.div
         style={{ y: yDna, opacity: fade }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.6, delay: 0.4, ease: "easeOut" }}
-        className="absolute inset-x-0 top-14 h-[48vh] min-h-[340px] lg:inset-x-auto lg:right-0 lg:top-0 lg:h-full lg:w-[56%]"
+        className="absolute inset-x-0 top-12 h-[50vh] min-h-[340px] lg:inset-x-auto lg:right-0 lg:top-0 lg:h-full lg:w-[56%]"
       >
-        <DnaImageAnnotated className="h-full w-full" />
+        <HeroHelix3D className="h-full w-full" />
       </motion.div>
 
       {/* ------ Copy ------ */}
