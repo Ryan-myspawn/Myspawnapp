@@ -1,12 +1,12 @@
 const partners = [
-  "NOVAGENE",
-  "MERIDIAN HEALTH",
-  "BIOSPHERE",
-  "AURELIA LABS",
-  "GENWELL",
-  "CASTELLA CLINIC",
-  "HELIX FOUNDATION",
-  "VITALIS",
+  "BACKED BY GENVAULT",
+  "AMBIENT STORAGE",
+  "NO SUBSCRIPTIONS",
+  "PRIVATE & ENCRYPTED",
+  "FREE SHIPPING",
+  "SEQUENCED ONCE",
+  "PRESERVED FOR LIFE",
+  "60-DAY GUARANTEE",
 ];
 
 export default function LogoBar() {
@@ -14,7 +14,7 @@ export default function LogoBar() {
   return (
     <section className="relative overflow-hidden border-y border-white/[0.06] bg-navy-deeper py-10">
       <p className="mb-8 text-center text-[10px] font-medium uppercase tracking-[0.35em] text-offwhite/30">
-        Trusted by pioneering institutions worldwide
+        What every founder kit includes
       </p>
       <div className="relative">
         {/* Edge fades */}

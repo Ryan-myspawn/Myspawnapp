@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Dna, Menu, X, ArrowUpRight } from "lucide-react";
+import { Dna, Menu, X, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { COMPANY_NAME } from "@/lib/config";
+import { COMPANY_NAME, CHECKOUT_URL, PRICE } from "@/lib/config";
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -60,9 +60,9 @@ export default function Navbar() {
         </div>
 
         <div className="hidden lg:block">
-          <Button variant="ghost" size="sm">
-            Start Journey
-            <ArrowUpRight className="h-3.5 w-3.5 text-teal" />
+          <Button variant="primary" size="sm" href={CHECKOUT_URL}>
+            Order Kit · {PRICE}
+            <ArrowRight className="h-3.5 w-3.5" />
           </Button>
         </div>
 
@@ -93,7 +93,14 @@ export default function Navbar() {
                 {l.label}
               </a>
             ))}
-            <Button className="mt-2 w-full">Start Your Journey</Button>
+            <Button
+              className="mt-2 w-full"
+              href={CHECKOUT_URL}
+              onClick={() => setOpen(false)}
+            >
+              Order Kit · {PRICE}
+              <ArrowRight className="h-4 w-4" />
+            </Button>
           </div>
         </motion.div>
       )}

@@ -29,23 +29,45 @@ const buttonVariants = cva(
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof buttonVariants> {}
+    VariantProps<typeof buttonVariants> {
+  /** When set, the button renders as an anchor — used to link straight to checkout. */
+  href?: string;
+}
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, children, ...props }, ref) => (
-    <button
-      ref={ref}
-      className={cn(buttonVariants({ variant, size }), className)}
-      {...props}
-    >
-      {/* Sheen sweep on hover */}
-      <span
-        aria-hidden
-        className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 ease-out group-hover/btn:translate-x-full"
-      />
-      <span className="relative inline-flex items-center gap-2.5">{children}</span>
-    </button>
-  )
+  ({ className, variant, size, children, href, ...props }, ref) => {
+    const classes = cn(buttonVariants({ variant, size }), className);
+    const inner = (
+      <>
+        {/* Sheen sweep on hover */}
+        <span
+          aria-hidden
+          className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 ease-out group-hover/btn:translate-x-full"
+        />
+        <span className="relative inline-flex items-center gap-2.5">
+          {children}
+        </span>
+      </>
+    );
+
+    if (href) {
+      return (
+        <a
+          href={href}
+          className={classes}
+          {...(props as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
+        >
+          {inner}
+        </a>
+      );
+    }
+
+    return (
+      <button ref={ref} className={classes} {...props}>
+        {inner}
+      </button>
+    );
+  }
 );
 Button.displayName = "Button";
 

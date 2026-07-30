@@ -4,6 +4,7 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LineReveal, EASE } from "@/components/ui/reveal";
 import DnaScene from "@/components/three/DnaScene";
+import { CHECKOUT_URL, PRIMARY_CTA } from "@/lib/config";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 30, filter: "blur(8px)" },
@@ -55,15 +56,15 @@ export default function Hero() {
           <motion.div {...fadeUp(0.15)} className="mb-8 flex items-center gap-4">
             <span className="h-px w-10 bg-gradient-to-r from-teal to-transparent" />
             <span className="whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.28em] text-offwhite/50 sm:text-[11px] sm:tracking-[0.35em]">
-              Precision Genomics · Est. 2021
+              Preserve Your DNA · Founding Edition
             </span>
           </motion.div>
 
           <h1 className="font-heading text-[13.5vw] font-bold leading-[0.98] tracking-tightest text-white sm:text-7xl lg:text-8xl">
-            <LineReveal onMount delay={0.25}>Unlock the</LineReveal>
+            <LineReveal onMount delay={0.25}>Keep what</LineReveal>
             <LineReveal onMount delay={0.38}>
               <span className="font-serif font-normal italic tracking-tight text-gradient">
-                Code of Life
+                makes you, you.
               </span>
             </LineReveal>
           </h1>
@@ -72,33 +73,43 @@ export default function Hero() {
             {...fadeUp(0.6)}
             className="mt-8 max-w-md text-lg font-light leading-relaxed text-offwhite/60"
           >
-            Precision genomics. Real-time insights. A new era of personalized
-            medicine — sequenced once, understood for a lifetime.
+            A simple hair &amp; nail collection kit — and a lifetime of secure,
+            ambient DNA storage. Sequenced once, preserved for generations.
           </motion.p>
 
-          <motion.div
-            {...fadeUp(0.75)}
-            className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center"
-          >
-            <Button size="lg">
-              Start Your Journey
-              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
-            </Button>
-            <Button variant="ghost" size="lg">
-              Explore Science
-              <ArrowUpRight className="h-4 w-4 text-teal transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
-            </Button>
+          {/* Primary purchase CTA — the dominant action above the fold */}
+          <motion.div {...fadeUp(0.75)} className="mt-10">
+            <div className="flex flex-col items-start gap-x-6 gap-y-4 sm:flex-row sm:items-center">
+              <Button size="lg" href={CHECKOUT_URL}>
+                {PRIMARY_CTA}
+                <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
+              </Button>
+              <a
+                href="#how-it-works"
+                className="group/link inline-flex items-center gap-1.5 text-sm font-medium text-offwhite/55 underline-offset-4 transition-colors duration-300 hover:text-white hover:underline"
+              >
+                See how it works
+                <ArrowUpRight className="h-3.5 w-3.5 text-teal transition-transform duration-300 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />
+              </a>
+            </div>
+            <p className="mt-4 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[13px] font-light text-offwhite/45">
+              <span>One-time payment</span>
+              <span className="text-offwhite/20">·</span>
+              <span>Free shipping</span>
+              <span className="text-offwhite/20">·</span>
+              <span>60-day money-back guarantee</span>
+            </p>
           </motion.div>
 
-          {/* Hairline stat strip */}
+          {/* Hairline trust strip */}
           <motion.div
             {...fadeUp(0.9)}
-            className="mt-16 grid max-w-lg grid-cols-3 divide-x divide-white/[0.08] border-y border-white/[0.08]"
+            className="mt-14 grid max-w-lg grid-cols-3 divide-x divide-white/[0.08] border-y border-white/[0.08]"
           >
             {[
-              { value: "3.2B", label: "Base pairs read" },
-              { value: "99.99%", label: "Accuracy" },
-              { value: "48h", label: "To first insight" },
+              { value: "Lifetime", label: "Ambient storage" },
+              { value: "GenVault", label: "Storage partner" },
+              { value: "Private", label: "Never sold or shared" },
             ].map((s, i) => (
               <div key={s.label} className={i === 0 ? "py-5 pr-6" : "px-6 py-5"}>
                 <div className="font-heading text-2xl font-bold tracking-tight text-white">
