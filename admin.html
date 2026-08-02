@@ -1,0 +1,3365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>MySpawn Admin</title>
+
+<!-- Fonts per Brand Book: Outfit (display), Inter (body), IBM Plex Mono (IDs / data) -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+
+<!-- External stylesheet (edit tokens at the top of the CSS to retheme) -->
+<style>
+/* ============================================================================
+   MySpawn Admin · Stylesheet · v1.2
+   Dark theme. Brand tokens per MySpawn Brand Book v1.0 with the canonical
+   logo-file corrections applied: violet #6055AC, ink navy #1B2735.
+   No external CSS framework. Edit tokens in :root to retheme the whole panel.
+   ========================================================================== */
+
+:root {
+  /* Brand */
+  --violet: #6055AC;          /* Spawn wordmark, primary accent, CTAs */
+  --violet-soft: #8B82D9;     /* Lightened violet for text on dark surfaces */
+  --blue: #3B82F6;            /* Gradient pairing only */
+  --lavender: #C7D2FE;        /* Soft accent, hover, info */
+  --ink: #1B2735;             /* Ink navy, brand dark */
+
+  /* Dark surfaces (built up from ink navy) */
+  --bg: #131A24;              /* Page background */
+  --surface: #1B2735;         /* Cards, sidebar */
+  --surface-2: #222F3F;       /* Elevated / hover */
+  --surface-3: #2A3A4D;       /* Inputs, track fills */
+  --border: rgba(255,255,255,.08);
+  --border-strong: rgba(255,255,255,.14);
+
+  /* Text */
+  --text: #EAF0F6;
+  --text-mid: #A9B6C6;
+  --text-dim: #6F7E91;
+
+  /* Feedback (Brand Book) */
+  --success: #10B981;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+
+  /* Signature gradient (blue to violet) */
+  --grad: linear-gradient(135deg, #3B82F6, #6055AC);
+  --grad-dark: linear-gradient(135deg, #1B2735, #222F3F);
+
+  --r: 14px;
+  --r-lg: 20px;
+  --r-pill: 9999px;
+
+  --sidebar-w: 256px;
+}
+
+* , *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+.display { font-family: 'Outfit', system-ui, sans-serif; letter-spacing: -.03em; }
+.mono { font-family: 'IBM Plex Mono', monospace; }
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: var(--r-pill); border: 2px solid var(--bg); }
+::-webkit-scrollbar-thumb:hover { background: #3a4d63; }
+
+/* ============================ LAYOUT ============================ */
+.app { display: flex; min-height: 100vh; }
+
+.sidebar {
+  width: var(--sidebar-w);
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 40;
+  transition: transform .22s ease;
+}
+
+.sidebar__brand {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  padding: 0 1.4rem;
+  border-bottom: 1px solid var(--border);
+}
+.wordmark { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.25rem; letter-spacing: -.025em; }
+.wordmark .my { color: #fff; }
+.wordmark .spawn { color: var(--violet-soft); }
+.brand-tag { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--text-dim); align-self: flex-start; margin-top: .55rem; }
+
+.compact-mark {
+  width: 30px; height: 30px; border-radius: 8px;
+  background: var(--grad);
+  display: grid; place-items: center;
+  font-family: 'Outfit', sans-serif; font-weight: 800; font-size: .72rem; color: #fff;
+  letter-spacing: -.02em;
+}
+
+.nav { flex: 1; overflow-y: auto; padding: 1rem .75rem; display: flex; flex-direction: column; gap: .15rem; }
+.nav__label { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--text-dim); padding: .9rem .75rem .4rem; }
+.nav__item {
+  display: flex; align-items: center; gap: .75rem;
+  width: 100%; padding: .65rem .75rem; border-radius: 12px;
+  color: var(--text-mid); font-size: .9rem; font-weight: 500;
+  transition: background .16s, color .16s;
+}
+.nav__item:hover { background: rgba(255,255,255,.04); color: var(--text); }
+.nav__item.active { background: rgba(96,85,172,.18); color: #fff; }
+.nav__item.active .nav__ico { color: var(--lavender); }
+.nav__ico { width: 19px; height: 19px; flex-shrink: 0; }
+.nav__badge { margin-left: auto; font-size: .65rem; font-weight: 700; background: var(--violet); color: #fff; padding: .1rem .45rem; border-radius: var(--r-pill); }
+
+.sidebar__foot { padding: .75rem; }
+.capacity {
+  background: rgba(255,255,255,.04); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 1rem;
+}
+.capacity__row { display: flex; justify-content: space-between; align-items: center; margin-bottom: .5rem; }
+.capacity__row span:first-child { font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--text-dim); }
+.capacity__pct { font-family: 'IBM Plex Mono', monospace; font-size: .7rem; color: var(--lavender); }
+
+.shell { flex: 1; display: flex; flex-direction: column; min-width: 0; margin-left: var(--sidebar-w); }
+
+/* ============================ TOP BAR ============================ */
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  height: 64px;
+  background: rgba(27,39,53,.85);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 1.5rem; gap: 1rem;
+}
+.topbar__left { display: flex; align-items: center; gap: .75rem; min-width: 0; }
+.icon-btn {
+  width: 38px; height: 38px; border-radius: 11px;
+  display: grid; place-items: center; color: var(--text-mid);
+  transition: background .15s, color .15s; position: relative;
+}
+.icon-btn:hover { background: var(--surface-2); color: var(--text); }
+.icon-btn svg { width: 19px; height: 19px; }
+.dot { position: absolute; top: 9px; right: 9px; width: 7px; height: 7px; border-radius: 50%; background: var(--violet); }
+.menu-btn { display: none; }
+
+.search { position: relative; }
+.search svg { position: absolute; left: .8rem; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--text-dim); }
+.search input {
+  width: 300px; max-width: 60vw;
+  padding: .55rem .8rem .55rem 2.3rem;
+  background: var(--surface-3); border: 1px solid transparent;
+  border-radius: 12px; color: var(--text); font-size: .875rem;
+}
+.search input::placeholder { color: var(--text-dim); }
+.search input:focus { outline: none; border-color: var(--violet); background: var(--surface-2); }
+
+.topbar__right { display: flex; align-items: center; gap: .65rem; }
+.who { display: flex; align-items: center; gap: .7rem; padding-left: .75rem; border-left: 1px solid var(--border); }
+.who__meta { text-align: right; line-height: 1.25; }
+.who__name { font-size: .85rem; font-weight: 600; }
+.who__role { font-size: .7rem; color: var(--text-dim); }
+.avatar {
+  width: 38px; height: 38px; border-radius: 50%; background: var(--grad);
+  display: grid; place-items: center; font-family: 'Outfit', sans-serif; font-weight: 700; font-size: .8rem; color: #fff;
+}
+
+/* ============================ CONTENT ============================ */
+.main { flex: 1; padding: 1.75rem; max-width: 1440px; width: 100%; margin: 0 auto; }
+.page-head { margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: .75rem; }
+.page-head h1 { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.55rem; letter-spacing: -.03em; }
+.page-head p { font-size: .875rem; color: var(--text-mid); margin-top: .25rem; }
+
+/* View transitions: charts are now CSS/SVG so switching is instant */
+.view { display: none; }
+.view.active { display: block; animation: fade .25s ease; }
+@keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* ============================ CARDS ============================ */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.4rem; }
+.card--accent { border-color: rgba(96,85,172,.4); background: linear-gradient(180deg, rgba(96,85,172,.08), var(--surface)); }
+.card--danger { border-color: rgba(239,68,68,.3); }
+.card__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.1rem; }
+.card__title { font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 1rem; }
+.card__sub { font-size: .75rem; color: var(--text-dim); margin-top: .15rem; }
+
+.grid { display: grid; gap: 1rem; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+.span-2 { grid-column: span 2; }
+.mb { margin-bottom: 1rem; }
+.mb-lg { margin-bottom: 1.5rem; }
+
+/* Stat cards */
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.25rem; }
+.stat__top { display: flex; align-items: center; justify-content: space-between; }
+.stat__label { font-size: .75rem; color: var(--text-mid); }
+.stat__ico { width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; }
+.stat__ico svg { width: 17px; height: 17px; }
+.stat__ico--violet { background: rgba(96,85,172,.16); color: var(--violet-soft); }
+.stat__ico--blue { background: rgba(59,130,246,.16); color: #7dabff; }
+.stat__ico--green { background: rgba(16,185,129,.16); color: #34d8a6; }
+.stat__num { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.85rem; margin-top: .7rem; letter-spacing: -.02em; }
+.stat__num small { font-size: 1rem; color: var(--text-dim); font-weight: 600; }
+.stat__delta { font-size: .75rem; margin-top: .25rem; }
+.up { color: var(--success); font-weight: 600; }
+.neutral { color: var(--text-dim); }
+
+/* ============================ BADGES & PILLS ============================ */
+.badge { display: inline-flex; align-items: center; gap: .3rem; font-size: .7rem; font-weight: 600; padding: .22rem .6rem; border-radius: var(--r-pill); }
+.badge--success { background: rgba(16,185,129,.15); color: #34d8a6; }
+.badge--violet { background: rgba(96,85,172,.18); color: var(--lavender); }
+.badge--warning { background: rgba(245,158,11,.15); color: #fbbf24; }
+.badge--danger { background: rgba(239,68,68,.15); color: #f87171; }
+.badge--muted { background: rgba(255,255,255,.06); color: var(--text-mid); }
+.badge--blue { background: rgba(59,130,246,.15); color: #7dabff; }
+
+/* ============================ BUTTONS ============================ */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; font-weight: 600; font-size: .85rem; padding: .6rem 1.1rem; border-radius: 12px; transition: all .16s; }
+.btn svg { width: 16px; height: 16px; }
+.btn--primary { background: var(--grad); color: #fff; box-shadow: 0 4px 16px rgba(96,85,172,.3); }
+.btn--primary:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.btn--ghost { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); }
+.btn--ghost:hover { background: var(--surface-3); }
+.btn--warn { background: rgba(245,158,11,.12); color: #fbbf24; border: 1px solid rgba(245,158,11,.25); }
+.btn--danger { background: rgba(239,68,68,.12); color: #f87171; border: 1px solid rgba(239,68,68,.25); }
+.btn--danger:hover { background: rgba(239,68,68,.2); }
+.btn--sm { padding: .4rem .8rem; font-size: .78rem; }
+.btn--block { width: 100%; }
+.link { color: var(--violet-soft); font-weight: 600; font-size: .8rem; }
+.link:hover { text-decoration: underline; }
+
+/* ============================ FORMS ============================ */
+.field { margin-bottom: .9rem; }
+.field label { display: block; font-size: .75rem; font-weight: 600; color: var(--text-mid); margin-bottom: .35rem; }
+.input, select.input, textarea.input {
+  width: 100%; padding: .6rem .8rem; background: var(--surface-3);
+  border: 1px solid var(--border); border-radius: 11px; color: var(--text); font-size: .875rem;
+}
+.input::placeholder { color: var(--text-dim); }
+.input:focus { outline: none; border-color: var(--violet); box-shadow: 0 0 0 3px rgba(96,85,172,.18); }
+textarea.input { resize: vertical; }
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; }
+.filters .search { flex: 1; min-width: 200px; }
+.filters .search input { width: 100%; }
+
+/* ============================ TABLES ============================ */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .875rem; }
+thead th {
+  text-align: left; font-size: .68rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--text-dim); padding: .8rem 1.1rem; border-bottom: 1px solid var(--border); background: rgba(255,255,255,.02);
+}
+tbody td { padding: .8rem 1.1rem; border-bottom: 1px solid var(--border); }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr { transition: background .12s; }
+tbody tr:hover { background: rgba(255,255,255,.025); }
+.cell-name { display: flex; align-items: center; gap: .65rem; }
+.mini-avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--grad); display: grid; place-items: center; font-family: 'Outfit', sans-serif; font-weight: 700; font-size: .72rem; color: #fff; flex-shrink: 0; }
+.row-open { color: var(--violet-soft); padding: .35rem; border-radius: 9px; }
+.row-open:hover { background: rgba(96,85,172,.15); }
+.row-open svg { width: 16px; height: 16px; display: block; }
+.table-foot { display: flex; align-items: center; justify-content: space-between; padding: .85rem 1.1rem; border-top: 1px solid var(--border); font-size: .78rem; color: var(--text-dim); }
+.pager { display: flex; gap: .3rem; }
+.pager button { padding: .35rem .7rem; border-radius: 9px; border: 1px solid var(--border); color: var(--text-mid); font-size: .78rem; }
+.pager button:hover { background: var(--surface-2); }
+.pager button.on { background: var(--grad); color: #fff; border-color: transparent; }
+
+/* ============================ PROGRESS ============================ */
+.track { height: 7px; border-radius: var(--r-pill); background: var(--surface-3); overflow: hidden; }
+.track__fill { height: 100%; background: var(--grad); border-radius: var(--r-pill); }
+.track__fill--warn { background: var(--warning); }
+.track__fill--violet { background: var(--violet); }
+.track__fill--lav { background: var(--lavender); }
+.bar-row { margin-bottom: .9rem; }
+.bar-row__top { display: flex; justify-content: space-between; font-size: .82rem; margin-bottom: .35rem; }
+.bar-row__top .mono { font-size: .72rem; color: var(--text-dim); }
+
+/* ============================ FEED / TIMELINE ============================ */
+.feed { display: flex; flex-direction: column; }
+.feed__item { display: flex; align-items: center; gap: .8rem; padding: .75rem 0; border-bottom: 1px solid var(--border); }
+.feed__item:last-child { border-bottom: none; }
+.feed__ico { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; flex-shrink: 0; }
+.feed__ico svg { width: 15px; height: 15px; }
+.feed__text { flex: 1; font-size: .85rem; color: var(--text-mid); }
+.feed__text b { color: var(--text); font-weight: 600; }
+.feed__time { font-size: .72rem; color: var(--text-dim); font-family: 'IBM Plex Mono', monospace; flex-shrink: 0; }
+
+.timeline { position: relative; border-left: 2px solid var(--border); margin-left: .5rem; display: flex; flex-direction: column; gap: 1.2rem; }
+.timeline__item { margin-left: 1.25rem; position: relative; }
+.timeline__dot { position: absolute; left: -1.7rem; top: .15rem; width: 15px; height: 15px; border-radius: 50%; border: 3px solid var(--surface); }
+.timeline__dot--done { background: var(--success); }
+.timeline__dot--now { background: var(--violet); box-shadow: 0 0 0 4px rgba(96,85,172,.25); }
+.timeline__title { font-size: .85rem; font-weight: 600; }
+.timeline__meta { font-size: .72rem; color: var(--text-dim); font-family: 'IBM Plex Mono', monospace; margin-top: .1rem; }
+
+/* ============================ CHARTS (pure CSS / SVG) ============================ */
+/* Stacked bar chart */
+.barchart { display: flex; align-items: flex-end; gap: .7rem; height: 150px; padding-top: .5rem; }
+.barchart__col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: .4rem; height: 100%; justify-content: flex-end; }
+.barchart__stack { width: 60%; max-width: 34px; border-radius: 6px 6px 0 0; overflow: hidden; display: flex; flex-direction: column-reverse; }
+.barchart__seg--a { background: var(--violet); }
+.barchart__seg--b { background: var(--blue); }
+.barchart__x { font-size: .68rem; color: var(--text-dim); }
+.legend { display: flex; gap: 1rem; font-size: .75rem; color: var(--text-mid); }
+.legend span { display: inline-flex; align-items: center; gap: .4rem; }
+.legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+
+/* SVG line / area */
+.linechart { width: 100%; height: 150px; display: block; }
+.linechart .area { fill: url(#fillViolet); }
+.linechart .area--blue { fill: url(#fillBlue); }
+.linechart .line { fill: none; stroke: var(--violet); stroke-width: 2.5; }
+.linechart .line--blue { stroke: var(--blue); }
+.linechart .grid-line { stroke: var(--border); stroke-width: 1; }
+.linechart text { fill: var(--text-dim); font-size: 10px; font-family: 'IBM Plex Mono', monospace; }
+
+/* Horizontal feature bars */
+.hbar { display: flex; align-items: center; gap: .8rem; margin-bottom: .7rem; }
+.hbar__label { width: 96px; font-size: .8rem; color: var(--text-mid); flex-shrink: 0; }
+.hbar__track { flex: 1; height: 22px; background: var(--surface-3); border-radius: 7px; overflow: hidden; }
+.hbar__fill { height: 100%; border-radius: 7px; display: flex; align-items: center; justify-content: flex-end; padding-right: .5rem; font-size: .68rem; font-family: 'IBM Plex Mono', monospace; color: #fff; }
+
+/* ============================ PROFILE ============================ */
+.profile-head { display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; }
+.profile-avatar { width: 64px; height: 64px; border-radius: 18px; background: var(--grad); display: grid; place-items: center; font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.5rem; color: #fff; flex-shrink: 0; }
+.profile-meta { display: grid; grid-template-columns: repeat(2, 1fr); gap: .4rem 2rem; margin-top: 1rem; font-size: .85rem; }
+.profile-meta .k { color: var(--text-dim); width: 70px; display: inline-block; }
+.kv-tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
+.kv-tile { background: var(--surface-2); border-radius: 12px; padding: 1rem; text-align: center; }
+.kv-tile__n { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.5rem; color: var(--violet-soft); }
+.kv-tile__l { font-size: .72rem; color: var(--text-dim); margin-top: .25rem; }
+.back { display: inline-flex; align-items: center; gap: .4rem; font-size: .85rem; color: var(--text-mid); margin-bottom: 1rem; }
+.back:hover { color: var(--violet-soft); }
+.back svg { width: 16px; height: 16px; }
+
+.concept-grid { display: flex; flex-direction: column; gap: .7rem; }
+.concept { display: flex; justify-content: space-between; gap: 1rem; padding: .65rem .85rem; background: var(--surface-2); border-radius: 11px; }
+.concept__k { font-size: .8rem; color: var(--text-dim); }
+.concept__v { font-size: .82rem; font-weight: 500; text-align: right; }
+
+.disclaimer { font-size: .72rem; color: var(--text-dim); line-height: 1.6; }
+.disclaimer--box { background: rgba(245,158,11,.08); border: 1px solid rgba(245,158,11,.2); border-radius: 11px; padding: .8rem .9rem; color: #d8b06a; }
+
+/* ============================ ALERTS ============================ */
+.alert { display: flex; align-items: flex-start; gap: .75rem; padding: .8rem .9rem; border-radius: 12px; }
+.alert--warn { background: rgba(245,158,11,.08); border: 1px solid rgba(245,158,11,.2); }
+.alert svg { width: 18px; height: 18px; color: var(--warning); flex-shrink: 0; margin-top: .1rem; }
+.alert__body { flex: 1; }
+.alert__title { font-size: .85rem; font-weight: 600; }
+.alert__sub { font-size: .75rem; color: var(--text-mid); }
+
+/* ============================ FOOTER ============================ */
+.foot { border-top: 1px solid var(--border); padding: 1.25rem 1.75rem; font-size: .72rem; color: var(--text-dim); max-width: 1440px; margin: 0 auto; width: 100%; }
+.foot b { color: var(--text-mid); font-weight: 600; }
+
+/* ============================ UTIL ============================ */
+.row { display: flex; align-items: center; gap: .75rem; }
+.between { justify-content: space-between; }
+.wrap { flex-wrap: wrap; }
+.muted { color: var(--text-dim); }
+.dim { color: var(--text-mid); }
+.right { text-align: right; }
+.mt { margin-top: 1rem; }
+.mt-sm { margin-top: .5rem; }
+.hide-sm { } /* toggled in media query */
+.backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 30; display: none; }
+.backdrop.show { display: block; }
+
+/* ============================ RESPONSIVE ============================ */
+@media (max-width: 1024px) {
+  .sidebar { transform: translateX(-100%); }
+  .sidebar.open { transform: translateX(0); }
+  .shell { margin-left: 0; }
+  .menu-btn { display: grid; }
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .span-2 { grid-column: span 2; }
+}
+@media (max-width: 760px) {
+  .main { padding: 1.1rem; }
+  .grid-3 { grid-template-columns: 1fr; }
+  .grid-2 { grid-template-columns: 1fr; }
+  .span-2 { grid-column: span 1; }
+  .profile-meta { grid-template-columns: 1fr; }
+  .who__meta { display: none; }
+  .search { display: none; }
+  .hide-sm { display: none !important; }
+}
+@media (max-width: 480px) {
+  .grid-4 { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+:focus-visible { outline: 2px solid var(--violet-soft); outline-offset: 2px; border-radius: 4px; }
+
+/* ============================================================================
+   v2.0 additions: pre-launch banner, empty states, billing, chatroom admin
+   ========================================================================== */
+
+/* Pre-launch banner */
+.banner { display: flex; align-items: center; gap: .75rem; padding: .85rem 1.1rem; border-radius: 14px;
+  background: linear-gradient(135deg, rgba(96,85,172,.16), rgba(59,130,246,.1)); border: 1px solid rgba(96,85,172,.3);
+  font-size: .85rem; color: var(--text); }
+.banner__tag { font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  background: var(--violet); color: #fff; padding: .25rem .6rem; border-radius: var(--r-pill); flex-shrink: 0; }
+
+/* Empty states */
+.empty { text-align: center; color: var(--text-dim); font-size: .85rem; padding: 1.6rem 1rem; }
+
+/* Billing key/value */
+.bill-grid { display: flex; flex-direction: column; }
+.bill-row { display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  padding: .55rem 0; border-bottom: 1px solid var(--border); font-size: .85rem; }
+.bill-row:last-child { border-bottom: none; }
+.bill-row__k { color: var(--text-dim); }
+.bill-row__v { font-weight: 500; text-align: right; }
+
+/* Moderation cards */
+.modcard { background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px; padding: .9rem; margin-bottom: .7rem; }
+.modcard:last-child { margin-bottom: 0; }
+
+/* Badge tier chips (chatroom rarity tiers, Brand Book colours) */
+.chip { display: inline-flex; align-items: center; font-size: .7rem; font-weight: 700; padding: .25rem .65rem; border-radius: var(--r-pill); }
+.chip--legendary { background: linear-gradient(135deg, #F5C451, #E0A93B); color: #1c1402; }
+.chip--elite     { background: rgba(96,85,172,.2); color: #b9b0e8; }
+.chip--community { background: rgba(59,130,246,.18); color: #7dabff; }
+.chip--women     { background: rgba(194,100,214,.18); color: #e08bf0; }
+.chip--viral     { background: rgba(34,211,238,.16); color: #67e8f9; }
+
+/* Live badge pulse */
+.badge--legendary { background: linear-gradient(135deg, #F5C451, #E0A93B); color: #1c1402; }
+.live-dot::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #fff; margin-right: .3rem; animation: pulse 1.4s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+
+/* ============================================================================
+   v2.1: premium profile (hero + bloodline), matched to the website profile
+   Dark theme retained. Navy to indigo hero, blue to violet avatar.
+   ========================================================================== */
+
+.mt-lg { margin-top: 2rem; }
+
+/* Profile hero */
+.phero {
+  position: relative; overflow: hidden;
+  border-radius: 26px; padding: 1.6rem;
+  background:
+    radial-gradient(120% 90% at 85% 0%, rgba(96,85,172,.45) 0%, rgba(96,85,172,0) 55%),
+    linear-gradient(135deg, #161E2B 0%, #1B2440 55%, #241C46 100%);
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 24px 60px -28px rgba(10,14,30,.9);
+}
+.phero__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.4rem; gap: 1rem; }
+.pill-secured {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12);
+  border-radius: var(--r-pill); padding: .5rem 1rem; font-size: .8rem; font-weight: 600; color: #d8e2ef;
+  backdrop-filter: blur(6px);
+}
+.pill-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--success); box-shadow: 0 0 0 3px rgba(16,185,129,.2); }
+.pill-edit { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.16); color: #fff; }
+.pill-edit:hover { background: rgba(255,255,255,.18); }
+
+.phero__avatar {
+  width: 92px; height: 92px; border-radius: 50%; flex-shrink: 0;
+  background: linear-gradient(150deg, #3B82F6 0%, #6055AC 100%);
+  display: grid; place-items: center;
+  font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 2.4rem; color: #fff;
+  border: 4px solid rgba(255,255,255,.14);
+  box-shadow: 0 14px 34px -10px rgba(96,85,172,.7);
+}
+.phero__name { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 2rem; letter-spacing: -.03em; line-height: 1.05; color: #fff; }
+.phero__email { color: #aeb9c9; font-size: .92rem; margin-top: .2rem; word-break: break-all; }
+
+.phero__card {
+  margin-top: 1.4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+  background: rgba(8,12,20,.4); border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px; padding: 1.1rem 1.3rem; backdrop-filter: blur(6px);
+}
+.phero__klabel { font-size: .66rem; letter-spacing: .16em; text-transform: uppercase; color: #8595a8; }
+.phero__kval { font-size: 1.2rem; font-weight: 700; color: #fff; margin-top: .25rem; }
+
+/* Stats strip overlapping the hero */
+.pstats {
+  position: relative; z-index: 2; margin: -1.5rem 1.25rem 0; 
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: 20px; padding: 1.4rem 1rem;
+  display: flex; align-items: center; justify-content: space-around;
+  box-shadow: 0 18px 44px -26px rgba(0,0,0,.8);
+}
+.pstats__item { text-align: center; flex: 1; }
+.pstats__n { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 2rem; color: #fff; letter-spacing: -.02em; }
+.pstats__l { font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--text-dim); margin-top: .3rem; }
+.pstats__div { width: 1px; align-self: stretch; background: var(--border); }
+
+/* Bloodline */
+.bloodline { margin-top: 2rem; }
+.eyebrow { display: inline-flex; align-items: center; gap: .6rem; font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; color: var(--violet-soft); font-weight: 600; }
+.eyebrow__line { width: 28px; height: 2px; background: var(--violet); border-radius: 2px; }
+
+.desc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; }
+.desc-card { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; overflow: hidden; transition: transform .16s, border-color .16s; }
+.desc-card:hover { transform: translateY(-3px); border-color: rgba(96,85,172,.5); }
+.desc-card__bar { position: absolute; }
+.desc-card { position: relative; }
+.desc-card__bar { position: absolute; top: .7rem; left: .7rem; right: .7rem; display: flex; align-items: center; justify-content: space-between; z-index: 2; }
+.desc-del { width: 30px; height: 30px; border-radius: 9px; background: rgba(8,12,20,.55); color: #cdd5e6; display: grid; place-items: center; backdrop-filter: blur(4px); }
+.desc-del:hover { background: rgba(239,68,68,.85); color: #fff; }
+.desc-del svg { width: 15px; height: 15px; }
+.desc-card__art {
+  height: 168px;
+  background: linear-gradient(180deg, #3B82F6 0%, #6055AC 48%, var(--surface) 100%);
+  display: grid; place-items: center;
+}
+.desc-card__art span { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 3rem; color: rgba(255,255,255,.92); }
+.desc-card__name { padding: .9rem 1.1rem; font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 1.05rem; color: #fff; }
+
+@media (max-width: 760px) {
+  .phero__name { font-size: 1.6rem; }
+  .phero__avatar { width: 72px; height: 72px; font-size: 1.9rem; }
+  .desc-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 420px) { .desc-grid { grid-template-columns: 1fr; } }
+
+/* ============================================================================
+   v2.8: mobile fix for profile + any two-column split grids
+   Inline grid-template-columns:2fr 1fr did not collapse on phones, forcing
+   horizontal scroll. Collapse all split grids to one column and stop overflow.
+   ========================================================================== */
+.main .grid > * { min-width: 0; }            /* prevent children from forcing overflow */
+
+@media (max-width: 900px) {
+  /* any grid using an inline 2fr/1fr (or 1fr/1fr) split stacks vertically */
+  .main .grid[style*="2fr"] { grid-template-columns: 1fr !important; }
+  .main .grid[style*="1fr 1fr"] { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 520px) {
+  .phero__card { grid-template-columns: 1fr; gap: .9rem; }
+  .phero__card .right { text-align: left; }
+  .pstats { padding: 1.1rem .5rem; }
+  .pstats__n { font-size: 1.6rem; }
+}
+
+</style>
+</head>
+
+<body>
+<div class="app">
+
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar__brand">
+      <!-- Compact M·S mark (Brand Book app-icon mark). Wordmark is text only, the helix mark is never recreated in code. -->
+      <span class="compact-mark">M&middot;S</span>
+      <span class="wordmark"><span class="my">My</span><span class="spawn">Spawn</span></span>
+      <span class="brand-tag">Admin</span>
+    </div>
+
+    <nav class="nav" id="nav">
+      <span class="nav__label">Overview</span>
+      <button class="nav__item active" data-view="dashboard">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+        Dashboard
+      </button>
+      <button class="nav__item" data-view="analytics">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+        Analytics
+      </button>
+
+      <span class="nav__label">Members</span>
+      <button class="nav__item" data-view="users">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        Users
+      </button>
+      <button class="nav__item" data-view="legacy">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9M14 17H5M17 3l3 3-3 3M7 21l-3-3 3-3"/></svg>
+        Legacy Access
+        <span class="nav__badge" id="claimBadge">3</span>
+      </button>
+
+      <span class="nav__label">Operations</span>
+      <button class="nav__item" data-view="vaults">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="12" cy="12" r="3"/></svg>
+        Storage &amp; Vaults
+      </button>
+      <button class="nav__item" data-view="fulfillment">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5"/><path d="M21 3 9 15"/><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/></svg>
+        Fulfillment
+      </button>
+      <button class="nav__item" data-view="orders">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        Orders &amp; Payments
+      </button>
+      <button class="nav__item" data-view="support">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Support
+      </button>
+
+      <span class="nav__label">Growth</span>
+      <button class="nav__item" data-view="social">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        Social &amp; Ads
+      </button>
+
+      <span class="nav__label">Community</span>
+      <button class="nav__item" data-view="community">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg>
+        Chatroom
+        <span class="nav__badge" id="liveBadge" style="background:var(--danger)">LIVE</span>
+      </button>
+
+      <span class="nav__label">Admin</span>
+      <button class="nav__item" data-view="settings">
+        <svg class="nav__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        Settings
+      </button>
+    </nav>
+
+    <div class="sidebar__foot">
+      <div class="capacity">
+        <div class="capacity__row"><span>Biobank capacity</span><span class="capacity__pct" id="capPct">62%</span></div>
+        <div class="track"><div class="track__fill" id="capFill" style="width:62%"></div></div>
+        <p class="mt-sm" style="font-size:11px;color:var(--text-dim)">Ambient storage · GenVault, New Jersey</p>
+      </div>
+    </div>
+  </aside>
+  <div class="backdrop" id="backdrop"></div>
+
+  <!-- ================= SHELL ================= -->
+  <div class="shell">
+
+    <!-- ================= TOP BAR ================= -->
+    <header class="topbar">
+      <div class="topbar__left">
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <div class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" placeholder="Search members, orders, samples"/>
+        </div>
+      </div>
+      <div class="topbar__right">
+        <button class="icon-btn" aria-label="Notifications">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          <span class="dot"></span>
+        </button>
+        <div class="who">
+          <div class="who__meta"><div class="who__name" id="adminName">Jig Patel</div><div class="who__role" id="adminRole">Founder, Admin</div></div>
+          <div class="avatar" id="adminAvatar">JP</div>
+          <button class="icon-btn" aria-label="Log out" title="Log out">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main class="main">
+
+      <!-- ========== DASHBOARD ========== -->
+      <section class="view active" id="view-dashboard">
+        <div class="page-head"><div><h1>Dashboard</h1><p>Members, vaults, DNA samples, and revenue at a glance.</p></div></div>
+        <div id="preLaunchBanner"></div>
+        <div class="grid grid-4 mb-lg" id="statCards"></div>
+        <div class="grid mb-lg" style="grid-template-columns:2fr 1fr">
+          <div class="card">
+            <div class="card__head">
+              <div><div class="card__title">Revenue</div><div class="card__sub">Recurring renewals plus one-time founding orders</div></div>
+              <div class="legend"><span><i style="background:var(--violet)"></i>Recurring</span><span><i style="background:var(--blue)"></i>One-time</span></div>
+            </div>
+            <div class="barchart" id="revenueChart"></div>
+          </div>
+          <div class="card">
+            <div class="card__title mb">New signups</div>
+            <div id="signupBars"></div>
+            <div class="mt" style="border-top:1px solid var(--border);padding-top:1rem">
+              <div class="card__sub">Founding offer</div>
+              <div style="font-size:.85rem;font-weight:500;margin-top:.2rem" id="foundingLine">$99 for the DNA kit and first year of storage</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__head"><div class="card__title">Recent activity</div><button class="link">View all</button></div>
+          <div class="feed" id="activityFeed"></div>
+        </div>
+      </section>
+
+      <!-- ========== ANALYTICS ========== -->
+      <section class="view" id="view-analytics">
+        <div class="page-head"><div><h1>Analytics &amp; Reports</h1><p>Growth, storage trends, feature usage, and members by state.</p></div></div>
+
+        <!-- Next month projection -->
+        <div class="card card--accent mb-lg">
+          <div class="card__head"><div><div class="card__title" id="projTitle">Next month projection</div><div class="card__sub">Estimates based on current trend. Edit targets in your model.</div></div></div>
+          <div class="grid grid-4" id="projection"></div>
+        </div>
+
+        <div class="grid grid-2 mb">
+          <div class="card"><div class="card__title">Member growth</div><div class="card__sub mb">Cumulative members</div><div id="growthChart"></div></div>
+          <div class="card"><div class="card__title">Storage usage trend</div><div class="card__sub mb">Total digital storage, terabytes</div><div id="storageChart"></div></div>
+        </div>
+        <div class="grid grid-2">
+          <div class="card"><div class="card__title">Most active features</div><div class="card__sub mb">Vault uploads compared with DNA kit activity</div><div id="featureChart"></div></div>
+          <div class="card"><div class="card__title mb">Members by state</div><div id="geoChart"></div></div>
+        </div>
+      </section>
+
+      <!-- ========== USERS ========== -->
+      <section class="view" id="view-users">
+        <div class="page-head">
+          <div><h1>Users</h1><p>Search, filter, and manage member accounts.</p></div>
+          <button class="btn btn--primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Add member</button>
+        </div>
+        <div class="card mb" style="padding:1rem">
+          <div class="filters">
+            <div class="search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="search" id="userSearch" placeholder="Search by name or email"/>
+            </div>
+            <select class="input" id="statusFilter" style="width:auto"><option value="">All statuses</option><option>Active</option><option>Inactive</option></select>
+            <select class="input" id="vaultFilter" style="width:auto"><option value="">All vaults</option><option value="Active">Vault active</option><option value="Empty">Vault empty</option></select>
+          </div>
+        </div>
+        <div class="card" style="padding:0;overflow:hidden">
+          <div class="table-wrap">
+            <table>
+              <thead><tr>
+                <th>User ID</th><th>Name</th><th class="hide-sm">Email</th><th class="hide-sm">Signup</th><th>Status</th><th class="hide-sm">Vault</th><th class="hide-sm">Storage</th><th class="hide-sm">Last login</th><th class="right">View</th>
+              </tr></thead>
+              <tbody id="usersBody"></tbody>
+            </table>
+          </div>
+          <div class="table-foot">
+            <span id="userCount"></span>
+            <div class="pager"><button>Previous</button><button class="on">1</button><button>2</button><button>Next</button></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== USER PROFILE ========== -->
+      <section class="view" id="view-profile">
+        <button class="back" id="backToUsers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg>Back to users</button>
+
+        <!-- Hero (navy to indigo, blue-violet avatar) modelled on the website profile -->
+        <div class="phero">
+          <div class="phero__top">
+            <span class="pill-secured"><span class="pill-dot"></span>Account secured</span>
+            <button class="btn btn--ghost btn--sm pill-edit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.1 2.1 0 0 1 3 3L12 15l-4 1 1-4z"/></svg>Edit profile</button>
+          </div>
+          <div class="phero__id row" style="gap:1.25rem;align-items:center">
+            <div class="phero__avatar" id="pfAvatar">R</div>
+            <div style="min-width:0">
+              <h1 class="phero__name" id="pfName">Member</h1>
+              <div class="phero__email" id="pfEmail"></div>
+              <div class="row wrap mt-sm" style="gap:.4rem"><span class="badge badge--success" id="pfStatus">Active</span><span class="badge badge--violet" id="pfPlan">Member</span></div>
+            </div>
+          </div>
+          <div class="phero__card">
+            <div><div class="phero__klabel">Member ID</div><div class="phero__kval mono" id="pfId">00001</div></div>
+            <div class="right"><div class="phero__klabel">Joined</div><div class="phero__kval" id="pfJoined">2026</div></div>
+          </div>
+        </div>
+
+        <!-- Stats strip overlapping the hero -->
+        <div class="pstats">
+          <div class="pstats__item"><div class="pstats__n" id="pfDescCount">0</div><div class="pstats__l">Descendants</div></div>
+          <div class="pstats__div"></div>
+          <div class="pstats__item"><div class="pstats__n" id="pfMemories">0</div><div class="pstats__l">Memories</div></div>
+        </div>
+
+        <!-- Your bloodline -->
+        <div class="bloodline">
+          <div class="eyebrow"><span class="eyebrow__line"></span>Your bloodline</div>
+          <div class="row between wrap" style="margin:.35rem 0 1rem">
+            <h2 class="display" style="font-size:1.5rem">Descendants <span class="muted" id="pfDescCount2" style="font-weight:600"></span></h2>
+            <button class="link">View all</button>
+          </div>
+          <div class="desc-grid" id="pfDescendants"></div>
+          <div class="disclaimer--box mt" id="pfConceptual"></div>
+        </div>
+
+        <!-- Detail -->
+        <div class="grid mt-lg" style="grid-template-columns:2fr 1fr">
+          <div style="display:flex;flex-direction:column;gap:1rem">
+            <div class="card"><div class="card__title mb">DNA sample status</div><ol class="timeline" id="pfSample"></ol></div>
+            <div class="card">
+              <div class="card__head"><div class="card__title">Vault</div><span class="mono" style="font-size:.72rem;color:var(--text-dim)" id="pfStorageText"></span></div>
+              <div class="track mb"><div class="track__fill" id="pfStorageFill"></div></div>
+              <div class="kv-tiles" id="pfVaultTiles"></div>
+            </div>
+            <div class="card"><div class="card__title mb">Billing</div><div id="pfBilling"></div></div>
+            <div class="card"><div class="card__title mb">Payment history</div><div class="table-wrap"><table id="pfPayments"></table></div></div>
+          </div>
+
+          <div style="display:flex;flex-direction:column;gap:1rem">
+            <div class="card">
+              <div class="card__title mb">Member actions</div>
+              <a class="btn btn--ghost btn--block mb" id="pfWebsite" target="_blank" rel="noopener" style="margin-bottom:.5rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Open website profile</a>
+              <button class="btn btn--ghost btn--block mb" style="margin-bottom:.5rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H5.17L4 17.17z"/></svg>Send message</button>
+              <button class="btn btn--warn btn--block"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>Suspend account</button>
+            </div>
+            <div class="card">
+              <div class="card__title mb">Contact</div>
+              <div class="bill-row"><span class="bill-row__k">Phone</span><span class="bill-row__v" id="pfPhone"></span></div>
+              <div class="bill-row"><span class="bill-row__k">Location</span><span class="bill-row__v" id="pfLoc"></span></div>
+            </div>
+            <div class="card">
+              <div class="card__title mb">Legacy beneficiary</div>
+              <div id="pfBeneficiary"></div>
+            </div>
+            <div class="card"><div class="card__title mb">Access logs</div><div id="pfAccess"></div></div>
+            <div class="card card--danger">
+              <div class="card__title mb" style="color:#f87171">Account controls</div>
+              <button class="btn btn--ghost btn--block mb" style="margin-bottom:.5rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download user data</button>
+              <button class="btn btn--danger btn--block"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>Force delete account</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== STORAGE & VAULTS ========== -->
+      <section class="view" id="view-vaults">
+        <div class="page-head"><div><h1>Storage &amp; Vaults</h1><p>Digital vault capacity and DNA sample tracking across the member base.</p></div></div>
+        <div class="grid grid-3 mb-lg" id="vaultStats"></div>
+        <div class="card mb-lg">
+          <div class="card__title mb">Alerts</div>
+          <div id="vaultAlerts" style="display:flex;flex-direction:column;gap:.7rem"></div>
+        </div>
+        <div class="grid grid-2">
+          <div class="card"><div class="card__title mb">Largest vaults</div><div id="largestVaults"></div></div>
+          <div class="card">
+            <div class="card__title mb">Biobank sample tracking</div>
+            <div class="table-wrap"><table id="sampleTable"></table></div>
+            <p class="disclaimer mt-sm">Physical handling is performed by GenVault (New Jersey). Samples are held at ambient temperature.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== ORDERS & PAYMENTS ========== -->
+      <section class="view" id="view-orders">
+        <div class="page-head"><div><h1>Orders &amp; Payments</h1><p>Kit orders, fulfilment status, payments, and subscriptions.</p></div></div>
+        <div class="grid grid-4 mb-lg" id="paymentStats"></div>
+        <div class="card" style="padding:0;overflow:hidden">
+          <div class="card__head" style="padding:1.1rem 1.1rem 0"><div class="card__title">All orders</div><button class="btn btn--ghost btn--sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Export</button></div>
+          <div class="table-wrap" style="margin-top:1rem"><table>
+            <thead><tr><th>Order</th><th>Member</th><th class="hide-sm">Plan</th><th>Amount</th><th>Fulfilment</th><th class="hide-sm">Payment</th><th class="hide-sm">Date</th></tr></thead>
+            <tbody id="ordersBody"></tbody>
+          </table></div>
+        </div>
+      </section>
+
+      <!-- ========== LEGACY ACCESS (NEW) ========== -->
+      <section class="view" id="view-legacy">
+        <div class="page-head"><div><h1>Beneficiaries &amp; Legacy Access</h1><p>Who each member designated to inherit vault and sample access, and the claims waiting on you to verify.</p></div></div>
+        <div class="grid grid-3 mb-lg" id="legacyStats"></div>
+
+        <div class="card card--accent mb-lg">
+          <div class="card__title mb">Pending access claims</div>
+          <p class="disclaimer mb">A claim is raised when someone requests access to a member's vault and stored sample. Access transfers only to the beneficiary the member designated, and only after identity and documentation are verified. Approving a claim is logged and cannot be undone.</p>
+          <div class="table-wrap"><table id="claimsTable"></table></div>
+        </div>
+
+        <div class="card" style="padding:0;overflow:hidden">
+          <div class="card__head" style="padding:1.1rem 1.1rem 0"><div class="card__title">Beneficiary designations</div></div>
+          <div class="table-wrap" style="margin-top:1rem"><table>
+            <thead><tr><th>Member</th><th>Beneficiary</th><th class="hide-sm">Relationship</th><th>Designation</th><th class="right">Verification</th></tr></thead>
+            <tbody id="beneficiaryBody"></tbody>
+          </table></div>
+        </div>
+      </section>
+
+      <!-- ========== SUPPORT ========== -->
+      <section class="view" id="view-support">
+        <div class="page-head"><div><h1>Support</h1><p>Member tickets and outbound messaging.</p></div></div>
+        <div class="grid" style="grid-template-columns:2fr 1fr">
+          <div class="card" style="padding:0;overflow:hidden">
+            <div class="card__head" style="padding:1.1rem"><div class="card__title">Open tickets</div><div class="pager"><button class="on">Open, 4</button><button>Resolved</button></div></div>
+            <div id="ticketList"></div>
+          </div>
+          <div class="card">
+            <div class="card__title mb">Send a broadcast</div>
+            <div class="field"><label>Audience</label><select class="input"><option>All members</option><option>Founding members</option><option>Pending kit returns</option><option>Renewals due this month</option></select></div>
+            <div class="field"><label>Subject</label><input class="input" placeholder="A short, clear subject"/></div>
+            <div class="field"><label>Message</label><textarea class="input" rows="5" placeholder="Write your message"></textarea></div>
+            <button class="btn btn--primary btn--block">Send broadcast</button>
+            <p class="disclaimer mt-sm" style="text-align:center">Reaches 8,420 members across email and in-app.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== COMMUNITY / CHATROOM (NEW) ========== -->
+      <section class="view" id="view-community">
+        <div class="page-head"><div><h1>Community Chatroom</h1><p>Moderate the Discord-style chatroom on the website: channels, members, badges, and live calls.</p></div></div>
+
+        <div class="card card--accent mb-lg" id="liveControl"></div>
+        <div class="grid grid-4 mb-lg" id="communityStats"></div>
+
+        <div class="grid grid-2 mb-lg">
+          <div class="card" style="padding:0;overflow:hidden">
+            <div class="card__head" style="padding:1.1rem"><div class="card__title">Channels</div><button class="btn btn--ghost btn--sm">Add channel</button></div>
+            <div class="table-wrap"><table id="channelTable"></table></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden">
+            <div class="card__head" style="padding:1.1rem"><div class="card__title">Members &amp; roles</div></div>
+            <div class="table-wrap"><table id="memberTable"></table></div>
+          </div>
+        </div>
+
+        <div class="grid grid-2 mb-lg">
+          <div class="card">
+            <div class="card__title mb">Legacy badges</div>
+            <p class="card__sub mb">Five rarity tiers. Assign or revoke from a member's row.</p>
+            <div id="badgeTiers"></div>
+          </div>
+          <div class="card">
+            <div class="card__title mb">Leaderboard</div>
+            <div id="leaderboard"></div>
+          </div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card"><div class="card__title mb">Moderation queue</div><div id="modQueue"></div></div>
+          <div class="card"><div class="card__title mb">Chatroom settings</div><div id="chatSettings"></div></div>
+        </div>
+      </section>
+
+      <!-- ========== FULFILLMENT (GenVault, NEW) ========== -->
+      <section class="view" id="view-fulfillment">
+        <div class="page-head"><div><h1>Kit Fulfillment</h1><p>DNA kit dispatch and sample receipt handled by GenVault, our biobanking partner.</p></div></div>
+
+        <!-- Partner banner -->
+        <div class="card card--accent mb-lg" id="partnerCard"></div>
+
+        <div class="grid grid-4 mb-lg" id="fulfillStats"></div>
+
+        <div class="card" style="padding:0;overflow:hidden">
+          <div class="card__head" style="padding:1.1rem"><div class="card__title">Kit tracking</div><button class="btn btn--ghost btn--sm">Sync with GenVault</button></div>
+          <div class="table-wrap"><table id="kitTable"></table></div>
+          <p class="disclaimer" style="padding:0 1.1rem 1.1rem">Kits are paid on myspawn.me, dispatched by GenVault to the member, returned, received at the GenVault New Jersey facility, then stored at ambient temperature. MySpawn never handles samples physically.</p>
+        </div>
+      </section>
+
+      <!-- ========== SOCIAL & ADS (NEW) ========== -->
+      <section class="view" id="view-social">
+        <div class="page-head"><div><h1>Social &amp; Ads</h1><p>Posts on Instagram and TikTok, and visits they drive to myspawn.me.</p></div></div>
+
+        <div class="grid grid-4 mb-lg" id="socialStats"></div>
+
+        <div class="grid grid-2 mb-lg" id="socialChannels"></div>
+
+        <div class="card" style="padding:0;overflow:hidden">
+          <div class="card__head" style="padding:1.1rem"><div class="card__title">Posts &amp; ads</div><div class="card__sub" id="visitNote"></div></div>
+          <div class="table-wrap"><table id="postsTable"></table></div>
+        </div>
+      </section>
+
+      <!-- ========== SETTINGS (NEW) ========== -->
+      <section class="view" id="view-settings">
+        <div class="page-head"><div><h1>Settings</h1><p>Admin access, live pricing, and a record of admin actions.</p></div></div>
+        <div class="grid grid-2 mb">
+          <div class="card" style="padding:0;overflow:hidden">
+            <div class="card__head" style="padding:1.1rem"><div class="card__title">Admin team &amp; access</div><button class="btn btn--ghost btn--sm">Invite</button></div>
+            <div class="table-wrap"><table id="teamTable"></table></div>
+          </div>
+          <div class="card">
+            <div class="card__title mb">Pricing</div>
+            <div id="pricingFields"></div>
+            <button class="btn btn--primary btn--block mt">Save pricing</button>
+          </div>
+        </div>
+        <div class="grid grid-2">
+          <div class="card"><div class="card__title mb">Security log</div><div id="securityLog"></div></div>
+          <div class="card">
+            <div class="card__title mb">Service scope (reference)</div>
+            <p class="disclaimer" id="serviceDisclaimer"></p>
+            <p class="disclaimer mt">This statement is required in every footer, email, and legal page. Source: MySpawn Brand Book v1.0.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Required service-scope disclaimer in the footer (Brand Book) -->
+    <footer class="foot">
+      <div><b>MySpawn Inc.</b> · Delaware, USA · <span id="footVersion">Admin console</span></div>
+      <div class="mt-sm" id="footDisclaimer"></div>
+    </footer>
+  </div>
+</div>
+
+<!-- ================= DATA (inline for instant local preview) ================= -->
+<!-- The same content lives in myspawn_admin_data_1_2.json. On a deployed server, fetch that file instead of reading this block. -->
+<script type="application/json" id="seed">
+{
+  "_comment": "MySpawn Admin data layer v1.2. Edit values here to change everything the panel renders. The HTML reads an inline copy of this for instant local preview; on a deployed server, fetch this file instead. Pricing and disclaimers are sourced from the MySpawn Brand Book v1.0.",
+  "admin": {
+    "name": "Jig Patel",
+    "role": "Founder, Admin",
+    "initials": "JP"
+  },
+  "stats": {
+    "totalMembers": "8,420",
+    "membersDelta": "+312 this month",
+    "storageUsedTB": "14.7",
+    "activeVaults": "6,940",
+    "samplesStored": "5,883",
+    "revenueMonth": "$84,210",
+    "revenueDelta": "+18% vs last month",
+    "biobankCapacityPct": 62
+  },
+  "signups": {
+    "week": 96,
+    "weekPct": 48,
+    "month": 312,
+    "monthPct": 74,
+    "foundingLeft": 142,
+    "foundingTotal": 1000,
+    "foundingPct": 86
+  },
+  "revenueSeries": {
+    "labels": [
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "recurring": [
+      18,
+      22,
+      27,
+      31,
+      36,
+      41
+    ],
+    "oneTime": [
+      24,
+      29,
+      33,
+      38,
+      41,
+      43
+    ],
+    "unit": "k"
+  },
+  "growthSeries": {
+    "labels": [
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "values": [
+      2100,
+      2900,
+      3800,
+      4900,
+      5800,
+      6700,
+      7600,
+      8420
+    ]
+  },
+  "storageSeries": {
+    "labels": [
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "values": [
+      4.1,
+      5.8,
+      7.2,
+      9.0,
+      10.6,
+      12.1,
+      13.4,
+      14.7
+    ]
+  },
+  "featureUsage": [
+    {
+      "label": "Photos",
+      "value": 6800,
+      "color": "#6055AC"
+    },
+    {
+      "label": "Stories",
+      "value": 3100,
+      "color": "#7C72C4"
+    },
+    {
+      "label": "Voice",
+      "value": 2400,
+      "color": "#3B82F6"
+    },
+    {
+      "label": "Kit orders",
+      "value": 5883,
+      "color": "#5b8def"
+    },
+    {
+      "label": "Renewals",
+      "value": 1290,
+      "color": "#C7D2FE"
+    }
+  ],
+  "geography": [
+    {
+      "region": "New Jersey",
+      "pct": 34
+    },
+    {
+      "region": "New York",
+      "pct": 22
+    },
+    {
+      "region": "Washington DC",
+      "pct": 14
+    },
+    {
+      "region": "Delaware",
+      "pct": 12
+    },
+    {
+      "region": "Pennsylvania",
+      "pct": 10
+    },
+    {
+      "region": "Connecticut",
+      "pct": 8
+    }
+  ],
+  "activity": [
+    {
+      "tone": "green",
+      "text": "<b>Maya L.</b> sample accessioned and placed in ambient storage",
+      "time": "2m"
+    },
+    {
+      "tone": "violet",
+      "text": "<b>Ravi K.</b> joined as a founding member",
+      "time": "21m"
+    },
+    {
+      "tone": "blue",
+      "text": "<b>Sofia C.</b> uploaded 14 photos and 1 voice recording",
+      "time": "48m"
+    },
+    {
+      "tone": "violet",
+      "text": "<b>Dani M.</b> designated a legacy beneficiary",
+      "time": "1h"
+    },
+    {
+      "tone": "green",
+      "text": "<b>Amara W.</b> renewed for 3 years ($199)",
+      "time": "3h"
+    }
+  ],
+  "users": [
+    {
+      "id": "MSPN-00231",
+      "name": "Maya Lindqvist",
+      "initials": "ML",
+      "email": "maya.l@example.com",
+      "phone": "+46 70 123 4567",
+      "location": "Newark, NJ",
+      "signup": "12 Feb 2026",
+      "status": "Active",
+      "vault": "Active",
+      "plan": "Founding member",
+      "storageUsed": "2.4 GB",
+      "storageQuota": "5 GB",
+      "storagePct": 48,
+      "login": "Today",
+      "sampleRef": "SMP-7741",
+      "sample": [
+        {
+          "title": "Kit dispatched by GenVault",
+          "meta": "14 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Sample returned to GenVault",
+          "meta": "21 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Received at GenVault, New Jersey",
+          "meta": "22 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Stored at ambient temperature",
+          "meta": "22 Feb 2026 \u00b7 ref SMP-7741",
+          "state": "now"
+        }
+      ],
+      "vaultFiles": {
+        "photos": 128,
+        "voice": 9,
+        "stories": 14
+      },
+      "descendant": [
+        {
+          "k": "Looks and physical traits",
+          "v": "Tall build, defined features"
+        },
+        {
+          "k": "Disposition",
+          "v": "Calm, curious"
+        },
+        {
+          "k": "Aptitudes",
+          "v": "Musical, analytical"
+        }
+      ],
+      "beneficiary": {
+        "name": "Erik Lindqvist",
+        "relationship": "Sibling",
+        "status": "Designated",
+        "verified": true
+      },
+      "payments": [
+        {
+          "date": "12 Feb 2026",
+          "item": "Founding plan, kit and year 1",
+          "amount": "$99.00",
+          "status": "Paid"
+        },
+        {
+          "date": "10 Feb 2026",
+          "item": "Vault, 5 GB",
+          "amount": "$0.00",
+          "status": "Included"
+        }
+      ],
+      "access": [
+        {
+          "what": "Vault opened",
+          "when": "Today, 09:14"
+        },
+        {
+          "what": "Login, iOS app",
+          "when": "Yesterday"
+        },
+        {
+          "what": "Photo upload",
+          "when": "2 days ago"
+        },
+        {
+          "what": "Login, web",
+          "when": "5 days ago"
+        }
+      ],
+      "websiteProfile": "https://www.myspawn.me/u/00231",
+      "billing": {
+        "plan": "Founding member",
+        "status": "Active",
+        "statusTone": "success",
+        "cycle": "Annual",
+        "nextRenewal": "12 Feb 2027",
+        "amount": "$99.00",
+        "method": "Visa ending 4242",
+        "address": "212 Mulberry St, Newark, NJ 07102",
+        "invoices": [
+          {
+            "id": "INV-00231",
+            "date": "12 Feb 2026",
+            "amount": "$99.00",
+            "status": "Paid",
+            "shipTo": "212 Mulberry St, Newark, NJ 07102"
+          }
+        ],
+        "invoiceEmpty": "No invoices yet.",
+        "shipping": "212 Mulberry St, Newark, NJ 07102"
+      },
+      "descendants": [
+        {
+          "name": "Mark",
+          "status": "Active"
+        },
+        {
+          "name": "Tim",
+          "status": "Active"
+        },
+        {
+          "name": "Lena",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "id": "MSPN-00244",
+      "name": "Sofia Costa",
+      "initials": "SC",
+      "email": "sofia.c@example.com",
+      "phone": "+351 91 234 5678",
+      "location": "Jersey City, NJ",
+      "signup": "18 Jan 2026",
+      "status": "Active",
+      "vault": "Active",
+      "plan": "Founding member",
+      "storageUsed": "3.1 GB",
+      "storageQuota": "5 GB",
+      "storagePct": 62,
+      "login": "Yesterday",
+      "sampleRef": "SMP-7833",
+      "sample": [
+        {
+          "title": "Kit dispatched by GenVault",
+          "meta": "20 Jan 2026",
+          "state": "done"
+        },
+        {
+          "title": "Sample returned to GenVault",
+          "meta": "28 Jan 2026",
+          "state": "now"
+        },
+        {
+          "title": "Receiving at GenVault, New Jersey",
+          "meta": "Pending",
+          "state": "todo"
+        },
+        {
+          "title": "Stored at ambient temperature",
+          "meta": "Pending",
+          "state": "todo"
+        }
+      ],
+      "vaultFiles": {
+        "photos": 96,
+        "voice": 4,
+        "stories": 7
+      },
+      "descendant": [
+        {
+          "k": "Looks and physical traits",
+          "v": "Not selected"
+        },
+        {
+          "k": "Disposition",
+          "v": "Warm, resilient"
+        },
+        {
+          "k": "Aptitudes",
+          "v": "Linguistic"
+        }
+      ],
+      "beneficiary": {
+        "name": "Not set",
+        "relationship": "",
+        "status": "Not set",
+        "verified": false
+      },
+      "payments": [
+        {
+          "date": "18 Jan 2026",
+          "item": "Founding plan, kit and year 1",
+          "amount": "$99.00",
+          "status": "Paid"
+        }
+      ],
+      "access": [
+        {
+          "what": "Photo upload",
+          "when": "Yesterday"
+        },
+        {
+          "what": "Login, web",
+          "when": "3 days ago"
+        }
+      ],
+      "websiteProfile": "https://www.myspawn.me/u/00244",
+      "billing": {
+        "plan": "Founding member",
+        "status": "Active",
+        "statusTone": "success",
+        "cycle": "Annual",
+        "nextRenewal": "12 Feb 2027",
+        "amount": "$99.00",
+        "method": "Visa ending 4242",
+        "address": "88 Hudson St, Apt 14C, Jersey City, NJ 07302",
+        "invoices": [
+          {
+            "id": "INV-00244",
+            "date": "18 Jan 2026",
+            "amount": "$99.00",
+            "status": "Paid",
+            "shipTo": "88 Hudson St, Apt 14C, Jersey City, NJ 07302"
+          }
+        ],
+        "invoiceEmpty": "No invoices yet.",
+        "shipping": "88 Hudson St, Apt 14C, Jersey City, NJ 07302"
+      },
+      "descendants": [
+        {
+          "name": "Noor",
+          "status": "Active"
+        },
+        {
+          "name": "Kai",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "id": "MSPN-00258",
+      "name": "Priya Sharma",
+      "initials": "PS",
+      "email": "priya.s@example.com",
+      "phone": "+91 98 7654 3210",
+      "location": "New York, NY",
+      "signup": "04 Jan 2026",
+      "status": "Active",
+      "vault": "Active",
+      "plan": "Founding member",
+      "storageUsed": "3.9 GB",
+      "storageQuota": "5 GB",
+      "storagePct": 78,
+      "login": "2 days ago",
+      "sampleRef": "SMP-7702",
+      "sample": [
+        {
+          "title": "Kit dispatched by GenVault",
+          "meta": "06 Jan 2026",
+          "state": "done"
+        },
+        {
+          "title": "Sample returned to GenVault",
+          "meta": "14 Jan 2026",
+          "state": "done"
+        },
+        {
+          "title": "Received at GenVault, New Jersey",
+          "meta": "15 Jan 2026",
+          "state": "done"
+        },
+        {
+          "title": "Stored at ambient temperature",
+          "meta": "15 Jan 2026 \u00b7 ref SMP-7702",
+          "state": "now"
+        }
+      ],
+      "vaultFiles": {
+        "photos": 210,
+        "voice": 12,
+        "stories": 21
+      },
+      "descendant": [
+        {
+          "k": "Looks and physical traits",
+          "v": "Average build"
+        },
+        {
+          "k": "Disposition",
+          "v": "Determined, kind"
+        },
+        {
+          "k": "Aptitudes",
+          "v": "Analytical, athletic"
+        }
+      ],
+      "beneficiary": {
+        "name": "Anita Sharma",
+        "relationship": "Parent",
+        "status": "Designated",
+        "verified": true
+      },
+      "payments": [
+        {
+          "date": "04 Jan 2026",
+          "item": "Founding plan, kit and year 1",
+          "amount": "$99.00",
+          "status": "Paid"
+        }
+      ],
+      "access": [
+        {
+          "what": "Vault opened",
+          "when": "2 days ago"
+        },
+        {
+          "what": "Story added",
+          "when": "4 days ago"
+        }
+      ],
+      "websiteProfile": "https://www.myspawn.me/u/00258",
+      "billing": {
+        "plan": "Founding member",
+        "status": "Active",
+        "statusTone": "success",
+        "cycle": "Annual",
+        "nextRenewal": "12 Feb 2027",
+        "amount": "$99.00",
+        "method": "Visa ending 4242",
+        "address": "455 W 37th St, Apt 9B, New York, NY 10018",
+        "invoices": [
+          {
+            "id": "INV-00258",
+            "date": "04 Jan 2026",
+            "amount": "$99.00",
+            "status": "Paid",
+            "shipTo": "455 W 37th St, Apt 9B, New York, NY 10018"
+          }
+        ],
+        "invoiceEmpty": "No invoices yet.",
+        "shipping": "455 W 37th St, Apt 9B, New York, NY 10018"
+      },
+      "descendants": [
+        {
+          "name": "Remy",
+          "status": "Active"
+        },
+        {
+          "name": "Ada",
+          "status": "Active"
+        },
+        {
+          "name": "Soren",
+          "status": "Active"
+        },
+        {
+          "name": "Iris",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "id": "MSPN-00271",
+      "name": "Dani Moreau",
+      "initials": "DM",
+      "email": "dani.m@example.com",
+      "phone": "+33 6 12 34 56 78",
+      "location": "Washington, DC",
+      "signup": "27 Dec 2025",
+      "status": "Active",
+      "vault": "Active",
+      "plan": "Founding member",
+      "storageUsed": "4.8 GB",
+      "storageQuota": "5 GB",
+      "storagePct": 96,
+      "login": "Today",
+      "sampleRef": "SMP-7688",
+      "sample": [
+        {
+          "title": "Kit dispatched by GenVault",
+          "meta": "29 Dec 2025",
+          "state": "done"
+        },
+        {
+          "title": "Sample returned to GenVault",
+          "meta": "06 Jan 2026",
+          "state": "done"
+        },
+        {
+          "title": "Received at GenVault, New Jersey",
+          "meta": "07 Jan 2026",
+          "state": "done"
+        },
+        {
+          "title": "Stored at ambient temperature",
+          "meta": "07 Jan 2026 \u00b7 ref SMP-7688",
+          "state": "now"
+        }
+      ],
+      "vaultFiles": {
+        "photos": 305,
+        "voice": 18,
+        "stories": 9
+      },
+      "descendant": [
+        {
+          "k": "Looks and physical traits",
+          "v": "Slim build"
+        },
+        {
+          "k": "Disposition",
+          "v": "Easygoing"
+        },
+        {
+          "k": "Aptitudes",
+          "v": "Creative"
+        }
+      ],
+      "beneficiary": {
+        "name": "Camille Moreau",
+        "relationship": "Sibling",
+        "status": "Designated",
+        "verified": true
+      },
+      "payments": [
+        {
+          "date": "27 Dec 2025",
+          "item": "Founding plan, kit and year 1",
+          "amount": "$99.00",
+          "status": "Paid"
+        }
+      ],
+      "access": [
+        {
+          "what": "Vault opened",
+          "when": "Today, 08:02"
+        },
+        {
+          "what": "Photo upload",
+          "when": "Today, 07:55"
+        }
+      ],
+      "websiteProfile": "https://www.myspawn.me/u/00271",
+      "billing": {
+        "plan": "Founding member",
+        "status": "Active",
+        "statusTone": "success",
+        "cycle": "Annual",
+        "nextRenewal": "12 Feb 2027",
+        "amount": "$99.00",
+        "method": "Visa ending 4242",
+        "address": "1340 Connecticut Ave NW, Washington, DC 20036",
+        "invoices": [
+          {
+            "id": "INV-00271",
+            "date": "27 Dec 2025",
+            "amount": "$99.00",
+            "status": "Paid",
+            "shipTo": "1340 Connecticut Ave NW, Washington, DC 20036"
+          }
+        ],
+        "invoiceEmpty": "No invoices yet.",
+        "shipping": "1340 Connecticut Ave NW, Washington, DC 20036"
+      },
+      "descendants": [
+        {
+          "name": "Eli",
+          "status": "Active"
+        },
+        {
+          "name": "Mark",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "id": "MSPN-00289",
+      "name": "Ravi Kapoor",
+      "initials": "RK",
+      "email": "ravi.k@example.com",
+      "phone": "+1 415 555 0182",
+      "location": "Wilmington, DE",
+      "signup": "19 Feb 2026",
+      "status": "Active",
+      "vault": "Empty",
+      "plan": "Founding member",
+      "storageUsed": "0.0 GB",
+      "storageQuota": "5 GB",
+      "storagePct": 0,
+      "login": "1 hour ago",
+      "sampleRef": "SMP-7798",
+      "sample": [
+        {
+          "title": "Kit dispatched by GenVault",
+          "meta": "21 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Sample returned to GenVault",
+          "meta": "Pending",
+          "state": "todo"
+        },
+        {
+          "title": "Receiving at GenVault, New Jersey",
+          "meta": "Pending",
+          "state": "todo"
+        },
+        {
+          "title": "Stored at ambient temperature",
+          "meta": "Pending",
+          "state": "todo"
+        }
+      ],
+      "vaultFiles": {
+        "photos": 0,
+        "voice": 0,
+        "stories": 0
+      },
+      "descendant": [
+        {
+          "k": "Looks and physical traits",
+          "v": "Not selected"
+        },
+        {
+          "k": "Disposition",
+          "v": "Not selected"
+        },
+        {
+          "k": "Aptitudes",
+          "v": "Not selected"
+        }
+      ],
+      "beneficiary": {
+        "name": "Not set",
+        "relationship": "",
+        "status": "Not set",
+        "verified": false
+      },
+      "payments": [
+        {
+          "date": "19 Feb 2026",
+          "item": "Founding plan, kit and year 1",
+          "amount": "$99.00",
+          "status": "Paid"
+        }
+      ],
+      "access": [
+        {
+          "what": "Account created",
+          "when": "1 hour ago"
+        }
+      ],
+      "websiteProfile": "https://www.myspawn.me/u/00289",
+      "billing": {
+        "plan": "Founding member",
+        "status": "Active",
+        "statusTone": "success",
+        "cycle": "Annual",
+        "nextRenewal": "12 Feb 2027",
+        "amount": "$99.00",
+        "method": "Visa ending 4242",
+        "address": "1201 N Market St, Wilmington, DE 19801",
+        "invoices": [
+          {
+            "id": "INV-00289",
+            "date": "19 Feb 2026",
+            "amount": "$99.00",
+            "status": "Paid",
+            "shipTo": "1201 N Market St, Wilmington, DE 19801"
+          }
+        ],
+        "invoiceEmpty": "No invoices yet.",
+        "shipping": "1201 N Market St, Wilmington, DE 19801"
+      },
+      "descendants": []
+    },
+    {
+      "id": "MSPN-00301",
+      "name": "Theo Novak",
+      "initials": "TN",
+      "email": "theo.n@example.com",
+      "phone": "+420 601 234 567",
+      "location": "Philadelphia, PA",
+      "signup": "22 Feb 2026",
+      "status": "Inactive",
+      "vault": "Empty",
+      "plan": "Founding member",
+      "storageUsed": "0.0 GB",
+      "storageQuota": "5 GB",
+      "storagePct": 0,
+      "login": "4 days ago",
+      "sampleRef": "SMP-7820",
+      "sample": [
+        {
+          "title": "Kit dispatched by GenVault",
+          "meta": "24 Feb 2026",
+          "state": "now"
+        },
+        {
+          "title": "Sample returned to GenVault",
+          "meta": "Pending",
+          "state": "todo"
+        },
+        {
+          "title": "Receiving at GenVault, New Jersey",
+          "meta": "Pending",
+          "state": "todo"
+        },
+        {
+          "title": "Stored at ambient temperature",
+          "meta": "Pending",
+          "state": "todo"
+        }
+      ],
+      "vaultFiles": {
+        "photos": 0,
+        "voice": 0,
+        "stories": 0
+      },
+      "descendant": [
+        {
+          "k": "Looks and physical traits",
+          "v": "Not selected"
+        },
+        {
+          "k": "Disposition",
+          "v": "Not selected"
+        },
+        {
+          "k": "Aptitudes",
+          "v": "Not selected"
+        }
+      ],
+      "beneficiary": {
+        "name": "Not set",
+        "relationship": "",
+        "status": "Not set",
+        "verified": false
+      },
+      "payments": [
+        {
+          "date": "22 Feb 2026",
+          "item": "Founding plan, kit and year 1",
+          "amount": "$99.00",
+          "status": "Paid"
+        }
+      ],
+      "access": [
+        {
+          "what": "Login, web",
+          "when": "4 days ago"
+        }
+      ],
+      "websiteProfile": "https://www.myspawn.me/u/00301",
+      "billing": {
+        "plan": "Founding member",
+        "status": "Lapsed",
+        "statusTone": "muted",
+        "cycle": "Annual",
+        "nextRenewal": "12 Feb 2027",
+        "amount": "$99.00",
+        "method": "Visa ending 4242",
+        "address": "640 South St, Philadelphia, PA 19147",
+        "invoices": [
+          {
+            "id": "INV-00301",
+            "date": "22 Feb 2026",
+            "amount": "$99.00",
+            "status": "Paid",
+            "shipTo": "640 South St, Philadelphia, PA 19147"
+          }
+        ],
+        "invoiceEmpty": "No invoices yet.",
+        "shipping": "640 South St, Philadelphia, PA 19147"
+      },
+      "descendants": []
+    },
+    {
+      "id": "MSPN-00318",
+      "name": "Amara Wright",
+      "initials": "AW",
+      "email": "amara.w@example.com",
+      "phone": "+1 312 555 0147",
+      "location": "Hoboken, NJ",
+      "signup": "09 Feb 2026",
+      "status": "Active",
+      "vault": "Active",
+      "plan": "Renewed, 3 years",
+      "storageUsed": "1.7 GB",
+      "storageQuota": "5 GB",
+      "storagePct": 34,
+      "login": "3 hours ago",
+      "sampleRef": "SMP-7715",
+      "sample": [
+        {
+          "title": "Kit dispatched by GenVault",
+          "meta": "11 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Sample returned to GenVault",
+          "meta": "18 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Received at GenVault, New Jersey",
+          "meta": "19 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Stored at ambient temperature",
+          "meta": "19 Feb 2026 \u00b7 ref SMP-7715",
+          "state": "now"
+        }
+      ],
+      "vaultFiles": {
+        "photos": 64,
+        "voice": 3,
+        "stories": 5
+      },
+      "descendant": [
+        {
+          "k": "Looks and physical traits",
+          "v": "Average build"
+        },
+        {
+          "k": "Disposition",
+          "v": "Bold, generous"
+        },
+        {
+          "k": "Aptitudes",
+          "v": "Leadership"
+        }
+      ],
+      "beneficiary": {
+        "name": "Jordan Wright",
+        "relationship": "Partner",
+        "status": "Designated",
+        "verified": false
+      },
+      "payments": [
+        {
+          "date": "23 Feb 2026",
+          "item": "Renewal, 3 years",
+          "amount": "$199.00",
+          "status": "Paid"
+        },
+        {
+          "date": "09 Feb 2026",
+          "item": "Founding plan, kit and year 1",
+          "amount": "$99.00",
+          "status": "Paid"
+        }
+      ],
+      "access": [
+        {
+          "what": "Vault opened",
+          "when": "3 hours ago"
+        },
+        {
+          "what": "Renewal purchased",
+          "when": "Yesterday"
+        }
+      ],
+      "websiteProfile": "https://www.myspawn.me/u/00318",
+      "billing": {
+        "plan": "Renewed, 3 years",
+        "status": "Active",
+        "statusTone": "success",
+        "cycle": "Annual",
+        "nextRenewal": "12 Feb 2027",
+        "amount": "$99.00",
+        "method": "Visa ending 4242",
+        "address": "67 Washington St, Hoboken, NJ 07030",
+        "invoices": [
+          {
+            "id": "INV-00318",
+            "date": "09 Feb 2026",
+            "amount": "$99.00",
+            "status": "Paid",
+            "shipTo": "67 Washington St, Hoboken, NJ 07030"
+          }
+        ],
+        "invoiceEmpty": "No invoices yet.",
+        "shipping": "67 Washington St, Hoboken, NJ 07030"
+      },
+      "descendants": [
+        {
+          "name": "Tim",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "id": "MSPN-00327",
+      "name": "Marco Bianchi",
+      "initials": "MB",
+      "email": "marco.b@example.com",
+      "phone": "+39 333 123 4567",
+      "location": "Stamford, CT",
+      "signup": "31 Jan 2026",
+      "status": "Active",
+      "vault": "Active",
+      "plan": "Founding member",
+      "storageUsed": "4.8 GB",
+      "storageQuota": "5 GB",
+      "storagePct": 96,
+      "login": "Yesterday",
+      "sampleRef": "SMP-7760",
+      "sample": [
+        {
+          "title": "Kit dispatched by GenVault",
+          "meta": "02 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Sample returned to GenVault",
+          "meta": "09 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Received at GenVault, New Jersey",
+          "meta": "10 Feb 2026",
+          "state": "done"
+        },
+        {
+          "title": "Stored at ambient temperature",
+          "meta": "10 Feb 2026 \u00b7 ref SMP-7760",
+          "state": "now"
+        }
+      ],
+      "vaultFiles": {
+        "photos": 280,
+        "voice": 22,
+        "stories": 11
+      },
+      "descendant": [
+        {
+          "k": "Looks and physical traits",
+          "v": "Tall build"
+        },
+        {
+          "k": "Disposition",
+          "v": "Thoughtful"
+        },
+        {
+          "k": "Aptitudes",
+          "v": "Engineering"
+        }
+      ],
+      "beneficiary": {
+        "name": "Lucia Bianchi",
+        "relationship": "Sibling",
+        "status": "Designated",
+        "verified": true
+      },
+      "payments": [
+        {
+          "date": "31 Jan 2026",
+          "item": "Founding plan, kit and year 1",
+          "amount": "$99.00",
+          "status": "Paid"
+        }
+      ],
+      "access": [
+        {
+          "what": "Vault opened",
+          "when": "Yesterday"
+        },
+        {
+          "what": "Storage limit warning sent",
+          "when": "Yesterday"
+        }
+      ],
+      "websiteProfile": "https://www.myspawn.me/u/00327",
+      "billing": {
+        "plan": "Founding member",
+        "status": "Active",
+        "statusTone": "success",
+        "cycle": "Annual",
+        "nextRenewal": "12 Feb 2027",
+        "amount": "$99.00",
+        "method": "Visa ending 4242",
+        "address": "10 Atlantic St, Stamford, CT 06901",
+        "invoices": [
+          {
+            "id": "INV-00327",
+            "date": "31 Jan 2026",
+            "amount": "$99.00",
+            "status": "Paid",
+            "shipTo": "10 Atlantic St, Stamford, CT 06901"
+          }
+        ],
+        "invoiceEmpty": "No invoices yet.",
+        "shipping": "10 Atlantic St, Stamford, CT 06901"
+      },
+      "descendants": [
+        {
+          "name": "Lena",
+          "status": "Active"
+        },
+        {
+          "name": "Noor",
+          "status": "Active"
+        },
+        {
+          "name": "Kai",
+          "status": "Active"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "ref": "SMP-7741",
+      "member": "Maya L.",
+      "state": "Stored, ambient",
+      "tone": "success"
+    },
+    {
+      "ref": "SMP-7798",
+      "member": "Ravi K.",
+      "state": "Accessioning",
+      "tone": "violet"
+    },
+    {
+      "ref": "SMP-7820",
+      "member": "Theo N.",
+      "state": "Received",
+      "tone": "warning"
+    },
+    {
+      "ref": "SMP-7833",
+      "member": "Sofia C.",
+      "state": "Kit shipped",
+      "tone": "muted"
+    }
+  ],
+  "vaultAlerts": [
+    {
+      "title": "Marco B. vault at 96% capacity",
+      "sub": "Prompt the member to upgrade or free up space."
+    },
+    {
+      "title": "Dani M. vault at 96% capacity",
+      "sub": "Prompt the member to upgrade or free up space."
+    },
+    {
+      "title": "Sample SMP-7820 awaiting accessioning over 72 hours",
+      "sub": "Follow up with GenVault."
+    }
+  ],
+  "largestVaults": [
+    {
+      "name": "Marco B.",
+      "used": "4.8 / 5 GB",
+      "pct": 96,
+      "warn": true
+    },
+    {
+      "name": "Dani M.",
+      "used": "4.8 / 5 GB",
+      "pct": 96,
+      "warn": true
+    },
+    {
+      "name": "Priya S.",
+      "used": "3.9 / 5 GB",
+      "pct": 78,
+      "warn": false
+    },
+    {
+      "name": "Sofia C.",
+      "used": "3.1 / 5 GB",
+      "pct": 62,
+      "warn": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "MS-2026-00491",
+      "member": "Maya L.",
+      "plan": "Founding, year 1",
+      "amount": "$99.00",
+      "fulfilment": "Completed",
+      "ftone": "success",
+      "payment": "Paid",
+      "ptone": "up",
+      "date": "12 Feb"
+    },
+    {
+      "id": "MS-2026-00498",
+      "member": "Ravi K.",
+      "plan": "Founding, year 1",
+      "amount": "$99.00",
+      "fulfilment": "Shipped",
+      "ftone": "violet",
+      "payment": "Paid",
+      "ptone": "up",
+      "date": "19 Feb"
+    },
+    {
+      "id": "MS-2026-00503",
+      "member": "Theo N.",
+      "plan": "Founding, year 1",
+      "amount": "$99.00",
+      "fulfilment": "Pending",
+      "ftone": "warning",
+      "payment": "Paid",
+      "ptone": "up",
+      "date": "22 Feb"
+    },
+    {
+      "id": "MS-2026-00509",
+      "member": "Amara W.",
+      "plan": "Renewal, 3 years",
+      "amount": "$199.00",
+      "fulfilment": "Completed",
+      "ftone": "success",
+      "payment": "Paid",
+      "ptone": "up",
+      "date": "23 Feb"
+    },
+    {
+      "id": "MS-2026-00514",
+      "member": "Sofia C.",
+      "plan": "Renewal, 1 year",
+      "amount": "$99.00",
+      "fulfilment": "Refunded",
+      "ftone": "muted",
+      "payment": "Reversed",
+      "ptone": "neutral",
+      "date": "24 Feb"
+    }
+  ],
+  "paymentSummary": {
+    "recurring": "$41,360",
+    "oneTime": "$42,850",
+    "activeSubs": "6,512",
+    "cancelled": "38"
+  },
+  "beneficiarySummary": {
+    "designated": "5,910",
+    "designatedPct": 70,
+    "notSet": "2,510",
+    "pendingClaims": 3
+  },
+  "accessClaims": [
+    {
+      "claim": "LAC-0042",
+      "member": "Member MSPN-00198",
+      "claimant": "Designated beneficiary",
+      "submitted": "20 Feb 2026",
+      "status": "Pending verification",
+      "tone": "warning"
+    },
+    {
+      "claim": "LAC-0041",
+      "member": "Member MSPN-00150",
+      "claimant": "Designated beneficiary",
+      "submitted": "16 Feb 2026",
+      "status": "Documents under review",
+      "tone": "violet"
+    },
+    {
+      "claim": "LAC-0039",
+      "member": "Member MSPN-00121",
+      "claimant": "Estate executor",
+      "submitted": "09 Feb 2026",
+      "status": "Approved",
+      "tone": "success"
+    }
+  ],
+  "tickets": [
+    {
+      "initials": "PS",
+      "member": "Priya S.",
+      "subject": "Cannot upload voice recordings over 50 MB",
+      "priority": "High",
+      "ptone": "danger",
+      "time": "12m"
+    },
+    {
+      "initials": "DM",
+      "member": "Dani M.",
+      "subject": "Question about storage at ambient temperature",
+      "priority": "Medium",
+      "ptone": "warning",
+      "time": "1h"
+    },
+    {
+      "initials": "TN",
+      "member": "Theo N.",
+      "subject": "Where is the tracking number for the return kit",
+      "priority": "Low",
+      "ptone": "muted",
+      "time": "3h"
+    },
+    {
+      "initials": "MB",
+      "member": "Marco B.",
+      "subject": "Vault is nearly full, how to add space",
+      "priority": "Medium",
+      "ptone": "warning",
+      "time": "5h"
+    }
+  ],
+  "pricing": {
+    "founding": "$99",
+    "renewYear": "$99",
+    "renew3yr": "$199",
+    "foundingNote": "Kit and first year of storage. First 1,000 sign-ups.",
+    "renewNote": "Per year after year 1.",
+    "renew3yrNote": "Three additional years, one payment."
+  },
+  "team": [
+    {
+      "name": "Jig Patel",
+      "email": "jig@myspawnapp.com",
+      "role": "Owner",
+      "rtone": "violet"
+    },
+    {
+      "name": "Support Desk",
+      "email": "support@myspawn.me",
+      "role": "Support",
+      "rtone": "blue"
+    },
+    {
+      "name": "Brand Inbox",
+      "email": "brand@myspawn.me",
+      "role": "Read only",
+      "rtone": "muted"
+    }
+  ],
+  "securityLog": [
+    {
+      "action": "Admin login from new device",
+      "actor": "Jig Patel",
+      "time": "Today, 09:01"
+    },
+    {
+      "action": "Exported member data (CSV)",
+      "actor": "Jig Patel",
+      "time": "Yesterday, 17:22"
+    },
+    {
+      "action": "Pricing updated, renewal terms",
+      "actor": "Jig Patel",
+      "time": "20 Feb 2026"
+    },
+    {
+      "action": "Legacy access claim approved (LAC-0039)",
+      "actor": "Jig Patel",
+      "time": "11 Feb 2026"
+    }
+  ],
+  "disclaimers": {
+    "service": "MySpawn Inc. is a DNA preservation and personal legacy storage service only. We do not perform, facilitate, or offer genetic engineering, human cloning, reproductive medicine, or any biological procedures.",
+    "conceptual": "All design customisation features on this platform are speculative and conceptual. No biological outcomes are guaranteed."
+  },
+  "meta": {
+    "version": "v3.0",
+    "preLaunch": false
+  },
+  "community": {
+    "live": {
+      "active": true,
+      "host": "Jig Patel",
+      "hostInitials": "JP",
+      "title": "Founding members AMA",
+      "listeners": 18
+    },
+    "stats": {
+      "online": 7,
+      "channels": 4,
+      "messagesToday": 142,
+      "reports": 2
+    },
+    "channels": [
+      {
+        "key": "general-lounge",
+        "name": "general-lounge",
+        "desc": "Open floor for the whole community.",
+        "access": "Open",
+        "gate": "",
+        "online": 6,
+        "locked": false
+      },
+      {
+        "key": "legendary-vault",
+        "name": "legendary-vault",
+        "desc": "Reserved for Legendary badge holders.",
+        "access": "Badge-gated",
+        "gate": "Legendary",
+        "online": 4,
+        "locked": true
+      },
+      {
+        "key": "womens-helix-circle",
+        "name": "womens-helix-circle",
+        "desc": "A space led by the matriarchs of the community.",
+        "access": "Open",
+        "gate": "",
+        "online": 4,
+        "locked": false
+      },
+      {
+        "key": "announcements",
+        "name": "announcements",
+        "desc": "Official updates from the MySpawn team.",
+        "access": "Open",
+        "gate": "",
+        "online": 1,
+        "locked": false
+      }
+    ],
+    "members": [
+      {
+        "name": "Jig Patel",
+        "initials": "JP",
+        "role": "Host",
+        "badge": "Helix Founder",
+        "tier": "legendary",
+        "status": "Active"
+      },
+      {
+        "name": "Maya L.",
+        "initials": "ML",
+        "role": "Moderator",
+        "badge": "Vault Keeper",
+        "tier": "legendary",
+        "status": "Active"
+      },
+      {
+        "name": "Sofia C.",
+        "initials": "SC",
+        "role": "Member",
+        "badge": "MySpawn Chosen",
+        "tier": "community",
+        "status": "Active"
+      },
+      {
+        "name": "Priya S.",
+        "initials": "PS",
+        "role": "Member",
+        "badge": "Helix Matriarch",
+        "tier": "women",
+        "status": "Active"
+      },
+      {
+        "name": "Dani M.",
+        "initials": "DM",
+        "role": "Member",
+        "badge": "Early Believer",
+        "tier": "community",
+        "status": "Active"
+      },
+      {
+        "name": "Ravi K.",
+        "initials": "RK",
+        "role": "Member",
+        "badge": "",
+        "tier": "",
+        "status": "Active"
+      },
+      {
+        "name": "Theo N.",
+        "initials": "TN",
+        "role": "Member",
+        "badge": "Trendsetter",
+        "tier": "viral",
+        "status": "Active"
+      },
+      {
+        "name": "Amara W.",
+        "initials": "AW",
+        "role": "Member",
+        "badge": "Helix Matriarch",
+        "tier": "women",
+        "status": "Muted"
+      }
+    ],
+    "badgeTiers": [
+      {
+        "tier": "legendary",
+        "label": "Legendary",
+        "count": 2
+      },
+      {
+        "tier": "elite",
+        "label": "Elite",
+        "count": 1
+      },
+      {
+        "tier": "community",
+        "label": "Community",
+        "count": 3
+      },
+      {
+        "tier": "women",
+        "label": "Women / Empowering",
+        "count": 2
+      },
+      {
+        "tier": "viral",
+        "label": "Fun / Viral",
+        "count": 1
+      }
+    ],
+    "reports": [
+      {
+        "member": "Amara W.",
+        "channel": "general-lounge",
+        "reason": "Reported by 2 members",
+        "excerpt": "Repeated off-topic promotion of an unrelated link.",
+        "time": "22m"
+      },
+      {
+        "member": "Ravi K.",
+        "channel": "womens-helix-circle",
+        "reason": "Reported by 1 member",
+        "excerpt": "Posted in a circle they were asked to keep quiet in.",
+        "time": "1h"
+      }
+    ],
+    "leaderboard": [
+      {
+        "name": "Jig Patel",
+        "initials": "JP",
+        "points": 9840
+      },
+      {
+        "name": "Maya L.",
+        "initials": "ML",
+        "points": 7210
+      },
+      {
+        "name": "Sofia C.",
+        "initials": "SC",
+        "points": 6005
+      },
+      {
+        "name": "Priya S.",
+        "initials": "PS",
+        "points": 4880
+      },
+      {
+        "name": "Dani M.",
+        "initials": "DM",
+        "points": 3940
+      }
+    ],
+    "settings": {
+      "slowMode": "Off",
+      "announcementsLocked": true,
+      "gatedChannels": 1
+    }
+  },
+  "partner": {
+    "name": "GenVault",
+    "url": "https://www.genvault.com",
+    "facility": "New Jersey, USA",
+    "model": "DNA kit fulfillment and ambient storage"
+  },
+  "fulfillment": {
+    "stats": {
+      "dispatched": 6,
+      "inTransit": 1,
+      "received": 5,
+      "stored": 5
+    },
+    "kits": [
+      {
+        "kitId": "KIT-0231",
+        "member": "Maya L.",
+        "stage": "At facility",
+        "status": "Stored, ambient",
+        "tone": "success",
+        "updated": "22 Feb"
+      },
+      {
+        "kitId": "KIT-0258",
+        "member": "Priya S.",
+        "stage": "At facility",
+        "status": "Stored, ambient",
+        "tone": "success",
+        "updated": "15 Jan"
+      },
+      {
+        "kitId": "KIT-0318",
+        "member": "Amara W.",
+        "stage": "At facility",
+        "status": "Stored, ambient",
+        "tone": "success",
+        "updated": "19 Feb"
+      },
+      {
+        "kitId": "KIT-0244",
+        "member": "Sofia C.",
+        "stage": "Member to GenVault",
+        "status": "Returned to GenVault",
+        "tone": "blue",
+        "updated": "28 Jan"
+      },
+      {
+        "kitId": "KIT-0289",
+        "member": "Ravi K.",
+        "stage": "GenVault to member",
+        "status": "In transit to member",
+        "tone": "muted",
+        "updated": "21 Feb"
+      },
+      {
+        "kitId": "KIT-0301",
+        "member": "Theo N.",
+        "stage": "GenVault to member",
+        "status": "Dispatched",
+        "tone": "violet",
+        "updated": "24 Feb"
+      }
+    ]
+  },
+  "projection": {
+    "title": "Next month projection",
+    "items": [
+      {
+        "label": "New members",
+        "value": "+540",
+        "note": "+18% vs this month",
+        "tone": "up"
+      },
+      {
+        "label": "Revenue",
+        "value": "$98,400",
+        "note": "projected",
+        "tone": "up"
+      },
+      {
+        "label": "Kits dispatched",
+        "value": "560",
+        "note": "via GenVault",
+        "tone": "neutral"
+      },
+      {
+        "label": "Storage added",
+        "value": "+1.9 TB",
+        "note": "projected",
+        "tone": "neutral"
+      }
+    ]
+  },
+  "social": {
+    "totalPosts": "24",
+    "totalFollowers": "16",
+    "linkClicks": 612,
+    "siteVisits": 555,
+    "tracking": "Visits are measured from UTM links in each post.",
+    "channels": [
+      {
+        "platform": "Instagram",
+        "handle": "@myspawnapp",
+        "url": "https://instagram.com/myspawnapp",
+        "posts": 9,
+        "followers": 10,
+        "visits": 320,
+        "active": true,
+        "note": "Following 51. Bio links to myspawn.me and MySpawnApp.com."
+      },
+      {
+        "platform": "TikTok",
+        "handle": "@myspawnapp",
+        "url": "https://www.tiktok.com/@myspawnapp",
+        "posts": 3,
+        "followers": 0,
+        "visits": 140,
+        "active": true,
+        "note": "Following 13, 3 likes. One post was removed for a community guidelines violation."
+      },
+      {
+        "platform": "X",
+        "handle": "@MySpawnMe",
+        "url": "https://x.com/MySpawnMe",
+        "posts": 12,
+        "followers": 6,
+        "visits": 95,
+        "active": true,
+        "verified": true,
+        "note": "MySpawn Founder. Science and Technology. Following 69."
+      },
+      {
+        "platform": "Facebook",
+        "handle": "Not set up",
+        "url": "#",
+        "posts": 0,
+        "followers": 0,
+        "visits": 0,
+        "active": false,
+        "note": "Page not created yet. Section kept for when it launches."
+      }
+    ],
+    "posts": [
+      {
+        "title": "Why a biobank?",
+        "platform": "Instagram",
+        "type": "Carousel",
+        "views": "1,131",
+        "clicks": "84",
+        "visits": "46"
+      },
+      {
+        "title": "Childless. Not legacy-less.",
+        "platform": "Instagram",
+        "type": "Carousel",
+        "views": "1,768",
+        "clicks": "130",
+        "visits": "71"
+      },
+      {
+        "title": "What is MySpawn?",
+        "platform": "Instagram",
+        "type": "Carousel",
+        "views": "1,998",
+        "clicks": "133",
+        "visits": "73"
+      },
+      {
+        "title": "Podcast: to take part",
+        "platform": "Instagram",
+        "type": "Reel",
+        "views": "2,450",
+        "clicks": "165",
+        "visits": "90"
+      },
+      {
+        "title": "Podcast: the biggest problem",
+        "platform": "Instagram",
+        "type": "Reel",
+        "views": "2,717",
+        "clicks": "168",
+        "visits": "92"
+      },
+      {
+        "title": "Pavel Durov clip",
+        "platform": "Instagram",
+        "type": "Reel",
+        "views": "3,461",
+        "clicks": "223",
+        "visits": "122"
+      },
+      {
+        "title": "Podcast: different",
+        "platform": "Instagram",
+        "type": "Reel",
+        "views": "3,723",
+        "clicks": "243",
+        "visits": "133"
+      },
+      {
+        "title": "2075",
+        "platform": "Instagram",
+        "type": "Reel",
+        "views": "4,224",
+        "clicks": "278",
+        "visits": "152"
+      },
+      {
+        "title": "Founder travel reel",
+        "platform": "Instagram",
+        "type": "Reel",
+        "views": "4,435",
+        "clicks": "269",
+        "visits": "147"
+      },
+      {
+        "title": "Founder clip",
+        "platform": "TikTok",
+        "type": "Video",
+        "views": "--",
+        "clicks": "0",
+        "visits": "0",
+        "flag": "Removed: guidelines"
+      },
+      {
+        "title": "I'll be alive in the year",
+        "platform": "TikTok",
+        "type": "Video",
+        "views": "189",
+        "clicks": "14",
+        "visits": "9"
+      },
+      {
+        "title": "Podcast clip",
+        "platform": "TikTok",
+        "type": "Video",
+        "views": "74",
+        "clicks": "6",
+        "visits": "4"
+      },
+      {
+        "title": "Population collapse thread",
+        "platform": "X",
+        "type": "Repost",
+        "views": "4,200",
+        "clicks": "118",
+        "visits": "71"
+      }
+    ]
+  }
+}
+</script>
+
+<!-- ================= RENDERER ================= -->
+<script>
+(function () {
+  "use strict";
+  var DATA = JSON.parse(document.getElementById('seed').textContent);
+
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  function set(id, val) { var e = document.getElementById(id); if (e) e.textContent = val; }
+
+  /* ---------- tone helpers ---------- */
+  var feedTone = {
+    green:  { bg:'rgba(16,185,129,.15)',  c:'#34d8a6', ico:'<polyline points="20 6 9 17 4 12"/>' },
+    violet: { bg:'rgba(96,85,172,.18)',   c:'#b9b0e8', ico:'<path d="M12 5v14M5 12h14"/>' },
+    blue:   { bg:'rgba(59,130,246,.16)',  c:'#7dabff', ico:'<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/>' }
+  };
+  var badgeClass = { success:'badge--success', violet:'badge--violet', warning:'badge--warning', danger:'badge--danger', muted:'badge--muted', blue:'badge--blue' };
+
+  /* ================= TOP BAR + ADMIN ================= */
+  set('adminName', DATA.admin.name); set('adminRole', DATA.admin.role); set('adminAvatar', DATA.admin.initials);
+  set('capPct', DATA.stats.biobankCapacityPct + '%');
+  $('#capFill').style.width = DATA.stats.biobankCapacityPct + '%';
+  set('footDisclaimer', DATA.disclaimers.service);
+  set('serviceDisclaimer', DATA.disclaimers.service);
+  set('foundingLine', DATA.pricing.founding + ' for the DNA kit and first year of storage');
+  var cb = document.getElementById('claimBadge'); if (cb) cb.textContent = DATA.beneficiarySummary.pendingClaims;
+
+  /* version label + pre-launch banner */
+  var meta = DATA.meta || { version: '', preLaunch: false };
+  set('footVersion', 'Admin console ' + (meta.version || ''));
+  if (meta.preLaunch && meta.bannerText) {
+    document.getElementById('preLaunchBanner').innerHTML =
+      '<div class="banner mb-lg"><span class="banner__tag">Pre-launch</span><span>' + meta.bannerText + '</span></div>';
+  }
+  /* hide the LIVE nav badge when no call is running */
+  var lb = document.getElementById('liveBadge');
+  if (lb && !(DATA.community && DATA.community.live && DATA.community.live.active)) lb.style.display = 'none';
+
+  /* empty-state helpers */
+  function emptyRow(cols, msg) { return '<tr><td colspan="' + cols + '"><div class="empty">' + msg + '</div></td></tr>'; }
+  function emptyBlock(msg) { return '<div class="empty">' + msg + '</div>'; }
+
+  /* ================= DASHBOARD ================= */
+  var s = DATA.stats;
+  $('#statCards').innerHTML = [
+    statCard('Total members', s.totalMembers, s.membersDelta, 'up', 'violet', '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>'),
+    statCard('Storage used', s.storageUsedTB + ' <small>TB</small>', s.activeVaults + ' active vaults', 'neutral', 'blue', '<ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/>'),
+    statCard('Samples stored', s.samplesStored, 'Ambient · GenVault, New Jersey', 'neutral', 'violet', '<path d="M8 3c0 4 8 6 8 9s-8 5-8 9"/><path d="M16 3c0 4-8 6-8 9s8 5 8 9"/>'),
+    statCard('Revenue, this month', s.revenueMonth, s.revenueDelta, 'up', 'green', '<line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>')
+  ].join('');
+
+  function statCard(label, num, delta, dtone, itone, ico) {
+    return '<div class="stat"><div class="stat__top"><span class="stat__label">' + label + '</span>' +
+      '<span class="stat__ico stat__ico--' + itone + '"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + ico + '</svg></span></div>' +
+      '<div class="stat__num">' + num + '</div><div class="stat__delta ' + dtone + '">' + delta + '</div></div>';
+  }
+
+  /* revenue stacked bar chart (pure CSS) */
+  (function () {
+    var r = DATA.revenueSeries, max = 0, i;
+    for (i = 0; i < r.labels.length; i++) max = Math.max(max, r.recurring[i] + r.oneTime[i]);
+    if (max <= 0) { $('#revenueChart').innerHTML = '<div class="empty">No revenue yet. The store opens at launch.</div>'; return; }
+    var html = '';
+    for (i = 0; i < r.labels.length; i++) {
+      var a = (r.recurring[i] / max * 100).toFixed(1), b = (r.oneTime[i] / max * 100).toFixed(1);
+      html += '<div class="barchart__col"><div class="barchart__stack" style="height:' + (a*1 + b*1) + '%">' +
+        '<div class="barchart__seg--a" style="height:' + (a / (a*1+b*1) * 100) + '%"></div>' +
+        '<div class="barchart__seg--b" style="height:' + (b / (a*1+b*1) * 100) + '%"></div></div>' +
+        '<div class="barchart__x">' + r.labels[i] + '</div></div>';
+    }
+    $('#revenueChart').innerHTML = html;
+  })();
+
+  /* signup bars */
+  $('#signupBars').innerHTML =
+    barRow('This week', DATA.signups.week, DATA.signups.weekPct, '') +
+    barRow('This month', DATA.signups.month, DATA.signups.monthPct, '') +
+    barRow('Founding seats left', DATA.signups.foundingLeft + ' / ' + DATA.signups.foundingTotal, DATA.signups.foundingPct, 'violet');
+  function barRow(label, val, pct, mod) {
+    return '<div class="bar-row"><div class="bar-row__top"><span class="dim">' + label + '</span><span class="mono">' + val + '</span></div>' +
+      '<div class="track"><div class="track__fill ' + (mod ? 'track__fill--' + mod : '') + '" style="width:' + pct + '%"></div></div></div>';
+  }
+
+  /* activity feed */
+  $('#activityFeed').innerHTML = DATA.activity.map(function (a) {
+    var t = feedTone[a.tone];
+    return '<div class="feed__item"><span class="feed__ico" style="background:' + t.bg + ';color:' + t.c + '">' +
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">' + t.ico + '</svg></span>' +
+      '<p class="feed__text">' + a.text + '</p><span class="feed__time">' + a.time + '</span></div>';
+  }).join('');
+
+  /* ================= ANALYTICS ================= */
+  $('#growthChart').innerHTML = svgLine(DATA.growthSeries.values, 'violet');
+  $('#storageChart').innerHTML = svgLine(DATA.storageSeries.values, 'blue');
+  (function () {
+    var f = DATA.featureUsage, max = Math.max.apply(null, f.map(function (x) { return x.value; }));
+    if (!f.length || max <= 0) { $('#featureChart').innerHTML = '<div class="empty">No activity yet.</div>'; return; }
+    $('#featureChart').innerHTML = f.map(function (x) {
+      return '<div class="hbar"><span class="hbar__label">' + x.label + '</span><div class="hbar__track">' +
+        '<div class="hbar__fill" style="width:' + (x.value / max * 100) + '%;background:' + x.color + '">' + x.value.toLocaleString() + '</div></div></div>';
+    }).join('');
+  })();
+  $('#geoChart').innerHTML = DATA.geography.map(function (g, i) {
+    return '<div class="bar-row"><div class="bar-row__top"><span>' + g.region + '</span><span class="mono">' + g.pct + '%</span></div>' +
+      '<div class="track"><div class="track__fill ' + (i === DATA.geography.length - 1 ? 'track__fill--lav' : '') + '" style="width:' + g.pct + '%"></div></div></div>';
+  }).join('');
+
+  /* SVG line / area generator (no library) */
+  function svgLine(values, kind) {
+    var W = 520, H = 150, pad = 10;
+    var min = Math.min.apply(null, values), max = Math.max.apply(null, values), range = (max - min) || 1;
+    var n = values.length;
+    var X = function (i) { return pad + i * (W - 2 * pad) / (n - 1); };
+    var Y = function (v) { return H - pad - (v - min) / range * (H - 2 * pad); };
+    var line = '', area, i, gx = '';
+    for (i = 0; i < n; i++) line += (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(values[i]).toFixed(1) + ' ';
+    area = line + 'L' + X(n - 1).toFixed(1) + ' ' + (H - pad) + ' L' + X(0).toFixed(1) + ' ' + (H - pad) + ' Z';
+    for (i = 1; i < 4; i++) { var gy = pad + i * (H - 2 * pad) / 4; gx += '<line class="grid-line" x1="' + pad + '" y1="' + gy + '" x2="' + (W - pad) + '" y2="' + gy + '"/>'; }
+    var fillId = kind === 'blue' ? 'fillBlue' : 'fillViolet';
+    var col = kind === 'blue' ? '#3B82F6' : '#6055AC';
+    return '<svg class="linechart" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none">' +
+      '<defs><linearGradient id="' + fillId + '" x1="0" y1="0" x2="0" y2="1">' +
+      '<stop offset="0" stop-color="' + col + '" stop-opacity=".28"/><stop offset="1" stop-color="' + col + '" stop-opacity="0"/></linearGradient></defs>' +
+      gx + '<path d="' + area + '" fill="url(#' + fillId + ')"/><path d="' + line + '" fill="none" stroke="' + col + '" stroke-width="2.5" stroke-linejoin="round"/></svg>';
+  }
+
+  /* ================= USERS TABLE ================= */
+  function renderUsers() {
+    var q = ($('#userSearch').value || '').toLowerCase();
+    var st = $('#statusFilter').value, vf = $('#vaultFilter').value;
+    var rows = DATA.users.filter(function (u) {
+      return (!q || u.name.toLowerCase().indexOf(q) > -1 || u.email.toLowerCase().indexOf(q) > -1) &&
+             (!st || u.status === st) && (!vf || u.vault === vf);
+    });
+    $('#usersBody').innerHTML = rows.map(function (u) {
+      return '<tr>' +
+        '<td class="mono" style="font-size:.72rem;color:var(--text-dim)">' + u.id + '</td>' +
+        '<td><div class="cell-name"><span class="mini-avatar">' + u.initials + '</span><span style="font-weight:500">' + u.name + '</span></div></td>' +
+        '<td class="hide-sm dim">' + u.email + '</td>' +
+        '<td class="hide-sm mono" style="font-size:.72rem;color:var(--text-dim)">' + u.signup + '</td>' +
+        '<td><span class="badge ' + (u.status === 'Active' ? 'badge--success' : 'badge--muted') + '">' + u.status + '</span></td>' +
+        '<td class="hide-sm"><span class="badge ' + (u.vault === 'Active' ? 'badge--violet' : 'badge--muted') + '">' + u.vault + '</span></td>' +
+        '<td class="hide-sm mono" style="font-size:.78rem">' + u.storageUsed + '</td>' +
+        '<td class="hide-sm dim" style="font-size:.8rem">' + u.login + '</td>' +
+        '<td class="right"><button class="row-open" data-open="' + u.id + '"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button></td>' +
+      '</tr>';
+    }).join('');
+    set('userCount', 'Showing ' + rows.length + ' of ' + DATA.stats.totalMembers + ' members');
+    Array.prototype.forEach.call($('#usersBody').querySelectorAll('[data-open]'), function (b) {
+      b.addEventListener('click', function () { openProfile(b.getAttribute('data-open')); });
+    });
+  }
+
+  /* ================= USER PROFILE ================= */
+  function openProfile(id) {
+    var u = DATA.users.find(function (x) { return x.id === id; });
+    if (!u) return;
+    set('pfAvatar', (u.name || '?').charAt(0).toUpperCase()); set('pfName', u.name); set('pfId', u.id);
+    set('pfEmail', u.email); set('pfPhone', u.phone); set('pfLoc', u.location); set('pfJoined', u.joined || u.signup);
+    set('pfPlan', u.plan);
+    var stBadge = $('#pfStatus'); stBadge.textContent = u.status; stBadge.className = 'badge ' + (u.status === 'Active' ? 'badge--success' : 'badge--muted');
+
+    /* stats strip */
+    var mem = (u.vaultFiles.photos || 0) + (u.vaultFiles.voice || 0) + (u.vaultFiles.stories || 0);
+    var descs = u.descendants || [];
+    set('pfDescCount', descs.length);
+    set('pfMemories', mem);
+    set('pfDescCount2', descs.length);
+
+    $('#pfSample').innerHTML = u.sample.map(function (st) {
+      var dot = st.state === 'done' ? 'timeline__dot--done' : st.state === 'now' ? 'timeline__dot--now' : '';
+      var style = st.state === 'todo' ? 'style="opacity:.5"' : '';
+      return '<li class="timeline__item" ' + style + '><span class="timeline__dot ' + dot + '"></span>' +
+        '<div class="timeline__title">' + st.title + '</div><div class="timeline__meta">' + st.meta + '</div></li>';
+    }).join('');
+
+    set('pfStorageText', u.storageUsed + ' of ' + u.storageQuota + ' used');
+    $('#pfStorageFill').style.width = u.storagePct + '%';
+    $('#pfStorageFill').className = 'track__fill' + (u.storagePct >= 90 ? ' track__fill--warn' : '');
+    $('#pfVaultTiles').innerHTML =
+      tile(u.vaultFiles.photos, 'Photos') + tile(u.vaultFiles.voice, 'Voice notes') + tile(u.vaultFiles.stories, 'Stories');
+
+    /* bloodline / descendant cards */
+    $('#pfDescendants').innerHTML = descs.length
+      ? descs.map(function (d) {
+          return '<div class="desc-card"><div class="desc-card__bar">' +
+            '<span class="badge badge--success"><span class="pill-dot"></span>' + (d.status || 'Active') + '</span>' +
+            '<button class="desc-del" title="Remove"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button></div>' +
+            '<div class="desc-card__art"><span>' + (d.name || '?').charAt(0).toUpperCase() + '</span></div>' +
+            '<div class="desc-card__name">' + d.name + '</div></div>';
+        }).join('')
+      : emptyBlock('No descendant designs yet. The member creates these from their profile.');
+    set('pfConceptual', DATA.disclaimers.conceptual);
+
+    $('#pfPayments').innerHTML = (u.payments && u.payments.length)
+      ? ('<thead><tr><th>Date</th><th>Item</th><th class="right">Amount</th><th class="right">Status</th></tr></thead><tbody>' +
+      u.payments.map(function (p) {
+        var cls = p.status === 'Paid' ? 'up' : 'neutral';
+        return '<tr><td class="mono" style="font-size:.72rem;color:var(--text-dim)">' + p.date + '</td><td>' + p.item + '</td><td class="right" style="font-weight:600">' + p.amount + '</td><td class="right ' + cls + '" style="font-size:.78rem">' + p.status + '</td></tr>';
+      }).join('') + '</tbody>')
+      : '<tbody><tr><td><div class="empty">No payments yet.</div></td></tr></tbody>';
+
+    var b = u.beneficiary;
+    if (b.status === 'Designated') {
+      $('#pfBeneficiary').innerHTML = '<div style="font-weight:600">' + b.name + '</div>' +
+        '<div class="dim" style="font-size:.8rem;margin:.15rem 0 .6rem">' + b.relationship + '</div>' +
+        '<span class="badge ' + (b.verified ? 'badge--success' : 'badge--warning') + '">' + (b.verified ? 'Identity verified' : 'Verification pending') + '</span>';
+    } else {
+      $('#pfBeneficiary').innerHTML = '<p class="disclaimer">No beneficiary designated. The member controls this from their account. Prompt them to add one so legacy access can transfer if needed.</p>';
+    }
+
+    $('#pfAccess').innerHTML = u.access.map(function (a) {
+      return '<div class="row between" style="font-size:.85rem;padding:.35rem 0"><span class="dim">' + a.what + '</span><span class="mono" style="font-size:.72rem;color:var(--text-dim)">' + a.when + '</span></div>';
+    }).join('');
+
+    /* website profile link */
+    var wp = document.getElementById('pfWebsite');
+    if (u.websiteProfile) { wp.href = u.websiteProfile; wp.style.display = ''; } else { wp.style.display = 'none'; }
+
+    /* billing */
+    var b2 = u.billing || {};
+    var bill = '<div class="bill-grid">' +
+      billRow('Plan', b2.plan || 'Not set') +
+      billRow('Status', '<span class="badge ' + (b2.statusTone ? badgeClass[b2.statusTone] : 'badge--muted') + '">' + (b2.status || 'Not set') + '</span>') +
+      billRow('Billing cycle', b2.cycle || 'Not set') +
+      billRow('Next charge', b2.nextRenewal || 'Not set') +
+      billRow('Amount', b2.amount || 'Not set') +
+      billRow('Payment method', b2.method || 'None on file') +
+      billRow('Billing address', b2.address || 'Not set') +
+      billRow('Shipping address (DNA kit)', b2.shipping || b2.address || 'Not set') + '</div>';
+    var inv = (b2.invoices && b2.invoices.length)
+      ? '<div class="mt"><div class="card__sub mb">Invoices</div><table>' +
+        b2.invoices.map(function (i) {
+          return '<tr><td class="mono" style="font-size:.72rem">' + i.id + '</td><td class="dim">' + i.date + '</td><td style="font-weight:600">' + i.amount + '</td><td class="right"><span class="badge ' + (i.status === 'Paid' ? 'badge--success' : 'badge--muted') + '">' + i.status + '</span></td></tr>';
+        }).join('') + '</table></div>'
+      : '<p class="disclaimer mt">' + (b2.invoiceEmpty || 'No invoices yet.') + '</p>';
+    $('#pfBilling').innerHTML = bill + inv;
+
+    switchView('profile', false);
+  }
+  function billRow(k, v) { return '<div class="bill-row"><span class="bill-row__k">' + k + '</span><span class="bill-row__v">' + v + '</span></div>'; }
+  function tile(n, l) { return '<div class="kv-tile"><div class="kv-tile__n">' + n + '</div><div class="kv-tile__l">' + l + '</div></div>'; }
+
+  /* ================= STORAGE & VAULTS ================= */
+  $('#vaultStats').innerHTML =
+    miniStat('Total digital storage used', DATA.stats.storageUsedTB + ' TB', 'Across ' + DATA.stats.activeVaults + ' active vaults') +
+    miniStat('Samples in ambient storage', DATA.stats.samplesStored, 'GenVault, New Jersey') +
+    miniStat('Open storage alerts', DATA.vaultAlerts.length, 'Need review', true);
+  function miniStat(l, n, sub, warn) {
+    return '<div class="card"><div class="stat__label">' + l + '</div><div class="stat__num" ' + (warn ? 'style="color:#fbbf24"' : '') + '>' + n + '</div><div class="card__sub mt-sm">' + sub + '</div></div>';
+  }
+  $('#vaultAlerts').innerHTML = DATA.vaultAlerts.map(function (a) {
+    return '<div class="alert alert--warn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12" y2="17"/></svg>' +
+      '<div class="alert__body"><div class="alert__title">' + a.title + '</div><div class="alert__sub">' + a.sub + '</div></div><button class="link">Resolve</button></div>';
+  }).join('');
+  $('#largestVaults').innerHTML = DATA.largestVaults.map(function (v) {
+    return '<div class="bar-row"><div class="bar-row__top"><span class="dim">' + v.name + '</span><span class="mono">' + v.used + '</span></div>' +
+      '<div class="track"><div class="track__fill ' + (v.warn ? 'track__fill--warn' : '') + '" style="width:' + v.pct + '%"></div></div></div>';
+  }).join('');
+  $('#sampleTable').innerHTML = '<thead><tr><th>Sample</th><th>Member</th><th>State</th></tr></thead><tbody>' +
+    DATA.samples.map(function (sm) {
+      return '<tr><td class="mono" style="font-size:.72rem">' + sm.ref + '</td><td>' + sm.member + '</td><td><span class="badge ' + badgeClass[sm.tone] + '">' + sm.state + '</span></td></tr>';
+    }).join('') + '</tbody>';
+
+  /* ================= ORDERS ================= */
+  var ps = DATA.paymentSummary;
+  $('#paymentStats').innerHTML =
+    miniStat('Monthly recurring', ps.recurring, '') +
+    miniStat('One-time, this month', ps.oneTime, '') +
+    miniStat('Active subscriptions', ps.activeSubs, '') +
+    miniStat('Cancelled, this month', ps.cancelled, '');
+  $('#ordersBody').innerHTML = DATA.orders.map(function (o) {
+    return '<tr><td class="mono" style="font-size:.72rem">' + o.id + '</td><td style="font-weight:500">' + o.member + '</td>' +
+      '<td class="hide-sm dim">' + o.plan + '</td><td style="font-weight:600">' + o.amount + '</td>' +
+      '<td><span class="badge ' + badgeClass[o.ftone] + '">' + o.fulfilment + '</span></td>' +
+      '<td class="hide-sm ' + o.ptone + '" style="font-size:.78rem;font-weight:600">' + o.payment + '</td>' +
+      '<td class="hide-sm mono" style="font-size:.72rem;color:var(--text-dim)">' + o.date + '</td></tr>';
+  }).join('');
+
+  /* ================= LEGACY ACCESS ================= */
+  var bs = DATA.beneficiarySummary;
+  $('#legacyStats').innerHTML =
+    miniStat('Members with a beneficiary', bs.designated, bs.designatedPct + '% of all members') +
+    miniStat('No beneficiary set', bs.notSet, 'Prompt these members to add one') +
+    miniStat('Pending access claims', bs.pendingClaims, 'Awaiting your verification', true);
+  $('#claimsTable').innerHTML = '<thead><tr><th>Claim</th><th>Member</th><th class="hide-sm">Claimant</th><th class="hide-sm">Submitted</th><th>Status</th><th class="right">Action</th></tr></thead><tbody>' +
+    DATA.accessClaims.map(function (c) {
+      var act = c.status === 'Approved' ? '<span class="dim" style="font-size:.78rem">Completed</span>' : '<button class="btn btn--ghost btn--sm">Review</button>';
+      return '<tr><td class="mono" style="font-size:.72rem">' + c.claim + '</td><td>' + c.member + '</td>' +
+        '<td class="hide-sm dim">' + c.claimant + '</td><td class="hide-sm mono" style="font-size:.72rem;color:var(--text-dim)">' + c.submitted + '</td>' +
+        '<td><span class="badge ' + badgeClass[c.tone] + '">' + c.status + '</span></td><td class="right">' + act + '</td></tr>';
+    }).join('') + '</tbody>';
+  $('#beneficiaryBody').innerHTML = DATA.users.map(function (u) {
+    var b = u.beneficiary, has = b.status === 'Designated';
+    return '<tr><td><div class="cell-name"><span class="mini-avatar">' + u.initials + '</span><span style="font-weight:500">' + u.name + '</span></div></td>' +
+      '<td>' + (has ? b.name : '<span class="muted">Not set</span>') + '</td>' +
+      '<td class="hide-sm dim">' + (has ? b.relationship : '·') + '</td>' +
+      '<td><span class="badge ' + (has ? 'badge--success' : 'badge--muted') + '">' + b.status + '</span></td>' +
+      '<td class="right">' + (has ? '<span class="badge ' + (b.verified ? 'badge--success' : 'badge--warning') + '">' + (b.verified ? 'Verified' : 'Pending') + '</span>' : '<span class="muted">·</span>') + '</td></tr>';
+  }).join('');
+
+  /* ================= SUPPORT ================= */
+  $('#ticketList').innerHTML = DATA.tickets.map(function (t) {
+    return '<div class="feed__item" style="padding:.85rem 1.1rem;cursor:pointer">' +
+      '<span class="mini-avatar">' + t.initials + '</span>' +
+      '<div style="flex:1;min-width:0"><div class="row" style="gap:.5rem"><span style="font-weight:500">' + t.member + '</span><span class="badge ' + badgeClass[t.ptone] + '">' + t.priority + '</span></div>' +
+      '<div class="dim" style="font-size:.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' + t.subject + '</div></div>' +
+      '<span class="feed__time">' + t.time + '</span></div>';
+  }).join('');
+
+  /* ================= SETTINGS ================= */
+  $('#teamTable').innerHTML = '<thead><tr><th>Name</th><th class="hide-sm">Email</th><th class="right">Role</th></tr></thead><tbody>' +
+    DATA.team.map(function (m) {
+      return '<tr><td style="font-weight:500">' + m.name + '</td><td class="hide-sm dim">' + m.email + '</td><td class="right"><span class="badge ' + badgeClass[m.rtone] + '">' + m.role + '</span></td></tr>';
+    }).join('') + '</tbody>';
+  var pr = DATA.pricing;
+  $('#pricingFields').innerHTML =
+    priceField('Founding offer', pr.founding, pr.foundingNote) +
+    priceField('Renewal, per year', pr.renewYear, pr.renewNote) +
+    priceField('Renewal, 3 years', pr.renew3yr, pr.renew3yrNote);
+  function priceField(label, val, note) {
+    return '<div class="field"><label>' + label + '</label><input class="input" value="' + val + '"/>' +
+      '<p class="disclaimer mt-sm">' + note + '</p></div>';
+  }
+  $('#securityLog').innerHTML = DATA.securityLog.map(function (l) {
+    return '<div class="row between" style="font-size:.85rem;padding:.45rem 0;border-bottom:1px solid var(--border)"><div><div>' + l.action + '</div><div class="muted" style="font-size:.72rem">' + l.actor + '</div></div><span class="mono" style="font-size:.72rem;color:var(--text-dim)">' + l.time + '</span></div>';
+  }).join('');
+
+  /* ================= NAVIGATION ================= */
+  function switchView(view, updateNav) {
+    Array.prototype.forEach.call(document.querySelectorAll('.view'), function (v) { v.classList.remove('active'); });
+    var el = document.getElementById('view-' + view);
+    if (el) el.classList.add('active');
+    if (updateNav !== false) {
+      Array.prototype.forEach.call(document.querySelectorAll('.nav__item'), function (n) { n.classList.remove('active'); });
+      var btn = document.querySelector('.nav__item[data-view="' + view + '"]');
+      if (btn) btn.classList.add('active');
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    closeSidebar();
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.nav__item'), function (b) {
+    b.addEventListener('click', function () { switchView(b.getAttribute('data-view')); });
+  });
+  $('#backToUsers').addEventListener('click', function () { switchView('users'); });
+  $('#userSearch').addEventListener('input', renderUsers);
+  $('#statusFilter').addEventListener('change', renderUsers);
+  $('#vaultFilter').addEventListener('change', renderUsers);
+
+  /* ================= EMPTY-STATE PATCHES (pre-launch friendly) ================= */
+  if (!DATA.orders.length) $('#ordersBody').innerHTML = emptyRow(7, 'No orders yet. The store opens at launch.');
+  if (!DATA.accessClaims.length) $('#claimsTable').innerHTML = '<tbody>' + emptyRow(1, 'No access claims to review.') + '</tbody>';
+  if (!DATA.samples.length) $('#sampleTable').innerHTML = '<tbody>' + emptyRow(1, 'No samples in transit or storage yet.') + '</tbody>';
+  if (!DATA.vaultAlerts.length) $('#vaultAlerts').innerHTML = emptyBlock('No alerts. Everything looks healthy.');
+  if (!DATA.tickets.length) $('#ticketList').innerHTML = emptyBlock('No open tickets.');
+  if (!DATA.securityLog.length) $('#securityLog').innerHTML = emptyBlock('No admin activity recorded yet.');
+  if (!DATA.geography.length) $('#geoChart').innerHTML = emptyBlock('Not enough members yet to show a regional split.');
+  if (!DATA.largestVaults.length) $('#largestVaults').innerHTML = emptyBlock('No vault data yet.');
+
+  /* ================= COMMUNITY / CHATROOM ================= */
+  (function () {
+    var C = DATA.community;
+    if (!C) return;
+
+    /* live control panel */
+    var live = C.live || {};
+    $('#liveControl').innerHTML =
+      '<div class="row between wrap" style="gap:1rem">' +
+        '<div class="row" style="gap:.9rem">' +
+          '<div class="profile-avatar" style="width:52px;height:52px;font-size:1.1rem;border-radius:14px">' + (live.hostInitials || 'JP') + '</div>' +
+          '<div>' +
+            '<div class="row" style="gap:.5rem"><span class="card__title">Live call</span>' +
+              (live.active ? '<span class="badge badge--danger live-dot">LIVE</span>' : '<span class="badge badge--muted">Offline</span>') + '</div>' +
+            '<div class="dim" style="font-size:.82rem;margin-top:.15rem">' +
+              (live.active ? ('Host: ' + live.host + ' · ' + (live.listeners || 0) + ' listening') : ('Host ready: ' + (live.host || 'Jig Patel'))) + '</div>' +
+            (live.title ? '<div class="muted" style="font-size:.78rem;margin-top:.1rem">' + live.title + '</div>' : '') +
+          '</div>' +
+        '</div>' +
+        '<div class="row" style="gap:.5rem">' +
+          (live.active
+            ? '<button class="btn btn--ghost btn--sm">Lock stage</button><button class="btn btn--danger btn--sm">End call</button>'
+            : '<button class="btn btn--primary btn--sm">Start live call</button>') +
+        '</div>' +
+      '</div>';
+
+    /* stats */
+    var st = C.stats || {};
+    $('#communityStats').innerHTML =
+      cstat('Online now', st.online) +
+      cstat('Channels', st.channels) +
+      cstat('Messages today', st.messagesToday) +
+      cstat('Reports', st.reports, st.reports > 0);
+
+    /* channels */
+    $('#channelTable').innerHTML = '<thead><tr><th>Channel</th><th class="hide-sm">Access</th><th>Online</th><th>Status</th><th class="right">Manage</th></tr></thead><tbody>' +
+      C.channels.map(function (ch) {
+        var access = ch.access === 'Open'
+          ? '<span class="badge badge--muted">Open</span>'
+          : '<span class="badge badge--legendary">' + (ch.gate || 'Badge') + ' only</span>';
+        return '<tr><td><span class="mono" style="font-size:.8rem">#' + ch.name + '</span><div class="muted" style="font-size:.72rem">' + ch.desc + '</div></td>' +
+          '<td class="hide-sm">' + access + '</td>' +
+          '<td class="mono" style="font-size:.78rem">' + ch.online + '</td>' +
+          '<td><span class="badge ' + (ch.locked ? 'badge--warning' : 'badge--success') + '">' + (ch.locked ? 'Locked' : 'Active') + '</span></td>' +
+          '<td class="right"><button class="btn btn--ghost btn--sm">' + (ch.locked ? 'Unlock' : 'Edit') + '</button></td></tr>';
+      }).join('') + '</tbody>';
+
+    /* members & roles */
+    $('#memberTable').innerHTML = '<thead><tr><th>Member</th><th class="hide-sm">Badge</th><th>Role</th><th class="right">Action</th></tr></thead><tbody>' +
+      C.members.map(function (m) {
+        var roleBadge = m.role === 'Host' ? 'badge--violet' : m.role === 'Moderator' ? 'badge--blue' : 'badge--muted';
+        var act = m.role === 'Host'
+          ? '<span class="muted" style="font-size:.78rem">Owner</span>'
+          : '<button class="btn btn--ghost btn--sm">Manage</button>';
+        return '<tr><td><div class="cell-name"><span class="mini-avatar">' + m.initials + '</span><span style="font-weight:500">' + m.name + '</span></div></td>' +
+          '<td class="hide-sm">' + (m.badge ? '<span class="chip chip--' + (m.tier || 'community') + '">' + m.badge + '</span>' : '<span class="muted">None</span>') + '</td>' +
+          '<td><span class="badge ' + roleBadge + '">' + m.role + '</span>' + (m.status === 'Muted' ? ' <span class="badge badge--warning">Muted</span>' : '') + '</td>' +
+          '<td class="right">' + act + '</td></tr>';
+      }).join('') + '</tbody>';
+
+    /* badge tiers */
+    $('#badgeTiers').innerHTML = C.badgeTiers.map(function (t) {
+      return '<div class="row between" style="padding:.5rem 0;border-bottom:1px solid var(--border)">' +
+        '<span class="chip chip--' + t.tier + '">' + t.label + '</span>' +
+        '<span class="mono dim" style="font-size:.78rem">' + t.count + ' member' + (t.count === 1 ? '' : 's') + '</span></div>';
+    }).join('');
+
+    /* leaderboard */
+    $('#leaderboard').innerHTML = C.leaderboard.length
+      ? C.leaderboard.map(function (l, i) {
+          var medal = i === 0 ? '#F5C451' : i === 1 ? '#C7D2FE' : i === 2 ? '#E0A93B' : 'var(--text-dim)';
+          return '<div class="row between" style="padding:.5rem 0;border-bottom:1px solid var(--border)">' +
+            '<div class="row" style="gap:.6rem"><span class="mono" style="color:' + medal + ';width:18px">' + (i + 1) + '</span>' +
+            '<span class="mini-avatar">' + l.initials + '</span><span style="font-weight:500">' + l.name + '</span></div>' +
+            '<span class="mono dim" style="font-size:.78rem">' + l.points.toLocaleString() + ' pts</span></div>';
+        }).join('')
+      : emptyBlock('No points earned yet.');
+
+    /* moderation queue */
+    $('#modQueue').innerHTML = (C.reports && C.reports.length)
+      ? C.reports.map(function (r) {
+          return '<div class="modcard"><div class="row between"><span style="font-weight:500">' + r.member + '</span><span class="muted mono" style="font-size:.72rem">' + r.time + '</span></div>' +
+            '<div class="muted" style="font-size:.78rem;margin:.2rem 0">in #' + r.channel + ' · ' + r.reason + '</div>' +
+            '<div class="dim" style="font-size:.82rem;font-style:italic">"' + r.excerpt + '"</div>' +
+            '<div class="row mt-sm" style="gap:.4rem"><button class="btn btn--ghost btn--sm">Dismiss</button><button class="btn btn--warn btn--sm">Mute</button><button class="btn btn--danger btn--sm">Remove</button></div></div>';
+        }).join('')
+      : emptyBlock('Nothing reported. The chatroom is clean.');
+
+    /* settings */
+    var cs = C.settings || {};
+    $('#chatSettings').innerHTML =
+      '<div class="bill-row"><span class="bill-row__k">Slow mode</span><span class="bill-row__v">' + (cs.slowMode || 'Off') + '</span></div>' +
+      '<div class="bill-row"><span class="bill-row__k">Announcements</span><span class="bill-row__v">' + (cs.announcementsLocked ? 'Team only' : 'Everyone can post') + '</span></div>' +
+      '<div class="bill-row"><span class="bill-row__k">Badge-gated channels</span><span class="bill-row__v">' + (cs.gatedChannels || 0) + '</span></div>' +
+      '<div class="bill-row"><span class="bill-row__k">Live calls</span><span class="bill-row__v">Host only</span></div>';
+  })();
+
+  function cstat(label, val, warn) {
+    return '<div class="stat"><div class="stat__label">' + label + '</div><div class="stat__num"' + (warn ? ' style="color:#fbbf24"' : '') + '>' + (val != null ? val : 0) + '</div></div>';
+  }
+
+  /* ================= PROJECTION (next month) ================= */
+  (function () {
+    var p = DATA.projection;
+    if (!p) return;
+    set('projTitle', p.title || 'Next month projection');
+    $('#projection').innerHTML = p.items.map(function (it) {
+      return '<div class="stat"><div class="stat__label">' + it.label + '</div>' +
+        '<div class="stat__num">' + it.value + '</div>' +
+        '<div class="stat__delta ' + (it.tone || 'up') + '">' + (it.note || '') + '</div></div>';
+    }).join('');
+  })();
+
+  /* ================= FULFILLMENT (GenVault) ================= */
+  (function () {
+    var F = DATA.fulfillment, P = DATA.partner;
+    if (!F || !P) return;
+    $('#partnerCard').innerHTML =
+      '<div class="row between wrap" style="gap:1rem">' +
+        '<div class="row" style="gap:.9rem">' +
+          '<div class="profile-avatar" style="width:50px;height:50px;font-size:1rem;border-radius:14px">GV</div>' +
+          '<div><div class="card__title">' + P.name + '</div>' +
+          '<div class="dim" style="font-size:.82rem;margin-top:.15rem">' + P.model + ' · ' + P.facility + '</div></div>' +
+        '</div>' +
+        '<a class="btn btn--ghost btn--sm" href="' + P.url + '" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>genvault.com</a>' +
+      '</div>';
+
+    var fs = F.stats;
+    $('#fulfillStats').innerHTML =
+      fstat('Kits dispatched', fs.dispatched) +
+      fstat('In transit', fs.inTransit) +
+      fstat('Received at facility', fs.received) +
+      fstat('Stored at ambient', fs.stored);
+
+    $('#kitTable').innerHTML = '<thead><tr><th>Kit</th><th>Member</th><th class="hide-sm">Stage</th><th>Status</th><th class="hide-sm">Updated</th></tr></thead><tbody>' +
+      (F.kits.length ? F.kits.map(function (k) {
+        return '<tr><td class="mono" style="font-size:.72rem">' + k.kitId + '</td><td style="font-weight:500">' + k.member + '</td>' +
+          '<td class="hide-sm dim">' + k.stage + '</td>' +
+          '<td><span class="badge ' + badgeClass[k.tone] + '">' + k.status + '</span></td>' +
+          '<td class="hide-sm mono" style="font-size:.72rem;color:var(--text-dim)">' + k.updated + '</td></tr>';
+      }).join('') : emptyRow(5, 'No kits dispatched yet. Fulfillment starts at launch.')) + '</tbody>';
+  })();
+  function fstat(label, val) { return '<div class="stat"><div class="stat__label">' + label + '</div><div class="stat__num">' + val + '</div></div>'; }
+
+  /* ================= SOCIAL & ADS ================= */
+  (function () {
+    var S = DATA.social;
+    if (!S) return;
+    $('#socialStats').innerHTML =
+      fstat('Posts live', S.totalPosts) +
+      fstat('Followers', S.totalFollowers) +
+      fstat('Link clicks', S.linkClicks != null ? S.linkClicks : '0') +
+      fstat('Visits to site', S.siteVisits != null ? S.siteVisits : '0');
+
+    var verifiedTick = '<svg viewBox="0 0 24 24" width="14" height="14" fill="#3B82F6" style="vertical-align:-2px;margin-left:.2rem"><path d="M12 2l2.4 2.1 3.2-.3 1.3 2.9 2.9 1.3-.3 3.2L23.6 16l-2.1 2.4.3 3.2-2.9 1.3-1.3 2.9-3.2-.3L12 30l-2.4-2.1" transform="scale(.8) translate(3 -1)"/><path d="M9.5 12.5l2 2 4-4.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+    function chanCard(c) {
+      var inactive = c.active === false;
+      var stats = '<div class="grid grid-3 mt">' +
+        '<div class="kv-tile"><div class="kv-tile__n">' + c.posts + '</div><div class="kv-tile__l">Posts</div></div>' +
+        '<div class="kv-tile"><div class="kv-tile__n">' + c.followers + '</div><div class="kv-tile__l">Followers</div></div>' +
+        '<div class="kv-tile"><div class="kv-tile__n">' + (c.visits != null ? c.visits : '0') + '</div><div class="kv-tile__l">Site visits</div></div>' +
+        '</div>';
+      return '<div class="card"' + (inactive ? ' style="opacity:.7"' : '') + '>' +
+        '<div class="row between"><div class="card__title">' + c.platform + (c.verified ? verifiedTick : '') + '</div>' +
+        (inactive ? '<span class="badge badge--muted">Not set up</span>'
+                  : '<a class="link" href="' + (c.url || '#') + '" target="_blank" rel="noopener">' + c.handle + '</a>') + '</div>' +
+        (inactive ? '<p class="disclaimer mt">' + (c.note || 'Channel not created yet.') + '</p>'
+                  : stats + (c.note ? '<p class="disclaimer mt-sm">' + c.note + '</p>' : '')) +
+        '</div>';
+    }
+    $('#socialChannels').innerHTML = S.channels.map(chanCard).join('');
+    set('visitNote', S.tracking || '');
+
+    $('#postsTable').innerHTML = '<thead><tr><th>Post</th><th class="hide-sm">Platform</th><th class="hide-sm">Type</th><th>Views</th><th>Clicks</th><th class="right">Visits</th></tr></thead><tbody>' +
+      (S.posts.length ? S.posts.map(function (p) {
+        return '<tr><td style="font-weight:500">' + p.title + (p.flag ? ' <span class="badge badge--warning">' + p.flag + '</span>' : '') + '</td>' +
+          '<td class="hide-sm dim">' + p.platform + '</td>' +
+          '<td class="hide-sm"><span class="badge badge--muted">' + p.type + '</span></td>' +
+          '<td class="mono" style="font-size:.78rem">' + p.views + '</td>' +
+          '<td class="mono" style="font-size:.78rem">' + p.clicks + '</td>' +
+          '<td class="right mono" style="font-size:.78rem;color:var(--violet-soft)">' + p.visits + '</td></tr>';
+      }).join('') : emptyRow(6, 'No posts tracked yet.')) + '</tbody>';
+  })();
+
+  /* mobile sidebar */
+  var sb = document.getElementById('sidebar'), bd = document.getElementById('backdrop');
+  function closeSidebar() { sb.classList.remove('open'); bd.classList.remove('show'); }
+  document.getElementById('menuBtn').addEventListener('click', function () { sb.classList.add('open'); bd.classList.add('show'); });
+  bd.addEventListener('click', closeSidebar);
+
+  /* init */
+  renderUsers();
+})();
+</script>
+</body>
+</html>
