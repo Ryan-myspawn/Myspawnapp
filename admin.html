@@ -560,6 +560,113 @@ tbody tr:hover { background: rgba(255,255,255,.025); }
   .pstats__n { font-size: 1.6rem; }
 }
 
+/* ============================================================================
+   v3.1 MODERN REFRESH — depth, materials & motion. Layered over v3.0.
+   Purely additive polish: no structural or JS changes. Remove this block
+   to revert to the previous look.
+   ========================================================================== */
+:root{
+  --r: 16px;
+  --r-lg: 22px;
+  --ease: cubic-bezier(.22,.61,.36,1);
+  --shadow-card: 0 10px 30px -14px rgba(0,0,0,.6);
+  --shadow-lift: 0 22px 48px -20px rgba(0,0,0,.72);
+  --glow-violet: 0 16px 40px -14px rgba(96,85,172,.6);
+  --hair: inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+/* Ambient, layered page background for depth */
+body{
+  background:
+    radial-gradient(1200px 620px at 84% -10%, rgba(96,85,172,.18), transparent 60%),
+    radial-gradient(1000px 560px at -8% 6%, rgba(59,130,246,.10), transparent 55%),
+    var(--bg);
+  background-attachment: fixed;
+}
+
+/* Sidebar — deeper material + glowing active indicator */
+.sidebar{ background: linear-gradient(180deg,#1d2937 0%,#18222f 100%); }
+.nav__item{ position: relative; transition: background .18s var(--ease), color .18s var(--ease); }
+.nav__item:hover{ background: rgba(255,255,255,.05); }
+.nav__item.active{
+  background: linear-gradient(90deg, rgba(96,85,172,.30), rgba(96,85,172,.08));
+  box-shadow: inset 0 0 0 1px rgba(139,130,217,.20);
+}
+.nav__item.active::before{
+  content:""; position:absolute; left:-.75rem; top:50%; transform: translateY(-50%);
+  width:3px; height:20px; border-radius:0 3px 3px 0;
+  background: linear-gradient(180deg,#7dabff,#6055AC);
+  box-shadow: 0 0 12px rgba(96,85,172,.85);
+}
+.compact-mark{ box-shadow: var(--glow-violet); }
+.capacity{ background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)); box-shadow: var(--hair); }
+
+/* Topbar — glassier */
+.topbar{
+  background: rgba(24,34,47,.72);
+  backdrop-filter: blur(18px) saturate(1.35);
+  -webkit-backdrop-filter: blur(18px) saturate(1.35);
+}
+.avatar, .mini-avatar{ box-shadow: 0 0 0 2px rgba(255,255,255,.10), var(--glow-violet); }
+
+/* Cards — layered surface, top sheen, soft shadow */
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,0) 42%), var(--surface);
+  box-shadow: var(--hair), var(--shadow-card);
+  transition: border-color .2s var(--ease), box-shadow .2s var(--ease);
+}
+.card--accent{
+  background: linear-gradient(180deg, rgba(96,85,172,.14), rgba(96,85,172,.03) 45%), var(--surface);
+  box-shadow: var(--hair), var(--glow-violet);
+}
+
+/* KPI tiles — gradient icon chips, hover lift + glow */
+.stat{
+  background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,0) 46%), var(--surface);
+  box-shadow: var(--hair), var(--shadow-card);
+  transition: transform .2s var(--ease), box-shadow .2s var(--ease), border-color .2s var(--ease);
+}
+.stat:hover{ transform: translateY(-3px); border-color: rgba(139,130,217,.35); box-shadow: var(--hair), var(--shadow-lift); }
+.stat__ico{ box-shadow: var(--hair); }
+.stat__ico--violet{ background: linear-gradient(150deg, rgba(96,85,172,.9), rgba(96,85,172,.5)); color:#fff; box-shadow: 0 8px 18px -8px rgba(96,85,172,.9); }
+.stat__ico--blue{ background: linear-gradient(150deg, rgba(59,130,246,.9), rgba(59,130,246,.5)); color:#fff; box-shadow: 0 8px 18px -8px rgba(59,130,246,.9); }
+.stat__ico--green{ background: linear-gradient(150deg, rgba(16,185,129,.9), rgba(16,185,129,.5)); color:#fff; box-shadow: 0 8px 18px -8px rgba(16,185,129,.9); }
+.stat__num{ font-size: 2rem; }
+
+/* Buttons — richer primary + smoother motion */
+.btn{ transition: transform .16s var(--ease), filter .16s var(--ease), background .16s var(--ease), box-shadow .16s var(--ease); }
+.btn--primary{ background: linear-gradient(135deg,#4f8dff 0%,#6055AC 60%,#7b5cc7 100%); box-shadow: 0 8px 22px -8px rgba(96,85,172,.7); }
+.btn--primary:hover{ transform: translateY(-1px); box-shadow: 0 12px 28px -8px rgba(96,85,172,.85); }
+
+/* Inputs — softer focus ring */
+.input:focus, .search input:focus{ box-shadow: 0 0 0 3px rgba(96,85,172,.22); }
+
+/* Tables — crisper header + accented row hover */
+thead th{ background: rgba(255,255,255,.03); backdrop-filter: blur(2px); }
+tbody tr{ transition: background .14s var(--ease), box-shadow .14s var(--ease); }
+tbody tr:hover{ background: rgba(96,85,172,.08); box-shadow: inset 3px 0 0 rgba(139,130,217,.7); }
+
+/* Badges & chips — subtle crisp edge */
+.badge, .chip{ box-shadow: inset 0 0 0 1px rgba(255,255,255,.07); }
+
+/* Progress + horizontal bars — soft glow */
+.track{ box-shadow: inset 0 0 0 1px rgba(255,255,255,.04); }
+.track__fill{ box-shadow: 0 0 12px -2px rgba(96,85,172,.6); }
+.hbar__track{ box-shadow: inset 0 0 0 1px rgba(255,255,255,.04); }
+
+/* Charts — glow the lines, round & lift the bars */
+.linechart .line{ filter: drop-shadow(0 4px 10px rgba(96,85,172,.5)); }
+.linechart .line--blue{ filter: drop-shadow(0 4px 10px rgba(59,130,246,.5)); }
+.barchart__stack{ border-radius: 7px 7px 0 0; box-shadow: 0 0 14px -4px rgba(96,85,172,.5); }
+.barchart__seg--a{ background: linear-gradient(180deg,#7b6fd0,#6055AC); }
+.barchart__seg--b{ background: linear-gradient(180deg,#5b9bff,#3B82F6); }
+
+/* Feed / timeline dots — a touch of glow */
+.feed__ico{ box-shadow: var(--hair); }
+
+/* Refined scrollbar */
+::-webkit-scrollbar-thumb{ background: linear-gradient(180deg,#33465c,#2a3a4d); }
+
 </style>
 </head>
 
