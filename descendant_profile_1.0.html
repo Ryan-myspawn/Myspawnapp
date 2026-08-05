@@ -253,6 +253,7 @@ h1 .nm{ font-family:'Instrument Serif',Georgia,serif; font-style:italic; font-we
 .trow .k svg{ flex:0 0 auto; color:var(--ink-4); }
 .trow .v{ flex:1; font-size:13.5px; font-weight:600; color:var(--ink); line-height:1.45; }
 .trow .v.empty{ color:var(--ink-4); font-weight:500; font-style:italic; }
+.consent-strong{ color:var(--ink); font-weight:700; }
 
 .pull{ font-size:16.5px; line-height:1.45; font-weight:500; color:var(--ink);
   letter-spacing:-.015em; }
@@ -778,15 +779,6 @@ const ICO = {
   frame:'<path d="M12 2v20M6 6v12M18 6v12M2 10v4M22 10v4"/>',
   face:'<circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01"/><path d="M9 15c1.7 1.4 3.3 1.4 5 0"/>',
   spark:'<path d="m13 2-9 12h7l-1 8 9-12h-7z"/>',
-  identity:'<path d="M12 3 4 7v6c0 5 3.5 7.7 8 8 4.5-.3 8-3 8-8V7z"/><path d="M9.5 12l2 2 3.5-4"/>',
-  value:'<path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6L12 16.8 6.7 19.6l1.1-6L3.4 9.4l6-.8z"/>',
-  heritage:'<path d="M12 3v18M5 21V9l7-6 7 6v12"/><path d="M9 21v-6h6v6"/>',
-  scale:'<path d="M12 3v18M6 21h12"/><path d="M3 8h18"/><path d="M6 8 3 15h6zM18 8l-3 7h6z"/>',
-  globe:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18"/>',
-  book:'<path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"/><path d="M8 7h8M8 11h6"/>',
-  shield:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
-  coin:'<circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5h4a2 2 0 0 1 0 4h-3a2 2 0 0 0 0 4h4"/>',
-  heart:'<path d="M12 20s-7-4.4-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4.6-7 9-7 9z"/>',
   memory:'<path d="m12 3 8 4.5-8 4.5-8-4.5z"/><path d="m4 12 8 4.5 8-4.5"/><path d="m4 16.5 8 4.5 8-4.5"/>',
   legacy:'<path d="M12 2v6M8 5h8"/><path d="M5 22V12a7 7 0 0 1 14 0v10"/><path d="M9 22v-5h6v5"/>',
   consent:'<path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/>',
@@ -805,18 +797,27 @@ const FACE_LABELS = { race:'Race & Ethnicity', shape:'Face Shape', nose:'Nose', 
 
 /* Demo content stands in for rooms this build does not own yet. */
 const DEMO_VALUES = {
-  corevalue:'Curiosity and lifelong learning',
-  heritage:'Mixed heritage, embraced as one',
-  decision:'A multi-generational legal trust',
-  upbringing:'Earth — a stable, established community',
-  education:'AI-personalised learning, tailored to their pace',
-  ethics:'Not during war, instability, or humanitarian crisis',
-  finance:'Milestone-released — at education, majority, and life events',
-  health:'Screen for serious hereditary disease only — no enhancement',
-  knowledge:'Full access to my MySpawn-recorded memories as immersive experiences — but no AI reconstruction of me.',
-  motivation:'My story and voice — preserved for future family.',
-  consent:'Shared with another person only with their fully informed, independent consent at the relevant time.'
+  knowledge:{ text:'Full access to my MySpawn-recorded memories as immersive experiences — but no AI reconstruction of me.',
+              em:'MySpawn-recorded', tags:['Memories','Immersive'], altTags:['No AI reconstruction'] },
+  motivation:{ text:'My story and voice — preserved for future family.', em:'preserved' },
+  consent:{ text:'Shared with another person only with their fully informed, independent consent at the relevant time.',
+            strong:'only with their fully informed, independent consent' }
 };
+
+/* Emphasis without innerHTML, so stored copy can never inject markup. */
+function emphasise(node, o, cls) {
+  if (!o) return node;
+  const needle = o.em || o.strong;
+  const i = needle ? o.text.indexOf(needle) : -1;
+  if (i < 0) { node.textContent = o.text; return node; }
+  node.appendChild(document.createTextNode(o.text.slice(0, i)));
+  const mark = document.createElement(o.em ? 'em' : 'strong');
+  if (cls) mark.className = cls;
+  mark.textContent = needle;
+  node.appendChild(mark);
+  node.appendChild(document.createTextNode(o.text.slice(i + needle.length)));
+  return node;
+}
 
 const state = { face:{}, body:{}, values:{ ...DEMO_VALUES }, notes:[],
                 birth:'2050-06-14', filter:'all', units:'ft', noteFormOpen:false };
@@ -858,7 +859,7 @@ function faceTraitCount() { return Object.keys(FACE_LABELS).filter(k => state.fa
 function bodyTraitCount() {
   return ['sex','build','abs'].filter(k => state.body[k]).length + (state.body.height != null ? 1 : 0);
 }
-function valuesCount() { return Object.values(state.values).filter(Boolean).length; }
+function valuesCount() { return Object.values(state.values).filter(v => v && v.text).length; }
 function traitTotal() { return faceTraitCount() + bodyTraitCount() + abilityCount(); }
 
 /* Completeness is what a profile page is for: what is set, what is missing. */
@@ -867,7 +868,7 @@ function completeness() {
     { key:'face',  label:'Face traits',   done:faceTraitCount(), total:10, href:'face_myspawn_1.2.html' },
     { key:'body',  label:'Physique',      done:bodyTraitCount(), total:4,  href:'body_traits_1.0.html' },
     { key:'path',  label:'Ability path',  done:state.body.path ? 1 : 0, total:1, href:'body_traits_1.0.html' },
-    { key:'values',label:'Values & directives', done:valuesCount(), total:11, href:'#' }
+    { key:'values',label:'Legacy statements', done:valuesCount(), total:3, href:'#' }
   ];
   const done = parts.reduce((a, p) => a + Math.min(p.done, p.total), 0);
   const total = parts.reduce((a, p) => a + p.total, 0);
@@ -883,8 +884,6 @@ const esc = s => String(s).replace(/[&<>"']/g, c =>
 const FILTERS = [
   { id:'all',        label:'All' },
   { id:'physique',   label:'Physique' },
-  { id:'identity',   label:'Identity' },
-  { id:'directives', label:'Directives' },
   { id:'legacy',     label:'Legacy' }
 ];
 
@@ -892,7 +891,7 @@ function rowsBlock(rows) {
   const w = el('div', 'rows');
   rows.forEach(([ico, k, v]) => {
     const r = el('div', 'trow');
-    const kk = el('span', 'k', ico ? I(ICO[ico] || ICO.value, 14) : '');
+    const kk = el('span', 'k', ico && ICO[ico] ? I(ICO[ico], 14) : '');
     kk.appendChild(document.createTextNode(k));
     const vv = el('span', 'v' + (v ? '' : ' empty'));
     vv.textContent = v || 'Not set yet';
@@ -905,7 +904,7 @@ function cardShell(sec, ico, title, meta) {
   const c = el('section', 'card');
   c.dataset.sec = sec;
   c.innerHTML = `<div class="card-hd">
-      <span class="card-ico">${I(ICO[ico] || ICO.value, 15)}</span>
+      <span class="card-ico">${I(ICO[ico] || ICO.spark, 15)}</span>
       <h2 class="card-ttl"></h2><span class="card-meta"></span></div>`;
   c.querySelector('.card-ttl').textContent = title;
   c.querySelector('.card-meta').textContent = meta || '';
@@ -993,49 +992,16 @@ function buildFeed() {
     feed.appendChild(c);
   }
 
-  /* ── Core identity ── */
-  {
-    const c = cardShell('identity', 'identity', 'Core Identity', '01');
-    const bd = el('div', 'card-bd');
-    bd.appendChild(rowsBlock([
-      ['value', 'Core Value', state.values.corevalue],
-      ['heritage', 'Cultural Heritage', state.values.heritage],
-      ['scale', 'Decision Maker', state.values.decision],
-      ['globe', 'Upbringing', state.values.upbringing]
-    ]));
-    const tags = el('div', 'tags');
-    ['Curious', 'Independent'].forEach(t => tags.appendChild(el('span','tag','')).textContent = t);
-    ['Mixed heritage', 'Legal trust'].forEach(t => tags.appendChild(el('span','tag alt','')).textContent = t);
-    bd.appendChild(tags);
-    c.append(bd, footer('', 'Edit identity', '#'));
-    feed.appendChild(c);
-  }
-
-  /* ── Directives ── */
-  {
-    const c = cardShell('directives', 'book', 'Life Directives', '02');
-    const bd = el('div', 'card-bd');
-    bd.appendChild(rowsBlock([
-      ['book', 'Education', state.values.education],
-      ['shield', 'Ethical Limits', state.values.ethics],
-      ['coin', 'Financial Provision', state.values.finance],
-      ['heart', 'Health & Longevity', state.values.health]
-    ]));
-    c.append(bd, footer('', 'Edit directives', '#'));
-    feed.appendChild(c);
-  }
-
   /* ── Knowledge of you ── */
   {
     const c = cardShell('legacy', 'memory', 'Knowledge of You', 'Featured');
     c.classList.add('feature');
     const bd = el('div', 'card-bd');
-    const p = el('p', 'pull');
-    p.innerHTML = 'Full access to my <em>MySpawn-recorded</em> memories as immersive experiences — but no AI reconstruction of me.';
-    bd.appendChild(p);
+    const k = state.values.knowledge;
+    bd.appendChild(emphasise(el('p', 'pull'), k));
     const tags = el('div', 'tags');
-    ['Memories', 'Immersive'].forEach(t => tags.appendChild(el('span','tag','')).textContent = t);
-    tags.appendChild(el('span','tag alt','')).textContent = 'No AI reconstruction';
+    (k.tags || []).forEach(t => tags.appendChild(el('span','tag','')).textContent = t);
+    (k.altTags || []).forEach(t => tags.appendChild(el('span','tag alt','')).textContent = t);
     bd.appendChild(tags);
     c.append(bd, footer('', 'Edit', '#'));
     feed.appendChild(c);
@@ -1045,9 +1011,7 @@ function buildFeed() {
   {
     const c = cardShell('legacy', 'legacy', 'Legacy Motivation', 'Why this matters');
     const bd = el('div', 'card-bd');
-    const p = el('p', 'pull');
-    p.innerHTML = 'My story and voice — <em>preserved</em> for future family.';
-    bd.appendChild(p);
+    bd.appendChild(emphasise(el('p', 'pull'), state.values.motivation));
     c.append(bd, footer('', 'Edit', '#'));
     feed.appendChild(c);
   }
@@ -1058,8 +1022,7 @@ function buildFeed() {
     const bd = el('div', 'card-bd');
     const p = el('p');
     p.style.cssText = 'font-size:13.5px;color:var(--ink-2);line-height:1.55';
-    p.innerHTML = 'Shared with another person <strong style="color:var(--ink)">only with their fully informed, independent consent</strong> at the relevant time.';
-    bd.appendChild(p);
+    bd.appendChild(emphasise(p, state.values.consent, 'consent-strong'));
     c.append(bd, footer('', 'Change consent', '#'));
     feed.appendChild(c);
   }
