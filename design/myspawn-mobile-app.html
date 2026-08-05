@@ -1,0 +1,2059 @@
+<title>MySpawn — Mobile App · Design Board</title>
+<meta name="description" content="18-screen mobile app design for MySpawn, a DNA preservation and personal legacy service." />
+<style>
+  :root {
+    --board:        #E5E1D9;
+    --board-line:   rgba(26, 25, 23, 0.06);
+    --paper:        #F8F9FB;
+    --ink:          #1A1917;
+    --ink-2:        #3A3733;
+    --slate:        #94A3B8;
+    --slate-2:      #64748B;
+    --hairline:     rgba(26, 25, 23, 0.10);
+    --hairline-2:   rgba(26, 25, 23, 0.06);
+    --vault:        #0A0E1A;
+    --vault-2:      #14192A;
+    --indigo:       #6366F1;
+    --indigo-deep:  #4338CA;
+    --indigo-tint:  rgba(99, 102, 241, 0.08);
+    --bone:         #EDE9E1;
+    --ok:           #4C9F70;
+    --pending:      #E4A74C;
+    --caution:      #C15E5E;
+    --serif: Georgia, "Times New Roman", "Instrument Serif", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Manrope", "Inter", "Segoe UI", system-ui, sans-serif;
+    --mono: ui-monospace, "SF Mono", "DM Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --board:      #0B0C11;
+      --board-line: rgba(255,255,255,0.05);
+      --paper:      #F8F9FB;
+      --ink:        #1A1917;
+    }
+  }
+  :root[data-theme="light"] {
+    --board: #E5E1D9; --board-line: rgba(26,25,23,0.06);
+  }
+  :root[data-theme="dark"] {
+    --board: #0B0C11; --board-line: rgba(255,255,255,0.05);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--sans);
+    background-color: var(--board);
+    background-image:
+      radial-gradient(circle at 1px 1px, var(--board-line) 1px, transparent 0);
+    background-size: 24px 24px;
+    color: var(--ink);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Board chrome */
+  .board-header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 56px 40px 24px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 32px;
+    align-items: end;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .board-header .brand {
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink);
+    font-weight: 700;
+    font-family: var(--mono);
+  }
+  .board-header h1 {
+    margin: 12px 0 0;
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(40px, 6vw, 72px);
+    letter-spacing: -0.02em;
+    line-height: 0.95;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+  .board-header h1 em { font-style: normal; font-family: var(--sans); font-weight: 800; font-size: 0.86em; letter-spacing: -0.03em; }
+  .board-header .meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--slate-2);
+    text-align: right;
+    line-height: 1.8;
+  }
+  .board-header .meta b { color: var(--ink); font-weight: 500; }
+
+  .board-legend {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 40px 32px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .legend-block .label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate-2);
+    margin-bottom: 12px;
+  }
+  .legend-block .value {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink);
+    line-height: 1.7;
+  }
+  .swatches { display: flex; gap: 6px; margin-bottom: 8px; }
+  .swatch {
+    width: 28px; height: 28px; border-radius: 4px; border: 1px solid var(--hairline);
+    position: relative;
+  }
+
+  /* Phone grid */
+  .board {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 48px 40px 96px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 72px 40px;
+  }
+  @media (max-width: 1080px) { .board { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+  @media (max-width: 720px) { .board { grid-template-columns: 1fr; padding: 24px 16px 64px; gap: 48px 0; } }
+
+  .plate { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .plate-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate-2);
+    display: flex; align-items: baseline; gap: 12px;
+    align-self: stretch; padding: 0 4px;
+  }
+  .plate-label b { color: var(--ink); font-weight: 700; }
+  .plate-label .dot { flex: 1; height: 1px; background: var(--hairline); position: relative; top: -3px; }
+
+  /* Phone shell */
+  .phone {
+    width: 390px; height: 844px;
+    background: var(--paper);
+    border-radius: 44px;
+    border: 1px solid var(--hairline);
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.5) inset,
+      0 30px 60px -20px rgba(15, 20, 40, 0.18),
+      0 8px 20px -8px rgba(15, 20, 40, 0.14);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .phone::before {
+    content: "";
+    position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+    width: 124px; height: 34px; background: #0A0E1A; border-radius: 20px; z-index: 20;
+  }
+  .phone.dark { background: var(--vault); color: #F5F3EF; }
+
+  /* Status bar */
+  .status {
+    position: absolute; top: 0; left: 0; right: 0; height: 54px; z-index: 25;
+    padding: 18px 32px 0; display: flex; justify-content: space-between; align-items: center;
+    font-family: var(--sans); font-weight: 700; font-size: 15px; letter-spacing: -0.01em;
+  }
+  .status .signal { display: flex; gap: 5px; align-items: center; }
+  .status .signal svg { display: block; }
+  .phone.dark .status { color: #F5F3EF; }
+
+  /* Screen shell */
+  .screen { position: absolute; inset: 0; padding: 54px 0 0; display: flex; flex-direction: column; }
+  .screen-body { flex: 1; overflow: hidden; padding: 12px 24px 12px; display: flex; flex-direction: column; }
+
+  /* Nav bar */
+  .navbar {
+    padding: 12px 24px 8px; display: flex; align-items: center; justify-content: space-between;
+    font-family: var(--sans);
+  }
+  .navbar .title { font-weight: 800; letter-spacing: -0.02em; font-size: 20px; }
+  .navbar .icon-btn {
+    width: 36px; height: 36px; border-radius: 18px; background: transparent;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid var(--hairline-2);
+  }
+  .navbar .icon-btn svg { display: block; }
+
+  /* Tab bar */
+  .tabbar {
+    position: absolute; left: 12px; right: 12px; bottom: 12px; height: 76px;
+    background: rgba(255,255,255,0.85); backdrop-filter: blur(24px);
+    border-radius: 28px; border: 1px solid var(--hairline);
+    display: grid; grid-template-columns: repeat(5, 1fr); align-items: center;
+    padding: 0 8px 18px;
+  }
+  .phone.dark .tabbar { background: rgba(20,25,42,0.85); border-color: rgba(255,255,255,0.08); }
+  .tab {
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+    font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--slate-2); padding-top: 12px;
+  }
+  .tab.active { color: var(--ink); }
+  .phone.dark .tab { color: #6b7280; }
+  .phone.dark .tab.active { color: #F5F3EF; }
+  .tab svg { display: block; }
+  .tab-dot { width: 4px; height: 4px; background: var(--indigo); border-radius: 50%; margin-top: 2px; }
+  .tab:not(.active) .tab-dot { visibility: hidden; }
+
+  /* Home indicator */
+  .home-indicator {
+    position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);
+    width: 134px; height: 5px; border-radius: 3px; background: rgba(26,25,23,0.35); z-index: 30;
+  }
+  .phone.dark .home-indicator { background: rgba(255,255,255,0.35); }
+
+  /* Typography helpers */
+  .eyebrow { font-family: var(--mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--slate-2); }
+  .eyebrow-ink { color: var(--ink); }
+  .display { font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: -0.02em; line-height: 1.02; color: var(--ink); text-wrap: balance; }
+  .h1 { font-family: var(--sans); font-weight: 800; font-size: 30px; letter-spacing: -0.03em; line-height: 1.1; text-wrap: balance; }
+  .h2 { font-family: var(--sans); font-weight: 800; font-size: 22px; letter-spacing: -0.02em; line-height: 1.15; text-wrap: balance; }
+  .h3 { font-family: var(--sans); font-weight: 700; font-size: 16px; letter-spacing: -0.01em; }
+  .body { font-family: var(--sans); font-size: 14px; line-height: 1.5; color: var(--ink-2); }
+  .body-sm { font-family: var(--sans); font-size: 12px; line-height: 1.5; color: var(--ink-2); }
+  .mono { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; color: var(--slate-2); }
+  .mono-ink { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; color: var(--ink); }
+  .accent { color: var(--indigo); }
+  .brand-word { font-family: var(--sans); font-weight: 800; letter-spacing: -0.03em; }
+  .brand-word .ink { color: var(--ink); }
+  .brand-word .spawn { color: var(--indigo); }
+  .brand-word sup { font-family: var(--sans); font-weight: 600; color: var(--slate); font-size: 0.5em; margin-left: 1px; position: relative; top: -0.5em; }
+  .phone.dark .brand-word .ink { color: #F5F3EF; }
+  .phone.dark .body { color: rgba(245,243,239,0.72); }
+  .phone.dark .mono { color: rgba(245,243,239,0.55); }
+  .phone.dark .mono-ink { color: #F5F3EF; }
+  .phone.dark .eyebrow { color: rgba(245,243,239,0.55); }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    font-family: var(--sans); font-weight: 700; font-size: 15px; letter-spacing: -0.01em;
+    padding: 14px 20px; border-radius: 999px; border: none; cursor: pointer;
+    transition: transform 120ms ease;
+  }
+  .btn-primary { background: var(--vault); color: #F5F3EF; }
+  .btn-indigo { background: var(--indigo); color: white; }
+  .btn-outline { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+  .btn-ghost { background: transparent; color: var(--ink); }
+  .btn-block { width: 100%; }
+  .btn svg { display: block; }
+
+  /* Cards */
+  .card {
+    background: white; border: 1px solid var(--hairline); border-radius: 20px; padding: 16px;
+  }
+  .card-vault { background: var(--vault); color: #F5F3EF; border: none; }
+  .card-bone { background: var(--bone); border-color: rgba(26,25,23,0.08); }
+  .card-outline { background: transparent; border: 1px solid var(--ink); }
+  .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .card-header .eyebrow { color: var(--slate-2); }
+  .card-vault .card-header .eyebrow { color: rgba(245,243,239,0.55); }
+  .card-vault .body { color: rgba(245,243,239,0.72); }
+
+  /* Chips & pills */
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 5px 10px; border-radius: 999px;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase;
+    border: 1px solid var(--hairline);
+    background: transparent;
+  }
+  .chip-ok { color: var(--ok); border-color: rgba(76,159,112,0.35); background: rgba(76,159,112,0.08); }
+  .chip-pending { color: #B67A2E; border-color: rgba(228,167,76,0.35); background: rgba(228,167,76,0.10); }
+  .chip-indigo { color: var(--indigo); border-color: rgba(99,102,241,0.35); background: rgba(99,102,241,0.08); }
+  .chip-dark { color: rgba(245,243,239,0.7); border-color: rgba(255,255,255,0.14); }
+  .dot { width: 6px; height: 6px; border-radius: 50%; display: inline-block; background: currentColor; }
+
+  /* Lists */
+  .divlist { display: flex; flex-direction: column; }
+  .divlist > * + * { border-top: 1px solid var(--hairline-2); }
+  .divrow { padding: 14px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .divrow .l { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .divrow .icon-tile {
+    width: 36px; height: 36px; border-radius: 10px; background: var(--bone);
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .divrow .label { font-weight: 600; font-size: 14px; letter-spacing: -0.01em; }
+  .divrow .meta { color: var(--slate-2); font-size: 12px; }
+
+  /* Vault sample block */
+  .sample-serial {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
+    color: var(--slate-2);
+  }
+  .sample-hero {
+    background: var(--vault); color: #F5F3EF; border-radius: 24px; padding: 20px;
+    background-image: radial-gradient(circle at 100% 0%, rgba(99,102,241,0.35), transparent 45%);
+  }
+
+  /* Progress */
+  .progress { height: 4px; background: var(--hairline); border-radius: 2px; overflow: hidden; }
+  .progress > i { display: block; height: 100%; background: var(--ink); border-radius: 2px; }
+  .progress.indigo > i { background: var(--indigo); }
+
+  /* Timeline */
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+  .tl-row { display: grid; grid-template-columns: 20px 1fr; gap: 12px; padding: 8px 0; }
+  .tl-mark { position: relative; height: 100%; }
+  .tl-mark::before { content: ""; position: absolute; left: 6px; top: 6px; width: 8px; height: 8px; border-radius: 50%; background: var(--slate); }
+  .tl-mark::after { content: ""; position: absolute; left: 9px; top: 16px; bottom: -8px; width: 2px; background: var(--hairline); }
+  .tl-row:last-child .tl-mark::after { display: none; }
+  .tl-row.done .tl-mark::before { background: var(--ok); }
+  .tl-row.active .tl-mark::before { background: var(--indigo); box-shadow: 0 0 0 4px rgba(99,102,241,0.15); }
+  .tl-row .tl-t { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; color: var(--slate-2); text-transform: uppercase; }
+  .tl-row .tl-l { font-weight: 700; font-size: 14px; letter-spacing: -0.01em; }
+  .tl-row .tl-m { color: var(--ink-2); font-size: 12px; }
+
+  /* Form */
+  .field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+  .field label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--slate-2); }
+  .field input, .field textarea {
+    font-family: var(--sans); font-size: 16px; letter-spacing: -0.01em; color: var(--ink);
+    background: white; border: 1px solid var(--hairline); border-radius: 12px;
+    padding: 14px 14px; outline: none;
+  }
+  .field .hint { font-size: 11px; color: var(--slate-2); }
+
+  /* Grid image placeholder */
+  .thumb {
+    aspect-ratio: 1/1; border-radius: 12px; background: linear-gradient(135deg, #C7D2FE 0%, #E9D5FF 100%);
+    position: relative; overflow: hidden;
+  }
+  .thumb.bone { background: var(--bone); }
+  .thumb.vault { background: var(--vault); }
+  .thumb .thumb-mono { position: absolute; left: 8px; bottom: 6px; font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; color: rgba(26,25,23,0.5); text-transform: uppercase; }
+  .thumb.vault .thumb-mono { color: rgba(245,243,239,0.55); }
+
+  /* Face preview (used in Blueprint / Preview screens) */
+  .face-preview {
+    aspect-ratio: 3/4; border-radius: 24px; overflow: hidden; position: relative;
+    background:
+      radial-gradient(circle at 50% 32%, #F5DEB3 0%, #F0C892 22%, transparent 42%),
+      radial-gradient(circle at 50% 78%, #1A1917 0%, #1A1917 40%, transparent 55%),
+      linear-gradient(180deg, #DDD3C4 0%, #B7A891 100%);
+  }
+  .face-preview .grid-overlay {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(90deg, rgba(0,0,0,0.06) 1px, transparent 1px) 0 0/25% 100%,
+      linear-gradient(0deg, rgba(0,0,0,0.06) 1px, transparent 1px) 0 0/100% 25%;
+    pointer-events: none;
+  }
+  .face-preview .corners::before, .face-preview .corners::after,
+  .face-preview .corners > i::before, .face-preview .corners > i::after {
+    content: ""; position: absolute; width: 16px; height: 16px; border: 2px solid rgba(245,243,239,0.85);
+  }
+  .face-preview .corners::before { top: 12px; left: 12px; border-right: 0; border-bottom: 0; }
+  .face-preview .corners::after { top: 12px; right: 12px; border-left: 0; border-bottom: 0; }
+  .face-preview .corners > i::before { bottom: 12px; left: 12px; border-right: 0; border-top: 0; }
+  .face-preview .corners > i::after { bottom: 12px; right: 12px; border-left: 0; border-top: 0; }
+  .face-preview .stamp {
+    position: absolute; left: 16px; top: 16px; font-family: var(--mono); font-size: 9px; letter-spacing: 0.16em;
+    color: rgba(245,243,239,0.85); text-transform: uppercase;
+  }
+  .face-preview .label {
+    position: absolute; left: 16px; right: 16px; bottom: 16px; display: flex; justify-content: space-between; align-items: flex-end;
+    color: rgba(245,243,239,0.95);
+  }
+  .face-preview .label .n {
+    font-family: var(--serif); font-style: italic; font-size: 28px; line-height: 1;
+  }
+  .face-preview .label .m { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.8; }
+
+  /* Slider */
+  .slider { display: flex; flex-direction: column; gap: 8px; padding: 10px 0; }
+  .slider .head { display: flex; justify-content: space-between; }
+  .slider .head .l { font-weight: 700; font-size: 13px; letter-spacing: -0.01em; }
+  .slider .head .v { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--slate-2); }
+  .slider .track { position: relative; height: 4px; background: var(--hairline); border-radius: 2px; }
+  .slider .track > .fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--ink); border-radius: 2px; }
+  .slider .track > .thumb-dot { position: absolute; top: 50%; width: 18px; height: 18px; border-radius: 50%; background: white; border: 2px solid var(--ink); transform: translate(-50%, -50%); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+
+  /* Segmented */
+  .seg { display: flex; padding: 4px; background: var(--bone); border-radius: 999px; }
+  .seg > button {
+    flex: 1; border: none; background: transparent; padding: 8px 12px; border-radius: 999px;
+    font-family: var(--sans); font-weight: 600; font-size: 12px; letter-spacing: -0.01em; color: var(--slate-2);
+    cursor: pointer;
+  }
+  .seg > button.active { background: white; color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+
+  /* Accordion */
+  .accordion { display: flex; flex-direction: column; }
+  .accordion > * + * { border-top: 1px solid var(--hairline-2); }
+  .accordion .row { padding: 14px 0; display: flex; align-items: flex-start; gap: 12px; }
+  .accordion .row .q { font-weight: 700; font-size: 14px; letter-spacing: -0.01em; flex: 1; }
+  .accordion .row.open .q { color: var(--ink); }
+  .accordion .row .plus { font-family: var(--mono); color: var(--slate-2); font-size: 14px; }
+  .accordion .row.open .plus { color: var(--ink); }
+  .accordion .row .a { padding: 4px 0 0; color: var(--ink-2); font-size: 12px; line-height: 1.55; }
+
+  /* Number marker */
+  .num { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: 0.1em; color: var(--slate-2); }
+  .num-big { font-family: var(--serif); font-style: italic; font-size: 40px; line-height: 1; color: var(--ink); }
+
+  /* Utility */
+  .col { display: flex; flex-direction: column; }
+  .row { display: flex; }
+  .gap-2 { gap: 8px; } .gap-3 { gap: 12px; } .gap-4 { gap: 16px; } .gap-5 { gap: 20px; } .gap-6 { gap: 24px; } .gap-8 { gap: 32px; }
+  .mt-1 { margin-top: 4px; } .mt-2 { margin-top: 8px; } .mt-3 { margin-top: 12px; } .mt-4 { margin-top: 16px; } .mt-5 { margin-top: 20px; } .mt-6 { margin-top: 24px; } .mt-8 { margin-top: 32px; } .mt-auto { margin-top: auto; }
+  .mb-1 { margin-bottom: 4px; } .mb-2 { margin-bottom: 8px; } .mb-3 { margin-bottom: 12px; } .mb-4 { margin-bottom: 16px; }
+  .justify-between { justify-content: space-between; } .items-center { align-items: center; } .items-end { align-items: flex-end; }
+  .text-center { text-align: center; }
+  .grow { flex: 1; min-height: 0; } .shrink-0 { flex-shrink: 0; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+
+  /* Footer */
+  footer.board-footer {
+    max-width: 1440px; margin: 0 auto; padding: 40px 40px 80px;
+    border-top: 1px solid var(--hairline);
+    display: grid; grid-template-columns: 1fr auto; gap: 24px;
+    color: var(--slate-2); font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  footer.board-footer .brand-word { color: var(--ink); font-family: var(--sans); font-size: 12px; letter-spacing: -0.02em; text-transform: none; }
+  footer .r { text-align: right; line-height: 1.8; }
+  footer .r b { color: var(--ink); font-weight: 500; }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<!-- ================== BOARD ================== -->
+<header class="board-header">
+  <div>
+    <div class="brand"><span class="brand-word"><span class="ink">My</span><span class="spawn">Spawn</span><sup>™</sup></span> · Mobile Application</div>
+    <h1><em>Outlive yourself.</em> <br />An 18&#8209;screen mobile <br /> app for the vault.</h1>
+  </div>
+  <div class="meta">
+    Client · <b>MySpawn Inc.</b><br />
+    Prepared for · <b>Jig Patel, Founder</b><br />
+    Version · <b>MOBILE.v1.2026.08</b><br />
+    Format · <b>iOS &nbsp;390 × 844</b>
+  </div>
+</header>
+
+<section class="board-legend">
+  <div class="legend-block">
+    <div class="label">Palette</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#0A0E1A" title="Vault"></div>
+      <div class="swatch" style="background:#1A1917" title="Ink"></div>
+      <div class="swatch" style="background:#6366F1" title="Indigo"></div>
+      <div class="swatch" style="background:#F8F9FB;border-color:#DDD" title="Paper"></div>
+      <div class="swatch" style="background:#EDE9E1" title="Bone"></div>
+      <div class="swatch" style="background:#94A3B8" title="Slate"></div>
+    </div>
+    <div class="value">Vault · Ink · Indigo · Paper · Bone · Slate</div>
+  </div>
+  <div class="legend-block">
+    <div class="label">Typography</div>
+    <div class="value">
+      <span style="font-family:var(--serif);font-style:italic;font-size:20px;color:var(--ink)">Instrument Serif</span> — emotional display<br />
+      <span style="font-family:var(--sans);font-weight:800;font-size:14px;color:var(--ink)">Manrope 800</span> — UI headings<br />
+      <span style="font-family:var(--mono);font-size:12px;color:var(--ink)">DM Mono</span> — serials, tracking, IDs
+    </div>
+  </div>
+  <div class="legend-block">
+    <div class="label">Voice</div>
+    <div class="value">Direct. Unsentimental. Humane.<br />No apologies, no hedging.<br />Short sentences carry weight.</div>
+  </div>
+  <div class="legend-block">
+    <div class="label">Principle</div>
+    <div class="value">This is not a social app.<br />It is archival infrastructure.<br />Treat every screen accordingly.</div>
+  </div>
+</section>
+
+<main class="board">
+
+<!-- =============================================================
+     SCREEN 01 — SPLASH
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.001</b> <span class="dot"></span> Splash</div>
+  <div class="phone dark">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="14" height="10" viewBox="0 0 14 10"><path d="M7 1.5a10 10 0 0 1 7 2.7l-1.4 1.4A8 8 0 0 0 7 3.5a8 8 0 0 0-5.6 2.1L0 4.2A10 10 0 0 1 7 1.5zm0 3a7 7 0 0 1 4.9 2l-1.4 1.4A5 5 0 0 0 7 6.5a5 5 0 0 0-3.5 1.4L2.1 6.5A7 7 0 0 1 7 4.5zm0 3a4 4 0 0 1 2.8 1.2L7 10.5 4.2 8.7A4 4 0 0 1 7 7.5z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/><rect x="21" y="3.5" width="1.5" height="4" fill="currentColor" opacity="0.5"/></svg>
+      </span>
+    </div>
+    <div class="screen" style="align-items:center;justify-content:space-between;padding-top:120px;padding-bottom:120px;">
+      <div style="text-align:center;">
+        <div class="mono" style="color:rgba(245,243,239,0.55);margin-bottom:24px;">PRESERVE · DESIGN · OUTLIVE</div>
+        <div style="font-size:52px;letter-spacing:-0.04em;font-weight:800;color:#F5F3EF;line-height:1;">
+          My<span style="color:#818CF8;">Spawn</span><sup style="font-family:var(--sans);font-weight:500;color:rgba(245,243,239,0.5);font-size:16px;position:relative;top:-24px;margin-left:2px;">™</sup>
+        </div>
+        <div class="mono" style="color:rgba(245,243,239,0.55);margin-top:20px;letter-spacing:0.2em;">est. 2026 · DOVER, DE</div>
+      </div>
+      <div style="width:120px;height:2px;background:rgba(245,243,239,0.15);position:relative;overflow:hidden;">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:35%;background:#818CF8;"></div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 02 — WELCOME / THESIS
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.002</b> <span class="dot"></span> Onboarding · Thesis</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="screen-body">
+        <div class="row justify-between items-center" style="padding-top:8px;">
+          <div class="mono-ink" style="font-weight:700;">01 / 04</div>
+          <div class="mono" style="letter-spacing:0.14em;">SKIP</div>
+        </div>
+        <div class="mt-8">
+          <div class="eyebrow">YOUR BLOODLINE · YOUR CHOICE · YOUR CALL</div>
+        </div>
+        <div class="mt-6">
+          <div class="display" style="font-size:64px;">Outlive<br /><span style="color:var(--indigo);">yourself.</span></div>
+        </div>
+        <div class="body mt-5" style="font-size:16px;line-height:1.5;max-width:300px;">
+          A DNA preservation and personal legacy service — for the people not waiting for a wedding, a partner, or the right time.
+        </div>
+
+        <div class="mt-auto"></div>
+        <div class="row gap-2 mb-4" style="justify-content:flex-start;">
+          <span style="width:24px;height:4px;background:var(--ink);border-radius:2px;"></span>
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+        </div>
+        <button class="btn btn-primary btn-block">Begin — 7 minutes
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="text-center mono mt-3">HAVE AN ACCOUNT? &nbsp; <span class="mono-ink">SIGN IN</span></div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 03 — THE QUESTION
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.003</b> <span class="dot"></span> Onboarding · The question</div>
+  <div class="phone" style="background:var(--bone);">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="screen-body">
+        <div class="row justify-between items-center" style="padding-top:8px;">
+          <div class="mono-ink" style="font-weight:700;">02 / 04</div>
+          <div class="mono">SKIP</div>
+        </div>
+        <div class="mt-8">
+          <div class="eyebrow">THE QUESTION NOBODY ASKS YOU</div>
+        </div>
+        <div class="mt-6">
+          <div class="display" style="font-size:36px;line-height:1.05;">
+            If you had a descendant tomorrow,<br />
+            <span style="color:var(--slate-2);">what would you name them?</span>
+          </div>
+          <div class="display mt-5" style="font-size:36px;line-height:1.05;">
+            What color would <br /><span style="color:var(--indigo);">their eyes be?</span>
+          </div>
+        </div>
+        <div class="mt-6" style="border-top:1px solid var(--hairline);padding-top:16px;">
+          <div class="body-sm" style="font-style:italic;">You just pictured them. That's the point.</div>
+        </div>
+        <div class="mt-auto"></div>
+        <div class="row gap-2 mb-4">
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+          <span style="width:24px;height:4px;background:var(--ink);border-radius:2px;"></span>
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+        </div>
+        <button class="btn btn-primary btn-block">Continue
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 04 — THREE THINGS
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.004</b> <span class="dot"></span> Onboarding · What you get</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="screen-body">
+        <div class="row justify-between items-center" style="padding-top:8px;">
+          <div class="mono-ink" style="font-weight:700;">03 / 04</div>
+          <div class="mono">SKIP</div>
+        </div>
+        <div class="mt-6">
+          <div class="eyebrow">THREE THINGS · ONE VAULT · DECADES OF OPTIONALITY</div>
+          <div class="h1 mt-3">The protection plan <br />for your genes.</div>
+        </div>
+
+        <div class="mt-6 col gap-4">
+          <div class="card">
+            <div class="row gap-3 items-center">
+              <span class="num-big" style="font-size:32px;">01</span>
+              <div class="col">
+                <div class="h3">Design your descendant</div>
+                <div class="body-sm">Upload a photo. Pick the eyes, the build, the name. See them.</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row gap-3 items-center">
+              <span class="num-big" style="font-size:32px;color:var(--indigo);">02</span>
+              <div class="col">
+                <div class="h3">Preserve your DNA</div>
+                <div class="body-sm">Clip a few strands of hair. Drop in the mailer. Done in 7 minutes.</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row gap-3 items-center">
+              <span class="num-big" style="font-size:32px;">03</span>
+              <div class="col">
+                <div class="h3">Upload everything that made you, you</div>
+                <div class="body-sm">Photos. Voice. Stories. They inherit your DNA. And you.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <div class="row gap-2 mb-4">
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+          <span style="width:24px;height:4px;background:var(--ink);border-radius:2px;"></span>
+          <span style="width:8px;height:4px;background:var(--hairline);border-radius:2px;"></span>
+        </div>
+        <button class="btn btn-primary btn-block">Continue</button>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 05 — SIGN UP
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.005</b> <span class="dot"></span> Claim founder spot</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="mono-ink" style="font-weight:700;">04 / 04</div>
+        <span style="width:36px;"></span>
+      </div>
+      <div class="screen-body">
+        <div class="chip chip-indigo" style="align-self:flex-start;"><span class="dot"></span>FOUNDER PRICING · LIMITED</div>
+        <div class="h1 mt-3">Claim your <br />founder spot.</div>
+        <div class="body mt-2">Free kit shipped. Cancel anytime. No subscriptions, ever.</div>
+
+        <div class="mt-5">
+          <div class="field">
+            <label>Full name</label>
+            <input value="Jig Patel" />
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input value="jig@myspawn.me" />
+          </div>
+          <div class="field">
+            <label>Shipping address</label>
+            <input value="8 The Green, Dover, DE 19901" />
+            <span class="hint">Your DNA kit ships here — free.</span>
+          </div>
+        </div>
+
+        <div class="mt-3" style="display:flex;gap:12px;align-items:flex-start;">
+          <span style="width:20px;height:20px;border-radius:5px;background:var(--vault);flex-shrink:0;display:flex;align-items:center;justify-content:center;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F5F3EF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="body-sm">I have read and agree to the <span style="text-decoration:underline;">Terms of Service</span> and <span style="text-decoration:underline;">Privacy Policy</span>. I understand MySpawn performs storage only.</div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <button class="btn btn-indigo btn-block">Claim my spot — $99</button>
+        <div class="mono text-center mt-2">FREE KIT SHIPPED · CANCEL ANYTIME</div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 06 — VERIFY
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.006</b> <span class="dot"></span> Verify identity</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="mono-ink" style="font-weight:700;">VERIFY</div>
+        <span style="width:36px;"></span>
+      </div>
+      <div class="screen-body">
+        <div class="eyebrow">CHAIN OF CUSTODY BEGINS HERE</div>
+        <div class="h1 mt-3">A six&#8209;digit code is on its way.</div>
+        <div class="body mt-2">Sent to <b style="color:var(--ink);">jig@myspawn.me</b>. This locks your vault serial to you and only you.</div>
+
+        <div class="mt-6 row gap-2" style="justify-content:space-between;">
+          <div style="width:48px;height:60px;border-radius:12px;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-style:italic;font-size:28px;">9</div>
+          <div style="width:48px;height:60px;border-radius:12px;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-style:italic;font-size:28px;">2</div>
+          <div style="width:48px;height:60px;border-radius:12px;border:1px solid var(--hairline);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-style:italic;font-size:28px;">1</div>
+          <div style="width:48px;height:60px;border-radius:12px;border:1px solid var(--hairline);display:flex;align-items:center;justify-content:center;"></div>
+          <div style="width:48px;height:60px;border-radius:12px;border:1px solid var(--hairline);display:flex;align-items:center;justify-content:center;"></div>
+          <div style="width:48px;height:60px;border-radius:12px;border:1px solid var(--hairline);display:flex;align-items:center;justify-content:center;"></div>
+        </div>
+
+        <div class="mt-6 card">
+          <div class="row gap-3 items-center">
+            <div style="width:38px;height:38px;border-radius:10px;background:var(--indigo-tint);display:flex;align-items:center;justify-content:center;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="4" y="10" width="16" height="10" rx="2" stroke="#6366F1" stroke-width="2"/><path d="M8 10V7a4 4 0 018 0v3" stroke="#6366F1" stroke-width="2"/></svg>
+            </div>
+            <div class="col grow">
+              <div class="h3">Face ID or Touch ID</div>
+              <div class="body-sm">Enable biometric lock for your vault.</div>
+            </div>
+            <div style="width:44px;height:26px;border-radius:13px;background:var(--vault);position:relative;">
+              <span style="position:absolute;right:3px;top:3px;width:20px;height:20px;border-radius:50%;background:#F5F3EF;"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 mono">DIDN'T ARRIVE? <span class="mono-ink" style="text-decoration:underline;">RESEND IN 42S</span></div>
+
+        <div class="mt-auto"></div>
+        <button class="btn btn-primary btn-block">Verify &amp; open vault</button>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 07 — HOME / DASHBOARD
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.007</b> <span class="dot"></span> Home · Dashboard</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="screen-body" style="padding-bottom:100px;overflow:hidden;">
+        <div class="row justify-between items-center" style="padding-top:8px;">
+          <div class="col">
+            <div class="mono">TUESDAY · 04 AUG 2026</div>
+            <div class="display mt-1" style="font-size:24px;">Good evening, Jig.</div>
+          </div>
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#0A0E1A,#4338CA);color:#F5F3EF;display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:800;">JP</div>
+        </div>
+
+        <div class="sample-hero mt-5">
+          <div class="row justify-between items-center">
+            <div class="mono" style="color:rgba(245,243,239,0.55);letter-spacing:0.14em;">VAULT · SPAWN.00000001</div>
+            <span class="chip chip-pending"><span class="dot"></span>KIT EN ROUTE</span>
+          </div>
+          <div class="display mt-3" style="font-size:32px;color:#F5F3EF;font-style:italic;">Your vault is <span style="color:#818CF8;">forming.</span></div>
+          <div class="row justify-between items-end mt-5">
+            <div class="col">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">ARRIVES</div>
+              <div style="font-family:var(--mono);font-size:18px;color:#F5F3EF;letter-spacing:0.06em;margin-top:4px;">FRI · AUG 08</div>
+            </div>
+            <div class="col items-end">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">CHAIN</div>
+              <div style="font-family:var(--mono);font-size:18px;color:#F5F3EF;letter-spacing:0.06em;margin-top:4px;">4 of 12 ✓</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 eyebrow eyebrow-ink">THE VAULT · THREE MODULES</div>
+
+        <div class="mt-3 col gap-3">
+          <div class="card" style="padding:14px 16px;">
+            <div class="row justify-between items-center">
+              <div class="row gap-3 items-center">
+                <div style="width:36px;height:36px;border-radius:10px;background:var(--bone);display:flex;align-items:center;justify-content:center;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 3v18M18 3v18M6 8c6 0 6 8 12 8M6 16c6 0 6-8 12-8" stroke="#1A1917" stroke-width="1.5"/></svg>
+                </div>
+                <div class="col">
+                  <div class="h3">DNA sample</div>
+                  <div class="mono">Awaiting collection</div>
+                </div>
+              </div>
+              <span class="chip chip-pending">0%</span>
+            </div>
+          </div>
+          <div class="card" style="padding:14px 16px;">
+            <div class="row justify-between items-center">
+              <div class="row gap-3 items-center">
+                <div style="width:36px;height:36px;border-radius:10px;background:var(--indigo-tint);display:flex;align-items:center;justify-content:center;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="#6366F1" stroke-width="1.5"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="#6366F1" stroke-width="1.5"/></svg>
+                </div>
+                <div class="col">
+                  <div class="h3">Blueprint</div>
+                  <div class="mono">Draft saved · Aug 2</div>
+                </div>
+              </div>
+              <span class="chip chip-indigo">62%</span>
+            </div>
+          </div>
+          <div class="card" style="padding:14px 16px;">
+            <div class="row justify-between items-center">
+              <div class="row gap-3 items-center">
+                <div style="width:36px;height:36px;border-radius:10px;background:var(--bone);display:flex;align-items:center;justify-content:center;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="#1A1917" stroke-width="1.5"/><circle cx="9" cy="10" r="2" stroke="#1A1917" stroke-width="1.5"/><path d="M5 18l4-4 3 3 3-3 4 4" stroke="#1A1917" stroke-width="1.5"/></svg>
+                </div>
+                <div class="col">
+                  <div class="h3">Memory vault</div>
+                  <div class="mono">12 photos · 3 voice · 1 story</div>
+                </div>
+              </div>
+              <span class="chip chip-ok">18%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 eyebrow eyebrow-ink">NEXT STEP</div>
+        <div class="card card-bone mt-2" style="padding:14px 16px;">
+          <div class="row justify-between items-center">
+            <div class="col">
+              <div class="h3">Watch collection walkthrough</div>
+              <div class="mono">3 MIN · WHEN KIT ARRIVES</div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#1A1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="tab active">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12l9-8 9 8v9a1 1 0 01-1 1h-5v-6h-6v6H4a1 1 0 01-1-1v-9z" stroke="currentColor" stroke-width="1.5"/></svg>
+          HOME<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="4" y="6" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 6V4h8v2M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.5"/></svg>
+          VAULT<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" stroke="currentColor" stroke-width="1.5"/></svg>
+          BLUEPRINT<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 3v18M15 3v18M9 8h6M9 16h6" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/></svg>
+          MEMORIES<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="1.5"/></svg>
+          YOU<span class="tab-dot"></span>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 08 — MY VAULT
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.008</b> <span class="dot"></span> My vault · Full record</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="col">
+          <div class="mono">VAULT · SPAWN.00000001</div>
+          <div class="title">My vault</div>
+        </div>
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="1.5" fill="currentColor"/><circle cx="12" cy="5" r="1.5" fill="currentColor"/><circle cx="12" cy="19" r="1.5" fill="currentColor"/></svg>
+        </div>
+      </div>
+      <div class="screen-body" style="padding-bottom:100px;">
+        <div class="card-vault" style="padding:16px;border-radius:20px;">
+          <div class="row justify-between">
+            <div class="col gap-2">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">SAMPLE SERIAL</div>
+              <div style="font-family:var(--mono);color:#F5F3EF;font-size:16px;letter-spacing:0.14em;">SPX-8A2·4EF·22C</div>
+            </div>
+            <div class="col items-end gap-2">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">STATUS</div>
+              <span class="chip chip-pending"><span class="dot"></span>IN TRANSIT</span>
+            </div>
+          </div>
+          <div style="height:1px;background:rgba(255,255,255,0.08);margin:16px 0;"></div>
+          <div class="row justify-between">
+            <div class="col gap-2">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">BIOBANK</div>
+              <div style="color:#F5F3EF;font-weight:700;letter-spacing:-0.01em;">Ridgeline Biobank, TX</div>
+            </div>
+            <div class="col items-end gap-2">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">STANDARD</div>
+              <div style="color:#F5F3EF;font-weight:700;letter-spacing:-0.01em;">ISO 20387 · CAP</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 eyebrow eyebrow-ink">CHAIN OF CUSTODY</div>
+        <div class="timeline mt-2">
+          <div class="tl-row done">
+            <div class="tl-mark"></div>
+            <div class="col">
+              <div class="tl-t">AUG 03 · 14:22</div>
+              <div class="tl-l">Kit assembled &amp; sealed</div>
+              <div class="tl-m">Fulfillment · Dover, DE</div>
+            </div>
+          </div>
+          <div class="tl-row done">
+            <div class="tl-mark"></div>
+            <div class="col">
+              <div class="tl-t">AUG 03 · 18:05</div>
+              <div class="tl-l">Handed to courier</div>
+              <div class="tl-m">USPS Priority · Tracking 92048…</div>
+            </div>
+          </div>
+          <div class="tl-row active">
+            <div class="tl-mark"></div>
+            <div class="col">
+              <div class="tl-t">AUG 04 · 09:13</div>
+              <div class="tl-l">In transit to you</div>
+              <div class="tl-m">Last scan · Wilmington, DE</div>
+            </div>
+          </div>
+          <div class="tl-row">
+            <div class="tl-mark"></div>
+            <div class="col">
+              <div class="tl-t">EST. AUG 08</div>
+              <div class="tl-l">Arrival · you collect</div>
+              <div class="tl-m">Return prepaid label included</div>
+            </div>
+          </div>
+          <div class="tl-row">
+            <div class="tl-mark"></div>
+            <div class="col">
+              <div class="tl-t">EST. AUG 14</div>
+              <div class="tl-l">Accession at biobank</div>
+              <div class="tl-m">Barcoded · logged · secured</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 eyebrow eyebrow-ink">HEIRS · 1 SET</div>
+        <div class="card mt-2" style="padding:12px 16px;">
+          <div class="row justify-between items-center">
+            <div class="col">
+              <div class="h3">Priya Patel &nbsp;·&nbsp; sister</div>
+              <div class="mono">READ ACCESS · POSTHUMOUS RELEASE</div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#1A1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12l9-8 9 8v9a1 1 0 01-1 1h-5v-6h-6v6H4a1 1 0 01-1-1v-9z" stroke="currentColor" stroke-width="1.5"/></svg>
+          HOME<span class="tab-dot"></span>
+        </div>
+        <div class="tab active">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="4" y="6" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 6V4h8v2M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.5"/></svg>
+          VAULT<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="currentColor" stroke-width="1.5"/></svg>
+          BLUEPRINT<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M9 8h6M9 16h6" stroke="currentColor" stroke-width="1.5"/></svg>
+          MEMORIES<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="1.5"/></svg>
+          YOU<span class="tab-dot"></span>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 09 — DNA KIT TRACKING (detail)
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.009</b> <span class="dot"></span> DNA kit · Live tracking</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="title">DNA kit</div>
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M4 6h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="card-vault" style="background:var(--vault);color:#F5F3EF;border-radius:24px;padding:20px;overflow:hidden;position:relative;">
+          <div class="mono" style="color:rgba(245,243,239,0.55);">USPS PRIORITY · TRACKING</div>
+          <div style="font-family:var(--mono);color:#F5F3EF;font-size:18px;letter-spacing:0.14em;margin-top:6px;">9204 8901 3 0000 4429 71</div>
+
+          <div style="height:120px;margin-top:20px;position:relative;">
+            <!-- schematic map -->
+            <svg width="100%" height="100%" viewBox="0 0 320 120" preserveAspectRatio="none">
+              <path d="M20 90 Q 80 30, 160 60 T 300 40" stroke="#818CF8" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+              <path d="M20 90 Q 80 30, 155 58" stroke="#F5F3EF" stroke-width="2" fill="none"/>
+              <circle cx="20" cy="90" r="4" fill="#4C9F70"/>
+              <circle cx="155" cy="58" r="6" fill="#818CF8" stroke="#F5F3EF" stroke-width="2"/>
+              <circle cx="300" cy="40" r="4" fill="#94A3B8"/>
+            </svg>
+            <div style="position:absolute;left:0;bottom:0;font-family:var(--mono);font-size:9px;letter-spacing:0.12em;color:rgba(245,243,239,0.55);">DOVER, DE</div>
+            <div style="position:absolute;right:0;top:0;font-family:var(--mono);font-size:9px;letter-spacing:0.12em;color:rgba(245,243,239,0.55);">RIDGELINE, TX</div>
+            <div style="position:absolute;left:44%;top:44%;font-family:var(--mono);font-size:9px;letter-spacing:0.12em;color:#F5F3EF;">WILMINGTON</div>
+          </div>
+
+          <div class="row justify-between items-end" style="margin-top:12px;">
+            <div class="col">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">STATUS</div>
+              <div style="font-family:var(--sans);font-weight:800;font-size:20px;color:#F5F3EF;letter-spacing:-0.02em;margin-top:4px;">Out for delivery</div>
+            </div>
+            <div class="col items-end">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">ETA</div>
+              <div style="font-family:var(--mono);font-size:20px;color:#818CF8;letter-spacing:0.08em;margin-top:4px;">3D · 04H</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 eyebrow eyebrow-ink">WHAT'S INSIDE</div>
+        <div class="mt-3 grid-2">
+          <div class="card" style="padding:12px;">
+            <div class="thumb bone" style="aspect-ratio:1/1;border-radius:10px;margin-bottom:8px;position:relative;">
+              <span class="thumb-mono">01</span>
+              <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><rect x="8" y="4" width="8" height="16" rx="1" stroke="#1A1917" stroke-width="1.5"/><circle cx="12" cy="14" r="2" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+            </div>
+            <div class="h3">Collection tube</div>
+            <div class="mono">STERILE · TAMPER-SEAL</div>
+          </div>
+          <div class="card" style="padding:12px;">
+            <div class="thumb bone" style="aspect-ratio:1/1;border-radius:10px;margin-bottom:8px;position:relative;">
+              <span class="thumb-mono">02</span>
+              <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="#1A1917" stroke-width="1.5"/><path d="M4 4l8 8 8-8" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+            </div>
+            <div class="h3">Prepaid mailer</div>
+            <div class="mono">USPS PRIORITY RETURN</div>
+          </div>
+          <div class="card" style="padding:12px;">
+            <div class="thumb bone" style="aspect-ratio:1/1;border-radius:10px;margin-bottom:8px;position:relative;">
+              <span class="thumb-mono">03</span>
+              <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><rect x="4" y="6" width="16" height="12" rx="1" stroke="#1A1917" stroke-width="1.5"/><path d="M4 10h16M9 6v-2h6v2" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+            </div>
+            <div class="h3">Serial card</div>
+            <div class="mono">SPX-8A2·4EF·22C</div>
+          </div>
+          <div class="card" style="padding:12px;">
+            <div class="thumb bone" style="aspect-ratio:1/1;border-radius:10px;margin-bottom:8px;position:relative;">
+              <span class="thumb-mono">04</span>
+              <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="1" stroke="#1A1917" stroke-width="1.5"/><path d="M7 8h10M7 12h10M7 16h6" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+            </div>
+            <div class="h3">Instructions</div>
+            <div class="mono">7 MIN · 1 PAGE</div>
+          </div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <button class="btn btn-primary btn-block mt-4">Notify me on arrival</button>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 10 — COLLECTION INSTRUCTIONS
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.010</b> <span class="dot"></span> Collection · Step by step</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="title">Collection</div>
+        <div class="mono-ink" style="font-weight:700;">3/5</div>
+      </div>
+      <div class="screen-body">
+        <div class="row items-center gap-3">
+          <div class="progress grow"><i style="width:60%;"></i></div>
+          <span class="mono-ink" style="font-weight:700;">07:00</span>
+        </div>
+
+        <div class="mt-5">
+          <div class="eyebrow">STEP 03</div>
+          <div class="h1 mt-2">Clip 8–10 strands with the root attached.</div>
+          <div class="body mt-2">Root follicle is what stores the DNA. Aim for the base — don't cut mid-strand.</div>
+        </div>
+
+        <!-- Illustration frame -->
+        <div class="mt-4" style="aspect-ratio:16/9;border-radius:16px;background:var(--bone);position:relative;overflow:hidden;">
+          <svg width="100%" height="100%" viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet">
+            <!-- schematic hair strand -->
+            <path d="M60 40 C 90 60, 130 30, 160 70 S 220 110, 260 80" stroke="#1A1917" stroke-width="2" fill="none"/>
+            <path d="M65 45 C 95 65, 135 35, 165 75 S 225 115, 265 85" stroke="#1A1917" stroke-width="2" fill="none" opacity="0.5"/>
+            <circle cx="60" cy="40" r="6" fill="#6366F1"/>
+            <text x="76" y="30" font-family="ui-monospace" font-size="9" fill="#6366F1" letter-spacing="1">ROOT</text>
+            <line x1="200" y1="90" x2="200" y2="130" stroke="#94A3B8" stroke-width="1" stroke-dasharray="2 3"/>
+            <line x1="200" y1="130" x2="260" y2="130" stroke="#94A3B8" stroke-width="1"/>
+            <text x="205" y="145" font-family="ui-monospace" font-size="9" fill="#94A3B8" letter-spacing="1">CUT ZONE ✕</text>
+          </svg>
+        </div>
+
+        <div class="mt-3 card card-bone" style="padding:12px 14px;">
+          <div class="row gap-3 items-center">
+            <div style="width:32px;height:32px;border-radius:8px;background:white;display:flex;align-items:center;justify-content:center;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#6366F1" stroke-width="1.5"/><path d="M12 7v5l3 2" stroke="#6366F1" stroke-width="1.5"/></svg>
+            </div>
+            <div class="body-sm"><b style="color:var(--ink);">Take your time.</b> Timer is a target — accuracy matters more.</div>
+          </div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <div class="row gap-2">
+          <button class="btn btn-outline" style="flex:0 0 auto;padding:14px 18px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="btn btn-primary grow">Done · Next step
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 11 — BLUEPRINT DESIGNER
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.011</b> <span class="dot"></span> Blueprint · Designer</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="col">
+          <div class="mono">BLUEPRINT · DRAFT 04</div>
+          <div class="title">Design descendant</div>
+        </div>
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+      <div class="screen-body" style="padding-bottom:100px;">
+        <div class="face-preview" style="aspect-ratio:5/4;">
+          <div class="grid-overlay"></div>
+          <div class="corners"><i></i></div>
+          <div class="stamp">SPX · BLUEPRINT · DRAFT 04</div>
+          <div class="label">
+            <div class="col">
+              <div class="m">NAME</div>
+              <div class="n">Kavi.</div>
+            </div>
+            <div class="m" style="text-align:right;">SPECULATIVE<br/>AI PREVIEW</div>
+          </div>
+        </div>
+
+        <div class="mt-3 seg">
+          <button class="active">Looks</button>
+          <button>Traits</button>
+          <button>Health</button>
+          <button>Name</button>
+        </div>
+
+        <div class="mt-3">
+          <div class="slider">
+            <div class="head"><span class="l">Eye color</span><span class="v">HAZEL · 5B4A2E</span></div>
+            <div class="track"><span class="fill" style="width:64%;"></span><span class="thumb-dot" style="left:64%;"></span></div>
+          </div>
+          <div class="slider">
+            <div class="head"><span class="l">Hair</span><span class="v">DARK · WAVY</span></div>
+            <div class="track"><span class="fill" style="width:38%;"></span><span class="thumb-dot" style="left:38%;"></span></div>
+          </div>
+          <div class="slider">
+            <div class="head"><span class="l">Build</span><span class="v">LEAN · TALL</span></div>
+            <div class="track"><span class="fill" style="width:72%;"></span><span class="thumb-dot" style="left:72%;"></span></div>
+          </div>
+          <div class="slider">
+            <div class="head"><span class="l">Skin tone</span><span class="v">WARM · MEDIUM</span></div>
+            <div class="track"><span class="fill" style="width:55%;"></span><span class="thumb-dot" style="left:55%;"></span></div>
+          </div>
+        </div>
+
+        <div class="mt-3 card card-bone" style="padding:10px 12px;">
+          <div class="mono">
+            <b style="color:var(--ink);">Conceptual.</b> All design customisation is speculative. No biological outcomes guaranteed.
+          </div>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12l9-8 9 8v9a1 1 0 01-1 1h-5v-6h-6v6H4a1 1 0 01-1-1v-9z" stroke="currentColor" stroke-width="1.5"/></svg>
+          HOME<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="4" y="6" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/></svg>
+          VAULT<span class="tab-dot"></span>
+        </div>
+        <div class="tab active">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="currentColor" stroke-width="1.5"/></svg>
+          BLUEPRINT<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/></svg>
+          MEMORIES<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="1.5"/></svg>
+          YOU<span class="tab-dot"></span>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 12 — DESCENDANT PREVIEW
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.012</b> <span class="dot"></span> Descendant · AI preview</div>
+  <div class="phone dark">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn" style="border-color:rgba(255,255,255,0.14);color:#F5F3EF;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="title" style="color:#F5F3EF;">Preview</div>
+        <div class="icon-btn" style="border-color:rgba(255,255,255,0.14);color:#F5F3EF;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12v7a1 1 0 001 1h14a1 1 0 001-1v-7M16 6l-4-4-4 4M12 2v13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div style="aspect-ratio:3/4;border-radius:24px;overflow:hidden;position:relative;background:
+          radial-gradient(circle at 50% 30%, #F5DEB3 0%, #E4B885 25%, #2A1F14 55%, #0A0E1A 90%);">
+          <div style="position:absolute;inset:0;background:
+            linear-gradient(90deg, rgba(245,243,239,0.06) 1px, transparent 1px) 0 0/25% 100%,
+            linear-gradient(0deg, rgba(245,243,239,0.06) 1px, transparent 1px) 0 0/100% 25%;"></div>
+          <div style="position:absolute;left:16px;top:16px;font-family:var(--mono);font-size:9px;letter-spacing:0.16em;color:rgba(245,243,239,0.85);">SPX · PREVIEW · V.014</div>
+          <div style="position:absolute;right:16px;top:16px;font-family:var(--mono);font-size:9px;letter-spacing:0.16em;color:rgba(245,243,239,0.85);">SEED · 8842</div>
+          <div style="position:absolute;left:16px;right:16px;bottom:16px;display:flex;justify-content:space-between;align-items:flex-end;color:#F5F3EF;">
+            <div>
+              <div style="font-family:var(--serif);font-style:italic;font-size:44px;line-height:1;">Kavi.</div>
+              <div style="font-family:var(--mono);font-size:10px;letter-spacing:0.14em;opacity:0.75;margin-top:4px;">DERIVED FROM JIG · PATEL LINEAGE</div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-family:var(--mono);font-size:10px;letter-spacing:0.14em;opacity:0.75;">RENDER</div>
+              <div style="font-family:var(--mono);font-size:14px;letter-spacing:0.06em;">32.4s</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 grid-3">
+          <div class="card" style="background:var(--vault-2);border:1px solid rgba(255,255,255,0.08);padding:10px 12px;text-align:center;color:#F5F3EF;">
+            <div class="mono" style="color:rgba(245,243,239,0.55);">EYES</div>
+            <div style="font-family:var(--sans);font-weight:700;font-size:13px;margin-top:4px;">Hazel</div>
+          </div>
+          <div class="card" style="background:var(--vault-2);border:1px solid rgba(255,255,255,0.08);padding:10px 12px;text-align:center;color:#F5F3EF;">
+            <div class="mono" style="color:rgba(245,243,239,0.55);">BUILD</div>
+            <div style="font-family:var(--sans);font-weight:700;font-size:13px;margin-top:4px;">Lean · Tall</div>
+          </div>
+          <div class="card" style="background:var(--vault-2);border:1px solid rgba(255,255,255,0.08);padding:10px 12px;text-align:center;color:#F5F3EF;">
+            <div class="mono" style="color:rgba(245,243,239,0.55);">HAIR</div>
+            <div style="font-family:var(--sans);font-weight:700;font-size:13px;margin-top:4px;">Dark · Wavy</div>
+          </div>
+        </div>
+
+        <div class="mt-4 mono" style="color:rgba(245,243,239,0.55);text-align:center;line-height:1.6;">
+          SPECULATIVE · AI-GENERATED · CONCEPTUAL<br />
+          MYSPAWN PERFORMS NO CLONING, EDITING, OR REPRODUCTIVE SERVICES.
+        </div>
+
+        <div class="mt-auto"></div>
+        <div class="row gap-2 mt-4">
+          <button class="btn" style="background:rgba(255,255,255,0.08);color:#F5F3EF;flex:1;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12a8 8 0 0114-5.3L20 4v6h-6l2.7-2.7A6 6 0 106 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Regenerate
+          </button>
+          <button class="btn btn-indigo" style="flex:1;">Save to vault</button>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 13 — MEMORY VAULT
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.013</b> <span class="dot"></span> Memory vault · You</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="col">
+          <div class="mono">EVERYTHING THAT MADE YOU, YOU</div>
+          <div class="title">Memory vault</div>
+        </div>
+        <div class="icon-btn" style="background:var(--vault);border-color:var(--vault);color:#F5F3EF;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+      <div class="screen-body" style="padding-bottom:100px;">
+        <div class="seg">
+          <button class="active">Photos · 12</button>
+          <button>Voice · 3</button>
+          <button>Stories · 1</button>
+        </div>
+
+        <div class="row justify-between items-center mt-3">
+          <div class="mono">RECENT · AUGUST 2026</div>
+          <div class="mono-ink" style="font-weight:700;">SELECT</div>
+        </div>
+
+        <div class="mt-2" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;">
+          <div class="thumb" style="background:linear-gradient(135deg,#B7A891,#DDD3C4);"><span class="thumb-mono">01</span></div>
+          <div class="thumb" style="background:linear-gradient(135deg,#5B7C99,#C5D8E6);"><span class="thumb-mono">02</span></div>
+          <div class="thumb" style="background:linear-gradient(135deg,#6366F1,#818CF8);"><span class="thumb-mono" style="color:rgba(255,255,255,0.85);">03</span></div>
+          <div class="thumb" style="background:linear-gradient(135deg,#8A6A4C,#D4B896);"><span class="thumb-mono">04</span></div>
+          <div class="thumb" style="background:linear-gradient(135deg,#0A0E1A,#4338CA);"><span class="thumb-mono" style="color:rgba(255,255,255,0.85);">05</span></div>
+          <div class="thumb" style="background:linear-gradient(135deg,#E4A74C,#F5DEB3);"><span class="thumb-mono">06</span></div>
+        </div>
+
+        <div class="row justify-between items-center mt-4">
+          <div class="mono">VOICE MEMOS</div>
+          <div class="mono">3 CLIPS · 8:22 TOTAL</div>
+        </div>
+        <div class="card mt-2" style="padding:12px 14px;">
+          <div class="row gap-3 items-center">
+            <div style="width:38px;height:38px;border-radius:50%;background:var(--indigo);display:flex;align-items:center;justify-content:center;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7z" fill="#F5F3EF"/></svg>
+            </div>
+            <div class="col grow">
+              <div class="h3">Advice to a 12-year-old me</div>
+              <div class="mono">3:47 · Recorded Aug 01</div>
+            </div>
+            <svg width="60" height="20" viewBox="0 0 60 20" fill="none">
+              <rect x="0" y="8" width="2" height="4" fill="#1A1917"/><rect x="4" y="6" width="2" height="8" fill="#1A1917"/><rect x="8" y="4" width="2" height="12" fill="#1A1917"/><rect x="12" y="7" width="2" height="6" fill="#1A1917"/><rect x="16" y="3" width="2" height="14" fill="#1A1917"/><rect x="20" y="8" width="2" height="4" fill="#1A1917"/><rect x="24" y="5" width="2" height="10" fill="#6366F1"/><rect x="28" y="2" width="2" height="16" fill="#6366F1"/><rect x="32" y="6" width="2" height="8" fill="#94A3B8"/><rect x="36" y="8" width="2" height="4" fill="#94A3B8"/><rect x="40" y="4" width="2" height="12" fill="#94A3B8"/><rect x="44" y="7" width="2" height="6" fill="#94A3B8"/><rect x="48" y="5" width="2" height="10" fill="#94A3B8"/><rect x="52" y="8" width="2" height="4" fill="#94A3B8"/><rect x="56" y="6" width="2" height="8" fill="#94A3B8"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="mt-4 card card-bone" style="padding:12px 14px;">
+          <div class="row justify-between items-end">
+            <div class="col">
+              <div class="mono">VAULT STORAGE</div>
+              <div class="h3 mt-1">184 MB &nbsp;of &nbsp;5 GB</div>
+            </div>
+            <div class="mono-ink" style="font-weight:700;">3.5%</div>
+          </div>
+          <div class="progress indigo mt-2"><i style="width:3.5%;"></i></div>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12l9-8 9 8v9a1 1 0 01-1 1h-5v-6h-6v6H4a1 1 0 01-1-1v-9z" stroke="currentColor" stroke-width="1.5"/></svg>
+          HOME<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="4" y="6" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/></svg>
+          VAULT<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
+          BLUEPRINT<span class="tab-dot"></span>
+        </div>
+        <div class="tab active">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="9" cy="9" r="1.5" fill="currentColor"/><path d="M3 17l6-6 4 4 3-3 5 5" stroke="currentColor" stroke-width="1.5"/></svg>
+          MEMORIES<span class="tab-dot"></span>
+        </div>
+        <div class="tab">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="1.5"/></svg>
+          YOU<span class="tab-dot"></span>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 14 — HOW IT WORKS
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.014</b> <span class="dot"></span> How it works · Walkthrough</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="title">How it works</div>
+        <span style="width:36px;"></span>
+      </div>
+      <div class="screen-body">
+        <div class="eyebrow">FIVE STEPS · YOUR CALL</div>
+        <div class="display mt-2" style="font-size:36px;">A different relationship <br />with <span class="accent">your future.</span></div>
+
+        <div class="mt-5 col">
+          <div class="row gap-4" style="padding:16px 0;border-bottom:1px solid var(--hairline-2);">
+            <div class="num-big" style="min-width:56px;">01</div>
+            <div class="col">
+              <div class="h3">Take the decision back</div>
+              <div class="body-sm mt-1">From luck, biology, and bad timing — to <b style="color:var(--ink);">you</b>.</div>
+            </div>
+          </div>
+          <div class="row gap-4" style="padding:16px 0;border-bottom:1px solid var(--hairline-2);">
+            <div class="num-big" style="min-width:56px;color:var(--indigo);">02</div>
+            <div class="col">
+              <div class="h3">Freeze the clock</div>
+              <div class="body-sm mt-1">Live your 20s, 30s, 40s your way. Your peak DNA waits.</div>
+            </div>
+          </div>
+          <div class="row gap-4" style="padding:16px 0;border-bottom:1px solid var(--hairline-2);">
+            <div class="num-big" style="min-width:56px;">03</div>
+            <div class="col">
+              <div class="h3">Draft the blueprint</div>
+              <div class="body-sm mt-1">Looks. Mindset. Health. Name. You design it.</div>
+            </div>
+          </div>
+          <div class="row gap-4" style="padding:16px 0;border-bottom:1px solid var(--hairline-2);">
+            <div class="num-big" style="min-width:56px;">04</div>
+            <div class="col">
+              <div class="h3">Leave more than a headstone</div>
+              <div class="body-sm mt-1">Voice. Stories. Lessons. They'll know who you were.</div>
+            </div>
+          </div>
+          <div class="row gap-4" style="padding:16px 0;">
+            <div class="num-big" style="min-width:56px;color:var(--indigo);">05</div>
+            <div class="col">
+              <div class="h3">Sleep different tonight</div>
+              <div class="body-sm mt-1">The <i>what if I never get to</i> voice goes quiet. Because you already did.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <button class="btn btn-primary btn-block">Begin — 7 minutes</button>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 15 — SECURITY & PRIVACY
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.015</b> <span class="dot"></span> Security &amp; privacy</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="title">Security</div>
+        <span style="width:36px;"></span>
+      </div>
+      <div class="screen-body">
+        <div class="eyebrow">SECURITY &amp; PRIVACY</div>
+        <div class="display mt-2" style="font-size:34px;">Your DNA remains <br /><span style="color:var(--indigo);">yours.</span></div>
+
+        <div class="mt-5 col gap-3">
+          <div class="card">
+            <div class="row gap-3 items-start">
+              <div style="width:42px;height:42px;border-radius:12px;background:var(--bone);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+              <div class="col">
+                <div class="h3">No third-party access</div>
+                <div class="body-sm mt-1">Your sample and data are never shared without your explicit permission.</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row gap-3 items-start">
+              <div style="width:42px;height:42px;border-radius:12px;background:var(--bone);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 8v10a2 2 0 002 2h12a2 2 0 002-2V8M4 8V6a2 2 0 012-2h12a2 2 0 012 2v2M4 8h16M9 13h6" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+              <div class="col">
+                <div class="h3">Controlled environments</div>
+                <div class="body-sm mt-1">Stored in secure, monitored facilities following strict ISO 20387 protocols.</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row gap-3 items-start">
+              <div style="width:42px;height:42px;border-radius:12px;background:var(--bone);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#1A1917" stroke-width="1.5"/><path d="M5.6 5.6l12.8 12.8" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+              <div class="col">
+                <div class="h3">No procedures performed</div>
+                <div class="body-sm mt-1">MySpawn performs no cloning, editing, or reproductive services. Storage only.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 card card-vault" style="padding:14px 16px;color:#F5F3EF;">
+          <div class="row justify-between items-center">
+            <div class="col">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">ENCRYPTION</div>
+              <div class="h3" style="color:#F5F3EF;margin-top:2px;">AES-256 &nbsp;·&nbsp; at rest &amp; in transit</div>
+            </div>
+            <span class="chip chip-ok"><span class="dot"></span>ACTIVE</span>
+          </div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <button class="btn btn-outline btn-block mt-4">Download your data</button>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 16 — FAQ
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.016</b> <span class="dot"></span> FAQ · The three questions</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="title">FAQ</div>
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="eyebrow">YEAH, WE THOUGHT THE SAME THING</div>
+        <div class="display mt-2" style="font-size:32px;">The three questions <br />everyone asks.</div>
+
+        <div class="accordion mt-4">
+          <div class="row" style="padding:14px 0;flex-direction:column;">
+            <div class="row" style="width:100%;">
+              <div class="col grow">
+                <div class="mono">OBJECTION 01</div>
+                <div class="q mt-1">Is this a gimmick?</div>
+              </div>
+              <span class="plus">–</span>
+            </div>
+            <div class="a">No. Your DNA is stored at a real biobanking facility — the same regulated infrastructure hospitals, fertility clinics, and pharma research labs have used for decades. We didn't invent the science. We made it accessible.</div>
+          </div>
+          <div class="row" style="padding:14px 0;">
+            <div class="col grow">
+              <div class="mono">OBJECTION 02</div>
+              <div class="q mt-1">Will the technology really exist someday?</div>
+            </div>
+            <span class="plus">+</span>
+          </div>
+          <div class="row" style="padding:14px 0;">
+            <div class="col grow">
+              <div class="mono">OBJECTION 03</div>
+              <div class="q mt-1">What if I change my mind?</div>
+            </div>
+            <span class="plus">+</span>
+          </div>
+          <div class="row" style="padding:14px 0;">
+            <div class="col grow">
+              <div class="mono">CUSTODY</div>
+              <div class="q mt-1">Is my DNA actually safe?</div>
+            </div>
+            <span class="plus">+</span>
+          </div>
+          <div class="row" style="padding:14px 0;">
+            <div class="col grow">
+              <div class="mono">HEIRS</div>
+              <div class="q mt-1">Can my family access this when I'm gone?</div>
+            </div>
+            <span class="plus">+</span>
+          </div>
+          <div class="row" style="padding:14px 0;">
+            <div class="col grow">
+              <div class="mono">FUTURE</div>
+              <div class="q mt-1">What if descendant creation never becomes legal?</div>
+            </div>
+            <span class="plus">+</span>
+          </div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <div class="card card-bone mt-4" style="padding:14px 16px;">
+          <div class="row justify-between items-center">
+            <div class="col">
+              <div class="mono">STILL HAVE A QUESTION?</div>
+              <div class="h3 mt-1">Write to the founder.</div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#1A1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 17 — FOUNDER STORY
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.017</b> <span class="dot"></span> Founder · User #1</div>
+  <div class="phone" style="background:var(--bone);">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn" style="background:transparent;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="title">Founder note</div>
+        <span style="width:36px;"></span>
+      </div>
+      <div class="screen-body">
+        <div class="row gap-4 items-center">
+          <div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#0A0E1A 30%,#4338CA);color:#F5F3EF;display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:800;font-size:24px;letter-spacing:-0.02em;">JP</div>
+          <div class="col">
+            <div class="mono">USER · SPAWN.00000001</div>
+            <div class="h3" style="font-size:18px;">Jig Patel</div>
+            <div class="mono">FOUNDER &amp; CEO</div>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <div class="display" style="font-size:36px;">"Hi, I'm Jig. I'm user #1."</div>
+        </div>
+
+        <div class="body mt-4" style="font-size:15px;line-height:1.6;">
+          I've been traveling the world. India. Vietnam. Europe.
+          And one night it hit me:
+        </div>
+
+        <div class="display mt-3" style="font-size:20px;color:var(--ink);">
+          If I die out here, my entire bloodline ends with me.
+        </div>
+
+        <div class="body mt-3" style="font-size:15px;line-height:1.6;">
+          No partner. No kids. No system built for someone like me.
+          <br /><br />
+          So I built it. MySpawn is the thing I wished existed when I was the only customer it had.
+          <br /><br />
+          If you're reading this and any of it lands, you're not alone. You're just early.
+        </div>
+
+        <div class="mt-5" style="border-top:1px solid var(--hairline);padding-top:16px;">
+          <div class="row justify-between items-end">
+            <div class="col">
+              <div style="font-family:var(--serif);font-style:italic;font-size:26px;line-height:1;">Jig Patel</div>
+              <div class="mono mt-1">FOUNDER · MYSPAWN INC.</div>
+            </div>
+            <div class="chip chip-indigo">USER 001</div>
+          </div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <button class="btn btn-primary btn-block mt-4">Reply to Jig</button>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 18 — FOUNDER PLAN / PRICING
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.018</b> <span class="dot"></span> Founder plan · $99</div>
+  <div class="phone dark">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="icon-btn" style="border-color:rgba(255,255,255,0.14);color:#F5F3EF;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6l-12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="mono" style="color:rgba(245,243,239,0.55);">FOUNDER PRICING</div>
+        <span style="width:36px;"></span>
+      </div>
+      <div class="screen-body">
+        <div class="mono" style="color:rgba(245,243,239,0.55);">EARLY ACCESS · LIMITED</div>
+
+        <div class="mt-2" style="display:flex;align-items:baseline;gap:8px;">
+          <div style="font-family:var(--serif);font-style:italic;font-size:120px;line-height:0.9;color:#F5F3EF;">$99</div>
+          <div class="col">
+            <div style="color:rgba(245,243,239,0.55);font-family:var(--mono);font-size:10px;letter-spacing:0.14em;">ONE-TIME</div>
+            <div style="color:rgba(245,243,239,0.55);font-family:var(--mono);font-size:10px;letter-spacing:0.14em;">NO SUBSCRIPTION</div>
+          </div>
+        </div>
+
+        <div class="mt-3" style="color:#F5F3EF;font-family:var(--sans);font-size:14px;line-height:1.5;opacity:0.75;">
+          Full DNA collection kit. Medical-grade biobanking. The memory vault. Locked in for our early founders.
+        </div>
+
+        <div class="mt-5 col gap-3">
+          <div class="row gap-3 items-center" style="padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+            <span style="width:20px;height:20px;border-radius:50%;background:var(--indigo);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F5F3EF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div class="col">
+              <div style="color:#F5F3EF;font-weight:700;font-size:14px;letter-spacing:-0.01em;">DNA collection kit — shipped free</div>
+              <div class="mono" style="color:rgba(245,243,239,0.55);">USPS PRIORITY · US ONLY</div>
+            </div>
+          </div>
+          <div class="row gap-3 items-center" style="padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+            <span style="width:20px;height:20px;border-radius:50%;background:var(--indigo);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F5F3EF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div class="col">
+              <div style="color:#F5F3EF;font-weight:700;font-size:14px;letter-spacing:-0.01em;">10 years of biobank storage</div>
+              <div class="mono" style="color:rgba(245,243,239,0.55);">ISO 20387 · US PARTNER</div>
+            </div>
+          </div>
+          <div class="row gap-3 items-center" style="padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+            <span style="width:20px;height:20px;border-radius:50%;background:var(--indigo);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F5F3EF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div class="col">
+              <div style="color:#F5F3EF;font-weight:700;font-size:14px;letter-spacing:-0.01em;">Blueprint designer &amp; memory vault</div>
+              <div class="mono" style="color:rgba(245,243,239,0.55);">5 GB · UNLIMITED PREVIEWS</div>
+            </div>
+          </div>
+          <div class="row gap-3 items-center" style="padding:12px 0;">
+            <span style="width:20px;height:20px;border-radius:50%;background:var(--indigo);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="#F5F3EF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div class="col">
+              <div style="color:#F5F3EF;font-weight:700;font-size:14px;letter-spacing:-0.01em;">Cancel anytime — one tap</div>
+              <div class="mono" style="color:rgba(245,243,239,0.55);">DELETE EVERYTHING · NO QUESTIONS</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-auto"></div>
+        <button class="btn btn-indigo btn-block mt-4">Claim my founder spot</button>
+        <div class="mono text-center mt-2" style="color:rgba(245,243,239,0.55);">217 OF 1000 CLAIMED</div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+<!-- =============================================================
+     SCREEN 19 — PROFILE / YOU
+     ============================================================= -->
+<div class="plate">
+  <div class="plate-label"><b>SPAWN.019</b> <span class="dot"></span> You · Profile &amp; settings</div>
+  <div class="phone">
+    <div class="status">
+      <span>9:41</span>
+      <span class="signal">
+        <svg width="18" height="10" viewBox="0 0 18 10"><path d="M1 9h2V6H1v3zm4 0h2V4H5v5zm4 0h2V2H9v7zm4 0h2V0h-2v9z" fill="currentColor"/></svg>
+        <svg width="24" height="11" viewBox="0 0 24 11"><rect x="0.5" y="0.5" width="20" height="10" rx="2" fill="none" stroke="currentColor" opacity="0.5"/><rect x="2" y="2" width="17" height="7" rx="1" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen">
+      <div class="navbar">
+        <div class="title">You</div>
+        <div class="icon-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M19.4 15a1.7 1.7 0 00.3 1.9l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.9-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 01-4 0v-.1a1.7 1.7 0 00-1.1-1.5 1.7 1.7 0 00-1.9.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.9 1.7 1.7 0 00-1.5-1H3a2 2 0 010-4h.1a1.7 1.7 0 001.5-1.1 1.7 1.7 0 00-.3-1.9l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.9.3H9a1.7 1.7 0 001-1.5V3a2 2 0 014 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.9-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.9V9a1.7 1.7 0 001.5 1H21a2 2 0 010 4h-.1a1.7 1.7 0 00-1.5 1z" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+      </div>
+      <div class="screen-body" style="padding-bottom:100px;">
+        <div class="card card-vault" style="padding:20px;border-radius:20px;">
+          <div class="row gap-4 items-center">
+            <div style="width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#4338CA,#818CF8);color:#F5F3EF;display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:800;font-size:22px;">JP</div>
+            <div class="col grow">
+              <div style="color:#F5F3EF;font-family:var(--sans);font-weight:800;font-size:18px;letter-spacing:-0.02em;">Jig Patel</div>
+              <div class="mono" style="color:rgba(245,243,239,0.55);">SPAWN.00000001</div>
+            </div>
+            <div class="chip chip-indigo">FOUNDER</div>
+          </div>
+          <div style="height:1px;background:rgba(255,255,255,0.08);margin:16px 0;"></div>
+          <div class="row justify-between">
+            <div class="col">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">MEMBER SINCE</div>
+              <div style="color:#F5F3EF;font-family:var(--mono);font-size:14px;letter-spacing:0.06em;margin-top:2px;">AUG 04 · 2026</div>
+            </div>
+            <div class="col items-end">
+              <div class="mono" style="color:rgba(245,243,239,0.55);">VAULT COMPLETION</div>
+              <div style="color:#818CF8;font-family:var(--mono);font-size:14px;letter-spacing:0.06em;margin-top:2px;">27%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 eyebrow eyebrow-ink">ACCOUNT</div>
+        <div class="divlist mt-1">
+          <div class="divrow">
+            <div class="l">
+              <div class="icon-tile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="#1A1917" stroke-width="1.5"/><path d="M4 4l8 8 8-8" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+              <div class="col">
+                <div class="label">Contact &amp; shipping</div>
+                <div class="meta">jig@myspawn.me</div>
+              </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="divrow">
+            <div class="l">
+              <div class="icon-tile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+              <div class="col">
+                <div class="label">Heirs &amp; posthumous release</div>
+                <div class="meta">1 heir · Priya Patel</div>
+              </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="divrow">
+            <div class="l">
+              <div class="icon-tile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="10" width="18" height="10" rx="2" stroke="#1A1917" stroke-width="1.5"/><path d="M7 10V7a5 5 0 0110 0v3" stroke="#1A1917" stroke-width="1.5"/></svg>
+              </div>
+              <div class="col">
+                <div class="label">Vault security</div>
+                <div class="meta">Face ID · 2FA active</div>
+              </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="divrow">
+            <div class="l">
+              <div class="icon-tile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" stroke="#1A1917" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <div class="col">
+                <div class="label">Founder plan</div>
+                <div class="meta">$99 · lifetime early access</div>
+              </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="mt-4 eyebrow eyebrow-ink">SUPPORT</div>
+        <div class="divlist mt-1">
+          <div class="divrow">
+            <div class="l">
+              <div class="icon-tile"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#1A1917" stroke-width="1.5"/><path d="M9.5 9.5a2.5 2.5 0 015 0c0 1.5-2.5 2.5-2.5 3.5M12 17v.01" stroke="#1A1917" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+              <div class="col"><div class="label">FAQ &amp; help</div><div class="meta">Answers in one page</div></div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="divrow">
+            <div class="l">
+              <div class="icon-tile"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2v10z" stroke="#1A1917" stroke-width="1.5"/></svg></div>
+              <div class="col"><div class="label">Contact Jig</div><div class="meta">Founder replies within 24h</div></div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="mt-4 mono" style="text-align:center;line-height:1.7;">
+          MYSPAWN INC · 8 THE GREEN, DOVER, DE 19901<br />
+          <span style="color:var(--slate-2);">© 2026 · v1.0.0 · MOBILE</span>
+        </div>
+      </div>
+      <div class="tabbar">
+        <div class="tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12l9-8 9 8v9a1 1 0 01-1 1h-5v-6h-6v6H4a1 1 0 01-1-1v-9z" stroke="currentColor" stroke-width="1.5"/></svg>HOME<span class="tab-dot"></span></div>
+        <div class="tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="4" y="6" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/></svg>VAULT<span class="tab-dot"></span></div>
+        <div class="tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/></svg>BLUEPRINT<span class="tab-dot"></span></div>
+        <div class="tab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/></svg>MEMORIES<span class="tab-dot"></span></div>
+        <div class="tab active"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="1.5"/></svg>YOU<span class="tab-dot"></span></div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+</div>
+
+</main>
+
+<footer class="board-footer">
+  <div>
+    <span class="brand-word"><span class="ink">My</span><span class="spawn" style="color:var(--indigo);">Spawn</span><sup style="font-family:var(--sans);font-weight:600;color:var(--slate);font-size:0.5em;position:relative;top:-0.5em;margin-left:1px;">™</sup></span>
+    &nbsp;·&nbsp; Mobile · 19 screens · Presentation board
+  </div>
+  <div class="r">
+    Prepared for · <b>Jig Patel, Founder</b><br />
+    MySpawn Inc. · 8 The Green, Dover, DE 19901<br />
+    © 2026 · MOBILE.v1.2026.08
+  </div>
+</footer>
+
+<script>
+  // Match viewer theme toggle
+  (function() {
+    const root = document.documentElement;
+    const obs = new MutationObserver(() => {});
+    obs.observe(root, { attributes: true, attributeFilter: ['data-theme'] });
+  })();
+</script>
