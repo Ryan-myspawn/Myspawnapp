@@ -94,3 +94,13 @@ Per founder feedback (too many $99 buy CTAs), `landing_new_6_6.html` changes:
   which now sits directly after the FAQ — one closer section, one CTA.
 - Remaining buy paths: persistent nav pill, mobile sticky bar, and the single offer CTA.
 - Version stamp v5.7 → v5.8.
+
+---
+
+## 4. v6.7 revision — "Archival" color system
+
+Full recolor of `landing_new_6_6.html` → `landing_new_6_7.html` to remove AI-tell
+styling (blue→indigo gradients, lavender tints, glow-blur CTAs, animated gradient
+text, sheen sweep). New palette: bone surfaces, green-black ink, burnished-copper
+accent, deep-pine dark sections, champagne on dark. Full spec: `COLOR-SYSTEM.md`.
+Version stamp v5.8 → v5.9.
