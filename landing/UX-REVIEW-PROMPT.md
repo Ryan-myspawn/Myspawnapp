@@ -104,3 +104,45 @@ styling (blue→indigo gradients, lavender tints, glow-blur CTAs, animated gradi
 text, sheen sweep). New palette: bone surfaces, green-black ink, burnished-copper
 accent, deep-pine dark sections, champagne on dark. Full spec: `COLOR-SYSTEM.md`.
 Version stamp v5.8 → v5.9.
+
+**Superseded** by v6.8 (below) — the founder wanted the external
+`myspawnredesignguide.md` direction instead of the copper recolor.
+
+---
+
+## 5. v6.8 revision — "Accession form" full redesign
+
+`landing_new_6_8.html` rebuilds `landing_new_6_6.html` from scratch to the committed
+direction in the external audit (`myspawnredesignguide.md`): the site should read like
+a **biobank accession record** — stamped, numbered, filed — not a SaaS template.
+
+Full spec in `REDESIGN-6-8.md`. Headlines:
+
+- **Palette:** paper `#E9E5DA` / vault `#16130F` / ink `#1C1813` / graphite `#6B6459`
+  / rule `#C9C1B2`, oxblood `#6E1F22` (`#C4443F` on dark) carrying the brand, ochre
+  `#8A6218` (`#C9922E` on dark) reserved strictly for data. No blue/indigo/violet
+  anywhere. Never pure `#000`/`#fff`.
+- **Zero gradients, zero glassmorphism, zero gradient-text, zero pill radii, zero CSS
+  animations** — all verified absent by grep. Square corners, hard hairline rules, no
+  drop shadows.
+- **Type:** Archivo (display 800 at 118% width; body 400) + Martian Mono for all data,
+  codes, and labels. No serif.
+- **Layout:** asymmetric two-column record grid — a mono margin column carries a
+  `REC-00…REC-10` index per section; the wide column carries the argument.
+- **Hero:** left-aligned stamped headline + a "specimen record" data plate
+  (donor / material / custody / storage / status).
+- **Billionaire section is now a real `<table>`** with tabular figures shown in full
+  (`$3,000,000,000`, not `$3B`) and "You / $99" as the final ledger row.
+- **Card grids replaced** with hairline-ruled record rows; kit process keeps 01/02/03
+  (a real sequence), benefits list loses its numbering (not a sequence).
+- **Accessibility:** `<main>` landmark, single h1 with no heading-level skips,
+  `:focus-visible` rings, 44px tap targets, ≥12px type, all copy and alt text verbatim.
+- **Logo:** the twice-inlined purple-helix PNG is replaced with an inline oxblood
+  "stamped record" SVG mark, so no indigo remains in the UI chrome.
+
+**Known limitation:** the hero/section **videos and photos are still cool-toned**
+baked media (they carry their own blue/purple grade). Recoloring the chrome gets the
+interface fully on-palette; fully finishing the look needs those clips regraded or
+replaced warm, per the guide's asset notes.
+
+Version stamp v5.9 → v6.0.
