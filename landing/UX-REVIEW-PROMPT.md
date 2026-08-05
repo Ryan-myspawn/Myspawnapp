@@ -80,3 +80,17 @@ Also: footer version stamp bumped to *Landing new v5.7*.
 ---
 
 *Review target: `landing_new_6_3.html` · Output: `landing_new_6_5.html`*
+
+---
+
+## 3. v6.6 revision — single-CTA simplification
+
+Per founder feedback (too many $99 buy CTAs), `landing_new_6_6.html` changes:
+
+- Removed the hero eyebrow badge ("Founder pricing · $99 · First 1,000 members").
+- Removed the hero CTA buttons; the trust subline stays.
+- Deleted the standalone "Anything can happen tomorrow" (pcta) section and its CTA.
+- Merged that section's headline, copy, and video into the top of the **$99 offer card**,
+  which now sits directly after the FAQ — one closer section, one CTA.
+- Remaining buy paths: persistent nav pill, mobile sticky bar, and the single offer CTA.
+- Version stamp v5.7 → v5.8.
