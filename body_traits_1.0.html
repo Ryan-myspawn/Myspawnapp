@@ -337,11 +337,11 @@ input[type=range]:active::-webkit-slider-thumb{ transform:scale(1.12); }
 /* tabs — the source truncated "Superhuman" with no scroll affordance */
 .tabs-wrap{ position:relative; margin-bottom:14px; }
 .tabs{ display:flex; gap:7px; overflow-x:auto; padding:2px 18px; scrollbar-width:none;
-  -ms-overflow-style:none; scroll-snap-type:x proximity; }
+  -ms-overflow-style:none; }
 .tabs::-webkit-scrollbar{ display:none; }
 .tabs-wrap::after{ content:''; position:absolute; right:0; top:0; bottom:0; width:34px;
   pointer-events:none; background:linear-gradient(90deg,transparent,var(--gear)); }
-.tab{ flex:0 0 auto; scroll-snap-align:start; font-family:inherit; font-size:13px;
+.tab{ flex:0 0 auto; font-family:inherit; font-size:13px;
   font-weight:600; color:var(--gear-ink-2); background:var(--gear-2);
   border:1px solid var(--gear-line); border-radius:var(--r-full); cursor:pointer;
   padding:8px 14px; display:inline-flex; align-items:center; gap:6px;
