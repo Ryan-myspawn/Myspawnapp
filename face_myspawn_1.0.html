@@ -140,37 +140,49 @@ body{
 }
 
 /* Progress ring */
-.ring{ position:relative; width:40px; height:40px; flex:0 0 auto; }
-.ring svg{ transform:rotate(-90deg); display:block; }
+.ring{ position:relative; width:44px; height:44px; flex:0 0 auto; }
+.ring > svg{ transform:rotate(-90deg); display:block; }  /* arc only, not the mini face */
 .ring .trk{ stroke:var(--line); }
 .ring .val{ stroke:url(#ringGrad); stroke-linecap:round;
   transition:stroke-dashoffset var(--slow) var(--ease); }
-.ring b{
-  position:absolute; inset:0; display:grid; place-items:center;
-  font-size:11px; font-weight:700; color:var(--ink); font-variant-numeric:tabular-nums;
-  letter-spacing:-.02em;
+.ring .mini{
+  position:absolute; inset:5px; border-radius:50%; overflow:hidden;
+  background:var(--surface-2);
 }
+.ring .mini .face{ border-radius:50%; }
 
 /* ───────────── HERO ───────────── */
 .hero{ padding:26px 0 4px; text-align:center; }
 .portrait{
-  width:104px; height:104px; margin:0 auto 20px; position:relative;
-  border-radius:30px; padding:3px;
+  width:138px; height:138px; margin:0 auto 22px; position:relative;
+  border-radius:38px; padding:3px;
   background:linear-gradient(140deg,var(--brand),var(--brand-2) 55%,var(--brand-3));
   box-shadow:var(--sh-3);
 }
-.portrait img, .portrait .ph{
-  width:100%; height:100%; border-radius:27px; object-fit:cover; display:block;
-  background:var(--surface-2);
+.portrait .face{ border-radius:35px; }
+/* the source photo, kept visible so "inherit from photo" has a referent */
+.portrait .src{
+  position:absolute; right:-7px; bottom:-7px; width:44px; height:44px; border-radius:50%;
+  border:3px solid var(--bg); background:var(--surface-2); overflow:hidden;
+  display:grid; place-items:center; color:var(--ink-4); box-shadow:var(--sh-2);
 }
-.portrait .ph{ display:grid; place-items:center; color:var(--ink-4); }
-.portrait::after{
-  content:'SOURCE'; position:absolute; bottom:-9px; left:50%; transform:translateX(-50%);
-  font-size:8.5px; font-weight:800; letter-spacing:.12em; color:#fff;
-  background:var(--ink); padding:3px 9px; border-radius:var(--r-full);
-  box-shadow:var(--sh-2); white-space:nowrap;
+.portrait .src img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+/* ── LIVE FACE ── */
+.face{
+  width:100%; height:100%; display:block; overflow:hidden;
+  background:radial-gradient(circle at 50% 34%, #FFFFFF 0%, #E9E7FA 100%);
 }
-@media (prefers-color-scheme: dark){ .portrait::after{ background:#2A3048; } }
+@media (prefers-color-scheme: dark){
+  .face{ background:radial-gradient(circle at 50% 34%, #2A2E44 0%, #1A1D2B 100%); }
+}
+.face svg{ width:100%; height:100%; display:block; }
+.face.beat{ animation:beat .42s var(--spring); }
+@keyframes beat{ 0%{transform:scale(1)} 42%{transform:scale(1.045)} 100%{transform:scale(1)} }
+.face-cap{
+  font-size:11.5px; font-weight:600; color:var(--ink-4); letter-spacing:-.005em;
+  margin:-8px 0 16px;
+}
 
 h1{
   font-size:clamp(2rem,8.5vw,2.7rem); font-weight:800; letter-spacing:-.045em;
@@ -198,38 +210,6 @@ h1 .nm{
 .ghost-btn:hover{ color:var(--ink); border-color:var(--ink-4); transform:translateY(-1px); }
 .ghost-btn:active{ transform:scale(.97); }
 
-/* ───────────── BLUEPRINT STRIP (sticky, materializes on first choice) ───────────── */
-.strip-mount{ position:sticky; top:var(--header-h); z-index:50; margin:0 calc(var(--pad) * -1); }
-.strip{
-  max-height:0; opacity:0; overflow:hidden;
-  transition:max-height var(--base) var(--ease), opacity var(--fast) var(--ease);
-  background:color-mix(in srgb, var(--bg) 95%, transparent);
-  backdrop-filter:blur(22px) saturate(180%); -webkit-backdrop-filter:blur(22px) saturate(180%);
-}
-.strip.on{ max-height:58px; opacity:1; border-bottom:1px solid var(--line); }
-.strip-in{
-  max-width:var(--max); margin:0 auto; padding:9px var(--pad);
-  display:flex; align-items:center; gap:8px; overflow-x:auto;
-  scrollbar-width:none; -ms-overflow-style:none;
-  /* fade the right edge so it reads as scrollable */
-  -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 34px),transparent 100%);
-  mask-image:linear-gradient(to right,#000 calc(100% - 34px),transparent 100%);
-}
-.strip-in::-webkit-scrollbar{ display:none; }
-.strip-lbl{
-  flex:0 0 auto; font-size:9.5px; font-weight:800; letter-spacing:.12em;
-  color:var(--brand); text-transform:uppercase; padding-right:2px;
-}
-.stamp{
-  flex:0 0 auto; display:inline-flex; align-items:center; gap:6px;
-  font-size:12.5px; font-weight:600; color:var(--ink); white-space:nowrap;
-  background:var(--brand-tint); border:1px solid var(--brand-tint-2);
-  padding:5px 11px; border-radius:var(--r-full);
-  animation:stampIn .42s var(--spring) both;
-}
-@keyframes stampIn{ from{ opacity:0; transform:scale(.6) translateY(4px);} to{ opacity:1; transform:none;} }
-.stamp .sw{ width:11px; height:11px; border-radius:50%; flex:0 0 auto;
-  box-shadow:inset 0 0 0 1px rgba(0,0,0,.14); }
 
 /* ───────────── SECTIONS ───────────── */
 .sections{ margin-top:26px; display:flex; flex-direction:column; gap:14px; }
@@ -390,14 +370,6 @@ h1 .nm{
 .gl-opt.inherit[aria-checked="true"] svg{ opacity:1; }
 .sw-opt.inherit[aria-checked="true"] .chip{ box-shadow:inset 0 0 0 1.5px var(--brand); }
 
-/* ── Clear ── */
-.clear-row{ margin-top:13px; display:flex; }
-.clear-btn{
-  font-family:inherit; font-size:12.5px; font-weight:500; color:var(--ink-4);
-  background:none; border:none; cursor:pointer; padding:5px 0;
-  border-bottom:1px dashed var(--line); transition:color var(--fast);
-}
-.clear-btn:hover{ color:var(--ink-2); }
 
 /* ───────────── SUMMARY ───────────── */
 .summary{
@@ -417,11 +389,20 @@ h1 .nm{
 .sm-name{
   font-family:'Instrument Serif',Georgia,serif; font-style:italic; font-size:30px;
   letter-spacing:-.02em; line-height:1.15; margin-bottom:14px; position:relative;
+  text-align:center;
 }
 .sm-list{ display:flex; flex-direction:column; position:relative; }
 .sm-item{
   display:flex; align-items:center; justify-content:space-between; gap:14px;
-  padding:9px 0; border-bottom:1px solid var(--line-2); font-size:13.5px;
+  width:100%; padding:9px 2px; border:none; border-bottom:1px solid var(--line-2);
+  background:none; font-family:inherit; font-size:13.5px; text-align:left; cursor:pointer;
+  border-radius:6px; transition:background var(--fast) var(--ease);
+}
+.sm-item:hover{ background:var(--brand-tint); }
+.sm-item:hover .k{ color:var(--ink); }
+.sm-face{
+  width:172px; height:172px; margin:2px auto 14px; border-radius:34px; overflow:hidden;
+  box-shadow:var(--sh-2); border:1px solid var(--line); position:relative;
 }
 .sm-item:last-child{ border-bottom:0; }
 .sm-item .k{ color:var(--ink-3); font-weight:500; }
@@ -531,12 +512,12 @@ h1 .nm{
     </div>
     <div class="ring" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"
          aria-label="Traits personalised" id="ring">
-      <svg width="40" height="40" viewBox="0 0 40 40">
-        <circle class="trk" cx="20" cy="20" r="16.5" fill="none" stroke-width="3"/>
-        <circle class="val" id="ringVal" cx="20" cy="20" r="16.5" fill="none" stroke-width="3"
-                stroke-dasharray="103.67" stroke-dashoffset="103.67"/>
+      <svg width="44" height="44" viewBox="0 0 44 44">
+        <circle class="trk" cx="22" cy="22" r="19.5" fill="none" stroke-width="2.6"/>
+        <circle class="val" id="ringVal" cx="22" cy="22" r="19.5" fill="none" stroke-width="2.6"
+                stroke-dasharray="122.52" stroke-dashoffset="122.52"/>
       </svg>
-      <b id="ringTxt">0</b>
+      <div class="mini"><div class="face" id="faceMini"></div></div>
     </div>
   </div>
 </header>
@@ -546,10 +527,12 @@ h1 .nm{
   <!-- ══ HERO ══ -->
   <section class="hero">
     <div class="portrait">
-      <div class="ph" id="portrait" aria-hidden="true">
-        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      <div class="face" id="faceHero" role="img" aria-label="Live preview of your blueprint"></div>
+      <div class="src" id="srcPhoto" title="Your source photo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
       </div>
     </div>
+    <p class="face-cap" id="faceCap">Live preview — updates as you choose</p>
     <h1>Design <span class="nm" id="heroName">Ray</span>.</h1>
     <p class="lede">Ten traits, all optional. Anything you leave alone is <b>inherited from your photo</b>.</p>
     <div class="hero-actions">
@@ -560,15 +543,6 @@ h1 .nm{
     </div>
   </section>
 
-  <!-- ══ LIVE BLUEPRINT STRIP ══ -->
-  <div class="strip-mount">
-    <div class="strip" id="strip" aria-live="polite">
-      <div class="strip-in" id="stripIn">
-        <span class="strip-lbl">Blueprint</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ══ TRAIT SECTIONS ══ -->
   <div class="sections" id="sections"></div>
 
@@ -578,6 +552,7 @@ h1 .nm{
       <span class="sm-kick">The Blueprint</span>
       <span class="sm-stat" id="smStat">DRAFT · 0/10</span>
     </div>
+    <div class="sm-face"><div class="face" id="faceBig" role="img" aria-label="Your blueprint"></div></div>
     <div class="sm-name" id="smName">Ray</div>
     <div class="sm-list" id="smList"></div>
   </section>
@@ -737,9 +712,279 @@ const MILESTONES = [
   'All ten. Fully sealed.'
 ];
 
+/* ═══════════════ LIVE PORTRAIT ENGINE ═══════════════
+   Composites a stylised SVG portrait from the trait selections.
+   Pure: (picks) -> svg string. viewBox 0 0 200 250. */
+
+const n = v => Math.round(v * 10) / 10;
+
+/* Swatch hexes, keyed by trait id — single source of truth is TRAITS */
+const HEX = {};
+TRAITS.forEach(t => { if (t.kind === 'swatch') HEX[t.id] = Object.fromEntries(t.options); });
+
+/* Skin/hair defaults implied by ancestry, used until the user picks explicitly */
+const ANCESTRY = {
+  'Asian':          { skin:'#E9C6A0', hair:'#1B1917' },
+  'Latino':         { skin:'#D2A276', hair:'#3B2418' },
+  'African':        { skin:'#7A4E32', hair:'#1B1917' },
+  'Caucasian':      { skin:'#EFC9A8', hair:'#6B4A2F' },
+  'Middle Eastern': { skin:'#D6A97A', hair:'#2A1D14' },
+  'Mixed Race':     { skin:'#C08E60', hair:'#2E2119' }
+};
+
+/* Face geometry. fw=forehead half-width, cw=cheek, jw=jaw, sharp=chin roundness */
+const SHAPE = {
+  'Oval':    { fw:45, cw:53, jw:37, chin:190, sharp:.46, foreY:66, cheekY:112, jawY:157 },
+  'Round':   { fw:55, cw:63, jw:52, chin:173, sharp:.70, foreY:62, cheekY:106, jawY:143 },
+  'Square':  { fw:57, cw:59, jw:57, chin:181, sharp:.07, foreY:60, cheekY:105, jawY:151 },
+  'Heart':   { fw:59, cw:56, jw:26, chin:193, sharp:.30, foreY:60, cheekY:103, jawY:152 },
+  'Diamond': { fw:33, cw:64, jw:29, chin:195, sharp:.26, foreY:73, cheekY:115, jawY:159 },
+  'Oblong':  { fw:42, cw:45, jw:38, chin:209, sharp:.50, foreY:68, cheekY:120, jawY:171 }
+};
+const JAW = {
+  'Soft':    { jw:.87, sharp:+.30, chin:+3 },
+  'Defined': { jw:1.07, sharp:-.18, chin:-1 },
+  'Angular': { jw:1.17, sharp:-.36, chin:-7 },
+  'Rounded': { jw:.85, sharp:+.44, chin:+6 }
+};
+
+/* Hairline: vertical offset from the base hairline + the edge curve, drawn R→L */
+const HAIRLINE = {
+  'Natural':      { dy:0,  curve:(fw,y)=>`C${n(100+fw*.72)} ${n(y-13)} ${n(100-fw*.72)} ${n(y-13)} ${n(100-fw)} ${n(y)}` },
+  'High':         { dy:12, curve:(fw,y)=>`C${n(100+fw*.72)} ${n(y-9)} ${n(100-fw*.72)} ${n(y-9)} ${n(100-fw)} ${n(y)}` },
+  'Straight':     { dy:3,  curve:(fw,y)=>`L${n(100-fw)} ${n(y)}` },
+  "Widow's Peak": { dy:-1, curve:(fw,y)=>`C${n(100+fw*.72)} ${n(y-15)} ${n(100+15)} ${n(y-14)} 100 ${n(y+8)}`
+                                        +`C${n(100-15)} ${n(y-14)} ${n(100-fw*.72)} ${n(y-15)} ${n(100-fw)} ${n(y)}` },
+  'Receding':     { dy:9,  curve:(fw,y)=>`C${n(100+fw*.82)} ${n(y-24)} ${n(100+fw*.46)} ${n(y-15)} 100 ${n(y-14)}`
+                                        +`C${n(100-fw*.46)} ${n(y-15)} ${n(100-fw*.82)} ${n(y-24)} ${n(100-fw)} ${n(y)}` },
+  'M-Shaped':     { dy:7,  curve:(fw,y)=>`C${n(100+fw*.88)} ${n(y-21)} ${n(100+fw*.46)} ${n(y-23)} ${n(100+fw*.33)} ${n(y-5)}`
+                                        +`C${n(100+fw*.18)} ${n(y-21)} ${n(100-fw*.18)} ${n(y-21)} ${n(100-fw*.33)} ${n(y-5)}`
+                                        +`C${n(100-fw*.46)} ${n(y-23)} ${n(100-fw*.88)} ${n(y-21)} ${n(100-fw)} ${n(y)}` }
+};
+
+/* How far the hair falls at the sides, and whether mass sits behind the head */
+const STYLE = {
+  'Buzz':   { side:-16, back:0,   crown:4,  tex:'buzz'  },
+  'Short':  { side:-12, back:0,   crown:13, tex:null    },
+  'Medium': { side:18,  back:34,  crown:15, tex:null    },
+  'Long':   { side:26,  back:86,  crown:16, tex:null    },
+  'Curly':  { side:2,   back:22,  crown:20, tex:'curl'  },
+  'Wavy':   { side:10,  back:30,  crown:17, tex:'wave'  },
+  'Braids': { side:-6,  back:30,  crown:12, tex:'braid' }
+};
+
+const EXPR = {
+  'Confident': { open:.86, brow:-5, browY:-1, mouth:8,   mouthW:1.02, lift:2 },
+  'Calm':      { open:.78, brow:0,  browY:2,  mouth:3,   mouthW:.90, lift:0 },
+  'Intense':   { open:.60, brow:10, browY:-5, mouth:-1,  mouthW:.86, lift:0 },
+  'Friendly':  { open:.94, brow:-7, browY:-4, mouth:15,  mouthW:1.16, lift:0 },
+  'Serious':   { open:.72, brow:3,  browY:1,  mouth:-5,  mouthW:.96, lift:0 }
+};
+
+const NOSE = { 'Small':{w:6.5,len:10}, 'Medium':{w:9,len:14}, 'Large':{w:12.5,len:19} };
+
+function shade(hex, amt) {
+  const v = parseInt(hex.slice(1), 16);
+  const ch = [(v >> 16) & 255, (v >> 8) & 255, v & 255].map(c => {
+    const x = amt < 0 ? c * (1 + amt) : c + (255 - c) * amt;
+    return Math.max(0, Math.min(255, Math.round(x)));
+  });
+  return '#' + ((ch[0] << 16) | (ch[1] << 8) | ch[2]).toString(16).padStart(6, '0');
+}
+
+function lum(hex) {
+  const v = parseInt(hex.slice(1), 16);
+  return (0.2126*((v>>16)&255) + 0.7152*((v>>8)&255) + 0.0722*(v&255)) / 255;
+}
+/* Feature lines must contrast with the skin they sit on, in whichever
+   direction has headroom — darkening a deep tone yields black-on-black. */
+function contrastLine(skin, strength) {
+  return lum(skin) < 0.38 ? shade(skin, strength * 0.85) : shade(skin, -strength);
+}
+
+function facePath(g) {
+  const { fw, cw, jw, chin, sharp, foreY, cheekY, jawY } = g, top = 30;
+  const s = Math.max(.05, Math.min(.9, sharp));
+  return [
+    `M100 ${top}`,
+    `C${n(100+fw*.6)} ${top} ${n(100+fw)} ${n(top+(foreY-top)*.5)} ${n(100+fw)} ${n(foreY)}`,
+    `C${n(100+fw)} ${n(foreY+(cheekY-foreY)*.45)} ${n(100+cw)} ${n(cheekY-(cheekY-foreY)*.5)} ${n(100+cw)} ${n(cheekY)}`,
+    `C${n(100+cw)} ${n(cheekY+(jawY-cheekY)*.58)} ${n(100+jw+(cw-jw)*.4)} ${n(jawY-(jawY-cheekY)*.1)} ${n(100+jw)} ${n(jawY)}`,
+    `C${n(100+jw)} ${n(jawY+(chin-jawY)*s)} ${n(100+jw*s)} ${n(chin)} 100 ${n(chin)}`,
+    `C${n(100-jw*s)} ${n(chin)} ${n(100-jw)} ${n(jawY+(chin-jawY)*s)} ${n(100-jw)} ${n(jawY)}`,
+    `C${n(100-jw-(cw-jw)*.4)} ${n(jawY-(jawY-cheekY)*.1)} ${n(100-cw)} ${n(cheekY+(jawY-cheekY)*.58)} ${n(100-cw)} ${n(cheekY)}`,
+    `C${n(100-cw)} ${n(cheekY-(cheekY-foreY)*.5)} ${n(100-fw)} ${n(foreY+(cheekY-foreY)*.45)} ${n(100-fw)} ${n(foreY)}`,
+    `C${n(100-fw)} ${n(top+(foreY-top)*.5)} ${n(100-fw*.6)} ${top} 100 ${top}Z`
+  ].join('');
+}
+
+function hairPath(g, style, hairline) {
+  const { fw, cheekY } = g, top = 30;
+  const hl = HAIRLINE[hairline] || HAIRLINE['Natural'];
+  const st = STYLE[style] || STYLE['Short'];
+  const hy = top + 36 + hl.dy;
+  const sideY = cheekY + st.side;
+  const cr = top - st.crown;
+  return `M${n(100-fw-7)} ${n(sideY)}`
+       + `C${n(100-fw-8)} ${n(cr+22)} ${n(100-fw*.55)} ${n(cr)} 100 ${n(cr)}`
+       + `C${n(100+fw*.55)} ${n(cr)} ${n(100+fw+8)} ${n(cr+22)} ${n(100+fw+7)} ${n(sideY)}`
+       + `L${n(100+fw)} ${n(sideY-4)}L${n(100+fw)} ${n(hy)}`
+       + hl.curve(fw, hy)
+       + `L${n(100-fw)} ${n(sideY-4)}Z`;
+}
+
+function backHairPath(g, style) {
+  const st = STYLE[style] || STYLE['Short'];
+  if (!st.back) return '';
+  const { cw, cheekY, chin } = g, b = cheekY + st.back;
+  if (st.tex === 'braid') {
+    const x = cw + 2, top0 = cheekY - 22, len = st.back + 46;
+    let d = '';
+    for (const sx of [-1, 1]) {
+      const bx = 100 + sx * x;
+      d += `M${n(bx-8)} ${n(top0)}q${n(sx*3)} ${n(len*.5)} 0 ${n(len)}`
+         + `q8 9 16 0q${n(-sx*3)} ${n(-len*.5)} 0 ${n(-len)}Z`;
+      for (let k = 1; k < 5; k++)   // knots so it reads as plaited, not a slab
+        d += `M${n(bx-8)} ${n(top0+len*k/5)}q8 7 16 0`;
+    }
+    return d;
+  }
+  return `M${n(100-cw-5)} ${n(cheekY-34)}`
+       + `C${n(100-cw-17)} ${n(cheekY+st.back*.5)} ${n(100-cw-13)} ${n(b+14)} ${n(100-cw+4)} ${n(Math.min(b+22, chin+26))}`
+       + `L${n(100+cw-4)} ${n(Math.min(b+22, chin+26))}`
+       + `C${n(100+cw+13)} ${n(b+14)} ${n(100+cw+17)} ${n(cheekY+st.back*.5)} ${n(100+cw+5)} ${n(cheekY-34)}Z`;
+}
+
+/* Texture overlay strokes for curly / wavy / buzz */
+function hairTexture(g, style, hairCol) {
+  const st = STYLE[style] || STYLE['Short'];
+  if (!st.tex || st.tex === 'braid') return '';
+  const { fw } = g, top = 30, lit = shade(hairCol, .16);
+  let d = '';
+  if (st.tex === 'curl') {
+    for (let i = -3; i <= 3; i++)
+      d += `<path d="M${n(100+i*13)} ${n(top-10)}q6 9 0 18q-6 9 0 18" fill="none"
+             stroke="${lit}" stroke-width="2.4" stroke-linecap="round" opacity=".55"/>`;
+  } else if (st.tex === 'wave') {
+    for (let i = -2; i <= 2; i++)
+      d += `<path d="M${n(100+i*17)} ${n(top-8)}q9 12 0 24" fill="none"
+             stroke="${lit}" stroke-width="2.2" stroke-linecap="round" opacity=".5"/>`;
+  } else if (st.tex === 'buzz') {
+    d += `<path d="M${n(100-fw)} ${n(top+8)}q${n(fw)} -16 ${n(fw*2)} 0" fill="none"
+           stroke="${lit}" stroke-width="2" stroke-linecap="round" opacity=".45"/>`;
+  }
+  return d;
+}
+
+function renderFace(picks, uid, view) {
+  const p       = picks || {};
+  const anc     = ANCESTRY[p.race] || {};
+  const skin    = HEX.skin[p.skin]           || anc.skin || '#E7C6A4';
+  const hairCol = HEX.haircolor[p.haircolor] || anc.hair || '#3A2A22';
+  const eyeCol  = HEX.eye[p.eye]             || '#6B4423';
+  const base    = SHAPE[p.shape] || SHAPE['Oval'];
+  const jm      = JAW[p.jaw] || { jw:1, sharp:0, chin:0 };
+  const g = { ...base, jw:base.jw * jm.jw, sharp:base.sharp + jm.sharp, chin:base.chin + jm.chin };
+
+  const ex   = EXPR[p.expression] || EXPR['Calm'];
+  const nose = NOSE[p.nose] || NOSE['Medium'];
+  const style = p.hairstyle || 'Short';
+  const hairline = p.hairline || 'Natural';
+
+  const { cw, cheekY, chin, jawY } = g;
+  const eyeY  = cheekY + 3;
+  const eyeX  = cw * .45;
+  const eyeRy = 7.4 * ex.open;
+  const browY = eyeY - 19 + ex.browY;
+  const noseY = eyeY + nose.len + 9;
+  const mouthY = noseY + (chin - noseY) * .46;
+  const dark   = lum(skin) < 0.38;
+  const shadow = dark ? shade(skin, .12) : shade(skin, -.16);
+  const line   = contrastLine(skin, .42);
+  const mouthC = contrastLine(skin, .55);
+  const browC  = dark && lum(hairCol) < 0.25 ? shade(hairCol, .34) : shade(hairCol, -.1);
+
+  const eye = sx => `
+    <ellipse cx="${n(100+sx*eyeX)}" cy="${n(eyeY)}" rx="11.4" ry="${n(eyeRy)}" fill="#fff"/>
+    <circle cx="${n(100+sx*eyeX)}" cy="${n(eyeY)}" r="${n(Math.min(6.6, eyeRy*.95))}" fill="${eyeCol}"/>
+    <circle cx="${n(100+sx*eyeX)}" cy="${n(eyeY)}" r="${n(Math.min(3, eyeRy*.44))}" fill="#17130F"/>
+    <circle cx="${n(100+sx*eyeX-2.2)}" cy="${n(eyeY-2.4)}" r="1.5" fill="#fff" opacity=".9"/>
+    <path d="M${n(100+sx*eyeX-11.4)} ${n(eyeY)}a11.4 ${n(eyeRy)} 0 0 1 22.8 0" fill="none"
+          stroke="${line}" stroke-width="1.9" stroke-linecap="round"/>`;
+
+  const brow = sx => `
+    <path d="M${n(100+sx*(eyeX-11))} ${n(browY+sx*0+ex.brow)}
+             Q${n(100+sx*eyeX)} ${n(browY-5)} ${n(100+sx*(eyeX+11))} ${n(browY-ex.brow*.4)}"
+          fill="none" stroke="${browC}" stroke-width="3.4" stroke-linecap="round"/>`;
+
+  return `
+<svg viewBox="${view || '0 0 200 250'}" xmlns="http://www.w3.org/2000/svg" role="img" class="face-svg">
+  <defs>
+    <clipPath id="fc${uid}"><path d="${facePath(g)}"/></clipPath>
+    <clipPath id="hc${uid}"><path d="${hairPath(g, style, hairline)}"/></clipPath>
+  </defs>
+
+  ${backHairPath(g, style) ? `<path d="${backHairPath(g, style)}" fill="${shade(hairCol,-.18)}"/>` : ''}
+
+  <!-- neck + shoulders -->
+  <path d="M${n(100-17)} ${n(chin-18)}h34v${n(28)}q0 10 -17 12q-17 -2 -17 -12Z" fill="${shadow}"/>
+  <path d="M${n(100-58)} 250q6 -30 30 -37q14 -4 28 -4t28 4q24 7 30 37Z" fill="rgba(118,126,168,.42)"/>
+
+  <!-- ears -->
+  <ellipse cx="${n(100-cw+1)}" cy="${n(cheekY+8)}" rx="7" ry="11" fill="${shadow}"/>
+  <ellipse cx="${n(100+cw-1)}" cy="${n(cheekY+8)}" rx="7" ry="11" fill="${shadow}"/>
+
+  <!-- face -->
+  <path d="${facePath(g)}" fill="${skin}"/>
+  <g clip-path="url(#fc${uid})">
+    <ellipse cx="${n(100-cw*.62)}" cy="${n(cheekY+16)}" rx="15" ry="9" fill="${shade(skin,-.07)}" opacity=".55"/>
+    <ellipse cx="${n(100+cw*.62)}" cy="${n(cheekY+16)}" rx="15" ry="9" fill="${shade(skin,-.07)}" opacity=".55"/>
+  </g>
+
+  ${brow(-1)}${brow(1)}
+  ${eye(-1)}${eye(1)}
+
+  <!-- nose -->
+  <path d="M100 ${n(eyeY+6)}v${n(nose.len)}q0 5 ${n(-nose.w*.55)} 6"
+        fill="none" stroke="${line}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+  <path d="M${n(100-nose.w)} ${n(noseY)}q${n(nose.w)} ${n(nose.w*.6)} ${n(nose.w*2)} 0"
+        fill="none" stroke="${line}" stroke-width="2.1" stroke-linecap="round" opacity=".8"/>
+
+  <!-- mouth -->
+  <path d="M${n(100-15*ex.mouthW)} ${n(mouthY)}Q100 ${n(mouthY+ex.mouth)} ${n(100+15*ex.mouthW)} ${n(mouthY)}"
+        fill="none" stroke="${mouthC}" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- hair (edge stroke only when it would otherwise dissolve into the skin) -->
+  <path d="${hairPath(g, style, hairline)}" fill="${hairCol}"
+        ${Math.abs(lum(hairCol) - lum(skin)) < .17
+          ? `stroke="${shade(hairCol, lum(hairCol) > .5 ? -.28 : .28)}" stroke-width="1.6"` : ''}/>
+  <g clip-path="url(#hc${uid})">${hairTexture(g, style, hairCol)}</g>
+</svg>`;
+}
+
+
 /* ═══════════════ 3 · STATE ═══════════════ */
 const state = { picks:{}, openRow:null };
 const setCount = () => Object.keys(state.picks).length;
+
+const STORE = 'myspawn.face.v1';
+const VALID = new Set(TRAITS.flatMap(t => t.options.map(optName)));
+function save() {
+  try { localStorage.setItem(STORE, JSON.stringify(state.picks)); } catch (_) {}
+}
+function restore() {
+  let raw; try { raw = localStorage.getItem(STORE); } catch (_) { return false; }
+  if (!raw) return false;
+  let data; try { data = JSON.parse(raw); } catch (_) { return false; }
+  if (!data || typeof data !== 'object') return false;
+  let k = 0;
+  TRAITS.forEach(t => {                       // whitelist: ignore anything unrecognised
+    const v = data[t.id];
+    if (typeof v === 'string' && VALID.has(v) &&
+        t.options.some(o => optName(o) === v)) { state.picks[t.id] = v; k++; }
+  });
+  return k > 0;
+}
 
 /* Name from ?name= — sanitised, never injected as HTML */
 let NAME = 'Ray', hasName = true;
@@ -758,9 +1003,11 @@ let NAME = 'Ray', hasName = true;
   if (!src || !/^(https:\/\/|data:image\/|\/)/i.test(src)) return;
   const img = new Image();
   img.onload = () => {
-    const el = document.getElementById('portrait');
+    const el = document.getElementById('srcPhoto');
+    if (!el) return;
     img.alt = 'Your source photo';
-    el.replaceWith(img);
+    el.textContent = '';
+    el.appendChild(img);
   };
   img.src = src;
 })();
@@ -888,6 +1135,10 @@ function buildRow(trait) {
 })();
 
 /* ═══════════════ 5 · INTERACTION ═══════════════ */
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const SETTLE = REDUCED ? 0 : 300;
+let advanceTimer = null;
+
 function toggleRow(id, force, silent) {
   const open = force !== undefined ? force : state.openRow !== id;
   // Another panel collapsing above us keeps the target moving for one transition.
@@ -903,16 +1154,13 @@ function toggleRow(id, force, silent) {
   row.querySelector('.row-hd').setAttribute('aria-expanded', String(open));
   state.openRow = open ? id : null;
   if (!open || silent) return;
-  if (collapsing) setTimeout(() => scrollRowIntoView(row), 300); // wait it out
+  if (collapsing) setTimeout(() => scrollRowIntoView(row), SETTLE); // wait it out
   else scrollRowIntoView(row);
 }
 
-/* Measure against the LIVE sticky heights — the strip grows 0→58px on the
-   first pick, and a hardcoded offset parks the row's options under the chrome. */
+/* Measure against the live header height rather than a hardcoded constant. */
 function stickyOffset() {
-  const strip = document.getElementById('strip');
-  return document.querySelector('.hdr').offsetHeight +
-         (strip.classList.contains('on') ? strip.offsetHeight : 0) + 12;
+  return document.querySelector('.hdr').offsetHeight + 12;
 }
 
 function scrollRowIntoView(row) {
@@ -921,28 +1169,31 @@ function scrollRowIntoView(row) {
     behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
 }
 
-function choose(traitId, value) {
+function choose(traitId, value, advance = true) {
   const before = setCount();
   if (value === null) delete state.picks[traitId];
   else state.picks[traitId] = value;
 
   buzz(value === null ? 4 : 9);
   paintRow(traitId);
-  paintAll();
+  paintAll(true);
 
+  save();
   if (setCount() > before) toast(MILESTONES[setCount()] || '');
+  if (!advance) return;
 
   /* Auto-advance. Order matters: collapse THIS row first and let the layout
      settle, then open the next one. Measuring while the outgoing panel is
-     still shrinking (and while the strip is expanding) yields a stale target
-     and drops the new options under the sticky chrome. */
+     still shrinking yields a stale target and drops the new options under
+     the sticky header. */
   const nxt = nextUnset(traitId);
   toggleRow(traitId, false);
-  setTimeout(() => {
+  clearTimeout(advanceTimer);          // fast repeat taps must not stack advances
+  advanceTimer = setTimeout(() => {
     if (nxt) toggleRow(nxt, true);
     else document.getElementById('summary')
-           .scrollIntoView({ behavior:'smooth', block:'center' });
-  }, 300);
+           .scrollIntoView({ behavior:REDUCED ? 'auto' : 'smooth', block:'center' });
+  }, SETTLE);
 }
 
 function nextUnset(fromId) {
@@ -960,9 +1211,13 @@ function paintRow(traitId) {
   const val   = state.picks[traitId] ?? null;
 
   row.classList.toggle('set', val !== null);
-  row.querySelectorAll('[role="radio"]').forEach(b => {
-    b.setAttribute('aria-checked', String((b.dataset.value || null) === val));
+  const radios = [...row.querySelectorAll('[role="radio"]')];
+  radios.forEach(b => {
+    const on = (b.dataset.value || null) === val;
+    b.setAttribute('aria-checked', String(on));
+    b.tabIndex = on ? 0 : -1;          // one tab stop per group, not one per option
   });
+  if (!radios.some(b => b.tabIndex === 0) && radios[0]) radios[0].tabIndex = 0;
 
   const slot = row.querySelector('[data-val]');
   slot.textContent = '';
@@ -985,13 +1240,27 @@ function colorFor(trait, value) {
   return hit ? optColor(hit) : null;
 }
 
-function paintAll() {
+const FACE_MOUNTS = [
+  { id:'faceMini', view:'10 6 180 180' },   // head-only crop for the 34px avatar
+  { id:'faceHero', view:null },
+  { id:'faceBig',  view:null }
+];
+function paintFaces(beat) {
+  FACE_MOUNTS.forEach(({ id, view }) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.innerHTML = renderFace(state.picks, id, view);
+    if (beat && !REDUCED) { el.classList.remove('beat'); void el.offsetWidth; el.classList.add('beat'); }
+  });
+}
+
+function paintAll(beat) {
   const n = setCount();
+  paintFaces(beat);
 
   // Ring
   const C = 2 * Math.PI * 16.5;
   document.getElementById('ringVal').style.strokeDashoffset = String(C - (n / TOTAL) * C);
-  document.getElementById('ringTxt').textContent = String(n);
   document.getElementById('ring').setAttribute('aria-valuenow', String(n));
   document.getElementById('hdrTitle').textContent =
     n === 0 ? 'Design their face'
@@ -1004,22 +1273,6 @@ function paintAll() {
     const el   = document.getElementById('sect-' + sec.id);
     el.querySelector('[data-ct]').textContent = `${done}/${rows.length}`;
     el.classList.toggle('complete', done === rows.length);
-  });
-
-  // Blueprint strip
-  const strip = document.getElementById('strip');
-  const inner = document.getElementById('stripIn');
-  strip.classList.toggle('on', n > 0);
-  inner.querySelectorAll('.stamp').forEach(e => e.remove());
-  TRAITS.forEach(t => {
-    if (!(t.id in state.picks)) return;
-    const v = state.picks[t.id], c = colorFor(t, v);
-    const chip = document.createElement('span');
-    chip.className = 'stamp';
-    if (c) { const d = document.createElement('i'); d.className = 'sw';
-             d.style.background = c; chip.appendChild(d); }
-    const s = document.createElement('span'); s.textContent = v; chip.appendChild(s);
-    inner.appendChild(chip);
   });
 
   // Summary
@@ -1036,8 +1289,11 @@ function paintAll() {
   } else {
     TRAITS.forEach(t => {
       const v = state.picks[t.id] ?? null;
-      const row = document.createElement('div');
+      const row = document.createElement('button');
+      row.type = 'button';
       row.className = 'sm-item' + (v === null ? ' def' : '');
+      row.setAttribute('aria-label', `${t.label}: ${v === null ? 'from photo' : v}. Edit.`);
+      row.addEventListener('click', () => toggleRow(t.id, true));
       const k = document.createElement('span'); k.className = 'k'; k.textContent = t.label;
       const val = document.createElement('span'); val.className = 'v';
       const c = v !== null ? colorFor(t, v) : null;
@@ -1075,9 +1331,10 @@ const buzz = ms => { try { navigator.vibrate && navigator.vibrate(ms); } catch (
 /* ═══════════════ 7 · WIRING ═══════════════ */
 document.getElementById('skipAll').addEventListener('click', () => {
   state.picks = {};
+  save();
   TRAITS.forEach(t => paintRow(t.id));
   if (state.openRow) toggleRow(state.openRow, false);
-  paintAll();
+  paintAll(true);
   toast('All traits inherited from your photo');
   document.getElementById('summary').scrollIntoView({ behavior:'smooth', block:'center' });
 });
@@ -1117,13 +1374,23 @@ addEventListener('keydown', e => {
   const items = [...group.querySelectorAll('[role="radio"]')];
   const i = items.indexOf(e.target);
   const step = (e.key === 'ArrowRight' || e.key === 'ArrowDown') ? 1 : -1;
-  items[(i + step + items.length) % items.length].focus();
+  const next = items[(i + step + items.length) % items.length];
+  next.focus();
+  const trait = TRAITS.find(t => group.getAttribute('aria-label') === t.label);
+  if (trait) choose(trait.id, next.dataset.value || null, false); // select without auto-advancing
 });
 
 /* Boot */
+const restored = restore();
 TRAITS.forEach(t => paintRow(t.id));
 paintAll();
-toggleRow(TRAITS[0].id, true, /* silent */ true);   // first trait pre-opened, no scroll jump
+const firstOpen = TRAITS.find(t => !(t.id in state.picks)) || TRAITS[0];
+toggleRow(firstOpen.id, true, /* silent */ true);   // pre-opened, no scroll jump on load
+if (restored) {
+  document.getElementById('faceCap').textContent =
+    `Restored ${setCount()} of ${TOTAL} traits from last time`;
+  toast('Picked up where you left off');
+}
 </script>
 </body>
 </html>
