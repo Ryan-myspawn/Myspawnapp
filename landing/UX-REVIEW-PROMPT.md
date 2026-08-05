@@ -5,7 +5,7 @@ This document contains two things:
 1. A reusable **prompt for a UI/UX expert** (human or AI) to review any landing page
    against a "new visitor decides to buy in under 20 seconds" bar.
 2. The **result of applying that prompt** to `landing_new_6_3.html`, and the changes
-   shipped in `landing_new_6_4.html`.
+   shipped in `landing_new_6_5.html`.
 
 ---
 
@@ -79,4 +79,4 @@ Also: footer version stamp bumped to *Landing new v5.7*.
 
 ---
 
-*Review target: `landing_new_6_3.html` · Output: `landing_new_6_4.html`*
+*Review target: `landing_new_6_3.html` · Output: `landing_new_6_5.html`*
