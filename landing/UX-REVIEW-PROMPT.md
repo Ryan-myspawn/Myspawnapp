@@ -146,3 +146,19 @@ interface fully on-palette; fully finishing the look needs those clips regraded 
 replaced warm, per the guide's asset notes.
 
 Version stamp v5.9 → v6.0.
+
+---
+
+## 6. v7.0 — fire CTAs (and cleanup)
+
+- Deleted the v6.7 copper recolor's successors and the accession-form redesign
+  (`landing_new_6_8.html`, `landing_new_6_9.html`, `preview_6_9.html`,
+  `REDESIGN-6-8.md`) — direction not wanted.
+- `landing_new_7_0.html` (from `landing_new_6_6.html`): gave the **buy pill**
+  (`.nav-cta` / `.np-cta`, "$99 for the first 1,000 members") and the
+  **"Click to design your descendant" pill** (`.design-pill`) an **orange fire
+  glow** — animated flickering/pulsing box-shadow + shifting orange→amber→ember
+  gradient. Chose orange over red: the page palette is cool indigo/blue/purple, so
+  orange is the complementary opposite and stands out far harder than red (which
+  sits close to the existing purples and the founder-tag red). Respects
+  `prefers-reduced-motion`. Version stamp → v7.0.
