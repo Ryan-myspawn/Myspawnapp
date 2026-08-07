@@ -194,3 +194,16 @@ was removed.
 "Claim your kit" button (`.mcta-btn`) was still the old blue gradient; restyled it to
 the Option B fire-orange pill + halo ring + gentle pulse so every buy CTA on the page
 now matches. Respects `prefers-reduced-motion`. Version stamp → v7.2.
+
+---
+
+## 9. v7.3 — Brand Book v1.0 color alignment
+
+`landing_new_7_3.html` (from `landing_new_7_2.html`) aligns the identity colors to
+MySpawn Brand Book v1.0:
+- Violet `#6055AC` → **`#6366F1`** (MySpawn Violet) — brand accent, "Spawn", links, gradient endpoint.
+- Ink/dark `#1B2735` → **`#0F172A`** (MySpawn Dark) — headlines, primary text, night base.
+- Deep violet `#4B4194` → `#4F46E5`; ink-soft → `#1E293B`; line → `#E2E8F0`; page bg → `#F8FAFC`.
+- Primary gradient is now `#3B82F6 → #6366F1` (brand primary gradient) automatically.
+The founder-chosen **fire-orange CTAs are intentionally kept** (Option B), overriding the
+brand gradient buttons by design. Version stamp → v7.3.
