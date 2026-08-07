@@ -12,9 +12,9 @@ Extracted from the site header lockup (icon mark + "MySpawn™" wordmark, Outfit
 | `myspawn-avatar-1024.png` | PNG | 1024×1024 | Square social profile picture (X, Instagram, LinkedIn, etc.) |
 
 ## Colors
-- Ink (wordmark "My"): `#1B2735`
-- Indigo (wordmark "Spawn", icon): `#6055AC`
-- On dark, "Spawn" uses lavender `#C7D2FE`
+- Wordmark "My": MySpawn Dark `#0F172A` (per Brand Book v1.0)
+- Wordmark "Spawn": MySpawn Violet `#6366F1` (per Brand Book v1.0)
+- Typeface: **Outfit ExtraBold (800)**, tracking -0.025em (Brand Book locked)
 - Trademark "™" is black `#000000` on the light/white lockups, light on the dark lockup
 
 ## Note on resolution
