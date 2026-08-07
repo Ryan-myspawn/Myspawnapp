@@ -185,3 +185,12 @@ Note: the new clip is H.264 and does not decode in the headless sandbox browser,
 could not be frame-verified here; it is correctly embedded (4 MB) and plays in real
 browsers. Poster attribute omitted (no stale still); the old robotic-arm fallback image
 was removed.
+
+---
+
+## 8. v7.2 — sticky mobile bar CTA
+
+`landing_new_7_2.html` (from `landing_new_7_1.html`): the mobile sticky bottom bar's
+"Claim your kit" button (`.mcta-btn`) was still the old blue gradient; restyled it to
+the Option B fire-orange pill + halo ring + gentle pulse so every buy CTA on the page
+now matches. Respects `prefers-reduced-motion`. Version stamp → v7.2.
