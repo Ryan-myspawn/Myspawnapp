@@ -15,6 +15,7 @@ Extracted from the site header lockup (icon mark + "MySpawn™" wordmark, Outfit
 - Ink (wordmark "My"): `#1B2735`
 - Indigo (wordmark "Spawn", icon): `#6055AC`
 - On dark, "Spawn" uses lavender `#C7D2FE`
+- Trademark "™" is black `#000000` on the light/white lockups, light on the dark lockup
 
 ## Note on resolution
 The icon mark originates from a **256×256 raster** source, so the transparent/white
