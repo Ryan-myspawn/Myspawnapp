@@ -162,3 +162,26 @@ Version stamp v5.9 → v6.0.
   orange is the complementary opposite and stands out far harder than red (which
   sits close to the existing purples and the founder-tag red). Respects
   `prefers-reduced-motion`. Version stamp → v7.0.
+
+---
+
+## 7. v7.1 — CTA option B + honest GenVault video
+
+`landing_new_7_1.html` (from `landing_new_7_0.html`):
+
+- **CTA restyle (Option B):** buy pill (`.nav-cta`/`.np-cta`) and the
+  "Click to design your descendant" pill (`.design-pill`) are now a solid fire-orange
+  pill with white text and a soft halo ring + gentle pulse (replaced the earlier
+  soft-orange glow and the indigo-pill/orange-text trial). Respects
+  `prefers-reduced-motion`.
+- **GenVault video replaced** with founder-supplied footage (a gloved hand placing a
+  vial into cold storage); removed the old automated-retrieval/robotic-arm clip and
+  every "automated / barcoded chain of custody" claim in the caption, alt and aria
+  text. Caption now: *"Stored at a secure facility in New Jersey, at ambient
+  temperatures, capable of preserving your sample for decades."*
+- Version stamp → v7.1.
+
+Note: the new clip is H.264 and does not decode in the headless sandbox browser, so it
+could not be frame-verified here; it is correctly embedded (4 MB) and plays in real
+browsers. Poster attribute omitted (no stale still); the old robotic-arm fallback image
+was removed.
