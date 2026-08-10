@@ -165,11 +165,16 @@ body{
 }
 .portrait .ph{ display:grid; place-items:center; color:var(--ink-4); }
 .portrait::after{
-  content:'SOURCE'; position:absolute; bottom:-9px; left:50%; transform:translateX(-50%);
+  content:attr(data-badge); position:absolute; bottom:-9px; left:50%; transform:translateX(-50%);
   font-size:8.5px; font-weight:800; letter-spacing:.12em; color:#fff;
   background:var(--ink); padding:3px 9px; border-radius:var(--r-full);
   box-shadow:var(--sh-2); white-space:nowrap;
 }
+.portrait .sketch{ width:100%; height:100%; border-radius:27px; overflow:hidden; display:block;
+  background:var(--surface-2); color:var(--ink-3); }
+.portrait .sketch svg{ width:100%; height:100%; display:block; }
+.sketch-cap{ font-size:11.5px; font-weight:600; color:var(--ink-4); margin:-6px 0 14px; }
+.sketch-cap[hidden]{ display:none; }
 @media (prefers-color-scheme: dark){ .portrait::after{ background:#2A3048; } }
 
 h1{
@@ -557,11 +562,12 @@ h1 .nm{
 
   <!-- ══ HERO ══ -->
   <section class="hero">
-    <div class="portrait">
+    <div class="portrait" id="portraitWrap" data-badge="SOURCE">
       <div class="ph" id="portrait" aria-hidden="true">
         <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
       </div>
     </div>
+    <p class="sketch-cap" id="sketchCap" hidden>Live sketch — the real render is generated once, at the end.</p>
     <h1>Design <span class="nm" id="heroName">Ray</span>.</h1>
     <p class="lede">Ten traits, all optional. Anything you leave alone is <b>inherited from your photo</b>.</p>
     <div class="hero-actions">
@@ -788,17 +794,192 @@ let NAME = 'Ray', hasName = true;
 })();
 
 /* Photo from ?photo= — same-origin/data/https only */
+let PHOTO = null;
 (() => {
   const src = new URLSearchParams(location.search).get('photo');
   if (!src || !/^(https:\/\/|data:image\/|\/)/i.test(src)) return;
   const img = new Image();
-  img.onload = () => {
-    const el = document.getElementById('portrait');
-    img.alt = 'Your source photo';
-    el.replaceWith(img);
-  };
+  img.onload = () => { img.alt = 'Your source photo'; PHOTO = img; updatePortrait(); };
   img.src = src;
 })();
+
+/* ═══════════════ 3b · LIVE SKETCH ═══════════════
+   A deterministic line-art portrait, drawn from the current picks — the same
+   visual language as the body designer's live figure. It answers "is my
+   choice registering?" instantly and for free; the photoreal render is
+   generated ONCE at the end of the flow instead of on every tap.
+   Race is deliberately never depicted — only explicit colour picks are. */
+const HEAD = {   // half-widths/heights around cx=100
+  Oval:    { crownY:36, top:52, cheek:55, jawW:38, chinW:16, chinY:182 },
+  Round:   { crownY:44, top:58, cheek:62, jawW:48, chinW:26, chinY:172 },
+  Square:  { crownY:42, top:55, cheek:56, jawW:50, chinW:34, chinY:176 },
+  Heart:   { crownY:40, top:60, cheek:56, jawW:31, chinW:9,  chinY:180 },
+  Diamond: { crownY:46, top:42, cheek:58, jawW:31, chinW:11, chinY:182 },
+  Oblong:  { crownY:30, top:48, cheek:50, jawW:36, chinW:16, chinY:194 }
+};
+const JAW_MOD = {   // subtle: jaw pick reshapes the lower face
+  Soft:    { jaw:-2, chin:+3 },
+  Defined: { jaw:+4, chin:+1 },
+  Angular: { jaw:+7, chin:+4 },
+  Rounded: { jaw:-1, chin:+6 }
+};
+const NOSE_LEN = { Small:24, Medium:32, Large:41 };
+const NOSE_W   = { Small:6.5, Medium:8.5, Large:10.5 };
+
+function headGeom(picks) {
+  const g = { ...(HEAD[picks.shape] || HEAD.Oval) };
+  const j = JAW_MOD[picks.jaw];
+  if (j) { g.jawW += j.jaw; g.chinW += j.chin; }
+  return g;
+}
+
+function headPath(g) {
+  const { crownY, top, cheek, jawW, chinW, chinY } = g;
+  const R = ''
+    + `M100 ${crownY}`
+    + `C${100+top*0.62} ${crownY} ${100+top} ${crownY+22} ${100+top} ${crownY+42}`
+    + `C${100+cheek} ${crownY+62} ${100+cheek} 108 ${100+cheek} 124`
+    + `C${100+cheek} 142 ${100+jawW+4} ${chinY-26} ${100+jawW} ${chinY-18}`
+    + `C${100+jawW-6} ${chinY-8} ${100+chinW+8} ${chinY} ${100+chinW} ${chinY}`
+    + `Q100 ${chinY+5} ${100-chinW} ${chinY}`
+    + `C${100-chinW-8} ${chinY} ${100-jawW+6} ${chinY-8} ${100-jawW} ${chinY-18}`
+    + `C${100-jawW-4} ${chinY-26} ${100-cheek} 142 ${100-cheek} 124`
+    + `C${100-cheek} 108 ${100-cheek} ${crownY+62} ${100-top} ${crownY+42}`
+    + `C${100-top} ${crownY+22} ${100-top*0.62} ${crownY} 100 ${crownY}Z`;
+  return R;
+}
+
+/* Inner hair edge across the forehead, right temple → left temple */
+function hairlineEdge(kind, xr, xl, y) {
+  switch (kind) {
+    case 'High':          y -= 10; return `L${xr} ${y}Q100 ${y+8} ${xl} ${y}`;
+    case 'Straight':      return `L${xr} ${y}L${xl} ${y}`;
+    case "Widow's Peak":  return `L${xr} ${y}Q${(xr+100)/2} ${y+2} 100 ${y+11}Q${(xl+100)/2} ${y+2} ${xl} ${y}`;
+    case 'Receding':      return `L${xr} ${y-12}C${xr-10} ${y-12} ${xr-14} ${y+5} ${100+12} ${y+5}`
+                               + `L${100-12} ${y+5}C${xl+14} ${y+5} ${xl+10} ${y-12} ${xl} ${y-12}`;
+    case 'M-Shaped':      return `L${xr} ${y-6}Q${(xr+100)/2} ${y+9} 100 ${y-2}Q${(xl+100)/2} ${y+9} ${xl} ${y-6}`;
+    default:              return `L${xr} ${y}Q100 ${y+9} ${xl} ${y}`;   // Natural
+  }
+}
+
+function hairSvg(picks, g, hairFill) {
+  const style = picks.hairstyle || ((picks.haircolor || picks.hairline) ? 'Short' : null);
+  if (!style) return '';
+  const off = { Buzz:4, Short:9, Medium:12, Long:13, Curly:13, Wavy:12, Braids:9 }[style] || 9;
+  const sideY = { Buzz:96, Short:102, Medium:138, Long:150, Curly:112, Wavy:112, Braids:104 }[style] || 102;
+  const crown = g.crownY - off, wTop = g.top + off, wSide = g.cheek + off - 2;
+  const hlY = 82, xr = g.top - 9, xl = -(g.top - 9);
+  const fillAttr = hairFill
+    ? `fill="${hairFill}" fill-opacity="${style === 'Buzz' ? .5 : .92}"`
+    : `fill="var(--surface-2)"`;
+  let d = `M${100-wSide} ${sideY}`
+    + `C${100-wSide} ${crown+34} ${100-wTop*0.8} ${crown} 100 ${crown}`
+    + `C${100+wTop*0.8} ${crown} ${100+wSide} ${crown+34} ${100+wSide} ${sideY}`
+    + `L${100+g.cheek-3} ${sideY}`
+    + `C${100+g.cheek-2} ${hlY+22} ${100+g.top-2} ${hlY+16} ${100+xr} ${hlY}`;
+  d += hairlineEdge(picks.hairline, 100+xr, 100+xl, hlY);
+  d += `C${100-g.top+2} ${hlY+16} ${100-g.cheek+2} ${hlY+22} ${100-g.cheek+3} ${sideY}Z`;
+  let extra = '';
+  if (style === 'Curly')
+    extra = `<path d="M${100-wSide+6} ${crown+40}q7-9 14-2m8-8q7-8 14-1m8-7q7-6 13 1" fill="none" opacity=".55"/>`;
+  if (style === 'Wavy')
+    extra = `<path d="M${100-wSide+5} ${crown+42}c8-6 14 3 22-3s13 4 21-2 13 3 20-2" fill="none" opacity=".55"/>`;
+  if (style === 'Long')
+    extra = `<path d="M${100-wSide} ${sideY-40}C${100-wSide-3} ${sideY+28} ${100-wSide+2} ${sideY+52} ${100-wSide+7} ${sideY+58}
+             M${100+wSide} ${sideY-40}C${100+wSide+3} ${sideY+28} ${100+wSide-2} ${sideY+52} ${100+wSide-7} ${sideY+58}" fill="none" opacity=".7"/>`;
+  if (style === 'Braids') {
+    const bw = 9, xL = 100 - g.cheek - 3, xR = 100 + g.cheek + 3;
+    const braid = x =>
+      `<rect x="${x-bw/2}" y="${sideY}" width="${bw}" height="72" rx="${bw/2}" ${fillAttr}/>` +
+      [18, 36, 54].map(dy => `<path d="M${x-bw/2} ${sideY+dy}l${bw} 9M${x+bw/2} ${sideY+dy}l-${bw} 9" fill="none" opacity=".6"/>`).join('');
+    extra = braid(xL) + braid(xR);
+  }
+  return `<g ${fillAttr} stroke="currentColor" stroke-width="3">` + `<path d="${d}"/>` + extra + `</g>`;
+}
+
+function featureSvg(picks, g, eyeHex) {
+  const exp = picks.expression || 'Calm';
+  const eyeY = 112, off = 26;
+  let s = '';
+  // brows
+  const brow = {
+    Confident: `M${100-off-12} 98q12-6 24-2M${100+off-12} 96q12-4 24 2`,
+    Calm:      `M${100-off-12} 97q12-5 24-1M${100+off-12} 96q12-4 24 1`,
+    Intense:   `M${100-off-13} 93l25 6M${100+off+13} 93l-25 6`,
+    Friendly:  `M${100-off-12} 95q12-8 24-3M${100+off-12} 92q12-5 24 3`,
+    Serious:   `M${100-off-13} 97h26M${100+off-13} 97h26`
+  }[exp];
+  s += `<path d="${brow}" fill="none" stroke-width="3.4"/>`;
+  // eyes
+  for (const sx of [-1, 1]) {
+    const cx = 100 + sx*off;
+    s += `<ellipse cx="${cx}" cy="${eyeY}" rx="11" ry="6.4" fill="var(--surface)" stroke-width="2.6"/>`
+       + `<circle cx="${cx}" cy="${eyeY}" r="4.6" fill="${eyeHex || 'var(--ink-4)'}" stroke="none"/>`
+       + `<circle cx="${cx}" cy="${eyeY}" r="1.9" fill="var(--ink)" stroke="none"/>`;
+  }
+  // nose
+  const L = NOSE_LEN[picks.nose] || 30, w = NOSE_W[picks.nose] || 7.5;
+  s += `<path d="M100 ${eyeY+4}c0 ${L*0.55} -${w} ${L*0.72} -${w} ${L*0.86}c0 ${w*0.9} ${2*w} ${w*0.9} ${2*w} 0C${100+w} ${eyeY+4+L*0.72} 100 ${eyeY+4+L*0.55} 100 ${eyeY+4}" fill="none" stroke-width="2.6"/>`;
+  // mouth
+  const mY = g.chinY - 26;
+  const mouth = {
+    Confident: `M86 ${mY}c9 8 21 7 28 -4`,
+    Calm:      `M85 ${mY}q15 7 30 0`,
+    Intense:   `M89 ${mY+2}h22`,
+    Friendly:  `M82 ${mY-2}q18 15 36 0`,
+    Serious:   `M86 ${mY+2}h28`
+  }[exp];
+  s += `<path d="${mouth}" fill="none" stroke-width="3.2"/>`;
+  // jaw accent when picked
+  if (picks.jaw && picks.jaw !== 'Soft') {
+    const k = picks.jaw === 'Angular' ? 0 : 6;
+    for (const sx of [-1, 1])
+      s += `<path d="M${100+sx*(g.cheek-5)} 136${picks.jaw === 'Rounded'
+        ? `Q${100+sx*(g.jawW+2)} ${g.chinY-20} ${100+sx*(g.chinW+12)} ${g.chinY-6}`
+        : `L${100+sx*(g.jawW-1)} ${g.chinY-18+k}L${100+sx*(g.chinW+10)} ${g.chinY-5}`}" fill="none" stroke-width="2.2" opacity=".3"/>`;
+  }
+  return `<g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">${s}</g>`;
+}
+
+function renderFace(picks) {
+  const g = headGeom(picks);
+  const skin = colorFor(byId('skin'), picks.skin) || 'var(--surface)';
+  const hair = colorFor(byId('haircolor'), picks.haircolor);
+  const eye  = colorFor(byId('eye'), picks.eye);
+  const neckW = 16, neckTop = g.chinY - 8;
+  return `
+<svg viewBox="8 22 184 184" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Live sketch preview">
+  <g stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M34 232C40 208 64 198 84 196L116 196C136 198 160 208 166 232Z" fill="var(--surface-2)"/>
+    <rect x="${100-neckW}" y="${neckTop}" width="${neckW*2}" height="${232-neckTop-30}" rx="7" fill="${skin}"/>
+    <ellipse cx="${100-g.cheek-2}" cy="120" rx="7.5" ry="13" fill="${skin}"/>
+    <ellipse cx="${100+g.cheek+2}" cy="120" rx="7.5" ry="13" fill="${skin}"/>
+    <path d="${headPath(g)}" fill="${skin}"/>
+  </g>
+  ${featureSvg(picks, g, eye)}
+  ${hairSvg(picks, g, hair)}
+</svg>`;
+}
+
+const VISUAL = ['shape','jaw','nose','eye','skin','haircolor','hairstyle','hairline','expression'];
+function updatePortrait() {
+  const wrap = document.getElementById('portraitWrap');
+  const slot = document.getElementById('portrait');
+  const live = VISUAL.some(k => k in state.picks);
+  wrap.dataset.badge = live ? 'LIVE SKETCH' : 'SOURCE';
+  document.getElementById('sketchCap').hidden = !live;
+  if (live) {
+    slot.className = 'sketch';
+    slot.innerHTML = renderFace(state.picks);
+  } else if (PHOTO) {
+    slot.className = 'ph';
+    slot.textContent = '';
+    slot.appendChild(PHOTO);
+  } else {
+    slot.className = 'ph';
+    slot.innerHTML = '<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>';
+  }
+}
 
 /* ═══════════════ 4 · BUILD DOM ═══════════════ */
 const CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
@@ -1036,6 +1217,7 @@ function colorFor(trait, value) {
 
 function paintAll() {
   const n = setCount();
+  updatePortrait();
 
   // Ring
   const C = 2 * Math.PI * 16.5;

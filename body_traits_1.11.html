@@ -852,10 +852,9 @@ Object.entries(ABILITIES).forEach(([c, list]) => list.forEach(a => { CAT_OF[a.ke
 const ALL_ABILITIES = Object.values(ABILITIES).flat();
 const ABILITY_BY_KEY = Object.fromEntries(ALL_ABILITIES.map(a => [a.key, a]));
 
+/* Sex is decided before this page and arrives via ?sex= — it is not a choice
+   here, but the engine still uses it for proportions and the anatomy rule. */
 const FRAME = [
-  { id:'sex', label:'Sex', hint:'Which body plan to shape', kind:'figure',
-    ask:'Male and female frames are proportioned differently — this sets the base.',
-    options:['Male','Female'] },
   { id:'build', label:'Body Type', hint:'The overall frame', kind:'figure',
     ask:'The shape of the body — built once, carried always.', options:Object.keys(BUILD) },
   { id:'height', label:'Height', hint:'Tap to set a target', kind:'measure' },
@@ -882,6 +881,13 @@ let NAME = 'Ray';
   document.getElementById('heroName').textContent = NAME;
   document.getElementById('smName').textContent = NAME;
 })();
+
+/* Body plan handed off from the previous step (?sex=male|female). Applied
+   after restore() at boot so the URL always wins over a stale draft. */
+function sexFromURL() {
+  const raw = (new URLSearchParams(location.search).get('sex') || '').trim().toLowerCase();
+  return raw === 'female' ? 'Female' : raw === 'male' ? 'Male' : null;
+}
 
 function save() {
   try {
@@ -974,8 +980,7 @@ function figOption(t, value) {
   if (value === null) {
     fig.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>';
   } else {
-    const preview = t.id === 'sex'   ? { sex:value, build:state.build, abs:state.abs }
-                  : t.id === 'build' ? { sex:state.sex, build:value, abs:state.abs }
+    const preview = t.id === 'build' ? { sex:state.sex, build:value, abs:state.abs }
                                      : { sex:state.sex, build:state.build, abs:value };
     fig.innerHTML = renderBody(preview, { uid:`o${t.id}${value}`, view:'16 22 168 380', sw:5.8 });
   }
@@ -1043,7 +1048,7 @@ function pathCard(kick, name, desc, icoKey, group, value) {
   const s1 = el('section', 'sect'); s1.id = 'sect-frame';
   s1.innerHTML = `<div class="sect-hd">
       <span class="sect-ico" aria-hidden="true">${I('<path d="M12 2v20M6 6v12M18 6v12M2 10v4M22 10v4"/>')}</span>
-      <h2 class="sect-nm">The frame</h2><span class="sect-ct" data-ct>0/4</span></div>`;
+      <h2 class="sect-nm">The frame</h2><span class="sect-ct" data-ct>0/3</span></div>`;
   FRAME.forEach(t => s1.appendChild(frameRow(t)));
   mount.appendChild(s1);
 
@@ -1178,7 +1183,7 @@ function choose(id, value, advance = true) {
   paintFrameRow(id); paintAll(true);
   refreshFigureOptions();
   if (!advance) return;
-  const order = ['sex', 'build', 'height', 'abs'];
+  const order = ['build', 'height', 'abs'];
   const i = order.indexOf(id);
   const next = order.slice(i + 1).find(k => state[k] == null);
   toggleRow(id, false);
@@ -1201,8 +1206,7 @@ function refreshFigureOptions() {
   FRAME.filter(t => t.kind === 'figure').forEach(t => {
     document.querySelectorAll(`#row-${t.id} .fig-opt:not(.inherit)`).forEach(b => {
       const v = b.dataset.value;
-      const preview = t.id === 'sex'   ? { sex:v, build:state.build, abs:state.abs }
-                    : t.id === 'build' ? { sex:state.sex, build:v, abs:state.abs }
+      const preview = t.id === 'build' ? { sex:state.sex, build:v, abs:state.abs }
                                        : { sex:state.sex, build:state.build, abs:v };
       b.querySelector('.mini-fig').innerHTML = renderBody(preview, { uid:`o${t.id}${v}`, view:'16 22 168 380', sw:5.8 });
     });
@@ -1407,10 +1411,9 @@ function paintFigures(beat) {
   });
 }
 
-function requiredTotal() { return 4 + 1 + (state.path === 'enhanced' ? 1 : 0); }
+function requiredTotal() { return 3 + 1 + (state.path === 'enhanced' ? 1 : 0); }
 function requiredDone() {
   let d = 0;
-  if (state.sex) d++;
   if (state.build) d++;
   if (state.height != null) d++;
   if (state.abs) d++;
@@ -1430,10 +1433,10 @@ function paintAll(beat) {
   ring.setAttribute('aria-valuenow', String(done));
   ring.setAttribute('aria-valuemax', String(total));
 
-  const frameDone = [state.sex, state.build, state.height, state.abs].filter(v => v != null).length;
+  const frameDone = [state.build, state.height, state.abs].filter(v => v != null).length;
   const s1 = document.getElementById('sect-frame');
-  s1.querySelector('[data-ct]').textContent = `${frameDone}/4`;
-  s1.classList.toggle('complete', frameDone === 4);
+  s1.querySelector('[data-ct]').textContent = `${frameDone}/3`;
+  s1.classList.toggle('complete', frameDone === 3);
 
   /* The anatomy adjustment describes the male body plan — offering it beside a
      Female frame produced an incoherent blueprint. The stored value survives,
@@ -1474,7 +1477,7 @@ function paintAll(beat) {
     state.height != null ? fmtHeight(state.height).toUpperCase() : 'FROM PHOTO';
 
   document.getElementById('hdrTitle').textContent =
-    !state.sex && !state.build && state.height == null && !state.abs ? 'Shape the frame'
+    !state.build && state.height == null && !state.abs ? 'Shape the frame'
     : !pathSettled ? `Frame set · choose a path`
     : isEnhancedSpecific() ? `${state.abilities.size} of ${MAX_ABILITIES} equipped`
     : state.path === 'natural' ? 'Natural path' : 'Era-standard path';
@@ -1486,12 +1489,14 @@ function paintAll(beat) {
 function renderSummary() {
   const list = document.getElementById('smList');
   list.textContent = '';
-  const rows = [
-    ['Sex', state.sex, 'sex'],
+  const rows = [];
+  if (state.sex)   // handed off from the previous step — shown, not editable here
+    rows.push(['Body Plan', state.sex + ' · set earlier', 'fixed-sex']);
+  rows.push(
     ['Body Type', state.build, 'build'],
     ['Height', state.height != null ? fmtHeight(state.height) : null, 'height'],
     ['Abs Definition', state.abs, 'abs']
-  ];
+  );
   if (state.sex !== 'Female')   // anatomy only applies to the male body plan
     rows.push(['Anatomy', state.anatomy > 0 ? fmtAnatomy(state.anatomy) : null, 'anatomy']);
   rows.push(
@@ -1509,6 +1514,7 @@ function renderSummary() {
     b.append(kk, vv);
     b.setAttribute('aria-label', `${k}: ${vv.textContent}. Edit.`);
     b.addEventListener('click', () => {
+      if (jump === 'fixed-sex') { toast('Body plan was set before this step'); return; }
       if (jump === 'path') document.getElementById('sect-path')
         .scrollIntoView({ behavior:REDUCED ? 'auto' : 'smooth', block:'start' });
       else toggleRow(jump, true);
@@ -1658,11 +1664,11 @@ function syncHeightUI() {
 }
 
 document.getElementById('skipFrame').addEventListener('click', () => {
-  const undo = { sex:state.sex, build:state.build, height:state.height, abs:state.abs };
+  const undo = { build:state.build, height:state.height, abs:state.abs };
   const hadPicks = Object.values(undo).some(v => v != null);
-  state.sex = null; state.build = null; state.height = null; state.abs = null;
+  state.build = null; state.height = null; state.abs = null;
   syncHeightUI();
-  ['sex','build','height','abs'].forEach(paintFrameRow);
+  ['build','height','abs'].forEach(paintFrameRow);
   if (state.openRow) toggleRow(state.openRow, false);
   save(); paintAll(true); refreshFigureOptions();
   if (hadPicks) {
@@ -1670,7 +1676,7 @@ document.getElementById('skipFrame').addEventListener('click', () => {
     toast('Physique reset to your photo', { label:'Undo', fn:() => {
       Object.assign(state, undo);
       syncHeightUI();
-      ['sex','build','height','abs'].forEach(paintFrameRow);
+      ['build','height','abs'].forEach(paintFrameRow);
       save(); paintAll(true); refreshFigureOptions();
       toast('Physique restored');
     }});
@@ -1724,6 +1730,8 @@ addEventListener('keydown', e => {
 
 /* ═══════ 12 · BOOT ═══════ */
 const restored = restore();
+const urlSex = sexFromURL();
+if (urlSex) state.sex = urlSex;   // the earlier step's decision always wins
 if (state.height != null) {
   const s = document.getElementById('heightSlider');
   s.value = state.height; fillTrack(s);
@@ -1737,13 +1745,16 @@ if (state.anatomy > 0) {
   v.textContent = fmtAnatomy(state.anatomy); v.classList.remove('off');
 }
 document.getElementById('notes').value = state.notes;
-['sex','build','height','abs'].forEach(paintFrameRow);
+['build','height','abs'].forEach(paintFrameRow);
 renderTabs(); renderAbilities(); paintAll(); refreshFigureOptions();
-const firstOpen = ['sex','build','height','abs'].find(k => state[k] == null);
+const firstOpen = ['build','height','abs'].find(k => state[k] == null);
 if (firstOpen) toggleRow(firstOpen, true, /* silent */ true);
 if (restored) {
   document.getElementById('heroCap').textContent = 'Restored from your last session';
   toast('Picked up where you left off');
+} else if (state.sex) {
+  document.getElementById('heroCap').textContent =
+    `Live preview · ${state.sex} body plan, set earlier`;
 }
 </script>
 </body>
