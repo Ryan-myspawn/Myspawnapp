@@ -1350,13 +1350,19 @@ document.getElementById('skipAll').addEventListener('click', () => {
   document.getElementById('summary').scrollIntoView({ behavior:'smooth', block:'center' });
 });
 
-document.getElementById('back').addEventListener('click', () => history.back());
+/* Inside the combined flow (fbd) the parent shell owns step navigation */
+const EMBEDDED = window.parent !== window;
+document.getElementById('back').addEventListener('click', () => {
+  if (EMBEDDED) parent.postMessage({ fbd:'back', from:'face' }, '*');
+  else history.back();
+});
 
 document.getElementById('cta').addEventListener('click', () => {
   buzz(14);
   toast(setCount() === 0 ? 'Continuing with photo defaults…'
                          : `Blueprint saved · ${setCount()}/${TOTAL} traits`);
-  // → hand off: location.href = '/room-1/render?traits=' + encodeURIComponent(JSON.stringify(state.picks))
+  if (EMBEDDED) setTimeout(() => parent.postMessage({ fbd:'next', from:'face' }, '*'), 650);
+  // → standalone hand off: location.href = '/room-1/render?traits=' + encodeURIComponent(JSON.stringify(state.picks))
 });
 
 const legal = document.getElementById('legal');

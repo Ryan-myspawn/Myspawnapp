@@ -1686,13 +1686,19 @@ document.getElementById('skipFrame').addEventListener('click', () => {
   document.getElementById('sect-path').scrollIntoView({ behavior:REDUCED ? 'auto' : 'smooth', block:'start' });
 });
 
-document.getElementById('back').addEventListener('click', () => history.back());
+/* Inside the combined flow (fbd) the parent shell owns step navigation */
+const EMBEDDED = window.parent !== window;
+document.getElementById('back').addEventListener('click', () => {
+  if (EMBEDDED) parent.postMessage({ fbd:'back', from:'body' }, '*');
+  else history.back();
+});
 document.getElementById('cta').addEventListener('click', () => {
   if (document.getElementById('cta').disabled) return;
   buzz(14);
   toast(isEnhancedSpecific() && state.abilities.size
     ? `Saved · ${state.abilities.size} abilities equipped` : 'Body blueprint saved');
-  // → hand off: location.href='/room-2/next?body='+encodeURIComponent(JSON.stringify(state))
+  if (EMBEDDED) setTimeout(() => parent.postMessage({ fbd:'next', from:'body' }, '*'), 650);
+  // → standalone hand off: location.href='/room-2/next?body='+encodeURIComponent(JSON.stringify(state))
 });
 
 const legal = document.getElementById('legal');
