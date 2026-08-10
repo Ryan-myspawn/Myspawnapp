@@ -207,3 +207,24 @@ MySpawn Brand Book v1.0:
 - Primary gradient is now `#3B82F6 → #6366F1` (brand primary gradient) automatically.
 The founder-chosen **fire-orange CTAs are intentionally kept** (Option B), overriding the
 brand gradient buttons by design. Version stamp → v7.3.
+
+---
+
+## 10. v7.4 — impeccable ship-now cleanup (de-AI, look preserved)
+
+Ran `impeccable detect` on 7.3 (**95 anti-patterns**) and applied ship-now fixes in
+`landing_new_7_4.html`:
+- **Gradient text → solid** (`.gradtxt`, `.divide-hl`, `.community-hl`, `.ct-fig`,
+  `.founder-offer-now`): violet `#4F46E5` on light, white on dark. Removes the #1 AI tell.
+- **Faint grid backgrounds removed** (hero + all dark sections' `::before`).
+- **Glowing dark panels flattened** to the Brand Book "dark surface"
+  (`#0F172A → #1E293B`); hero flattened to the "subtle background" (`#FFF → #F8FAFC`).
+- **Pulsing status dots** de-animated (removed `animation:pulse` at source).
+- **Benefits de-numbered** (01/02/03 → neutral dot; numbering kept only on the real
+  kit-process and IVG sequences).
+- **Contrast**: small violet text darkened to `#4F46E5` (passes AA); floaty card
+  shadows tightened.
+- **A11y**: card `h4 → h3` (fixes heading-order skips); sub-12px labels raised to ≥12px.
+Version stamp → v7.4. Detector count roughly halved; the residual findings are either
+source-declaration artifacts already overridden at render time, or legitimate
+(numbering on real sequences, short uppercase labels).
