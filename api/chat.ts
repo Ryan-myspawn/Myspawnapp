@@ -37,6 +37,19 @@ export default async function handler(req: Request): Promise<Response> {
   if (req.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: CORS_HEADERS });
   }
+  // Health check: open this URL in a browser to verify the deployment.
+  if (req.method === "GET") {
+    return new Response(
+      JSON.stringify({
+        echo: "online",
+        keyConfigured: Boolean(process.env.ANTHROPIC_API_KEY),
+        hint: Boolean(process.env.ANTHROPIC_API_KEY)
+          ? "Ready. Point window.ECHO_API_URL at this URL."
+          : "Deployed, but ANTHROPIC_API_KEY is missing — add it in the hosting env vars and redeploy.",
+      }),
+      { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } },
+    );
+  }
   if (req.method !== "POST") {
     return new Response("Method not allowed", { status: 405, headers: CORS_HEADERS });
   }
