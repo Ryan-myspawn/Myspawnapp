@@ -8,6 +8,7 @@ import Generations from "@/components/Generations";
 import Pricing from "@/components/Pricing";
 import FinalCta from "@/components/FinalCta";
 import Footer from "@/components/Footer";
+import EchoAgent from "@/components/EchoAgent";
 import { useLenis } from "@/hooks/useLenis";
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
         <FinalCta />
       </main>
       <Footer />
+      <EchoAgent />
     </div>
   );
 }
