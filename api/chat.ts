@@ -25,16 +25,27 @@ Boundaries: no medical, legal, or investment advice — say a MySpawn human will
 
 type IncomingMessage = { role: "user" | "assistant"; content: string };
 
+// Allow the widget to call this endpoint from a different domain
+// (e.g. static myspawn.me page -> Vercel-hosted function).
+const CORS_HEADERS: Record<string, string> = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type",
+};
+
 export default async function handler(req: Request): Promise<Response> {
+  if (req.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: CORS_HEADERS });
+  }
   if (req.method !== "POST") {
-    return new Response("Method not allowed", { status: 405 });
+    return new Response("Method not allowed", { status: 405, headers: CORS_HEADERS });
   }
 
   let body: { messages?: IncomingMessage[] };
   try {
     body = await req.json();
   } catch {
-    return new Response("Invalid JSON", { status: 400 });
+    return new Response("Invalid JSON", { status: 400, headers: CORS_HEADERS });
   }
 
   const history = (body.messages ?? [])
@@ -49,7 +60,7 @@ export default async function handler(req: Request): Promise<Response> {
     .map((m) => ({ role: m.role, content: m.content.slice(0, 4000) }));
 
   if (history.length === 0 || history[history.length - 1].role !== "user") {
-    return new Response("Last message must be from the user", { status: 400 });
+    return new Response("Last message must be from the user", { status: 400, headers: CORS_HEADERS });
   }
 
   const client = new Anthropic();
@@ -98,6 +109,7 @@ export default async function handler(req: Request): Promise<Response> {
 
   return new Response(stream, {
     headers: {
+      ...CORS_HEADERS,
       "Content-Type": "text/plain; charset=utf-8",
       "Cache-Control": "no-cache",
     },
