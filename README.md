@@ -83,3 +83,11 @@ Reusable with props:
 ```
 
 Photoreal molten-orange helix: organic molecule-bead clusters (instanced spheres) along each backbone with teal sparkle accents, dark glassy steel rungs with rare glowing teal/ember pairs, fine dust plus large soft bokeh orbs, real depth-of-field (`dof` prop), Bloom + Vignette, fog depth, cinematic axial lean, and mouse parallax. Rendering pauses automatically when scrolled offscreen. Scales down gracefully on mobile.
+
+## ECHO Agent & Founding Thousand
+
+- `api/chat.ts` — streaming Claude chat endpoint (ECHO, the descendant-from-2126 widget). Requires `ANTHROPIC_API_KEY`.
+- `api/reserve.ts` — Founding Thousand reservations + live counter. Requires Vercel KV / Upstash Redis: `KV_REST_API_URL`, `KV_REST_API_TOKEN`.
+- Widget: `src/components/EchoAgent.tsx` · Section: `src/components/FoundingThousand.tsx`.
+
+Both endpoints are Vercel Edge Functions; set the env vars in the hosting dashboard.

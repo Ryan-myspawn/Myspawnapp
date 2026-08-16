@@ -141,9 +141,22 @@ export default function EchoAgent() {
                   <Send size={18} />
                 </button>
               </div>
-              <p className="mt-2 text-center text-[10px] text-offwhite/30">
-                ECHO is an AI imagining your future descendant.
-              </p>
+              <div className="mt-2 flex items-center justify-between px-1">
+                <p className="text-[10px] text-offwhite/30">
+                  ECHO is an AI imagining your future descendant.
+                </p>
+                <button
+                  onClick={() => {
+                    setOpen(false);
+                    document
+                      .getElementById("founding-thousand")
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="text-[10px] font-medium text-gold/80 transition-colors hover:text-gold"
+                >
+                  Reserve your number →
+                </button>
+              </div>
             </div>
           </motion.div>
         )}
