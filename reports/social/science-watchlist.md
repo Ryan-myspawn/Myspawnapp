@@ -40,6 +40,9 @@ MySpawn's core narrative for the 25-60 audience: **the science that could one da
 - **Columbia VIBRANT** (rapamycin, menopause delay): pilot signal ~20% slowing of ovarian aging; *Cell Reports Medicine* 2025 IVF RCT: 50% vs 28% clinical pregnancy.
 - **Oviva Therapeutics** (anti-AMH; acquired by Granata Bio 2025). **Ovo Labs** (egg rejuvenation).
 
+## Governance & professional guidance (new section 2026-08-18)
+- **ASRM Ethics Committee opinion on IVG (2026)** — formal ethical guidance on in vitro gametogenesis from the US fertility establishment; reaffirms IVG not feasible in humans, no human safety data. Companion commentary: *Nature Biotechnology* "Considerations for the future of IVG in fertility care" (2026). Content angle: "the rulebook is being written before the game starts."
+
 ## Germline/embryo research (handle with care — ethics-charged)
 - June 2026: two base-editing human embryo studies (Cambridge/Niakan *NANOG* in Nature; Columbia/Egli PCSK9/HBG preprint) — mosaicism unsolved; research only.
 - Embryo screening market (Orchid, Nucleus, Herasight) — controversy-rich; MySpawn should comment, not endorse.
@@ -60,5 +63,6 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 1. Mitalipov mitomeiosis — *Nat Commun* Sept 2025. 2. Artificial womb systematic review — *Cureus* Jan 2026. 3. Artificial placenta/womb holistic review — *ASAIO J* July 2025. 4. Stem-cell gametes clinical-introduction roadmap — *Human Reproduction* 2025. 5. Rapamycin ovarian RCT — *Cell Rep Med* 2025. 6. Ensilication ambient DNA storage — *NAR Mol Med* Oct 2025. 7. Newcastle MRT 8 babies — *NEJM* July 2025.
 
 ## Update log
+- **2026-08-18:** Added Governance section (ASRM IVG ethics opinion 2026 + Nature Biotech commentary). Pregnancy-robot hoax resurging via commentary channels (Brett Cooper episode; Notebookcheck rerun) — debunk framing is now timely. No lab-result deltas on Vitara/Gameto/IVG this week.
 - **2026-08-18:** Corrected record-embryo entry (was "Nov 2025 / 30.5 years"; actual birth July 26, 2025, ~31 years frozen). Source: MIT Tech Review / Guinness.
 - **2026-08-17:** File created. Baseline = session deep-research report (Aug 2026) + artificial-womb/IVG delta sweep (Aug 17). Key pending events: Vitara FDA IDE decision; Gameto Phase 3 (May 2027 est.); Pentagon fertility benefit live Sept 14; Conception/Paterna peer review status.
