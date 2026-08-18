@@ -32,7 +32,7 @@ MySpawn's core narrative for the 25-60 audience: **the science that could one da
 | **DEBUNKED — never cite as real:** "EctoLife" (CGI concept by Hashem Al-Ghaili, 2022) and the viral Chinese "pregnancy robot" (2025-26, AI-generated fabrication per Snopes/Live Science). Only usable as "what's fake vs what's real" content — which is itself a strong format. |
 
 ## Storage science (the "it works" proof points)
-- **World-record embryo:** baby born Nov 2025 from an embryo frozen **30.5 years** (1994) — vitrified samples may be viable indefinitely.
+- **World-record embryo:** baby born **July 26, 2025** from an embryo frozen **~31 years** (created 1994; MIT Tech Review exclusive July 29, 2025; Guinness-certified) — vitrified samples may be viable indefinitely.
 - **Ambient-temperature DNA:** ensilication study (*NAR Mol Med*, Oct 2025) — room-temp DNA storage matched cryo, and frozen samples showed MORE artifactual mutations. Directly relevant to GenVault's ambient model.
 - Caveat to keep straight: DNA-as-record preservation ≠ viable-cell preservation; gametes/embryos still need cryo.
 
@@ -60,4 +60,5 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 1. Mitalipov mitomeiosis — *Nat Commun* Sept 2025. 2. Artificial womb systematic review — *Cureus* Jan 2026. 3. Artificial placenta/womb holistic review — *ASAIO J* July 2025. 4. Stem-cell gametes clinical-introduction roadmap — *Human Reproduction* 2025. 5. Rapamycin ovarian RCT — *Cell Rep Med* 2025. 6. Ensilication ambient DNA storage — *NAR Mol Med* Oct 2025. 7. Newcastle MRT 8 babies — *NEJM* July 2025.
 
 ## Update log
+- **2026-08-18:** Corrected record-embryo entry (was "Nov 2025 / 30.5 years"; actual birth July 26, 2025, ~31 years frozen). Source: MIT Tech Review / Guinness.
 - **2026-08-17:** File created. Baseline = session deep-research report (Aug 2026) + artificial-womb/IVG delta sweep (Aug 17). Key pending events: Vitara FDA IDE decision; Gameto Phase 3 (May 2027 est.); Pentagon fertility benefit live Sept 14; Conception/Paterna peer review status.
