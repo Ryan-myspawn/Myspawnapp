@@ -9,3 +9,5 @@
 | 2026-08-19 | Ad_Vault_FirstDay_04 | She won't remember today. The vault will. | Pinned instant photo + SEALED UNTIL 2038 lock chip |
 | 2026-08-19 | Ad_Letter_2126_05 | Write a letter that opens in 2126. | Typewriter line + blinking cursor + 2126 wax seal |
 | 2026-08-19 | Ad_IVG_Progress_06 | Eggs from skin cells. Mice: done. Humans: not yet. | Three progress bars: mice solved, humans stuck at meiosis, your sample binary |
+| 2026-08-19 | Ad_Custody_Checklist_07 | Before you trust anyone with your DNA, ask these five questions. | Numbered 5-checkbox custody checklist |
+| 2026-08-19 | Ad_Custody_Vault_08 | Your DNA should outlive the company that stores it. | Vault-door rings with orb hub |
