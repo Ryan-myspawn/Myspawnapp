@@ -30,3 +30,6 @@
 If any published claim later proves wrong: next run's email opens with a CORRECTION block (what was wrong, what's right, source), and the platform post gets a visible correction. Corrections are brand-positive in this category — issue them fast and plainly.
 
 *Created 2026-08-18. Agents: update this file if a rule changes; log material changes at the bottom.*
+
+## Market scope (added 2026-08-19, founder directive)
+- **MySpawn is exclusively for Americans — USA only.** All content, ads, SEO targeting, partner prospecting, newsletter copy, and product documents assume US customers: US law (GINA), US pricing ($), US institutions, US shipping. Never imply availability outside the United States. Ad targeting = US only. Blog keyword targeting = US search market ('us' database in Semrush).
