@@ -8,3 +8,4 @@
 | 2026-08-19 | Ad_Compare_AccessGap_03 | Billionaires bank their biology. Now you can. | Them-vs-You columns, jet silhouette vs kitchen kit |
 | 2026-08-19 | Ad_Vault_FirstDay_04 | She won't remember today. The vault will. | Pinned instant photo + SEALED UNTIL 2038 lock chip |
 | 2026-08-19 | Ad_Letter_2126_05 | Write a letter that opens in 2126. | Typewriter line + blinking cursor + 2126 wax seal |
+| 2026-08-19 | Ad_IVG_Progress_06 | Eggs from skin cells. Mice: done. Humans: not yet. | Three progress bars: mice solved, humans stuck at meiosis, your sample binary |
