@@ -35,7 +35,7 @@
 ## 3. Embryo-screening (reputation-adjacent — comment, never endorse)
 - **Orchid** (Palo Alto): whole-genome embryo screening, health-risk-only framing; under fire from the Psychiatric Genomics Consortium for allegedly violating data-use restrictions ([Science/AAAS](https://www.science.org/content/article/genetics-group-slams-company-using-its-data-screen-embryos-genomes)).
 - **Herasight:** predicts height/BMI/longevity/IQ; runs aggressive comparison content vs Orchid and Nucleus ([herasight.com blog](https://www.herasight.com/blog/herasight-vs-orchid)).
-- **Nucleus Genomics** (NY): broadest trait menu (eye/hair color, handedness); criticized for ancestry-blind baseline risks ([Astral Codex Ten analysis](https://www.astralcodexten.com/p/suddenly-trait-based-embryo-selection); [NPR May 2026 overview](https://www.npr.org/2026/05/06/nx-s1-5704317/genetic-embryo-screening)).
+- **Nucleus Genomics** (NY): broadest trait menu (eye/hair color, handedness); criticized for ancestry-blind baseline risks; **first IVF clinic partner: Beverly Hills Fertility offers "Nucleus Embryo" (added 2026-08-19; announcement date unverified)**; Orchid now runs direct attack-comparison content against them ([Astral Codex Ten analysis](https://www.astralcodexten.com/p/suddenly-trait-based-embryo-selection); [NPR May 2026 overview](https://www.npr.org/2026/05/06/nx-s1-5704317/genetic-embryo-screening)).
 - **So what:** this category generates the controversy cycles we newsjack (trust tone = our distance from them). Never let coverage imply MySpawn does screening.
 
 ## 4. Legacy-tech (memory/story preservation)
@@ -43,8 +43,14 @@
 - **StoryWorth:** book-from-prompts incumbent; steady. **Empathy:** estate/bereavement logistics app (insurer/employer channel). **StoryFile / You, Only Virtual:** griefbot lane; grief-tech industry sized ~$5B with rising consent-ethics coverage ([Hospice News, Apr 2026](https://hospicenews.com/2026/04/09/ai-grief-bots-present-new-complexities-in-bereavement-care/), [CBS](https://www.cbsnews.com/news/ai-grief-bots-legacy-technology/)).
 - **So what:** ECHO lives here reputationally — our framing must stay "playful fiction, clearly labeled," never "talk to your dead relative."
 
+### Additions 2026-08-19
+- **Acorn Biolabs:** named to Fast Company Most Innovative Companies 2026; positioning consolidated on "personalized regenerative medicine" (live-cell banking), not DNA-legacy.
+- **StoryWorth pricing 2026:** $59 / $109 / $199 tiers (Memoirji buyer guide).
+- **Empathy:** published consumer research "AI is already part of how people grieve" (BusinessWire, June 30, 2026) — citable third-party stats for AI-in-grief normalization.
+
 ## Deep-dive rotation log
 - *(none yet — rotation starts on first quiet day; order: Acorn → SecuriGene → Tomorrow Bio → Legacy → Orchid → StoryWorth)*
 
 ## Update log
+- **2026-08-19:** Nucleus first clinic partnership (Beverly Hills Fertility) + Orchid comparison warfare; Acorn Fast Company honor; StoryWorth pricing tiers; Empathy grief-AI research. No 24h breaking news in any lane.
 - **2026-08-18:** Baseline created. Key numbers: Acorn $945+$100/yr; Legacy $47.75M raised + Mar 2026 data platform; SecuriGene 1,000+ funeral homes; HereAfter AI shutdown (July 2026) logged as first material finding.
