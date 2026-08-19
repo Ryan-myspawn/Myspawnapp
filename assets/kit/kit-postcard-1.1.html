@@ -5,58 +5,57 @@
   --soft:#EEF2FF; --line:#E2E8F0; --grad:linear-gradient(135deg,#3B82F6 0%,#6366F1 100%);
   --night:linear-gradient(160deg,#0F172A 0%,#1e1b4b 50%,#2D2861 100%); }
 body { font-family:'Outfit','Segoe UI',Helvetica,Arial,sans-serif; color:var(--ink); }
-.page { width:6in; height:4in; padding:0.24in; page-break-after:always; position:relative; background:#fff; overflow:hidden; display:flex; gap:0.22in; }
+.page { width:6in; height:4in; padding:0.26in; page-break-after:always; position:relative; background:#fff; overflow:hidden; display:flex; align-items:center; gap:0.24in; }
 .page:last-child { page-break-after:auto; }
-.col-l { width:2.55in; display:flex; flex-direction:column; justify-content:space-between; }
-.col-r { flex:1; display:flex; flex-direction:column; }
+.col-l { width:2.5in; display:flex; flex-direction:column; justify-content:center; gap:9pt; }
+.col-r { flex:1; display:flex; flex-direction:column; justify-content:center; gap:9pt; }
 /* brand */
 .brand { display:flex; align-items:center; gap:6pt; }
-.brand img { width:24pt; height:24pt; }
-.wm { font-size:13.5pt; font-weight:800; letter-spacing:-.02em; line-height:1; }
+.brand img { width:25pt; height:25pt; }
+.wm { font-size:14pt; font-weight:800; letter-spacing:-.02em; line-height:1; }
 .wm .my{color:var(--ink);} .wm .sp{color:var(--indigo);} .wm .tm{font-size:.5em;color:var(--faint);vertical-align:super;font-weight:600;}
-.wm small { display:block; font-size:4.2pt; font-weight:600; letter-spacing:.22em; color:var(--faint); margin-top:2pt; }
-.kicker { font-size:5.2pt; font-weight:700; letter-spacing:.26em; color:var(--indigo); margin:9pt 0 4pt; }
+.wm small { display:block; font-size:4.4pt; font-weight:600; letter-spacing:.22em; color:var(--faint); margin-top:2pt; }
+.kicker { font-size:5.4pt; font-weight:700; letter-spacing:.26em; color:var(--indigo); margin-bottom:3pt; }
 .kicker::before { content:""; display:inline-block; width:11pt; height:1pt; background:var(--blue); vertical-align:middle; margin-right:5pt; }
-h1 { font-size:20pt; font-weight:800; letter-spacing:-.03em; line-height:1.02; }
+h1 { font-size:21.5pt; font-weight:800; letter-spacing:-.03em; line-height:1.03; }
 h1 .accent { background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
-.intro { font-size:6.6pt; color:var(--mute); line-height:1.45; margin-top:5pt; }
+.intro { font-size:7pt; color:var(--mute); line-height:1.48; margin-top:4pt; }
 .kitbox { background:var(--soft); border-radius:6pt; padding:7pt 8pt; }
-.kitbox .kb-title { font-size:4.6pt; font-weight:700; letter-spacing:.2em; color:var(--indigo); margin-bottom:4pt; }
-.kit-item { display:flex; gap:5pt; align-items:flex-start; margin-bottom:4.5pt; }
+.kitbox .kb-title { font-size:4.8pt; font-weight:700; letter-spacing:.2em; color:var(--indigo); margin-bottom:4.5pt; }
+.kit-item { display:flex; gap:5.5pt; align-items:center; margin-bottom:5pt; }
 .kit-item:last-child { margin-bottom:0; }
-.kit-ic { width:10.5pt; height:10.5pt; border-radius:3pt; background:#fff; display:flex; align-items:center; justify-content:center; font-size:6pt; }
-.kit-item b { font-size:6.8pt; display:block; }
-.kit-item span { font-size:5.6pt; color:var(--mute); }
-/* steps right column */
-.s-head { display:flex; justify-content:space-between; font-size:4.8pt; font-weight:700; letter-spacing:.18em; margin:2pt 0 7pt; }
+.kit-ic { width:11pt; height:11pt; border-radius:3pt; background:#fff; display:flex; align-items:center; justify-content:center; font-size:6.4pt; }
+.kit-item b { font-size:7.2pt; display:block; }
+.kit-item span { font-size:5.8pt; color:var(--mute); }
+/* steps */
+.s-head { display:flex; justify-content:space-between; font-size:5pt; font-weight:700; letter-spacing:.18em; }
 .s-head em { color:var(--faint); font-style:normal; }
-.step { display:flex; gap:6pt; }
-.snum { width:11pt; height:11pt; min-width:11pt; border-radius:50%; color:#fff; font-size:6pt; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:1pt; }
+.step { display:flex; gap:6.5pt; }
+.snum { width:11.5pt; height:11.5pt; min-width:11.5pt; border-radius:50%; color:#fff; font-size:6.2pt; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:1pt; }
 .s1{background:#0F172A;} .s2{background:#6366F1;} .s3{background:#3B82F6;}
-.step h3 { font-size:8.2pt; font-weight:700; margin-bottom:1.5pt; }
-.step p { font-size:6.3pt; color:var(--mute); line-height:1.42; }
-.foot-r { display:flex; justify-content:space-between; border-top:0.6pt solid var(--line); padding-top:4pt; font-size:4.8pt; font-weight:700; letter-spacing:.18em; }
+.step h3 { font-size:8.8pt; font-weight:700; margin-bottom:2pt; }
+.step p { font-size:6.7pt; color:var(--mute); line-height:1.45; }
+.foot-r { display:flex; justify-content:space-between; border-top:0.6pt solid var(--line); padding-top:4.5pt; font-size:5pt; font-weight:700; letter-spacing:.18em; }
 .foot-r .l{color:var(--faint);} .foot-r .r{color:var(--indigo);}
 /* back */
-h2 { font-size:16.5pt; font-weight:800; letter-spacing:-.03em; line-height:1.05; margin-top:2pt; }
+h2 { font-size:19pt; font-weight:800; letter-spacing:-.03em; line-height:1.06; }
 .night { background:var(--night); border-radius:7pt; color:#fff; padding:9pt 10pt; }
-.night .nk { font-size:4.8pt; font-weight:700; letter-spacing:.22em; color:#A5B4FC; margin-bottom:3pt; }
-.night h3 { font-size:9.6pt; font-weight:800; line-height:1.22; }
-.night p { font-size:6pt; color:#CBD5E1; line-height:1.45; margin-top:3.5pt; }
-.grid { display:flex; flex-direction:column; justify-content:space-evenly; flex:1; }
-.g b { font-size:7pt; display:block; margin-bottom:1pt; }
-.g b i { display:inline-block; width:4pt; height:4pt; border-radius:50%; margin-right:3.5pt; font-style:normal; }
-.g span { font-size:5.8pt; color:var(--mute); line-height:1.35; display:block; padding-left:7.5pt; }
-.xsell { background:var(--soft); border-radius:5pt; padding:6pt 7.5pt; }
-.xsell .xk { font-size:4.4pt; font-weight:700; letter-spacing:.2em; color:var(--indigo); margin-bottom:2pt; }
-.xsell p { font-size:5.7pt; color:var(--mute); line-height:1.42; }
-.backfoot { display:flex; justify-content:space-between; align-items:flex-end; border-top:0.6pt solid var(--line); padding-top:5pt; margin-top:7pt; }
-.backfoot .q { font-size:4.4pt; font-weight:700; letter-spacing:.2em; color:var(--faint); }
-.backfoot .v { font-size:7.6pt; font-weight:800; }
+.night .nk { font-size:5pt; font-weight:700; letter-spacing:.22em; color:#A5B4FC; margin-bottom:3.5pt; }
+.night h3 { font-size:10pt; font-weight:800; line-height:1.24; }
+.night p { font-size:6.4pt; color:#CBD5E1; line-height:1.48; margin-top:4pt; }
+.g b { font-size:7.6pt; display:block; margin-bottom:1.5pt; }
+.g b i { display:inline-block; width:4.2pt; height:4.2pt; border-radius:50%; margin-right:4pt; font-style:normal; }
+.g span { font-size:6.3pt; color:var(--mute); line-height:1.4; display:block; padding-left:8.2pt; }
+.xsell { background:var(--soft); border-radius:5pt; padding:6.5pt 8pt; }
+.xsell .xk { font-size:4.6pt; font-weight:700; letter-spacing:.2em; color:var(--indigo); margin-bottom:2.5pt; }
+.xsell p { font-size:6pt; color:var(--mute); line-height:1.45; }
+.backfoot { display:flex; justify-content:space-between; align-items:flex-end; border-top:0.6pt solid var(--line); padding-top:5pt; }
+.backfoot .q { font-size:4.6pt; font-weight:700; letter-spacing:.2em; color:var(--faint); }
+.backfoot .v { font-size:8pt; font-weight:800; }
 .backfoot .kr { text-align:right; }
 </style></head><body>
 
-<!-- FRONT (landscape) -->
+<!-- FRONT -->
 <div class="page">
   <div class="col-l">
     <div class="brand">
@@ -77,7 +76,6 @@ h2 { font-size:16.5pt; font-weight:800; letter-spacing:-.03em; line-height:1.05;
   </div>
   <div class="col-r">
     <div class="s-head"><span>INSTRUCTIONS</span><em>01 — 03</em></div>
-    <div style="flex:1; display:flex; flex-direction:column; justify-content:space-evenly; padding-bottom:4pt;">
     <div class="step"><div class="snum s1">1</div><div>
       <h3>Collect your sample</h3>
       <p>Wash and dry your hands. Pull <b>5–10 strands of hair with the roots attached</b> (pulled, not cut — the root holds the DNA), and clip <b>3–4 fingernail trimmings</b>.</p>
@@ -90,12 +88,11 @@ h2 { font-size:16.5pt; font-weight:800; letter-spacing:-.03em; line-height:1.05;
       <h3>Mail it to the vault</h3>
       <p>Place the vial in the pre-addressed envelope — it routes to GenVault, our independent, FDA-registered, ISO 9001/20387 &amp; CAP-accredited biorepository. Affix postage and post it.</p>
     </div></div>
-    </div>
     <div class="foot-r"><span class="l">CONTINUE ON BACK →</span><span class="r">MYSPAWN.ME</span></div>
   </div>
 </div>
 
-<!-- BACK (landscape) -->
+<!-- BACK -->
 <div class="page">
   <div class="col-l">
     <div class="brand">
@@ -113,15 +110,13 @@ h2 { font-size:16.5pt; font-weight:800; letter-spacing:-.03em; line-height:1.05;
     </div>
   </div>
   <div class="col-r">
-    <div class="grid" style="margin-top:0;">
-      <div class="g"><b><i style="background:#6366F1"></i>Keep it dry</b><span>No water, alcohol, or liquid of any kind in the vial.</span></div>
-      <div class="g"><b><i style="background:#3B82F6"></i>Roots attached</b><span>Hair must be pulled, not cut — the root carries the DNA.</span></div>
-      <div class="g"><b><i style="background:#10B981"></i>Seal firmly</b><span>Twist the cap until you hear it click shut.</span></div>
-      <div class="g"><b><i style="background:#F59E0B"></i>We confirm arrival</b><span>You'll get an email the moment your sample reaches the vault.</span></div>
-    </div>
+    <div class="g"><b><i style="background:#6366F1"></i>Keep it dry</b><span>No water, alcohol, or liquid of any kind in the vial.</span></div>
+    <div class="g"><b><i style="background:#3B82F6"></i>Roots attached</b><span>Hair must be pulled, not cut — the root carries the DNA.</span></div>
+    <div class="g"><b><i style="background:#10B981"></i>Seal firmly</b><span>Twist the cap until you hear it click shut.</span></div>
+    <div class="g"><b><i style="background:#F59E0B"></i>We confirm arrival</b><span>You'll get an email the moment your sample reaches the vault.</span></div>
     <div class="xsell">
       <div class="xk">WHILE YOUR SAMPLE TRAVELS</div>
-      <p>Seal your first memory in the <b style="color:var(--ink)">Memory Vault</b> at myspawn.me/vault — and write your free <b style="color:var(--ink)">Letter to 2126</b>. Your DNA keeps the code; they keep the story.</p>
+      <p>Seal your first memory in the <b style="color:var(--ink)">Memory Vault</b> at myspawn.me/vault — and write your free <b style="color:var(--ink)">Letter to 2126</b>.</p>
     </div>
     <div class="backfoot">
       <div><div class="q">QUESTIONS?</div><div class="v">myspawn@myspawnapp.com</div></div>
