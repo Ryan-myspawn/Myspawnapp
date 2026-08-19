@@ -1,0 +1,129 @@
+{
+  "name": "MySpawn Outreach A - Daily Sender + Follow-ups",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "cronExpression", "expression": "0 19 * * 1-5" }
+          ]
+        }
+      },
+      "name": "Weekdays 7pm IST (9:30am ET)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "documentId": "PASTE_YOUR_GOOGLE_SHEET_ID",
+        "sheetName": "leads"
+      },
+      "name": "Read Leads Sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Pick today's work: max 20 NEW sends, plus due follow-ups.\n// Statuses: NEW -> SENT -> FU1 -> FU2 -> CLOSED. REPLIED stops everything.\nconst rows = $input.all().map(i => i.json);\nconst today = new Date();\nconst daysAgo = d => { const x = new Date(today); x.setDate(x.getDate() - d); return x; };\nconst parse = s => s ? new Date(s) : null;\n\nconst fresh = rows.filter(r => r.status === 'NEW').slice(0, 20)\n  .map(r => ({ ...r, action: 'FIRST' }));\nconst fu1 = rows.filter(r => r.status === 'SENT' && parse(r.last_contacted) < daysAgo(3))\n  .map(r => ({ ...r, action: 'FU1' }));\nconst fu2 = rows.filter(r => r.status === 'FU1' && parse(r.last_contacted) < daysAgo(7))\n  .map(r => ({ ...r, action: 'FU2' }));\n\nreturn [...fresh, ...fu1, ...fu2].map(j => ({ json: j }));"
+      },
+      "name": "Select Today's Work",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [440, 0]
+    },
+    {
+      "parameters": { "batchSize": 1, "options": {} },
+      "name": "One At A Time",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [660, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "x-api-key", "value": "PASTE_YOUR_ANTHROPIC_API_KEY_OR_USE_CREDENTIALS" },
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "content-type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: 'claude-sonnet-5',\n  max_tokens: 500,\n  messages: [{\n    role: 'user',\n    content: `Write ONLY a 2-sentence personalized opening for a cold email.\\nCompany: ${$json.company}\\nWebsite: ${$json.website}\\nContact: ${$json.contact_name}\\nWhat we want: ${$json.why_them}\\nRules: specific to their business, no flattery cliches, no exclamation marks, under 45 words total, plain text.`\n  }]\n}) }}",
+        "options": {}
+      },
+      "name": "Claude: Personalize Opening",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [880, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Assemble the full email from action type + AI opening.\nconst lead = $('One At A Time').item.json;\nconst ai = $json.content?.[0]?.text?.trim() || '';\nconst sig = `\\n\\nAbhinay Ramanan\\nMySpawn · myspawn.me\\n[YOUR US MAILING ADDRESS - REQUIRED BY CAN-SPAM]\\nIf you'd rather not hear from me again, just reply 'no thanks'.`;\n\nlet subject, body;\nif (lead.action === 'FIRST') {\n  subject = `${lead.company} + MySpawn`;\n  body = `Hi ${lead.contact_name},\\n\\n${ai}\\n\\nMySpawn is a $99 DNA-preservation kit for US customers; samples are stored at an accredited, FDA-registered biorepository in New Jersey. We're looking for [PARTNERSHIP TYPE - EDIT ME] partners.\\n\\nWorth a 15-minute call? Here's my calendar: [YOUR BOOKING LINK]${sig}`;\n} else if (lead.action === 'FU1') {\n  subject = `Re: ${lead.company} + MySpawn`;\n  body = `Hi ${lead.contact_name},\\n\\nFollowing up on my note from a few days ago. I know inboxes are brutal.\\n\\nOne line on why I think this fits: ${lead.why_them}\\n\\nOpen to a quick call this week? [YOUR BOOKING LINK]${sig}`;\n} else {\n  subject = `Re: ${lead.company} + MySpawn (closing the loop)`;\n  body = `Hi ${lead.contact_name},\\n\\nLast note from me. If the timing is wrong, no problem at all; if it's ever right, my door is open.\\n\\nEither way, thanks for reading.${sig}`;\n}\nreturn [{ json: { ...lead, subject, body } }];"
+      },
+      "name": "Build Email",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1100, 0]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.email }}",
+        "subject": "={{ $json.subject }}",
+        "emailType": "text",
+        "message": "={{ $json.body }}",
+        "options": {}
+      },
+      "name": "Gmail: Send",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [1320, 0]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": "PASTE_YOUR_GOOGLE_SHEET_ID",
+        "sheetName": "leads",
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "email": "={{ $('Build Email').item.json.email }}",
+            "status": "={{ $('Build Email').item.json.action === 'FIRST' ? 'SENT' : ($('Build Email').item.json.action === 'FU1' ? 'FU1' : 'CLOSED') }}",
+            "last_contacted": "={{ new Date().toISOString().slice(0,10) }}"
+          },
+          "matchingColumns": ["email"]
+        },
+        "options": {}
+      },
+      "name": "Update Sheet Status",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [1540, 0]
+    },
+    {
+      "parameters": { "amount": 4, "unit": "minutes" },
+      "name": "Wait 4 min (human pace)",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [1760, 0]
+    }
+  ],
+  "connections": {
+    "Weekdays 7pm IST (9:30am ET)": { "main": [[{ "node": "Read Leads Sheet", "type": "main", "index": 0 }]] },
+    "Read Leads Sheet": { "main": [[{ "node": "Select Today's Work", "type": "main", "index": 0 }]] },
+    "Select Today's Work": { "main": [[{ "node": "One At A Time", "type": "main", "index": 0 }]] },
+    "One At A Time": { "main": [[], [{ "node": "Claude: Personalize Opening", "type": "main", "index": 0 }]] },
+    "Claude: Personalize Opening": { "main": [[{ "node": "Build Email", "type": "main", "index": 0 }]] },
+    "Build Email": { "main": [[{ "node": "Gmail: Send", "type": "main", "index": 0 }]] },
+    "Gmail: Send": { "main": [[{ "node": "Update Sheet Status", "type": "main", "index": 0 }]] },
+    "Update Sheet Status": { "main": [[{ "node": "Wait 4 min (human pace)", "type": "main", "index": 0 }]] },
+    "Wait 4 min (human pace)": { "main": [[{ "node": "One At A Time", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" }
+}

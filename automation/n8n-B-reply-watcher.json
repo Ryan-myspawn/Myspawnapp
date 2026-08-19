@@ -1,0 +1,78 @@
+{
+  "name": "MySpawn Outreach B - Reply Watcher",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": { "item": [{ "mode": "everyHour" }] },
+        "simple": true,
+        "filters": { "q": "in:inbox newer_than:2d" },
+        "options": {}
+      },
+      "name": "Gmail Trigger: New Inbox Mail",
+      "type": "n8n-nodes-base.gmailTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "documentId": "PASTE_YOUR_GOOGLE_SHEET_ID",
+        "sheetName": "leads"
+      },
+      "name": "Read Leads Sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Match the incoming email sender against the lead list.\nconst mail = $('Gmail Trigger: New Inbox Mail').first().json;\nconst fromRaw = (mail.from?.value?.[0]?.address || mail.From || mail.from || '').toString().toLowerCase();\nconst from = fromRaw.match(/[\\w.+-]+@[\\w.-]+/)?.[0] || fromRaw;\nconst leads = $input.all().map(i => i.json);\nconst hit = leads.find(l => (l.email || '').toLowerCase() === from && l.status !== 'REPLIED' && l.status !== 'MEETING');\nif (!hit) return [];\nreturn [{ json: { ...hit, reply_snippet: (mail.snippet || '').slice(0, 300) } }];"
+      },
+      "name": "Is It A Lead Replying?",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": "PASTE_YOUR_GOOGLE_SHEET_ID",
+        "sheetName": "leads",
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "email": "={{ $json.email }}",
+            "status": "REPLIED",
+            "notes": "={{ 'Replied ' + new Date().toISOString().slice(0,10) + ': ' + $json.reply_snippet }}"
+          },
+          "matchingColumns": ["email"]
+        },
+        "options": {}
+      },
+      "name": "Mark REPLIED (stops follow-ups)",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [660, 0]
+    },
+    {
+      "parameters": {
+        "sendTo": "YOUR_OWN_EMAIL@gmail.com",
+        "subject": "={{ '🔥 REPLY: ' + $json.company + ' (' + $json.contact_name + ')' }}",
+        "emailType": "text",
+        "message": "={{ $json.company + ' just replied.\\n\\nSnippet: ' + $json.reply_snippet + '\\n\\nGo answer within the hour. Speed wins meetings.' }}",
+        "options": {}
+      },
+      "name": "Alert Me",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [880, 0]
+    }
+  ],
+  "connections": {
+    "Gmail Trigger: New Inbox Mail": { "main": [[{ "node": "Read Leads Sheet", "type": "main", "index": 0 }]] },
+    "Read Leads Sheet": { "main": [[{ "node": "Is It A Lead Replying?", "type": "main", "index": 0 }]] },
+    "Is It A Lead Replying?": { "main": [[{ "node": "Mark REPLIED (stops follow-ups)", "type": "main", "index": 0 }]] },
+    "Mark REPLIED (stops follow-ups)": { "main": [[{ "node": "Alert Me", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" }
+}

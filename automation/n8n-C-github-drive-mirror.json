@@ -1,0 +1,63 @@
+{
+  "name": "MySpawn C - GitHub Ads to Google Drive Mirror",
+  "nodes": [
+    {
+      "parameters": {
+        "owner": "Ryan-myspawn",
+        "repository": "Myspawnapp",
+        "events": ["push"]
+      },
+      "name": "GitHub Trigger: Push",
+      "type": "n8n-nodes-base.githubTrigger",
+      "typeVersion": 1,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Collect every NEW png/jpg added under assets/ads/ in this push\nconst body = $input.first().json.body || $input.first().json;\nconst commits = body.commits || [];\nconst files = [];\nfor (const c of commits) {\n  for (const f of (c.added || [])) {\n    if (f.startsWith('assets/ads/') && /\\.(png|jpe?g)$/i.test(f)) files.push(f);\n  }\n}\nreturn [...new Set(files)].map(p => ({ json: { path: p, filename: p.split('/').pop() } }));"
+      },
+      "name": "New Ad Images Only",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "get",
+        "owner": "Ryan-myspawn",
+        "repository": "Myspawnapp",
+        "filePath": "={{ $json.path }}",
+        "asBinaryProperty": true,
+        "binaryPropertyName": "data",
+        "additionalParameters": {
+          "reference": "claude/trend-radar"
+        }
+      },
+      "name": "GitHub: Download File",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "operation": "upload",
+        "name": "={{ $('New Ad Images Only').item.json.filename }}",
+        "driveId": { "__rl": true, "mode": "list", "value": "My Drive" },
+        "folderId": { "__rl": true, "mode": "id", "value": "1RrHCVW5hxdIt9H29i0IpUzdYDrgWOQK0" },
+        "inputDataFieldName": "data",
+        "options": {}
+      },
+      "name": "Drive: Upload to Myspawn ads only",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [660, 0]
+    }
+  ],
+  "connections": {
+    "GitHub Trigger: Push": { "main": [[{ "node": "New Ad Images Only", "type": "main", "index": 0 }]] },
+    "New Ad Images Only": { "main": [[{ "node": "GitHub: Download File", "type": "main", "index": 0 }]] },
+    "GitHub: Download File": { "main": [[{ "node": "Drive: Upload to Myspawn ads only", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" }
+}
