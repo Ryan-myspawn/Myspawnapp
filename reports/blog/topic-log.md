@@ -5,10 +5,11 @@
 |---|---|---|---|---|---|
 | 2026-08-18 | a | How to Preserve Your DNA for the Future: The Complete 2026 Guide | how-to-preserve-your-dna | how to preserve your DNA | DNA preservation kit; DNA banking; store DNA for future generations; DNA legacy; preserve DNA at home; long-term DNA storage |
 | 2026-08-19 | b | What Is IVG? In Vitro Gametogenesis, Explained in Plain English | what-is-ivg-in-vitro-gametogenesis | what is IVG | in vitro gametogenesis; lab-grown eggs; lab-grown sperm; eggs from stem cells; IVG timeline; stem cell fertility treatment |
+| 2026-08-20 | c | How to Write a Letter to Your Future Grandchildren | letter-to-future-grandchildren | letter to future grandchildren | legacy letter; letter to my grandchildren; ethical will; family time capsule; letter to descendants; write a letter to the future |
 
 ## Queue (next up)
-1. **2026-08-20 · lane (c):** "How to Write a Letter to Your Future Grandchildren" — slug `letter-to-future-grandchildren`, primary "letter to future grandchildren" (links Letter to 2126 + Memory Vault naturally).
-2. **2026-08-21 · lane (d):** "What Happens to Your DNA If a Testing Company Shuts Down?" — slug `what-happens-dna-company-shuts-down`, primary "what happens to my DNA if company closes" (23andMe bankruptcy precedent, biobank custody standards, GINA; links cornerstone + IVG article's trust framing).
+1. **2026-08-21 · lane (d):** "What Happens to Your DNA If a Testing Company Shuts Down?" — slug `what-happens-dna-company-shuts-down`, primary "what happens to my DNA if company closes" (23andMe bankruptcy precedent, biobank custody standards, GINA; links cornerstone + IVG article's trust framing).
+2. **2026-08-22 · lane (e):** "Childfree Legacy: What to Leave Behind When You're Not Leaving Children" — slug `childfree-legacy`, primary "childfree legacy" (affirmative framing per brand rules; links letter article + cornerstone).
 
 ## Rules learned / notes
 - Cornerstone published; all future articles should internal-link to `how-to-preserve-your-dna` where relevant.
