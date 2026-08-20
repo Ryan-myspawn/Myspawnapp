@@ -49,8 +49,16 @@
 - **Empathy:** published consumer research "AI is already part of how people grieve" (BusinessWire, June 30, 2026) — citable third-party stats for AI-in-grief normalization.
 
 ## Deep-dive rotation log
-- *(none yet — rotation starts on first quiet day; order: Acorn → SecuriGene → Tomorrow Bio → Legacy → Orchid → StoryWorth)*
+- *(rotation order: Acorn → SecuriGene → Tomorrow Bio → Legacy → Orchid → StoryWorth)*
+
+### 2026-08-20 deep-dive: Acorn Biolabs (marketing snapshot)
+- **Positioning shift:** homepage now leads with "Personalized Regenerative Medicine," not cell banking. The banked-cell promise (speculative, future therapies) has been paired with a use-it-NOW product: **YOU™ Secretome**, a topical skincare treatment derived from the customer's own banked cells (soft-launched late 2024, scaled through H1 2026, won a 2026 NewBeauty Award). ([acorn.me](https://acorn.me/), [Glossy](https://www.glossy.co/beauty/wellness/wellness-briefing-how-stem-cell-therapy-innovator-acorn-biolabs-is-legally-scaling-in-the-us-plus-news/))
+- **Pricing display:** collection from **$945**, storage ~**$16/month** for 50 follicles; extraction + 5 years banking bundled from **$1,650**. Monthly framing softens the subscription drag.
+- **Trust signals:** Fast Company Most Innovative Companies 2026, NewBeauty Award, Trustpilot reviews, "world's first non-invasive follicle-based collection."
+- **Tactic worth stealing:** they solved the "why now" problem of preservation marketing by shipping a present-day payoff from the banked asset. Our equivalent already exists and is free: Memory Vault + Letter to 2126 give the vault an immediate emotional payoff. Lesson: lead marketing with the now-value, let storage be the durable spine.
+- **Tactic to counter:** bundle pricing hides lifetime cost; our $99-once vs $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-08-20:** Near-quiet. Orchid founder August quote confirming pressure-driven clinic adoption (trust-crisis receipt); Acorn scaling US ops (Glossy). Deep-dive #1 completed: Acorn marketing snapshot (secretome now-value tactic; $945 + $16/mo pricing display). Pentagon fertility pilot noted as lane-2 tailwind, no company moves yet.
 - **2026-08-19:** Nucleus first clinic partnership (Beverly Hills Fertility) + Orchid comparison warfare; Acorn Fast Company honor; StoryWorth pricing tiers; Empathy grief-AI research. No 24h breaking news in any lane.
 - **2026-08-18:** Baseline created. Key numbers: Acorn $945+$100/yr; Legacy $47.75M raised + Mar 2026 data platform; SecuriGene 1,000+ funeral homes; HereAfter AI shutdown (July 2026) logged as first material finding.
