@@ -10,6 +10,10 @@
 ## Queue (next up)
 1. **2026-08-21 · lane (d):** "What Happens to Your DNA If a Testing Company Shuts Down?" — slug `what-happens-dna-company-shuts-down`, primary "what happens to my DNA if company closes" (23andMe bankruptcy precedent, biobank custody standards, GINA; links cornerstone + IVG article's trust framing).
 2. **2026-08-22 · lane (e):** "Childfree Legacy: What to Leave Behind When You're Not Leaving Children" — slug `childfree-legacy`, primary "childfree legacy" (affirmative framing per brand rules; links letter article + cornerstone).
+3. **2026-08-23 · lane (e), FOUNDER KEYWORD:** "Why Gen Z Isn't Having Kids (and What They're Preserving Instead)" — slug `gen-z-not-having-kids`, primary "gen z not having kids" (founder-directed standing keyword, added 2026-08-20). Data-led: latest surveys on Gen Z birth intentions (cost, climate, housing, choice), NO judgment either direction per brand rules; pivot = whatever you decide later, preserving DNA + memories now keeps every option open; links childfree-legacy + letter article.
+
+## Standing founder keywords (search intent to target and monitor)
+- **"gen z not having kids"** (added 2026-08-20 by founder) — also swept daily by Trend Radar; feed fresh survey/discourse deltas into future articles and refreshes of the 08-23 piece.
 
 ## Rules learned / notes
 - Cornerstone published; all future articles should internal-link to `how-to-preserve-your-dna` where relevant.
