@@ -1,0 +1,76 @@
+{
+  "system": "MySpawn Autonomous Marketing & Operations Machine",
+  "version": "1.0",
+  "generated": "2026-08-20",
+  "owner": "MySpawn (myspawn.me)",
+  "runtime": {
+    "agents_host": "Claude Code persistent session (cron-fired routines)",
+    "automation_host": "n8n Cloud (myspawn.app.n8n.cloud)",
+    "storage": "GitHub Ryan-myspawn/Myspawnapp (branch claude/trend-radar)",
+    "delivery": ["Gmail digests to founder", "Google Drive 'Myspawn ads only' via n8n mirror"]
+  },
+  "binding_rules": {
+    "file": "reports/social/evidence-standards.md",
+    "highlights": [
+      "Storage only; never promise descendant creation",
+      "USA only market; US law (GINA), $ pricing, US institutions",
+      "Source hierarchy: peer-reviewed > trial registry > institutional > named journalism; label epistemic status",
+      "Known fakes registry (EctoLife, pregnancy robot) cited only as debunked",
+      "GenVault accreditations belong to GenVault",
+      "Never mock childfree or parents; punch at ideas, never people",
+      "No named real people in paid ads (right of publicity)",
+      "No astroturfing; disclosed founder voice on Reddit",
+      "No em dashes in any copy"
+    ]
+  },
+  "memory_files": [
+    {"file": "reports/social/science-watchlist.md", "purpose": "standing science knowledge base + update log"},
+    {"file": "reports/blog/topic-log.md", "purpose": "SEO topics/keywords ever covered + queue (no repeats)"},
+    {"file": "reports/social/longpost-log.md", "purpose": "every longpost article: topic/angle/hook (no repeats)"},
+    {"file": "reports/social/weekly/production-log.md", "purpose": "every episode/explainer/evergreen produced (no repeats)"},
+    {"file": "reports/ads/adcopy-log.md", "purpose": "every ad angle/hook used (no repeats)"},
+    {"file": "reports/ads/image-concepts-log.md", "purpose": "every image ad concept code/headline (no repeats)"},
+    {"file": "reports/competitors/baseline.md", "purpose": "competitor state snapshots; diffed daily"},
+    {"file": "reports/inbox/concierge-log.md", "purpose": "handled email threads (no double-drafting)"},
+    {"file": "reports/calendar/sentinel-log.md", "purpose": "calendar events created/managed"}
+  ],
+  "agents": [
+    {"id": "inbox_concierge", "name": "Inbox Concierge", "schedule_utc": "04:00 daily", "group": "operations", "inputs": ["Gmail inbox (24h)", "concierge-log"], "process": "Triage threads; classify customer/press/partner/automated; create reply drafts (never send)", "outputs": ["Gmail drafts", "digest email", "concierge-log update"], "guardrail": "Drafts only; only digest is ever sent, to founder"},
+    {"id": "founder_brief", "name": "Founder Brief", "schedule_utc": "Mon 05:00 weekly", "group": "operations", "inputs": ["all logs", "calendar", "inbox", "week's reports"], "process": "Weekly synthesis: what happened, what needs founder decisions", "outputs": ["brief email"]},
+    {"id": "seo_writer", "name": "SEO Writer", "schedule_utc": "10:00 daily", "group": "content", "inputs": ["topic-log", "science-watchlist", "fresh web research"], "process": "One publish-ready 1200-1800w article; rotating lanes a-e; 5-10 sources; FAQ JSON-LD", "outputs": ["reports/blog/<slug>.md", "topic-log update", "article email"]},
+    {"id": "longpost_studio", "name": "Longpost Studio", "schedule_utc": "11:00 odd days", "group": "content", "inputs": ["longpost-log", "trend radar (2d)", "science-watchlist", "evidence-standards", "reddit-playbook", "fresh research"], "process": "5+ platform-tagged 500-1000w articles (X/Facebook/Reddit), evidence-tiered, sources blocks", "outputs": ["reports/social/longposts/", "longpost-log update", "email"]},
+    {"id": "seo_rank_tracker", "name": "SEO Rank Tracker", "schedule_utc": "Mon 08:00 weekly", "group": "research", "inputs": ["Semrush (us db)", "topic-log"], "process": "Track keyword positions for published articles; find opportunities", "outputs": ["rank report email", "topic queue suggestions"]},
+    {"id": "trend_radar", "name": "Trend Radar", "schedule_utc": "13:00 daily", "group": "research", "inputs": ["Drive asset folders", "web delta sweep (24-48h)", "science-watchlist"], "process": "Delta-only report: trends, Science Watch, Reaction Fuel, Reddit Radar, 1-3 concepts, post-today pick", "outputs": ["reports/social/trend-radar-<date>.md", "watchlist updates", "email"], "feeds": ["content_factory", "content_factory_pm", "image_ad_creative", "deep_production", "ad_copy_lab"]},
+    {"id": "competitor_watch", "name": "Competitor Watch", "schedule_utc": "14:00 daily", "group": "research", "inputs": ["baseline.md", "web search (24-48h)"], "process": "Delta-only competitive sweep across 4 lanes; quiet-day deep-dive rotation", "outputs": ["reports/competitors/watch-<date>.md", "baseline update", "email"]},
+    {"id": "deep_production", "name": "Deep Production", "schedule_utc": "15:00 daily", "group": "content", "inputs": ["trend radar (2d)", "reaction fuel", "production-log", "science-watchlist"], "process": "Podcast episode pack + YouTube explainer script + evergreen idea + daily review; anti-repetition", "outputs": ["reports/social/weekly/production-<date>.md", "production-log update", "email"]},
+    {"id": "content_factory", "name": "Content Factory AM", "schedule_utc": "17:00 daily", "group": "content", "inputs": ["today's trend radar top 3", "science-watchlist", "reddit-playbook", "7d scripts history"], "process": "Full short-form scripts (45-90s) + captions + static ad + podcast segment/Reddit comment when flagged", "outputs": ["reports/social/scripts/scripts-<date>.md", "email"]},
+    {"id": "image_ad_creative", "name": "Image Ad Creative Agent", "schedule_utc": "18:00 daily", "group": "content", "inputs": ["today's radar + scripts", "adcopy-log", "image-concepts-log", "brand style"], "process": "5 FINISHED static ads: HTML composite -> headless Chromium render -> visual verify -> fix", "outputs": ["assets/ads/<date>/*.png (GitHub)", "image-concepts-<date>.md", "log update", "email with links", "chat delivery"], "feeds": ["n8n_c_mirror"]},
+    {"id": "content_factory_pm", "name": "Content Factory PM", "schedule_utc": "23:00 daily", "group": "content", "inputs": ["AM package", "US-day delta sweep"], "process": "Newsjack scripts if news broke; else evergreen script + X/Threads drafts; tomorrow post plan", "outputs": ["scripts-<date>-pm.md", "email"]},
+    {"id": "partnership_prospector", "name": "Partnership Prospector", "schedule_utc": "Tue 09:00 weekly", "group": "growth", "inputs": ["Apollo", "web research"], "process": "Find + qualify partner/vendor leads; research briefs. Never emails prospects", "outputs": ["prospect list + briefs email"], "guardrail": "Research only; outreach is human/n8n-A decision"},
+    {"id": "newsletter_writer", "name": "Newsletter Writer", "schedule_utc": "Thu 12:00 weekly", "group": "content", "inputs": ["week's articles/longposts/radar"], "process": "Weekly member newsletter draft", "outputs": ["newsletter draft email"]},
+    {"id": "ad_copy_lab", "name": "Ad Copy Lab", "schedule_utc": "Wed 16:00 weekly", "group": "growth", "inputs": ["week's radar/scripts/competitor files", "adcopy-log"], "process": "Paid-ready batch: 3 Meta concepts, 2 TikTok scripts, RSA assets, A/B matrix, compliance pass", "outputs": ["reports/ads/adcopy-<date>.md", "log update", "email"], "feeds": ["image_ad_creative"]},
+    {"id": "calendar_sentinel", "name": "Calendar Sentinel", "schedule_utc": "Sun 18:00 weekly", "group": "operations", "inputs": ["Google Calendar", "watchlist key dates", "sentinel-log"], "process": "Maintain launch/science calendar events; flag conflicts and upcoming beats", "outputs": ["calendar updates", "sentinel-log", "email"]}
+  ],
+  "n8n_workflows": [
+    {"id": "n8n_a_outreach", "name": "A: Daily Outreach Sender", "trigger": "Schedule weekdays 19:00 IST", "status": "imported, wiring pending", "flow": ["Read leads Sheet", "Select 20 NEW + due follow-ups (day 3 / day 7)", "Claude API personalizes opening", "Gmail send", "Sheet status update", "4-min human-pace wait"], "guardrail": "CAN-SPAM footer, opt-out honored, 20/day cap"},
+    {"id": "n8n_b_reply_watcher", "name": "B: Reply Watcher", "trigger": "Gmail poll hourly", "status": "imported, wiring pending", "flow": ["New inbox mail", "Match sender vs leads sheet", "Mark REPLIED (stops follow-ups)", "Alert founder email"]},
+    {"id": "n8n_c_mirror", "name": "C: GitHub Ads to Drive Mirror", "trigger": "GitHub push webhook", "status": "LIVE (verified 2026-08-20)", "flow": ["Push event on assets/ads/", "Filter new png/jpg", "GitHub download (branch claude/trend-radar)", "Upload to Drive folder 'Myspawn ads only'"]}
+  ],
+  "flows": [
+    {"from": "web_research", "to": "trend_radar", "artifact": "24-48h deltas"},
+    {"from": "trend_radar", "to": ["content_factory", "content_factory_pm", "deep_production", "image_ad_creative", "ad_copy_lab"], "artifact": "daily concepts + science watch"},
+    {"from": "content_factory", "to": "image_ad_creative", "artifact": "scripts + static ad brief"},
+    {"from": "ad_copy_lab", "to": "image_ad_creative", "artifact": "angles + hooks (no-repeat check)"},
+    {"from": "image_ad_creative", "to": "n8n_c_mirror", "artifact": "PNG ads pushed to GitHub"},
+    {"from": "n8n_c_mirror", "to": "google_drive", "artifact": "ads in 'Myspawn ads only'"},
+    {"from": "all_agents", "to": "github_repo", "artifact": "reports + assets, committed to claude/trend-radar"},
+    {"from": "all_agents", "to": "founder_gmail", "artifact": "daily/weekly digest emails"},
+    {"from": "founder", "to": "platforms", "artifact": "human review -> publish to X/IG/TikTok/FB/Reddit/blog"},
+    {"from": "google_analytics", "to": "founder", "artifact": "measurement loop (pending GA tag install)"}
+  ],
+  "human_in_loop": {
+    "who": ["Jig Patel (founder)", "Abhinay Ramanan (acting COO)"],
+    "responsibilities": ["review digests", "publish content", "approve/send outreach drafts", "launch paid spend", "strategic direction"],
+    "principle": "Agents produce and never publish externally; every outward action passes a human"
+  }
+}

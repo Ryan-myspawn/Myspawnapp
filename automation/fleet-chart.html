@@ -1,0 +1,129 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+@page { size: A4 landscape; margin: 0; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; color:#1F2430; }
+.page { width:297mm; height:210mm; padding:9mm 10mm; page-break-after:always; position:relative; background:#F7F8FC; }
+.page:last-child { page-break-after:auto; }
+h1 { font-size:15pt; color:#0F172A; }
+h1 i { font-style:normal; color:#6366F1; }
+.sub { font-size:8pt; color:#6B7280; margin-top:1.5pt; }
+.cols { display:flex; gap:5mm; margin-top:5mm; align-items:stretch; height:158mm; }
+.col { flex:1; display:flex; flex-direction:column; gap:3mm; }
+.col.narrow { flex:0.82; }
+.colhead { font-size:8pt; font-weight:800; letter-spacing:.18em; color:#4338CA; text-align:center; padding:2mm 0; background:#EEF0FB; border-radius:2mm; }
+.box { background:#FFF; border:1px solid #E2E5F0; border-left:3px solid #6366F1; border-radius:2mm; padding:2.2mm 2.6mm; box-shadow:0 1px 3px rgba(15,23,42,.06); }
+.box b { font-size:8pt; color:#12161F; display:block; }
+.box span { font-size:6.6pt; color:#5B6472; line-height:1.35; display:block; margin-top:.6mm; }
+.box .t { display:inline-block; font-size:5.8pt; font-weight:800; color:#6366F1; background:#EEF0FB; border-radius:999px; padding:.4mm 1.6mm; margin-top:.8mm; }
+.box.rule { border-left-color:#B45309; } .box.rule .t { color:#B45309; background:#FBF3E4; }
+.box.mem { border-left-color:#0E7490; } .box.mem .t { color:#0E7490; background:#E6F5F8; }
+.box.out { border-left-color:#15803D; } .box.out .t { color:#15803D; background:#E9F6EC; }
+.box.hum { border-left-color:#BE185D; } .box.hum .t { color:#BE185D; background:#FBEAF2; }
+.grp { font-size:6.4pt; font-weight:800; letter-spacing:.14em; color:#8A93A8; margin-top:1mm; }
+.arrowcol { flex:0 0 6mm; display:flex; align-items:center; justify-content:center; }
+.arrowcol div { font-size:14pt; color:#6366F1; }
+.foot { position:absolute; bottom:5mm; left:10mm; right:10mm; font-size:6.4pt; color:#9CA3AF; display:flex; justify-content:space-between; }
+/* page 2 */
+table { width:100%; border-collapse:collapse; margin-top:4mm; background:#FFF; box-shadow:0 1px 3px rgba(15,23,42,.06); }
+th { background:#0F172A; color:#EDEFF7; font-size:7.4pt; letter-spacing:.08em; padding:2mm 2.5mm; text-align:left; }
+td { font-size:7.4pt; padding:1.7mm 2.5mm; border-bottom:1px solid #EEF0F6; color:#2A3040; vertical-align:top; }
+tr:nth-child(even) td { background:#FAFBFE; }
+.badge { display:inline-block; font-size:5.8pt; font-weight:800; border-radius:999px; padding:.4mm 1.8mm; }
+.bd { background:#EEF0FB; color:#4338CA; } .bw { background:#E9F6EC; color:#15803D; } .bo { background:#FBF3E4; color:#B45309; }
+.twocol { display:flex; gap:6mm; margin-top:4mm; }
+.twocol > div { flex:1; }
+h2 { font-size:9.5pt; color:#0F172A; margin-top:2mm; }
+.n8nbox { background:#FFF; border:1px solid #E2E5F0; border-radius:2mm; padding:2.5mm 3mm; margin-top:2mm; box-shadow:0 1px 3px rgba(15,23,42,.06); }
+.n8nbox b { font-size:8pt; } .n8nbox span { font-size:6.8pt; color:#5B6472; display:block; line-height:1.4; margin-top:.6mm; }
+.live { color:#15803D; font-weight:800; } .pend { color:#B45309; font-weight:800; }
+</style></head><body>
+
+<div class="page">
+  <h1>My<i>Spawn</i> · Autonomous Marketing Machine — System Map</h1>
+  <div class="sub">15 AI agents + 3 n8n workflows · every agent commits to GitHub and emails the founder · nothing publishes externally without a human · v1.0 · Aug 20, 2026</div>
+  <div class="cols">
+    <div class="col narrow">
+      <div class="colhead">INPUTS</div>
+      <div class="box"><b>Web research</b><span>24-48h delta sweeps: news, trends, science, competitors</span></div>
+      <div class="box"><b>Google Drive assets</b><span>Founder uploads: podcast footage, reels, ad media</span></div>
+      <div class="box"><b>Gmail inbox</b><span>Customer, press, partner and vendor email</span></div>
+      <div class="box"><b>Semrush + Apollo</b><span>US keyword data · partner and lead databases</span></div>
+      <div class="box"><b>Google Calendar</b><span>Launch dates, science-event beats</span></div>
+    </div>
+    <div class="arrowcol"><div>&#9654;</div></div>
+    <div class="col narrow">
+      <div class="colhead">RULES + MEMORY</div>
+      <div class="box rule"><b>evidence-standards.md</b><span>Binding: storage only, USA only, source tiers, fakes registry, no named people in ads, no em dashes</span><em class="t">GOVERNS ALL AGENTS</em></div>
+      <div class="box mem"><b>9 memory logs</b><span>topic-log · longpost-log · production-log · adcopy-log · image-concepts-log · watchlist · competitor baseline · concierge-log · sentinel-log</span><em class="t">NO AGENT EVER REPEATS ITSELF</em></div>
+    </div>
+    <div class="arrowcol"><div>&#9654;</div></div>
+    <div class="col" style="flex:1.5;">
+      <div class="colhead">AGENT FLEET (fire times UTC)</div>
+      <div class="grp">RESEARCH</div>
+      <div class="box"><b>Trend Radar · 13:00 daily</b><span>Delta report + concepts; feeds all content agents</span></div>
+      <div class="box"><b>Competitor Watch · 14:00 daily</b><span>4-lane sweep vs baseline</span></div>
+      <div class="box"><b>SEO Rank Tracker · Mon 08:00</b><span>Keyword positions (Semrush, US)</span></div>
+      <div class="grp">CONTENT</div>
+      <div class="box"><b>SEO Writer 10:00 · Longposts 11:00 odd · Deep Production 15:00</b><span>Daily article · 5 platform longposts · podcast + explainer packs</span></div>
+      <div class="box"><b>Content Factory 17:00 + PM 23:00 · Image Ads 18:00</b><span>Shoot-ready scripts + captions · 5 finished PNG ads rendered and verified daily</span></div>
+      <div class="grp">GROWTH + OPERATIONS</div>
+      <div class="box"><b>Ad Copy Lab Wed · Prospector Tue · Newsletter Thu</b><span>Paid-ready batches · qualified partner leads · weekly letter</span></div>
+      <div class="box"><b>Inbox Concierge 04:00 · Founder Brief Mon · Calendar Sentinel Sun</b><span>Email triage + drafts (never sends) · weekly synthesis · calendar upkeep</span></div>
+    </div>
+    <div class="arrowcol"><div>&#9654;</div></div>
+    <div class="col narrow">
+      <div class="colhead">OUTPUTS</div>
+      <div class="box out"><b>GitHub repo</b><span>Ryan-myspawn/Myspawnapp branch claude/trend-radar: all reports, articles, scripts, ad PNGs</span><em class="t">VERSIONED ARCHIVE</em></div>
+      <div class="box out"><b>Founder Gmail</b><span>Daily and weekly digest emails per agent</span></div>
+      <div class="box out"><b>Gmail drafts</b><span>Reply drafts awaiting founder approval</span></div>
+    </div>
+    <div class="arrowcol"><div>&#9654;</div></div>
+    <div class="col narrow">
+      <div class="colhead">DELIVERY + HUMAN</div>
+      <div class="box"><b>n8n C: GitHub &#9654; Drive mirror</b><span>Push webhook auto-delivers every new ad PNG to "Myspawn ads only"</span><em class="t">LIVE</em></div>
+      <div class="box"><b>n8n A + B: Outreach engine</b><span>AI-personalized sends, follow-ups, reply detection</span><em class="t">WIRING PENDING</em></div>
+      <div class="box hum"><b>Humans: Jig + Abhinay</b><span>Review digests, publish to platforms, send drafts, launch paid spend</span><em class="t">EVERY OUTWARD ACTION</em></div>
+      <div class="box hum"><b>Google Analytics</b><span>Measurement loop closes here (tag install pending)</span><em class="t">NEXT MILESTONE</em></div>
+    </div>
+  </div>
+  <div class="foot"><span>MYSPAWN AGENT FLEET v1.0</span><span>Machine-readable spec: myspawn-agent-fleet.json</span><span>Page 1 of 2</span></div>
+</div>
+
+<div class="page">
+  <h1>Schedule + Automation Detail</h1>
+  <div class="sub">All times UTC (IST = UTC +5:30) · D = daily, W = weekly, 2D = every other day</div>
+  <table>
+    <tr><th style="width:14mm;">UTC</th><th style="width:17mm;">IST</th><th style="width:44mm;">Agent</th><th style="width:12mm;">Cadence</th><th>Produces</th></tr>
+    <tr><td>04:00</td><td>09:30</td><td>Inbox Concierge</td><td><span class="badge bd">D</span></td><td>Inbox triage, reply drafts, digest</td></tr>
+    <tr><td>05:00</td><td>10:30</td><td>Founder Brief</td><td><span class="badge bw">Mon</span></td><td>Weekly synthesis + decisions needed</td></tr>
+    <tr><td>08:00</td><td>13:30</td><td>SEO Rank Tracker</td><td><span class="badge bw">Mon</span></td><td>Keyword position report (Semrush US)</td></tr>
+    <tr><td>09:00</td><td>14:30</td><td>Partnership Prospector</td><td><span class="badge bw">Tue</span></td><td>Qualified partner leads + research briefs</td></tr>
+    <tr><td>10:00</td><td>15:30</td><td>SEO Writer</td><td><span class="badge bd">D</span></td><td>One publish-ready blog article + SEO package</td></tr>
+    <tr><td>11:00</td><td>16:30</td><td>Longpost Studio</td><td><span class="badge bo">2D</span></td><td>5+ platform-tagged articles (X / FB / Reddit)</td></tr>
+    <tr><td>12:00</td><td>17:30</td><td>Newsletter Writer</td><td><span class="badge bw">Thu</span></td><td>Weekly newsletter draft</td></tr>
+    <tr><td>13:00</td><td>18:30</td><td>Trend Radar</td><td><span class="badge bd">D</span></td><td>Delta report + concepts (feeds the content agents)</td></tr>
+    <tr><td>14:00</td><td>19:30</td><td>Competitor Watch</td><td><span class="badge bd">D</span></td><td>Competitive deltas vs baseline</td></tr>
+    <tr><td>15:00</td><td>20:30</td><td>Deep Production</td><td><span class="badge bd">D</span></td><td>Podcast pack + YouTube explainer + evergreen</td></tr>
+    <tr><td>16:00</td><td>21:30</td><td>Ad Copy Lab</td><td><span class="badge bw">Wed</span></td><td>Paid-ads batch: Meta, TikTok, RSA + A/B matrix</td></tr>
+    <tr><td>17:00</td><td>22:30</td><td>Content Factory AM</td><td><span class="badge bd">D</span></td><td>Shoot-ready scripts from radar top 3</td></tr>
+    <tr><td>18:00</td><td>23:30</td><td>Image Ad Creative</td><td><span class="badge bd">D</span></td><td>5 finished PNG ads &#9654; GitHub &#9654; Drive (auto)</td></tr>
+    <tr><td>18:00</td><td>23:30</td><td>Calendar Sentinel</td><td><span class="badge bw">Sun</span></td><td>Calendar upkeep + upcoming beats</td></tr>
+    <tr><td>23:00</td><td>04:30</td><td>Content Factory PM</td><td><span class="badge bd">D</span></td><td>Newsjack or evergreen + tomorrow post plan</td></tr>
+  </table>
+  <div class="twocol">
+    <div>
+      <h2>n8n workflows (myspawn.app.n8n.cloud)</h2>
+      <div class="n8nbox"><b>C · GitHub Ads &#9654; Drive Mirror</b> <span class="live">LIVE</span><span>Push webhook &#9654; filter new images in assets/ads/ &#9654; GitHub download &#9654; upload to "Myspawn ads only". Verified Aug 20, 2026.</span></div>
+      <div class="n8nbox"><b>A · Daily Outreach Sender</b> <span class="pend">WIRING PENDING</span><span>Weekdays 19:00 IST: 20 new leads + due follow-ups (day 3, day 7) &#9654; Claude personalization &#9654; Gmail send &#9654; sheet update. CAN-SPAM compliant, 20/day cap.</span></div>
+      <div class="n8nbox"><b>B · Reply Watcher</b> <span class="pend">WIRING PENDING</span><span>Hourly inbox poll &#9654; match lead &#9654; mark REPLIED (stops follow-ups) &#9654; alert founder.</span></div>
+    </div>
+    <div>
+      <h2>How the day chains together</h2>
+      <div class="n8nbox"><span><b>Research feeds content:</b> Trend Radar (13:00) supplies concepts to Deep Production (15:00), Content Factory (17:00), Image Ads (18:00) and the PM run (23:00). Ad Copy Lab angles feed the image agent's no-repeat checks.</span></div>
+      <div class="n8nbox"><span><b>Memory prevents repetition:</b> every agent checks its log before producing and updates it after; topics, hooks, formats and concepts are never reused.</span></div>
+      <div class="n8nbox"><span><b>Humans hold the only publish button:</b> agents write, render, draft and deliver internally; posting, sending and paid spend always pass Jig or Abhinay. Google Analytics closes the measurement loop once the site tag is installed.</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>MYSPAWN AGENT FLEET v1.0</span><span>Source of truth: automation/myspawn-agent-fleet.json</span><span>Page 2 of 2</span></div>
+</div>
+</body></html>
