@@ -1,0 +1,117 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:1680px; height:1050px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  background:#1E1F26; background-image:radial-gradient(circle, #33353F 1px, transparent 1px); background-size:22px 22px; position:relative; overflow:hidden; }
+h1 { position:absolute; top:22px; left:40px; color:#F2F4FA; font-size:24px; z-index:5; }
+h1 i { font-style:normal; color:#A5B4FC; }
+.sub { position:absolute; top:56px; left:40px; color:#8A93A8; font-size:12.5px; z-index:5; }
+.leg { position:absolute; top:26px; right:40px; display:flex; gap:14px; z-index:5; font-size:10.5px; color:#B9BFD0; }
+.leg span { display:flex; align-items:center; gap:5px; }
+.dot { width:10px; height:10px; border-radius:3px; display:inline-block; }
+svg.wires { position:absolute; inset:0; z-index:1; }
+.node { position:absolute; width:196px; height:58px; background:#2A2B33; border:1px solid #3E4150; border-radius:9px;
+  display:flex; align-items:center; gap:9px; padding:7px 10px; z-index:3; box-shadow:0 4px 14px rgba(0,0,0,.4); }
+.node .ic { width:36px; height:36px; min-width:36px; border-radius:7px; display:flex; align-items:center; justify-content:center; font-size:17px; }
+.node .tx b { display:block; color:#EDEFF7; font-size:11.5px; line-height:1.2; }
+.node .tx span { display:block; color:#8A93A8; font-size:9px; margin-top:2px; line-height:1.25; }
+.colcap { position:absolute; color:#6C7386; font-size:9.5px; font-weight:800; letter-spacing:.22em; z-index:4; }
+</style></head><body>
+<h1>My<i>Spawn</i> · Agent Fleet Canvas</h1>
+<div class="sub">15 AI agents + n8n delivery, drawn as one workflow · every wire is a real data flow · humans hold the only publish button · Aug 20, 2026</div>
+<div class="leg"><span><i class="dot" style="background:#B45309;"></i>triggers/rules</span><span><i class="dot" style="background:#4F46E5;"></i>daily agents</span><span><i class="dot" style="background:#9333EA;"></i>weekly agents</span><span><i class="dot" style="background:#0E7490;"></i>memory</span><span><i class="dot" style="background:#15803D;"></i>outputs</span><span><i class="dot" style="background:#BE185D;"></i>human</span></div>
+<div class="colcap" style="left:60px;top:180px;">INPUTS</div>
+<div class="colcap" style="left:350px;top:220px;">RESEARCH + MEMORY</div>
+<div class="colcap" style="left:670px;top:92px;">CONTENT (DAILY)</div>
+<div class="colcap" style="left:970px;top:92px;">GROWTH + OPS (WEEKLY)</div>
+<div class="colcap" style="left:1260px;top:372px;">OUTPUTS + DELIVERY</div>
+<div class="colcap" style="left:1490px;top:372px;">HUMAN LOOP</div>
+<svg class="wires" width="1680" height="1050"><path d="M 236 239.0 C 286 239.0, 280 279.0, 330 279.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 239.0 C 443.0 239.0, 443.0 149.0, 650 149.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 239.0 C 443.0 239.0, 443.0 379.0, 650 379.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 239.0 C 443.0 239.0, 443.0 494.0, 650 494.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 239.0 C 443.0 239.0, 443.0 609.0, 650 609.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 239.0 C 443.0 239.0, 443.0 724.0, 650 724.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 239.0 C 286 239.0, 280 829.0, 330 829.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 359.0 C 286 359.0, 280 279.0, 330 279.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 359.0 C 286 359.0, 280 399.0, 330 399.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 479.0 C 286 479.0, 280 279.0, 330 279.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 599.0 C 286 599.0, 280 829.0, 330 829.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 719.0 C 286 719.0, 280 519.0, 330 519.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 236 719.0 C 593.0 719.0, 593.0 264.0, 950 264.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 109.0 C 576 109.0, 280 279.0, 330 279.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 109.0 C 588.0 109.0, 588.0 149.0, 650 149.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 279.0 C 588.0 279.0, 588.0 379.0, 650 379.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 279.0 C 588.0 279.0, 588.0 494.0, 650 494.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 279.0 C 588.0 279.0, 588.0 724.0, 650 724.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 279.0 C 588.0 279.0, 588.0 609.0, 650 609.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 279.0 C 738.0 279.0, 738.0 149.0, 950 149.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 669.0 C 588.0 669.0, 588.0 149.0, 650 149.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 669.0 C 588.0 669.0, 588.0 264.0, 650 264.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 669.0 C 588.0 669.0, 588.0 379.0, 650 379.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 846 494.0 C 896 494.0, 600 609.0, 650 609.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1146 149.0 C 1196 149.0, 600 609.0, 650 609.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 846 149.0 C 1043.0 149.0, 1043.0 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 846 264.0 C 1043.0 264.0, 1043.0 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 846 379.0 C 1043.0 379.0, 1043.0 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 846 494.0 C 1043.0 494.0, 1043.0 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 846 609.0 C 1043.0 609.0, 1043.0 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 846 724.0 C 1043.0 724.0, 1043.0 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1146 149.0 C 1196 149.0, 1190 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1146 264.0 C 1196 264.0, 1190 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1146 379.0 C 1196 379.0, 1190 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1146 494.0 C 1196 494.0, 1190 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1146 609.0 C 1196 609.0, 1190 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 399.0 C 883.0 399.0, 883.0 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 519.0 C 883.0 519.0, 883.0 429.0, 1240 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 526 829.0 C 738.0 829.0, 738.0 829.0, 950 829.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1146 829.0 C 1308.0 829.0, 1308.0 429.0, 1470 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1436 429.0 C 1486 429.0, 1420 429.0, 1470 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1436 429.0 C 1486 429.0, 1190 569.0, 1240 569.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1436 569.0 C 1486 569.0, 1190 689.0, 1240 689.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1436 689.0 C 1486 689.0, 1420 429.0, 1470 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1666 429.0 C 1716 429.0, 1420 569.0, 1470 569.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1666 569.0 C 1716 569.0, 1420 689.0, 1470 689.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/><path d="M 1666 689.0 C 1716 689.0, 1420 429.0, 1470 429.0" fill="none" stroke="#575B6B" stroke-width="1.6" opacity="0.75"/></svg>
+<div class="node" style="left:40px;top:210px;">
+<div class="ic" style="background:#B45309;">⏰</div>
+<div class="tx"><b>Cron Scheduler</b><span>15 schedules · UTC</span></div></div>
+<div class="node" style="left:40px;top:330px;">
+<div class="ic" style="background:#0E7490;">🌐</div>
+<div class="tx"><b>Web Research</b><span>24-48h delta sweeps</span></div></div>
+<div class="node" style="left:40px;top:450px;">
+<div class="ic" style="background:#15803D;">📁</div>
+<div class="tx"><b>Google Drive</b><span>founder asset uploads</span></div></div>
+<div class="node" style="left:40px;top:570px;">
+<div class="ic" style="background:#B91C1C;">✉️</div>
+<div class="tx"><b>Gmail Inbox</b><span>customer + partner mail</span></div></div>
+<div class="node" style="left:40px;top:690px;">
+<div class="ic" style="background:#7C3AED;">🔎</div>
+<div class="tx"><b>Semrush + Apollo</b><span>keywords · leads</span></div></div>
+<div class="node" style="left:330px;top:80px;">
+<div class="ic" style="background:#B45309;">⚖️</div>
+<div class="tx"><b>evidence-standards.md</b><span>binding rules · all agents</span></div></div>
+<div class="node" style="left:330px;top:250px;">
+<div class="ic" style="background:#4F46E5;">📡</div>
+<div class="tx"><b>Trend Radar</b><span>daily 13:00 · feeds content</span></div></div>
+<div class="node" style="left:330px;top:370px;">
+<div class="ic" style="background:#4F46E5;">🕵️</div>
+<div class="tx"><b>Competitor Watch</b><span>daily 14:00 · vs baseline</span></div></div>
+<div class="node" style="left:330px;top:490px;">
+<div class="ic" style="background:#4F46E5;">📈</div>
+<div class="tx"><b>SEO Rank Tracker</b><span>Mon 08:00 · Semrush US</span></div></div>
+<div class="node" style="left:330px;top:640px;">
+<div class="ic" style="background:#0E7490;">🗄️</div>
+<div class="tx"><b>Memory Logs ×9</b><span>watchlist · topic/hook logs</span></div></div>
+<div class="node" style="left:330px;top:800px;">
+<div class="ic" style="background:#4F46E5;">📥</div>
+<div class="tx"><b>Inbox Concierge</b><span>daily 04:00 · drafts only</span></div></div>
+<div class="node" style="left:650px;top:120px;">
+<div class="ic" style="background:#6366F1;">📝</div>
+<div class="tx"><b>SEO Writer</b><span>daily 10:00 · blog article</span></div></div>
+<div class="node" style="left:650px;top:235px;">
+<div class="ic" style="background:#6366F1;">📰</div>
+<div class="tx"><b>Longpost Studio</b><span>odd days 11:00 · 5 articles</span></div></div>
+<div class="node" style="left:650px;top:350px;">
+<div class="ic" style="background:#6366F1;">🎙️</div>
+<div class="tx"><b>Deep Production</b><span>daily 15:00 · podcast + video</span></div></div>
+<div class="node" style="left:650px;top:465px;">
+<div class="ic" style="background:#6366F1;">🎬</div>
+<div class="tx"><b>Content Factory AM</b><span>daily 17:00 · scripts</span></div></div>
+<div class="node" style="left:650px;top:580px;">
+<div class="ic" style="background:#6366F1;">🖼️</div>
+<div class="tx"><b>Image Ad Creative</b><span>daily 18:00 · 5 PNG ads</span></div></div>
+<div class="node" style="left:650px;top:695px;">
+<div class="ic" style="background:#6366F1;">🌙</div>
+<div class="tx"><b>Content Factory PM</b><span>daily 23:00 · newsjack</span></div></div>
+<div class="node" style="left:950px;top:120px;">
+<div class="ic" style="background:#9333EA;">📢</div>
+<div class="tx"><b>Ad Copy Lab</b><span>Wed 16:00 · paid batches</span></div></div>
+<div class="node" style="left:950px;top:235px;">
+<div class="ic" style="background:#9333EA;">🤝</div>
+<div class="tx"><b>Partnership Prospector</b><span>Tue 09:00 · leads</span></div></div>
+<div class="node" style="left:950px;top:350px;">
+<div class="ic" style="background:#9333EA;">💌</div>
+<div class="tx"><b>Newsletter Writer</b><span>Thu 12:00 · weekly letter</span></div></div>
+<div class="node" style="left:950px;top:465px;">
+<div class="ic" style="background:#9333EA;">🧭</div>
+<div class="tx"><b>Founder Brief</b><span>Mon 05:00 · synthesis</span></div></div>
+<div class="node" style="left:950px;top:580px;">
+<div class="ic" style="background:#9333EA;">📅</div>
+<div class="tx"><b>Calendar Sentinel</b><span>Sun 18:00 · key dates</span></div></div>
+<div class="node" style="left:950px;top:800px;">
+<div class="ic" style="background:#15803D;">📝</div>
+<div class="tx"><b>Gmail Drafts</b><span>replies awaiting approval</span></div></div>
+<div class="node" style="left:1240px;top:400px;">
+<div class="ic" style="background:#15803D;">🐙</div>
+<div class="tx"><b>GitHub + Email</b><span>commit reports/assets · digest</span></div></div>
+<div class="node" style="left:1240px;top:540px;">
+<div class="ic" style="background:#EA580C;">🔗</div>
+<div class="tx"><b>n8n C: Drive Mirror</b><span>push webhook · LIVE</span></div></div>
+<div class="node" style="left:1240px;top:660px;">
+<div class="ic" style="background:#15803D;">🟢</div>
+<div class="tx"><b>Drive: Myspawn ads only</b><span>auto-delivered creative</span></div></div>
+<div class="node" style="left:1470px;top:400px;">
+<div class="ic" style="background:#BE185D;">🧑</div>
+<div class="tx"><b>Jig + Abhinay</b><span>review · publish · approve</span></div></div>
+<div class="node" style="left:1470px;top:540px;">
+<div class="ic" style="background:#BE185D;">🚀</div>
+<div class="tx"><b>Platforms</b><span>X · IG · TikTok · FB · blog</span></div></div>
+<div class="node" style="left:1470px;top:660px;">
+<div class="ic" style="background:#B45309;">📊</div>
+<div class="tx"><b>Google Analytics</b><span>measure loop · tag pending</span></div></div>
+
+</body></html>
