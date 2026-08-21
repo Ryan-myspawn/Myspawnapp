@@ -18,3 +18,8 @@
 | 2026-08-20 | Ad_GenZ_Undecided_11 | Undecided is a valid plan. | Three choice pills, "Not deciding yet" selected |
 | 2026-08-20 | Ad_Century_Mail_12 | Some mail takes a century. | Airmail envelope to 2126 with postmark + gradient stamp |
 | 2026-08-20 | Ad_Voice_Waveform_13 | A message can wait 100 years. So can your DNA. | Voice-note player card, gradient waveform, SEALED UNTIL 2126 |
+| 2026-08-21 | Ad_EmptyTab_14 | Your heirs get the money. They lose the man. | Estate binder tabs + glowing empty tab |
+| 2026-08-21 | Ad_BoringStack_15 | The boring stack keeps winning. | Exotic-vs-boring two-column stack comparison |
+| 2026-08-21 | Ad_SampleSize_16 | Two famous studies argue about men's biology. Neither one is about you. | Dual line charts (falling vs flat) + SAMPLE SIZE OF ONE pill |
+| 2026-08-21 | Ad_FoundingPlate_17 | Most men will leave nothing. A few will leave an option. | Brushed membership plate No. ___ of 1,000 |
+| 2026-08-21 | Ad_Viewfinder_18 | Record it while you're still the one telling it. | Camera viewfinder REC UI + unlock-date chip |
