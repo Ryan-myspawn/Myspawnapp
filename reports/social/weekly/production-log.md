@@ -31,5 +31,5 @@
 
 ## Queued (claimed by Daily Review, not yet produced)
 - Episode: "The Fertility-Tech Trust Crisis" (Orchid pressure quote + PGC dispute + HereAfter/23andMe custody pattern) — earmarked 2026-08-21+.
-- Episode: Pentagon pilot launch-day react — reserved for 2026-09-14.
-- Evergreen/explainer: "The Government's DNA Ark" (Colossal BioVault, USFWS 2,300+ species) — available when IVG lanes are quiet.
+- ~~Episode: Pentagon pilot launch-day react (2026-09-14)~~ CANCELLED 2026-08-21 per founder content rules (Pentagon lane retired).
+- ~~Evergreen/explainer: "The Government's DNA Ark"~~ CANCELLED 2026-08-21 per founder content rules (government-biobank lane retired).
