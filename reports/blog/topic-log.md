@@ -1,4 +1,6 @@
 # MySpawn Blog Topic Log
+> **BINDING: read and obey reports/social/content-rules.md (founder rules 2026-08-21: zero repetition, forced freshness, men-25-55 primary, letter-framing and Pentagon lanes retired) before producing.**
+
 *Maintained by the daily SEO Writer. Never repeat a topic or primary keyword. Lanes rotate: (a) preservation how/why → (b) science explained → (c) legacy planning → (d) trust/custody → (e) audience angles → repeat, mining trend-radar when thin.*
 
 | Date | Lane | Title | Slug | Primary keyword | Secondary keywords |

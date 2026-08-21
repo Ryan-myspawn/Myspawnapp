@@ -1,4 +1,6 @@
 # Deep Production Log
+> **BINDING: read and obey reports/social/content-rules.md (founder rules 2026-08-21: zero repetition, forced freshness, men-25-55 primary, letter-framing and Pentagon lanes retired) before producing.**
+
 *Anti-repetition memory. Every episode topic, explainer topic, and evergreen idea ever produced. Check before producing; never repeat.*
 
 ## Podcast episodes

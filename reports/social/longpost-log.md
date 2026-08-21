@@ -1,4 +1,6 @@
 # Longpost Studio Log
+> **BINDING: read and obey reports/social/content-rules.md (founder rules 2026-08-21: zero repetition, forced freshness, men-25-55 primary, letter-framing and Pentagon lanes retired) before producing.**
+
 *One line per article ever produced. Every new article must differ from ALL previous in topic AND angle AND hook structure. Check before writing.*
 
 | # | Date | Title | Angle | Hook structure | Platform |

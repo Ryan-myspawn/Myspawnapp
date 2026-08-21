@@ -1,4 +1,6 @@
 # Ad Copy Lab Log
+> **BINDING: read and obey reports/social/content-rules.md (founder rules 2026-08-21: zero repetition, forced freshness, men-25-55 primary, letter-framing and Pentagon lanes retired) before producing.**
+
 *Every angle and hook ever used. Never repeat an angle or hook. Check before each run.*
 
 | Date | Angle | Hooks used | Audiences | Notes |
