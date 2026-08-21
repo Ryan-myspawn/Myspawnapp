@@ -12,10 +12,15 @@
 
 ## Queue (next up)
 1. **2026-08-22 · lane (e):** "Childfree Legacy: What to Leave Behind When You're Not Leaving Children" — slug `childfree-legacy`, primary "childfree legacy" (affirmative framing per brand rules; links letter article + cornerstone).
-2. **2026-08-23 · lane (e), FOUNDER KEYWORD:** "Why Gen Z Isn't Having Kids (and What They're Preserving Instead)" — slug `gen-z-not-having-kids`, primary "gen z not having kids" (founder-directed standing keyword, added 2026-08-20). Data-led: latest surveys on Gen Z birth intentions (cost, climate, housing, choice), NO judgment either direction per brand rules; pivot = whatever you decide later, preserving DNA + memories now keeps every option open; links childfree-legacy + letter article.
+2. **2026-08-23 · lane (e), FOUNDER KEYWORD:** "Why Gen Z Isn't Having Kids (and What They're Preserving Instead)" — slug `gen-z-not-having-kids`, primary "gen z not having kids" (founder-directed standing keyword, added 2026-08-20). Data-led: latest surveys on Gen Z birth intentions (cost, climate, housing, choice), NO judgment either direction per brand rules; written through the men-25-55 lens per content-rules; pivot = whatever you decide later, preserving DNA + memories now keeps every option open; links childfree-legacy article.
+3. **2026-08-24 · lane (d), FOUNDER KEYWORD:** "Looking for a 23andMe Alternative? Ask the Custody Question First" — slug `23andme-alternative`, primary "23andMe alternative" (commercial intercept; testing vs preservation distinction, custody checklist, links what-happens-dna-company-shuts-down).
+4. **2026-08-25 · lane (b), FOUNDER KEYWORD:** "Sperm Freezing Cost in 2026 (and What It Does vs DNA Banking)" — slug `sperm-freezing-cost`, primary "sperm freezing cost" (honest comparison: clinic freezing = fertility preservation with real prices; DNA banking = record preservation at $99; never imply substitution; men-25-55 lens).
+5. **2026-08-26 · lane (e), FOUNDER KEYWORD:** "Meaningful Gifts for Men Who Have Everything: The Legacy Tier" — slug `meaningful-gifts-for-men-legacy`, primary "meaningful gifts for men" (kit-as-gift lane, seasonal evergreen; practical realism tone, no sentimentality).
 
 ## Standing founder keywords (search intent to target and monitor)
-- **"gen z not having kids"** (added 2026-08-20 by founder) — also swept daily by Trend Radar; feed fresh survey/discourse deltas into future articles and refreshes of the 08-23 piece.
+- **"gen z not having kids"** (2026-08-20) — swept daily by Trend Radar; feed deltas into future articles and refreshes of the 08-23 piece.
+- **"23andMe alternative"**, **"sperm freezing cost"**, **"gifts for dad"** (2026-08-21) — commercial intercepts, queued below.
+- Full keyword stack + framing rules: reports/social/content-rules.md.
 
 ## Rules learned / notes
 - Cornerstone published; all future articles should internal-link to `how-to-preserve-your-dna` where relevant.

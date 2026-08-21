@@ -39,3 +39,21 @@ If you cannot honestly write that line, do not output the idea.
 
 ## Retired assets register (do not resurface)
 - 2026-08-21: POV-2126 letter script, Century Mail ad concept, letter-to-grandchildren content lane, Pentagon price-tag content family (article/episode/ad/X drafts already delivered; do not extend).
+
+## Standing keyword stack (founder-approved 2026-08-21)
+**Daily discourse sweep (Trend Radar):**
+1. "gen z not having kids" (active since 08-20)
+2. "sperm count decline" / "male fertility crisis" — best men-25-55 fit; storage-only framing, we preserve the record, we do not fix fertility, never imply otherwise
+3. "generational wealth" — angle: heirs get the money and lose the man; $99 fixes the second part
+4. "biohacking" / "longevity protocol" — DNA preservation as the cheapest item in the future-self stack
+**Event-driven watch (report when a wave occurs, not daily):**
+5. "digital legacy" / platform death-policy changes
+6. "de-extinction" / Colossal pop-culture moments (cultural moments only; the government-biobank frame stays retired)
+**Commercial / SEO intercepts (queued as articles + ad angles):**
+7. "23andMe alternative" — the searcher's real question is custody; that is our fight
+8. "sperm freezing cost" — honest comparison article: what freezing does, what DNA banking does, what each costs
+9. "gifts for dad" / "meaningful gifts for men" — kit-as-gift lane; seasonal (Father's Day, Christmas); untested, worth one article + one ad concept
+
+## Gen Z principle: topic, not target
+"Gen Z" in a headline is an engagement hook for men 25-55 (react/argue/share), not an audience change. Preferred uses: react-to-Gen-Z formats ("Gen Z says X. Here's what the data says"), generational comparison content ("Your grandfather left a war medal. You'll leave 40,000 unsorted photos."), stealing peaking Gen Z edit formats for men's-legacy topics. For actual Gen Z viewers: "Undecided is a valid plan" is the one approved message; no pandering, no slang cosplay.
+
