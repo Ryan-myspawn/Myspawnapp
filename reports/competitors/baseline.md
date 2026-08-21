@@ -51,6 +51,14 @@
 ## Deep-dive rotation log
 - *(rotation order: Acorn → SecuriGene → Tomorrow Bio → Legacy → Orchid → StoryWorth)*
 
+### 2026-08-21 deep-dive: SecuriGene / DNA Memorial (marketing snapshot)
+- **Pricing display:** DNA Banking Capsule **$498**; additional capsules **$250 each**; typical all-in range quoted as $300-600 ([dnalegacy.com FAQ](https://www.dnalegacy.com/dna-banking-capsule-faq/), [Milwaukee Cremation retail listing](https://milwaukeecremate.com/product/securigene-dna-capsule/)).
+- **Custody model:** stainless-steel capsule via patented anhydrobiosis, stored AT HOME ("right on the family mantle"). No accredited-facility custody chain; the family IS the biorepository.
+- **Channel:** B2B2C through funeral homes; funeral-tech marketing content pushes it as an add-on ("Preserve your DNA, your grandkids might thank you", Frazer Consultants). Category grew from ~20 US funeral homes offering DNA preservation in 2015 to widespread add-on menus today.
+- **Urgency tactic worth noting:** "cremation destroys DNA — collect BEFORE the procedure." Real biology, deployed at the worst possible emotional moment (at-need, grieving buyer).
+- **Counter for MySpawn:** we are pre-need, they are at-need: "$99 while you're alive beats $498 at your funeral." And the custody contrast is stark: accredited, FDA-registered biorepository vs a capsule on a mantle that moves, floods, and gets lost in estate cleanouts. Their price also makes our $99 look effortless.
+- **Tactic to steal:** their trade-channel distribution (funeral homes push it) is real; our equivalent partner channel would be estate attorneys and financial planners (pre-need, fits the generational-wealth lane).
+
 ### 2026-08-20 deep-dive: Acorn Biolabs (marketing snapshot)
 - **Positioning shift:** homepage now leads with "Personalized Regenerative Medicine," not cell banking. The banked-cell promise (speculative, future therapies) has been paired with a use-it-NOW product: **YOU™ Secretome**, a topical skincare treatment derived from the customer's own banked cells (soft-launched late 2024, scaled through H1 2026, won a 2026 NewBeauty Award). ([acorn.me](https://acorn.me/), [Glossy](https://www.glossy.co/beauty/wellness/wellness-briefing-how-stem-cell-therapy-innovator-acorn-biolabs-is-legally-scaling-in-the-us-plus-news/))
 - **Pricing display:** collection from **$945**, storage ~**$16/month** for 50 follicles; extraction + 5 years banking bundled from **$1,650**. Monthly framing softens the subscription drag.
@@ -59,6 +67,7 @@
 - **Tactic to counter:** bundle pricing hides lifetime cost; our $99-once vs $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-08-21:** Near-quiet. Logged: Orchid August bioRxiv preprint (company-authored validation of 5-cell WGS biopsy; preprint label); Nucleus India/Middle East clinic expansion (Bloomberg Mar 26, newly discovered). Deep-dive #2: SecuriGene ($498 capsule, at-need funeral channel, home-mantle custody gap; counter = pre-need $99 + accredited custody; steal = estate-attorney channel idea).
 - **2026-08-20:** Near-quiet. Orchid founder August quote confirming pressure-driven clinic adoption (trust-crisis receipt); Acorn scaling US ops (Glossy). Deep-dive #1 completed: Acorn marketing snapshot (secretome now-value tactic; $945 + $16/mo pricing display). Pentagon fertility pilot noted as lane-2 tailwind, no company moves yet.
 - **2026-08-19:** Nucleus first clinic partnership (Beverly Hills Fertility) + Orchid comparison warfare; Acorn Fast Company honor; StoryWorth pricing tiers; Empathy grief-AI research. No 24h breaking news in any lane.
 - **2026-08-18:** Baseline created. Key numbers: Acorn $945+$100/yr; Legacy $47.75M raised + Mar 2026 data platform; SecuriGene 1,000+ funeral homes; HereAfter AI shutdown (July 2026) logged as first material finding.
