@@ -23,3 +23,8 @@
 | 2026-08-21 | Ad_SampleSize_16 | Two famous studies argue about men's biology. Neither one is about you. | Dual line charts (falling vs flat) + SAMPLE SIZE OF ONE pill |
 | 2026-08-21 | Ad_FoundingPlate_17 | Most men will leave nothing. A few will leave an option. | Brushed membership plate No. ___ of 1,000 |
 | 2026-08-21 | Ad_Viewfinder_18 | Record it while you're still the one telling it. | Camera viewfinder REC UI + unlock-date chip |
+| 2026-08-22 | Ad_Split6164_19 | The inheritance playbook just broke. | Three bars: family 64 / charity 61 / amber $99 record |
+| 2026-08-22 | Ad_BlankLine_20 | This blank line stops 4 out of 5 wills. | Will form, red EXECUTOR blank + three solution cards |
+| 2026-08-22 | Ad_ReferenceCopy_21 | Every family tree has one branch that keeps the records. | SVG family tree, amber-ringed node + sealed tag |
+| 2026-08-22 | Ad_MissingPhotographer_22 | 3,412 family photos. Eleven have you in them. | Dimmed photo-grid mosaic, 11 lit frames |
+| 2026-08-22 | Ad_SevenMinutes_23 | Every future-proofing move takes forever. Except one. | Duration bars, 7-minute gradient hero bar |
