@@ -27,6 +27,7 @@
 
 ### Legacy (givelegacy.com)
 - **Model:** at-home sperm testing + freezing; ~$47.75M raised; March 2026 launched "Sperm Insights" data platform. ([givelegacy.com](https://www.givelegacy.com/), [CB Insights](https://www.cbinsights.com/investor/legacy-4))
+- **May 11, 2026 (logged 08-22, newly discovered):** launched a **$1M clinical study** (up to 250 participants) validating at-home semen collection for ART use ([PR Newswire](https://www.prnewswire.com/news-releases/legacy-launches-1m-study-advancing-at-home-semen-collection-for-assisted-reproduction-technology-302768508.html)); earlier 2026 also launched comprehensive at-home motility testing. Pattern: aggressively building clinical legitimacy for at-home collection. *So what:* validates the at-home-kit trust model our category depends on; also confirms Legacy is the serious player in the male lane our new fertility keyword tracks.
 - **Threat:** low-medium (male-fertility niche; different job). **Note:** their name collides with our "legacy" language in search — SEO consideration for keyword targeting.
 
 ### Cofertility / Fellow / Freeze Health
@@ -51,6 +52,13 @@
 ## Deep-dive rotation log
 - *(rotation order: Acorn → SecuriGene → Tomorrow Bio → Legacy → Orchid → StoryWorth)*
 
+### 2026-08-22 deep-dive: Tomorrow Bio (marketing snapshot)
+- **Pricing display:** membership $550/yr ($660 monthly; hardship rate €250/yr), and membership fees credit toward the procedure ("your membership is free"). Procedure fees at legal death: whole body €200k member / €230k non-member; brain-only €75k / €115k ([tomorrow.bio pricing](https://www.tomorrow.bio/cryopreservation-costs), [membership](https://www.tomorrow.bio/us/become-a-member)).
+- **2026 strategy (founder letter):** expanding coverage network H2 2026; running "50% off membership for life" promo; launching **family and group signups** ("the journey shouldn't be solitary") ([founder letter](https://www.tomorrow.bio/blog/founder-letter-our-focus-for-2026)).
+- **Tactics worth noting:** (1) fee-credit framing converts a subscription into a "free" membership psychologically; (2) a finance CALCULATOR normalizes a €200k decision via life-insurance funding; (3) the family/group signup pivot mirrors our household framing and is worth watching.
+- **Counter for MySpawn:** we are the opposite end of the same instinct: their entry point is €200k + $550/yr for a speculative revival bet; ours is $99 once for a certain record. "Not ready to bet six figures on being frozen? Start with the $99 version of not disappearing." Never mock cryonicists (adjacent believers are potential customers); position as the accessible first rung.
+- **Steal:** the finance calculator concept: a "what does your legacy stack cost" interactive would make our $99 look absurdly easy next to every alternative.
+
 ### 2026-08-21 deep-dive: SecuriGene / DNA Memorial (marketing snapshot)
 - **Pricing display:** DNA Banking Capsule **$498**; additional capsules **$250 each**; typical all-in range quoted as $300-600 ([dnalegacy.com FAQ](https://www.dnalegacy.com/dna-banking-capsule-faq/), [Milwaukee Cremation retail listing](https://milwaukeecremate.com/product/securigene-dna-capsule/)).
 - **Custody model:** stainless-steel capsule via patented anhydrobiosis, stored AT HOME ("right on the family mantle"). No accredited-facility custody chain; the family IS the biorepository.
@@ -67,6 +75,7 @@
 - **Tactic to counter:** bundle pricing hides lifetime cost; our $99-once vs $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-08-22:** Quiet 24h. Newly discovered: Legacy's May 2026 $1M at-home collection clinical study + motility testing launch (clinical-legitimacy pattern). Deep-dive #3: Tomorrow Bio ($550/yr membership credited toward €200k procedure; 2026 family-signup pivot; finance-calculator tactic worth stealing; counter = "$99 first rung" positioning, never mock believers).
 - **2026-08-21:** Near-quiet. Logged: Orchid August bioRxiv preprint (company-authored validation of 5-cell WGS biopsy; preprint label); Nucleus India/Middle East clinic expansion (Bloomberg Mar 26, newly discovered). Deep-dive #2: SecuriGene ($498 capsule, at-need funeral channel, home-mantle custody gap; counter = pre-need $99 + accredited custody; steal = estate-attorney channel idea).
 - **2026-08-20:** Near-quiet. Orchid founder August quote confirming pressure-driven clinic adoption (trust-crisis receipt); Acorn scaling US ops (Glossy). Deep-dive #1 completed: Acorn marketing snapshot (secretome now-value tactic; $945 + $16/mo pricing display). Pentagon fertility pilot noted as lane-2 tailwind, no company moves yet.
 - **2026-08-19:** Nucleus first clinic partnership (Beverly Hills Fertility) + Orchid comparison warfare; Acorn Fast Company honor; StoryWorth pricing tiers; Empathy grief-AI research. No 24h breaking news in any lane.
