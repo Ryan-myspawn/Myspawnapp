@@ -10,6 +10,7 @@
 | 2026-08-19 | "The Oldest Baby on Earth Was Frozen in 1994" | Pierce/Guinness 31y embryo record + vitrification/ensilication science + custody-chain angle (HereAfter, 23andMe contrast). USED. |
 | 2026-08-20 | "$10,000 for Eggs, $500 for Sperm: What the Pentagon Just Admitted" | DoD fertility-preservation pilot + cap-gap defuse + BioVault thesis. USED. (Lane retired 08-21 per founder rules.) |
 | 2026-08-21 | "The $2 Million Man Bought a Dog" | Johnson dog announcement (NEW development vs 08-18 doubt episode) + Kramer 2019 study-literacy + cheap-vs-expensive longevity + foresight stack close. USED. |
+| 2026-08-22 | "The Fertility-Tech Trust Crisis" | Orchid August pressure quote + PGC dispute + company preprint (grading-own-homework) + 90-second referee test + declared-stake close. USED (was queued). |
 
 ## YouTube explainers
 | Date | Title | Core material |
@@ -18,6 +19,7 @@
 | 2026-08-19 | "When Legacy Companies Die: 5 Questions" | HereAfter AI shutdown + 23andMe bankruptcy/breach numbers + GINA gap + 5-question custody checklist. USED (was queued 08-18). |
 | 2026-08-20 | "The Egg Company Just Bought the Missing Step" | Gameto/Harvard meiosis IP + IVG wall + field map. USED (was queued 08-19). |
 | 2026-08-21 | "Are Sperm Counts Actually Crashing? Both Studies, Honestly." | Levine/Swan HRU meta-analysis vs 2024 Fertil Steril stable-counts review; contested-science trust format; men-primary. USED. Franchise candidate: "Both Studies, Honestly". |
+| 2026-08-22 | (explainer honestly skipped: two scripted explainers unshot; film-before-write call) | — | — |
 
 ## Evergreen bank
 | Date | Idea | Format |
@@ -26,12 +28,14 @@
 | 2026-08-19 | "I read a letter from 1926. Then I wrote one to 2126." | Archival-read react (historical letter + live Letter-to-2126 demo) |
 | 2026-08-20 | "What It Costs to Be Remembered (I Did the Math)" | Desk receipt-math demo (price tally: StoryWorth/Acorn/cryonics/AI-afterlife vs $99 once; custody punchline) |
 | 2026-08-21 | "Interview your father. Five questions. One camera." | Two-generation interview card format; Vault video-message framing; UGC-prompt potential |
+| 2026-08-22 | "Open your camera roll. Count yourself." | Camera-roll audit screen-record (photographer-ghost problem; comment-your-number UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
 - 2026-08-18: news-react podcast · debunk explainer · confessional single-take
 - 2026-08-19: science-story podcast · checklist explainer · archival-read react
 - 2026-08-20: policy-react podcast · follow-the-IP explainer · desk receipt-math demo
 - 2026-08-21: culture-react + study-literacy podcast · both-studies contested-science explainer · two-generation interview card
+- 2026-08-22: controversy-audit podcast (referee test) · (no explainer) · camera-roll audit screen-record
 
 ## Queued (claimed by Daily Review, not yet produced)
 - Episode: "The Fertility-Tech Trust Crisis" (Orchid pressure quote + PGC dispute + HereAfter/23andMe custody pattern) — earmarked 2026-08-21+.
