@@ -46,6 +46,7 @@ If you cannot honestly write that line, do not output the idea.
 2. "sperm count decline" / "male fertility crisis" — best men-25-55 fit; storage-only framing, we preserve the record, we do not fix fertility, never imply otherwise
 3. "generational wealth" — angle: heirs get the money and lose the man; $99 fixes the second part
 4. "biohacking" / "longevity protocol" — DNA preservation as the cheapest item in the future-self stack
+**FOUNDER-FLAGGED PRIORITY LANE (added 2026-08-23):** embryo IQ engineering / designer-baby / genetic "new race" discourse on short-form video. Founder-flagged example reel: instagram.com/reel/DZn05IdjZQE (Instagram is egress-blocked for agents; track the lane via news coverage, TikTok/YouTube cross-posts, Know Your Meme, Reddit, and aggregators; if the founder supplies the creator's handle, pin that account by name in the radar). This is priority Reaction Fuel: creators in this lane say the provocative version out loud, and our reply is the honest-science + we-store-never-select position. New elite-access example logged same day: Heliospect, a startup selling embryo IQ screening (UnHerd coverage) — fresh material for the access-gap direction.
 **Event-driven watch (report when a wave occurs, not daily):**
 5. "digital legacy" / platform death-policy changes
 6. "de-extinction" / Colossal pop-culture moments (cultural moments only; the government-biobank frame stays retired)
