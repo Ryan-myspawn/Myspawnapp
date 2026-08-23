@@ -15,3 +15,8 @@
 | 8 | 2026-08-21 | The 100-year test | Media decay + platform death policies audit; zero product | Room-scan self-test open | X |
 | 9 | 2026-08-21 | I built a letter tool with a 100-year delivery date | r/SideProject build-story on the free letter tool; lessons + open question | Historical anecdote open (Detroit Century Box), disclosure second | Reddit r/SideProject |
 | 10 | 2026-08-21 | Read the actual Gen Z surveys. They don't say 'never.' | Survey-data contrarian read of birth-rate discourse; optionality close (founder keyword) | Headline-vs-data contrast open | X |
+| 11 | 2026-08-23 | America's most wanted child doesn't exist | Fertility gap as macro/pent-up-demand economics story; zero product | Two-numbers-that-cannot-coexist open | X |
+| 12 | 2026-08-23 | Scientists learned to switch sperm production off. On purpose. Reversibly. | JQ1/PNAS meiosis-switch explainer, honestly dated; meiosis-as-control-surface thesis | Paradox open ("On purpose. Reversibly.") | X |
+| 13 | 2026-08-23 | Before the $124 trillion moves, ask the questions | Wealth transfer from the RECEIVER side; 5-question inheritance interview + record | Scene-at-the-kitchen-table storytelling open | Facebook |
+| 14 | 2026-08-23 | I put our startup's marketing department on autopilot | r/Entrepreneur build-in-public ops post: what worked/broke; measurement-first lesson | Results-report open, disclosure first | Reddit r/Entrepreneur |
+| 15 | 2026-08-23 | You can now order an IQ screen for embryos. Check the math first. | Embryo-IQ effect-size takedown (Heliospect/Nucleus); selection-vs-preservation close | Product-exists-check-the-math open | X |
