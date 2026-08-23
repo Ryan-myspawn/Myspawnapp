@@ -58,3 +58,16 @@ If you cannot honestly write that line, do not output the idea.
 ## Gen Z principle: topic, not target
 "Gen Z" in a headline is an engagement hook for men 25-55 (react/argue/share), not an audience change. Preferred uses: react-to-Gen-Z formats ("Gen Z says X. Here's what the data says"), generational comparison content ("Your grandfather left a war medal. You'll leave 40,000 unsorted photos."), stealing peaking Gen Z edit formats for men's-legacy topics. For actual Gen Z viewers: "Undecided is a valid plan" is the one approved message; no pandering, no slang cosplay.
 
+## CREATIVE QC GATE (mandatory pre-ship pass, added 2026-08-23)
+Every content-producing agent (Image Ad Creative, Content Factory AM/PM, Deep Production) runs this adversarial second-look pass on EVERY item after drafting and before committing/emailing. The reviewer stance is skeptical, not celebratory: the job is to find the reason NOT to ship.
+
+**Checklist per item:**
+1. **Freshness truth-check:** open the relevant logs and verify the "not used in last 7 days" claim is actually true for the idea, hook, AND format. A false freshness header is an automatic FIX.
+2. **Banned lanes absent:** no letter-to-the-future framing, no Pentagon/military-DNA/government-biobank, no em dashes.
+3. **Claims check:** every number/quote sourced and labeled (peer-reviewed vs press release vs reported); storage-only boundary intact; GenVault accreditations attributed precisely.
+4. **Persona Bench (the men-25-55 test):** score against three fixed readers: (a) 38-year-old father/provider, (b) 29-year-old undecided optimizer, (c) 50-year-old estate planner. Question per persona: "would this stop his scroll, and does it respect his intelligence?" An item failing 2 of 3 personas gets reworked or killed.
+5. **Visual verify (image items):** rendered output actually viewed; no text collisions, overflow, or clipped elements.
+6. **Right-of-publicity:** real people quoted verbatim only; react to ideas, never persons.
+
+**Verdicts:** PASS / FIXED (say what changed) / KILLED (name the replacement). Verdicts are recorded in the day's output doc in a short "QC Gate" block. Killing a weak item and shipping fewer beats filling quota; if quota must be met (e.g. the 10-creative rule), replace killed items with verticals of proven performers, never with a weak new concept.
+
