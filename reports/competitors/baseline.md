@@ -53,6 +53,13 @@
 ## Deep-dive rotation log
 - *(rotation order: Acorn → SecuriGene → Tomorrow Bio → Legacy → Orchid → StoryWorth)*
 
+### 2026-08-23 deep-dive: Legacy / givelegacy.com (marketing snapshot)
+- **Pricing display:** sperm freezing "from **$245 per sample, per year**" (annual plan, framed as flexibility); oncofertility compassionate tier **$35/sample/yr**; storage marketed "up to 25 years... indefinitely with no impact" ([pricing page](https://www.givelegacy.com/resources/sperm-freezing-costs), [order flow](https://www.givelegacy.com/order/)).
+- **Trust signals:** FDA and CLIA-certified labs; "clinically proven" transport media; the May 2026 $1M validation study (logged 08-22). Product pages split by intent: "for-today" (testing) vs "for-tomorrow" (freezing), a clean naming device.
+- **Distribution moat worth noting:** deep INSURANCE/BENEFITS integration: $0 out-of-pocket via Progyny, Carrot, Maven, WINFertility; coverage via Aetna, Cigna, UnitedHealthcare by state. They productized someone else paying.
+- **Counter for MySpawn:** different job (gametes vs record) but instructive economics: their entry costs $245 EVERY year; ours is $99 ONCE. The "for-today / for-tomorrow" page split is also the exact mental model our kit + Vault map onto.
+- **Steal:** (1) the benefits-channel play: DNA preservation as an HR/estate-planning perk is unexplored; (2) the compassionate oncofertility tier is a trust builder worth an equivalent someday (e.g., hardship pricing).
+
 ### 2026-08-22 deep-dive: Tomorrow Bio (marketing snapshot)
 - **Pricing display:** membership $550/yr ($660 monthly; hardship rate €250/yr), and membership fees credit toward the procedure ("your membership is free"). Procedure fees at legal death: whole body €200k member / €230k non-member; brain-only €75k / €115k ([tomorrow.bio pricing](https://www.tomorrow.bio/cryopreservation-costs), [membership](https://www.tomorrow.bio/us/become-a-member)).
 - **2026 strategy (founder letter):** expanding coverage network H2 2026; running "50% off membership for life" promo; launching **family and group signups** ("the journey shouldn't be solitary") ([founder letter](https://www.tomorrow.bio/blog/founder-letter-our-focus-for-2026)).
@@ -76,6 +83,7 @@
 - **Tactic to counter:** bundle pricing hides lifetime cost; our $99-once vs $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-08-23:** Fully quiet, all lanes. Deep-dive #4: Legacy ($245/sample/yr annual framing vs our $99-once; $35 oncofertility tier; insurance/benefits distribution moat via Progyny/Carrot/Maven; for-today/for-tomorrow page split; steals = benefits channel + hardship tier).
 - **2026-08-22:** Quiet 24h. Newly discovered: Legacy's May 2026 $1M at-home collection clinical study + motility testing launch (clinical-legitimacy pattern). Deep-dive #3: Tomorrow Bio ($550/yr membership credited toward €200k procedure; 2026 family-signup pivot; finance-calculator tactic worth stealing; counter = "$99 first rung" positioning, never mock believers).
 - **2026-08-21:** Near-quiet. Logged: Orchid August bioRxiv preprint (company-authored validation of 5-cell WGS biopsy; preprint label); Nucleus India/Middle East clinic expansion (Bloomberg Mar 26, newly discovered). Deep-dive #2: SecuriGene ($498 capsule, at-need funeral channel, home-mantle custody gap; counter = pre-need $99 + accredited custody; steal = estate-attorney channel idea).
 - **2026-08-20:** Near-quiet. Orchid founder August quote confirming pressure-driven clinic adoption (trust-crisis receipt); Acorn scaling US ops (Glossy). Deep-dive #1 completed: Acorn marketing snapshot (secretome now-value tactic; $945 + $16/mo pricing display). Pentagon fertility pilot noted as lane-2 tailwind, no company moves yet.
