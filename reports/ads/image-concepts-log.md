@@ -28,3 +28,13 @@
 | 2026-08-22 | Ad_ReferenceCopy_21 | Every family tree has one branch that keeps the records. | SVG family tree, amber-ringed node + sealed tag |
 | 2026-08-22 | Ad_MissingPhotographer_22 | 3,412 family photos. Eleven have you in them. | Dimmed photo-grid mosaic, 11 lit frames |
 | 2026-08-22 | Ad_SevenMinutes_23 | Every future-proofing move takes forever. Except one. | Duration bars, 7-minute gradient hero bar |
+| 2026-08-23 | Ad_CircleTheNumber_24 | One of these prices repeats. Circle the one that doesn't. | Printed price sheet, red marker circle |
+| 2026-08-23 | Ad_LightSwitch_25 | Fifty years of nothing. Then someone found the switch. | Wall light-switch plate, ON/OFF toggle |
+| 2026-08-23 | Ad_Roadmap2030_26 | The fertility roadmap through 2030. One item isn't hype. | Dotted road timeline, 5 numbered mile-markers |
+| 2026-08-23 | Ad_TwoDials_27 | Americans want 2.7 kids. They're having 1.6. | Two speedometer gauge dials, gap-callout pill |
+| 2026-08-23 | Ad_TheOverlap_28 | The embryo IQ "edge" is smaller than the error bars. | Overlapping bell-curve distributions |
+| 2026-08-23 | Ad_CarryLifespan_29 | Your knife will outlast your phone. What outlasts you? | Vertical chained lifespan list, hero record row |
+| 2026-08-23 | Ad_CircleTheNumber_24_9x16 | (adaptation) | Vertical re-layout of 24 |
+| 2026-08-23 | Ad_LightSwitch_25_9x16 | (adaptation) | Vertical re-layout of 25 |
+| 2026-08-23 | Ad_TwoDials_27_9x16 | (adaptation) | Vertical re-layout of 27, dials stacked |
+| 2026-08-23 | Ad_TheOverlap_28_9x16 | (adaptation) | Vertical re-layout of 28 |
