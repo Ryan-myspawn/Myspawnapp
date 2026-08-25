@@ -11,11 +11,12 @@
 ### Acorn Biolabs (acorn.me)
 - **Model:** live-cell banking (hair-follicle collection) for future regenerative medicine, not DNA-record legacy. **$945 per collection** (+$150 travel), storage "roughly $100/year". ([acorn.me](https://acorn.me/cell-banking/), [pricing help](https://ref.acorn.me/help/how-much-does-it-cost-to-collect-bank-and-use-my-cells))
 - **Positioning:** longevity/regenerative optionality; premium price, subscription drag.
-- **Threat:** medium (same "preserve yourself for the future" psychology). **Counter:** $99 one-time vs $945+$100/yr — price the comparison openly; their pitch is cells-for-therapies (speculative), ours is record+custody (concrete).
+- **Threat:** medium (same "preserve yourself for the future" psychology). **Counter (pricing corrected 2026-08-25):** our flat $99/yr vs their $945 upfront + $100/yr — price the comparison openly; their pitch is cells-for-therapies (speculative), ours is record+custody (concrete).
 
 ### Tomorrow Bio (tomorrow.bio) · Alcor · Cryonics Institute
 - **Model:** whole-body/brain cryopreservation; Tomorrow Bio (Berlin, 2019) is the aggressive content marketer (provider-comparison SEO pages); Alcor legacy leader since 1972. ([tomorrow.bio](https://www.tomorrow.bio/), [alcor.org comparison](https://www.alcor.org/provider-comparison/))
-- **Threat:** low commercially (five-figure+ commitments, different buyer), high narratively — cryonics headlines shape the "preserve yourself" conversation we ride.
+- **2026-08-25 (newly discovered; announcement date unverified — reported by mainsights.io and longevity.technology):** Tomorrow.Bio closed the first tranche of a **€5M seed** (co-led Blast.Club, Truventuro) explicitly to **expand into the US, starting NY / CA / FL**. *So what:* the loudest "preserve yourself" marketer in Europe is entering our home market with funding — expect their comparison-SEO machine to start ranking on US preservation keywords; our accessible-first-rung counter gets more relevant, and their arrival raises the whole category's search volume (net tailwind, watch their keyword footprint).
+- **Threat:** low commercially (five-figure+ commitments, different buyer), high narratively — cryonics headlines shape the "preserve yourself" conversation we ride; US expansion raises the narrative volume domestically.
 
 ### CellSave
 - Cord-blood/newborn stem-cell banking heritage brand; no fresh consumer-DNA-legacy motion found this run. **Watch item only.**
@@ -57,22 +58,22 @@
 - **Pricing display:** sperm freezing "from **$245 per sample, per year**" (annual plan, framed as flexibility); oncofertility compassionate tier **$35/sample/yr**; storage marketed "up to 25 years... indefinitely with no impact" ([pricing page](https://www.givelegacy.com/resources/sperm-freezing-costs), [order flow](https://www.givelegacy.com/order/)).
 - **Trust signals:** FDA and CLIA-certified labs; "clinically proven" transport media; the May 2026 $1M validation study (logged 08-22). Product pages split by intent: "for-today" (testing) vs "for-tomorrow" (freezing), a clean naming device.
 - **Distribution moat worth noting:** deep INSURANCE/BENEFITS integration: $0 out-of-pocket via Progyny, Carrot, Maven, WINFertility; coverage via Aetna, Cigna, UnitedHealthcare by state. They productized someone else paying.
-- **Counter for MySpawn:** different job (gametes vs record) but instructive economics: their entry costs $245 EVERY year; ours is $99 ONCE. The "for-today / for-tomorrow" page split is also the exact mental model our kit + Vault map onto.
+- **Counter for MySpawn:** different job (gametes vs record) but instructive economics: their entry runs from $245/sample/yr; ours is a flat $99/yr (corrected 2026-08-25 — we are ALSO annual; the honest contrast is flat-and-low vs higher/variable, never one-time-vs-recurring). The "for-today / for-tomorrow" page split is also the exact mental model our kit + Vault map onto.
 - **Steal:** (1) the benefits-channel play: DNA preservation as an HR/estate-planning perk is unexplored; (2) the compassionate oncofertility tier is a trust builder worth an equivalent someday (e.g., hardship pricing).
 
 ### 2026-08-22 deep-dive: Tomorrow Bio (marketing snapshot)
 - **Pricing display:** membership $550/yr ($660 monthly; hardship rate €250/yr), and membership fees credit toward the procedure ("your membership is free"). Procedure fees at legal death: whole body €200k member / €230k non-member; brain-only €75k / €115k ([tomorrow.bio pricing](https://www.tomorrow.bio/cryopreservation-costs), [membership](https://www.tomorrow.bio/us/become-a-member)).
 - **2026 strategy (founder letter):** expanding coverage network H2 2026; running "50% off membership for life" promo; launching **family and group signups** ("the journey shouldn't be solitary") ([founder letter](https://www.tomorrow.bio/blog/founder-letter-our-focus-for-2026)).
 - **Tactics worth noting:** (1) fee-credit framing converts a subscription into a "free" membership psychologically; (2) a finance CALCULATOR normalizes a €200k decision via life-insurance funding; (3) the family/group signup pivot mirrors our household framing and is worth watching.
-- **Counter for MySpawn:** we are the opposite end of the same instinct: their entry point is €200k + $550/yr for a speculative revival bet; ours is $99 once for a certain record. "Not ready to bet six figures on being frozen? Start with the $99 version of not disappearing." Never mock cryonicists (adjacent believers are potential customers); position as the accessible first rung.
-- **Steal:** the finance calculator concept: a "what does your legacy stack cost" interactive would make our $99 look absurdly easy next to every alternative.
+- **Counter for MySpawn:** we are the opposite end of the same instinct: their entry point is €200k + $550/yr for a speculative revival bet; ours is $99/yr for a certain record. "Not ready to bet six figures on being frozen? Start with the $99-a-year version of not disappearing." Never mock cryonicists (adjacent believers are potential customers); position as the accessible first rung.
+- **Steal:** the finance calculator concept: a "what does your legacy stack cost" interactive would make our $99/yr look absurdly easy next to every alternative.
 
 ### 2026-08-21 deep-dive: SecuriGene / DNA Memorial (marketing snapshot)
 - **Pricing display:** DNA Banking Capsule **$498**; additional capsules **$250 each**; typical all-in range quoted as $300-600 ([dnalegacy.com FAQ](https://www.dnalegacy.com/dna-banking-capsule-faq/), [Milwaukee Cremation retail listing](https://milwaukeecremate.com/product/securigene-dna-capsule/)).
 - **Custody model:** stainless-steel capsule via patented anhydrobiosis, stored AT HOME ("right on the family mantle"). No accredited-facility custody chain; the family IS the biorepository.
 - **Channel:** B2B2C through funeral homes; funeral-tech marketing content pushes it as an add-on ("Preserve your DNA, your grandkids might thank you", Frazer Consultants). Category grew from ~20 US funeral homes offering DNA preservation in 2015 to widespread add-on menus today.
 - **Urgency tactic worth noting:** "cremation destroys DNA — collect BEFORE the procedure." Real biology, deployed at the worst possible emotional moment (at-need, grieving buyer).
-- **Counter for MySpawn:** we are pre-need, they are at-need: "$99 while you're alive beats $498 at your funeral." And the custody contrast is stark: accredited, FDA-registered biorepository vs a capsule on a mantle that moves, floods, and gets lost in estate cleanouts. Their price also makes our $99 look effortless.
+- **Counter for MySpawn:** we are pre-need, they are at-need: "$99 a year while you're alive beats $498 at your funeral." And the custody contrast is stark: accredited, FDA-registered biorepository vs a capsule on a mantle that moves, floods, and gets lost in estate cleanouts. Their price also makes our $99/yr look effortless.
 - **Tactic to steal:** their trade-channel distribution (funeral homes push it) is real; our equivalent partner channel would be estate attorneys and financial planners (pre-need, fits the generational-wealth lane).
 
 ### 2026-08-20 deep-dive: Acorn Biolabs (marketing snapshot)
@@ -80,9 +81,11 @@
 - **Pricing display:** collection from **$945**, storage ~**$16/month** for 50 follicles; extraction + 5 years banking bundled from **$1,650**. Monthly framing softens the subscription drag.
 - **Trust signals:** Fast Company Most Innovative Companies 2026, NewBeauty Award, Trustpilot reviews, "world's first non-invasive follicle-based collection."
 - **Tactic worth stealing:** they solved the "why now" problem of preservation marketing by shipping a present-day payoff from the banked asset. Our equivalent already exists and is free: Memory Vault + Letter to 2126 give the vault an immediate emotional payoff. Lesson: lead marketing with the now-value, let storage be the durable spine.
-- **Tactic to counter:** bundle pricing hides lifetime cost; our $99-once vs $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
+- **Tactic to counter:** bundle pricing hides lifetime cost; our $495-for-5-years ($99/yr) vs their $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-08-25:** One material cross-lane item: Herasight's predicted-IQ widget + "up to 9 points" claim drawing Theranos comparisons from named bioethicists (covered in today's radar; embryo-screening lane escalation). Newly discovered: Tomorrow.Bio €5M seed + US expansion (NY/CA/FL) — added to entry above. Fertility-preservation lane quiet (Legacy's latest is the May 2026 award program, not new). Pricing correction cascaded into all counter lines ($99/yr). No deep-dive (non-quiet day).
+- **2026-08-24:** NO RUN (session processing gap; logged fleet-wide).
 - **2026-08-23:** Fully quiet, all lanes. Deep-dive #4: Legacy ($245/sample/yr annual framing vs our $99-once; $35 oncofertility tier; insurance/benefits distribution moat via Progyny/Carrot/Maven; for-today/for-tomorrow page split; steals = benefits channel + hardship tier).
 - **2026-08-22:** Quiet 24h. Newly discovered: Legacy's May 2026 $1M at-home collection clinical study + motility testing launch (clinical-legitimacy pattern). Deep-dive #3: Tomorrow Bio ($550/yr membership credited toward €200k procedure; 2026 family-signup pivot; finance-calculator tactic worth stealing; counter = "$99 first rung" positioning, never mock believers).
 - **2026-08-21:** Near-quiet. Logged: Orchid August bioRxiv preprint (company-authored validation of 5-cell WGS biopsy; preprint label); Nucleus India/Middle East clinic expansion (Bloomberg Mar 26, newly discovered). Deep-dive #2: SecuriGene ($498 capsule, at-need funeral channel, home-mantle custody gap; counter = pre-need $99 + accredited custody; steal = estate-attorney channel idea).
