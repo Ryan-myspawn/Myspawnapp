@@ -20,3 +20,5 @@
 | 13 | 2026-08-23 | Before the $124 trillion moves, ask the questions | Wealth transfer from the RECEIVER side; 5-question inheritance interview + record | Scene-at-the-kitchen-table storytelling open | Facebook |
 | 14 | 2026-08-23 | I put our startup's marketing department on autopilot | r/Entrepreneur build-in-public ops post: what worked/broke; measurement-first lesson | Results-report open, disclosure first | Reddit r/Entrepreneur |
 | 15 | 2026-08-23 | You can now order an IQ screen for embryos. Check the math first. | Embryo-IQ effect-size takedown (Heliospect/Nucleus); selection-vs-preservation close | Product-exists-check-the-math open | X |
+
+**2026-08-24: NO RUN.** Trigger fire missed during a session processing gap. Resuming live 2026-08-25.

@@ -38,3 +38,5 @@
 | 2026-08-23 | Ad_LightSwitch_25_9x16 | (adaptation) | Vertical re-layout of 25 |
 | 2026-08-23 | Ad_TwoDials_27_9x16 | (adaptation) | Vertical re-layout of 27, dials stacked |
 | 2026-08-23 | Ad_TheOverlap_28_9x16 | (adaptation) | Vertical re-layout of 28 |
+
+**2026-08-24: NO RUN.** Trigger fire missed during a session processing gap (queue backlog). Resuming live 2026-08-25 — no Aug24 concepts exist; do not treat Aug24 as a quiet/no-fresh-material day, it simply didn't run.

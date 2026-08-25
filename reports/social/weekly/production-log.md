@@ -41,6 +41,8 @@
 - 2026-08-22: controversy-audit podcast (referee test) · (no explainer) · camera-roll audit screen-record
 - 2026-08-23: corrected-history science podcast · (no explainer) · EDC pocket-dump flat lay
 
+**2026-08-24: NO RUN.** Trigger fire missed during a session processing gap. Resuming live 2026-08-25.
+
 ## Queued (claimed by Daily Review, not yet produced)
 - Episode: "The Fertility-Tech Trust Crisis" (Orchid pressure quote + PGC dispute + HereAfter/23andMe custody pattern) — earmarked 2026-08-21+.
 - ~~Episode: Pentagon pilot launch-day react (2026-09-14)~~ CANCELLED 2026-08-21 per founder content rules (Pentagon lane retired).
