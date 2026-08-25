@@ -50,3 +50,13 @@
 | 2026-08-25 | Ad_ItemizedReceipt_31_9x16 | (adaptation) | Vertical re-layout of 31 |
 | 2026-08-25 | Ad_LiquidArchive_32_9x16 | (adaptation) | Vertical re-layout of 32 |
 | 2026-08-25 | Ad_ShrinkingPayout_33_9x16 | (adaptation) | Vertical re-layout of 33 |
+| 2026-08-25 (evening trigger fire) | Ad_UnpublishedStamp_36 | The research is pending. The widget shipped. | Mock embryo-report UI + red "RESEARCH: UNPUBLISHED" stamp |
+| 2026-08-25 (evening trigger fire) | Ad_FirstRung_37 | Cryonics just raised $5M to open in America. Here's the cheap seat. | Ascending staircase, top step $200k, bottom step glowing $99/yr |
+| 2026-08-25 (evening trigger fire) | Ad_HalfLife521_38 | Ancient DNA has been read at 2 million years old. Yours just needs a good box. | Geological timeline, 4 markers (521yr to 2M yr to today) |
+| 2026-08-25 (evening trigger fire) | Ad_ThirteenYearWait_39 | You waited 13 years for one game. What have you preserved in that time? | Single stat card ("13 YEARS") + contrast pill |
+| 2026-08-25 (evening trigger fire) | Ad_ReportCard_40 | I graded the "spermmaxxing" trend. Most of it fails. | Report-card sheet, 5 graded rows (B- to F to A) |
+| 2026-08-25 (evening trigger fire) | Ad_EggHeadlines_41 | Every fertility headline this year is about eggs. Here's what's available for men. | Scattered press-clipping cards + one highlighted breakthrough card |
+| 2026-08-25 (evening trigger fire) | Ad_UnpublishedStamp_36_9x16 | (adaptation) | Vertical re-layout of 36 |
+| 2026-08-25 (evening trigger fire) | Ad_FirstRung_37_9x16 | (adaptation) | Vertical re-layout of 37 |
+| 2026-08-25 (evening trigger fire) | Ad_HalfLife521_38_9x16 | (adaptation) | Vertical re-layout of 38, timeline re-oriented vertically |
+| 2026-08-25 (evening trigger fire) | Ad_ReportCard_40_9x16 | (adaptation) | Vertical re-layout of 40 |
