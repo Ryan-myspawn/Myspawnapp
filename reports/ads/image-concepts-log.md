@@ -40,3 +40,13 @@
 | 2026-08-23 | Ad_TheOverlap_28_9x16 | (adaptation) | Vertical re-layout of 28 |
 
 **2026-08-24: NO RUN.** Trigger fire missed during a session processing gap (queue backlog). Resuming live 2026-08-25 — no Aug24 concepts exist; do not treat Aug24 as a quiet/no-fresh-material day, it simply didn't run.
+| 2026-08-25 | Ad_FeedScroll_30 | TikTok is "spermmaxxing." Genetics doesn't take video requests. | Phone-feed mockup, 3 dimmed trend cards + 1 highlighted brand card |
+| 2026-08-25 | Ad_ItemizedReceipt_31 | Freezing sperm: $1,050 the first year. Backing up your DNA: $99, forever. | Itemized receipt with total row + comparison stamp |
+| 2026-08-25 | Ad_LiquidArchive_32 | Someone fit 10 billion songs into a liter of liquid. Your DNA deserves the same respect. | Illustrated vial with orbiting data-type icons |
+| 2026-08-25 | Ad_ShrinkingPayout_33 | 23andMe breach victims are finally getting paid. Bankruptcy takes its cut first. | Shrinking claim-to-payout bar chart with deduction line |
+| 2026-08-25 | Ad_FirstDayUnlock_34 | First day of school. Unlock day: his diploma. | Luggage-tag card, recorded/unlock date pair |
+| 2026-08-25 | Ad_SliverOfBillions_35 | $23 billion goes into longevity science this year. A rounding error backs up your actual record. | Stacked bar chart, large spend categories + tiny brand sliver |
+| 2026-08-25 | Ad_FeedScroll_30_9x16 | (adaptation) | Vertical re-layout of 30 |
+| 2026-08-25 | Ad_ItemizedReceipt_31_9x16 | (adaptation) | Vertical re-layout of 31 |
+| 2026-08-25 | Ad_LiquidArchive_32_9x16 | (adaptation) | Vertical re-layout of 32 |
+| 2026-08-25 | Ad_ShrinkingPayout_33_9x16 | (adaptation) | Vertical re-layout of 33 |
