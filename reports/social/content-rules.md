@@ -37,6 +37,10 @@ Top of every content suggestion:
 **Trend / hook used:** [specific recent trend or news]
 If you cannot honestly write that line, do not output the idea.
 
+## PRICING FACT — hard correction (2026-08-25, founder-flagged)
+MySpawn storage is **$99/year, an annual fee** — NOT a one-time payment. Every agent's brand facts previously said "$99, once" / "storage only" (implying single payment) / "no subscription"; this was wrong from the fleet's first run through 2026-08-24. Corrected in all 12 trigger prompts and today's (2026-08-25) ad batch on 2026-08-25. **Never write** "$99, once," "one-time," "no subscription," "no annual fee." **Always write** "$99/year" (add "billed annually" or "first 1,000 members lock the founding rate" where it fits). If a concept's core thesis depends on MySpawn being one-time vs. something else recurring, that thesis is now false — rework the comparison honestly (e.g., our flat annual rate vs. a competitor's variable/higher annual cost).
+**Known affected archive (pre-2026-08-25, not yet corrected in-file):** every blog article, ad creative, script, longpost, and newsletter issue produced 2026-08-18 through 2026-08-24 states or implies the wrong one-time price. Treat any of that content as needing a pricing check before reuse, re-promotion, or reference.
+
 ## Retired assets register (do not resurface)
 - 2026-08-21: POV-2126 letter script, Century Mail ad concept, letter-to-grandchildren content lane, Pentagon price-tag content family (article/episode/ad/X drafts already delivered; do not extend).
 

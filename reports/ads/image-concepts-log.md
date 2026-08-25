@@ -28,7 +28,7 @@
 | 2026-08-22 | Ad_ReferenceCopy_21 | Every family tree has one branch that keeps the records. | SVG family tree, amber-ringed node + sealed tag |
 | 2026-08-22 | Ad_MissingPhotographer_22 | 3,412 family photos. Eleven have you in them. | Dimmed photo-grid mosaic, 11 lit frames |
 | 2026-08-22 | Ad_SevenMinutes_23 | Every future-proofing move takes forever. Except one. | Duration bars, 7-minute gradient hero bar |
-| 2026-08-23 | Ad_CircleTheNumber_24 | One of these prices repeats. Circle the one that doesn't. | Printed price sheet, red marker circle |
+| 2026-08-23 | Ad_CircleTheNumber_24 | One of these prices repeats. Circle the one that doesn't. | Printed price sheet, red marker circle | **RETIRE, pricing error (2026-08-25):** entire concept ("the only one that ends") claims MySpawn is a one-time price and fertility preservation recurs — backwards now that MySpawn is confirmed $99/year. Cannot be word-swapped without duplicating Ad_ItemizedReceipt_31's honest flat-vs-variable-annual-rate thesis (repetition risk). Recommend pulling from any active rotation; do not spend paid budget on it in its current form. |
 | 2026-08-23 | Ad_LightSwitch_25 | Fifty years of nothing. Then someone found the switch. | Wall light-switch plate, ON/OFF toggle |
 | 2026-08-23 | Ad_Roadmap2030_26 | The fertility roadmap through 2030. One item isn't hype. | Dotted road timeline, 5 numbered mile-markers |
 | 2026-08-23 | Ad_TwoDials_27 | Americans want 2.7 kids. They're having 1.6. | Two speedometer gauge dials, gap-callout pill |
