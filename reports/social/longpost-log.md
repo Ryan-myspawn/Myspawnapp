@@ -22,3 +22,8 @@
 | 15 | 2026-08-23 | You can now order an IQ screen for embryos. Check the math first. | Embryo-IQ effect-size takedown (Heliospect/Nucleus); selection-vs-preservation close | Product-exists-check-the-math open | X |
 
 **2026-08-24: NO RUN.** Trigger fire missed during a session processing gap. Resuming live 2026-08-25.
+| 16 | 2026-08-25 | Your genome was appraised this summer. The number was $100 | 23andMe settlement compensation math; structure-not-customers thesis | Ledger/price-tag open | X |
+| 17 | 2026-08-25 | The spec sheet: 13 terabytes. Form factor: a droplet | Atlas/imec DNA data storage as product launch; DNA-is-the-medium verdict | Spec-sheet open | X |
+| 18 | 2026-08-25 | I graded the spermmaxxing trend like a homework assignment | Trend triage: respect the instinct, grade the methods; zero product | Report-card format open | X |
+| 19 | 2026-08-25 | The longevity industry will collect $23-31B this year | Market-spend walk; subscription-vs-record contrast | Market-report open, ends with question | Facebook |
+| 20 | 2026-08-25 | My AI marketing team shipped the wrong price for a week | Pricing-error post-mortem; automation-photocopies-errors lesson (publish = founder call) | Confession/post-mortem open | Reddit r/Entrepreneur |
