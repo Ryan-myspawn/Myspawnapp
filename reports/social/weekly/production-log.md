@@ -12,6 +12,7 @@
 | 2026-08-21 | "The $2 Million Man Bought a Dog" | Johnson dog announcement (NEW development vs 08-18 doubt episode) + Kramer 2019 study-literacy + cheap-vs-expensive longevity + foresight stack close. USED. |
 | 2026-08-22 | "The Fertility-Tech Trust Crisis" | Orchid August pressure quote + PGC dispute + company preprint (grading-own-homework) + 90-second referee test + declared-stake close. USED (was queued). |
 | 2026-08-23 | "The Off Switch: Why Male Birth Control Is 50 Years Late" | 2016 JCEM trial told straight (Snopes-corrected) + institutional-incentives story + JQ1 switch (labeled) + know-your-numbers close. USED. |
+| 2026-08-25 | "The IQ Dropdown" | Herasight predicted-IQ widget + "9 points" claim + Caplan/Tabery Theranos comparison (verbatim, attributed) + interfaces-manufacture-credibility thesis + 3-question close. USED. |
 
 ## YouTube explainers
 | Date | Title | Core material |
@@ -22,6 +23,7 @@
 | 2026-08-21 | "Are Sperm Counts Actually Crashing? Both Studies, Honestly." | Levine/Swan HRU meta-analysis vs 2024 Fertil Steril stable-counts review; contested-science trust format; men-primary. USED. Franchise candidate: "Both Studies, Honestly". |
 | 2026-08-22 | (explainer honestly skipped: two scripted explainers unshot; film-before-write call) | — | — |
 | 2026-08-23 | (explainer skipped day two; same backlog; "How Long Can DNA Actually Last?" resumes when filming clears) | — | — |
+| 2026-08-25 | "How Long Can DNA Actually Last?" | Moa 521-yr half-life (PRSB 2012) + ancient-genome records (Nature 2013/2021/2022) + what-kills/what-saves + Atlas/imec industry vote + storage-only close. USED (came off Aug 22 reservation; filming resumed). |
 
 ## Evergreen bank
 | Date | Idea | Format |
@@ -32,6 +34,7 @@
 | 2026-08-21 | "Interview your father. Five questions. One camera." | Two-generation interview card format; Vault video-message framing; UGC-prompt potential |
 | 2026-08-22 | "Open your camera roll. Count yourself." | Camera-roll audit screen-record (photographer-ghost problem; comment-your-number UGC loop) |
 | 2026-08-23 | "Everything I carry, ranked by how long it outlives me." | EDC pocket-dump flat lay (lifespan chips; kit as the one item carrying YOU; UGC loop) |
+| 2026-08-25 | "The Three-Generation Test" | Outdoor walk-and-talk single-take (great-grandfather challenge; "you're just early" pivot; comment-your-answer UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
 - 2026-08-18: news-react podcast · debunk explainer · confessional single-take
@@ -40,6 +43,7 @@
 - 2026-08-21: culture-react + study-literacy podcast · both-studies contested-science explainer · two-generation interview card
 - 2026-08-22: controversy-audit podcast (referee test) · (no explainer) · camera-roll audit screen-record
 - 2026-08-23: corrected-history science podcast · (no explainer) · EDC pocket-dump flat lay
+- 2026-08-25: productization-critique podcast · durability-science explainer · outdoor walk-and-talk challenge
 
 **2026-08-24: NO RUN.** Trigger fire missed during a session processing gap. Resuming live 2026-08-25.
 
