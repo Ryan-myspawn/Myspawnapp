@@ -1,3 +1,6 @@
+## PRICING CORRECTION (2026-08-25, same day, founder-flagged)
+Founder correction, same day as first publish: **DNA storage is $99/year, an annual fee — not a one-time $99 payment.** Every prior fleet output ("$99, once," "storage only," "no subscription," "first 1,000 kits $99") has been wrong on this fact since the fleet's first run. This file and all 10 creatives below were corrected and re-shipped the same day. Ad_ItemizedReceipt_31 required a full rework (not just a word swap) because its entire concept was built on a false "one-time vs. recurring" contrast — reworked to compare MySpawn's flat $99/year against sperm freezing's variable/higher annual storage fee, which is the honest version of the same comparison. See the correction email for the status of the rest of the archive (older ads/scripts/articles) and the trigger-prompt fix.
+
 # MySpawn Image Ad Concepts — Monday, August 25, 2026
 *Resuming live after the Aug24 processing gap (logged in image-concepts-log.md). No trend-radar/scripts existed for today to source from, so this run did its own fresh 7-14 day trend sweep directly. 6 new concepts + 4 vertical adaptations of the day's 4 strongest = 10 finished creatives.*
 
@@ -18,9 +21,9 @@
 **Freshness check:** Not used in last 7 days (CircleTheNumber_24, Aug23, compared a specific competitor's $245/yr fertility-preservation price; this is a distinct general sperm-freezing cost breakdown tied to the standing "sperm freezing cost" SEO keyword, different numbers, different visual).
 **Primary audience:** Men 25-55.
 **Trend/hook used:** Standing founder keyword "sperm freezing cost" — 2026 clinic pricing survey data (CryoChoice, BetterCare, Hera Fertility): $300-1,500 collection/analysis + $150-500/yr storage = $1,050-2,500 first-year average.
-**Headline:** "Freezing sperm: $1,050 the first year. Backing up your DNA: $99, forever."
+**Headline (corrected same day):** "Sperm freezing storage runs up to $500 a year. DNA record storage: a flat $99 a year."
 **Visual hook:** Itemized receipt card (line items + total, torn-edge printed-paper style) stamped with a MySpawn comparison stamp.
-**Support copy:** Sperm freezing is fertility preservation, a real medical service with real annual costs. DNA record preservation is a different job, done once. Know which one you're buying.
+**Support copy (corrected same day):** Sperm freezing is fertility preservation, a real medical service with its own annual costs. DNA record preservation is a different job, billed simply. Know which one you're buying.
 **Placement:** Feed static + vertical. Claims note: price range labeled "avg. reported clinic range, 2026," sourced to multiple public clinic-pricing pages; never implies DNA banking is a fertility-preservation substitute.
 
 ### 3. Ad_LiquidArchive_32

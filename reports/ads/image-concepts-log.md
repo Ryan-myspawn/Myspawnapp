@@ -41,7 +41,7 @@
 
 **2026-08-24: NO RUN.** Trigger fire missed during a session processing gap (queue backlog). Resuming live 2026-08-25 — no Aug24 concepts exist; do not treat Aug24 as a quiet/no-fresh-material day, it simply didn't run.
 | 2026-08-25 | Ad_FeedScroll_30 | TikTok is "spermmaxxing." Genetics doesn't take video requests. | Phone-feed mockup, 3 dimmed trend cards + 1 highlighted brand card |
-| 2026-08-25 | Ad_ItemizedReceipt_31 | Freezing sperm: $1,050 the first year. Backing up your DNA: $99, forever. | Itemized receipt with total row + comparison stamp |
+| 2026-08-25 | Ad_ItemizedReceipt_31 | Sperm freezing storage runs up to $500 a year. DNA record storage: a flat $99 a year. (corrected same day, was originally "...$99, forever" — pricing fact error) | Itemized receipt with total row + comparison stamp |
 | 2026-08-25 | Ad_LiquidArchive_32 | Someone fit 10 billion songs into a liter of liquid. Your DNA deserves the same respect. | Illustrated vial with orbiting data-type icons |
 | 2026-08-25 | Ad_ShrinkingPayout_33 | 23andMe breach victims are finally getting paid. Bankruptcy takes its cut first. | Shrinking claim-to-payout bar chart with deduction line |
 | 2026-08-25 | Ad_FirstDayUnlock_34 | First day of school. Unlock day: his diploma. | Luggage-tag card, recorded/unlock date pair |
