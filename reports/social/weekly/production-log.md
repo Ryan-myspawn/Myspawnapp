@@ -47,7 +47,7 @@
 - 2026-08-22: controversy-audit podcast (referee test) · (no explainer) · camera-roll audit screen-record
 - 2026-08-23: corrected-history science podcast · (no explainer) · EDC pocket-dump flat lay
 - 2026-08-25: productization-critique podcast · durability-science explainer · outdoor walk-and-talk challenge · (PM) old-thread-scroll evergreen · (PM script 2, unshot) cryonics-arrival staircase graphic
-- 2026-08-26: reproductive-longevity science-story podcast · base-editing explainer · shoebox physical-demo evergreen · (Content Factory) document/highlighter macro demo · genome-map fill-in data visualization
+- 2026-08-26: reproductive-longevity science-story podcast · base-editing explainer · shoebox physical-demo evergreen · (Content Factory AM) document/highlighter macro demo · genome-map fill-in data visualization · (Content Factory PM) field-guide illustrated-card flip
 
 **2026-08-24: NO RUN.** Trigger fire missed during a session processing gap. Resuming live 2026-08-25.
 
@@ -56,6 +56,7 @@
 |---|---|---|
 | 2026-08-26 | "For the First Time in 14 Years" | ASRM's 2026 recurrent pregnancy loss committee opinion (first revision since 2012) — sperm DNA fragmentation testing "may be considered" for unexplained recurrent miscarriage; storage-only boundary stated explicitly. USED. |
 | 2026-08-26 | "Someone Finished the Puzzle" | T2T Consortium complete diploid human genome benchmark (*Cell*, Aug 2026) — 99.4% accuracy, +700M base pairs, both sex chromosomes; "tools improve, sample doesn't wait" thesis. USED. |
+| 2026-08-26 (PM) | "Bats Don't Get Cancer the Way We Do. Scientists Just Found Out Why." | *Nature* Myotis bat genome study (UVM/Penn State, published this week) — DNA-repair genes + virus-adaptation pressure linked to longevity/cancer resistance; Lauterbur quote verbatim. USED. |
 
 ## Queued (claimed by Daily Review, not yet produced)
 - Episode: "The Fertility-Tech Trust Crisis" (Orchid pressure quote + PGC dispute + HereAfter/23andMe custody pattern) — earmarked 2026-08-21+.
