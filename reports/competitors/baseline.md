@@ -51,8 +51,17 @@
 - **StoryWorth pricing 2026:** $59 / $109 / $199 tiers (Memoirji buyer guide).
 - **Empathy:** published consumer research "AI is already part of how people grieve" (BusinessWire, June 30, 2026) — citable third-party stats for AI-in-grief normalization.
 
+### Addition 2026-08-26
+- **Empathy launched "LifeVault Conversations"** — AI-guided private spaces to rehearse difficult conversations about loss. Naming is close to our "Memory Vault" (different category, not a legal concern, but worth knowing). Same June 2026 research reconfirmed: most people reject AI "clones" of the deceased but accept AI for practical grief tasks — keep ECHO framed as playful fiction, never a deceased-relative chat.
+
 ## Deep-dive rotation log
 - *(rotation order: Acorn → SecuriGene → Tomorrow Bio → Legacy → Orchid → StoryWorth)*
+
+### 2026-08-26 deep-dive: Orchid Health (marketing snapshot)
+- **Pricing display:** $2,500 per embryo for whole-genome sequencing (99%+ genome coverage vs under 1% for standard PGT); a 5-embryo bundle runs $12,500 ([orchidhealth.com](https://www.orchidhealth.com/)).
+- **Positioning:** health-risk-only framing, screens for 1,200+ monogenic disorders — deliberately distinct from Nucleus/Herasight's trait-selection approach (motto: "Have healthy babies," not "have a smarter baby"). Live in nearly three dozen US fertility clinics.
+- **Counter for MySpawn:** different category entirely (embryo screening vs record preservation) — not a direct competitor. Useful only as a contrast point if "what does genetic testing actually cost" content ever comes up: $2,500-$12,500 for screening vs $99/year for storage, two completely different jobs.
+- *(rotation complete: Acorn, SecuriGene, Tomorrow Bio, Legacy, Orchid all done — next up: StoryWorth)*
 
 ### 2026-08-23 deep-dive: Legacy / givelegacy.com (marketing snapshot)
 - **Pricing display:** sperm freezing "from **$245 per sample, per year**" (annual plan, framed as flexibility); oncofertility compassionate tier **$35/sample/yr**; storage marketed "up to 25 years... indefinitely with no impact" ([pricing page](https://www.givelegacy.com/resources/sperm-freezing-costs), [order flow](https://www.givelegacy.com/order/)).
@@ -84,6 +93,7 @@
 - **Tactic to counter:** bundle pricing hides lifetime cost; our $495-for-5-years ($99/yr) vs their $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-08-26:** Quiet day, all four lanes. Newly discovered: Empathy launched "LifeVault Conversations" (naming-adjacency watch item, not a legal concern). Deep-dive #5: Orchid Health ($2,500/embryo whole-genome screening, health-risk-only framing, different category from us). Rotation complete on first pass (Acorn/SecuriGene/TomorrowBio/Legacy/Orchid) — next up StoryWorth.
 - **2026-08-25:** One material cross-lane item: Herasight's predicted-IQ widget + "up to 9 points" claim drawing Theranos comparisons from named bioethicists (covered in today's radar; embryo-screening lane escalation). Newly discovered: Tomorrow.Bio €5M seed + US expansion (NY/CA/FL) — added to entry above. Fertility-preservation lane quiet (Legacy's latest is the May 2026 award program, not new). Pricing correction cascaded into all counter lines ($99/yr). No deep-dive (non-quiet day).
 - **2026-08-24:** NO RUN (session processing gap; logged fleet-wide).
 - **2026-08-23:** Fully quiet, all lanes. Deep-dive #4: Legacy ($245/sample/yr annual framing vs our $99-once; $35 oncofertility tier; insurance/benefits distribution moat via Progyny/Carrot/Maven; for-today/for-tomorrow page split; steals = benefits channel + hardship tier).
