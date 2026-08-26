@@ -60,3 +60,13 @@
 | 2026-08-25 (evening trigger fire) | Ad_FirstRung_37_9x16 | (adaptation) | Vertical re-layout of 37 |
 | 2026-08-25 (evening trigger fire) | Ad_HalfLife521_38_9x16 | (adaptation) | Vertical re-layout of 38, timeline re-oriented vertically |
 | 2026-08-25 (evening trigger fire) | Ad_ReportCard_40_9x16 | (adaptation) | Vertical re-layout of 40 |
+| 2026-08-26 | Ad_GuidelineHighlight_42 | The guidelines just changed. First time in 14 years. | Document/highlighter macro, ASRM guideline excerpt with highlighted line |
+| 2026-08-26 | Ad_GenomeStat_43 | Someone just finished the human genome. All of it. | Hero stat "99.4%" over faint DNA helix background |
+| 2026-08-26 | Ad_RealNumber_44 | The real number, up front. | Single glowing price card, "$99/YEAR FLAT, NO HIDDEN TIERS" |
+| 2026-08-26 | Ad_ConsensusAgainst_45 | The data belongs to science. The marketing doesn't. | Attributed statement card + faded bell-curve chart |
+| 2026-08-26 | Ad_MammothPriceTag_46 | A $20-30B company is rebuilding a mammoth from DNA fragments. Your DNA is still whole. | Two-panel: fragment reconstruction vs. intact seal/checkmark |
+| 2026-08-26 | Ad_TestVsStore_47 | A fertility startup just set a new price: $145 to test. We charge $99 a year to keep. | Two-card comparison, TEST (one-time) vs STORE (annual) |
+| 2026-08-26 | Ad_GuidelineHighlight_42_9x16 | (adaptation) | Vertical re-layout of 42 |
+| 2026-08-26 | Ad_TestVsStore_47_9x16 | (adaptation) | Vertical re-layout of 47, cards stacked |
+| 2026-08-26 | Ad_MammothPriceTag_46_9x16 | (adaptation) | Vertical re-layout of 46, panels stacked |
+| 2026-08-26 | Ad_RealNumber_44_9x16 | (adaptation) | Vertical re-layout of 44 |
