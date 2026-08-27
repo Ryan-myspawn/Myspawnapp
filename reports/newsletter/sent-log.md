@@ -4,3 +4,4 @@
 | Issue | Date | Lead story | Items used |
 |---|---|---|---|
 | 1 | 2026-08-20 | 31-year frozen embryo record (Thaddeus Pierce, Guinness) | Gameto/Harvard meiosis IP (Jan 2026, company announcement); Kaiwa pregnancy-robot debunk + Vitara real-frontier contrast; blog: letter-to-future-grandchildren (Emory research); vault prompt: back-to-school 20-second voice note |
+| 2 | 2026-08-27 | Complete diploid human genome benchmark (Cell, Aug 2026; 99.4%, +701M bp) | Bat DNA-repair/longevity Nature paper + 41-yr Brandt's bat record (peer-reviewed); GTA6 Extended Look premiere / 13-year-wait culture note; blog: meaningful-gifts-for-men-legacy (gift-psychology research); vault prompt: 30-second milestone video, first-day-of-school season |
