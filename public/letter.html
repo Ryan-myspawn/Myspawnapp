@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>A Letter to 2126</title>
+<meta name="description" content="Write a letter to someone who doesn't exist yet. Sealed for 100 years — it cannot be opened by anyone, including us, until January 1, 2126."/>
+<meta property="og:title" content="A Letter to 2126"/>
+<meta property="og:description" content="Write a letter to someone who doesn't exist yet. Sealed until January 1, 2126."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --night:#0B1023; --night2:#111736; --ink:#2A2418; --paper:#F7F1E3; --paper-edge:#E8DFC8;
+  --gold:#C9A227; --gold-soft:#E4C868; --mist:rgba(247,241,227,.55);
+}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Inter',system-ui,sans-serif; color:var(--mist);
+  background:radial-gradient(1200px 700px at 50% -10%, #1A2150 0%, var(--night2) 45%, var(--night) 100%);
+  min-height:100vh; display:flex; flex-direction:column; align-items:center;
+  padding:3.5rem 1.25rem 2rem;
+}
+/* faint stars */
+body::before{
+  content:""; position:fixed; inset:0; pointer-events:none; opacity:.5;
+  background-image:
+    radial-gradient(1px 1px at 12% 22%, #fff8 0, transparent 55%),
+    radial-gradient(1px 1px at 78% 12%, #fff7 0, transparent 55%),
+    radial-gradient(1.5px 1.5px at 62% 38%, #fff6 0, transparent 55%),
+    radial-gradient(1px 1px at 32% 64%, #fff5 0, transparent 55%),
+    radial-gradient(1px 1px at 88% 72%, #fff6 0, transparent 55%),
+    radial-gradient(1.5px 1.5px at 8% 86%, #fff5 0, transparent 55%);
+}
+header{text-align:center; max-width:38rem; margin-bottom:2.25rem; position:relative;}
+h1{font-family:'Cormorant Garamond',Georgia,serif; font-weight:600; font-size:clamp(2.4rem,6vw,3.6rem); color:#F3EAD3; letter-spacing:.01em;}
+.sub{margin-top:.7rem; font-size:.95rem; line-height:1.6; color:var(--mist);}
+.count{margin-top:.9rem; font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--gold-soft); min-height:1em;}
+
+.paper{
+  width:min(40rem,100%); background:linear-gradient(178deg,var(--paper) 0%,var(--paper-edge) 100%);
+  border-radius:6px; padding:2.5rem 2.25rem 2rem; color:var(--ink); position:relative;
+  box-shadow:0 1px 0 #fff inset, 0 30px 80px -20px rgba(0,0,0,.65), 0 8px 24px rgba(0,0,0,.4);
+}
+.paper::before{ /* deckled top edge hint */
+  content:""; position:absolute; left:0; right:0; top:0; height:3px; border-radius:6px 6px 0 0;
+  background:repeating-linear-gradient(90deg, transparent 0 7px, rgba(42,36,24,.12) 7px 9px);
+}
+.field{margin-bottom:1.1rem;}
+.field label{display:block; font-size:.7rem; letter-spacing:.2em; text-transform:uppercase; color:#8A7B57; margin-bottom:.35rem;}
+.field input, .field textarea{
+  width:100%; border:0; border-bottom:1px solid rgba(42,36,24,.25); background:transparent; outline:none;
+  font-family:'Cormorant Garamond',Georgia,serif; font-size:1.25rem; color:var(--ink); padding:.25rem 0;
+}
+.field textarea{
+  border:0; min-height:14rem; line-height:1.75; resize:vertical; font-size:1.3rem;
+  background-image:repeating-linear-gradient(transparent 0 calc(1.75em - 1px), rgba(42,36,24,.10) calc(1.75em - 1px) 1.75em);
+}
+.field input::placeholder,.field textarea::placeholder{color:rgba(42,36,24,.35); font-style:italic;}
+.paper-foot{display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-top:1.25rem; flex-wrap:wrap;}
+.chars{font-size:.72rem; color:#8A7B57;}
+button.seal{
+  font-family:'Inter',sans-serif; font-weight:600; font-size:.9rem; letter-spacing:.04em;
+  background:var(--night); color:#F3EAD3; border:1px solid var(--gold); border-radius:999px;
+  padding:.8rem 1.6rem; cursor:pointer; transition:transform .15s ease, box-shadow .15s ease;
+}
+button.seal:hover{transform:translateY(-1px); box-shadow:0 8px 24px rgba(201,162,39,.25);}
+button.seal:disabled{opacity:.5; cursor:default; transform:none; box-shadow:none;}
+.err{color:#9C3B22; font-size:.85rem; margin-top:.75rem; min-height:1.1em;}
+
+/* Sealed view */
+.sealed{width:min(30rem,100%); text-align:center; display:none;}
+.envelope{
+  background:linear-gradient(178deg,var(--paper) 0%,var(--paper-edge) 100%); border-radius:8px; color:var(--ink);
+  padding:3rem 2rem 2.5rem; position:relative; overflow:hidden;
+  box-shadow:0 30px 80px -20px rgba(0,0,0,.65), 0 8px 24px rgba(0,0,0,.4);
+}
+.envelope::before{ /* flap */
+  content:""; position:absolute; left:0; right:0; top:0; height:86px;
+  background:linear-gradient(to bottom right, var(--paper-edge) 49.6%, transparent 50%) left/50.2% 100% no-repeat,
+             linear-gradient(to bottom left,  var(--paper-edge) 49.6%, transparent 50%) right/50.2% 100% no-repeat;
+  filter:brightness(.96);
+}
+.wax{
+  width:76px; height:76px; margin:26px auto 1.2rem; border-radius:50%; position:relative; z-index:1;
+  background:radial-gradient(circle at 35% 30%, #E9CF77 0%, var(--gold) 45%, #8C6C12 100%);
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 4px 14px rgba(0,0,0,.35), inset 0 2px 6px rgba(255,255,255,.5), inset 0 -4px 8px rgba(0,0,0,.28);
+  font-family:'Cormorant Garamond',serif; font-size:1.9rem; color:#3A2C05; font-weight:600;
+}
+.sealed h2{font-family:'Cormorant Garamond',Georgia,serif; font-weight:600; font-size:1.8rem; line-height:1.25;}
+.sealed .names{font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.15rem; margin-top:.6rem; color:#4A3F28;}
+.dates{margin-top:1.4rem; font-size:.8rem; letter-spacing:.14em; text-transform:uppercase; color:#8A7B57; line-height:2;}
+.countdown{font-family:'Cormorant Garamond',serif; font-size:1.5rem; color:var(--ink); margin-top:.4rem;}
+.lockline{margin-top:1.4rem; font-size:.85rem; color:#6B5E41; line-height:1.6;}
+.sharebar{display:flex; gap:.5rem; margin-top:1.5rem;}
+.sharebar input{
+  flex:1; border:1px solid rgba(42,36,24,.25); border-radius:8px; padding:.6rem .75rem;
+  font-size:.8rem; color:var(--ink); background:rgba(255,255,255,.5); outline:none; min-width:0;
+}
+.sharebar button{
+  border:0; border-radius:8px; background:var(--night); color:#F3EAD3; font-weight:600; font-size:.8rem;
+  padding:.6rem 1rem; cursor:pointer;
+}
+.again{margin-top:1.6rem;}
+.again a{color:var(--gold-soft); font-size:.85rem; text-decoration:none; border-bottom:1px solid rgba(228,200,104,.4); cursor:pointer;}
+.vault-note{margin-top:1rem; font-size:.78rem; color:rgba(247,241,227,.45); line-height:1.6;}
+.vault-note a{color:rgba(228,200,104,.75); text-decoration:none;}
+
+footer{margin-top:3rem; text-align:center; font-size:.75rem; color:rgba(247,241,227,.38); line-height:1.9; max-width:34rem;}
+footer a{color:rgba(228,200,104,.7); text-decoration:none;}
+footer a:hover{color:var(--gold-soft);}
+@media (max-width:520px){ .paper{padding:1.9rem 1.25rem 1.5rem;} }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>A letter to 2126</h1>
+  <p class="sub">Write to someone who doesn't exist yet — a descendant, a stranger, the person who inherits your name. Your letter is sealed the moment you send it. Nobody can read it — not them, not you, <em>not us</em> — until January&nbsp;1,&nbsp;2126.</p>
+  <p class="count" id="count"></p>
+</header>
+
+<div class="paper" id="write">
+  <div class="field">
+    <label for="to">To</label>
+    <input id="to" maxlength="120" placeholder="whoever carries my name in 2126"/>
+  </div>
+  <div class="field">
+    <label for="from">From</label>
+    <input id="from" maxlength="120" placeholder="someone who was here in 2026"/>
+  </div>
+  <div class="field">
+    <label for="body">The letter</label>
+    <textarea id="body" maxlength="6000" placeholder="Tell them who you were. What the world felt like. What you hope they kept, and what you hope they escaped…"></textarea>
+  </div>
+  <div class="paper-foot">
+    <span class="chars" id="chars">0 / 6,000</span>
+    <button class="seal" id="sealBtn">Seal it for 100 years</button>
+  </div>
+  <p class="err" id="err"></p>
+</div>
+
+<div class="sealed" id="sealed">
+  <div class="envelope">
+    <div class="wax">2126</div>
+    <h2 id="sealedTitle">Sealed.</h2>
+    <p class="names" id="sealedNames"></p>
+    <div class="dates" id="sealedDates"></div>
+    <p class="countdown" id="countdown"></p>
+    <p class="lockline" id="lockline">This letter now exists in exactly one place, and it cannot be opened by anyone — including the person who wrote it — until January 1, 2126.</p>
+    <div class="sharebar" id="sharebar">
+      <input id="shareUrl" readonly/>
+      <button id="copyBtn">Copy link</button>
+    </div>
+  </div>
+  <p class="again"><a id="writeAnother">Write another letter →</a></p>
+  <p class="vault-note">A letter is one memory. Members seal photos, voice, and video in the
+    <a href="https://www.myspawn.me/vault" rel="noopener">Memory Vault</a> — unlocked on milestone days.</p>
+</div>
+
+<footer>
+  <p>Free, forever. No account, no email, nothing collected but the letter itself.</p>
+  <p>This tool is a free corner of the <a href="https://www.myspawn.me/vault" rel="noopener">MySpawn Memory Vault</a> — a DNA &amp; personal-legacy preservation company, on infrastructure built for century-scale storage. If we ever wind down, every sealed letter will be handed to a digital-preservation archive with its seal intact.</p>
+</footer>
+
+<script>
+(function(){
+  var API = window.LETTER_API_URL || "/api/letter";
+  var OPENS = Date.parse("2126-01-01T00:00:00Z");
+  var writeEl = document.getElementById("write");
+  var sealedEl = document.getElementById("sealed");
+  var err = document.getElementById("err");
+  var bodyEl = document.getElementById("body");
+  var chars = document.getElementById("chars");
+
+  bodyEl.addEventListener("input", function(){
+    chars.textContent = bodyEl.value.length.toLocaleString() + " / 6,000";
+  });
+
+  function fmt(d){
+    return new Date(d).toLocaleDateString(undefined,{year:"numeric",month:"long",day:"numeric"});
+  }
+  function yearsUntil(){
+    var ms = OPENS - Date.now();
+    var years = ms / 31557600000;
+    var y = Math.floor(years);
+    var m = Math.floor((years - y) * 12);
+    return y + " years, " + m + (m===1?" month":" months") + " from now";
+  }
+
+  function showSealed(meta, id){
+    writeEl.style.display = "none";
+    document.querySelector("header .sub").style.display = "none";
+    sealedEl.style.display = "block";
+    document.getElementById("sealedNames").textContent =
+      (meta.to || "To 2126") + " — from " + (meta.from || "2026");
+    document.getElementById("sealedDates").innerHTML =
+      "Sealed " + fmt(meta.sealedAt) + "<br/>Opens January 1, 2126";
+    document.getElementById("countdown").textContent = yearsUntil();
+    var bar = document.getElementById("sharebar");
+    if (id){
+      var url = location.origin + location.pathname + "?l=" + id;
+      document.getElementById("shareUrl").value = url;
+      document.getElementById("copyBtn").addEventListener("click", function(){
+        var inp = document.getElementById("shareUrl");
+        inp.select(); inp.setSelectionRange(0, 999);
+        try { navigator.clipboard.writeText(inp.value); } catch(e) { document.execCommand("copy"); }
+        this.textContent = "Copied";
+      });
+    } else {
+      bar.style.display = "none";
+    }
+  }
+
+  // Viewing a shared sealed letter
+  var params = new URLSearchParams(location.search);
+  var viewId = params.get("l");
+  if (viewId){
+    fetch(API + "?id=" + encodeURIComponent(viewId))
+      .then(function(r){ return r.json().then(function(d){ return {ok:r.ok, d:d}; }); })
+      .then(function(res){
+        if (!res.ok) throw new Error(res.d.error || "not found");
+        document.getElementById("sealedTitle").textContent = "A sealed letter.";
+        document.getElementById("lockline").textContent =
+          "Someone wrote this letter and sealed it. It cannot be opened by anyone — including its writer — until January 1, 2126.";
+        showSealed(res.d, viewId);
+        document.getElementById("sharebar").style.display = "none";
+        document.getElementById("writeAnother").textContent = "Write your own letter to 2126 →";
+      })
+      .catch(function(){
+        err.textContent = "No letter found at this link.";
+      });
+  }
+
+  document.getElementById("writeAnother").addEventListener("click", function(){
+    location.href = location.pathname;
+  });
+
+  // Counter
+  fetch(API).then(function(r){ return r.json(); }).then(function(d){
+    if (d && typeof d.count === "number" && d.count > 0){
+      document.getElementById("count").textContent =
+        d.count.toLocaleString() + " letters sealed so far";
+    }
+  }).catch(function(){});
+
+  // Seal
+  document.getElementById("sealBtn").addEventListener("click", function(){
+    var btn = this;
+    err.textContent = "";
+    var payload = {
+      to: document.getElementById("to").value,
+      from: document.getElementById("from").value,
+      body: bodyEl.value
+    };
+    if (!payload.body.trim()){ err.textContent = "The letter is empty."; return; }
+    btn.disabled = true; btn.textContent = "Sealing…";
+    fetch(API, {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify(payload)
+    })
+    .then(function(r){ return r.json().then(function(d){ return {ok:r.ok, d:d}; }); })
+    .then(function(res){
+      if (!res.ok) throw new Error(res.d.error || "Something went wrong.");
+      showSealed({to:payload.to, from:payload.from, sealedAt:res.d.sealedAt}, res.d.id);
+      if (res.d.count){
+        document.getElementById("count").textContent = res.d.count.toLocaleString() + " letters sealed so far";
+      }
+      window.scrollTo({top:0, behavior:"smooth"});
+    })
+    .catch(function(e){
+      err.textContent = (e && e.message) || "Something went wrong. Your letter was not sealed.";
+      // graceful fallback: let them keep their words
+      var blob = new Blob([payload.body], {type:"text/plain"});
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "letter-to-2126.txt";
+      a.textContent = " Download your letter instead.";
+      a.style.color = "#9C3B22";
+      err.appendChild(a);
+    })
+    .finally(function(){ btn.disabled = false; btn.textContent = "Seal it for 100 years"; });
+  });
+})();
+</script>
+</body>
+</html>

@@ -6,8 +6,10 @@ import HowItWorks from "@/components/HowItWorks";
 import Science from "@/components/Science";
 import Generations from "@/components/Generations";
 import Pricing from "@/components/Pricing";
+import FoundingThousand from "@/components/FoundingThousand";
 import FinalCta from "@/components/FinalCta";
 import Footer from "@/components/Footer";
+import EchoAgent from "@/components/EchoAgent";
 import { useLenis } from "@/hooks/useLenis";
 
 export default function App() {
@@ -26,9 +28,11 @@ export default function App() {
         <Science />
         <Generations />
         <Pricing />
+        <FoundingThousand />
         <FinalCta />
       </main>
       <Footer />
+      <EchoAgent />
     </div>
   );
 }
