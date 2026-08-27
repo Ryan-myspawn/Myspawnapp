@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;overflow:hidden;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;background:#060B18}
+.canvas{position:relative;width:1080px;height:1350px}
+.photo{position:absolute;inset:0;width:1080px;height:1350px;object-fit:cover;object-position:center 30%;filter:saturate(.9) brightness(.82) contrast(1.05)}
+.tint{position:absolute;inset:0;background:rgba(16,12,44,.32);mix-blend-mode:multiply}
+.grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,11,24,.5) 0%,rgba(6,11,24,0) 26%,rgba(6,11,24,0) 46%,rgba(6,11,24,.9) 78%,#060B18 100%)}
+.wordmark{position:absolute;top:64px;left:72px;color:#fff;font-size:30px;font-weight:800;letter-spacing:.02em;z-index:5}
+.wordmark span{color:#A78BFA}
+.head{position:absolute;left:72px;bottom:290px;width:930px;color:#fff;font-size:86px;font-weight:800;line-height:1.05;letter-spacing:-.02em;z-index:5}
+.sub{position:absolute;left:76px;bottom:186px;width:900px;color:#C7CBDE;font-size:33px;font-weight:500;line-height:1.35;z-index:5}
+.sub b{color:#A78BFA;font-weight:700}
+.rule{position:absolute;left:76px;bottom:140px;width:64px;height:4px;background:#7C3AED;z-index:5}
+.lockup{position:absolute;left:76px;bottom:76px;color:#8B90A8;font-size:26px;font-weight:600;letter-spacing:.04em;z-index:5}
+.lockup b{color:#fff;font-weight:700}
+</style></head><body><div class="canvas">
+<img class="photo" src="src_bat.jpg">
+<div class="tint"></div>
+<div class="grad"></div>
+<div class="wordmark">My<span>Spawn</span></div>
+<div class="head">Bats barely<br>get cancer.</div>
+<div class="sub">This month scientists found why, <b>written in their DNA.</b> Keep yours readable.</div>
+<div class="rule"></div>
+<div class="lockup"><b>myspawn.me</b> &nbsp;·&nbsp; $99/yr &nbsp;·&nbsp; storage only</div>
+</div></body></html>

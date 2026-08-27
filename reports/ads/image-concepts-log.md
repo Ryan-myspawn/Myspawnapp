@@ -70,3 +70,9 @@
 | 2026-08-26 | Ad_TestVsStore_47_9x16 | (adaptation) | Vertical re-layout of 47, cards stacked |
 | 2026-08-26 | Ad_MammothPriceTag_46_9x16 | (adaptation) | Vertical re-layout of 46, panels stacked |
 | 2026-08-26 | Ad_RealNumber_44_9x16 | (adaptation) | Vertical re-layout of 44 |
+| 2026-08-27 (photo lane, founder-briefed) | Ad_TheyBuiltTheLabs_48 | They built the labs. | Unsplash photo: dark glass towers at night, low angle (access gap) |
+| 2026-08-27 (photo lane, founder-briefed) | Ad_StillAnOption_49 | No kids. Still an option. | Unsplash photo: man at window, pensive — ORGANIC-ONLY (face, no model release) |
+| 2026-08-27 (photo lane, founder-briefed) | Ad_FreezerGarage_50 | Not a freezer in a garage. | Unsplash photo: darkened lab bench with vial shelves |
+| 2026-08-27 (photo lane) | Ad_BackupAlmost_51 | You back up everything. Almost. | Unsplash photo: dark server rack ("file you can't re-download") |
+| 2026-08-27 (photo lane) | Ad_BatDNA_52 | Bats barely get cancer. | Unsplash photo: bat silhouette, purple night sky (Nature Myotis genome peg) |
+| 2026-08-27 (photo lane) | Ad_WatchOutlasts_53 | The watch survives. The watchmaker doesn't. | Unsplash photo: vintage pocket watch macro (heirloom) |
