@@ -76,3 +76,13 @@
 | 2026-08-27 (photo lane) | Ad_BackupAlmost_51 | You back up everything. Almost. | Unsplash photo: dark server rack ("file you can't re-download") |
 | 2026-08-27 (photo lane) | Ad_BatDNA_52 | Bats barely get cancer. | Unsplash photo: bat silhouette, purple night sky (Nature Myotis genome peg) |
 | 2026-08-27 (photo lane) | Ad_WatchOutlasts_53 | The watch survives. The watchmaker doesn't. | Unsplash photo: vintage pocket watch macro (heirloom) |
+| 2026-08-27 (daily batch) | Ad_OneFunnel_54 | As of yesterday, it's one funnel. | Flow diagram: TEST-FREEZE-SCREEN-SELECT chain vs separate glowing STORE box |
+| 2026-08-27 (daily batch) | Ad_DepositBox_55 | Your documents have a vault. You didn't. Until now. | Safe-deposit-box wall grid, one lit box "YOUR RECORD" |
+| 2026-08-27 (daily batch) | Ad_FortyFourPercent_56 | Fewer than half of Gen Z expect to become parents. | 44%-fill donut ring with hero stat (Ipsos 2026) |
+| 2026-08-27 (daily batch) | Ad_ExpectationGap_57 | The inheritance, expected vs. delivered. | Two-bar expectation ($320K) vs reality (<$50K) chart |
+| 2026-08-27 (daily batch) | Ad_SubStack_58 | The only line in your subscriptions your grandkids will care about. | Phone subscription-manager UI list with hero row |
+| 2026-08-27 (daily batch) | Ad_NoWaitingRoom_59 | One path has a waiting room. Yours has a mailbox. | Clinic-path vs record-path step-list cards |
+| 2026-08-27 (daily batch) | Ad_OneFunnel_54_9x16 | (adaptation) | Vertical re-layout of 54, chain vertical |
+| 2026-08-27 (daily batch) | Ad_DepositBox_55_9x16 | (adaptation) | Vertical re-layout of 55 |
+| 2026-08-27 (daily batch) | Ad_FortyFourPercent_56_9x16 | (adaptation) | Vertical re-layout of 56 |
+| 2026-08-27 (daily batch) | Ad_SubStack_58_9x16 | (adaptation) | Vertical re-layout of 58 |
