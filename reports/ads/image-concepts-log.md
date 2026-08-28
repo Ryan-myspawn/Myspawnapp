@@ -86,3 +86,13 @@
 | 2026-08-27 (daily batch) | Ad_DepositBox_55_9x16 | (adaptation) | Vertical re-layout of 55 |
 | 2026-08-27 (daily batch) | Ad_FortyFourPercent_56_9x16 | (adaptation) | Vertical re-layout of 56 |
 | 2026-08-27 (daily batch) | Ad_SubStack_58_9x16 | (adaptation) | Vertical re-layout of 58 |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_FakeCityFiles_60 | The most documented city on Earth doesn't exist. | Unsplash photo: wall of code monitors, manual crop (GTA6 detail peg) |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_RideHome_61 | Shorter than your ride home. | Unsplash photo: bus rider rear view at window |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_ThrownAway_62 | You threw DNA away this morning. | Unsplash photo: hand holding small vial/floss, navy-tinted blush |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_ArchiveOrRumor_63 | Some men are archives. Most are rumors. | Unsplash photo: man lit by stairwell window, chiaroscuro — ORGANIC-ONLY (face) |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_SomedayPlan_64 | "Someday" is not a storage plan. | Unsplash photo: silhouette at rain-covered window |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_AskWhereStored_65 | Ask where it's stored. We answer in certifications. | Unsplash photo: scientist from behind with flask, certification-list sub |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_RideHome_61_9x16 | (adaptation) | Vertical re-layout of 61 |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_ThrownAway_62_9x16 | (adaptation) | Vertical re-layout of 62 |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_SomedayPlan_64_9x16 | (adaptation) | Vertical re-layout of 64 |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_AskWhereStored_65_9x16 | (adaptation) | Vertical re-layout of 65, crop shifted for face safety |
