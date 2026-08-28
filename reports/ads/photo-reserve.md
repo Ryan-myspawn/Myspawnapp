@@ -28,12 +28,10 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | pOVt6au-y1s | Vaccination day  | Eugene Chystiakov (@eugenechystiakov) | https://images.unsplash.com/photo-1624029938464-22317143f71b | 3811x5335 |
 | ewUmxFzUiQs | Vaccination day | Eugene Chystiakov (@eugenechystiakov) | https://images.unsplash.com/photo-1624024093647-c240f7944d87 | 3227x5736 |
 | IYljef8Ofyk | A person holding a cigarette in their hand | Alexander Mass (@alexandermassph) | https://images.unsplash.com/photo-1733685372465-b828971f8c95 | 4160x6240 |
-| g2ipZJ_WX48 | Female chemical engineer with clean energy storage solutions | ThisisEngineering (@thisisengineering) | https://images.unsplash.com/photo-1581093451371-27a7814703a1 | 5304x7952 |
 | 9c3C_KojYMQ | ig: hakannural | Hakan Nural (@hakannural) | https://images.unsplash.com/photo-1608422050730-6b9c51d45c8d | 2568x3872 |
 | e1fikVvAR8o | a person in blue scrubs is holding a sys | Elen Sher (@lenochka210292) | https://images.unsplash.com/photo-1691935444218-b4141c1884d3 | 3000x4000 |
 | jNs8ZNLbdaU | covid-19 vaccine stock photo ig: @hakannural
  | Hakan Nural (@hakannural) | https://images.unsplash.com/photo-1608638479472-b1181125d106 | 2832x3175 |
-| OSRPNAqqXHE | solitary skyscraper at night with orange windows | Wes Hicks (@sickhews) | https://images.unsplash.com/photo-1645641439640-87b0b4c51ba3 | 3147x4721 |
 | 6bTEvoIXsVQ | A very tall building in the city at night | Yuliia Dementsova (@julia_demo) | https://images.unsplash.com/photo-1740425404064-bece1589558c | 4160x6240 |
 | 24s63ot3gPs | a very tall building lit up at night | Lucia Macedo (@sample_in_photography) | https://images.unsplash.com/photo-1641574003782-a2f852650185 | 3359x4912 |
 | cTYlSnUTI8k | Low angle view of a modern glass skyscraper reflecting city lights at dusk. A traffic ligh | Darien Attridge (@dariendesigns) | https://images.unsplash.com/photo-1769751641224-dbbda144e824 | 4640x6960 |
@@ -48,6 +46,12 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | Dvxt7mnuK5U | Watch crown. | Tareq Hasan (@tareq_hasan) | https://images.unsplash.com/photo-1715423982836-82d209b9bfb9 | 1984x2976 |
 
 ## VETTED OUT (do not use)
+- 4iRyMGQLbvY: silhouette flyer in sky (hook overlap with Ad_BatDNA_52).
+- knUZi7dzb58: cable-tech at patch panel (server cooldown; semi-profile face).
+- ymM9meL-oAs: prominent 'Dubai Design Lab' signage (third-party branding).
+- upu9xUQVFZk: colorful lab with visible worker faces.
+- DlmkBR9kp4k: 1970 Rolex (timepiece cooldown vs Ad_WatchOutlasts_53).
+- yHh7tXnJkYI: businessman at window, fully identifiable face.
 - qEB1GXTr_H4: alt says puppy, photo is a hanging bat (bat used Aug 27).
 - 4elhwp7JOz8: bat silhouette in sky (bat used Aug 27).
 - sOTG_4n82Hk: alt says white card, photo is a medical dropper/vial — clinical optics.

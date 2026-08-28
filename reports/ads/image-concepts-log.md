@@ -96,3 +96,13 @@
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_ThrownAway_62_9x16 | (adaptation) | Vertical re-layout of 62 |
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_SomedayPlan_64_9x16 | (adaptation) | Vertical re-layout of 64 |
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_AskWhereStored_65_9x16 | (adaptation) | Vertical re-layout of 65, crop shifted for face safety |
+| 2026-08-28 (evening scheduled run) | Ad_LastLightsOn_66 | Fewer lights on. Each one matters more. | Unsplash photo: fog-shrouded solitary tower, lit floors (demography peg) |
+| 2026-08-28 (evening scheduled run) | Ad_SevenMinutes_67 | Your part takes seven minutes. Ours takes decades. | Unsplash photo: gloved hands holding etched steel capsule, faceless |
+| 2026-08-28 (evening scheduled run) | Ad_LastLightsOn_66_9x16 | (adaptation) | Vertical re-layout of 66 |
+| 2026-08-28 (evening scheduled run) | Ad_SevenMinutes_67_9x16 | (adaptation) | Vertical re-layout of 67 |
+| 2026-08-28 (evening scheduled run) | Ad_TheyBuiltTheLabs_48_9x16 | (adaptation) | Vertical of Aug 27 photo ad, original copy |
+| 2026-08-28 (evening scheduled run) | Ad_FreezerGarage_50_9x16 | (adaptation) | Vertical of Aug 27 photo ad, original copy |
+| 2026-08-28 (evening scheduled run) | Ad_BackupAlmost_51_9x16 | (adaptation) | Vertical of Aug 27 photo ad, original copy |
+| 2026-08-28 (evening scheduled run) | Ad_BatDNA_52_9x16 | (adaptation) | Vertical of Aug 27 photo ad, original copy |
+| 2026-08-28 (evening scheduled run) | Ad_WatchOutlasts_53_9x16 | (adaptation) | Vertical of Aug 27 photo ad, original copy |
+| 2026-08-28 (evening scheduled run) | Ad_FakeCityFiles_60_9x16 | (adaptation) | Vertical of morning ad, face-excluding crop re-applied |

@@ -57,3 +57,36 @@ Back turned in square; vertical recomposed (crop shifted right) to exclude the p
 | Ad_AskWhereStored_65 (+9x16) | FIXED (vertical) | Vertical crop initially revealed the scientist's profile; object-position shifted to 78% — face excluded; certification list matches GenVault facts. |
 | Freshness truth-check | PASS | All 6 headlines + visual hooks absent from image-concepts-log/adcopy-log; GTA6 same-day cascade noted; personas 3/3 on 60/62/64, 2/3 on 61/63/65 (pass). |
 | Pricing | PASS | "$99/yr" lockup on all 10; no one-time framing. |
+
+---
+
+# EVENING SCHEDULED RUN (18:03 UTC — first scheduled fire under the Unsplash mandate)
+
+Photo sourcing rung: (a)+(b) — Unsplash MCP search connector still disconnected, egress LIVE (200). New photos drawn from the vetted reserve/catalog; backlog verticals rebuilt from committed source photos. **Honest thin-day mix: 2 NEW concepts + 8 verticals** (the catalog was mined twice today; remaining candidates failed vetting — see QC).
+
+## NEW CONCEPTS (2 squares)
+
+### Ad_LastLightsOn_66 — "Fewer lights on. Each one matters more."
+**Freshness check:** Demography peg's ad treatment; distinct fact-set framing from Content Factory's Ad_MorePerPerson direction (tree diagram) — adapted photo-first per the mandate; fog-isolated tower visually distinct from Ad_TheyBuiltTheLabs_48's low-angle glass (QC-noted category adjacency, different mood/meaning).
+**Primary audience:** Men 25-55.
+**Trend-hook used:** Below-replacement working-paper wave (Fernández-Villaverde/Norrick + Musk amplification, this week).
+Support: "Humanity may have crossed below replacement this year. Whoever remembers you will hold more of the story." Photo: Wes Hicks (@sickhews) — https://unsplash.com/photos/a-very-tall-building-with-a-lot-of-windows-OSRPNAqqXHE
+
+### Ad_SevenMinutes_67 — "Your part takes seven minutes. Ours takes decades."
+**Freshness check:** Kit-process division-of-labor angle new as headline; faceless gloved-hands-with-capsule macro new (QC-noted adjacency to Ad_AskWhereStored_65's lab-human, different claim: process vs certifications).
+**Primary audience:** Men 25-55.
+**Trend-hook used:** rotating direction — practical why-now (kit mechanics).
+Faceless (cropped at chest) — paid-safe. Photo: ThisisEngineering (@thisisengineering) — https://unsplash.com/photos/person-in-white-long-sleeve-shirt-holding-white-and-black-remote-control-g2ipZJ_WX48
+
+## VERTICAL ADAPTATIONS (8)
+- Ad_LastLightsOn_66_9x16, Ad_SevenMinutes_67_9x16 (tonight's concepts)
+- Backlog photo ads that never had verticals, rebuilt from committed sources with original copy: Ad_TheyBuiltTheLabs_48_9x16 (Irina Iriser @iriser), Ad_FreezerGarage_50_9x16 (Mauro Romero @bretodeaud), Ad_BackupAlmost_51_9x16 (Valentin Lacoste @valentinlacoste), Ad_BatDNA_52_9x16 (Vikram Nair @vikramnair), Ad_WatchOutlasts_53_9x16 (Igor Flek @igor_flek), Ad_FakeCityFiles_60_9x16 (Esten Erbol @esten; same face-excluding manual crop as the square).
+
+## QC Gate (evening)
+| Item | Verdict | Note |
+|---|---|---|
+| Ad_LastLightsOn_66 (+9x16) | FIXED | First square render lost the tower's lit floors (too dark at center 55%); repositioned to 38% + brightness 1.18 + lighter tint; optimism turn in headline keeps it non-doom. |
+| Ad_SevenMinutes_67 (+9x16) | FIXED | First square cropped out the held capsule; repositioned to center 58% — hands + etched capsule now carry the story; faceless, paid-safe. |
+| 6 backlog verticals | PASS | Original copy preserved verbatim; re-composed for 9:16 (no blind crops); 60's vertical re-applies the face-excluding manual crop. |
+| Photo vetting (pre-build) | 6 KILLED | bird-in-sky (silhouette-flyer hook = BatDNA_52), cable-tech man (server cooldown + profile), Dubai Design Lab (third-party signage), squid-game lab (faces/clutter), 1970 Rolex (timepiece cooldown vs 53), businessman-at-window (identifiable face + window-man cooldown). Logged in photo-reserve VETTED OUT. |
+| Pricing / banned lanes | PASS | $99/yr on all 10; no letters, no Pentagon, no descendant promises. |
