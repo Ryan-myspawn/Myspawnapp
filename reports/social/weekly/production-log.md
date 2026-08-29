@@ -54,7 +54,7 @@
 - 2026-08-25: productization-critique podcast · durability-science explainer · outdoor walk-and-talk challenge · (PM) old-thread-scroll evergreen · (PM script 2, unshot) cryonics-arrival staircase graphic
 - 2026-08-26: reproductive-longevity science-story podcast · base-editing explainer · shoebox physical-demo evergreen · (Content Factory AM) document/highlighter macro demo · genome-map fill-in data visualization · (Content Factory PM) field-guide illustrated-card flip
 - 2026-08-27: industry-integration reaction podcast (Nucleus x Legacy pipeline) · bat DNA-repair/longevity explainer · instruction-manual macro flip-through evergreen · (Content Factory) phone-notification-stack react + flow-diagram static direction · (Content Factory PM) morning-after debrief detail-countdown
-- 2026-08-29: genome victory-lap episode · (explainer honestly skipped, film debt) · group-chat-archaeology screen-scroll evergreen
+- 2026-08-29: genome victory-lap episode · (Content Factory) group-chat screen-scroll full script + Ad_ElevenYears static direction · (explainer honestly skipped, film debt) · group-chat-archaeology screen-scroll evergreen
 - 2026-08-28: below-replacement demography reaction episode · posthumous-DNA-law explainer · locked-phone single-prop evergreen · (Content Factory) whiteboard marker-draw short · (Content Factory PM) price-tag list countdown
 
 **2026-08-24: NO RUN.** Trigger fire missed during a session processing gap. Resuming live 2026-08-25.
