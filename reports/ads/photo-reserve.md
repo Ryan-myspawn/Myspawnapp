@@ -46,6 +46,8 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | Dvxt7mnuK5U | Watch crown. | Tareq Hasan (@tareq_hasan) | https://images.unsplash.com/photo-1715423982836-82d209b9bfb9 | 1984x2976 |
 
 ## VETTED OUT (do not use)
+- 2gGjVOXq1P4: man at hotel window with cat (3rd man-at-window in 7 days; killed 2026-08-29).
+- FnQJnC_hoaw: rear view man at cable-car window (hook repeat of Ad_RideHome_61; killed 2026-08-29).
 - 4iRyMGQLbvY: silhouette flyer in sky (hook overlap with Ad_BatDNA_52).
 - knUZi7dzb58: cable-tech at patch panel (server cooldown; semi-profile face).
 - ymM9meL-oAs: prominent 'Dubai Design Lab' signage (third-party branding).

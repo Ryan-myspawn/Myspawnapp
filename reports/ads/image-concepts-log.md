@@ -106,3 +106,13 @@
 | 2026-08-28 (evening scheduled run) | Ad_BatDNA_52_9x16 | (adaptation) | Vertical of Aug 27 photo ad, original copy |
 | 2026-08-28 (evening scheduled run) | Ad_WatchOutlasts_53_9x16 | (adaptation) | Vertical of Aug 27 photo ad, original copy |
 | 2026-08-28 (evening scheduled run) | Ad_FakeCityFiles_60_9x16 | (adaptation) | Vertical of morning ad, face-excluding crop re-applied |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_ThirteenYearWait_39_9x16 | (adaptation) | Vertical of proven backlog ad |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_FoundingPlate_17_9x16 | (adaptation) | Vertical of proven backlog ad, pricing corrected during adaptation |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_EmptyTab_14_9x16 | (adaptation) | Vertical of proven backlog ad, pricing corrected during adaptation |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_BlankLine_20_9x16 | (adaptation) | Vertical of proven backlog ad, pricing corrected during adaptation |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_MissingPhotographer_22_9x16 | (adaptation) | Vertical of proven backlog ad, pricing corrected during adaptation |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_GenomeStat_43_9x16 | (adaptation) | Vertical of proven backlog ad |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_ExpectationGap_57_9x16 | (adaptation) | Vertical of proven backlog ad |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_NoWaitingRoom_59_9x16 | (adaptation) | Vertical of proven backlog ad |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_StillAnOption_49_9x16 | (adaptation) | Vertical of proven backlog ad, ORGANIC-ONLY inherited |
+| 2026-08-29 (zero-new day, backlog verticals) | Ad_ArchiveOrRumor_63_9x16 | (adaptation) | Vertical of proven backlog ad, ORGANIC-ONLY inherited |
