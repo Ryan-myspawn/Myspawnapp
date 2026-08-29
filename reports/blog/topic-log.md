@@ -15,10 +15,11 @@
 | 2026-08-26 | b | Sperm Freezing Cost in 2026 (and What It Does vs DNA Banking) | sperm-freezing-cost | sperm freezing cost | how much does it cost to freeze sperm; sperm bank storage fees; sperm freezing cost per year; fertility preservation cost men; sperm freezing vs DNA banking; at-home sperm freezing kit cost |
 | 2026-08-27 | e | Meaningful Gifts for Men Who Have Everything: The Legacy Tier | meaningful-gifts-for-men-legacy | meaningful gifts for men | gifts for men who have everything; sentimental gifts for him; legacy gifts; heirloom gifts for men; unique gifts for dad who wants nothing; experience gifts for men |
 | 2026-08-28 | b | How Long Can DNA Actually Survive? What Ancient Genomes Tell Us About Storage | how-long-does-dna-last | how long does DNA last | DNA half-life; oldest DNA ever found; how long does DNA last at room temperature; DNA degradation; ancient DNA; DNA storage conditions |
+| 2026-08-29 | c | Digital Legacy: What Actually Happens to Your Accounts, Photos, and Files When You Die | digital-legacy-what-happens | digital legacy | what happens to my accounts when I die; Apple legacy contact; Google inactive account manager; Facebook memorialized account; RUFADAA; digital estate planning |
 
 ## Queue (next up)
-1. **2026-08-29 · lane (c):** "Digital Legacy: What Actually Happens to Your Accounts, Photos, and Files When You Die" — slug `digital-legacy-what-happens`, primary "digital legacy" (standing keyword stack item 5; platform death-policy angle, practical checklist format).
-2. **2026-08-30 · lane (a):** "Hair vs Saliva vs Blood: Which Sample Actually Preserves Your DNA Best?" — slug `best-dna-sample-type`, primary "best DNA sample type" (comparison-table intent; feeds the cornerstone; never covered).
+1. **2026-08-30 · lane (a):** "Hair vs Saliva vs Blood: Which Sample Actually Preserves Your DNA Best?" — slug `best-dna-sample-type`, primary "best DNA sample type" (comparison-table intent; feeds the cornerstone; never covered).
+2. **2026-08-31 · lane (e/commercial):** "StoryWorth Alternatives: When the Stories Aren't the Whole Record" — slug `storyworth-alternative`, primary "StoryWorth alternative" (competitor-intercept per Aug 28 Competitor Watch deep-dive; gift-intent searchers; $59-199/yr stories-only vs $99/yr record+Vault).
 
 Note 2026-08-25: the `23andme-alternative` article (queued for Aug 24, skipped in the processing gap) was written today instead with a fresher peg (July 14, 2026 multistate settlement); the queue shifts one day. PRICING: all articles from today forward use $99/year (annual fee) — the pre-Aug-25 archive still contains the old one-time framing and needs a correction pass before republishing/promotion (founder to confirm which articles are live).
 
