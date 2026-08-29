@@ -12,6 +12,7 @@
 | 2026-08-21 | "The $2 Million Man Bought a Dog" | Johnson dog announcement (NEW development vs 08-18 doubt episode) + Kramer 2019 study-literacy + cheap-vs-expensive longevity + foresight stack close. USED. |
 | 2026-08-22 | "The Fertility-Tech Trust Crisis" | Orchid August pressure quote + PGC dispute + company preprint (grading-own-homework) + 90-second referee test + declared-stake close. USED (was queued). |
 | 2026-08-23 | "The Off Switch: Why Male Birth Control Is 50 Years Late" | 2016 JCEM trial told straight (Snopes-corrected) + institutional-incentives story + JQ1 switch (labeled) + know-your-numbers close. USED. |
+| 2026-08-29 | "Finished, Finished, and Actually Finished" | Genome-completion victory-lap epistemology (2003 draft / 2022 T2T / Aug 2026 diploid Cell benchmark); moving-finish-line lesson + stored-sample implication. USED. |
 | 2026-08-28 | "The Year the Math Flipped" | Fernández-Villaverde/Norrick working paper (2026 first below-replacement year, ~2.20 effective threshold) + Vittorio/Musk verbatim quotes + UN-vs-paper honest numbers + personal lineage math close. USED. |
 | 2026-08-25 | "The IQ Dropdown" | Herasight predicted-IQ widget + "9 points" claim + Caplan/Tabery Theranos comparison (verbatim, attributed) + interfaces-manufacture-credibility thesis + 3-question close. USED. |
 | 2026-08-26 | "The Pill That Might Buy Ten Years" | Columbia VIBRANT rapamycin ovarian-aging pilot (~20% slower follicle loss) + VIBRANT II follow-up + buying-time-not-fixing-fertility thesis + tie to men's-legacy record framing. USED (science-story episode; the day's "hot" reaction fuel candidates -- Bryan Johnson diagnosis, Key Wealth poll -- were verified as 6-8 weeks old and correctly NOT used as breaking news). |
@@ -39,6 +40,7 @@
 | 2026-08-22 | "Open your camera roll. Count yourself." | Camera-roll audit screen-record (photographer-ghost problem; comment-your-number UGC loop) |
 | 2026-08-23 | "Everything I carry, ranked by how long it outlives me." | EDC pocket-dump flat lay (lifespan chips; kit as the one item carrying YOU; UGC loop) |
 | 2026-08-25 | "The Three-Generation Test" | Outdoor walk-and-talk single-take (great-grandfather challenge; "you're just early" pivot; comment-your-answer UGC loop) |
+| 2026-08-29 | "The Group Chat Archaeologist" | Screen-scroll chat archaeology (11 years of typing, zero minutes of voice; alive-friend drift tone; Vault video close) |
 | 2026-08-28 | "The Password Test" | Locked-phone single-prop monologue (digital-legacy; phone as vault-with-no-heir; passcode UGC loop) |
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
@@ -52,6 +54,7 @@
 - 2026-08-25: productization-critique podcast · durability-science explainer · outdoor walk-and-talk challenge · (PM) old-thread-scroll evergreen · (PM script 2, unshot) cryonics-arrival staircase graphic
 - 2026-08-26: reproductive-longevity science-story podcast · base-editing explainer · shoebox physical-demo evergreen · (Content Factory AM) document/highlighter macro demo · genome-map fill-in data visualization · (Content Factory PM) field-guide illustrated-card flip
 - 2026-08-27: industry-integration reaction podcast (Nucleus x Legacy pipeline) · bat DNA-repair/longevity explainer · instruction-manual macro flip-through evergreen · (Content Factory) phone-notification-stack react + flow-diagram static direction · (Content Factory PM) morning-after debrief detail-countdown
+- 2026-08-29: genome victory-lap episode · (explainer honestly skipped, film debt) · group-chat-archaeology screen-scroll evergreen
 - 2026-08-28: below-replacement demography reaction episode · posthumous-DNA-law explainer · locked-phone single-prop evergreen · (Content Factory) whiteboard marker-draw short · (Content Factory PM) price-tag list countdown
 
 **2026-08-24: NO RUN.** Trigger fire missed during a session processing gap. Resuming live 2026-08-25.
