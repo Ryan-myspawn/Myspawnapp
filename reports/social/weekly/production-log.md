@@ -57,7 +57,7 @@
 - 2026-08-25: productization-critique podcast · durability-science explainer · outdoor walk-and-talk challenge · (PM) old-thread-scroll evergreen · (PM script 2, unshot) cryonics-arrival staircase graphic
 - 2026-08-26: reproductive-longevity science-story podcast · base-editing explainer · shoebox physical-demo evergreen · (Content Factory AM) document/highlighter macro demo · genome-map fill-in data visualization · (Content Factory PM) field-guide illustrated-card flip
 - 2026-08-27: industry-integration reaction podcast (Nucleus x Legacy pipeline) · bat DNA-repair/longevity explainer · instruction-manual macro flip-through evergreen · (Content Factory) phone-notification-stack react + flow-diagram static direction · (Content Factory PM) morning-after debrief detail-countdown
-- 2026-08-30: cord-blood economics episode · sample-type stability explainer · family-photo name-quiz evergreen · (Content Factory) Name Test full script + founder-gated PricedAtBirth static direction · sample-type stability explainer · family-photo name-quiz evergreen
+- 2026-08-30: cord-blood economics episode · sample-type stability explainer · family-photo name-quiz evergreen · (Content Factory) Name Test full script + founder-gated PricedAtBirth static direction · (Content Factory PM) ledger-lines trade-off short · sample-type stability explainer · family-photo name-quiz evergreen
 - 2026-08-29: genome victory-lap episode · (Content Factory) group-chat screen-scroll full script + Ad_ElevenYears static direction · (Content Factory PM) timer-challenge kit demo + 3 X drafts + 2 Threads posts · (explainer honestly skipped, film debt) · group-chat-archaeology screen-scroll evergreen
 - 2026-08-28: below-replacement demography reaction episode · posthumous-DNA-law explainer · locked-phone single-prop evergreen · (Content Factory) whiteboard marker-draw short · (Content Factory PM) price-tag list countdown
 
@@ -68,6 +68,7 @@
 |---|---|---|
 | 2026-08-26 | "For the First Time in 14 Years" | ASRM's 2026 recurrent pregnancy loss committee opinion (first revision since 2012) — sperm DNA fragmentation testing "may be considered" for unexplained recurrent miscarriage; storage-only boundary stated explicitly. USED. |
 | 2026-08-26 | "Someone Finished the Puzzle" | T2T Consortium complete diploid human genome benchmark (*Cell*, Aug 2026) — 99.4% accuracy, +700M base pairs, both sex chromosomes; "tools improve, sample doesn't wait" thesis. USED. |
+| 2026-08-30 (PM) | "The Ledger" | Nature Ecology & Evolution fertility/longevity trade-off paper (July online, Aug 30 wave; honesty-framed) as animated ledger-lines short; population-level claims only. USED. |
 | 2026-08-29 (PM) | "Real Time, No Cuts" | Timer-challenge real-time kit demo (75s; honest-timer rule; first product-demo format on the channel). USED. |
 | 2026-08-28 (PM) | "Worth Every Penny, Judged From Fifty Years Away" | Price-tag list countdown borrowing the live "worth every penny" TikTok format; generic figures, no brands; $99/yr horizon close. USED. |
 | 2026-08-28 | "The Year the Math Flipped" (short) | Whiteboard/marker Short of the below-replacement claim (working-paper vs UN, falling-curve draw, narrowing-tree close); same-peg format-distinct cascade with the Aug 28 episode. USED. |
