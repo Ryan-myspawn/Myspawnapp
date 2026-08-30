@@ -29,3 +29,8 @@ Deleted 1 event:
 | Pentagon fertility benefit LIVE | Sept 14 (all-day) | 5jl864so4vgo27c0so82pd9t40 | Content peg CANCELLED 2026-08-21 per founder binding content rules (Pentagon/military-DNA lane retired); confirmed cancelled in production-log.md before deleting. |
 
 Next important date: GTA6 Extended Look premiere, Aug 28 00:30 IST (Aug27 3pm ET) — RESPAWN final-edit deadline Aug26 18:00 IST gates it.
+## 2026-08-30 run (weekly)
+- Existing verified: [MySpawn] Approve partner outreach (Tue 7pm IST, recurring) · [MySpawn] Send newsletter (Fri 10am IST, recurring) — both healthy, untouched.
+- CREATED: [MySpawn] Shoot block Mon Aug 31 11:00 IST (timer demo + Name Test) · [MySpawn] Shoot block Tue Sep 1 11:00 IST (math-flipped whiteboard + Priced-at-Birth cold open; CBR promo-line staleness noted).
+- Hard pegs: none in the 21-day window (GTA6 Nov 19 out of range; VIBRANT "concludes September" has no date yet — no speculative event created, will peg when a date lands). Pentagon Sept 14: retired lane; confirmed NO event exists, nothing to delete.
+- Removed: none.
