@@ -116,3 +116,13 @@
 | 2026-08-29 (zero-new day, backlog verticals) | Ad_NoWaitingRoom_59_9x16 | (adaptation) | Vertical of proven backlog ad |
 | 2026-08-29 (zero-new day, backlog verticals) | Ad_StillAnOption_49_9x16 | (adaptation) | Vertical of proven backlog ad, ORGANIC-ONLY inherited |
 | 2026-08-29 (zero-new day, backlog verticals) | Ad_ArchiveOrRumor_63_9x16 | (adaptation) | Vertical of proven backlog ad, ORGANIC-ONLY inherited |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_Proof_1994_01_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_Compare_AccessGap_03_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_Vault_FirstDay_04_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_Custody_Vault_08_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_GenZ_Undecided_11_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_Viewfinder_18_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_Split6164_19_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_ReferenceCopy_21_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_CarryLifespan_29_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-30 (zero-new day 2, backlog verticals) | Ad_EggHeadlines_41_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
