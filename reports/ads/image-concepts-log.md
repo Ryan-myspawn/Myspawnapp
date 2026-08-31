@@ -126,3 +126,13 @@
 | 2026-08-30 (zero-new day 2, backlog verticals) | Ad_ReferenceCopy_21_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
 | 2026-08-30 (zero-new day 2, backlog verticals) | Ad_CarryLifespan_29_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
 | 2026-08-30 (zero-new day 2, backlog verticals) | Ad_EggHeadlines_41_9x16 | (adaptation) | Vertical of proven backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_Drawer_02_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_IVG_Progress_06_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_Custody_Checklist_07_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_BoringStack_15_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_SampleSize_16_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_SevenMinutes_23_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_Roadmap2030_26_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_FirstDayUnlock_34_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_SliverOfBillions_35_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_ConsensusAgainst_45_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
