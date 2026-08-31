@@ -21,6 +21,8 @@
 ## Queue (next up)
 1. **2026-08-31 · lane (e/commercial):** "StoryWorth Alternatives: When the Stories Aren't the Whole Record" — slug `storyworth-alternative`, primary "StoryWorth alternative" (competitor-intercept per Aug 28 Competitor Watch deep-dive; gift-intent searchers; $59-199/yr stories-only vs $99/yr record+Vault).
 2. **2026-09-01 · lane (b):** "Posthumous Conception Law in the US: Who Decides What Happens to Stored Samples?" — slug `posthumous-conception-law`, primary "posthumous conception law" (Capato research already verified in fleet; pairs with the filmed explainer when it ships).
+3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** dna banking cost · cord blood banking alternatives · family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws 2026.
+
 
 Note 2026-08-25: the `23andme-alternative` article (queued for Aug 24, skipped in the processing gap) was written today instead with a fresher peg (July 14, 2026 multistate settlement); the queue shifts one day. PRICING: all articles from today forward use $99/year (annual fee) — the pre-Aug-25 archive still contains the old one-time framing and needs a correction pass before republishing/promotion (founder to confirm which articles are live).
 
