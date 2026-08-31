@@ -37,3 +37,8 @@
 | 28 | 2026-08-29 | The oldest message ever read is two million years old. | Greenland eDNA + 521-yr half-life + shelf-not-thing thesis; zero product | Oldest-message story open | X |
 | 29 | 2026-08-29 | The twins were born in September 2003. Their father died in March 2002. | Astrue v. Capato narrative; custody-is-a-document lesson | Dates-first case-narrative open | Facebook |
 | 30 | 2026-08-29 | I put my startup's entire marketing department on cron jobs. Honest report, 11 days in. | Agent-fleet build log, failures-led; humans-hold-publish rule (publish = founder call) | Systems-inventory open | Reddit r/SideProject |
+| 31 | 2026-08-31 | Evolution ran the numbers on your health. It chose fertility. | NEE trade-off paper as data-audit story (62 diseases, 50k-yr selection); population-level labels | Audit-verdict open | X |
+| 32 | 2026-08-31 | A thousand dollars, decided the week the crib gets assembled. | Cord-blood price sheet consumer guide; steelman + storage-pitch checklist | Price-sheet-in-the-delivery-room open | Facebook |
+| 33 | 2026-08-31 | The hair at the crime scene just started talking. | Genome Biology 2026 rootless-hair forensics; archives-appreciate thesis; zero product | Cold-case object open | X |
+| 34 | 2026-08-31 | How to record a video your kid opens at 18 (that doesn't make everyone cringe) | Five craft rules for milestone videos + seal-date picks; Vault one-section | Anti-cringe how-to open | Facebook |
+| 35 | 2026-08-31 | The cheapest item in the continuity stack, priced against the rest of it | Cryonics/cord-blood/gametes/digital/DNA-record cost table; honest-ceiling per row (publish = founder call) | Price-table open | Reddit r/transhumanism |
