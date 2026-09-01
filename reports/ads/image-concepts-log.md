@@ -136,3 +136,4 @@
 | 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_FirstDayUnlock_34_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
 | 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_SliverOfBillions_35_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
 | 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_ConsensusAgainst_45_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
+| 2026-09-01 | (RUN BLOCKED) | Unsplash connector day 6; fallback ladder exhausted; 0 creatives; Adobe Stock option surfaced to founder | — |
