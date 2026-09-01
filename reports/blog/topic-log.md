@@ -18,10 +18,11 @@
 | 2026-08-29 | c | Digital Legacy: What Actually Happens to Your Accounts, Photos, and Files When You Die | digital-legacy-what-happens | digital legacy | what happens to my accounts when I die; Apple legacy contact; Google inactive account manager; Facebook memorialized account; RUFADAA; digital estate planning |
 | 2026-08-30 | a | Hair vs Saliva vs Blood: Which Sample Actually Preserves Your DNA Best? | best-dna-sample-type | best DNA sample type | DNA from hair vs saliva; can you get DNA from fingernails; hair root vs shaft DNA; how long does saliva DNA last; DNA sample for storage; buccal swab vs saliva |
 | 2026-08-31 | e | StoryWorth Alternatives in 2026: When the Stories Aren't the Whole Record | storyworth-alternative | StoryWorth alternative | StoryWorth alternatives 2026; Remento vs StoryWorth; Storii review; memoir service for parents; family memory book service; gifts that preserve family history |
+| 2026-09-01 | b | Posthumous Conception Law in the US: Who Decides What Happens to Stored Samples? | posthumous-conception-law | posthumous conception law | posthumously conceived child inheritance; Astrue v Capato; can sperm be used after death; Uniform Parentage Act 2017; stored sperm after death; posthumous reproduction consent |
 
 ## Queue (next up)
-1. **2026-09-01 · lane (b):** "Posthumous Conception Law in the US: Who Decides What Happens to Stored Samples?" — slug `posthumous-conception-law`, primary "posthumous conception law" (Capato research already verified in fleet; pairs with the filmed explainer when it ships).
-2. **2026-09-02 · lane (a/commercial):** "How Much Does DNA Banking Cost in 2026?" — slug `dna-banking-cost`, primary "dna banking cost" (rank-tracker pick #1; all competitor pricing receipts already banked; VERIFY volumes when Semrush units return).
+1. **2026-09-02 · lane (a/commercial):** "How Much Does DNA Banking Cost in 2026?" — slug `dna-banking-cost`, primary "dna banking cost" (rank-tracker pick #1; all competitor pricing receipts already banked; VERIFY volumes when Semrush units return).
+2. **2026-09-03 · lane (c):** "Family Time Capsule Ideas That Actually Get Opened" — slug `family-time-capsule-ideas`, primary "family time capsule ideas" (rank-tracker provisional; Vault lane; verify volumes when Semrush returns).
 3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** dna banking cost · cord blood banking alternatives · family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws 2026.
 
 
