@@ -57,3 +57,15 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 - qEB1GXTr_H4: alt says puppy, photo is a hanging bat (bat used Aug 27).
 - 4elhwp7JOz8: bat silhouette in sky (bat used Aug 27).
 - sOTG_4n82Hk: alt says white card, photo is a medical dropper/vial — clinical optics.
+
+## Restock 2026-09-02 (lane recovery run) — VETTED, unused, available
+- sy90m8Ms3AQ: packed dark bookshelves, Amsterdam. Raw: https://images.unsplash.com/photo-1748682954639-dc25fe7e3a61 (8080w). Haberdoedas (@haberdoedas) https://unsplash.com/photos/bookshelves-with-paintings-and-various-books-sy90m8Ms3AQ — archive/library lane spare.
+- sgNc8aY6Z7E: hands cupping blue glow in dark room. Raw: https://images.unsplash.com/photo-1600856209923-34372e319a5d (2592w). Akshar Dave (@akshar_dave) https://unsplash.com/photos/person-holding-blue-light-in-dark-room-sgNc8aY6Z7E — tech/keeper-of-light lane.
+- DEIp7OQ3dpM: turntable stylus closeup. Raw: https://images.unsplash.com/photo-1573247374056-ba7c8c5ca4fa (5000w). Giorgio Trovato (@giorgiotrovato) https://unsplash.com/photos/a-close-up-of-a-record-players-turntable-DEIp7OQ3dpM — archival-media spare (cooldown vs PrintRun_72's turntable; use only after 7 days).
+- zNQWfic4G70: lone blue ladder against textured concrete wall. Raw: https://images.unsplash.com/photo-1747308534663-1495647523f8 (4619w). Ruben Mavarez (@justalifein) https://unsplash.com/photos/a-tall-ladder-leans-against-a-concrete-wall-zNQWfic4G70 — ladder-lane spare (cooldown vs BottomRung_73).
+- ppZL8a4tMuY: neon red LED ladder on black ("Ladder To Heaven"). Raw: https://images.unsplash.com/photo-1574111831349-b3cdc8b0f695 (6000w). Sudan Ouyang (@sdoy1995) https://unsplash.com/photos/orange-led-ladder-art-ppZL8a4tMuY — striking but red clashes with navy/purple; possible one-off accent concept.
+- -6I0fI1MqZk: metal-walled corridor. Raw: https://images.unsplash.com/photo-1662320154145-7263e998e7a2 (3024w). Beatriz Reynolds (@iambeatrizbraga) https://unsplash.com/photos/a-hallway-with-metal-walls--6I0fI1MqZk — industrial-custody lane.
+- cC71f5d4emo: man sitting between storage-unit rows, dark. Raw: https://images.unsplash.com/photo-1649899588991-5200ba8f7f4f (2768w). Harpreet Singh Grewal (@harpreet_shoots) https://unsplash.com/photos/a-man-sitting-in-a-hallway-between-two-rows-of-storage-units-cC71f5d4emo — EYEBALL FACE BEFORE PAID (person present; may be ORGANIC-ONLY).
+
+## Vetted out 2026-09-02
+- C7h2_bSPPjc: Yle Archives tape library, man handling tapes — identifiable profile of an archival-era subject; right-of-publicity risk, killed for paid despite perfect concept fit.

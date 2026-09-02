@@ -137,3 +137,13 @@
 | 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_SliverOfBillions_35_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
 | 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_ConsensusAgainst_45_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
 | 2026-09-01 | (RUN BLOCKED) | Unsplash connector day 6; fallback ladder exhausted; 0 creatives; Adobe Stock option surfaced to founder | — |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_KeepACopy_68 | We don't rank anyone. We keep everyone. | Unsplash photo: dark monochrome archive shelves (P A @listenann) |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_ElevenYears_69 | Eleven years of typing. Zero minutes of voice. | Unsplash photo: hand lit by screen glow in darkness (Su Hyun Choe @suhyunchoe) |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_AnnualLine_70 | Every vault has an annual line. | Unsplash photo: self-storage corridor, lit far door (Raphael @9ty5tilinfinity) |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_TheRecipe_71 | The recipe keeps the dish. The record keeps the cook. | Unsplash photo: cast-iron pot over open fire (Jose Alejandro Cuffia @alecuffia) — first food-lane ad |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_PrintRun_72 | You are a one-time print run. | Unsplash photo: turntable with vinyl record (Grigorii Shcheglov @shegiva) |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_BottomRung_73 | The ladder is real. So is the bottom rung. | Unsplash photo: figure climbing wall ladder toward light, no face (Ricardo Cruz @mavrick) |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_ElevenYears_69_9x16 | (adaptation) | Vertical re-layout of 69 |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_AnnualLine_70_9x16 | (adaptation) | Vertical re-layout of 70 |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_TheRecipe_71_9x16 | (adaptation) | Vertical re-layout of 71, headline resized after QC |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_BottomRung_73_9x16 | (adaptation) | Vertical re-layout of 73, crop shifted up |

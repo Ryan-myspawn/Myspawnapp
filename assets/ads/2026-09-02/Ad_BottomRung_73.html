@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1080px;overflow:hidden;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;background:#060B18}
+.canvas{position:relative;width:1080px;height:1080px}
+.photo{position:absolute;inset:0;width:1080px;height:1080px;object-fit:cover;object-position:center 20%;filter:saturate(.8) brightness(.92)}
+.tint{position:absolute;inset:0;background:rgba(8,14,32,.34);mix-blend-mode:multiply}
+.grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,11,24,.5) 0%,rgba(6,11,24,0) 24%,rgba(6,11,24,0) 44%,rgba(6,11,24,.88) 76%,#060B18 100%)}
+.wordmark{position:absolute;top:56px;left:64px;color:#fff;font-size:30px;font-weight:800;letter-spacing:.02em;z-index:5}
+.wordmark span{color:#A78BFA}
+.head{position:absolute;left:64px;bottom:250px;width:952px;color:#fff;font-size:72px;font-weight:800;line-height:1.06;letter-spacing:-.02em;z-index:5}
+.head em{font-style:normal;color:#A78BFA}
+.sub{position:absolute;left:66px;bottom:158px;width:920px;color:#C7CBDE;font-size:30px;font-weight:500;line-height:1.34;z-index:5}
+.rule{position:absolute;left:66px;bottom:118px;width:64px;height:4px;background:#7C3AED;z-index:5}
+.lockup{position:absolute;left:66px;bottom:62px;color:#8B90A8;font-size:25px;font-weight:600;letter-spacing:.04em;z-index:5}
+.lockup b{color:#fff;font-weight:700}
+</style></head><body><div class="canvas">
+<img class="photo" src="../src_ladder.jpg">
+<div class="tint"></div>
+<div class="grad"></div>
+<div class="wordmark">My<span>Spawn</span></div>
+<div class="head">The ladder is real.<br><em>So is the bottom rung.</em></div>
+<div class="sub">Genetic services now price up to $50,000. A record of you starts at $99/year. First 1,000 members lock the founding rate.</div>
+<div class="rule"></div>
+<div class="lockup"><b>myspawn.me</b> &nbsp;&middot;&nbsp; $99/yr &nbsp;&middot;&nbsp; storage only</div>
+</div></body></html>
