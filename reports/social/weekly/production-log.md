@@ -57,7 +57,7 @@
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
-- 2026-09-02: jurisdiction-structure science episode (MRT map-vs-science) · engineering-failure-analysis explainer (meiosis wall) · kitchen cooking-demo evergreen (NEW format)
+- 2026-09-02: jurisdiction-structure science episode (MRT map-vs-science) · engineering-failure-analysis explainer (meiosis wall) · kitchen cooking-demo evergreen (NEW format) · (Content Factory) The Recipe full script + Two Passports two-prop MRT demo + Ad_TheRecipe static direction (food visual lane, NEW)
 - 2026-08-18: news-react podcast · debunk explainer · confessional single-take
 - 2026-08-19: science-story podcast · checklist explainer · archival-read react
 - 2026-08-20: policy-react podcast · follow-the-IP explainer · desk receipt-math demo
