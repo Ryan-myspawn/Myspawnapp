@@ -12,6 +12,7 @@
 | 2026-08-21 | "The $2 Million Man Bought a Dog" | Johnson dog announcement (NEW development vs 08-18 doubt episode) + Kramer 2019 study-literacy + cheap-vs-expensive longevity + foresight stack close. USED. |
 | 2026-08-22 | "The Fertility-Tech Trust Crisis" | Orchid August pressure quote + PGC dispute + company preprint (grading-own-homework) + 90-second referee test + declared-stake close. USED (was queued). |
 | 2026-08-23 | "The Off Switch: Why Male Birth Control Is 50 Years Late" | 2016 JCEM trial told straight (Snopes-corrected) + institutional-incentives story + JQ1 switch (labeled) + know-your-numbers close. USED. |
+| 2026-09-02 | "The Babies America Made Illegal" | Newcastle MRT: 8 babies, two NEJM papers July 2025 (heteroplasmy honest numbers), UK 2015-vote/2017-license path vs US appropriations rider (FDA advisory), map-vs-science structure framing (non-partisan), preservation close. USED. Verify-before-recording markers on Zhang quote + Maeve's Law. |
 | 2026-09-01 | "The $50,000 Door" | Access-gap economics of polygenic screening ($50k pricing + EPPC/YouGov Nov 2025 4-in-5 + JAMA attitudes + New Atlantis receipts); two-doors thesis; $99 counter. USED. |
 | 2026-08-31 | "The 50,000-Year-Old Trade" | NEE trade-off paper via the 70-year idea-history (Williams 1957 antagonistic pleiotropy → 2026 audit); custody close. USED. |
 | 2026-08-30 | "Priced at Birth" | Cord-blood banking economics (CBR/Cryo-Cell/Cells4Life verified prices, one-moment sales channel, honest steelman, ambient-keratin economics close). USED. |
@@ -31,6 +32,7 @@
 | 2026-08-23 | (explainer skipped day two; same backlog; "How Long Can DNA Actually Last?" resumes when filming clears) | — | — |
 | 2026-08-25 | "How Long Can DNA Actually Last?" | Moa 521-yr half-life (PRSB 2012) + ancient-genome records (Nature 2013/2021/2022) + what-kills/what-saves + Atlas/imec industry vote + storage-only close. USED (came off Aug 22 reservation; filming resumed). |
 | 2026-08-28 | "Who Owns Your DNA After You Die?" | Posthumous DNA rights: property-ish legal landscape + Astrue v. Capato (verify pre-filming) + clinic consent-form regime + named-successor custody questions + Memory Vault estate parallel. USED. |
+| 2026-09-02 | "Every Lab-Grown Egg Fails at the Same Step" | Meiosis-wall mechanism explainer: Mitalipov mitomeiosis zero-euploid (Nat Commun Sept 2025), Feb 2026 centromere-tethering blocker, 2026 unreviewed-claims reading guide (Conception/Paterna/Gameto with labels), ASRM feasibility line, slow-wall-sudden-crack preserve-now close. USED. Distinct from Aug 20 Gameto IP business story. |
 | 2026-09-01 | "How DNA Sequencing Actually Works (and Why It Keeps Lapping Your Sample)" | Method explainer #2: Sanger → short-read → long-read; lapping thesis; keyhole/confetti/fold analogies. USED. |
 | 2026-08-31 | "What a Polygenic Score Actually Tells You" | PRS method explainer, company-neutral; ancestry-bias + sibling-range + professional-body caveats; score-vs-record close. USED. |
 | 2026-08-30 | "Hair vs Saliva vs Blood: What Actually Survives" | Sample-type stability explainer (24h saliva problem, keratin flip, 2026 Genome Biology rootless-hair peg); same-day cascade from the blog article. USED. |
@@ -46,6 +48,7 @@
 | 2026-08-22 | "Open your camera roll. Count yourself." | Camera-roll audit screen-record (photographer-ghost problem; comment-your-number UGC loop) |
 | 2026-08-23 | "Everything I carry, ranked by how long it outlives me." | EDC pocket-dump flat lay (lifespan chips; kit as the one item carrying YOU; UGC loop) |
 | 2026-08-25 | "The Three-Generation Test" | Outdoor walk-and-talk single-take (great-grandfather challenge; "you're just early" pivot; comment-your-answer UGC loop) |
+| 2026-09-02 | "The Recipe" | Kitchen cooking demo (handwritten recipe card time-lapse; kept-the-output-lost-the-source turn; record-them-making-it + $99/yr close; comment-the-dish UGC loop; Labor Day slot) |
 | 2026-09-01 | "The Address" | Map-zoom custody transparency (county-level reveal, three custody questions, ask-for-their-map UGC loop) |
 | 2026-08-31 | "Answering the Comment" | Comment-reply video format (concede-then-split on the $50k access objection; $99/yr optionality answer) |
 | 2026-08-30 | "The Name Test" | Family-photo identification quiz (dad names faces on camera; record-the-naming Vault fix; score UGC loop) |
@@ -54,6 +57,7 @@
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
+- 2026-09-02: jurisdiction-structure science episode (MRT map-vs-science) · engineering-failure-analysis explainer (meiosis wall) · kitchen cooking-demo evergreen (NEW format)
 - 2026-08-18: news-react podcast · debunk explainer · confessional single-take
 - 2026-08-19: science-story podcast · checklist explainer · archival-read react
 - 2026-08-20: policy-react podcast · follow-the-IP explainer · desk receipt-math demo
