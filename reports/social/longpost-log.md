@@ -44,3 +44,8 @@
 | 35 | 2026-08-31 | The cheapest item in the continuity stack, priced against the rest of it | Cryonics/cord-blood/gametes/digital/DNA-record cost table; honest-ceiling per row (publish = founder call) | Price-table open | Reddit r/transhumanism |
 | 36 | 2026-09-01 | Your genes deal the hand. A 103,649-person study just measured what playing it well is worth. | Sci Adv diet×longevity-genes interplay (1.9-3.0y men / 1.5-2.3y women at 45); meaningful-and-modest thesis; zero product | Card-hand measurement open | X |
 | — | 2026-09-01 | (run note: cron-parity fire 1 day after #31-35; single article + 2 proposed directions; count overridden by zero-repetition rules) | — | — | — |
+| #37 | 2026-09-03 | The $50,000 Menu and the 27-Cent Line | access-gap price-ladder discourse take (Nucleus/Herasight/ASRM receipts) | X |
+| #38 | 2026-09-03 | Eight Babies, Two Rulebooks | Newcastle MRT story + US rider, non-partisan, ZERO product mention | Facebook |
+| #39 | 2026-09-03 | The Most Honest Number in Fertility Tech Is Zero | meiosis-wall explainer (Mitalipov zero-euploid + 2026 claims reading guide) | X |
+| #40 | 2026-09-03 | More Than 80 Percent of Time Capsules Are Never Opened | ITCS loss-rate custody guide, warm FB voice | Facebook |
+| #41 | 2026-09-03 | I priced the entire "leave something of yourself behind" market | full-market cost table, disclosed founder, r/SideProject | Reddit |
