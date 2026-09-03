@@ -69,3 +69,7 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 
 ## Vetted out 2026-09-02
 - C7h2_bSPPjc: Yle Archives tape library, man handling tapes — identifiable profile of an archival-era subject; right-of-publicity risk, killed for paid despite perfect concept fit.
+
+## Vetted out 2026-09-03
+- 2sQWytjcL1o: stacked hard drives — prominent Western Digital labels; brand-risk in paid, killed at vet stage.
+- GkeNEo6WRnA: Samsung T5/Lacie drive stack — same brand-label problem.

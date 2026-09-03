@@ -147,3 +147,13 @@
 | 2026-09-02 (recovery run, lane LIVE) | Ad_AnnualLine_70_9x16 | (adaptation) | Vertical re-layout of 70 |
 | 2026-09-02 (recovery run, lane LIVE) | Ad_TheRecipe_71_9x16 | (adaptation) | Vertical re-layout of 71, headline resized after QC |
 | 2026-09-02 (recovery run, lane LIVE) | Ad_BottomRung_73_9x16 | (adaptation) | Vertical re-layout of 73, crop shifted up |
+| 2026-09-03 (lane LIVE) | Ad_InstitutionLifespan_74 | You're not buying storage. You're buying whether it's still there. | Unsplash photo: lighthouse under starred night sky (Red Zeppelin @redzeppelin) |
+| 2026-09-03 (lane LIVE) | Ad_UnbrokenLine_75 | One ring per year. You're the newest one. | Unsplash photo: tree-ring cross-section macro (Marek Studzinski @jccards) |
+| 2026-09-03 (lane LIVE) | Ad_EligibilityWall_76 | Most preservation has an eligibility screen. | Unsplash photo: brass stanchions + velvet rope (Akshay Chauhan @akshayspaceship) |
+| 2026-09-03 (lane LIVE) | Ad_OneCopy_77 | Most of you exists in one copy. | Unsplash photo: unspooled film tape on dark floor (John Moeses Bauan @johnmoeses) |
+| 2026-09-03 (lane LIVE) | Ad_TwoRulebooks_78 | Same science. Two rulebooks. | Unsplash photo: stamped passport on table (Kit @kit / creator Henry Thong) — ORGANIC-FIRST |
+| 2026-09-03 (lane LIVE) | Ad_NoLobby_79 | No marble lobby. Just custody. | Unsplash photo: ornate palace hall, chandeliers (Baris Sari @barissari) |
+| 2026-09-03 (lane LIVE) | Ad_InstitutionLifespan_74_9x16 | (adaptation) | Vertical re-layout of 74 |
+| 2026-09-03 (lane LIVE) | Ad_EligibilityWall_76_9x16 | (adaptation) | Vertical re-layout of 76 |
+| 2026-09-03 (lane LIVE) | Ad_OneCopy_77_9x16 | (adaptation) | Vertical re-layout of 77 |
+| 2026-09-03 (lane LIVE) | Ad_NoLobby_79_9x16 | (adaptation) | Vertical re-layout of 79 |
