@@ -157,3 +157,13 @@
 | 2026-09-03 (lane LIVE) | Ad_EligibilityWall_76_9x16 | (adaptation) | Vertical re-layout of 76 |
 | 2026-09-03 (lane LIVE) | Ad_OneCopy_77_9x16 | (adaptation) | Vertical re-layout of 77 |
 | 2026-09-03 (lane LIVE) | Ad_NoLobby_79_9x16 | (adaptation) | Vertical re-layout of 79 |
+| 2026-09-04 (lane LIVE) | Ad_MillionAYear_80 | The most exclusive seat in longevity: $1,000,000 a year. | Unsplash photo: empty red theater seats, lit aisle (Felix Mooneeram @felixmooneeram) |
+| 2026-09-04 (lane LIVE) | Ad_LeaveTheFile_81 | Leave the file, not just the logins. | Unsplash photo: hand holding glowing blue sliver in dark (Akshar Dave @akshar_dave; from reserve) |
+| 2026-09-04 (lane LIVE) | Ad_NotTheAverage_82 | Averages describe crowds. You aren't one. | Unsplash photo: b/w aerial crosswalk, harsh shadows (13on @13on) |
+| 2026-09-04 (lane LIVE) | Ad_TwoClocks_83 | Every clock disagrees. The record doesn't. | Unsplash photo: wall of vintage clocks, different times (DAVIDCOHEN @davcohpho) |
+| 2026-09-04 (lane LIVE) | Ad_TwiceAYear_84 | Three generations, one table. It happens twice a year. | Unsplash photo: backyard reunion table, string lights, dusk (Joao Emanuel @jjemanuel) |
+| 2026-09-04 (lane LIVE) | Ad_MillionAYear_80_9x16 | (adaptation) | Vertical re-layout of 80, aisle crop |
+| 2026-09-04 (lane LIVE) | Ad_LeaveTheFile_81_9x16 | (adaptation) | Vertical re-layout of 81 |
+| 2026-09-04 (lane LIVE) | Ad_TwoClocks_83_9x16 | (adaptation) | Vertical re-layout of 83 |
+| 2026-09-04 (lane LIVE) | Ad_TwiceAYear_84_9x16 | (adaptation) | Vertical re-layout of 84 |
+| 2026-09-04 (lane LIVE) | Ad_KeepACopy_68_9x16 | (adaptation) | Vertical of Sep 2 square (P A @listenann), completes concept set |

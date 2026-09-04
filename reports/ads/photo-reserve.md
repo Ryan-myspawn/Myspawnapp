@@ -60,7 +60,6 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 
 ## Restock 2026-09-02 (lane recovery run) — VETTED, unused, available
 - sy90m8Ms3AQ: packed dark bookshelves, Amsterdam. Raw: https://images.unsplash.com/photo-1748682954639-dc25fe7e3a61 (8080w). Haberdoedas (@haberdoedas) https://unsplash.com/photos/bookshelves-with-paintings-and-various-books-sy90m8Ms3AQ — archive/library lane spare.
-- sgNc8aY6Z7E: hands cupping blue glow in dark room. Raw: https://images.unsplash.com/photo-1600856209923-34372e319a5d (2592w). Akshar Dave (@akshar_dave) https://unsplash.com/photos/person-holding-blue-light-in-dark-room-sgNc8aY6Z7E — tech/keeper-of-light lane.
 - DEIp7OQ3dpM: turntable stylus closeup. Raw: https://images.unsplash.com/photo-1573247374056-ba7c8c5ca4fa (5000w). Giorgio Trovato (@giorgiotrovato) https://unsplash.com/photos/a-close-up-of-a-record-players-turntable-DEIp7OQ3dpM — archival-media spare (cooldown vs PrintRun_72's turntable; use only after 7 days).
 - zNQWfic4G70: lone blue ladder against textured concrete wall. Raw: https://images.unsplash.com/photo-1747308534663-1495647523f8 (4619w). Ruben Mavarez (@justalifein) https://unsplash.com/photos/a-tall-ladder-leans-against-a-concrete-wall-zNQWfic4G70 — ladder-lane spare (cooldown vs BottomRung_73).
 - ppZL8a4tMuY: neon red LED ladder on black ("Ladder To Heaven"). Raw: https://images.unsplash.com/photo-1574111831349-b3cdc8b0f695 (6000w). Sudan Ouyang (@sdoy1995) https://unsplash.com/photos/orange-led-ladder-art-ppZL8a4tMuY — striking but red clashes with navy/purple; possible one-off accent concept.
@@ -73,3 +72,10 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 ## Vetted out 2026-09-03
 - 2sQWytjcL1o: stacked hard drives — prominent Western Digital labels; brand-risk in paid, killed at vet stage.
 - GkeNEo6WRnA: Samsung T5/Lacie drive stack — same brand-label problem.
+
+## Consumed 2026-09-04
+- sgNc8aY6Z7E (Akshar Dave) -> Ad_LeaveTheFile_81.
+
+## Vetted out 2026-09-04
+- Metal storage corridor -6I0fI1MqZk NOT out, still banked, but flagged: near-collision with AnnualLine_70's corridor hook; use only after long cooldown and with a clearly distinct composition.
+- qD5Err_lJ5Y fingerprint: 3D render, not photography (mandate violation).
