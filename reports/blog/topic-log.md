@@ -23,9 +23,11 @@
 
 | 2026-09-03 | c | Family Time Capsule Ideas That Actually Get Opened | family-time-capsule-ideas | family time capsule ideas | what to put in a time capsule; digital time capsule; time capsule for kids; how to make a time capsule; video message for the future; family memory preservation |
 
+| 2026-09-04 | d | Genetic Privacy Laws in 2026: What Actually Protects Your DNA Data | genetic-privacy-laws | genetic privacy laws | GINA law explained; is my DNA data protected; 23andMe settlement 2026; state genetic privacy laws; DNA testing privacy rights; genetic discrimination insurance |
+
 ## Queue (next up)
-1. **2026-09-04 · lane (d):** "Genetic Privacy Laws in 2026: What Actually Protects Your DNA Data" — slug `genetic-privacy-laws`, primary "genetic privacy laws" (rank-tracker provisional; GINA gap + state laws; refreshes annually).
-2. **2026-09-05 · lane (e):** "Video Message for an 18th Birthday: How to Record One Worth Waiting For" — slug `video-message-18th-birthday`, primary "video message for 18th birthday" (rank-tracker provisional; Vault lane).
+1. **2026-09-05 · lane (e):** "Video Message for an 18th Birthday: How to Record One Worth Waiting For" — slug `video-message-18th-birthday`, primary "video message for 18th birthday" (rank-tracker provisional; Vault lane).
+2. **2026-09-06 · lane (a):** "Digital Time Capsule: Formats, Storage, and the 50-Year Test" — slug `digital-time-capsule`, primary "digital time capsule" (rank-tracker provisional; archivist-rules cascade from the family-capsule article).
 3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** dna banking cost · cord blood banking alternatives · family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws 2026.
 
 
