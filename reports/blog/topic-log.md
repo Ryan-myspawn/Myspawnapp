@@ -25,9 +25,11 @@
 
 | 2026-09-04 | d | Genetic Privacy Laws in 2026: What Actually Protects Your DNA Data | genetic-privacy-laws | genetic privacy laws | GINA law explained; is my DNA data protected; 23andMe settlement 2026; state genetic privacy laws; DNA testing privacy rights; genetic discrimination insurance |
 
+| 2026-09-05 | e | Video Message for an 18th Birthday: How to Record One Worth Waiting For | video-message-18th-birthday | video message for 18th birthday | video message for future child; legacy video for children; milestone video message; record a video for my kids; time capsule video ideas; what to say in a legacy video |
+
 ## Queue (next up)
-1. **2026-09-05 · lane (e):** "Video Message for an 18th Birthday: How to Record One Worth Waiting For" — slug `video-message-18th-birthday`, primary "video message for 18th birthday" (rank-tracker provisional; Vault lane).
-2. **2026-09-06 · lane (a):** "Digital Time Capsule: Formats, Storage, and the 50-Year Test" — slug `digital-time-capsule`, primary "digital time capsule" (rank-tracker provisional; archivist-rules cascade from the family-capsule article).
+1. **2026-09-06 · lane (a):** "Digital Time Capsule: Formats, Storage, and the 50-Year Test" — slug `digital-time-capsule`, primary "digital time capsule" (rank-tracker provisional; archivist-rules cascade from the family-capsule article).
+2. **2026-09-07 · lane (b):** "Mitochondrial Donation, Explained: The Science Behind the Eight Babies" — slug `mitochondrial-donation-explained`, primary "mitochondrial donation" (cascades this week's MRT research into search; non-partisan science framing).
 3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** dna banking cost · cord blood banking alternatives · family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws 2026.
 
 
