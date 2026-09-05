@@ -167,3 +167,13 @@
 | 2026-09-04 (lane LIVE) | Ad_TwoClocks_83_9x16 | (adaptation) | Vertical re-layout of 83 |
 | 2026-09-04 (lane LIVE) | Ad_TwiceAYear_84_9x16 | (adaptation) | Vertical re-layout of 84 |
 | 2026-09-04 (lane LIVE) | Ad_KeepACopy_68_9x16 | (adaptation) | Vertical of Sep 2 square (P A @listenann), completes concept set |
+| 2026-09-05 (lane LIVE) | Ad_NoReissue_85 | Everything in the glovebox can be reissued. The driver can't. | Unsplash photo: red-lit car instrument cluster (Claude Gabriel @claudegabriel) |
+| 2026-09-05 (lane LIVE) | Ad_DateYourImpossibles_86 | Write down what you think is impossible. Date it. | Unsplash photo: wall-calendar page closeup (Behnam Norouzi @behy_studio) |
+| 2026-09-05 (lane LIVE) | Ad_ArchLock_87 | Arches stand because something locks the middle. | Unsplash photo: receding ancient stone arches (Graphic Node @graphicnode) |
+| 2026-09-05 (lane LIVE) | Ad_TasselMoves_88 | Sealed until the tassel moves. | Unsplash photo: graduation cap mid-air, face-excluding crops (Green Liu @greenliustudio) |
+| 2026-09-05 (lane LIVE) | Ad_BeingEarly_89 | Being early looks like nothing. | Unsplash photo: distant figure on rocky peak at sunset (R_ INVSCIMENTO @r_inascimento) |
+| 2026-09-05 (lane LIVE) | Ad_DateYourImpossibles_86_9x16 | (adaptation) | Vertical re-layout of 86 |
+| 2026-09-05 (lane LIVE) | Ad_ArchLock_87_9x16 | (adaptation) | Vertical re-layout of 87 |
+| 2026-09-05 (lane LIVE) | Ad_TasselMoves_88_9x16 | (adaptation) | Vertical of 88, zoomed cap-only crop after face fix |
+| 2026-09-05 (lane LIVE) | Ad_BeingEarly_89_9x16 | (adaptation) | Vertical re-layout of 89 |
+| 2026-09-05 (lane LIVE) | Ad_UnbrokenLine_75_9x16 | (adaptation) | Vertical of Sep 3 square (Marek Studzinski @jccards), completes concept set |

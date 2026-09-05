@@ -79,3 +79,14 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 ## Vetted out 2026-09-04
 - Metal storage corridor -6I0fI1MqZk NOT out, still banked, but flagged: near-collision with AnnualLine_70's corridor hook; use only after long cooldown and with a clearly distinct composition.
 - qD5Err_lJ5Y fingerprint: 3D render, not photography (mandate violation).
+
+## Restock 2026-09-05 — VETTED, unused, available
+- qnUHDNmrRTo: person on hill with bare trees at sunset (distant, unidentifiable). Raw: https://images.unsplash.com/photo-1773765911824-b1c2aadea65a (6240w). Aaron Simpson (@theaaronsimpson) https://unsplash.com/photos/person-standing-on-a-hill-with-bare-trees-at-sunset-qnUHDNmrRTo — silhouette-lane spare (cooldown vs BeingEarly_89).
+- cPVj7QlcKyM: hand on steering wheel, blue night light. Raw: https://images.unsplash.com/photo-1562618817-253b06cf2b6e (4256w). Randy Tarampi (@randytarampi) https://unsplash.com/photos/persons-hand-on-steering-wheel-cPVj7QlcKyM — car-lane spare (hands only).
+- MyjVReZ5GLQ: light-trail hyperspace through windshield, driver silhouette. Raw: https://images.unsplash.com/photo-1485463611174-f302f6a5c1c9 (5184w). Samuele Errico Piccarini (@samuele_piccarini) https://unsplash.com/photos/time-lapse-photography-of-man-riding-car-MyjVReZ5GLQ — speed/future lane; verify silhouette-only before paid.
+- MGHD8tDpNbA: ancient stone wall with window (Meron synagogue site). Raw: https://images.unsplash.com/photo-1650343301290-e22780fe2609 (4052w). Levi Meir Clancy (@levimeirclancy) https://unsplash.com/photos/a-stone-wall-with-a-window-in-it-MGHD8tDpNbA — endurance-architecture spare (cooldown vs ArchLock_87); religious-site context note: use neutrally or skip.
+- XWTrHfOoMqw: January calendar closeup. Raw: https://images.unsplash.com/photo-1642618598178-52eb00dc544d (3743w). Behnam Norouzi (@behy_studio) https://unsplash.com/photos/a-calendar-with-the-word-jan-on-it-XWTrHfOoMqw — calendar-lane spare (cooldown vs 86; natural New Year fit).
+
+## Vetted out 2026-09-05
+- 4wr9sKfF8Yw: mossy gravestones, Liverpool — legible "SACRED to the memory of..." inscription on a real memorial; unusable in any creative.
+- egeIhNGnI5M: lichen tombstone closeup — same category risk; only bank if a future check confirms zero legible personal text.
