@@ -49,3 +49,8 @@
 | #39 | 2026-09-03 | The Most Honest Number in Fertility Tech Is Zero | meiosis-wall explainer (Mitalipov zero-euploid + 2026 claims reading guide) | X |
 | #40 | 2026-09-03 | More Than 80 Percent of Time Capsules Are Never Opened | ITCS loss-rate custody guide, warm FB voice | Facebook |
 | #41 | 2026-09-03 | I priced the entire "leave something of yourself behind" market | full-market cost table, disclosed founder, r/SideProject | Reddit |
+| #42 | 2026-09-05 | 335 People Were Watched Aging for Eight Years. The Curve Lost. | KCL/Science study explainer, film-vs-photograph hook, ZERO product | X |
+| #43 | 2026-09-05 | Your "Biological Age" Is an Opinion | epigenetic-clock audit, founder-says-so hook, engineer's buying checklist | X |
+| #44 | 2026-09-05 | The Price That Hasn't Moved Since 1976 | CI endowment economics story, year-thirty question close | Facebook |
+| #45 | 2026-09-05 | Five Questions, One Camera, Three Minutes | 18th-birthday video guide (blog cascade), delivery-plan emphasis | Facebook |
+| #46 | 2026-09-05 | Same job, $99/yr to $1,000,000/yr: three pricing lessons | trust-market pricing essay, disclosed founder, r/Entrepreneur | Reddit |
