@@ -177,3 +177,13 @@
 | 2026-09-05 (lane LIVE) | Ad_TasselMoves_88_9x16 | (adaptation) | Vertical of 88, zoomed cap-only crop after face fix |
 | 2026-09-05 (lane LIVE) | Ad_BeingEarly_89_9x16 | (adaptation) | Vertical re-layout of 89 |
 | 2026-09-05 (lane LIVE) | Ad_UnbrokenLine_75_9x16 | (adaptation) | Vertical of Sep 3 square (Marek Studzinski @jccards), completes concept set |
+| 2026-09-06 (lane LIVE) | Ad_PaperProof_90 | America has kept DNA on paper since the sixties. | Unsplash photo: vintage card-catalog drawers (Daniel Brzdek @format_) |
+| 2026-09-06 (lane LIVE) | Ad_BoringBox_91 | The box is boring. On purpose. | Unsplash photo: plain kraft box, darkened (Giorgio Trovato @giorgiotrovato) |
+| 2026-09-06 (lane LIVE) | Ad_MissingLineItem_92 | Your estate plan lists everything you own. Not what you are. | Unsplash photo: hands signing documents, no faces (Romain Dancre @romaindancre) |
+| 2026-09-06 (lane LIVE) | Ad_Echo2126_93 | We built a phone to 2126. | Unsplash photo: antique rotary telephone on navy (Pawel Czerwinski @pawel_czerwinski) — ORGANIC-FIRST; first ECHO creative |
+| 2026-09-06 (lane LIVE) | Ad_QuietDecades_94 | Nothing happens to your sample. That's the product. | Unsplash photo: mirror-still misty lake at dawn (Sami Matias Breilin @samimatias) |
+| 2026-09-06 (lane LIVE) | Ad_PaperProof_90_9x16 | (adaptation) | Vertical re-layout of 90 |
+| 2026-09-06 (lane LIVE) | Ad_Echo2126_93_9x16 | (adaptation) | Vertical of 93, ORGANIC-FIRST inherited |
+| 2026-09-06 (lane LIVE) | Ad_QuietDecades_94_9x16 | (adaptation) | Vertical re-layout of 94 |
+| 2026-09-06 (lane LIVE) | Ad_NotTheAverage_82_9x16 | (adaptation) | Vertical of Sep 4 square (13on @13on), completes set |
+| 2026-09-06 (lane LIVE) | Ad_NoReissue_85_9x16 | (adaptation) | Vertical of Sep 5 square (Claude Gabriel @claudegabriel), completes set |
