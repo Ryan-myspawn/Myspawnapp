@@ -34,3 +34,12 @@ Next important date: GTA6 Extended Look premiere, Aug 28 00:30 IST (Aug27 3pm ET
 - CREATED: [MySpawn] Shoot block Mon Aug 31 11:00 IST (timer demo + Name Test) · [MySpawn] Shoot block Tue Sep 1 11:00 IST (math-flipped whiteboard + Priced-at-Birth cold open; CBR promo-line staleness noted).
 - Hard pegs: none in the 21-day window (GTA6 Nov 19 out of range; VIBRANT "concludes September" has no date yet — no speculative event created, will peg when a date lands). Pentagon Sept 14: retired lane; confirmed NO event exists, nothing to delete.
 - Removed: none.
+
+## 2026-09-06 (weekly run) — BLOCKED
+- Google Calendar connector unauthorized (down since ~Aug 31; day 7). No events read, created, updated, or removed. Gmail also down: no email.
+- RECONCILIATION PLAN for the first authorized run:
+  1. DELETE any existing "[MySpawn]" event for the Pentagon fertility benefit (Sept 14) — that peg was CANCELLED by the 2026-08-21 founder content rules; if the old event survives from the Aug 17-23 era, it must come off the calendar.
+  2. CREATE shoot blocks (45 min, 11:00 IST) for weekdays with queued assets — current backlog justifies Mon-Fri blocks all week (~10 unshot scripts; priority order per scripts-2026-09-05-pm plan: Recipe/deadline items first, then timer + coins desk session, 335 Women, Glovebox, Log Book, Boring Unboxing).
+  3. VERIFY weekly anchors exist: "Approve partner outreach" (Tue evening IST), "Send newsletter" (Fri morning IST).
+  4. ADD watch notes (all-day tentative events): "VIBRANT completion window" (September, registry-confirmed; readout day = episode day) and "Vitara IDE decision watch" (no date; create only when a date lands).
+  5. Labor Day (Mon Sep 7) posting slots are in the PM plans; no calendar event needed unless the founder wants posting reminders as events (ask in the first digest after Gmail returns).
