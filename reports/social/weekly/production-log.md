@@ -69,7 +69,7 @@
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
-- 2026-09-06: governance-synthesis episode (four locks) · storage-engineering explainer (ambient vs frozen) · deadpan kit unboxing (NEW format)
+- 2026-09-06: governance-synthesis episode (four locks) · storage-engineering explainer (ambient vs frozen) · deadpan kit unboxing (NEW format) · (Content Factory PM) estate-checklist desk document-audit demo (format lineage Aug 20, outside window) + 3 X drafts + 2 Threads posts
 - 2026-09-05: rescue-engineering episode (The Bag) · paternal-clock audit explainer · parked-car glovebox monologue (NEW format)
 - 2026-09-04: study-deep-dive episode (End of the Average) · consumer-test audit explainer (bio-age clocks) · garage-gym logbook monologue (NEW format)
 - 2026-09-03: custody-economics episode (cryonics price spread) · second-genome biology explainer · flatbed-scanner rescue demo (NEW format)
@@ -94,6 +94,7 @@
 ## Content Factory scripts (short-form; separate from Deep Production episodes above)
 | Date | Title | Core material |
 |---|---|---|
+| 2026-09-06 (PM) | "The Missing Line Item" | Estate-checklist desk audit (same-day cascade of Ad_MissingLineItem_92; every-line-is-a-thing turn; add-the-line close; not-legal-advice stated; folder UGC loop). USED. |
 | 2026-08-26 | "For the First Time in 14 Years" | ASRM's 2026 recurrent pregnancy loss committee opinion (first revision since 2012) — sperm DNA fragmentation testing "may be considered" for unexplained recurrent miscarriage; storage-only boundary stated explicitly. USED. |
 | 2026-08-26 | "Someone Finished the Puzzle" | T2T Consortium complete diploid human genome benchmark (*Cell*, Aug 2026) — 99.4% accuracy, +700M base pairs, both sex chromosomes; "tools improve, sample doesn't wait" thesis. USED. |
 | 2026-09-01 (PM) | "The Cover Story" | NatGeo Sept-issue ending-aging feature as magazine-in-hand hype-check react (real-vs-experimental labels; if→who pivot; zero longevity claims). USED. |
