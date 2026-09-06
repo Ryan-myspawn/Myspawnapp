@@ -27,9 +27,11 @@
 
 | 2026-09-05 | e | Video Message for an 18th Birthday: How to Record One Worth Waiting For | video-message-18th-birthday | video message for 18th birthday | video message for future child; legacy video for children; milestone video message; record a video for my kids; time capsule video ideas; what to say in a legacy video |
 
+| 2026-09-06 | a | Digital Time Capsule: How to Build One That Passes the 50-Year Test | digital-time-capsule | digital time capsule | how long do CDs last; best file formats for archiving; digital time capsule app; preserve digital photos long term; 3-2-1 backup rule; future proof file storage |
+
 ## Queue (next up)
-1. **2026-09-06 · lane (a):** "Digital Time Capsule: Formats, Storage, and the 50-Year Test" — slug `digital-time-capsule`, primary "digital time capsule" (rank-tracker provisional; archivist-rules cascade from the family-capsule article).
-2. **2026-09-07 · lane (b):** "Mitochondrial Donation, Explained: The Science Behind the Eight Babies" — slug `mitochondrial-donation-explained`, primary "mitochondrial donation" (cascades this week's MRT research into search; non-partisan science framing).
+1. **2026-09-07 · lane (b):** "Mitochondrial Donation, Explained: The Science Behind the Eight Babies" — slug `mitochondrial-donation-explained`, primary "mitochondrial donation" (cascades this week's MRT research into search; non-partisan science framing).
+2. **2026-09-08 · lane (c):** "What to Leave Your Grandchildren (Besides Money): A Practical Inventory" — slug `what-to-leave-grandchildren`, primary "what to leave grandchildren" (legacy-planning lane; inventory format).
 3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** dna banking cost · cord blood banking alternatives · family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws 2026.
 
 
