@@ -32,7 +32,7 @@
 ## Queue (next up)
 1. **2026-09-07 · lane (b):** "Mitochondrial Donation, Explained: The Science Behind the Eight Babies" — slug `mitochondrial-donation-explained`, primary "mitochondrial donation" (cascades this week's MRT research into search; non-partisan science framing).
 2. **2026-09-08 · lane (c):** "What to Leave Your Grandchildren (Besides Money): A Practical Inventory" — slug `what-to-leave-grandchildren`, primary "what to leave grandchildren" (legacy-planning lane; inventory format).
-3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** dna banking cost · cord blood banking alternatives · family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws 2026.
+3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** cord blood banking alternatives (only one still open). CONSUMED since: family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws (articles shipped Sep 2-6); dna banking cost predates. Rank tracker 2026-09-07: units still exhausted — NO new keywords added (won't stack unverified guesses two weeks running).
 
 
 Note 2026-08-25: the `23andme-alternative` article (queued for Aug 24, skipped in the processing gap) was written today instead with a fresher peg (July 14, 2026 multistate settlement); the queue shifts one day. PRICING: all articles from today forward use $99/year (annual fee) — the pre-Aug-25 archive still contains the old one-time framing and needs a correction pass before republishing/promotion (founder to confirm which articles are live).
