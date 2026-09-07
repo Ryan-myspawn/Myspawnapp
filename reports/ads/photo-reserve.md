@@ -11,6 +11,13 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | ZItSayD_b9Y | Antique pocket watch on old machine; timepiece cooldown (Ad_WatchOutlasts_53 was Aug 27) | Mateusz Matusiak (@50mm_matt) | https://unsplash.com/photos/a-clock-on-a-stand-ZItSayD_b9Y | https://images.unsplash.com/photo-1658392857170-4e94afb8dab0 | 2644x4000 |
 | FqRrkRsmDwM | Moody lab room with hanging white coats; no faces | Brooke Balentine (@brookebalentine) | https://unsplash.com/photos/a-laboratory-is-empty-with-a-hanging-lab-coat-FqRrkRsmDwM | https://images.unsplash.com/photo-1748404456463-16144dcc6181 | 3648x5472 |
 
+| nBLaH3a12yM | Date palms in desert, portrait, warm | Muhammad Irfan Baloch (@wizbaloch) | https://unsplash.com/photos/a-palm-tree-in-a-desert-nBLaH3a12yM | https://images.unsplash.com/photo-1669921884090-5cee73bab3ef | 3215x4289 |
+| uNnN7IBN9As | Svalbard mountain range, bright, needs tint | Fredrik Solli Wandem (@fredrikwandem) | https://unsplash.com/photos/a-snowy-mountain-range-uNnN7IBN9As | https://images.unsplash.com/photo-1661511762608-fda6b7b45f18 | 5844x3126 |
+| K0F6wg-FCJ8 | Arctic snow mountains over calm sea | Gunnar Ridderstrom (@gunnarridder) | https://unsplash.com/photos/snow-covered-mountains-rise-above-a-calm-blue-sea-K0F6wg-FCJ8 | https://images.unsplash.com/photo-1766699623785-b5926d185cc7 | 6000x4000 |
+| 3XqmItLi1xQ | Marshland winding waterways aerial | Iain (@photoken123) | https://unsplash.com/photos/aerial-view-of-marshland-with-winding-waterways-3XqmItLi1xQ | https://images.unsplash.com/photo-1775866542374-49dfd5f7aa78 | 4032x2268 |
+| V44Z2MmchVA | Old books, inkwell, compass, pen; dark archival desk | Subhajit Saha Photography (@subhajit_saha_photography) | https://unsplash.com/photos/old-books-inkwell-compass-and-pen-on-a-wooden-desk-V44Z2MmchVA | https://images.unsplash.com/photo-1780171865622-f6391f2f7397 | 3956x5933 |
+| GWYhxTYDAJk | Candlelit dark table, moody red-black | serasena (@sefranico) | https://unsplash.com/photos/a-table-with-a-lit-candle-on-top-of-it-GWYhxTYDAJk | https://images.unsplash.com/photo-1729556744916-9e684b7abdd1 | 6000x4000 |
+
 ## UNVETTED (from Aug 27 search catalog — alt text only, verify pixels before use)
 | ID | Alt text | Photographer | Raw URL | WxH |
 |---|---|---|---|---|

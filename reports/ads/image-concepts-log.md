@@ -187,3 +187,13 @@
 | 2026-09-06 (lane LIVE) | Ad_QuietDecades_94_9x16 | (adaptation) | Vertical re-layout of 94 |
 | 2026-09-06 (lane LIVE) | Ad_NotTheAverage_82_9x16 | (adaptation) | Vertical of Sep 4 square (13on @13on), completes set |
 | 2026-09-06 (lane LIVE) | Ad_NoReissue_85_9x16 | (adaptation) | Vertical of Sep 5 square (Claude Gabriel @claudegabriel), completes set |
+| 2026-09-07 (lane LIVE) | Ad_UnlockDate_95 | Opens June 12, 2033. Not one morning sooner. | Unsplash photo: hand holding glowing phone edge in dark (Akshar Dave @akshar_dave) |
+| 2026-09-07 (lane LIVE) | Ad_OffTheTape_96 | The questions don't stop where the tape does. | Unsplash photo: tape-measure macro on wood (Mark Owen Wilkinson Hughes @markowihu) |
+| 2026-09-07 (lane LIVE) | Ad_TwoThousandYears_97 | A seed waited 2,000 years. Then it grew. | Unsplash photo: lone tree in Sahara dunes (Sergey Pesterev @sickle) |
+| 2026-09-07 (lane LIVE) | Ad_ByDesign_98 | 1,401,285 seeds survive by design. | Unsplash photo: Longyearbyen night valley (Himmel S @skyhung1228) |
+| 2026-09-07 (lane LIVE) | Ad_FourQuestions_99 | Ask any DNA vault four questions. Ours included. | Unsplash photo: hand with pen under desk light (Amr Taha @amr_taha) |
+| 2026-09-07 (lane LIVE) | Ad_SecondGenome_100 | You carry a second genome. It has no paper trail. | Unsplash photo: Saloum Delta branching channels aerial (Curioso Photography @curioso) |
+| 2026-09-07 (lane LIVE) | Ad_UnlockDate_95_9x16 | (adaptation) | Vertical of 95 |
+| 2026-09-07 (lane LIVE) | Ad_TwoThousandYears_97_9x16 | (adaptation) | Vertical of 97, tree-keeping re-crop |
+| 2026-09-07 (lane LIVE) | Ad_ByDesign_98_9x16 | (adaptation) | Vertical of 98 |
+| 2026-09-07 (lane LIVE) | Ad_SecondGenome_100_9x16 | (adaptation) | Vertical of 100 |
