@@ -54,3 +54,9 @@
 | #44 | 2026-09-05 | The Price That Hasn't Moved Since 1976 | CI endowment economics story, year-thirty question close | Facebook |
 | #45 | 2026-09-05 | Five Questions, One Camera, Three Minutes | 18th-birthday video guide (blog cascade), delivery-plan emphasis | Facebook |
 | #46 | 2026-09-05 | Same job, $99/yr to $1,000,000/yr: three pricing lessons | trust-market pricing essay, disclosed founder, r/Entrepreneur | Reddit |
+| #47 | 2026-09-07 | Your Sperm Cells Are Competing. Some of the Winners Are Cheating. | Nature Oct 2025 germline clonal-selection explainer, ZERO product (gamete rail) | tournament-inside-you open | X |
+| #48 | 2026-09-07 | The Most Complete Estate Plan in America Still Transmits Zero Percent of the Person | will-checklist bug essay w/ 2026 survey numbers, founder-disclosed | survey-numbers-then-bug-report open | X |
+| #49 | 2026-09-07 | We Deliberately Don't Freeze Your DNA. Here's the Study That Says We're Right. | ambient-vs-frozen chemistry (NAR Mol Med + Guthrie receipts), against-interest confession | confession-against-interest open | X |
+| #50 | 2026-09-07 | The Ten-Minute Archive You Can Build at a Labor Day Table | holiday at-the-gathering micro-checklist, warm FB | phone-face-down-at-the-table open | Facebook |
+| #51 | 2026-09-07 | The best-preserved cells in your body use a low-power mode, not a freezer | EMBO J egg-dormancy stasis engineering, ZERO product, r/transhumanism | engineering-spec open | Reddit |
+| — | 2026-09-07 | (run note: Guthrie-custody piece KILLED pre-write — retired government-biobank lane) | — | — | — |
