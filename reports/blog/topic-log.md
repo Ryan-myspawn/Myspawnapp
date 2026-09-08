@@ -31,9 +31,11 @@
 
 | 2026-09-07 | b | Mitochondrial Donation, Explained: The Science Behind the Eight Babies | mitochondrial-donation-explained | mitochondrial donation | three parent baby; mitochondrial replacement therapy; is mitochondrial donation legal in the US; Maeve's Law Australia; mitochondrial disease inheritance; pronuclear transfer |
 
+| 2026-09-08 | c | What to Leave Your Grandchildren (Besides Money): A Practical Inventory | what-to-leave-grandchildren | what to leave grandchildren | legacy for grandchildren; what to leave behind besides money; great wealth transfer 2026; family health history; heirlooms nobody wants; recording grandparents stories |
+
 ## Queue (next up)
-1. **2026-09-08 · lane (c):** "What to Leave Your Grandchildren (Besides Money): A Practical Inventory" — slug `what-to-leave-grandchildren`, primary "what to leave grandchildren" (legacy-planning lane; inventory format).
-2. **2026-09-09 · lane (d):** "Cord Blood Banking Alternatives: What Else Can You Preserve (and What It Costs)" — slug `cord-blood-banking-alternatives`, primary "cord blood banking alternatives" (from rank tracker; pricing research on file from Aug 30 dive; verify volumes when Semrush returns).
+1. **2026-09-09 · lane (d):** "Cord Blood Banking Alternatives: What Else Can You Preserve (and What It Costs)" — slug `cord-blood-banking-alternatives`, primary "cord blood banking alternatives" (from rank tracker; pricing research on file from Aug 30 dive; verify volumes when Semrush returns).
+2. **2026-09-10 · lane (e):** "Legacy Planning for Men in Their 30s: What Actually Matters Before 40" — slug `legacy-planning-men-30s`, primary "legacy planning for men" (audience-specific lane, uncovered).
 3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** cord blood banking alternatives (only one still open). CONSUMED since: family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws (articles shipped Sep 2-6); dna banking cost predates. Rank tracker 2026-09-07: units still exhausted — NO new keywords added (won't stack unverified guesses two weeks running).
 
 
