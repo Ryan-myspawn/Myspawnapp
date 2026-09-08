@@ -9,7 +9,6 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | TYePDqiRIpQ | Dark bottle pouring into flask, deep teal lab macro; no people | Bekzat Tanatar (@typerpng) | https://unsplash.com/photos/clear-glass-bottle-on-white-table-TYePDqiRIpQ | https://images.unsplash.com/photo-1631106321638-d94d9a8f3e1f | 3456x4608 |
 | v41sgDGz4ik | Bright modern lab, glassware shelves; small figures distant; needs heavy tint | Chidera Faustina Okeke (@thefourthwxll) | https://unsplash.com/photos/laboratory-shelves-filled-with-glassware-and-equipment-v41sgDGz4ik | https://images.unsplash.com/photo-1766297247072-93fd815afef3 | 4000x6000 |
 | ZItSayD_b9Y | Antique pocket watch on old machine; timepiece cooldown (Ad_WatchOutlasts_53 was Aug 27) | Mateusz Matusiak (@50mm_matt) | https://unsplash.com/photos/a-clock-on-a-stand-ZItSayD_b9Y | https://images.unsplash.com/photo-1658392857170-4e94afb8dab0 | 2644x4000 |
-| FqRrkRsmDwM | Moody lab room with hanging white coats; no faces | Brooke Balentine (@brookebalentine) | https://unsplash.com/photos/a-laboratory-is-empty-with-a-hanging-lab-coat-FqRrkRsmDwM | https://images.unsplash.com/photo-1748404456463-16144dcc6181 | 3648x5472 |
 
 | nBLaH3a12yM | Date palms in desert, portrait, warm | Muhammad Irfan Baloch (@wizbaloch) | https://unsplash.com/photos/a-palm-tree-in-a-desert-nBLaH3a12yM | https://images.unsplash.com/photo-1669921884090-5cee73bab3ef | 3215x4289 |
 | uNnN7IBN9As | Svalbard mountain range, bright, needs tint | Fredrik Solli Wandem (@fredrikwandem) | https://unsplash.com/photos/a-snowy-mountain-range-uNnN7IBN9As | https://images.unsplash.com/photo-1661511762608-fda6b7b45f18 | 5844x3126 |
@@ -17,6 +16,10 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | 3XqmItLi1xQ | Marshland winding waterways aerial | Iain (@photoken123) | https://unsplash.com/photos/aerial-view-of-marshland-with-winding-waterways-3XqmItLi1xQ | https://images.unsplash.com/photo-1775866542374-49dfd5f7aa78 | 4032x2268 |
 | V44Z2MmchVA | Old books, inkwell, compass, pen; dark archival desk | Subhajit Saha Photography (@subhajit_saha_photography) | https://unsplash.com/photos/old-books-inkwell-compass-and-pen-on-a-wooden-desk-V44Z2MmchVA | https://images.unsplash.com/photo-1780171865622-f6391f2f7397 | 3956x5933 |
 | GWYhxTYDAJk | Candlelit dark table, moody red-black | serasena (@sefranico) | https://unsplash.com/photos/a-table-with-a-lit-candle-on-top-of-it-GWYhxTYDAJk | https://images.unsplash.com/photo-1729556744916-9e684b7abdd1 | 6000x4000 |
+
+| Sxs2E3QYoJ4 | Antique printing-press trays full of metal type | Fabian Kleiser (@fabiankleiser) | https://unsplash.com/photos/antique-printing-press-trays-filled-with-metal-type-Sxs2E3QYoJ4 | https://images.unsplash.com/photo-1777621543796-f6c62717d932 | 6000x4000 |
+| keS16pDFiCM | Store aisle, yellow/red goods, portrait orientation | Oxana Melis (@oksdesign) | https://unsplash.com/photos/a-store-aisle-filled-with-lots-of-yellow-and-red-items-keS16pDFiCM | https://images.unsplash.com/photo-1631856956423-2b95dae0ba74 | 5304x7952 |
+| ewRSEBHyO_c | Hands writing on paper, warm desk (crop excludes face) | Kateryna Hliznitsova (@kate_gliz) | https://unsplash.com/photos/woman-in-white-long-sleeve-shirt-writing-on-white-paper-ewRSEBHyO_c | https://images.unsplash.com/photo-1616740795271-abd6ce1a5a5a | 3982x5564 |
 
 ## UNVETTED (from Aug 27 search catalog — alt text only, verify pixels before use)
 | ID | Alt text | Photographer | Raw URL | WxH |

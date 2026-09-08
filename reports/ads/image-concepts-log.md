@@ -197,3 +197,13 @@
 | 2026-09-07 (lane LIVE) | Ad_TwoThousandYears_97_9x16 | (adaptation) | Vertical of 97, tree-keeping re-crop |
 | 2026-09-07 (lane LIVE) | Ad_ByDesign_98_9x16 | (adaptation) | Vertical of 98 |
 | 2026-09-07 (lane LIVE) | Ad_SecondGenome_100_9x16 | (adaptation) | Vertical of 100 |
+| 2026-09-08 (lane LIVE) | Ad_ZeroHabits_101 | Zero daily habits required. | Unsplash photo: moody empty lab, hanging white coat (Brooke Balentine @brookebalentine) |
+| 2026-09-08 (lane LIVE) | Ad_AisleSeven_102 | An entire aisle for replaceable things. | Unsplash photo: hardware-store aisle (Oxana Melis @oksdesign) |
+| 2026-09-08 (lane LIVE) | Ad_InheritNothing_103 | Half of Americans would rather inherit nothing. | Unsplash photo: warehouse shelves of boxes (Rana Kaname @cybermacha) |
+| 2026-09-08 (lane LIVE) | Ad_EightLetters_104 | Four letters, four billion years. Last week: eight. | Unsplash photo: antique letterpress type blocks (Declan Sun @declansun) |
+| 2026-09-08 (lane LIVE) | Ad_NoReissue_105 | Everything on this hook can be cut again. | Unsplash photo: keys on hooks, dark (Nathan Dumlao @nate_dumlao) |
+| 2026-09-08 (lane LIVE) | Ad_WeCorrected_106 | Today we corrected our own forecast. | Unsplash photo: red pen over blank notebook (Kelly Sikkema @kellysikkema) |
+| 2026-09-08 (lane LIVE) | Ad_ZeroHabits_101_9x16 | (adaptation) | Vertical of 101 |
+| 2026-09-08 (lane LIVE) | Ad_InheritNothing_103_9x16 | (adaptation) | Vertical of 103 |
+| 2026-09-08 (lane LIVE) | Ad_EightLetters_104_9x16 | (adaptation) | Vertical of 104 |
+| 2026-09-08 (lane LIVE) | Ad_NoReissue_105_9x16 | (adaptation) | Vertical of 105, fob-safe re-crop |
