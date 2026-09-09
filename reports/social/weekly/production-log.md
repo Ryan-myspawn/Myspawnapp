@@ -56,6 +56,7 @@
 | 2026-08-22 | "Open your camera roll. Count yourself." | Camera-roll audit screen-record (photographer-ghost problem; comment-your-number UGC loop) |
 | 2026-08-23 | "Everything I carry, ranked by how long it outlives me." | EDC pocket-dump flat lay (lifespan chips; kit as the one item carrying YOU; UGC loop) |
 | 2026-08-25 | "The Three-Generation Test" | Outdoor walk-and-talk single-take (great-grandfather challenge; "you're just early" pivot; comment-your-answer UGC loop) |
+| 2026-09-09 | "We Published the Wrong Number" | Correction react to an external methods challenge on our own Aug 23 fertility-gap claim (ideal vs desired vs expected; PDR survey-design paper; Gallup verbatim; TFR-comparison error; what survives) + "What Happens to Your Sample When the Company Gets Sold" custody explainer + "The Saved Voicemail" audio-led evergreen |
 | 2026-09-08 | "The Trial That Hasn't Finished" | Clinical-trial media-literacy episode (VIBRANT downgrade as the case; registry status vs completion date; pilot-vs-readout; five-step check; why a storage company teaches distrust) + "Life Uses Four Letters, An Enzyme Just Read Eight" hachimoji explainer + "Aisle Seven" retail-aisle evergreen |
 | 2026-09-07 | "Nothing Alive Should Last This Long" | Dormancy-engineering synthesis episode (Methuselah/lotus/EMBO egg/Svalbard 1.4M; viability-vs-information; custody-by-design close) + "How to Audit a Biobank" governance explainer + "The Tape Measure" prop-demo evergreen |
 | 2026-09-06 | "The Most Boring Unboxing on the Internet" | Deadpan kit unboxing (anti-hype; the-interesting-part-is-institutional turn; over-packaged UGC loop) |
@@ -71,6 +72,7 @@
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
+- 2026-09-09: correction-react episode (external challenge to our own claim, NEW) · corporate-continuity custody explainer (NEW) · audio-led voicemail evergreen (NEW format)
 - 2026-09-08: clinical-trial media-literacy episode (NEW lane) · synthetic-biology explainer (hachimoji, long-form cascade) · retail-aisle walk evergreen (NEW format)
 - 2026-09-07: dormancy-synthesis science episode · governance/accreditation-audit explainer (NEW lane) · tape-measure prop-demo evergreen (NEW format)
 - 2026-09-06: governance-synthesis episode (four locks) · storage-engineering explainer (ambient vs frozen) · deadpan kit unboxing (NEW format) · (Content Factory PM) estate-checklist desk document-audit demo (format lineage Aug 20, outside window) + 3 X drafts + 2 Threads posts
