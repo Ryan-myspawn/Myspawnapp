@@ -207,3 +207,13 @@
 | 2026-09-08 (lane LIVE) | Ad_InheritNothing_103_9x16 | (adaptation) | Vertical of 103 |
 | 2026-09-08 (lane LIVE) | Ad_EightLetters_104_9x16 | (adaptation) | Vertical of 104 |
 | 2026-09-08 (lane LIVE) | Ad_NoReissue_105_9x16 | (adaptation) | Vertical of 105, fob-safe re-crop |
+| 2026-09-09 (lane LIVE) | Ad_ThreeWords_107 | Ideal. Desired. Expected. | Unsplash photo: hand writing in notebook, face-excluded crop (Kateryna Hliznitsova @kate_gliz) |
+| 2026-09-09 (lane LIVE) | Ad_TransferOfOwnership_108 | Every storage company eventually gets sold. | Unsplash photo: empty office interior (Sergei Wing @sergeiwing) |
+| 2026-09-09 (lane LIVE) | Ad_OnlyCopy_109 | The only copy of you that will ever exist. | Unsplash photo: dark liquid poured into flask (Bekzat Tanatar @typerpng) |
+| 2026-09-09 (lane LIVE) | Ad_LastPerson_110 | We are the last people you should trust on this number. | Unsplash photo: microphone under warm light (dlxmedia.hu @dlxmedia) |
+| 2026-09-09 (lane LIVE) | Ad_OneIn2700_111 | 1 in 2,700. | Unsplash photo: old books, inkwell, compass (Subhajit Saha @subhajit_saha_photography) — BLOG-ROUTING ONLY |
+| 2026-09-09 (lane LIVE) | Ad_NotAPrediction_112 | 1,260 genes for personality. You are still not a prediction. | Unsplash photo: long-exposure crosswalk crowd (mauro mora @mauromora) |
+| 2026-09-09 (lane LIVE) | Ad_ThreeWords_107_9x16 | (adaptation) | Vertical of 107 |
+| 2026-09-09 (lane LIVE) | Ad_OnlyCopy_109_9x16 | (adaptation) | Vertical of 109 |
+| 2026-09-09 (lane LIVE) | Ad_LastPerson_110_9x16 | (adaptation) | Vertical of 110 |
+| 2026-09-09 (lane LIVE) | Ad_NotAPrediction_112_9x16 | (adaptation) | Vertical of 112, crowd-filling re-crop |

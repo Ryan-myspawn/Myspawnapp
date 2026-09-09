@@ -6,7 +6,6 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | ID | Subject note | Photographer | Page | Raw URL | WxH |
 |---|---|---|---|---|---|
 | ECJEr6N3ISo | Man in dark airplane seat by window; semi-profile visible — likely organic-only | Ehud Neuhaus (@paramir) | https://unsplash.com/photos/man-sitting-on-airplane-seat-ECJEr6N3ISo | https://images.unsplash.com/photo-1545668887-5884d6085d50 | 4912x7360 |
-| TYePDqiRIpQ | Dark bottle pouring into flask, deep teal lab macro; no people | Bekzat Tanatar (@typerpng) | https://unsplash.com/photos/clear-glass-bottle-on-white-table-TYePDqiRIpQ | https://images.unsplash.com/photo-1631106321638-d94d9a8f3e1f | 3456x4608 |
 | v41sgDGz4ik | Bright modern lab, glassware shelves; small figures distant; needs heavy tint | Chidera Faustina Okeke (@thefourthwxll) | https://unsplash.com/photos/laboratory-shelves-filled-with-glassware-and-equipment-v41sgDGz4ik | https://images.unsplash.com/photo-1766297247072-93fd815afef3 | 4000x6000 |
 | ZItSayD_b9Y | Antique pocket watch on old machine; timepiece cooldown (Ad_WatchOutlasts_53 was Aug 27) | Mateusz Matusiak (@50mm_matt) | https://unsplash.com/photos/a-clock-on-a-stand-ZItSayD_b9Y | https://images.unsplash.com/photo-1658392857170-4e94afb8dab0 | 2644x4000 |
 
@@ -14,12 +13,14 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | uNnN7IBN9As | Svalbard mountain range, bright, needs tint | Fredrik Solli Wandem (@fredrikwandem) | https://unsplash.com/photos/a-snowy-mountain-range-uNnN7IBN9As | https://images.unsplash.com/photo-1661511762608-fda6b7b45f18 | 5844x3126 |
 | K0F6wg-FCJ8 | Arctic snow mountains over calm sea | Gunnar Ridderstrom (@gunnarridder) | https://unsplash.com/photos/snow-covered-mountains-rise-above-a-calm-blue-sea-K0F6wg-FCJ8 | https://images.unsplash.com/photo-1766699623785-b5926d185cc7 | 6000x4000 |
 | 3XqmItLi1xQ | Marshland winding waterways aerial | Iain (@photoken123) | https://unsplash.com/photos/aerial-view-of-marshland-with-winding-waterways-3XqmItLi1xQ | https://images.unsplash.com/photo-1775866542374-49dfd5f7aa78 | 4032x2268 |
-| V44Z2MmchVA | Old books, inkwell, compass, pen; dark archival desk | Subhajit Saha Photography (@subhajit_saha_photography) | https://unsplash.com/photos/old-books-inkwell-compass-and-pen-on-a-wooden-desk-V44Z2MmchVA | https://images.unsplash.com/photo-1780171865622-f6391f2f7397 | 3956x5933 |
 | GWYhxTYDAJk | Candlelit dark table, moody red-black | serasena (@sefranico) | https://unsplash.com/photos/a-table-with-a-lit-candle-on-top-of-it-GWYhxTYDAJk | https://images.unsplash.com/photo-1729556744916-9e684b7abdd1 | 6000x4000 |
 
 | Sxs2E3QYoJ4 | Antique printing-press trays full of metal type | Fabian Kleiser (@fabiankleiser) | https://unsplash.com/photos/antique-printing-press-trays-filled-with-metal-type-Sxs2E3QYoJ4 | https://images.unsplash.com/photo-1777621543796-f6c62717d932 | 6000x4000 |
 | keS16pDFiCM | Store aisle, yellow/red goods, portrait orientation | Oxana Melis (@oksdesign) | https://unsplash.com/photos/a-store-aisle-filled-with-lots-of-yellow-and-red-items-keS16pDFiCM | https://images.unsplash.com/photo-1631856956423-2b95dae0ba74 | 5304x7952 |
-| ewRSEBHyO_c | Hands writing on paper, warm desk (crop excludes face) | Kateryna Hliznitsova (@kate_gliz) | https://unsplash.com/photos/woman-in-white-long-sleeve-shirt-writing-on-white-paper-ewRSEBHyO_c | https://images.unsplash.com/photo-1616740795271-abd6ce1a5a5a | 3982x5564 |
+
+| 0Bt_3aHVB6w | Empty office interior, columns, grey light | Sergei Wing (@sergeiwing) | https://unsplash.com/photos/empty-brown-and-white-building-0Bt_3aHVB6w | https://images.unsplash.com/photo-1564605503978-7650b149b9c0 | 6000x4000 |
+| N6jxoR1PcbE | Microphone mesh head, warm light, dark ground | dlxmedia.hu (@dlxmedia) | https://unsplash.com/photos/microphone-with-yellow-light-N6jxoR1PcbE | https://images.unsplash.com/photo-1745848413113-4f39bdad5769 | 6960x4640 |
+| 31-pOduwZGE | Long-exposure crosswalk crowd, no identifiable faces | mauro mora (@mauromora) | https://unsplash.com/photos/timelapse-photo-of-people-passing-the-street-31-pOduwZGE | https://images.unsplash.com/photo-1461088945293-0c17689e48ac | 5016x3343 |
 
 ## UNVETTED (from Aug 27 search catalog — alt text only, verify pixels before use)
 | ID | Alt text | Photographer | Raw URL | WxH |
