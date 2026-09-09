@@ -33,9 +33,11 @@
 
 | 2026-09-08 | c | What to Leave Your Grandchildren (Besides Money): A Practical Inventory | what-to-leave-grandchildren | what to leave grandchildren | legacy for grandchildren; what to leave behind besides money; great wealth transfer 2026; family health history; heirlooms nobody wants; recording grandparents stories |
 
+| 2026-09-09 | d | Cord Blood Banking Alternatives: What Else You Can Preserve, and What It Costs | cord-blood-banking-alternatives | cord blood banking alternatives | cord blood banking cost 2026; is cord blood banking worth it; public cord blood donation; cord tissue banking; AAP cord blood recommendation; what to preserve at birth |
+
 ## Queue (next up)
-1. **2026-09-09 · lane (d):** "Cord Blood Banking Alternatives: What Else Can You Preserve (and What It Costs)" — slug `cord-blood-banking-alternatives`, primary "cord blood banking alternatives" (from rank tracker; pricing research on file from Aug 30 dive; verify volumes when Semrush returns).
-2. **2026-09-10 · lane (e):** "Legacy Planning for Men in Their 30s: What Actually Matters Before 40" — slug `legacy-planning-men-30s`, primary "legacy planning for men" (audience-specific lane, uncovered).
+1. **2026-09-10 · lane (e):** "Legacy Planning for Men in Their 30s: What Actually Matters Before 40" — slug `legacy-planning-men-30s`, primary "legacy planning for men" (audience-specific lane, uncovered).
+2. **2026-09-11 · lane (a):** "How to Collect a DNA Sample at Home (and What Ruins One)" — slug `collect-dna-sample-at-home`, primary "how to collect dna sample at home" (preservation how-to lane, uncovered; pairs with best-dna-sample-type).
 3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** cord blood banking alternatives (only one still open). CONSUMED since: family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws (articles shipped Sep 2-6); dna banking cost predates. Rank tracker 2026-09-07: units still exhausted — NO new keywords added (won't stack unverified guesses two weeks running).
 
 
