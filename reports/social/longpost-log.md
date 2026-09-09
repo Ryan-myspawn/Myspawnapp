@@ -60,3 +60,8 @@
 | #50 | 2026-09-07 | The Ten-Minute Archive You Can Build at a Labor Day Table | holiday at-the-gathering micro-checklist, warm FB | phone-face-down-at-the-table open | Facebook |
 | #51 | 2026-09-07 | The best-preserved cells in your body use a low-power mode, not a freezer | EMBO J egg-dormancy stasis engineering, ZERO product, r/transhumanism | engineering-spec open | Reddit |
 | — | 2026-09-07 | (run note: Guthrie-custody piece KILLED pre-write — retired government-biobank lane) | — | — | — |
+| #52 | 2026-09-09 | They Found 1,260 Genes for Personality. The Honest Number Is 9 Percent. | personality GWAS explainer, heritability-gap contrarian read, ZERO product | headline-number-is-wrong open | X |
+| #53 | 2026-09-09 | We Circled a Date on a Trial That Hasn't Finished. Here's the Correction. | published self-correction (VIBRANT), three-mistakes structure | correction-notice open | X |
+| #54 | 2026-09-09 | The Cord Blood Question, Answered by the People Who Have No Product to Sell You | AAP/ACOG guidance-vs-brochure angle, options ranked, non-substitute line | societies-with-nothing-to-sell open | Facebook |
+| #55 | 2026-09-09 | Life Has Used Four Letters for Four Billion Years. Last Week an Enzyme Read Eight. | hachimoji long-form, reading-technology thesis | four-billion-year alphabet open | Facebook |
+| #56 | 2026-09-09 | Nine days without email: what an outage taught me about building on other people's connectors | mid-incident dependency post-mortem, produce-vs-deliver lesson | day-counter open | Reddit r/SideProject |
