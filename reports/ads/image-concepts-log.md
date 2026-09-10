@@ -217,3 +217,13 @@
 | 2026-09-09 (lane LIVE) | Ad_OnlyCopy_109_9x16 | (adaptation) | Vertical of 109 |
 | 2026-09-09 (lane LIVE) | Ad_LastPerson_110_9x16 | (adaptation) | Vertical of 110 |
 | 2026-09-09 (lane LIVE) | Ad_NotAPrediction_112_9x16 | (adaptation) | Vertical of 112, crowd-filling re-crop |
+| 2026-09-10 (lane LIVE) | Ad_FilesWereFine_113 | The files were fine. The company wasn't. | Unsplash photo: dark server rack, desaturated (Tyler @tylergm) |
+| 2026-09-10 (lane LIVE) | Ad_TwoDishes_114 | From what starting cell, and published where? | Unsplash photo: laboratory glassware shelving (Chidera Faustina Okeke @thefourthwxll) |
+| 2026-09-10 (lane LIVE) | Ad_NothingHappens_115 | Nothing is happening to your sample. | Unsplash photo: lamp on dark desk at night (serasena @sefranico) |
+| 2026-09-10 (lane LIVE) | Ad_RecordsNotResurrection_116 | Records, not resurrection. | Unsplash photo: empty shelves (Celso A. Torres Pirron @celsoramone) |
+| 2026-09-10 (lane LIVE) | Ad_FiftyEight_117 | 58% have no estate plan at all. | Unsplash photo: antique pocket watch on machinery (Mateusz Matusiak @50mm_matt) |
+| 2026-09-10 (lane LIVE) | Ad_ThirtyYears_118 | What do you own that would still be fine after thirty years of neglect? | Unsplash photo: marshland waterways aerial (Iain @photoken123) |
+| 2026-09-10 (lane LIVE) | Ad_FilesWereFine_113_9x16 | (adaptation) | Vertical of 113 |
+| 2026-09-10 (lane LIVE) | Ad_NothingHappens_115_9x16 | (adaptation) | Vertical of 115, lamp-keeping re-crop |
+| 2026-09-10 (lane LIVE) | Ad_RecordsNotResurrection_116_9x16 | (adaptation) | Vertical of 116 |
+| 2026-09-10 (lane LIVE) | Ad_FiftyEight_117_9x16 | (adaptation) | Vertical of 117 |
