@@ -37,9 +37,11 @@
 
 | 2026-09-10 | e | Legacy Planning for Men in Their 30s: What Actually Matters Before 40 | legacy-planning-men-30s | legacy planning for men | estate planning in your 30s; life insurance millennials 2026; what to do before 40; digital legacy checklist; beneficiary designations; family health history |
 
+| 2026-09-11 | a | How to Collect a DNA Sample at Home (and the Five Things That Ruin One) | collect-dna-sample-at-home | how to collect dna sample at home | buccal swab instructions; hair follicle DNA; does DNA degrade; how to store a DNA sample; nail clippings DNA; DNA sample mistakes |
+
 ## Queue (next up)
-1. **2026-09-11 · lane (a):** "How to Collect a DNA Sample at Home (and What Ruins One)" — slug `collect-dna-sample-at-home`, primary "how to collect dna sample at home" (preservation how-to lane, uncovered; pairs with best-dna-sample-type).
-2. **2026-09-12 · lane (b):** "Polygenic Embryo Screening: What the Scores Can and Cannot Tell You" — slug `polygenic-embryo-screening-explained`, primary "polygenic embryo screening" (science lane; blog never covered it, and the 2026 personality-GWAS heritability numbers make the individual-prediction limits concrete).
+1. **2026-09-12 · lane (b):** "Polygenic Embryo Screening: What the Scores Can and Cannot Tell You" — slug `polygenic-embryo-screening-explained`, primary "polygenic embryo screening" (science lane; blog never covered it, and the 2026 personality-GWAS heritability numbers make the individual-prediction limits concrete).
+2. **2026-09-13 · lane (c):** "How to Record a Family Health History (and Why Doctors Want It More Than a DNA Test)" — slug `family-health-history-guide`, primary "how to record family health history" (legacy lane; the free action we keep recommending across articles and have never written up).
 3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** cord blood banking alternatives (only one still open). CONSUMED since: family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws (articles shipped Sep 2-6); dna banking cost predates. Rank tracker 2026-09-07: units still exhausted — NO new keywords added (won't stack unverified guesses two weeks running).
 
 
