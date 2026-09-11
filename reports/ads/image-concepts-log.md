@@ -227,3 +227,13 @@
 | 2026-09-10 (lane LIVE) | Ad_NothingHappens_115_9x16 | (adaptation) | Vertical of 115, lamp-keeping re-crop |
 | 2026-09-10 (lane LIVE) | Ad_RecordsNotResurrection_116_9x16 | (adaptation) | Vertical of 116 |
 | 2026-09-10 (lane LIVE) | Ad_FiftyEight_117_9x16 | (adaptation) | Vertical of 117 |
+| 2026-09-11 (lane LIVE) | Ad_OneStillLit_119 | A whole block dark. One window still lit. | Unsplash photo: single lit window in dark apartment block (Chandler Cruttenden @chanphoto) |
+| 2026-09-11 (lane LIVE) | Ad_StillWorks_120 | This machine still works. Try opening a file from 2004. | Unsplash photo: typewriter keys macro, nameplate cropped out (Andrew Seaman @amseaman) |
+| 2026-09-11 (lane LIVE) | Ad_OneStillLit_119_9x16 | (adaptation) | Vertical of 119; portrait alternate rejected at QC, uses square's frame |
+| 2026-09-11 (lane LIVE) | Ad_StillWorks_120_9x16 | (adaptation) | Vertical of 120, key-macro crop |
+| 2026-09-11 (lane LIVE) | Ad_OffTheTape_96_9x16 | (adaptation) | Vertical of Sep 7 square, tape-filling re-crop after top-heavy fail |
+| 2026-09-11 (lane LIVE) | Ad_FourQuestions_99_9x16 | (adaptation) | Vertical of Sep 7 square (Amr Taha @amr_taha), completes set |
+| 2026-09-11 (lane LIVE) | Ad_WeCorrected_106_9x16 | (adaptation) | Vertical of Sep 8 square; "Today" dropped from headline (stale date), darkened for contrast |
+| 2026-09-11 (lane LIVE) | Ad_TransferOfOwnership_108_9x16 | (adaptation) | Vertical of Sep 9 square (Sergei Wing @sergeiwing), completes set |
+| 2026-09-11 (lane LIVE) | Ad_TwoDishes_114_9x16 | (adaptation) | Vertical of Sep 10 square (Chidera Faustina Okeke @thefourthwxll), completes set |
+| 2026-09-11 (lane LIVE) | Ad_ThirtyYears_118_9x16 | (adaptation) | Vertical of Sep 10 square (Iain @photoken123), completes set |

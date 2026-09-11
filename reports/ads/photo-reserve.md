@@ -5,11 +5,11 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 ## VETTED (downloaded and eyeballed)
 | ID | Subject note | Photographer | Page | Raw URL | WxH |
 |---|---|---|---|---|---|
+| Mcm9zLNPomY | Lit window behind roller shutter, portrait; window reads small — needs a tight crop | Nick Night (@nicknight) | https://unsplash.com/photos/a-window-that-has-a-light-in-it-Mcm9zLNPomY | https://images.unsplash.com/photo-1643552840088-2ab319c8a48e | 2225x3956 |
+| GJao3ZTX9gU | Hand signing contract, no face; HOLD until the hand/pen lane is clear of the 7-day window | Cytonn Photography (@cytonn_photography) | https://unsplash.com/photos/person-writing-on-white-paper-GJao3ZTX9gU | https://images.unsplash.com/photo-1521791055366-0d553872125f | 6016x4016 |
 | ECJEr6N3ISo | Man in dark airplane seat by window; semi-profile visible — likely organic-only | Ehud Neuhaus (@paramir) | https://unsplash.com/photos/man-sitting-on-airplane-seat-ECJEr6N3ISo | https://images.unsplash.com/photo-1545668887-5884d6085d50 | 4912x7360 |
 
-| nBLaH3a12yM | Date palms in desert, portrait, warm | Muhammad Irfan Baloch (@wizbaloch) | https://unsplash.com/photos/a-palm-tree-in-a-desert-nBLaH3a12yM | https://images.unsplash.com/photo-1669921884090-5cee73bab3ef | 3215x4289 |
 | uNnN7IBN9As | Svalbard mountain range, bright, needs tint | Fredrik Solli Wandem (@fredrikwandem) | https://unsplash.com/photos/a-snowy-mountain-range-uNnN7IBN9As | https://images.unsplash.com/photo-1661511762608-fda6b7b45f18 | 5844x3126 |
-| K0F6wg-FCJ8 | Arctic snow mountains over calm sea | Gunnar Ridderstrom (@gunnarridder) | https://unsplash.com/photos/snow-covered-mountains-rise-above-a-calm-blue-sea-K0F6wg-FCJ8 | https://images.unsplash.com/photo-1766699623785-b5926d185cc7 | 6000x4000 |
 
 | Sxs2E3QYoJ4 | Antique printing-press trays full of metal type | Fabian Kleiser (@fabiankleiser) | https://unsplash.com/photos/antique-printing-press-trays-filled-with-metal-type-Sxs2E3QYoJ4 | https://images.unsplash.com/photo-1777621543796-f6c62717d932 | 6000x4000 |
 | keS16pDFiCM | Store aisle, yellow/red goods, portrait orientation | Oxana Melis (@oksdesign) | https://unsplash.com/photos/a-store-aisle-filled-with-lots-of-yellow-and-red-items-keS16pDFiCM | https://images.unsplash.com/photo-1631856956423-2b95dae0ba74 | 5304x7952 |
@@ -100,3 +100,6 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 ## Vetted out 2026-09-05
 - 4wr9sKfF8Yw: mossy gravestones, Liverpool — legible "SACRED to the memory of..." inscription on a real memorial; unusable in any creative.
 - egeIhNGnI5M: lichen tombstone closeup — same category risk; only bank if a future check confirms zero legible personal text.
+- FBUz56_4GzI: trophy in glass case — display case carries a large legible "Prudential" wordmark over the cup; third-party brand mark, unavoidable at any usable crop (killed 2026-09-11).
+- nBLaH3a12yM: lone palm in desert — near-duplicate composition and argument vs Ad_TwoThousandYears_97 (killed 2026-09-11).
+- K0F6wg-FCJ8: arctic mountains over sea — consumed-lane duplicate of Ad_ByDesign_98 Longyearbyen imagery (killed 2026-09-11).
