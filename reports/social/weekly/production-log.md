@@ -56,6 +56,7 @@
 | 2026-08-22 | "Open your camera roll. Count yourself." | Camera-roll audit screen-record (photographer-ghost problem; comment-your-number UGC loop) |
 | 2026-08-23 | "Everything I carry, ranked by how long it outlives me." | EDC pocket-dump flat lay (lifespan chips; kit as the one item carrying YOU; UGC loop) |
 | 2026-08-25 | "The Three-Generation Test" | Outdoor walk-and-talk single-take (great-grandfather challenge; "you're just early" pivot; comment-your-answer UGC loop) |
+| 2026-09-11 | "The Year Embryo Screening Became Respectable" | Legitimacy episode (PGT-P on MIT TR 10 Breakthrough Technologies 2026 held against the Nature personality-GWAS ceiling: 1,260 variants, 4.8-9.3% variance vs 40-60% twin estimates; monogenic vs polygenic; preservation-vs-selection close) + "There's a Word for It Now: Digital Necromancy" explainer (concedes the three critiques; recording-vs-model line; ECHO boundary) + "Reading Our Own Fine Print Out Loud" document-read evergreen (conditional on terms review) |
 | 2026-09-10 | "Five Billion Dollars to Talk to the Dead" | AI-afterlife category episode (HereAfter endgame documented Aug 2026: site down, app last updated Sept 2023, email-only retrieval; ~$5B category projection; archival vs synthetic vs memorial; consent problem; records-not-resurrection boundary incl. ECHO constraint) + "IVG Doesn't Mean What You Think It Means" explainer (iPSC vs testicular stem cells; Paterna May 2026 claim labeled unpublished/unreplicated) + "Nothing Happens Here" static long-take evergreen |
 | 2026-09-09 | "We Published the Wrong Number" | Correction react to an external methods challenge on our own Aug 23 fertility-gap claim (ideal vs desired vs expected; PDR survey-design paper; Gallup verbatim; TFR-comparison error; what survives) + "What Happens to Your Sample When the Company Gets Sold" custody explainer + "The Saved Voicemail" audio-led evergreen |
 | 2026-09-08 | "The Trial That Hasn't Finished" | Clinical-trial media-literacy episode (VIBRANT downgrade as the case; registry status vs completion date; pilot-vs-readout; five-step check; why a storage company teaches distrust) + "Life Uses Four Letters, An Enzyme Just Read Eight" hachimoji explainer + "Aisle Seven" retail-aisle evergreen |
@@ -73,6 +74,7 @@
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
+- 2026-09-11: institutional-legitimacy episode (NEW angle) · digital-necromancy boundary explainer (NEW) · document-read-aloud evergreen (NEW format)
 - 2026-09-10: AI-afterlife category episode (NEW lane) · IVG-definitional explainer (NEW) · static locked-off long-take evergreen (NEW format)
 - 2026-09-09: correction-react episode (external challenge to our own claim, NEW) · corporate-continuity custody explainer (NEW) · audio-led voicemail evergreen (NEW format)
 - 2026-09-08: clinical-trial media-literacy episode (NEW lane) · synthetic-biology explainer (hachimoji, long-form cascade) · retail-aisle walk evergreen (NEW format)
