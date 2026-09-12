@@ -74,6 +74,7 @@
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
+- 2026-09-12: optimisation-culture/evidence-standard episode (NEW angle: screening sold into the biohacking audience) · partial-reprogramming explainer (NEW — the field's hottest theme, never explained here) · mirror-shot evergreen (NEW format)
 - 2026-09-11: institutional-legitimacy episode (NEW angle) · digital-necromancy boundary explainer (NEW) · document-read-aloud evergreen (NEW format)
 - 2026-09-10: AI-afterlife category episode (NEW lane) · IVG-definitional explainer (NEW) · static locked-off long-take evergreen (NEW format)
 - 2026-09-09: correction-react episode (external challenge to our own claim, NEW) · corporate-continuity custody explainer (NEW) · audio-led voicemail evergreen (NEW format)
@@ -119,3 +120,4 @@
 - Episode: "The Fertility-Tech Trust Crisis" (Orchid pressure quote + PGC dispute + HereAfter/23andMe custody pattern) — earmarked 2026-08-21+.
 - ~~Episode: Pentagon pilot launch-day react (2026-09-14)~~ CANCELLED 2026-08-21 per founder content rules (Pentagon lane retired).
 - ~~Evergreen/explainer: "The Government's DNA Ark"~~ CANCELLED 2026-08-21 per founder content rules (government-biobank lane retired).
+- Recurring segment proposed 2026-09-12 by Daily Review: **"the Receipt Check"** — a standing beat distinguishing funding announcements from clinical evidence, prompted by three funding rounds surfacing this week as if they were results. Not yet produced.
