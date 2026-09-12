@@ -237,3 +237,12 @@
 | 2026-09-11 (lane LIVE) | Ad_TransferOfOwnership_108_9x16 | (adaptation) | Vertical of Sep 9 square (Sergei Wing @sergeiwing), completes set |
 | 2026-09-11 (lane LIVE) | Ad_TwoDishes_114_9x16 | (adaptation) | Vertical of Sep 10 square (Chidera Faustina Okeke @thefourthwxll), completes set |
 | 2026-09-11 (lane LIVE) | Ad_ThirtyYears_118_9x16 | (adaptation) | Vertical of Sep 10 square (Iain @photoken123), completes set |
+| 2026-09-12 (lane LIVE) | Ad_EveryBetHasADate_121 | Every longevity bet has a date. None of them is today. | Unsplash photo: silhouetted building under construction at dawn (Kia Sheikhy @kiash77) |
+| 2026-09-12 (lane LIVE) | Ad_TwoAndAHalf_122 | Two and a half IQ points. Best of five embryos. | Unsplash photo: brass weighing weights on wood (Umar ben @umarben) |
+| 2026-09-12 (lane LIVE) | Ad_PreservedSecret_123 | A perfectly preserved secret is still lost. | Unsplash photo: steel vault door, TOP-BAND CROP ONLY (Mosler wordmark on the wheel excluded) (Jason Dent @jdent) |
+| 2026-09-12 (lane LIVE) | Ad_StillRunning_124 | In humans is not the same as works in humans. | Unsplash photo: wet street at night, headlights (Alex Durynin @zitzdorovo) |
+| 2026-09-12 (lane LIVE) | Ad_TheBoringOne_125 | There were three ways to open it. We picked the boring one. | Unsplash photo: station clock (Thorium @232_038t) — CONDITIONAL: immovable-date claim gated on product verification |
+| 2026-09-12 (lane LIVE) | Ad_EveryBetHasADate_121_9x16 | (adaptation) | Vertical of 121 |
+| 2026-09-12 (lane LIVE) | Ad_TwoAndAHalf_122_9x16 | (adaptation) | Vertical of 122 |
+| 2026-09-12 (lane LIVE) | Ad_StillRunning_124_9x16 | (adaptation) | Vertical of 124, portrait-native source |
+| 2026-09-12 (lane LIVE) | Ad_OneIn2700_111_9x16 | (adaptation) | Vertical of Sep 9 square (Subhajit Saha @subhajit_saha_photography), completes set; BLOG-ROUTING ONLY lockup |
