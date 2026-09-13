@@ -1,12 +1,14 @@
 # How to Record a Family Health History (and What Doctors Actually Do With It)
 
-**A family health history is a written record of the diseases in your blood relatives, who had them, and at what age. It is free, it takes one conversation, and it changes real clinical decisions: a first-degree relative diagnosed with colorectal cancer before 60 moves your own first colonoscopy to age 40, or ten years before their diagnosis, whichever comes first. Fewer than half of Americans have ever actually collected one. Here is how to do it properly in an afternoon, what to ask, where to store it, and an honest comparison with what a DNA test can and cannot tell you.**
+**A family health history is a written record of the diseases in your blood relatives, who had them, and at what age. It is free, it takes one conversation, and it changes real clinical decisions: a first-degree relative diagnosed with colorectal cancer before 60 moves your own first colonoscopy to age 40, or ten years before their diagnosis, whichever comes first. Only 15.2% of American adults reported actually collecting one in a 2024 survey, down from 29.8% in 2004. Here is how to do it properly in an afternoon, what to ask, where to store it, and an honest comparison with what a DNA test can and cannot tell you.**
 
 A note on who is telling you this: MySpawn is a DNA preservation company. Recording a family health history costs nothing, involves no product, and is not something we sell. We keep recommending it across our articles because it is the highest-value thing most readers can do this month, so this time we are writing the actual instructions instead of pointing at them.
 
 ## Why this is worth an afternoon
 
 The value is not sentimental. A family health history is one of the few pieces of information that changes what a doctor *does*, rather than what they know.
+
+It is also the rare health behaviour that has gone **backwards**. In the CDC's 2004 HealthStyles Survey, 96.3% of Americans said knowing their family health history was very or somewhat important, and 29.8% had actually collected one. In a survey run in January-February 2024, 94.8% still called it important — and the share who had collected one had fallen to **15.2%** ([reported in the family-medicine literature on barriers to collection](https://www.jabfm.org/content/39/1/157915)). The belief held; the behaviour halved, across exactly the two decades in which consumer genetic testing became ubiquitous.
 
 The CDC is direct about it: having a family health history of a chronic disease such as cancer makes you more likely to get that disease, and knowing it helps your provider decide **what screening tests you need and when** ([CDC, Family Health History and Adults](https://www.cdc.gov/family-health-history/family-health-history-and-you/family-health-history-and-adults.html)). Screening earlier is the entire mechanism. Nothing about the history changes your biology; it changes the calendar.
 
@@ -140,7 +142,8 @@ Whenever anyone in the recorded group receives a significant new diagnosis, and 
 3. ACG colorectal cancer screening guidelines as summarised by AAFP — **professional society guideline**.
 4. NCCN hereditary cancer testing criteria (BRCA1/2, Lynch, prostate referral) — **professional society guideline**, accessed via secondary summary; verify against NCCN directly before any clinical claim is repeated elsewhere.
 5. Eng et al. family-history-versus-consumer-genomic-screening comparison, reported by ABC News — **small study reported in mainstream press**; n=44, treat as indicative, not definitive.
-6. Do et al., *PLOS Genetics*, "Comparison of Family History and SNPs for Predicting Risk of Complex Disease" — **peer-reviewed**; source of the 20-30% versus under-4% heritability contrast.
+6. JABFM, "Knowledge, Perceptions, and Barriers to Collection of Family Health History Data" — **peer-reviewed journal**, source of the 2004 (29.8%) and 2024 (15.2%) collection rates; located via search index, verify the figures against the article before republishing.
+7. Do et al., *PLOS Genetics*, "Comparison of Family History and SNPs for Predicting Risk of Complex Disease" — **peer-reviewed**; source of the 20-30% versus under-4% heritability contrast.
 
 ### Title change from the queue, and why
 The topic log queued this as "...and Why Doctors Want It More Than a DNA Test." The *PLOS Genetics*
