@@ -74,6 +74,7 @@
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
+- 2026-09-13: family-health-history collapse episode (NEW lane, ZERO PRODUCT) · genetic-nurture/sibling-comparison explainer (NEW mechanism) · cloud-drive screen-record evergreen (format 15 days out)
 - 2026-09-12: optimisation-culture/evidence-standard episode (NEW angle: screening sold into the biohacking audience) · partial-reprogramming explainer (NEW — the field's hottest theme, never explained here) · mirror-shot evergreen (NEW format)
 - 2026-09-11: institutional-legitimacy episode (NEW angle) · digital-necromancy boundary explainer (NEW) · document-read-aloud evergreen (NEW format)
 - 2026-09-10: AI-afterlife category episode (NEW lane) · IVG-definitional explainer (NEW) · static locked-off long-take evergreen (NEW format)
