@@ -246,3 +246,8 @@
 | 2026-09-12 (lane LIVE) | Ad_TwoAndAHalf_122_9x16 | (adaptation) | Vertical of 122 |
 | 2026-09-12 (lane LIVE) | Ad_StillRunning_124_9x16 | (adaptation) | Vertical of 124, portrait-native source |
 | 2026-09-12 (lane LIVE) | Ad_OneIn2700_111_9x16 | (adaptation) | Vertical of Sep 9 square (Subhajit Saha @subhajit_saha_photography), completes set; BLOG-ROUTING ONLY lockup |
+| 2026-09-13 (lane LIVE) | Ad_WithoutALawyer_126 | You should not need a lawyer to find out what happens to your sample. | Unsplash photo: dense out-of-focus printed text as texture (Finn Mund @finnmund) — CONDITIONAL on our own answer being reachable without the terms |
+| 2026-09-13 (lane LIVE) | Ad_WithoutALawyer_126_9x16 | (adaptation) | Vertical of 126, headline re-broken to 4 lines |
+| 2026-09-13 (lane LIVE) | Ad_TheBoringOne_125_9x16 | (adaptation) | Vertical of Sep 12 square; DISCLOSED different source photo (portrait clock, Abiyyu Zahy @abizahy) because the original is geometrically impossible in 9:16 |
+| 2026-09-13 | (KILLED) Ad_WeakestComparison_128 | The one comparison the score is worst at | Killed for want of a compliant photo: eggs killed on the gamete rail, padlocks failed composition. Code 128 retired unused |
+| 2026-09-13 | (KILLED) Ad_FifteenPercent | 30% in 2004. 15% in 2024. | Killed at draft: radar flagged the material ZERO PRODUCT; belongs in organic, not paid |
