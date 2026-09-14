@@ -114,3 +114,8 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 - src_aisle / keS16pDFiCM lane: retail aisle photos carry legible category signage and people in any tall crop — square-only lane, verified again 2026-09-12.
 - QOPkH5BUW9o (two eggs, Vishal Dhanda @dhandavishal): KILLED ON THE GAMETE RAIL 2026-09-13. Egg imagery in any embryo- or sibling-comparison creative implies MySpawn handles gametes. Aesthetically the best photo of that run, which is exactly why it is recorded here.
 - 5VBfEVfKvmQ (padlocks, FlyD @flyd2069): killed 2026-09-13 — three padlocks not two, saturated red/green gel lighting that fights the navy palette.
+- WNRNIZOP29s (lanyard badge, jim @skill01): KILLED 2026-09-14 — "UHOO ID CARD" brand mark and barcode printed on the badge insert, legible at full resolution. Third brand-mark kill in seven days after Prudential (trophy) and Mosler (vault wheel).
+- T0FXa1jSrSk (corridor, Egor Litvinov @litvinov): KILLED ON TONE 2026-09-14 — a derelict water-stained apartment corridor reading as menace. Technically excellent and on-palette; wrong for a brand whose binding rule is never fear. Do not reuse for access-gap or custody concepts.
+
+## STANDING NOTE ON PHOTO SOURCING (added 2026-09-14)
+Three brand marks, one face risk, one gamete-rail conflict and one tone kill in seven days, every one of them invisible at thumbnail size and found only after downloading at full resolution. **Always inspect at full size before compositing — the contact sheet is not sufficient.** Budget roughly one kill per two photos sourced when planning a run.
