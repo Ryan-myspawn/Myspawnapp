@@ -45,6 +45,11 @@
 ## Queue (next up)
 1. **2026-09-14 · lane (d):** "Biobank Accreditation Explained: What ISO 20387, CAP and FDA Registration Each Actually Certify" — slug `biobank-accreditation-explained`, primary "biobank accreditation" (trust/custody lane; never written as an article, and it is the standard we cite in our own marketing, so it should be the one we explain most plainly — including what each credential does NOT cover).
 2. **2026-09-15 · lane (e):** "Single, No Kids, and Planning Anyway: A Legacy Checklist That Isn't About Inheritance" — slug `single-no-kids-legacy-planning`, primary "legacy planning single no kids" (audience lane; distinct from `childfree-legacy` (Aug 22), which is about estate mechanics and who inherits — this one is about the person with no obvious next-of-kin and who makes decisions for them).
+3. **from rank tracker 2026-09-14 (VOLUMES UNVERIFIED — method: observed search-result phrasing during the week's research, NOT Semrush; units exhausted 4th week):**
+   - "how long do labs keep your DNA sample" — lane (d). The literal sentence behind the Sept 13 competitor finding that retention answers live only inside terms-of-service documents. **Highest strategic confidence of anything in this queue.**
+   - "plasmalogen supplement evidence" — lane (b). Attached to a Sept 2 mouse study; time-sensitive, and the honest answer is mouse-stage.
+   - "cellular reprogramming explained" — lane (b). The field's hottest funding theme; we have an explainer script and no article.
+   *Re-validate all three when Semrush units return; drop any with no real volume rather than writing the article to justify the queue entry.*
 3. **from rank tracker 2026-08-31 (volumes UNVERIFIED — Semrush units exhausted; verify before writing):** cord blood banking alternatives (only one still open). CONSUMED since: family time capsule ideas · video message for 18th birthday · digital time capsule · genetic privacy laws (articles shipped Sep 2-6); dna banking cost predates. Rank tracker 2026-09-07: units still exhausted — NO new keywords added (won't stack unverified guesses two weeks running).
 
 
