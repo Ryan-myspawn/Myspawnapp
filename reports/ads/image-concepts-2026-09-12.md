@@ -29,7 +29,7 @@ finished creatives that all pass is the right outcome.
 ## NEW CONCEPTS
 
 ### Ad_EveryBetHasADate_121 (+ _9x16)
-- **Headline:** Every longevity bet has a date. None of them is today.
+- **Headline:** Every longevity bet has a date. None of them has a result. **(CORRECTED 2026-09-14** — originally shipped as "None of them is today." That was false: Retro Biosciences dosed its first human in 2025 and the vision-loss reprogramming therapy is in humans now. Creative re-rendered; see the correction note in the Sep 14 watchlist entry.**)**
 - **Sub:** The therapy everyone is excited about is in humans, with no published result yet.
 - **Lockup:** myspawn.me · $99/yr · storage only
 - **Freshness check:** Completion state has never been an ad argument. Distinct from Ad_ZeroHabits_101 (effort), Ad_NothingHappens_115 (inertness), Ad_ThirtyYears_118 (durability). Log-checked.

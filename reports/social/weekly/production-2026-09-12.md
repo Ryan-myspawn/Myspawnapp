@@ -126,7 +126,7 @@ Those numbers tell you what serious people believe. They do not tell you that it
 
 **So here's the honest state of play.** The best mouse data is real. The first human trials are running. The earliest additional human studies are a year or more out. Nobody in this field is promising you a treatment this decade, and the ones who are, are not the ones doing the work.
 
-**And here's the part that concerns me and is the reason I'm making this video.** Every item on that shelf has a date on it, and none of the dates is now. Which means the rational move for anyone genuinely interested in this is boring: stay alive, stay healthy, and don't lose the inputs.
+**And here's the part that concerns me and is the reason I'm making this video.** Several of these are in human trials right now, and not one of them has a published result. Which means the rational move for anyone genuinely interested in this is boring: stay alive, stay healthy, and don't lose the inputs.
 
 [B-ROLL: return to the photograph, now flat.]
 

@@ -251,3 +251,4 @@
 | 2026-09-13 (lane LIVE) | Ad_TheBoringOne_125_9x16 | (adaptation) | Vertical of Sep 12 square; DISCLOSED different source photo (portrait clock, Abiyyu Zahy @abizahy) because the original is geometrically impossible in 9:16 |
 | 2026-09-13 | (KILLED) Ad_WeakestComparison_128 | The one comparison the score is worst at | Killed for want of a compliant photo: eggs killed on the gamete rail, padlocks failed composition. Code 128 retired unused |
 | 2026-09-13 | (KILLED) Ad_FifteenPercent | 30% in 2004. 15% in 2024. | Killed at draft: radar flagged the material ZERO PRODUCT; belongs in organic, not paid |
+| 2026-09-14 (CORRECTION) | Ad_EveryBetHasADate_121 + _9x16 | Headline CORRECTED: "None of them is today." -> "None of them has a result." | The original claim was false — Retro Biosciences dosed its first human in 2025 and the vision-loss reprogramming therapy is already in humans. Re-rendered and re-encoded; never ran. See science-watchlist 2026-09-14. |

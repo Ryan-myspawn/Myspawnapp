@@ -146,7 +146,7 @@ If a professional research operation has to catch that six times in nine days, a
 
 **So here is the reading rule.** When you see a longevity headline, sort it into one of three buckets before you feel anything: *published result in animals*, *running in humans with no result*, or *money*. Most of what excites people is the third bucket wearing the first bucket's clothes.
 
-None of this is a knock on the field. The mouse data is real, the trials are real, and I hope every one of them works. But the honest state of play is that every serious bet has a date on it and none of the dates is now — the best-funded reprogramming company's first human study is next year.
+None of this is a knock on the field. The mouse data is real, the trials are real, and I hope every one of them works. But the honest state of play is that several of these candidates are in human trials right now and **not one of them has a published result** — and no reprogramming candidate has human data at all, with the best-funded reprogramming company's first human study expected next year.
 
 Which makes the rational move boring: stay alive, stay healthy, and don't lose the inputs. Everything in this field operates on a living person and on material that still exists. None of it is retroactive.
 
