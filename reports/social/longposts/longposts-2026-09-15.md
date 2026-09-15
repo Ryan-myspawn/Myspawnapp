@@ -357,3 +357,15 @@ Curious what this sub makes of the conflict hypothesis specifically. If the germ
 **STALE-ITEM CATCH #9 (for science-watchlist.md):** the sucralose-6-acetate genotoxicity study circulating this week as news is **Schiffman et al., *Journal of Toxicology and Environmental Health, Part B*, 2023**, out of NC State / UNC Chapel Hill. It is three years old. A September 12, 2026 science-news write-up put it back in circulation. Article #70 is built on that fact rather than defeated by it, but the item belongs on the checklist: **if it appears again, it is a receipt, not news.**
 
 **Also date-checked and rejected during research:** the "human evolution has accelerated" ancient-genome study (nearly 16,000 ancient genomes, West Eurasia, hundreds of genes under selection) is **Nature, published online April 15, 2026**, five months old, and it surfaced in this run's sweep framed as current. Added to the checklist.
+
+---
+
+## DELIVERY STATUS
+
+**Email to ryan@myspawnapp.com: BLOCKED, day 15.** Gmail tools were present in the tool surface again at the end of this run, and a light probe (`list_labels`) returned `requires re-authorization (token expired)`, after which the Gmail server disconnected. That is the **eighth** false recovery since the outage began around August 31: the connector re-registers, the OAuth refresh token stays dead. The fix is to **disconnect and reconnect** Gmail in claude.ai connector settings, not to re-click authorize on a connector that already displays as connected.
+
+Note also that this tool surface exposes `create_draft` but no `send_message`, so even with a live token, delivery of this digest would need the draft route.
+
+**This file is the delivery.** It is committed to `claude/trend-radar` and is complete: five articles with platform tags, per-platform sources blocks, word counts, and the QC gate.
+
+**PUBLISH FIRST:** **#70, "The Splenda Study Everyone Shared This Week Was Published in 2023," on Facebook.** Reasons: it is the only piece riding a live consumer wave that is still cresting, it is zero product so it cannot read as an ad, it is the highest scroll-stop of the five for the 38-year-old and 50-year-old personas, and it demonstrates the exact habit we want associated with the brand, which is checking the date on the study rather than the date on the article. Second: **#68 on Facebook**, which should run inside the next week so it lands before Connecticut's October 1 effective date rather than after it.
