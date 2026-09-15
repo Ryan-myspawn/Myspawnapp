@@ -256,3 +256,13 @@
 | 2026-09-14 (lane LIVE) | Ad_RegisteredIsNotApproved_127 | "FDA-registered" means a facility told the FDA it exists. | Unsplash photo: ink pad and rubber stamps, heavily darkened (Glen Carrie @glencarrie) — first ad auditing a credential we ourselves cite |
 | 2026-09-14 (lane LIVE) | Ad_RegisteredIsNotApproved_127_9x16 | (adaptation) | Vertical of 127 |
 | 2026-09-14 | (KILLED) Gstaad access-gap concept | The conference you were not invited to | No compliant photo: lanyard carried a UHOO brand mark, corridor killed on tone (never-fear rule). Concept survives as today's script; can return as an ad with the right image |
+| 2026-09-15 (lane LIVE) | Ad_SeventeenYearsOld_128 | The most-used sound this week is from 2009. | Unsplash photo: scattered prints and 35mm film strips on a wood floor (Mathias Reding @matreding) |
+| 2026-09-15 (lane LIVE) | Ad_SeventeenYearsOld_128_9x16 | (adaptation) | Vertical of 128 |
+| 2026-09-15 (lane LIVE) | Ad_SixHundredAndOneDays_129 | 601 days from true to known. | Unsplash photo: tall stack of printed paper, high key, heavily darkened (ron dyar @prolabprints; consumed from reserve) |
+| 2026-09-15 (lane LIVE) | Ad_SixHundredAndOneDays_129_9x16 | (adaptation) | Vertical of 129 |
+| 2026-09-15 (lane LIVE) | Ad_PropertyOnOctoberFirst_130 | October 1: your DNA sample becomes property. | Unsplash photo: deep warm library of bound volumes (Clint McKoy @clintmckoy) |
+| 2026-09-15 (lane LIVE) | Ad_PropertyOnOctoberFirst_130_9x16 | (adaptation) | Vertical of 130 |
+| 2026-09-15 (lane LIVE) | Ad_TheDateTakesLonger_131 | Eleven minutes to record. Longer to pick the date. | Unsplash photo: weathered carved stone lettering (Olga Kalinina @olgakalinina) |
+| 2026-09-15 (lane LIVE) | Ad_TheDateTakesLonger_131_9x16 | (adaptation) | Vertical of 131 |
+| 2026-09-15 (PHOTO KILLS) | : | Three photos killed at full-size inspection | RED cinema camera (identifiable crew faces + RED brand mark); VHS cassette (large TDK logo); concrete handprints (Sidney Poitier's signature and date, right-of-publicity). Contact sheet caught none of the three. |
+| 2026-09-15 (VOLUME) | : | 8 finished, not 10, for the third run running | Three of seven sourced photos failed rights/brand checks. Standing recommendation unchanged and now overdue: lower the target to 4-6 new concepts and add a refresh lane of logged v2s. |
