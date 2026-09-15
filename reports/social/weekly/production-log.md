@@ -74,6 +74,7 @@
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
 ## Formats used (rolling 7-day window — vary daily)
+- 2026-09-15: **self-directed continuity episode (NEW lane: the custody question turned on MySpawn itself, founder-gated)** · programmed-DNA-elimination explainer (NEW mechanism, germline-as-master-copy) · wall-calendar prop evergreen (NEW format)
 - 2026-09-14: rhetoric-defeats-fact-checking episode (NEW lane, uses our own 4-day-old error as the worked example) · autophagy/lysosome explainer (NEW — mechanism behind the trial that corrected us) · whiteboard Receipt Check evergreen (format 17 days out; content proposed Sep 12, finally built)
 - 2026-09-13: family-health-history collapse episode (NEW lane, ZERO PRODUCT) · genetic-nurture/sibling-comparison explainer (NEW mechanism) · cloud-drive screen-record evergreen (format 15 days out)
 - 2026-09-12: optimisation-culture/evidence-standard episode (NEW angle: screening sold into the biohacking audience) · partial-reprogramming explainer (NEW — the field's hottest theme, never explained here) · mirror-shot evergreen (NEW format)
