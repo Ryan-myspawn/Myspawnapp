@@ -28,7 +28,7 @@
 | 2026-08-22 | Ad_ReferenceCopy_21 | Every family tree has one branch that keeps the records. | SVG family tree, amber-ringed node + sealed tag |
 | 2026-08-22 | Ad_MissingPhotographer_22 | 3,412 family photos. Eleven have you in them. | Dimmed photo-grid mosaic, 11 lit frames |
 | 2026-08-22 | Ad_SevenMinutes_23 | Every future-proofing move takes forever. Except one. | Duration bars, 7-minute gradient hero bar |
-| 2026-08-23 | Ad_CircleTheNumber_24 | One of these prices repeats. Circle the one that doesn't. | Printed price sheet, red marker circle | **RETIRE, pricing error (2026-08-25):** entire concept ("the only one that ends") claims MySpawn is a one-time price and fertility preservation recurs — backwards now that MySpawn is confirmed $99/year. Cannot be word-swapped without duplicating Ad_ItemizedReceipt_31's honest flat-vs-variable-annual-rate thesis (repetition risk). Recommend pulling from any active rotation; do not spend paid budget on it in its current form. |
+| 2026-08-23 | Ad_CircleTheNumber_24 | One of these prices repeats. Circle the one that doesn't. | Printed price sheet, red marker circle | **RETIRE, pricing error (2026-08-25):** entire concept ("the only one that ends") claims MySpawn is a one-time price and fertility preservation recurs: backwards now that MySpawn is confirmed $99/year. Cannot be word-swapped without duplicating Ad_ItemizedReceipt_31's honest flat-vs-variable-annual-rate thesis (repetition risk). Recommend pulling from any active rotation; do not spend paid budget on it in its current form. |
 | 2026-08-23 | Ad_LightSwitch_25 | Fifty years of nothing. Then someone found the switch. | Wall light-switch plate, ON/OFF toggle |
 | 2026-08-23 | Ad_Roadmap2030_26 | The fertility roadmap through 2030. One item isn't hype. | Dotted road timeline, 5 numbered mile-markers |
 | 2026-08-23 | Ad_TwoDials_27 | Americans want 2.7 kids. They're having 1.6. | Two speedometer gauge dials, gap-callout pill |
@@ -39,9 +39,9 @@
 | 2026-08-23 | Ad_TwoDials_27_9x16 | (adaptation) | Vertical re-layout of 27, dials stacked |
 | 2026-08-23 | Ad_TheOverlap_28_9x16 | (adaptation) | Vertical re-layout of 28 |
 
-**2026-08-24: NO RUN.** Trigger fire missed during a session processing gap (queue backlog). Resuming live 2026-08-25 — no Aug24 concepts exist; do not treat Aug24 as a quiet/no-fresh-material day, it simply didn't run.
+**2026-08-24: NO RUN.** Trigger fire missed during a session processing gap (queue backlog). Resuming live 2026-08-25: no Aug24 concepts exist; do not treat Aug24 as a quiet/no-fresh-material day, it simply didn't run.
 | 2026-08-25 | Ad_FeedScroll_30 | TikTok is "spermmaxxing." Genetics doesn't take video requests. | Phone-feed mockup, 3 dimmed trend cards + 1 highlighted brand card |
-| 2026-08-25 | Ad_ItemizedReceipt_31 | Sperm freezing storage runs up to $500 a year. DNA record storage: a flat $99 a year. (corrected same day, was originally "...$99, forever" — pricing fact error) | Itemized receipt with total row + comparison stamp |
+| 2026-08-25 | Ad_ItemizedReceipt_31 | Sperm freezing storage runs up to $500 a year. DNA record storage: a flat $99 a year. (corrected same day, was originally "...$99, forever": pricing fact error) | Itemized receipt with total row + comparison stamp |
 | 2026-08-25 | Ad_LiquidArchive_32 | Someone fit 10 billion songs into a liter of liquid. Your DNA deserves the same respect. | Illustrated vial with orbiting data-type icons |
 | 2026-08-25 | Ad_ShrinkingPayout_33 | 23andMe breach victims are finally getting paid. Bankruptcy takes its cut first. | Shrinking claim-to-payout bar chart with deduction line |
 | 2026-08-25 | Ad_FirstDayUnlock_34 | First day of school. Unlock day: his diploma. | Luggage-tag card, recorded/unlock date pair |
@@ -71,7 +71,7 @@
 | 2026-08-26 | Ad_MammothPriceTag_46_9x16 | (adaptation) | Vertical re-layout of 46, panels stacked |
 | 2026-08-26 | Ad_RealNumber_44_9x16 | (adaptation) | Vertical re-layout of 44 |
 | 2026-08-27 (photo lane, founder-briefed) | Ad_TheyBuiltTheLabs_48 | They built the labs. | Unsplash photo: dark glass towers at night, low angle (access gap) |
-| 2026-08-27 (photo lane, founder-briefed) | Ad_StillAnOption_49 | No kids. Still an option. | Unsplash photo: man at window, pensive — ORGANIC-ONLY (face, no model release) |
+| 2026-08-27 (photo lane, founder-briefed) | Ad_StillAnOption_49 | No kids. Still an option. | Unsplash photo: man at window, pensive: ORGANIC-ONLY (face, no model release) |
 | 2026-08-27 (photo lane, founder-briefed) | Ad_FreezerGarage_50 | Not a freezer in a garage. | Unsplash photo: darkened lab bench with vial shelves |
 | 2026-08-27 (photo lane) | Ad_BackupAlmost_51 | You back up everything. Almost. | Unsplash photo: dark server rack ("file you can't re-download") |
 | 2026-08-27 (photo lane) | Ad_BatDNA_52 | Bats barely get cancer. | Unsplash photo: bat silhouette, purple night sky (Nature Myotis genome peg) |
@@ -89,7 +89,7 @@
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_FakeCityFiles_60 | The most documented city on Earth doesn't exist. | Unsplash photo: wall of code monitors, manual crop (GTA6 detail peg) |
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_RideHome_61 | Shorter than your ride home. | Unsplash photo: bus rider rear view at window |
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_ThrownAway_62 | You threw DNA away this morning. | Unsplash photo: hand holding small vial/floss, navy-tinted blush |
-| 2026-08-28 (founder-requested all-Unsplash run) | Ad_ArchiveOrRumor_63 | Some men are archives. Most are rumors. | Unsplash photo: man lit by stairwell window, chiaroscuro — ORGANIC-ONLY (face) |
+| 2026-08-28 (founder-requested all-Unsplash run) | Ad_ArchiveOrRumor_63 | Some men are archives. Most are rumors. | Unsplash photo: man lit by stairwell window, chiaroscuro: ORGANIC-ONLY (face) |
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_SomedayPlan_64 | "Someday" is not a storage plan. | Unsplash photo: silhouette at rain-covered window |
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_AskWhereStored_65 | Ask where it's stored. We answer in certifications. | Unsplash photo: scientist from behind with flask, certification-list sub |
 | 2026-08-28 (founder-requested all-Unsplash run) | Ad_RideHome_61_9x16 | (adaptation) | Vertical re-layout of 61 |
@@ -136,11 +136,11 @@
 | 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_FirstDayUnlock_34_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
 | 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_SliverOfBillions_35_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
 | 2026-08-31 (zero-new day 3, backlog verticals final) | Ad_ConsensusAgainst_45_9x16 | (adaptation) | Vertical of backlog ad, pricing normalized |
-| 2026-09-01 | (RUN BLOCKED) | Unsplash connector day 6; fallback ladder exhausted; 0 creatives; Adobe Stock option surfaced to founder | — |
+| 2026-09-01 | (RUN BLOCKED) | Unsplash connector day 6; fallback ladder exhausted; 0 creatives; Adobe Stock option surfaced to founder |: |
 | 2026-09-02 (recovery run, lane LIVE) | Ad_KeepACopy_68 | We don't rank anyone. We keep everyone. | Unsplash photo: dark monochrome archive shelves (P A @listenann) |
 | 2026-09-02 (recovery run, lane LIVE) | Ad_ElevenYears_69 | Eleven years of typing. Zero minutes of voice. | Unsplash photo: hand lit by screen glow in darkness (Su Hyun Choe @suhyunchoe) |
 | 2026-09-02 (recovery run, lane LIVE) | Ad_AnnualLine_70 | Every vault has an annual line. | Unsplash photo: self-storage corridor, lit far door (Raphael @9ty5tilinfinity) |
-| 2026-09-02 (recovery run, lane LIVE) | Ad_TheRecipe_71 | The recipe keeps the dish. The record keeps the cook. | Unsplash photo: cast-iron pot over open fire (Jose Alejandro Cuffia @alecuffia) — first food-lane ad |
+| 2026-09-02 (recovery run, lane LIVE) | Ad_TheRecipe_71 | The recipe keeps the dish. The record keeps the cook. | Unsplash photo: cast-iron pot over open fire (Jose Alejandro Cuffia @alecuffia): first food-lane ad |
 | 2026-09-02 (recovery run, lane LIVE) | Ad_PrintRun_72 | You are a one-time print run. | Unsplash photo: turntable with vinyl record (Grigorii Shcheglov @shegiva) |
 | 2026-09-02 (recovery run, lane LIVE) | Ad_BottomRung_73 | The ladder is real. So is the bottom rung. | Unsplash photo: figure climbing wall ladder toward light, no face (Ricardo Cruz @mavrick) |
 | 2026-09-02 (recovery run, lane LIVE) | Ad_ElevenYears_69_9x16 | (adaptation) | Vertical re-layout of 69 |
@@ -151,7 +151,7 @@
 | 2026-09-03 (lane LIVE) | Ad_UnbrokenLine_75 | One ring per year. You're the newest one. | Unsplash photo: tree-ring cross-section macro (Marek Studzinski @jccards) |
 | 2026-09-03 (lane LIVE) | Ad_EligibilityWall_76 | Most preservation has an eligibility screen. | Unsplash photo: brass stanchions + velvet rope (Akshay Chauhan @akshayspaceship) |
 | 2026-09-03 (lane LIVE) | Ad_OneCopy_77 | Most of you exists in one copy. | Unsplash photo: unspooled film tape on dark floor (John Moeses Bauan @johnmoeses) |
-| 2026-09-03 (lane LIVE) | Ad_TwoRulebooks_78 | Same science. Two rulebooks. | Unsplash photo: stamped passport on table (Kit @kit / creator Henry Thong) — ORGANIC-FIRST |
+| 2026-09-03 (lane LIVE) | Ad_TwoRulebooks_78 | Same science. Two rulebooks. | Unsplash photo: stamped passport on table (Kit @kit / creator Henry Thong): ORGANIC-FIRST |
 | 2026-09-03 (lane LIVE) | Ad_NoLobby_79 | No marble lobby. Just custody. | Unsplash photo: ornate palace hall, chandeliers (Baris Sari @barissari) |
 | 2026-09-03 (lane LIVE) | Ad_InstitutionLifespan_74_9x16 | (adaptation) | Vertical re-layout of 74 |
 | 2026-09-03 (lane LIVE) | Ad_EligibilityWall_76_9x16 | (adaptation) | Vertical re-layout of 76 |
@@ -180,7 +180,7 @@
 | 2026-09-06 (lane LIVE) | Ad_PaperProof_90 | America has kept DNA on paper since the sixties. | Unsplash photo: vintage card-catalog drawers (Daniel Brzdek @format_) |
 | 2026-09-06 (lane LIVE) | Ad_BoringBox_91 | The box is boring. On purpose. | Unsplash photo: plain kraft box, darkened (Giorgio Trovato @giorgiotrovato) |
 | 2026-09-06 (lane LIVE) | Ad_MissingLineItem_92 | Your estate plan lists everything you own. Not what you are. | Unsplash photo: hands signing documents, no faces (Romain Dancre @romaindancre) |
-| 2026-09-06 (lane LIVE) | Ad_Echo2126_93 | We built a phone to 2126. | Unsplash photo: antique rotary telephone on navy (Pawel Czerwinski @pawel_czerwinski) — ORGANIC-FIRST; first ECHO creative |
+| 2026-09-06 (lane LIVE) | Ad_Echo2126_93 | We built a phone to 2126. | Unsplash photo: antique rotary telephone on navy (Pawel Czerwinski @pawel_czerwinski): ORGANIC-FIRST; first ECHO creative |
 | 2026-09-06 (lane LIVE) | Ad_QuietDecades_94 | Nothing happens to your sample. That's the product. | Unsplash photo: mirror-still misty lake at dawn (Sami Matias Breilin @samimatias) |
 | 2026-09-06 (lane LIVE) | Ad_PaperProof_90_9x16 | (adaptation) | Vertical re-layout of 90 |
 | 2026-09-06 (lane LIVE) | Ad_Echo2126_93_9x16 | (adaptation) | Vertical of 93, ORGANIC-FIRST inherited |
@@ -211,7 +211,7 @@
 | 2026-09-09 (lane LIVE) | Ad_TransferOfOwnership_108 | Every storage company eventually gets sold. | Unsplash photo: empty office interior (Sergei Wing @sergeiwing) |
 | 2026-09-09 (lane LIVE) | Ad_OnlyCopy_109 | The only copy of you that will ever exist. | Unsplash photo: dark liquid poured into flask (Bekzat Tanatar @typerpng) |
 | 2026-09-09 (lane LIVE) | Ad_LastPerson_110 | We are the last people you should trust on this number. | Unsplash photo: microphone under warm light (dlxmedia.hu @dlxmedia) |
-| 2026-09-09 (lane LIVE) | Ad_OneIn2700_111 | 1 in 2,700. | Unsplash photo: old books, inkwell, compass (Subhajit Saha @subhajit_saha_photography) — BLOG-ROUTING ONLY |
+| 2026-09-09 (lane LIVE) | Ad_OneIn2700_111 | 1 in 2,700. | Unsplash photo: old books, inkwell, compass (Subhajit Saha @subhajit_saha_photography): BLOG-ROUTING ONLY |
 | 2026-09-09 (lane LIVE) | Ad_NotAPrediction_112 | 1,260 genes for personality. You are still not a prediction. | Unsplash photo: long-exposure crosswalk crowd (mauro mora @mauromora) |
 | 2026-09-09 (lane LIVE) | Ad_ThreeWords_107_9x16 | (adaptation) | Vertical of 107 |
 | 2026-09-09 (lane LIVE) | Ad_OnlyCopy_109_9x16 | (adaptation) | Vertical of 109 |
@@ -241,19 +241,19 @@
 | 2026-09-12 (lane LIVE) | Ad_TwoAndAHalf_122 | Two and a half IQ points. Best of five embryos. | Unsplash photo: brass weighing weights on wood (Umar ben @umarben) |
 | 2026-09-12 (lane LIVE) | Ad_PreservedSecret_123 | A perfectly preserved secret is still lost. | Unsplash photo: steel vault door, TOP-BAND CROP ONLY (Mosler wordmark on the wheel excluded) (Jason Dent @jdent) |
 | 2026-09-12 (lane LIVE) | Ad_StillRunning_124 | In humans is not the same as works in humans. | Unsplash photo: wet street at night, headlights (Alex Durynin @zitzdorovo) |
-| 2026-09-12 (lane LIVE) | Ad_TheBoringOne_125 | There were three ways to open it. We picked the boring one. | Unsplash photo: station clock (Thorium @232_038t) — CONDITIONAL: immovable-date claim gated on product verification |
+| 2026-09-12 (lane LIVE) | Ad_TheBoringOne_125 | There were three ways to open it. We picked the boring one. | Unsplash photo: station clock (Thorium @232_038t): CONDITIONAL: immovable-date claim gated on product verification |
 | 2026-09-12 (lane LIVE) | Ad_EveryBetHasADate_121_9x16 | (adaptation) | Vertical of 121 |
 | 2026-09-12 (lane LIVE) | Ad_TwoAndAHalf_122_9x16 | (adaptation) | Vertical of 122 |
 | 2026-09-12 (lane LIVE) | Ad_StillRunning_124_9x16 | (adaptation) | Vertical of 124, portrait-native source |
 | 2026-09-12 (lane LIVE) | Ad_OneIn2700_111_9x16 | (adaptation) | Vertical of Sep 9 square (Subhajit Saha @subhajit_saha_photography), completes set; BLOG-ROUTING ONLY lockup |
-| 2026-09-13 (lane LIVE) | Ad_WithoutALawyer_126 | You should not need a lawyer to find out what happens to your sample. | Unsplash photo: dense out-of-focus printed text as texture (Finn Mund @finnmund) — CONDITIONAL on our own answer being reachable without the terms |
+| 2026-09-13 (lane LIVE) | Ad_WithoutALawyer_126 | You should not need a lawyer to find out what happens to your sample. | Unsplash photo: dense out-of-focus printed text as texture (Finn Mund @finnmund): CONDITIONAL on our own answer being reachable without the terms |
 | 2026-09-13 (lane LIVE) | Ad_WithoutALawyer_126_9x16 | (adaptation) | Vertical of 126, headline re-broken to 4 lines |
 | 2026-09-13 (lane LIVE) | Ad_TheBoringOne_125_9x16 | (adaptation) | Vertical of Sep 12 square; DISCLOSED different source photo (portrait clock, Abiyyu Zahy @abizahy) because the original is geometrically impossible in 9:16 |
 | 2026-09-13 | (KILLED) Ad_WeakestComparison_128 | The one comparison the score is worst at | Killed for want of a compliant photo: eggs killed on the gamete rail, padlocks failed composition. Code 128 retired unused |
 | 2026-09-13 | (KILLED) Ad_FifteenPercent | 30% in 2004. 15% in 2024. | Killed at draft: radar flagged the material ZERO PRODUCT; belongs in organic, not paid |
-| 2026-09-14 (CORRECTION) | Ad_EveryBetHasADate_121 + _9x16 | Headline CORRECTED: "None of them is today." -> "None of them has a result." | The original claim was false — Retro Biosciences dosed its first human in 2025 and the vision-loss reprogramming therapy is already in humans. Re-rendered and re-encoded; never ran. See science-watchlist 2026-09-14. |
-| 2026-09-14 (MIRROR HYGIENE) | — | 13 PNGs removed from assets/ads/ (8 of them over 1MB, largest 4.1MB) | The Aug 23 remediation is logged as complete but 13 PNGs from the Aug 19-20 batches survived it, 8 above the ~1MB threshold that kills the n8n mirror execution. HTML masters were present for all; 3 lacked a JPEG and were converted (q92, all under 300KB) before removal. Repo now holds zero PNGs under assets/ads and no committed image over 950KB. PNGs remain recoverable from git history. |
-| 2026-09-14 (lane LIVE) | Ad_RegisteredIsNotApproved_127 | "FDA-registered" means a facility told the FDA it exists. | Unsplash photo: ink pad and rubber stamps, heavily darkened (Glen Carrie @glencarrie) — first ad auditing a credential we ourselves cite |
+| 2026-09-14 (CORRECTION) | Ad_EveryBetHasADate_121 + _9x16 | Headline CORRECTED: "None of them is today." -> "None of them has a result." | The original claim was false: Retro Biosciences dosed its first human in 2025 and the vision-loss reprogramming therapy is already in humans. Re-rendered and re-encoded; never ran. See science-watchlist 2026-09-14. |
+| 2026-09-14 (MIRROR HYGIENE) |: | 13 PNGs removed from assets/ads/ (8 of them over 1MB, largest 4.1MB) | The Aug 23 remediation is logged as complete but 13 PNGs from the Aug 19-20 batches survived it, 8 above the ~1MB threshold that kills the n8n mirror execution. HTML masters were present for all; 3 lacked a JPEG and were converted (q92, all under 300KB) before removal. Repo now holds zero PNGs under assets/ads and no committed image over 950KB. PNGs remain recoverable from git history. |
+| 2026-09-14 (lane LIVE) | Ad_RegisteredIsNotApproved_127 | "FDA-registered" means a facility told the FDA it exists. | Unsplash photo: ink pad and rubber stamps, heavily darkened (Glen Carrie @glencarrie): first ad auditing a credential we ourselves cite |
 | 2026-09-14 (lane LIVE) | Ad_RegisteredIsNotApproved_127_9x16 | (adaptation) | Vertical of 127 |
 | 2026-09-14 | (KILLED) Gstaad access-gap concept | The conference you were not invited to | No compliant photo: lanyard carried a UHOO brand mark, corridor killed on tone (never-fear rule). Concept survives as today's script; can return as an ad with the right image |
 | 2026-09-15 (lane LIVE) | Ad_SeventeenYearsOld_128 | The most-used sound this week is from 2009. | Unsplash photo: scattered prints and 35mm film strips on a wood floor (Mathias Reding @matreding) |
@@ -266,3 +266,12 @@
 | 2026-09-15 (lane LIVE) | Ad_TheDateTakesLonger_131_9x16 | (adaptation) | Vertical of 131 |
 | 2026-09-15 (PHOTO KILLS) | : | Three photos killed at full-size inspection | RED cinema camera (identifiable crew faces + RED brand mark); VHS cassette (large TDK logo); concrete handprints (Sidney Poitier's signature and date, right-of-publicity). Contact sheet caught none of the three. |
 | 2026-09-15 (VOLUME) | : | 8 finished, not 10, for the third run running | Three of seven sourced photos failed rights/brand checks. Standing recommendation unchanged and now overdue: lower the target to 4-6 new concepts and add a refresh lane of logged v2s. |
+| 2026-09-16 (lane LIVE, reserve-sourced) | Ad_DeleteIsNotDestroy_132 | Deleting your results does not destroy the sample. | Unsplash photo: modern data centre, rows of white server cabinets (Tony Marinescu @tonymarinescu; from reserve) |
+| 2026-09-16 | Ad_DeleteIsNotDestroy_132_9x16 | (adaptation) | Vertical of 132 |
+| 2026-09-16 (lane LIVE, reserve-sourced) | Ad_AClosingLabMustPlan_133 | A closing lab must make arrangements. | Unsplash photo: tall city building at night, lit windows (Yuliia Dementsova @julia_demo; from reserve) |
+| 2026-09-16 | Ad_AClosingLabMustPlan_133_9x16 | (adaptation) | Vertical of 133 |
+| 2026-09-16 (lane LIVE, reserve-sourced) | Ad_PlacedNotLeftBehind_134 | Placed on purpose. Not left where it landed. | Unsplash photo: underside of a pier, concrete pilings over wet sand (Josh McCausland @joshmccausland; from reserve) |
+| 2026-09-16 | Ad_PlacedNotLeftBehind_134_9x16 | (adaptation) | Vertical of 134 |
+| 2026-09-16 (KILLED) | CLIA retention receipt concept | The only retention numbers anyone is required to keep. | No usable photo: receipt searches returned mockups and toilet paper; "archive boxes" returned zero; the one credible archive photo was the same visual family as yesterday's library. Concept banked, image problem not concept problem. |
+| 2026-09-16 (KILLED) | Technician-led execution | : | Identifiable person in profile, no model release. Not shipped organic-only either, because the concept it served was a regulatory claim. |
+| 2026-09-16 (VOLUME) | : | 6 finished, third consecutive run under target and the largest shortfall yet | Cause differs from yesterday's rights failures: today it was photo availability for specific objects. Padding was available (generic pairing, repeat visual family, or an unreleased face) and was declined. The 4-6 target plus refresh lane recommendation is now three runs old. |

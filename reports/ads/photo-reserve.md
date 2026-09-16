@@ -48,12 +48,10 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | e1fikVvAR8o | a person in blue scrubs is holding a sys | Elen Sher (@lenochka210292) | https://images.unsplash.com/photo-1691935444218-b4141c1884d3 | 3000x4000 |
 | jNs8ZNLbdaU | covid-19 vaccine stock photo ig: @hakannural
  | Hakan Nural (@hakannural) | https://images.unsplash.com/photo-1608638479472-b1181125d106 | 2832x3175 |
-| 6bTEvoIXsVQ | A very tall building in the city at night | Yuliia Dementsova (@julia_demo) | https://images.unsplash.com/photo-1740425404064-bece1589558c | 4160x6240 |
 | 24s63ot3gPs | a very tall building lit up at night | Lucia Macedo (@sample_in_photography) | https://images.unsplash.com/photo-1641574003782-a2f852650185 | 3359x4912 |
 | cTYlSnUTI8k | Low angle view of a modern glass skyscraper reflecting city lights at dusk. A traffic ligh | Darien Attridge (@dariendesigns) | https://images.unsplash.com/photo-1769751641224-dbbda144e824 | 4640x6960 |
 | adGjC3aqtVE | TD Bank Tower at Dusk | Allen Y (@yanahd) | https://images.unsplash.com/photo-1762758732142-218732a55714 | 4160x6240 |
 | ufT32_VFS-I | Technician working on server equipment with tools | Valentin Lacoste (@valentinlacoste) | https://images.unsplash.com/photo-1785682117028-6fcf2c0b515b | 6336x9504 |
-| fImCPTZ026U | Modern data center with rows of white server cabinets | Tony Marinescu (@tonymarinescu) | https://images.unsplash.com/photo-1784652852605-6945598f2af3 | 2160x2700 |
 | knUZi7dzb58 | man in blue denim button up shirt standing beside white metal frame | Sammyayot254 (@superadmins) | https://images.unsplash.com/photo-1629837093109-11325d6e7afd | 2122x2829 |
 | 4iRyMGQLbvY | black bird flying under blue sky during daytime | Pavan Krishna (@pavan_krishna) | https://images.unsplash.com/photo-1604546351679-ca555713d1a1 | 2002x3562 |
 | 6RMtm4pMLyc | A bat flies silhouetted against blue sky | Anderson Vieira (@dmixmediaworks) | https://images.unsplash.com/photo-1741996519801-0c40fd18c2f7 | 2929x4394 |
@@ -127,7 +125,6 @@ Three brand marks, one face risk, one gamete-rail conflict and one tone kill in 
 | 5K94bFkCLks | Grayscale poured-concrete floor, plain texture ground, no subject; good for type-led ads | Rowan Heuvel (@insolitus) | https://unsplash.com/photos/grayscale-photo-of-concrete-floor-5K94bFkCLks | https://images.unsplash.com/photo-1591095475424-715e1a00a3c6 | 3623x3622 |
 | ZpyvIqrnzzE | Gray cracked surface, seamless texture; bright, needs heavy darkening | Freddie (@seamlesstextures) | https://unsplash.com/photos/a-gray-surface-with-cracks-and-cracks-in-it-ZpyvIqrnzzE | https://images.unsplash.com/photo-1737033763821-cb49a6bdc9a0 | 4096x4096 |
 | e91vvMsE3ug | Grayscale wet sand, close texture, quiet | Sam Moghadam (@sammoghadam) | https://unsplash.com/photos/grayscale-photo-of-wet-sand-e91vvMsE3ug | https://images.unsplash.com/photo-1606585728721-329adbc7212e | 4000x4000 |
-| BCsqhsVOMgs | Underside of a pier over water, foggy, structural; moody and dark | Josh McCausland (@joshmccausland) | https://unsplash.com/photos/the-underside-of-a-pier-with-water-under-it-BCsqhsVOMgs | https://images.unsplash.com/photo-1634930947880-5092593c982c | 3302x3302 |
 | dzgDZxh4lo8 | Photo prints held in a paper cover; high key. CHECK for identifiable faces in the prints before use | Kristyna Squared.one (@squared_one1) | https://unsplash.com/photos/a-person-holding-a-photo-of-a-forest-dzgDZxh4lo8 | https://images.unsplash.com/photo-1684741891623-c5d8cb0d96b8 | 5304x5304 |
 
 ## DO-NOT-USE LIST (killed at full-size inspection, 2026-09-15: do not re-source these)
@@ -138,3 +135,17 @@ Three brand marks, one face risk, one gamete-rail conflict and one tone kill in 
 | HNg3b38pOMc | VHS cassette dominated by a large TDK logo, plus a second TDK mark and the VHS trademark on the label. |
 | kbU0LPnLHkI | "Handprints in concrete" is Sidney Poitier's signature, handprints and the date 6/23/67 at a Hollywood forecourt. Named person, implied endorsement. |
 | 2Foo9g5eFpE | Film canisters in a shop display: the photographer's own description says multiple brands are visible. Brand-mark risk; only usable with a tight brand-free crop. |
+
+
+## BANKED 2026-09-16
+| ID | Subject note | Photographer | Page | Raw URL | WxH |
+|---|---|---|---|---|---|
+| bljLnIUDl2Y | Historic room walled with small wooden drawers (Hardwick Hall). Strong earn for retention and archive concepts. **HOLD until 2026-09-22**: same visual family as Ad_PropertyOnOctoberFirst_130 (library, 2026-09-15), needs the 7-day window to clear | Stuart Jenkins (@stu_jenkins) | https://unsplash.com/photos/historic-room-with-walls-covered-in-small-wooden-drawers-bljLnIUDl2Y | https://images.unsplash.com/photo-1784932790802-0424b84ed894 | 4024x4024 |
+
+## DO-NOT-USE additions 2026-09-16
+| ID | Why killed |
+|---|---|
+| ufT32_VFS-I | "Technician working on server equipment": identifiable person in profile, no model release. Removed from the vetted list; do not re-source for paid creative. |
+
+## SEARCH NOTE 2026-09-16 (save the next run some time)
+These queries produced junk or nothing and should not be retried unphrased: **"laboratory sample vials rack"** (toothbrushes, shop shelving), **"paper receipt roll"** (toilet paper, 3D mockups), **"archive boxes storage shelves"** (zero results), **"filing cabinet"** (one result). Unsplash is thin on clinical and clerical objects. **Concepts that depend on a specific small object are the ones most likely to die at the photo step; prefer concepts whose image can be an environment rather than an item.**
