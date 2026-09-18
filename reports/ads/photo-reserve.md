@@ -149,3 +149,21 @@ Three brand marks, one face risk, one gamete-rail conflict and one tone kill in 
 
 ## SEARCH NOTE 2026-09-16 (save the next run some time)
 These queries produced junk or nothing and should not be retried unphrased: **"laboratory sample vials rack"** (toothbrushes, shop shelving), **"paper receipt roll"** (toilet paper, 3D mockups), **"archive boxes storage shelves"** (zero results), **"filing cabinet"** (one result). Unsplash is thin on clinical and clerical objects. **Concepts that depend on a specific small object are the ones most likely to die at the photo step; prefer concepts whose image can be an environment rather than an item.**
+
+## BANKED 2026-09-18 (sourcing-first run; these are the candidates NOT consumed today)
+| ID | Subject note | Photographer | Page | Raw URL | WxH |
+|---|---|---|---|---|---|
+| TvHZVXNTMGg | Wooden doors with patterned blue fabric behind glass; already dark blue, minimal tinting needed. NOTE: same door visual family as Ad_CustodyNotAccess_137, so HOLD until 2026-09-25 | Lv Bowen (@reborn0522) | https://unsplash.com/photos/wooden-doors-with-a-patterned-blue-fabric-behind-glass-TvHZVXNTMGg | https://images.unsplash.com/photo-1758111828289-6b5403451f73 | 4728x4728 |
+
+## CONSUMED 2026-09-18
+None. Every photo used today was sourced fresh in this run; the reserve was not drawn on.
+
+## DO-NOT-USE additions 2026-09-18
+| ID | Why killed |
+|---|---|
+| dzgDZxh4lo8 | Hands holding a photographic print. Two independent problems: it is high-key white and fights the mandated dark treatment, and the print itself contains a human figure. Removed from the vetted list. |
+
+## SEARCH NOTE 2026-09-18 (the method, not just the queries)
+**Queries that worked:** "closed door interior latch" (135 results, 2 of 3 usable) and "empty hallway night doorway light" (36 results, both usable). **Query that half-worked:** "optometry eye examination equipment" (only 14 results total; one usable, the others a watchmaker and binoculars). **Consistent with the 16 Sep note: Unsplash is thin on clinical objects and rich on architecture and interiors.**
+**METHOD NOTE, the useful part.** This run searched and inspected the photo bank BEFORE writing any headline, then wrote each headline against a photo that had already survived inspection. **Five of six candidates shipped.** The three previous runs wrote concepts first and shipped 8, 6 and 2. One run is not proof, but it is the first evidence for the inversion that has now been recommended four times.
+**Also learned: a peripheral brand mark is croppable.** A legible CHAROPS mark on the phoropter was excluded with a CSS crop of the remote image rather than killing the photo. **This does not loosen the rule.** TDK, RED and CORBIN were killed because the mark sat on or beside the focal element; a mark in a corner of a frame you are going to crop anyway is a different situation.
