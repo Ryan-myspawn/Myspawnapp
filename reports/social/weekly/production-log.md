@@ -6,7 +6,7 @@
 ## Podcast episodes
 | Date | Title | Core material |
 |---|---|---|
-| 2026-08-18 | "The $2 Million Man Is Having Doubts" | Bryan Johnson trilogy: regret post (Jul 25) + Baby-Bryan cell-line correction (Jul 21) + immortal-by-2039/Fortune. USED — do not rehash; only revisit if Johnson makes *new* news (say what changed). |
+| 2026-08-18 | "The $2 Million Man Is Having Doubts" | Bryan Johnson trilogy: regret post (Jul 25) + Baby-Bryan cell-line correction (Jul 21) + immortal-by-2039/Fortune. USED: do not rehash; only revisit if Johnson makes *new* news (say what changed). |
 | 2026-08-19 | "The Oldest Baby on Earth Was Frozen in 1994" | Pierce/Guinness 31y embryo record + vitrification/ensilication science + custody-chain angle (HereAfter, 23andMe contrast). USED. |
 | 2026-08-20 | "$10,000 for Eggs, $500 for Sperm: What the Pentagon Just Admitted" | DoD fertility-preservation pilot + cap-gap defuse + BioVault thesis. USED. (Lane retired 08-21 per founder rules.) |
 | 2026-08-21 | "The $2 Million Man Bought a Dog" | Johnson dog announcement (NEW development vs 08-18 doubt episode) + Kramer 2019 study-literacy + cheap-vs-expensive longevity + foresight stack close. USED. |
@@ -25,6 +25,8 @@
 | 2026-08-25 | "The IQ Dropdown" | Herasight predicted-IQ widget + "9 points" claim + Caplan/Tabery Theranos comparison (verbatim, attributed) + interfaces-manufacture-credibility thesis + 3-question close. USED. |
 | 2026-08-26 | "The Pill That Might Buy Ten Years" | Columbia VIBRANT rapamycin ovarian-aging pilot (~20% slower follicle loss) + VIBRANT II follow-up + buying-time-not-fixing-fertility thesis + tie to men's-legacy record framing. USED (science-story episode; the day's "hot" reaction fuel candidates -- Bryan Johnson diagnosis, Key Wealth poll -- were verified as 6-8 weeks old and correctly NOT used as breaking news). |
 
+| 2026-09-18 | "Custody Without Access" | TikTok Legacy Account (shipped late Aug 2026; first reported 24 Aug, Social Media Today / MediaPost 26 Aug / BetaNews): the legacy contact CANNOT log in, edit or remove posts, read messages or comments, or remove friends. Segment 2 generalises to Apple / Google / Meta / Microsoft and makes the third-party-privacy argument FOR the platforms. Segment 4 states our own 25-day miss on air. No verbatim quotes supplied: all facts carry verify-before-record markers because WebFetch egress is blocked. USED. |
+
 ## YouTube explainers
 | Date | Title | Core material |
 |---|---|---|
@@ -32,8 +34,8 @@
 | 2026-08-19 | "When Legacy Companies Die: 5 Questions" | HereAfter AI shutdown + 23andMe bankruptcy/breach numbers + GINA gap + 5-question custody checklist. USED (was queued 08-18). |
 | 2026-08-20 | "The Egg Company Just Bought the Missing Step" | Gameto/Harvard meiosis IP + IVG wall + field map. USED (was queued 08-19). |
 | 2026-08-21 | "Are Sperm Counts Actually Crashing? Both Studies, Honestly." | Levine/Swan HRU meta-analysis vs 2024 Fertil Steril stable-counts review; contested-science trust format; men-primary. USED. Franchise candidate: "Both Studies, Honestly". |
-| 2026-08-22 | (explainer honestly skipped: two scripted explainers unshot; film-before-write call) | — | — |
-| 2026-08-23 | (explainer skipped day two; same backlog; "How Long Can DNA Actually Last?" resumes when filming clears) | — | — |
+| 2026-08-22 | (explainer honestly skipped: two scripted explainers unshot; film-before-write call) |: |: |
+| 2026-08-23 | (explainer skipped day two; same backlog; "How Long Can DNA Actually Last?" resumes when filming clears) |: |: |
 | 2026-08-25 | "How Long Can DNA Actually Last?" | Moa 521-yr half-life (PRSB 2012) + ancient-genome records (Nature 2013/2021/2022) + what-kills/what-saves + Atlas/imec industry vote + storage-only close. USED (came off Aug 22 reservation; filming resumed). |
 | 2026-08-28 | "Who Owns Your DNA After You Die?" | Posthumous DNA rights: property-ish legal landscape + Astrue v. Capato (verify pre-filming) + clinic consent-form regime + named-successor custody questions + Memory Vault estate parallel. USED. |
 | 2026-09-06 | "Why We Don't Freeze It" | Ambient-storage engineering explainer: Guthrie/DBS decades receipts (PLOS One/BMC peer-reviewed), NAR Mol Med ensilication head-to-head (frozen showed MORE artifactual mutations), honest-limits (viable cells need cryo; custody > thermometer), audit-me framing. The channel's own storage model explained. USED. |
@@ -73,13 +75,14 @@
 | 2026-08-28 | "The Password Test" | Locked-phone single-prop monologue (digital-legacy; phone as vault-with-no-heir; passcode UGC loop) |
 | 2026-08-26 | "The Shoebox Test" | Physical archive-audit desk demo (faded photos, unreadable formats, thermal-receipt fade; kit contrast; comment-your-find UGC loop) |
 
-## Formats used (rolling 7-day window — vary daily)
+## Formats used (rolling 7-day window: vary daily)
+- 2026-09-18: **digital-legacy platform episode (NEW subject: TikTok's Legacy Account restriction list; the fleet's first treatment, and it records our own 25-day radar miss on camera)** · **(no explainer, deliberate: the only fresh science item, Junevity, is January-dated and mouse-stage, and the reprogramming mechanism already has the 12 Sep explainer)** · **"Read It Out Loud" verbatim-clause evergreen (NEW format)** · **CORRECTION PASS on the 12 Sep partial-reprogramming explainer (two lines; pre-publication if unshot, founder call)** · **Friday production review filed: proposes a two-week pause on episodes and explainers, evergreen slot kept, recovered slot spent on the sample-continuity page.**
 - 2026-09-17: **verification/unverifiable-archive episode (NEW lane, built on the Ancestor Photo Prank, no real person's image used)** · **(no explainer, deliberate: seven explainers in eight days exhausted every available mechanism)** · retail-aisle-walk evergreen (format 9 days out, storage aisle chosen for brand-lightness)
 - 2026-09-16: **(no episode, deliberate: one fresh subject, splitting it would be a rehash)** · microplastics / blood-testis-barrier explainer (NEW topic, ZERO PRODUCT, gamete rail stated twice on screen) · Flop-Core self-correction evergreen (NEW format, peaking this week)
 - 2026-09-15: **self-directed continuity episode (NEW lane: the custody question turned on MySpawn itself, founder-gated)** · programmed-DNA-elimination explainer (NEW mechanism, germline-as-master-copy) · wall-calendar prop evergreen (NEW format)
-- 2026-09-14: rhetoric-defeats-fact-checking episode (NEW lane, uses our own 4-day-old error as the worked example) · autophagy/lysosome explainer (NEW — mechanism behind the trial that corrected us) · whiteboard Receipt Check evergreen (format 17 days out; content proposed Sep 12, finally built)
+- 2026-09-14: rhetoric-defeats-fact-checking episode (NEW lane, uses our own 4-day-old error as the worked example) · autophagy/lysosome explainer (NEW: mechanism behind the trial that corrected us) · whiteboard Receipt Check evergreen (format 17 days out; content proposed Sep 12, finally built)
 - 2026-09-13: family-health-history collapse episode (NEW lane, ZERO PRODUCT) · genetic-nurture/sibling-comparison explainer (NEW mechanism) · cloud-drive screen-record evergreen (format 15 days out)
-- 2026-09-12: optimisation-culture/evidence-standard episode (NEW angle: screening sold into the biohacking audience) · partial-reprogramming explainer (NEW — the field's hottest theme, never explained here) · mirror-shot evergreen (NEW format)
+- 2026-09-12: optimisation-culture/evidence-standard episode (NEW angle: screening sold into the biohacking audience) · partial-reprogramming explainer (NEW: the field's hottest theme, never explained here) · mirror-shot evergreen (NEW format)
 - 2026-09-11: institutional-legitimacy episode (NEW angle) · digital-necromancy boundary explainer (NEW) · document-read-aloud evergreen (NEW format)
 - 2026-09-10: AI-afterlife category episode (NEW lane) · IVG-definitional explainer (NEW) · static locked-off long-take evergreen (NEW format)
 - 2026-09-09: correction-react episode (external challenge to our own claim, NEW) · corporate-continuity custody explainer (NEW) · audio-led voicemail evergreen (NEW format)
@@ -111,18 +114,20 @@
 | Date | Title | Core material |
 |---|---|---|
 | 2026-09-06 (PM) | "The Missing Line Item" | Estate-checklist desk audit (same-day cascade of Ad_MissingLineItem_92; every-line-is-a-thing turn; add-the-line close; not-legal-advice stated; folder UGC loop). USED. |
-| 2026-08-26 | "For the First Time in 14 Years" | ASRM's 2026 recurrent pregnancy loss committee opinion (first revision since 2012) — sperm DNA fragmentation testing "may be considered" for unexplained recurrent miscarriage; storage-only boundary stated explicitly. USED. |
-| 2026-08-26 | "Someone Finished the Puzzle" | T2T Consortium complete diploid human genome benchmark (*Cell*, Aug 2026) — 99.4% accuracy, +700M base pairs, both sex chromosomes; "tools improve, sample doesn't wait" thesis. USED. |
+| 2026-08-26 | "For the First Time in 14 Years" | ASRM's 2026 recurrent pregnancy loss committee opinion (first revision since 2012): sperm DNA fragmentation testing "may be considered" for unexplained recurrent miscarriage; storage-only boundary stated explicitly. USED. |
+| 2026-08-26 | "Someone Finished the Puzzle" | T2T Consortium complete diploid human genome benchmark (*Cell*, Aug 2026): 99.4% accuracy, +700M base pairs, both sex chromosomes; "tools improve, sample doesn't wait" thesis. USED. |
 | 2026-09-01 (PM) | "The Cover Story" | NatGeo Sept-issue ending-aging feature as magazine-in-hand hype-check react (real-vs-experimental labels; if→who pivot; zero longevity claims). USED. |
 | 2026-08-31 (PM) | "The Go-Bag Audit" | Flat-lay prop walk (emergency-prep coverage gap; continuity-not-survival framing; National Preparedness Month seasonal context). USED. |
 | 2026-08-30 (PM) | "The Ledger" | Nature Ecology & Evolution fertility/longevity trade-off paper (July online, Aug 30 wave; honesty-framed) as animated ledger-lines short; population-level claims only. USED. |
 | 2026-08-29 (PM) | "Real Time, No Cuts" | Timer-challenge real-time kit demo (75s; honest-timer rule; first product-demo format on the channel). USED. |
 | 2026-08-28 (PM) | "Worth Every Penny, Judged From Fifty Years Away" | Price-tag list countdown borrowing the live "worth every penny" TikTok format; generic figures, no brands; $99/yr horizon close. USED. |
 | 2026-08-28 | "The Year the Math Flipped" (short) | Whiteboard/marker Short of the below-replacement claim (working-paper vs UN, falling-curve draw, narrowing-tree close); same-peg format-distinct cascade with the Aug 28 episode. USED. |
-| 2026-08-26 (PM) | "Bats Don't Get Cancer the Way We Do. Scientists Just Found Out Why." | *Nature* Myotis bat genome study (UVM/Penn State, published this week) — DNA-repair genes + virus-adaptation pressure linked to longevity/cancer resistance; Lauterbur quote verbatim. USED. |
+| 2026-08-26 (PM) | "Bats Don't Get Cancer the Way We Do. Scientists Just Found Out Why." | *Nature* Myotis bat genome study (UVM/Penn State, published this week): DNA-repair genes + virus-adaptation pressure linked to longevity/cancer resistance; Lauterbur quote verbatim. USED. |
 
 ## Queued (claimed by Daily Review, not yet produced)
-- Episode: "The Fertility-Tech Trust Crisis" (Orchid pressure quote + PGC dispute + HereAfter/23andMe custody pattern) — earmarked 2026-08-21+.
+- Episode: "The Fertility-Tech Trust Crisis" (Orchid pressure quote + PGC dispute + HereAfter/23andMe custody pattern): earmarked 2026-08-21+.
 - ~~Episode: Pentagon pilot launch-day react (2026-09-14)~~ CANCELLED 2026-08-21 per founder content rules (Pentagon lane retired).
 - ~~Evergreen/explainer: "The Government's DNA Ark"~~ CANCELLED 2026-08-21 per founder content rules (government-biobank lane retired).
-- Recurring segment proposed 2026-09-12 by Daily Review: **"the Receipt Check"** — a standing beat distinguishing funding announcements from clinical evidence, prompted by three funding rounds surfacing this week as if they were results. Not yet produced.
+- Recurring segment proposed 2026-09-12 by Daily Review: **"the Receipt Check"**: a standing beat distinguishing funding announcements from clinical evidence, prompted by three funding rounds surfacing this week as if they were results. Not yet produced.
+- **Episode (conditional): "The Receipt Check" pilot**: proposed 12 September, still unproduced, and as of 18 September it has its worked example: the unattributed "2 to 5 years from FDA-approved epigenetic reprogramming" line against a Phase 1 that began 9 June 2026 with zero published results. **Build it in the episode slot next week IF the 18 September pause proposal is declined.**
+- **Non-camera deliverable, proposed 18 September: the sample-continuity page.** Written statement of what happens to stored samples if MySpawn ceases to operate. Identified independently by two agents as the most valuable document we do not have; named as a prerequisite by the benefits-broker channel dive; already forward-committed to in the 15 September continuity episode. **Founder call.**
