@@ -99,6 +99,27 @@
 - **Tactic to counter:** bundle pricing hides lifetime cost; our $495-for-5-years ($99/yr) vs their $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-09-19:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. The sweep surfaced only the **Nucleus x Legacy partnership of 26 August 2026**, already logged twice. **No watch file written**, per quiet-day discipline. No email (**Gmail day 20**; log-only).
+
+  **DEEP-DIVE #24: HEREAFTER AI'S SHUTDOWN AFTERMATH, and the category pattern behind it.** Logged 18 August as this file's first material finding and never revisited. It is the most useful custody receipt available to us and we had never established what actually happened to users' recordings.
+
+  **What the wind-down looks like, as reported.** HereAfter posted a shutdown notice on its homepage and **directed account holders to a support email to retrieve their recordings**. As of **August 2026**: **the hereafter.ai homepage no longer loads**, the **iOS app has not been updated since September 2023**, and **the only retrieval channel offered is support@hereafter.ai**. **There is no self-serve export path.** No scandal, no acquisition, no dramatic collapse: a small team appears to have run out of road.
+
+  **SOURCE CAVEAT, and it is not a small one.** The detailed account above comes from **afterlife.ai, a company in the same category**, writing about a departed rival. **That is a conflicted source and must be labelled as one on any use.** Two of its claims are independently checkable in minutes and should be checked before anything ships: **whether hereafter.ai resolves**, and **the App Store "last updated" date.** The rest is a competitor's characterisation.
+
+  **Date note against our own file.** Our 18 August baseline entry recorded the shutdown as **July 2026**. This account puts the homepage down by **August 2026**. **Not reconciled; both may be true (notice in July, site dark by August).** Flagged rather than silently overwritten.
+
+  **The category pattern, which is the actual finding.** HereAfter is not an outlier. As reported in the same source: **StoryFile filed Chapter 11 in May 2024** and reorganised. **Eternos left the digital-legacy category in November 2025**, rebranding as a personal-AI company for professionals. **You, Only Virtual sits behind a waitlist as of July 2026 with no public pricing.** **In roughly two years, most of the category's best-known names have shut down, pivoted or paused.**
+
+  **SO WHAT FOR MYSPAWN, and it cuts three ways.**
+  1. **It is the strongest proof our positioning has.** We have argued since August that digital-legacy services fail at *staying in business* rather than at storage. **Four companies in two years is no longer an argument, it is a base rate.**
+  2. **The failure mode is specific and worth naming precisely: the exit is an email address.** Not a data breach, not a hostile deletion. A support inbox, on a site that no longer loads, for files somebody's father recorded. **"Ask any vault what happens on the day they stop" (our Sept 10 line) now has a concrete answer to point at.**
+  3. **It is a mirror, and we should hold it up to ourselves before we use it.** We are a small team selling a promise measured in decades. **The honest version of this receipt is not "look at them," it is "this is the risk in our category, here is ours, and here is what we have written down about it."** We have not written it down. **The sample-continuity page is the answer to this dive, and it is now recommended by three independent routes: the benefits-broker channel dive, the Friday production review, and this one.**
+
+  **Posture: never name HereAfter to sell against them.** The company did nothing wrong and the people who used it are exactly our audience at their most vulnerable. **Cite the category pattern, not the corpse.** **Threat level: none (departed). Citation value: the highest in this file.**
+
+  **Next dive: StoryFile's Chapter 11 and what happened to its video interviews**, the one company in that list whose users' material was unusually rich and whose reorganisation, unlike the others, means somebody may still be holding it.
+
 - **2026-09-18:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. Sweeps returned baseline and historical material only: the Science/AAAS **PGC vs Orchid** piece surfaced again and is **dated 18 December 2023** (already logged 22 August, re-noted 4 September; **third time this item has surfaced framed as current: adding it to the stale-item checklist**); Acorn's ~$11.3M total equity and Fast Company 2026 listing, already on file; Tomorrow Bio's €200k/€75k pricing and 2026 plan, already on file from dive #3; Alcor's ~$80k/~$200k and ~1,400 members, already on file from dive #13; SecuriGene's 1,000+ funeral-home network and anhydrobiosis capsule, already on file from dives #2 and #19. **No watch file written, per quiet-day discipline.** No email (**Gmail day 19, eleventh false recovery**; log-only).
 
   **DEEP-DIVE #23: REMENTO (company dive; the first of the returned company rotation, queued since 15 September).**
