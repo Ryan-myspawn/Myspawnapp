@@ -167,3 +167,18 @@ None. Every photo used today was sourced fresh in this run; the reserve was not 
 **Queries that worked:** "closed door interior latch" (135 results, 2 of 3 usable) and "empty hallway night doorway light" (36 results, both usable). **Query that half-worked:** "optometry eye examination equipment" (only 14 results total; one usable, the others a watchmaker and binoculars). **Consistent with the 16 Sep note: Unsplash is thin on clinical objects and rich on architecture and interiors.**
 **METHOD NOTE, the useful part.** This run searched and inspected the photo bank BEFORE writing any headline, then wrote each headline against a photo that had already survived inspection. **Five of six candidates shipped.** The three previous runs wrote concepts first and shipped 8, 6 and 2. One run is not proof, but it is the first evidence for the inversion that has now been recommended four times.
 **Also learned: a peripheral brand mark is croppable.** A legible CHAROPS mark on the phoropter was excluded with a CSS crop of the remote image rather than killing the photo. **This does not loosen the rule.** TDK, RED and CORBIN were killed because the mark sat on or beside the focal element; a mark in a corner of a frame you are going to crop anyway is a different situation.
+
+## CONSUMED 2026-09-19
+None. All three photos used today were sourced fresh in this run.
+
+## DO-NOT-USE additions 2026-09-19
+| ID | Why killed |
+|---|---|
+| c9voued_RqI | Shuttered Paris shopfront with **"LA RESERVE" legible** on the fascia. A real named business shown closed, in a paid ad about companies closing. Unusable. |
+| fW_sVD4zKr0 | Street scene with a shopfront sign reading **"Santa Barbara"** legible at top, plus a car in frame. Same problem. |
+| 3lxwslhBBKk | Running track with **an identifiable child** in frame. No model release, and a minor. Never usable for paid creative. |
+
+## SEARCH NOTE 2026-09-19
+**Confirms and extends the 16 September note.** "closed metal shutter shopfront street" returned **three results in total** on Unsplash, two of which carried legible business names. **The category is thin, not unlucky.** By contrast "empty stadium seats dusk" returned 62 and "running track lane markings empty" returned 31, and the usable hits came from those. **Architecture and sports surfaces are abundant; commercial streetscapes without legible signage are close to non-existent.**
+**NEW RULE, learned the expensive way today:** **a concept whose image must show a business is nearly unshootable on Unsplash**, because a photograph of a shop is a photograph of somebody's trading name. **Prefer an environment that implies the idea (an empty stand, an unattended bench) over a literal depiction of the subject.**
+**AND THE REASON THE RESERVE MATTERS, restated with a new argument:** four ads from 10 and 12 September **cannot be re-rendered** because their masters point at local files and their raw URLs were never stored. **A reserve entry stores the raw URL, the native width and the photographer, which means any ad built from the reserve stays re-renderable for as long as the file exists.** That is a durability argument, not just a speed one.
