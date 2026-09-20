@@ -99,6 +99,31 @@
 - **Tactic to counter:** bundle pricing hides lifetime cost; our $495-for-5-years ($99/yr) vs their $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-09-20:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth or Empathy. Sweeps returned only baseline material (Acorn's Fast Company 2026 listing and secretome scaling; Nucleus's March 2026 India and Middle East expansion; **StoryWorth's own reported totals of more than one million books printed and around 35 million stories collected**, newly noted and undated: **date before citing**). **No watch file written**, per quiet-day discipline. No email (**Gmail day 21**; log-only).
+
+  **DEEP-DIVE #25: STORYFILE'S CHAPTER 11, AND A CORRECTION TO WHAT WE PUBLISHED INTERNALLY YESTERDAY.**
+
+  **THE CORRECTION FIRST, because it is the point of the dive. StoryFile did not stay dead.**
+  **What is true:** StoryFile, Inc. filed a voluntary **Chapter 11 petition on 5 May 2024** in White Plains, New York (case **7:2024bk22398**), declaring **$1.5M in assets against $10.5M in liabilities**. *(Public court record; the asset and liability figures are from the filing as reported.)*
+  **What we did not know yesterday: it emerged.** Its assets were **acquired by Key 7 Investment Company**, and trade coverage dated **3 March 2025** reports the platform coming out of Chapter 11 with fresh leadership and plans for new products and an updated brand identity. **In 2026 it is operating and expanding**: deployments reported at Washington DC's **Museum of the Bible**, a forthcoming presence at the **Medal of Honor Museum**, and a trial with **Inflatable Films and Blue Card in New York City public schools** letting students talk to a Holocaust survivor. *(Trade press and company-adjacent reporting, not a filing. Verify each deployment before it is used on air.)*
+
+  **WHAT THIS BREAKS.** Yesterday's dive #24 and everything built on it framed StoryFile as one of **"four companies in about two years that have shut down, pivoted or paused."** **Chapter 11 is a reorganisation, not a closure, and this one worked.** Saying "filed for Chapter 11" is literally accurate and **listing it among four failures without saying it survived is misleading by omission.** **Nothing has been published (Gmail down, no posting since 31 August), so this is a pre-publication fix. It is the fifth this month.**
+
+  **ASSETS CARRYING THE RETIRED FRAMING, none of which may ship until fixed:**
+  1. **Deep Production episode 2026-09-19, "Nobody Did Anything Wrong,"** segment 2.
+  2. **Script 1, "Black Screen, Four Dates"** (Content Factory 2026-09-19), shot 1.
+  3. **Ad_MoneyOnceObligationForever_143 and its vertical**, whose body copy reads *"Four companies built to keep people's memories have closed, pivoted or paused in about two years."*
+  4. **X-1 and T-1** in the 19 September PM drafts.
+
+  **APPROVED REPLACEMENT FRAMING, and it is a better argument than the one it replaces:**
+  > **"Of four well-known companies in this category, three shut down, left the category or went quiet. The fourth filed for Chapter 11 in May 2024 and came out the other side, because an investor bought the assets. That is the real range of outcomes, and the second one is not obviously the comfortable one: when a company like this survives, your material survives as an asset somebody purchased."**
+
+  **SO WHAT FOR MYSPAWN, and it sharpens rather than softens the thesis.** The failure mode we have been describing (the exit is an email address) is real, and **it is not the only one.** The other is **transfer**: the company persists, the obligation persists, and **the party holding your material is now whoever bought it.** Nobody signed up with Key 7 Investment Company. **That is a custody question we have never asked in any asset, and it is the strongest new line available to us: ask not only what happens if they close, but who is allowed to buy them.** Our own answer involves a third-party accredited biorepository, which is a partial answer and not a complete one, and **the continuity page now has a second question it must address.**
+
+  **Posture unchanged: never name any of these companies to sell against them.** StoryFile in particular is now a **success** story in its category and the honest use of it is as the counter-example, not the corpse. **Threat level: none. Citation value: high, and higher than yesterday's version because it is true in both directions.**
+
+  **Next dive: Eternos**, the November 2025 category exit, which is the one remaining name in the four whose fate we have characterised from a competitor's account and never checked.
+
 - **2026-09-19:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. The sweep surfaced only the **Nucleus x Legacy partnership of 26 August 2026**, already logged twice. **No watch file written**, per quiet-day discipline. No email (**Gmail day 20**; log-only).
 
   **DEEP-DIVE #24: HEREAFTER AI'S SHUTDOWN AFTERMATH, and the category pattern behind it.** Logged 18 August as this file's first material finding and never revisited. It is the most useful custody receipt available to us and we had never established what actually happened to users' recordings.
