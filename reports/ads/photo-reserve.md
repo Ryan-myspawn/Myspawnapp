@@ -182,3 +182,18 @@ None. All three photos used today were sourced fresh in this run.
 **Confirms and extends the 16 September note.** "closed metal shutter shopfront street" returned **three results in total** on Unsplash, two of which carried legible business names. **The category is thin, not unlucky.** By contrast "empty stadium seats dusk" returned 62 and "running track lane markings empty" returned 31, and the usable hits came from those. **Architecture and sports surfaces are abundant; commercial streetscapes without legible signage are close to non-existent.**
 **NEW RULE, learned the expensive way today:** **a concept whose image must show a business is nearly unshootable on Unsplash**, because a photograph of a shop is a photograph of somebody's trading name. **Prefer an environment that implies the idea (an empty stand, an unattended bench) over a literal depiction of the subject.**
 **AND THE REASON THE RESERVE MATTERS, restated with a new argument:** four ads from 10 and 12 September **cannot be re-rendered** because their masters point at local files and their raw URLs were never stored. **A reserve entry stores the raw URL, the native width and the photographer, which means any ad built from the reserve stays re-renderable for as long as the file exists.** That is a durability argument, not just a speed one.
+
+## CONSUMED 2026-09-20
+None. Both photos used today were sourced fresh in this run.
+
+## DO-NOT-USE additions 2026-09-20
+| ID | Why killed |
+|---|---|
+| V52lbhINtCo | "Moving boxes": an identifiable woman is the subject. No model release. |
+| oKxUh1EpQDU | "Moving boxes": an identifiable CHILD in frame. Never usable for paid creative, and not shippable organic-only either. |
+| Ua-xaK8bp34 | Ancient handwritten manuscript. No rights problem, killed for **visual-hook repetition**: Ad_AsWitness_136 used an aged document on 17 September. **Re-usable after 24 September** if no other aged-document ad has shipped by then. |
+| pn7MVR1TC-U | Typography type-case drawer. "CASLON" cast into nine drawer pulls plus legible paper labels. No legal problem; a frame full of type fights a type-led ad. Also the same drawer family as the held reserve entry. |
+
+## SEARCH NOTE 2026-09-20
+**Third consecutive run confirming the same shape.** Working queries today: **"brass door handle" (62 results)** and **"two glasses water table" (126)**. Failing queries: **"cardboard moving boxes empty room" (ZERO)**, and **"moving boxes" (25, but the usable ones all contain people)**. **Simple two- or three-word environment or object queries work; four-word descriptive queries return nothing.** Add that to the 16 September note about clinical and clerical objects.
+**NEW CONSTRAINT LEARNED TODAY, and it is the one that actually binds: visual-hook repetition now kills more photos than rights problems do.** The manuscript was legally clean, well lit, high resolution and free, and it died because we used an aged document three days earlier. **With a seven-day repetition window and roughly one usable photo per query, concept-first sourcing will keep running out. A banked reserve is the only structural fix, and the reserve's value is now durability plus repetition-avoidance, not just speed.**
