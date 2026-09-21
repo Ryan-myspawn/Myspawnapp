@@ -197,3 +197,18 @@ None. Both photos used today were sourced fresh in this run.
 ## SEARCH NOTE 2026-09-20
 **Third consecutive run confirming the same shape.** Working queries today: **"brass door handle" (62 results)** and **"two glasses water table" (126)**. Failing queries: **"cardboard moving boxes empty room" (ZERO)**, and **"moving boxes" (25, but the usable ones all contain people)**. **Simple two- or three-word environment or object queries work; four-word descriptive queries return nothing.** Add that to the 16 September note about clinical and clerical objects.
 **NEW CONSTRAINT LEARNED TODAY, and it is the one that actually binds: visual-hook repetition now kills more photos than rights problems do.** The manuscript was legally clean, well lit, high resolution and free, and it died because we used an aged document three days earlier. **With a seven-day repetition window and roughly one usable photo per query, concept-first sourcing will keep running out. A banked reserve is the only structural fix, and the reserve's value is now durability plus repetition-avoidance, not just speed.**
+
+## CONSUMED 2026-09-21
+None. Both photos used today were sourced fresh in this run, for the seventh consecutive day.
+
+## DO-NOT-USE additions 2026-09-21
+| ID | Why killed |
+|---|---|
+| LTFAllQyAb0 | **A chemotherapy infusion suite at a university cancer center** (National Cancer Institute photo), surfaced by a neutral interior query. Considered for an ad about recording a message for a birthday. **Permanent do-not-use, and the reason this run added a standing rule.** |
+| Fp8WL9SW1S0 | Wall of clocks with **"casamia" legible on a clock face.** Brand mark in frame in paid creative. Same rule that killed the shopfront photographs on 19 September. |
+| YNgFzEkq8zc | Single antique armchair. **No rights problem and re-usable for another concept.** Killed only because the brief needed two seats and one period chair reads heritage-museum rather than domestic. |
+
+## SEARCH NOTE 2026-09-21
+**Fourth consecutive run confirming the two- or three-word rule, plus one new failure mode.** Working queries: **"two armchairs window" (150 results)** and **"many clocks wall" (41)**. The second returned plenty of images and **almost none of them were usable**, because a wall of clocks is a wall of clock faces and a clock face is where a manufacturer prints its name.
+**NEW CONSTRAINT: a query that returns a repeated manufactured object returns a repeated brand mark.** Clocks, appliances, instruments, keyboards, watch faces, packaging. **This is a different failure from the thin-category problem of 19 September.** There the photographs did not exist; here they exist in quantity and nearly all of them are disqualified for the same single reason. Both end at the same clearance rate by opposite routes.
+**AND THE ONE THAT MATTERS MOST.** `LTFAllQyAb0` entered the candidate set from an interior query containing no clinical terms. It was dark, well composed, rights-clean, brand-free and person-free: **it passed every visual test this lane applies.** Its Unsplash description, read in full, identifies it as a chemotherapy infusion suite. **STANDING RULE, effective now: read the full description of every candidate before composition, not only the image.** The subject of a photograph is not always visible in the photograph.
