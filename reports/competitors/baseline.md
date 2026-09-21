@@ -99,6 +99,32 @@
 - **Tactic to counter:** bundle pricing hides lifetime cost; our $495-for-5-years ($99/yr) vs their $1,650-for-5-years comparison is legitimate and should be shown as a table, openly sourced.
 
 ## Update log
+- **2026-09-21:** **Fully quiet, all four lanes.** No dated item in the 24-48h window. The sweep returned only the **Nucleus x Legacy partnership of 26 August 2026** (already logged three times; newly noted detail: **Nucleus Preview uses a cheek swab from both partners and analyzes more than 2,000 genetic factors**: **undated in our source, date before citing**) and Acorn's secretome scaling. **No watch file**, per quiet-day discipline. No email (**Gmail day 22**; log-only).
+
+  **DEEP-DIVE #26: ETERNOS. AND THE FOUR-COMPANY BASE RATE IS NOW DEAD.**
+
+  **What actually happened.** Eternos began as voice and life-story preservation for after death; its first client, **Michael Bommer**, created a digital replica of himself before he died in **2024**. Founder **Rob LoCascio** (who founded LivePerson) then observed something that matters far more to us than the rebrand: **most users were not preparing for death. They wanted to use the technology while they were still alive.**
+  **In November 2025 the company rebranded to Uare.ai and raised a $10.3M seed round from Mayfield and Boldstart Ventures** (TechCrunch, 11 November 2025). The new product lets creators and professionals scale their expertise through AI replicas, built on a **"Human Life Model"** trained only on the user's own submitted stories, memories and professional background rather than on a general-purpose LLM, via text, audio and video. *(Trade press and company materials. Verify before use.)*
+
+  **WHAT THIS BREAKS, and it is not a footnote.** We have described Eternos as one of **"four companies that shut down, pivoted or paused in about two years"**, inside an argument about a category failure rate. **It raised $10.3 million and changed markets because the demand was somewhere else. That is not a failure. That is a company reading its customers correctly.**
+
+  **Combined with dive #25, TWO OF THE FOUR WERE NOT FAILURES.** The honest count is now:
+  - **HereAfter:** wound down. A support email is the only stated retrieval route. **The one clear failure.**
+  - **You, Only Virtual:** behind a waitlist as of July 2026 with no public pricing. **Unclear, and we have never checked it directly.**
+  - **StoryFile:** filed Chapter 11 May 2024, **emerged**, assets bought, **operating and expanding in 2026.**
+  - **Eternos:** **raised $10.3M and pivoted on a demand signal.**
+  **"Four companies failed in two years" is retired. It is one wind-down, one unclear pause, one bankruptcy-and-recovery, and one successful pivot.** **Nothing has been published with the retired version** (no posting since 31 August), so this remains a pre-publication fix. **Sixth this month.**
+
+  **ASSETS CARRYING THE DEAD FRAMING, already held and now needing MORE than the StoryFile patch:** the **19 Sep episode** segment 2, **Script 1 "Black Screen, Four Dates"** (its entire structure is four dated failures), **Ad_MoneyOnceObligationForever_143** and its vertical, the **19 Sep X-1 and T-1** drafts, and **longpost #84** (21 Sep), which uses the four-company line in its second paragraph. **Script 1 may need killing rather than patching: remove two of four dates and the format does not stand up.**
+
+  **THE PROCESS LESSON, and it is the most useful thing in this dive.** The four-company list came from **afterlife.ai, a company in the same category writing about departed rivals**. We labeled that conflict at the time and checked the claims anyway, one company per day. **Two of four were wrong.** **A conflicted source was not merely biased, it was inaccurate in a consistent direction: toward the category looking like a graveyard.** **Standing rule: a competitor's account of other competitors gets verified company by company before any argument is built on the aggregate, not after.**
+
+  **THE FINDING THAT IS WORTH MORE THAN THE CORRECTION.** LoCascio's observation is the single most commercially relevant thing this watch has produced: **the people who arrived for a legacy product mostly wanted to use it while alive.** We sell a date in the future and a sample held for decades. **If the same demand asymmetry applies to us, the Memory Vault's living uses, milestone messages recorded now and watched together, and ECHO, matter more than the posthumous framing does.** **This is a hypothesis about our own product from someone who ran the experiment, and it deserves a founder conversation rather than a content angle.**
+
+  **Posture: never name any of these companies to sell against them**, and now doubly so, because two of the four are doing fine. **Threat level: none. Citation value: the aggregate claim is dead; the demand observation is high.**
+
+  **Next dive: You, Only Virtual**, the last of the four whose status we have never checked directly, and the only one that could still be a genuine failure.
+
 - **2026-09-20:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth or Empathy. Sweeps returned only baseline material (Acorn's Fast Company 2026 listing and secretome scaling; Nucleus's March 2026 India and Middle East expansion; **StoryWorth's own reported totals of more than one million books printed and around 35 million stories collected**, newly noted and undated: **date before citing**). **No watch file written**, per quiet-day discipline. No email (**Gmail day 21**; log-only).
 
   **DEEP-DIVE #25: STORYFILE'S CHAPTER 11, AND A CORRECTION TO WHAT WE PUBLISHED INTERNALLY YESTERDAY.**
@@ -130,7 +156,7 @@
 
   **What the wind-down looks like, as reported.** HereAfter posted a shutdown notice on its homepage and **directed account holders to a support email to retrieve their recordings**. As of **August 2026**: **the hereafter.ai homepage no longer loads**, the **iOS app has not been updated since September 2023**, and **the only retrieval channel offered is support@hereafter.ai**. **There is no self-serve export path.** No scandal, no acquisition, no dramatic collapse: a small team appears to have run out of road.
 
-  **SOURCE CAVEAT, and it is not a small one.** The detailed account above comes from **afterlife.ai, a company in the same category**, writing about a departed rival. **That is a conflicted source and must be labelled as one on any use.** Two of its claims are independently checkable in minutes and should be checked before anything ships: **whether hereafter.ai resolves**, and **the App Store "last updated" date.** The rest is a competitor's characterisation.
+  **SOURCE CAVEAT, and it is not a small one.** The detailed account above comes from **afterlife.ai, a company in the same category**, writing about a departed rival. **That is a conflicted source and must be labeled as one on any use.** Two of its claims are independently checkable in minutes and should be checked before anything ships: **whether hereafter.ai resolves**, and **the App Store "last updated" date.** The rest is a competitor's characterisation.
 
   **Date note against our own file.** Our 18 August baseline entry recorded the shutdown as **July 2026**. This account puts the homepage down by **August 2026**. **Not reconciled; both may be true (notice in July, site dark by August).** Flagged rather than silently overwritten.
 
