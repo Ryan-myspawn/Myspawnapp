@@ -1,0 +1,43 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>MySpawn Inbox Digest: 2026-09-22</title></head>
+<body style="font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:1.55;color:#1a1a1a;max-width:660px;margin:0 auto;padding:24px">
+
+<p style="margin:0 0 16px;font-size:13px;color:#666">Intended recipient: ryan@myspawnapp.com<br>
+Subject: MySpawn Inbox Digest: 2026-09-22<br>
+<strong style="color:#b00">NOT SENT.</strong> Gmail is the delivery channel and Gmail is the thing that is down. This file is the digest.</p>
+
+<h2 style="margin:0 0 8px">Inbox status: not read. Day 22.</h2>
+<p>No triage, no drafts, no digest. <strong>Nothing has been read or sent from this inbox since 31 August.</strong> Sixteenth time the Gmail connector has surfaced its tools and then failed on the call.</p>
+
+<h2 style="margin:24px 0 8px">Today is different, and it corrects something I have been telling you for two days</h2>
+<p>Instead of guessing from error messages, I queried the connector registry directly. <strong>All three Google connectors return the identical state:</strong></p>
+<table style="border-collapse:collapse;margin:8px 0 16px">
+<tr style="background:#f4f4f6"><th style="text-align:left;padding:6px 12px;border:1px solid #ddd">Connector</th><th style="text-align:left;padding:6px 12px;border:1px solid #ddd">installState</th><th style="text-align:left;padding:6px 12px;border:1px solid #ddd">connected</th><th style="text-align:left;padding:6px 12px;border:1px solid #ddd">enabledInChat</th></tr>
+<tr><td style="padding:6px 12px;border:1px solid #ddd">Gmail</td><td style="padding:6px 12px;border:1px solid #ddd"><code>needs_reconnect</code></td><td style="padding:6px 12px;border:1px solid #ddd"><code>false</code></td><td style="padding:6px 12px;border:1px solid #ddd"><code>true</code></td></tr>
+<tr><td style="padding:6px 12px;border:1px solid #ddd">Google Calendar</td><td style="padding:6px 12px;border:1px solid #ddd"><code>needs_reconnect</code></td><td style="padding:6px 12px;border:1px solid #ddd"><code>false</code></td><td style="padding:6px 12px;border:1px solid #ddd"><code>true</code></td></tr>
+<tr><td style="padding:6px 12px;border:1px solid #ddd">Google Drive</td><td style="padding:6px 12px;border:1px solid #ddd"><code>needs_reconnect</code></td><td style="padding:6px 12px;border:1px solid #ddd"><code>false</code></td><td style="padding:6px 12px;border:1px solid #ddd"><code>true</code></td></tr>
+</table>
+
+<p><strong>The correction.</strong> I have been reporting "two distinct failure modes" and telling you that <strong>any fix must be verified against Calendar separately</strong> because Calendar fails at tool registration while Gmail and Drive fail at the call. <strong>That was wrong.</strong> The registration difference is a downstream symptom: a disconnected Gmail still shows its tool list, a disconnected Calendar does not. <strong>Underneath, it is one state, identical on all three. One fault, not two.</strong> Drop the extra Calendar verification step; it was my error and it would have cost you time.</p>
+
+<p><strong>What this also rules out.</strong> <code>enabledInChat: true</code> on all three means this is <strong>not a per-chat toggle</strong>, so nothing done from inside a session can touch it.</p>
+
+<p><strong>What it settles about the UI.</strong> Since day 12 I have been warning that the interface can display "connected" over a dead token, which is why I kept recommending disconnect-then-reconnect rather than re-clicking authorize. <strong>The registry now answers that directly: <code>connected: false</code>.</strong> If claude.ai currently shows these three as connected, <strong>the display is what is wrong, not your reading of it.</strong></p>
+
+<h2 style="margin:24px 0 8px">The action, in the smallest form it has ever had</h2>
+<p style="background:#f4f4f6;padding:14px 16px;border-left:3px solid #7C3AED;margin:8px 0"><strong>In claude.ai connector settings, disconnect and reconnect Gmail, Google Calendar and Google Drive.</strong><br>
+Same action, three times, any order. Nothing else is needed and nothing else will work. <code>needs_reconnect</code> is the state the platform itself reports, and clearing it requires the account owner. This session cannot run OAuth.</p>
+
+<h2 style="margin:24px 0 8px">What is waiting behind it</h2>
+<ul>
+<li><strong>Newsletter Issue 5.</strong> Missed Monday. Next sensible slot is <strong>today, 9:00am ET</strong>. Two conditions travel with it: <strong>re-verify the Connecticut effective date of 1 October against the statute</strong> before sending, and <strong>send Issue 5 before touching Issues 4 and 3</strong>.</li>
+<li><strong>23 ad batches unverified</strong> (Aug 28e through Sep 21). Drive delivery has been dark the whole time.</li>
+<li><strong>Founder decisions still open:</strong> the production pause proposed 18 Sep and due yesterday; the ad-volume request, now seven askings old; the Reaction Fuel lane cull, six.</li>
+</ul>
+
+<p style="font-size:13px;color:#666;margin-top:20px">Automated mail ignored today: <strong>unknown, because the inbox could not be opened.</strong> Padding that number with a guess would be worse than leaving it blank.</p>
+
+<hr style="margin:28px 0;border:none;border-top:1px solid #ddd">
+<p style="font-size:16px"><strong>The single most important email to answer today: none, because the inbox cannot be opened. The single most important action today is the reconnect above, and it takes about a minute.</strong></p>
+
+</body></html>
