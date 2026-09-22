@@ -58,7 +58,7 @@
 
 ### Addition 2026-09-15 (legacy-tech, and it is the closest price collision on file)
 - **Remento: $99/YEAR, VIDEO-FIRST, SHARK TANK BACKED.** Founded 2020 in Los Angeles by Charlie Greene and Alex Massonneau. Greene appeared on ABC's **Shark Tank in March 2025** and took a **$300,000** deal with Mark Cuban. Model: weekly prompts by email or text; the storyteller answers by **recording voice or video, no app required**; recordings are auto-transcribed and formatted into chapters. **Pricing: $99/year** including one hardcover book up to 200 pages, unlimited collaborators and a year of prompts; renews at **$99/year or $12/month**; extra book copies **$69**; extending to 380 pages **+$30**; each additional storyteller **$99 one-time**. Signature mechanic: the printed book carries **QR codes linking back to the original audio or video**, so a reader hears the story in the person's own voice. *(Company-published pricing via Remento's help centre plus multiple 2026 review pages; verify before quoting in an ad.)*
-- **So what:** (1) **Price validation.** An independent, televised consumer legacy product converged on our exact $99/year without reference to us. (2) **Framing collision.** Our binding rules retired letter framing in favour of VIDEO messages, and Remento is already video-first at our price with national TV awareness, so "record a video for your family, $99 a year" is contested ground. (3) **The difference is time, not medium:** Remento's unlock is immediate (a book arrives this year), the Memory Vault's unlock is a **date locked to a milestone**, and we also keep the biological record. Line to hold: *they turn your voice into a book you read now; we seal a message for a day you will not be there for, and we keep the sample.* (4) **Posture: never attack them.** Use the StoryWorth approach from dive #6, a truthful comparison page. **Queued, not actioned:** "Remento alternative" and "Remento vs Memory Vault" added to the SEO comparison queue; running them is a founder call. **Threat level: low-direct, moderate-positional.**
+- **So what:** (1) **Price validation.** An independent, televised consumer legacy product converged on our exact $99/year without reference to us. (2) **Framing collision.** Our binding rules retired letter framing in favor of VIDEO messages, and Remento is already video-first at our price with national TV awareness, so "record a video for your family, $99 a year" is contested ground. (3) **The difference is time, not medium:** Remento's unlock is immediate (a book arrives this year), the Memory Vault's unlock is a **date locked to a milestone**, and we also keep the biological record. Line to hold: *they turn your voice into a book you read now; we seal a message for a day you will not be there for, and we keep the sample.* (4) **Posture: never attack them.** Use the StoryWorth approach from dive #6, a truthful comparison page. **Queued, not actioned:** "Remento alternative" and "Remento vs Memory Vault" added to the SEO comparison queue; running them is a founder call. **Threat level: low-direct, moderate-positional.**
 
 ## Deep-dive rotation log
 - *(rotation order: Acorn → SecuriGene → Tomorrow Bio → Legacy → Orchid → StoryWorth)*
@@ -148,7 +148,7 @@
 
   **Posture unchanged: never name any of these companies to sell against them.** StoryFile in particular is now a **success** story in its category and the honest use of it is as the counter-example, not the corpse. **Threat level: none. Citation value: high, and higher than yesterday's version because it is true in both directions.**
 
-  **Next dive: Eternos**, the November 2025 category exit, which is the one remaining name in the four whose fate we have characterised from a competitor's account and never checked.
+  **Next dive: Eternos**, the November 2025 category exit, which is the one remaining name in the four whose fate we have characterized from a competitor's account and never checked.
 
 - **2026-09-19:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. The sweep surfaced only the **Nucleus x Legacy partnership of 26 August 2026**, already logged twice. **No watch file written**, per quiet-day discipline. No email (**Gmail day 20**; log-only).
 
@@ -160,7 +160,7 @@
 
   **Date note against our own file.** Our 18 August baseline entry recorded the shutdown as **July 2026**. This account puts the homepage down by **August 2026**. **Not reconciled; both may be true (notice in July, site dark by August).** Flagged rather than silently overwritten.
 
-  **The category pattern, which is the actual finding.** HereAfter is not an outlier. As reported in the same source: **StoryFile filed Chapter 11 in May 2024** and reorganised. **Eternos left the digital-legacy category in November 2025**, rebranding as a personal-AI company for professionals. **You, Only Virtual sits behind a waitlist as of July 2026 with no public pricing.** **In roughly two years, most of the category's best-known names have shut down, pivoted or paused.**
+  **The category pattern, which is the actual finding.** HereAfter is not an outlier. As reported in the same source: **StoryFile filed Chapter 11 in May 2024** and reorganized. **Eternos left the digital-legacy category in November 2025**, rebranding as a personal-AI company for professionals. **You, Only Virtual sits behind a waitlist as of July 2026 with no public pricing.** **In roughly two years, most of the category's best-known names have shut down, pivoted or paused.**
 
   **SO WHAT FOR MYSPAWN, and it cuts three ways.**
   1. **It is the strongest proof our positioning has.** We have argued since August that digital-legacy services fail at *staying in business* rather than at storage. **Four companies in two years is no longer an argument, it is a base rate.**
@@ -261,3 +261,40 @@
 - **2026-08-20:** Near-quiet. Orchid founder August quote confirming pressure-driven clinic adoption (trust-crisis receipt); Acorn scaling US ops (Glossy). Deep-dive #1 completed: Acorn marketing snapshot (secretome now-value tactic; $945 + $16/mo pricing display). Pentagon fertility pilot noted as lane-2 tailwind, no company moves yet.
 - **2026-08-19:** Nucleus first clinic partnership (Beverly Hills Fertility) + Orchid comparison warfare; Acorn Fast Company honor; StoryWorth pricing tiers; Empathy grief-AI research. No 24h breaking news in any lane.
 - **2026-08-18:** Baseline created. Key numbers: Acorn $945+$100/yr; Legacy $47.75M raised + Mar 2026 data platform; SecuriGene 1,000+ funeral homes; HereAfter AI shutdown (July 2026) logged as first material finding.
+
+### 2026-09-22 DEEP-DIVE #27: YOU, ONLY VIRTUAL. AND THE FOUR-COMPANY CHECK IS NOW COMPLETE.
+
+**Why this one mattered.** YOV was **the last of the four whose fate we characterized from a competitor's account and never checked directly.** The account came from **afterlife.ai, a category competitor**, whose framing we repeated as *"in roughly two years, most of the category's best-known names have shut down, pivoted or paused."* Two of its four claims had already failed verification. This is the fourth.
+
+**WHAT YOV ACTUALLY IS.** Founded **2021**, Los Angeles. Founder and CEO **Justin Harrison**, who built a version of his mother **Melodi** before she died of terminal cancer, which is the origin story the company tells. Product: a **"Versona"**, a digital representation built from communication datasets, text messages, calls, voice and text data. **Company self-description, labeled as such: "the world's first and only grief technology utilizing fully patented AI essence generation."** Harrison's public profile describes him as **inventor of two patented grief-tech systems** and lists CNN, TIME, BBC and VICE coverage.
+
+**WHAT THE CLAIM SAID, AND WHAT THE EVIDENCE SHOWS.**
+
+Our baseline recorded, from the competitor's account: *"**You, Only Virtual sits behind a waitlist as of July 2026 with no public pricing.**"*
+
+| Element | Evidence found | Verdict |
+|---|---|---|
+| "Behind a waitlist", "pre-revenue", "10K+ waitlist" | Traces to a **StartEngine offering document for a 2022 round**, i.e. **company-authored investor material now four years old**. | **NOT a July 2026 status.** The claim borrows a 2022 fundraising line and presents it as current. |
+| "No public pricing" | A **December 2024** source reports **$10 for a constrained chat, covering roughly one to two hours of chat time**. | **Contradicted**, at least as of late 2024. |
+| Shut down, pivoted or paused | **No evidence of any of the three.** Founder still lists himself as Founder and CEO; the company appears in grief-tech coverage through **2026**, including a February 2026 piece and commentary within the last week. | **Still operating as far as the evidence goes.** |
+
+**DIRECT PROBE FAILED, and the reason is ours.** `myyov.com` returned **"Access to www.myyov.com is blocked by the network egress proxy."** **That is our container refusing the connection, exactly as it does for nature.com and for myspawn.me itself. It is not evidence about YOV and must never be cited as such.** So the strongest available statement is **"no evidence of failure and active 2026 coverage"**, not "confirmed operating".
+
+**THE FOUR-COMPANY CHECK, COMPLETE, AND IT IS WORSE THAN WE THOUGHT FOR THE SOURCE.**
+
+| Company | Competitor's account | What we found on direct check |
+|---|---|---|
+| **HereAfter AI** | shut down | **HOLDS.** Shutdown notice, homepage not loading Aug 2026, iOS app not updated since Sept 2023. |
+| **StoryFile** | shut down | **FALSE as framed.** Chapter 11 May 2024, **emerged**; assets acquired by Key 7 Investment Company; **operating and expanding in 2026.** |
+| **Eternos** | category exit | **FALSE as framed.** **Raised $10.3M** (Mayfield, Boldstart) and **pivoted on a demand signal**, rebranding to Uare.ai. That is a company reading its customers correctly. |
+| **You, Only Virtual** | waitlist, no pricing, implicitly stalled | **UNSUPPORTED.** The waitlist line is recycled 2022 investor material; a 2024 price point exists; no failure evidence. |
+
+**ONE of four holds. THREE of four were wrong, and all three were wrong in the direction that flattered the source.**
+
+**THE RULE, now earned rather than proposed.** The standing note written after dive #24 said to verify a competitor's account of other competitors **company by company** before building an argument on the aggregate. **That rule is now fully validated: had we not checked, we would have published a category-failure claim with a 25% hit rate.** Elevate it from a note to a hard gate: **no aggregate claim about competitor outcomes ships until every company in it has been checked individually.**
+
+**WHAT THIS RELEASES AND WHAT IT BLOCKS.** The **four-company base-rate line is definitively dead** and must not appear in any asset. **Longpost #84 ("The Shoebox"), still on hold, now has the material for its rewrite:** the honest version is not *"most of this category failed"* but *"one of four failed, one reorganized, one raised money and changed markets, and one is still going. The category is volatile, not doomed, and volatility is still a custody question."* **That is a better argument and it is true.**
+
+**ONE TACTIC WORTH NOTING, and the honest counter.** YOV leads with **"patented"** as its trust signal, in the company description and in the founder's own headline. It is a real, third-party, checkable credential, and leading with one is the right instinct: **it is structurally the same move as ours, which leads with GenVault's ISO 9001, ISO 20387 and CAP accreditation.** **The counter is a distinction, not an attack: a patent is a claim about novelty. It says nothing about whether the product works, whether the company lasts, or what happens to your data if it does not.** Accreditation of a facility and a published custody answer speak to different questions. **Never name them to make this point. It works as a general test a reader can apply to anyone, including us.**
+
+**SOURCE-QUALITY NOTE for the file.** Two of today's YOV sources are **company-authored**: the StartEngine offering (investor solicitation) and an **einpresswire** item about Gold Star families (**paid press-release distribution, not journalism**). Both are usable as evidence of what the company says about itself and **as nothing else.**
