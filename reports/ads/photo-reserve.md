@@ -212,3 +212,34 @@ None. Both photos used today were sourced fresh in this run, for the seventh con
 **Fourth consecutive run confirming the two- or three-word rule, plus one new failure mode.** Working queries: **"two armchairs window" (150 results)** and **"many clocks wall" (41)**. The second returned plenty of images and **almost none of them were usable**, because a wall of clocks is a wall of clock faces and a clock face is where a manufacturer prints its name.
 **NEW CONSTRAINT: a query that returns a repeated manufactured object returns a repeated brand mark.** Clocks, appliances, instruments, keyboards, watch faces, packaging. **This is a different failure from the thin-category problem of 19 September.** There the photographs did not exist; here they exist in quantity and nearly all of them are disqualified for the same single reason. Both end at the same clearance rate by opposite routes.
 **AND THE ONE THAT MATTERS MOST.** `LTFAllQyAb0` entered the candidate set from an interior query containing no clinical terms. It was dark, well composed, rights-clean, brand-free and person-free: **it passed every visual test this lane applies.** Its Unsplash description, read in full, identifies it as a chemotherapy infusion suite. **STANDING RULE, effective now: read the full description of every candidate before composition, not only the image.** The subject of a photograph is not always visible in the photograph.
+
+## CONSUMED 2026-09-22
+None. Both photos used today were sourced fresh, for the eighth consecutive day.
+
+## BANKED 2026-09-22 (vetted, not yet used)
+*(First real bank since the reserve was created. All inspected at thumbnail, none composed, none rights-flagged. Raw URLs recorded so anything built from these stays re-renderable.)*
+
+| ID | Photographer | Native | Subject | Raw URL |
+|---|---|---|---|---|
+| `AJxfRH-37-0` | JIWON KANG (@jiwon_kang) | 4199 | Two concrete walls meeting in a V against sky. **Dark, superb. HELD until 29 September** on architectural-repetition grounds | https://images.unsplash.com/photo-1756625080819-bb9b709f22ad |
+| `UqczN2Tw7_E` | Russell Bradbury-Carlin (@roscoebc) | 2408 | Cracked pavement, dry leaves, hard shadow. **Square only: too small for a sharp 3840 vertical** | https://images.unsplash.com/photo-1764689657977-36dd4173b59c |
+| `GDQToxRF0hA` | M Yunus Roikhan R (@ynsroikhn) | 5634 | Tactile paving strip with fence shadows across it | https://images.unsplash.com/photo-1787371267079-edca58db637d |
+| `FcMZltAX-P8` | Jonathan Lim (@jonathankslim) | 4032 | Tree shadow on a building face, #404040 | https://images.unsplash.com/photo-1737272148102-567831ca8533 |
+| `5K94bFkCLks` | Rowan Heuvel (@insolitus) | 3623 | Grayscale concrete floor, plain | https://images.unsplash.com/photo-1591095475424-715e1a00a3c6 |
+| `nd0sa77BSg8` | Shawn Rain (@shawn_rain) | 4000 | Black and white stones on a concrete floor | https://images.unsplash.com/photo-1619964480295-fb839eef2770 |
+| `lTJU4u4ZE60` | Eduardo Cano Photo Co. (@eduardocanophotoco) | 3024 | Harbor view and shadow play on concrete | https://images.unsplash.com/photo-1574023509232-3049b57b34f2 |
+| `Nfvhz1hLtj8` | Dariia Lemesheva (@lemi_dash) | 3503 | Maple seeds on weathered wood, #262626 | https://images.unsplash.com/photo-1781736712900-84d3e5823eea |
+
+**Caveat on this bank, stated so it is not oversold: six of the eight are surfaces.** That is the family the day's queries happened to be in, and **a reserve of eight surfaces does not solve the repetition problem, which is precisely the argument for a dedicated sourcing run across families rather than incidental banking.**
+
+## DO-NOT-USE additions 2026-09-22
+| ID | Why killed |
+|---|---|
+| jmK2kirjmi4 | Black leather wallet. Description identifies it as a **named-brand product photoshoot**. **A brand mark by provenance, even though no logo is visible in frame.** New category of kill; add it to the check. |
+| 4QYTLcub_8E | **Identifiable person** on a skateboard. Excluded at search. Never usable for paid creative. |
+| B7k_ZPavvg4 | Slatted wooden bench arm. **No rights problem.** Killed as the third seating photograph in four days. **Re-usable after 28 September** if no other seating ad has shipped. |
+
+## SEARCH NOTE 2026-09-22
+**Fifth consecutive run confirming the short-query rule.** Working: "concrete seam shadow" (1,067), "dark leather folder desk" (86), "worn stone steps" (186), "wooden table hard shadow" (279). **All two or three words, all returned usable volume.** The four-word failure mode did not recur because no four-word query was attempted.
+**THE DIAGNOSIS CHANGED TODAY AND IT MATTERS MORE THAN THE QUERY RULE.** For three weeks the shortfall was a **supply** problem. **Today four photographs cleared rights, darkness, brand marks and people, and three of them were killed for resembling our own recent work.** **The constraint is now inventory, not supply.** Concept-first sourcing asks for one photograph at a time, which makes the seven-day repetition window a query against a set of one. **A reserve of thirty across different families is the only structure in which the repetition rule and a daily target of ten can both hold.**
+**NEW CHECK ADDED, from the wallet kill: read the description for PROVENANCE as well as content.** A photograph shot as a brand's product campaign carries that brand even when no logo is in the frame. **This joins the rule added on 21 September about reading the full description rather than skimming the visual.**
