@@ -1,5 +1,14 @@
 # MySpawn Partner Prospects — 2026-08-25 · Week 1: Estate-Planning Attorneys (US)
 
+> **SUPERSEDED, 22 September 2026: ACCREDITATION WORDING.**
+> The outreach copy in this file states **"FDA-registered"** as a flat credential with no de-claim.
+> **Do not send it as written.** FDA registration means a facility is registered with the agency and
+> conveys **no approval or endorsement**, and the ISO / CAP / FDA credentials belong to **GenVault**,
+> not to MySpawn. The canonical replacement paragraph is in
+> `reports/partners/prospects-2026-09-22.md` under "CANONICAL ACCREDITATION PARAGRAPH".
+> This file is left otherwise unedited on purpose: it is the record of what we wrote at the time.
+
+
 **Sourcing note (important):** Apollo.io's search API is blocked on the current Free plan (error: `API_INACCESSIBLE`, "all paid plans include full API access"). This list was built via public web research instead — every entry carries its source URL, and names appear ONLY where the source itself named the person. Contact emails and LinkedIn profiles were NOT harvested (that's the Apollo enrichment step; upgrade unlocks it, or pull from each firm's contact page manually). Nothing has been sent to anyone.
 
 **Why this channel:** estate-planning attorneys advise exactly our buyer (men 30-60 doing legacy planning) at exactly the right moment (drafting the will). A DNA record + Memory Vault is a natural line item in the plans they already sell. Referral/affiliate framing, no exclusivity.

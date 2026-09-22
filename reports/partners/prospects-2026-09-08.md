@@ -1,4 +1,13 @@
 # MySpawn Partner Prospects — Tuesday, September 8, 2026
+
+> **SUPERSEDED, 22 September 2026: ACCREDITATION WORDING.**
+> The outreach copy in this file states **"FDA-registered"** as a flat credential with no de-claim.
+> **Do not send it as written.** FDA registration means a facility is registered with the agency and
+> conveys **no approval or endorsement**, and the ISO / CAP / FDA credentials belong to **GenVault**,
+> not to MySpawn. The canonical replacement paragraph is in
+> `reports/partners/prospects-2026-09-22.md` under "CANONICAL ACCREDITATION PARAGRAPH".
+> This file is left otherwise unedited on purpose: it is the record of what we wrote at the time.
+
 ## Week 3 of rotation: fertility clinics + genetic counselors (US)
 
 **Apollo status: API_INACCESSIBLE for the third consecutive week** (Free plan; `mixed_people_api_search` re-tested this morning and returned the same upgrade-required error). List built from public sources with source URLs, as in weeks 1 and 2. No emails or LinkedIn data harvested, nothing sent to any prospect, no Apollo sequences created.

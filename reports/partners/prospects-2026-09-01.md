@@ -1,5 +1,14 @@
 # MySpawn Partner Prospects — Tuesday, September 1, 2026 · Week 2: Financial Advisors / Wealth Planners
 
+> **SUPERSEDED, 22 September 2026: ACCREDITATION WORDING.**
+> The outreach copy in this file states **"FDA-registered"** as a flat credential with no de-claim.
+> **Do not send it as written.** FDA registration means a facility is registered with the agency and
+> conveys **no approval or endorsement**, and the ISO / CAP / FDA credentials belong to **GenVault**,
+> not to MySpawn. The canonical replacement paragraph is in
+> `reports/partners/prospects-2026-09-22.md` under "CANONICAL ACCREDITATION PARAGRAPH".
+> This file is left otherwise unedited on purpose: it is the record of what we wrote at the time.
+
+
 **Sourcing note:** Apollo API remains Free-plan blocked (API_INACCESSIBLE, verified this run) — list built from public web sources (rankings, firm sites, professional profiles), all source-attributable; no emails or private contact data harvested. **Delivery: repo + chat only (Gmail connector down). NOTHING was sent to any prospect.**
 
 ## Prospect list (16)
