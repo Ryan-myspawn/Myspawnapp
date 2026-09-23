@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>MySpawn Inbox Digest: 2026-09-23</title></head>
+<body style="font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:1.55;color:#1a1a1a;max-width:660px;margin:0 auto;padding:24px">
+
+<p style="margin:0 0 16px;font-size:13px;color:#666">Intended recipient: ryan@myspawnapp.com<br>
+Subject: MySpawn Inbox Digest: 2026-09-23<br>
+<strong style="color:#b00">NOT SENT.</strong> Gmail is both the subject and the delivery channel. This file is the digest.</p>
+
+<h2 style="margin:0 0 8px">Day 24. And today it is actually diagnosed.</h2>
+<p>Inbox not read. No triage, no drafts. Nothing read or sent since 31 August. Seventeenth time the connector has surfaced its tools and then failed on the call.</p>
+
+<h2 style="margin:24px 0 8px">I have been giving you an incomplete fix for twelve days</h2>
+<p>A documentation tool became available in this session today, and its connector page states the fact that explains the whole outage:</p>
+<p style="background:#f4f4f6;padding:12px 16px;border-left:3px solid #b00;margin:8px 0"><strong>"Connectors are read when a session starts."</strong></p>
+<p><strong>This session started around 31 August.</strong> It holds the connector bindings it read then. <strong>A reconnect at claude.ai cannot reach back into a running session.</strong></p>
+<p>So every recommendation I have made since 12 September, to disconnect and reconnect all three, was <strong>necessary but not sufficient</strong>. On its own it would have changed nothing here. It is also why there have been seventeen "false recoveries": the MCP servers re-register their tools, but <strong>the credential binding this session holds is dead and cannot refresh</strong>.</p>
+
+<h2 style="margin:24px 0 8px">And it is a fleet problem, not a session problem</h2>
+<p>I checked the triggers. <strong>All fifteen MySpawn routines are bound to this specific session</strong>, and <strong>none of them stores a connectors field</strong>. So a reconnect plus a new session still leaves every routine firing into the dead one.</p>
+
+<h2 style="margin:24px 0 8px">The complete fix, in this order</h2>
+<ol style="line-height:1.7">
+<li><strong>Reconnect Gmail, Google Calendar and Google Drive</strong> at <strong>https://claude.ai/customize/connectors</strong>. I re-checked the registry this morning: all three still read <code>needs_reconnect</code>, <code>connected: false</code>.</li>
+<li><strong>Start a new session.</strong> This one will never pick them up, however many times they are reconnected.</li>
+<li><strong>Re-point the fifteen triggers at the new session.</strong> <strong>I can do this step myself</strong> once a new session ID exists.</li>
+</ol>
+<p style="font-size:14px;color:#444"><strong>Why I did not just create the new session myself:</strong> the registry still says <code>needs_reconnect</code>, so a session created now would inherit the same dead bindings and be born broken. <strong>The reconnect has to come first.</strong> And I deliberately did not re-point the triggers in advance, because pointing fifteen routines at a session that does not exist yet would take the fleet from degraded to dead.</p>
+
+<h2 style="margin:24px 0 8px">What this does not change</h2>
+<p>Every other agent has kept running. <strong>Twenty-four days of work is committed to claude/trend-radar and none of it is lost:</strong> blog articles, scripts, production packs, competitor dives, ad creatives, the partner book.</p>
+<p><strong>What is lost is delivery.</strong> No email, no Drive verification, no inbox triage. <strong>24 ad batches unverified</strong> (Aug 28e through Sep 22). <strong>Newsletter Issue 5 has now missed three slots</strong>, and three slips is where an issue quietly dies.</p>
+
+<p style="font-size:13px;color:#666;margin-top:20px">Automated mail ignored today: <strong>unknown, because the inbox could not be opened.</strong> Guessing at that number would be worse than leaving it blank.</p>
+
+<hr style="margin:28px 0;border:none;border-top:1px solid #ddd">
+<p style="font-size:16px"><strong>The single most important email to answer today: none, because the inbox cannot be opened. The single most important action is step 1 and step 2 above, and step 2 is the one I have never asked for before.</strong></p>
+
+</body></html>
