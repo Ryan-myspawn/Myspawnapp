@@ -243,3 +243,26 @@ None. Both photos used today were sourced fresh, for the eighth consecutive day.
 **Fifth consecutive run confirming the short-query rule.** Working: "concrete seam shadow" (1,067), "dark leather folder desk" (86), "worn stone steps" (186), "wooden table hard shadow" (279). **All two or three words, all returned usable volume.** The four-word failure mode did not recur because no four-word query was attempted.
 **THE DIAGNOSIS CHANGED TODAY AND IT MATTERS MORE THAN THE QUERY RULE.** For three weeks the shortfall was a **supply** problem. **Today four photographs cleared rights, darkness, brand marks and people, and three of them were killed for resembling our own recent work.** **The constraint is now inventory, not supply.** Concept-first sourcing asks for one photograph at a time, which makes the seven-day repetition window a query against a set of one. **A reserve of thirty across different families is the only structure in which the repetition rule and a daily target of ten can both hold.**
 **NEW CHECK ADDED, from the wallet kill: read the description for PROVENANCE as well as content.** A photograph shot as a brand's product campaign carries that brand even when no logo is in the frame. **This joins the rule added on 21 September about reading the full description rather than skimming the visual.**
+
+## RESERVE STATUS 2026-09-23: FAILED ITS FIRST TEST, AS PREDICTED
+**Zero of the eight photographs banked on 22 September were usable today.** The caveat filed alongside them said exactly this would happen: *"six of the eight are surfaces... a reserve of eight surfaces does not solve the repetition problem."*
+**Why all eight failed:** every entry is a **surface or architecture**. **Architecture is blocked until 29 September** by Ad_WhichModelWhoBuiltIt_148. **The light-split-on-a-surface family was killed inside yesterday's own batch.** One entry, `Nfvhz1hLtj8`, was **banked yesterday and killed today** on both grounds at once.
+**THE LESSON, and it is the whole argument for a dedicated run: a reserve assembled from whatever a day's concept-led queries happened to surface is not a reserve. It is a second copy of that day.** Concept-first sourcing asks narrow questions, so incidental banking inherits the narrowness. **A reserve that solves repetition has to be built deliberately and across families in one pass**, which is precisely what the sourcing-run request has specified since 15 September and what today demonstrates rather than argues.
+**Entries remain banked and unconsumed.** `AJxfRH-37-0` stays **held to 29 September**. `Nfvhz1hLtj8` moves to do-not-use for this window.
+
+## CONSUMED 2026-09-23
+None. The single photo used today was sourced fresh, for the ninth consecutive day.
+
+## DO-NOT-USE additions 2026-09-23
+| ID | Why killed |
+|---|---|
+| sWaBlk7OWrE | **3D RENDER, not a photograph.** Own description: "3D Rendering Blank Flyer For Mockup." |
+| qNMsA7ucvqo | **3D RENDER, not a photograph.** Own description: "3D Rendering A4 Blank Flyer on Gray Background For Mockups." Same author. |
+| V_QL02WVjdg | Book with ribbon and wrapping paper. **A faith-based publisher's own product shoot (brand by provenance) AND a religious text.** Two disqualifiers. |
+| Nfvhz1hLtj8 | Maple seeds on weathered decking. **Banked 22 September, killed 23 September.** Light-split-on-a-surface family plus plank repetition against Ad 151. **Re-usable after 30 September** if neither family has run. |
+| SJgXGuCzLKg | Grey throw on a brown couch. **Fourth seating photograph killed in five days.** No rights problem. |
+
+## SEARCH NOTE 2026-09-23
+**NEW FAILURE MODE: 3D RENDERS ARE INDEXED AS PHOTOGRAPHS.** Two of four results for "blank paper sheet shadow" were 3D mockup assets, **both of which said so in their own descriptions**, and **neither is distinguishable from a photograph in a thumbnail grid.**
+**RULE ADDED: read the description for MEDIUM as well as for content and provenance.** The mandate requires real photography and a thumbnail cannot tell you what you are looking at. **This is the third description-reading rule in three days** (21 Sep: read the full description, not the visual. 22 Sep: read for provenance, because a brand's product shoot carries that brand with no logo in frame. 23 Sep: read for medium.) **All three exist because the visual passed and the words did not.**
+**Short-query rule holds for a sixth consecutive run:** "folded linen dark" (203), "blank paper sheet shadow" (182).
