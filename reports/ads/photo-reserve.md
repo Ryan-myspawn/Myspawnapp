@@ -266,3 +266,19 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 **NEW FAILURE MODE: 3D RENDERS ARE INDEXED AS PHOTOGRAPHS.** Two of four results for "blank paper sheet shadow" were 3D mockup assets, **both of which said so in their own descriptions**, and **neither is distinguishable from a photograph in a thumbnail grid.**
 **RULE ADDED: read the description for MEDIUM as well as for content and provenance.** The mandate requires real photography and a thumbnail cannot tell you what you are looking at. **This is the third description-reading rule in three days** (21 Sep: read the full description, not the visual. 22 Sep: read for provenance, because a brand's product shoot carries that brand with no logo in frame. 23 Sep: read for medium.) **All three exist because the visual passed and the words did not.**
 **Short-query rule holds for a sixth consecutive run:** "folded linen dark" (203), "blank paper sheet shadow" (182).
+
+## Banked 2026-09-24 (deliberate CROSS-FAMILY pass, which is the point)
+*The 23 September entry recorded that a reserve of eight surfaces solved nothing because all eight were one family. These eight are deliberately spread across seven families. None was consumed today.*
+
+| Photo | Family | Raw URL (native width) | Photographer | Subject note |
+|---|---|---|---|---|
+| `Lrw5FlacXjo` | industrial decay | https://images.unsplash.com/photo-1744210492534-74330469a9a8?fm=jpg&q=95&w=8736 | Haberdoedas (@haberdoedas) | Rusty bolted steel joint, "Demolition Waste". B&W, dark, clean on every rights test. **Killed today on CONCEPT only: the "what outlasts you" headline family is four ads deep. Needs a concept that is not about survival.** |
+| `guxAPmaH9_U` | ice | https://images.unsplash.com/photo-1767250752261-5c6eb2f8b2cf?fm=jpg&q=95&w=3883 | Christian Lue (@christianlue) | Cracked ice on dark water. Dominant color #0c2640, already our navy. Not used today only because it collides with the leaf. |
+| `JI99ABczEdU` | water | https://images.unsplash.com/photo-1788722735818-3b76800eb37f?fm=jpg&q=95&w=3305 | Shaturniano's Photography (@shaturniano_photography) | Rippling dark blue water, square. Reads as an echo or a ripple from something dropped in. |
+| `vrMDQB2e3YQ` | botanical | https://images.unsplash.com/photo-1765893576770-7d6bf52fa311?fm=jpg&q=95&w=2560 | Juan Pablo (@who0ne) | Wet tropical leaf, B&W close-up. **Same family as Ad 154, so not usable before 1 October.** |
+| `lu0H9DVMBLE` | hand tools | https://images.unsplash.com/photo-1605900009749-b3cdb75ce9c5?fm=jpg&q=95&w=3909 | Fotis Nakos (@hellenicsun) | Hammer and hand tool, #404040, square. **Not viewed at size yet: the tool family produced two legibility surprises today, so view before use.** |
+| `Q4mP-KvzmjM` | dark still life | https://images.unsplash.com/photo-1777320319817-377d89d16a1d?fm=jpg&q=95&w=3888 | Valeriia (@valhstack) | A single small object floating in dark space. Deliberately ambiguous; good for an isolation concept. |
+| `8acn6jGqmoM` | scientific instrument | https://images.unsplash.com/photo-1777887050296-829020618bf3?fm=jpg&q=95&w=2861 | Smithsonian (@smithsonian) | Astrocompass on dark blue studio ground. **Light and institutional; the description names a historical aircraft and its pilot, so any use must not imply endorsement.** |
+| `tCpo2Zy0Rf4` | museum machine | https://images.unsplash.com/photo-1668199342426-f678171d6608?fm=jpg&q=95&w=4000 | Alexander Osipenko (@subpath) | Typewriter close-up, German Museum of Technology. **Light ground (#d9d9d9); needs a heavy tint or a dark crop.** |
+
+**Caveat carried forward honestly, because the last one came true.** Two of these eight are in families used or adjacent today (botanical, instrument), and **two have not been viewed at size.** **A banked photo is a candidate, not a clearance**, and the 23 September lesson stands: the reserve only helps if it is wide and if each entry has actually been looked at.
