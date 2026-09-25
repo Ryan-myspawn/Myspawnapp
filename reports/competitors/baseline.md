@@ -370,3 +370,45 @@ Our baseline recorded, from the competitor's account: *"**You, Only Virtual sits
 3. **CONTENT: this is the strongest "How Old Is That Number?" candidate yet, and better than the generational-wealth episode proposed this morning**, because the disagreement is about **a year that has already happened** rather than about the future. **Held, not promoted, for one reason: the generational-wealth episode names nobody, and this one is about the market we sell into, which makes it much easier to read as self-serving.** It goes in the queue behind the pilot and Episode 2, and **only if it can be written without implying that our corner of the category is the honest one.**
 
 **Rotation unchanged: next quiet-day dive is Acorn Biolabs (re-check bias, per the note after #20).**
+
+### 2026-09-25: QUIET on the landscape. Watch file skipped. But the rotation dive found an error in OUR OWN published pricing.
+
+**24-48h sweep returned no dated competitive event** across SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter, StoryWorth and Empathy. **Per the standing discipline, no `watch-2026-09-25.md` was written.**
+
+Everything the fertility and legacy-tech lanes returned is already here: the **26 August Nucleus x Legacy partnership**, **Sperm Insights (March 2026)**, the **$1M at-home collection study (May 2026)** and **NY CLEP approval**. Two figures from that partnership release are newly noted and are **company-authored**: **Legacy states more than 75,000 sperm analyses performed**, and Nucleus "thousands of patients". **Usable only as what the companies say about themselves.**
+
+---
+
+### 2026-09-25 deep-dive #30: ACORN BIOLABS (rotation pick, re-check bias): and the finding is against us
+
+**The rotation note after #20 said quiet-day dives should return to companies with a re-check bias, and named Acorn as next. This is that dive, and it did not go the way re-checks usually go.**
+
+**THIS FILE HAS CONTAINED TWO INCOMPATIBLE STORAGE PRICES FOR ACORN SINCE AUGUST, AND ONE OF THEM IS IN A PUBLISHED BLOG ARTICLE.**
+
+| Where | Figure | Date recorded |
+|---|---|---|
+| `watch-2026-08-18.md` | "~**$100/yr** storage" | 18 Aug |
+| `watch-2026-08-19.md` | "~$945 + **$100/yr**" | 19 Aug |
+| **`reports/blog/dna-banking-cost.md`, twice: the direct answer AND the comparison table** | "~$945 up front plus ~**$100/year**" | **published** |
+| `production-2026-08-20.md` | "$945 + ~**$16/month**, forever. Tally the 20-year number ($4,700+)" | 20 Aug |
+| `longposts-2026-09-03.md` | "collection from $945, storage around **$16/month**" | 3 Sep |
+| `longposts-2026-09-05.md` | "Cell banking at $945 up front plus ~**$16/mo**" | 5 Sep |
+
+**$16/month is $192/year. It cannot also be $100/year.** Today's independent sweep reports **around $16 per month to store 50 follicles** and, separately, **$190 per year per individual**: both consistent with the $16/month line and **roughly double the $100 figure.**
+
+**READ HONESTLY: this looks like OUR transcription error, made on 18 August, which then propagated into a published article and was silently contradicted by our own longposts twice.** The 20 August production file describes its figures as verified against provider pages, and it says $16/month.
+
+**WHAT I AM NOT DOING, and the reason is a lesson this file already learned.** **I am not swapping $100 for $190.** On 23 September the StoryWorth entry recorded the rule: **swapping one unverified number for another repeats the error rather than fixing it.** **`www.acorn.me` is blocked by our own egress proxy**, which is our container refusing the connection and **is not evidence about Acorn**, so the primary pricing page could not be read today.
+
+**Two unresolved variables that a single number would paper over.** **(1) Currency.** Acorn is Toronto-based and stores at Toronto General Hospital; **whether these prices are USD or CAD is not established**, and at current rates that is a large difference. **(2) Tiers.** "$16/month for 50 follicles" and "$190/year per individual" may be two different products, not two reports of one.
+
+**ACTIONS, in priority order.**
+1. **`reports/blog/dna-banking-cost.md` carries a competitor's annual price that our own archive contradicts twice. It needs correcting.** **The safe correction is a RANGE with the currency caveat attached, or removal of the figure, not substitution of $190.**
+2. **The `~$100/yr` entry in this baseline is downgraded to CONTESTED and must not be quoted.**
+3. **Thirty seconds on acorn.me from an unblocked browser settles both variables.** Same ask as StoryWorth, still outstanding.
+
+**SO WHAT FOR MYSPAWN. The correction runs in our favor, which is exactly why it needed catching.** If Acorn's storage is nearer **$190/year** than $100, then our **$99/year** is **less than half** a live-cell competitor's annual line rather than roughly at parity, **and we have been understating our own position for five weeks.** **A comparison that flatters us is not a reason to relax the check; it is the reason the check exists**, and this operation spent the week saying so about other people's numbers.
+
+**Marketing snapshot, since this is also the rotation's job.** Acorn's 2026 positioning is consolidated on **personalized regenerative medicine** rather than DNA legacy: **YOU Secretome soft-launched late 2024**, scaled through H1 2026, **won a 2026 NewBeauty Award for Best Secretome Treatment**, and the company was named to **Fast Company's Most Innovative Companies 2026**. **Distribution is clinic-mediated**: collection happens at partnering clinics and naturopathic practices, which is why the collection fee is quoted as varying by clinic. **TACTIC WORTH NOTING, not stealing: third-party awards are doing their trust work.** A NewBeauty award and a Fast Company listing are checkable credentials from outside the company, structurally the same move as our GenVault accreditations. **The counter is the distinction we already use: an award is a judgment about a product; an accreditation is an audit of a facility. Different questions. Never name them to make the point.**
+
+**Rotation: next quiet-day dive is SecuriGene / DNA Memorial**, which has not had a re-check since deep-dive #2.
