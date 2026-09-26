@@ -291,3 +291,40 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 | `9_0ehv2chw8` | sculpture | https://images.unsplash.com/photo-1591527791390-7d12f8ec8a54?fm=jpg&q=95&w=8018 | Ricardo Gomez Angel (@rgaleriacom) | Weathered sculpted hand and forearm, B&W, 8018px, dark, no living person, no brand, no text. **Carries a strong unused concept: a statue is a guess; a likeness is not a record.** **HARD CONSTRAINT: a Gothic cathedral window is legible behind it, which makes the figure read as devotional. Usable ONLY if a crop removes the ecclesiastical background entirely.** Killed 25 September for consistency with the 23 September religious-content kill, not for rights. |
 
 **Reserve status note, because the last one was wrong in a useful way.** The 23 September entry recorded that a reserve of eight surfaces solved nothing. **The 24 September cross-family reserve was consumed for the first time today, on its second day, by an entry that had been passed over once for an intra-batch collision that later disappeared.** **That is exactly the behavior a reserve is supposed to have, and it is the first evidence that the cross-family version works where the incidental version did not.**
+
+
+## CONSUMED 2026-09-26
+- `5K94bFkCLks` concrete ground -> Ad_OneOfTheseYouCanTestToday_158
+- `zNQWfic4G70` ladder -> Ad_SixteenPointsApart_159 (cooldown vs BottomRung_73 expired)
+- `XWTrHfOoMqw` January calendar -> Ad_ADateYouChoose_160 (cooldown vs 86 expired)
+- `DEIp7OQ3dpM` turntable grooves -> Ad_TheGrooveDidNotChange_161 (cooldown vs PrintRun_72 expired)
+**Three of five photos in today's run came from this file. It is the only reason the run reached ten finished creatives, and it is the argument for the sourcing-only run in miniature.**
+
+## BANKED 2026-09-26 (vetted by search metadata; inspect at full size before use)
+| ID | Subject note | Photographer | Raw URL | WxH |
+|---|---|---|---|---|
+| zObP_4Xd6Qg | Stacked chains, very dark (#262626), square. Reads as texture rather than narrative; good ground for a type-led ad. **Chain family used 26 Sep on 156, so hold until 3 October.** | Matteo Piscioneri (@matteo_skyrider) | https://images.unsplash.com/photo-1735801921140-da9771f109c7 | 3972x3972 |
+| aIvcK-KIysA | Rusted metal ring on the ground, square, light and needs heavy darkening. **Same chain/rust family as 156, hold until 3 October.** | Patrick Federi (@federi) | https://images.unsplash.com/photo-1691519554827-ea0e065e9fd8 | 6048x6048 |
+| n3zec5j-534 | "Ancient lock": white metal chain on a door, very dark (#262626), square. Lock and door families both have prior ads; check 137 and the door lane before use. | Parth Madhvani (@parth_madhvani) | https://images.unsplash.com/photo-1574568465688-23a2b6dd96a7 | 3024x3024 |
+| Mh9m3kKBO9Y | Weathered tree stump, rings explicitly visible, square, light. **Botanical family: not usable before 1 October** (Ad_ItWasFinishedBeforeItFell_154 shipped a leaf 24 Sep). | James Wainscoat (@tumbao1949) | https://images.unsplash.com/photo-1777187681636-f70625ab5aa3 | 5142x5142 |
+| hQInliiNf9M | Weathered tree stump with yellow lichen, very dark (#260c0c), square. **The alt names LICHEN, not rings: inspect before trusting it as a rings photo.** Same botanical hold. | James Wainscoat (@tumbao1949) | https://images.unsplash.com/photo-1762442086433-9e86192b971a | 5464x5464 |
+| kAIB9RXFdyM | Tree stump with circular pattern, square, warm orange. Same botanical hold. | Haberdoedas (@haberdoedas) | https://images.unsplash.com/photo-1738417298040-e810d1295b29 | 5381x5381 |
+
+## CROP-ONLY ADDITIONS 2026-09-26
+| ID | Constraint |
+|---|---|
+| ebr-L2kmWGs | Rusted chain, Ben Tripp (@bentripp). **USABLE ONLY on a crop excluding the top ~38 percent.** The uncropped frame is a sunny harbor with boats, a far shore and at least one visible person. **The alt description names the chain and says nothing about any of that: this is the 25 September rule, that an alt names the SUBJECT and not the FRAME.** |
+
+## DO-NOT-USE additions 2026-09-26
+| ID | Why killed |
+|---|---|
+| nXR9bwyZtR0 | **Approved into Unsplash's 3D-renders topic.** A render, not a photograph. Also a plant stem captioned "Healthy brain" while indexed under a hair-macro query. |
+| 7JGzlSlLv4I | **Approved into Unsplash's 3D-renders topic.** Metal-strip sculpture. |
+| sta62wMTY2A | Iridescent tinsel. Festive register, wrong for every lane we run. |
+| ZLn72MFzxqk | A painting, not a photograph. Mandate violation. |
+
+## SEARCH NOTE 2026-09-26 (the finding is worth more than the photos)
+**Query "single hair strand macro" returned 146 results and the top four were two 3D renders, tinsel and a painting.** Combined with the 24 September hairbrush run (8 of 8 killed, one of them a render), **this closes the macro-abstract category the same way 25 September closed the consumer-object category.** **Consumer objects are photographed by the people who sell them; macro abstracts are generated by the people who render them.**
+**Query "tree rings cross section" returned FIVE results in total.** Narrow natural-object queries are thin on Unsplash, exactly as "closed metal shutter shopfront street" was on 19 September.
+**Query "rusted chain" returned 61 results and was the run's best**, which fits the pattern: **weathered infrastructure that nobody sells is the category that still has supply.**
+**METHOD, one step earlier than the 18 September note: GREP THE AD LOG BEFORE SEARCHING THE PHOTO BANK.** It cost seconds and killed three collisions before a single byte was downloaded: worn stone steps against 151 (four days out), a lighthouse against 74 **on message rather than image**, and an exact headline already owned by 17.
