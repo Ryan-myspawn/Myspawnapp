@@ -16,14 +16,14 @@
 
 ---
 
-Direct answer: **in 2026, banking biological material costs anywhere from $99 a year to over $50,000, and the spread comes down to two questions: what's being stored, and who keeps custody.** A DNA *record* (the information layer) runs $99-$389+: either an annual custodial plan or a one-time home-kept capsule. Living cells cost more (~$945 up front plus an annual storage fee we are currently unable to state precisely: our sources give both ~$16/month and ~$190/year, and the provider's own pricing page is unreachable from our network, so treat the annual figure as roughly $190 and unconfirmed, with currency USD or CAD not established). Reproductive material costs more still ($700-$1,400 up front plus ~$185-$245/year), and only some of it is bankable at all ages. Here's every model, priced from providers' own pages, with the trade-offs stated plainly.
+Direct answer: **in 2026, banking biological material costs anywhere from $99 a year to over $50,000, and the spread comes down to two questions: what's being stored, and who keeps custody.** A DNA *record* (the information layer) runs $99 to roughly $580: either an annual custodial plan or a one-time home-kept capsule. Living cells cost more (~$945 up front plus an annual storage fee we are currently unable to state precisely: our sources give both ~$16/month and ~$190/year, and the provider's own pricing page is unreachable from our network, so treat the annual figure as roughly $190 and unconfirmed, with currency USD or CAD not established). Reproductive material costs more still ($700-$1,400 up front plus ~$185-$245/year), and only some of it is bankable at all ages. Here's every model, priced from providers' own pages, with the trade-offs stated plainly.
 
 ## The full price map (verified Aug 30-Sep 2, 2026)
 
 | Model | What's stored | Typical price | Who holds it |
 |---|---|---|---|
 | DNA record, custodial (MySpawn) | Purified DNA record (hair + nails) | **$99/year** (first 1,000 lock the founding rate) | Accredited biorepository (GenVault, NJ) |
-| DNA record, home capsule (SecuriGene) | Purified DNA in a sealed capsule | **$389 one-time** pre-need ($498 at-need; +$250/extra capsule; + shipping/collection fees) | **You**: it lives on your shelf |
+| DNA record, home capsule (SecuriGene) | Purified DNA in a sealed capsule | **Roughly $389-$580 one-time**, currency and channel unconfirmed (+$250/extra capsule; + shipping/collection fees). See the 26 September correction below. | **You**: it lives on your shelf |
 | Live-cell banking (Acorn Biolabs) | Living follicle cells | ~$945 collection + **~$16/month, about $190/year (CONTESTED, see note)** | Provider cryostorage |
 | Sperm banking (Fellow, Legacy) | Reproductive material | ~$199 kit + **$240-245/year** | CLIA/FDA-registered lab |
 | Cord blood (CBR, Cryo-Cell, Cells4Life) | Newborn stem cells | $710-$1,195 up front + $185-199/year | Provider cryostorage (newborns only) |
@@ -32,13 +32,15 @@ Direct answer: **in 2026, banking biological material costs anywhere from $99 a 
 Sources: [SecuriGene kit pricing](https://www.securigene.com/dna-banking/dna-banking-capsule/), [Fellow kit + cryo](https://www.meetfellow.com/kit-plus-cryo), cord-blood provider pages ([CBR](https://www.cordblood.com/enroll), [Cryo-Cell](https://www.cryo-cell.com/cord-blood-banking-costs), [Cells4Life](https://cells4life.us/pricing/)), Acorn public pricing coverage, screening prices per CBS News reporting. Prices move; check current pages.
 
 
+> **Pricing correction, 26 September 2026.** This page previously gave SecuriGene's capsule as **$389 one-time pre-need and $498 at-need**. A check on 26 September returns different figures: **$580 USD** on the US site, a second option at **$920**, **$389.00 CAD** on the Canadian site, and **$250 per additional capsule** (which matches and is unchanged). **The pre-need versus at-need explanation this page gave for the $389/$498 gap may have been wrong: the gap may simply have been two currencies.** Our own 21 August note recorded **$498** for the same product and our 2 September check recorded **$389**, and **neither recorded a currency.** **We have not substituted one unverified number for another:** every SecuriGene domain is unreachable from our network today, so today's figures are secondary as well, and the **$920** option has no stated explanation. **Treat the one-time price as roughly $389 to $580, currency and channel unconfirmed, and confirm with the provider before relying on it.** This correction runs against us: it means a competitor is dearer than we said, not cheaper. **The $250 additional-capsule figure and the structural point of this section are unaffected: a one-time price moves custody onto you permanently, and that trade-off does not depend on the number.**
+
 > **Pricing correction, 25 September 2026.** This page previously gave Acorn Biolabs' storage as **~$100/year**. Our own records contradict that figure twice, in notes dated 20 August and 3 September, both of which give **~$16 per month**, which is about **$190 per year**. An independent check on 25 September returned **~$16/month to store 50 follicles** and, separately, **$190/year per individual**. **We have not substituted one unverified number for another:** the provider's pricing page is unreachable from our network, **the currency (USD or CAD) is not established**, and the two quoted prices may describe different plans. **Treat the annual figure as roughly $190 and unconfirmed, and confirm with the provider before relying on it.** The correction runs in our favor, which is why it was worth making.
 
 ## The trade-off nobody explains: one-time vs custodial
 
 The most interesting comparison in that table is the first two rows: both store a DNA record, priced completely differently.
 
-**The home-capsule model** (SecuriGene's $389-498): pay once, receive a sealed capsule engineered for room-temperature stability, keep it yourself. No annual fee is genuinely appealing. The honest catch: *you just became the biorepository.* House fires, floods, moves, divorces, and estate confusion are now part of your storage architecture: and when you're gone, the capsule is one more unlabeled object in a drawer unless your [estate documents name it](/blog/posthumous-conception-law). One-time pricing shifts custody, forever, onto you.
+**The home-capsule model** (SecuriGene's, in the low-to-mid hundreds; see the 26 September correction): pay once, receive a sealed capsule engineered for room-temperature stability, keep it yourself. No annual fee is genuinely appealing. The honest catch: *you just became the biorepository.* House fires, floods, moves, divorces, and estate confusion are now part of your storage architecture: and when you're gone, the capsule is one more unlabeled object in a drawer unless your [estate documents name it](/blog/posthumous-conception-law). One-time pricing shifts custody, forever, onto you.
 
 **The custodial model** (ours): $99/year buys the opposite trade: the sample lives in an accredited facility (independent CAP, ISO 9001/20387, FDA-registered), with named-successor directives answered in writing at signup, plus the Memory Vault's milestone video messages riding along. The honest catch on our side: it's an annual fee, and you should ask any custodial provider [what happens if they fold](/blog/what-happens-dna-company-shuts-down): including us. (Our answer is documented custody continuity; demand the same of anyone.)
 
@@ -54,15 +56,15 @@ The price jumps in the table aren't markup mysteries: they're physics and liabil
 
 ## What you're actually buying at each price
 
-A fair one-line summary per tier: at ~$99/year you buy *readable information custody*; at ~$389 one-time you buy *a capsule and the job of protecting it*; at ~$1,000+ plus annual fees you buy *biological viability* (cells or gametes that might function later); at $50,000 you buy *a prediction*. Match the purchase to the outcome you want: and note that [the information tier appreciates on its own as sequencing improves](/blog/how-long-does-dna-last), which no other tier can claim.
+A fair one-line summary per tier: at ~$99/year you buy *readable information custody*; at a few hundred dollars one-time you buy *a capsule and the job of protecting it*; at ~$1,000+ plus annual fees you buy *biological viability* (cells or gametes that might function later); at $50,000 you buy *a prediction*. Match the purchase to the outcome you want: and note that [the information tier appreciates on its own as sequencing improves](/blog/how-long-does-dna-last), which no other tier can claim.
 
 ## FAQ
 
 **How much does DNA banking cost?**
-$99 per year for custodial DNA-record storage (MySpawn), or $389-498 one-time for a home-kept capsule (SecuriGene). Live-cell and reproductive banking run $700-1,400 up front plus $100-245 annually.
+$99 per year for custodial DNA-record storage (MySpawn), or roughly $389-$580 one-time for a home-kept capsule (SecuriGene), with the currency and channel unconfirmed. Live-cell and reproductive banking run $700-1,400 up front plus $100-245 annually.
 
 **Is there DNA banking with no annual fee?**
-Yes: home-capsule models charge once (~$389-498) and hand you the capsule. The trade-off: you become responsible for decades of safekeeping, and the capsule must be named in your estate plans to survive you.
+Yes: home-capsule models charge once (roughly $389-$580, currency unconfirmed) and hand you the capsule. The trade-off: you become responsible for decades of safekeeping, and the capsule must be named in your estate plans to survive you.
 
 **Why is sperm banking more expensive than DNA banking?**
 Cryogenic storage. Reproductive material must stay viable, which means liquid nitrogen, monitoring, and lab handling (~$240/year). A dried DNA record is stable at ambient temperature, so custody costs less.
@@ -87,8 +89,8 @@ Cord blood: $710-1,195 up front plus $185-199/year, newborns only. DNA-record ba
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "How much does DNA banking cost?", "acceptedAnswer": {"@type": "Answer", "text": "About $99 per year for custodial DNA-record storage, or $389-498 one-time for a home-kept capsule. Live-cell and reproductive banking run $700-1,400 up front plus $100-245 annually."}},
-    {"@type": "Question", "name": "Is there DNA banking with no annual fee?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Home-capsule models charge once, around $389-498, and hand you the sealed capsule. The trade-off is that you become responsible for decades of safekeeping and must name the capsule in your estate plans."}},
+    {"@type": "Question", "name": "How much does DNA banking cost?", "acceptedAnswer": {"@type": "Answer", "text": "About $99 per year for custodial DNA-record storage, or roughly $389 to $580 one-time for a home-kept capsule, with the currency unconfirmed. Live-cell and reproductive banking run $700-1,400 up front plus $100-245 annually."}},
+    {"@type": "Question", "name": "Is there DNA banking with no annual fee?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Home-capsule models charge once, somewhere in the range of $389 to $580 with the currency unconfirmed, and hand you the sealed capsule. The trade-off is that you become responsible for decades of safekeeping and must name the capsule in your estate plans."}},
     {"@type": "Question", "name": "Why is sperm banking more expensive than DNA banking?", "acceptedAnswer": {"@type": "Answer", "text": "Cryogenic storage. Reproductive material must remain viable, requiring liquid nitrogen and monitoring at roughly $240 per year, while a dried DNA record stays stable at ambient temperature."}},
     {"@type": "Question", "name": "Is DNA banking worth it?", "acceptedAnswer": {"@type": "Answer", "text": "For a readable biological record kept safely for decades, it is the least expensive tier of biological preservation, and the only one whose value grows as sequencing technology improves. It is not fertility preservation and stores no living cells."}},
     {"@type": "Question", "name": "What does MySpawn's $99 per year include?", "acceptedAnswer": {"@type": "Answer", "text": "A hair and nails collection kit, record storage at GenVault, an independent CAP-accredited, ISO 9001/20387, FDA-registered biorepository in New Jersey, written custody directives, and Memory Vault milestone video messages. The first 1,000 members lock the founding rate."}},
@@ -98,7 +100,7 @@ Cord blood: $710-1,195 up front plus $185-199/year, newborns only. DNA-record ba
 ```
 
 ## Sources
-1. SecuriGene DNA Banking Capsule pricing pages ($389 pre-need / $498 at-need / $250 extra capsule) (verified live Sep 2)
+1. SecuriGene DNA Banking Capsule pricing pages ($250 extra capsule confirmed; the headline one-time figure is CONTESTED as of 26 September, see the correction note) (last reached Sep 2; all SecuriGene domains unreachable from our network since)
 2. Fellow kit + cryopreservation pricing (verified live Sep 1)
 3. CBR / Cryo-Cell / Cells4Life provider pricing pages (verified live Aug 30)
 4. Acorn Biolabs pricing per public coverage (baseline deep-dive #1)

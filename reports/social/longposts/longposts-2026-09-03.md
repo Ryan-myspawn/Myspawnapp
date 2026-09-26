@@ -1,10 +1,10 @@
-# MySpawn Longposts — Thursday, September 3, 2026 (run #7: articles #37-#41)
+# MySpawn Longposts: Thursday, September 3, 2026 (run #7: articles #37-#41)
 
 *No corrections owed from prior runs. Fact base: this week's in-session verifications (Nucleus pricing Sep 2, Newcastle MRT + FDA rider Sep 2, ITCS capsule stats Sep 3, Mitalipov coverage + Alcor pricing this run). Gmail down (day 3): no email; repo is the delivery. All five differ from #1-#36 in topic, angle, and hook structure (log checked).*
 
 ---
 
-## Article #37 [X] — The $50,000 Menu and the 27-Cent Line
+## Article #37 [X]: The $50,000 Menu and the 27-Cent Line
 *Lane: contrarian discourse take (access-gap economics). ~640 words. Product mention: yes, one section.*
 
 There is now a genetics industry with a wine list.
@@ -34,11 +34,11 @@ Two things can be true. The top of the menu is contested science at yacht prices
 2. Nucleus CEO on trait selection: cbsnews.com/news/nucleus-genomics-ceo-genetic-optimization-tools-parents-select-traits-babies/
 3. Bundles to ~$40,000: interestingengineering.com/innovation/genetic-tool-ranks-ivf-embryos-disease-risk
 4. ASRM Dec 2025 conclusion (unproven, not for clinical use): scientificamerican.com/article/why-genetically-optimizing-embryos-is-misleading-unethical-and-not-even/
-5. Herasight ~$50,000: CBS News / Al Majalla coverage, Aug 2026 (via search index — verify before posting)
+5. Herasight ~$50,000: CBS News / Al Majalla coverage, Aug 2026 (via search index: verify before posting)
 
 ---
 
-## Article #38 [FACEBOOK] — Eight Babies, Two Rulebooks
+## Article #38 [FACEBOOK]: Eight Babies, Two Rulebooks
 *Lane: story-driven science. ~740 words. Product mention: ZERO (this run's no-product article).*
 
 Somewhere in the north of England right now, eight babies are learning to walk. Four girls, four boys, one set of identical twins. And every one of them is a small piece of medical history.
@@ -67,7 +67,7 @@ FDA advisory on the US restriction: fda.gov/vaccines-blood-biologics/cellular-ge
 
 ---
 
-## Article #39 [X] — The Most Honest Number in Fertility Tech Is Zero
+## Article #39 [X]: The Most Honest Number in Fertility Tech Is Zero
 *Lane: science-explainer (the meiosis wall). ~700 words. Product mention: one closing line.*
 
 Three companies this year have told you lab-grown human eggs or sperm are close. Here is the number none of the pitch decks lead with: zero.
@@ -76,7 +76,7 @@ Three companies this year have told you lab-grown human eggs or sperm are close.
 
 **Now the zero.** In September 2025, Shoukhrat Mitalipov's team at Oregon Health and Science University, arguably the most experienced lab on earth for this kind of work, published a landmark attempt in Nature Communications (peer-reviewed). They put skin-cell nuclei into donor eggs and induced a division process they named mitomeiosis; Mitalipov called it a third form of cell division. They produced 82 functional oocytes and fertilized them. About 9 percent reached the blastocyst stage. The number with a correctly balanced, normal chromosome set: zero. The team's own clinical estimate: on the order of a decade (NPR coverage, September 30, 2025).
 
-**Why zero?** In February 2026, work from the Japanese groups that actually solved mouse IVG (the Hayashi and Saitou lineages) identified a concrete blocker: lab-grown germ cells fail to perform a centromere-tethering genome reorganization that real germ cells do before dividing (reported early 2026; via search index — verify before posting). Translation: before the deck gets cut, the cards must be stacked a particular way, and dish-grown cells don't stack them.
+**Why zero?** In February 2026, work from the Japanese groups that actually solved mouse IVG (the Hayashi and Saitou lineages) identified a concrete blocker: lab-grown germ cells fail to perform a centromere-tethering genome reorganization that real germ cells do before dividing (reported early 2026; via search index: verify before posting). Translation: before the deck gets cut, the cards must be stacked a particular way, and dish-grown cells don't stack them.
 
 **How to read 2026's headlines with this in hand:**
 - Conception Biosciences (Sam Altman-backed) announced early human oocytes from stem cells in June 2026. "Primary oocytes" means before the wall, not through it. Not peer-reviewed.
@@ -91,13 +91,13 @@ Until that exact sentence is true: ignore the countdown clocks. And since walls 
 **[X] Sources (reply thread):**
 1. Mitalipov mitomeiosis paper: Nature Communications, Sept 2025 (peer-reviewed); coverage: npr.org/2025/09/30/nx-s1-5553322/ivg-human-eggs-cells-fertility
 2. Gameto/Harvard meiosis IP: globenewswire.com/news-release/2026/01/29/3228774/0/en/Gameto-Licenses-Foundational-Meiosis-IP-from-Harvard-to-Advance-Human-Ovary-in-a-Dish-Platform.html (company announcement)
-3. ASRM 2026 IVG ethics opinion: asrm.org (institutional; via search index — verify before posting)
+3. ASRM 2026 IVG ethics opinion: asrm.org (institutional; via search index: verify before posting)
 4. Conception June 2026 oocyte announcement + Paterna May 2026 claim: company announcements, not peer-reviewed (label preserved in text)
-5. Feb 2026 centromere-tethering finding: (via search index — verify before posting)
+5. Feb 2026 centromere-tethering finding: (via search index: verify before posting)
 
 ---
 
-## Article #40 [FACEBOOK] — More Than 80 Percent of Time Capsules Are Never Opened
+## Article #40 [FACEBOOK]: More Than 80 Percent of Time Capsules Are Never Opened
 *Lane: practical legacy guide (story-driven). ~620 words. Product mention: one line.*
 
 In 1940, Oglethorpe University in Atlanta sealed a room called the Crypt of Civilization: newsreels, a typewriter, seed samples, recordings, the works. Opening date: the year 8113. It's often called the first modern time capsule, and it has one feature almost no family time capsule has.
@@ -130,7 +130,7 @@ Crypt of Civilization (sealed 1940, opens 8113): crypt.oglethorpe.edu
 
 ---
 
-## Article #41 [REDDIT r/SideProject] — I priced the entire "leave something of yourself behind" market. Honest table inside.
+## Article #41 [REDDIT r/SideProject]: I priced the entire "leave something of yourself behind" market. Honest table inside.
 *Lane: practical guide, disclosed founder voice, playbook-compliant. ~730 words. Product mention: disclosed, in-table.*
 
 Founder disclosure up front: I run one of the products below (the $99 one), so read me with that bias in mind. I spent the last month doing competitor research and figured the raw price table is more useful to this sub than any pitch.
@@ -180,4 +180,16 @@ Sources inline: provider pages (storyworth.com, acorn.me, meetfellow.com, cbr pr
 
 **5/5 PASS, 0 killed. Article #38 carries zero product mention. No email (Gmail re-auth pending); repo delivery only.**
 
-**Publish first: #38 "Eight Babies, Two Rulebooks" on Facebook** — strongest pure-story piece, zero product mention builds the trust ledger, and its engagement question is genuinely answerable by a 35-60 audience.
+**Publish first: #38 "Eight Babies, Two Rulebooks" on Facebook**: strongest pure-story piece, zero product mention builds the trust ledger, and its engagement question is genuinely answerable by a 35-60 audience.
+
+---
+
+## CORRECTION NOTE ADDED 26 SEPTEMBER 2026 (post already published; wording above left as posted)
+
+**This post states SecuriGene's capsule as "$498 one-time" twice.** A check on 26 September returns **$580 USD** on the US site, a second option at **$920**, and **$389.00 CAD** on the Canadian site. **$250 per additional capsule is unchanged and confirmed.**
+
+**The $498 figure is now CONTESTED and must not be reused.** It is not being replaced with $580: every SecuriGene domain is unreachable from our network today, so today's figures are secondary too, and the $920 option has no stated explanation. **Currency was never recorded for $498 or for $389, and the pre-need/at-need explanation our blog gave for the gap between them may actually have been two currencies.**
+
+**The post's argument is unaffected.** Its point is the at-need channel and who holds custody, not the price. **Any future asset in this lane states a range with the currency caveat, or states no figure at all.**
+
+**The correction runs against us:** it makes a competitor dearer than we said, not cheaper. See `reports/blog/dna-banking-cost.md`, correction note dated 26 September.
