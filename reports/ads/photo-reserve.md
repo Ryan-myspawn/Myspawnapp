@@ -328,3 +328,28 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 **Query "tree rings cross section" returned FIVE results in total.** Narrow natural-object queries are thin on Unsplash, exactly as "closed metal shutter shopfront street" was on 19 September.
 **Query "rusted chain" returned 61 results and was the run's best**, which fits the pattern: **weathered infrastructure that nobody sells is the category that still has supply.**
 **METHOD, one step earlier than the 18 September note: GREP THE AD LOG BEFORE SEARCHING THE PHOTO BANK.** It cost seconds and killed three collisions before a single byte was downloaded: worn stone steps against 151 (four days out), a lighthouse against 74 **on message rather than image**, and an exact headline already owned by 17.
+
+## CONSUMED 2026-09-27
+- `sy90m8Ms3AQ` dark bookshelves -> Ad_HowManyStudies_164, **right-side crop only**
+
+## CROP-ONLY ADDITIONS 2026-09-27
+| ID | Constraint |
+|---|---|
+| sy90m8Ms3AQ | Packed dark bookshelves, Haberdoedas (@haberdoedas). **USABLE ONLY on a crop from roughly 42 percent across to the right edge.** The left two-fifths is dominated by **two large framed portraits, one of an identifiable woman**. That is a **copyright** question on top of a right-of-publicity one, and neither is visible at thumbnail size. |
+
+## DO-NOT-USE additions 2026-09-27
+| ID | Why killed |
+|---|---|
+| cPVj7QlcKyM | Hand on steering wheel at night (Randy Tarampi @randytarampi). **The instrument cluster reads "206 km/h" at full resolution.** Depicting a vehicle at 206 km/h is indefensible in a men's-legacy ad about foresight and responsibility, and **km/h marks it non-US for a USA-only product.** **Removed from the usable list. Do not re-source.** |
+| 3wPJxh-piRw | Steel vault door. Not a rights problem: **"vault" returns ten hits in the ad log across several concepts. The hook is saturated.** Keep banked but do not brief a vault concept without a genuinely new argument. |
+| e91vvMsE3ug | Grayscale wet sand. **Visual-hook collision with Ad_PlacedNotLeftBehind_134** (wet sand under a pier, 16 September). |
+
+## BANKED 2026-09-27 (vetted by search metadata; inspect at full size before use)
+| ID | Subject note | Photographer | Raw URL | WxH |
+|---|---|---|---|---|
+| 0-IKoef3Ukw | Knotted rope, very dark (#262626), near-square. **Same rope-knot family as Ad_162 shipped today: hold until 4 October.** | Tim Boote (@toboote) | https://images.unsplash.com/photo-1451994860973-8f9242f631b5 | 3820x3056 |
+| 34shxWFCAh8 | Grayscale rope, light, needs heavy darkening. Same family hold. | Saskia van Manen (@saskiaworldwide) | https://images.unsplash.com/photo-1519142891393-97f6fce43ee4 | 4592x3064 |
+
+## SEARCH NOTE 2026-09-27
+**"mooring rope bollard harbour" with orientation=squarish returned ZERO results. "mooring rope" with no orientation filter returned 2,343.** **The orientation filter is far more destructive on narrow queries than it looks**, and a square canvas does not require a square source: a landscape source cropped to square is the normal case. **Default to no orientation filter and crop afterwards.**
+**"canal lock gate" returned 54 results, two of them usable.** Narrow infrastructure queries are thin but clean, which continues the pattern: **weathered infrastructure nobody sells is the only supply category still reliably open.**
