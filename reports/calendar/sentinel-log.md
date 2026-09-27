@@ -114,3 +114,53 @@ VIBRANT has no readout date; Vitara has no IDE decision date. **Do not create ev
 
 ### STANDING QUESTION, unanswered since 6 September
 Whether posting slots should exist as calendar events at all, or stay in the PM post plans. **Fifteen days unanswered. Defaulting to "stay in the PM plans", and I will stop re-asking after the next run unless it is raised.**
+
+---
+
+## 2026-09-27: NO CALENDAR WRITES POSSIBLE. And the two Google connectors are in DIFFERENT failure states on the same day, which is the run's one new piece of information.
+
+**`list_events` returned `needs_reconnect`. Zero events read, zero created, zero updated, zero deleted.**
+
+### THE NEW DATUM, and it is worth more than the diff I could not apply
+
+**This morning at 04:00 UTC, the Gmail tools were NOT LOADABLE AT ALL.** The server had withdrawn its entire tool surface; a direct lookup of `search_threads` returned no matching tool.
+
+**This evening the Google Calendar tools WERE loadable.** Their full schemas returned normally. **The failure came one step later, when the call itself returned `needs_reconnect`.**
+
+**Those are two different faults, in two connectors, in the same session, on the same day.** Gmail failed at the handshake. Calendar completed its handshake and failed at authorization.
+
+**WHAT THAT CHANGES IN THE DIAGNOSIS.** Until today the working theory was a single progressive decay. **It is not a progression. It is variance**, and variance across connectors that share one credential path points at the **session-start connector read** rather than at any individual service. **This strengthens the three-step fix rather than weakening it, because step 2, starting a NEW session, is the only step that re-runs that read.**
+
+**COUNT DISCIPLINE: this is logged as an observation about failure MODE, not as another tally mark.** The Gmail false-recovery count stays where it was.
+
+### THE DIFF I WOULD HAVE APPLIED, written out so it is executable the moment the connector returns
+
+**HARD PEGS in the next 21 days.**
+
+| Date | Event to create | Why |
+|---|---|---|
+| **Thu 1 October** | `[MySpawn] Connecticut Public Act 26-64 genetic provisions take effect` (all-day) | **Signed 27 May 2026. The genetic provisions commence 1 October 2026**, with later phases on 1 January 2027 and 1 July 2027. **This is the only externally-dated, verified peg in the window.** |
+| **Wed 30 September** | `[MySpawn] Prep: Connecticut effective date tomorrow` 24h prior | Standing rule: every hard peg gets a prep event 24 hours before. |
+| **Mon 28 September** | `[MySpawn] Newsletter Issue 6 scheduled date` | Issue 6 is written and dated for tomorrow. **Issue 5 has missed six slots and the fold-or-send decision is due before this event fires.** |
+
+**WEEKLY ANCHORS, all three currently unverifiable and all three to be created if absent.**
+- `[MySpawn] Approve partner outreach`, Tuesdays evening IST: **29 Sep, 6 Oct, 13 Oct**.
+- `[MySpawn] Send newsletter`, Fridays morning IST: **2 Oct, 9 Oct, 16 Oct**.
+- `[MySpawn] Shoot block`, 45 minutes at 11:00 IST, **every weekday in the window**. **Normally this event is skipped on days with nothing queued. There is no such day.** The filming backlog has not moved in **eleven days**: the dating-series pilot is unshot, Episode 2 is gated on it, a third episode's material is banked, Script 3's index-card hold expired on 25 September, and four more scripts have been written since. **Every weekday qualifies, which is the problem rather than the schedule.**
+
+**INTERNAL HOLDS THAT EXPIRE IN THE WINDOW.** These are not calendar events and are recorded here because they are dated commitments this operation made to itself and they are easy to lose.
+
+| Expiry | Hold |
+|---|---|
+| **1 October** | No new self-correction EPISODE before this date. Set 25 September after five in twelve days. |
+| **1 October** | Botanical photo family, held after Ad_154 shipped a leaf on 24 September. |
+| **2 October** | "Twenty-Eight Days" concept, the Vitara EXTEND explainer, held because longpost #96 covered artificial-womb status on 25 September. |
+| **3 October** | Chain and rust photo family, held after Ad_156 shipped 26 September. |
+| **4 October** | Rope-knot photo family, held after Ad_162 shipped today. |
+
+**OUTSIDE THE WINDOW BUT TRACKED:** GTA 6 release **19 November 2026**, roughly 53 days out. **No event created yet; it enters the 21-day window on 29 October.**
+
+**RULE THAT HELD AGAIN, sixth week running: VIBRANT has no readout date and Vitara has no IDE decision date. No events created for either.** Today's sweep added real detail on Vitara (the EXTEND device, a 28-day support window, a $50M Series B in November 2024 aimed at a first-in-human study) **and still no date.** **A company having a plan is not a company having a date.**
+
+### STANDING QUESTION, retired rather than re-asked
+Whether posting slots should exist as calendar events at all, or stay in the PM post plans. **Asked since 6 September, twenty-one days, unanswered.** The previous entry said it would stop being re-asked after one more run. **This is that run. The question is retired and the default stands: posting slots live in the PM post plans, not on the calendar.** It can be reopened any time by saying so.

@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MySpawn Calendar: week of 2026-09-27</title>
+<style>body{font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:700px;margin:0 auto;padding:22px;color:#16181d;background:#fff}
+.hdr{border-left:4px solid #b3261e;padding:10px 14px;background:#fdf3f2;margin-bottom:18px}
+.n{background:#f4f6fb;border-left:4px solid #3B82F6;padding:12px 14px;margin:16px 0}
+table{border-collapse:collapse;width:100%;margin:12px 0}td,th{border:1px solid #dde1e8;padding:7px 9px;text-align:left;font-size:15px}
+.k{background:#fff8e1;border-left:4px solid #b58900;padding:12px 14px;margin-top:18px}</style></head><body>
+<div class="hdr"><strong>UNDELIVERABLE BY EMAIL.</strong> Intended recipient: ryan@myspawnapp.com, subject
+&ldquo;MySpawn Calendar: week of 2026-09-27&rdquo;. Written to the repository because the connector that would send
+it is down alongside the one this run needed.</div>
+
+<h1>MySpawn Calendar: week of 27 September 2026</h1>
+<p><strong>No calendar writes were possible.</strong> <code>list_events</code> returned <code>needs_reconnect</code>.
+Zero events read, created, updated or deleted.</p>
+
+<div class="n"><strong>The run's one new piece of information, and it is about the outage rather than the calendar.</strong><br><br>
+At 04:00 UTC today the <strong>Gmail</strong> tools were <em>not loadable at all</em>: the server had withdrawn its
+tool surface entirely. This evening the <strong>Calendar</strong> tools <em>were</em> loadable, with full schemas, and
+failed one step later when the call itself returned <code>needs_reconnect</code>.<br><br>
+Two different faults, two connectors, same session, same day. Gmail failed at the handshake; Calendar completed its
+handshake and failed at authorization. <strong>So this is not a progressive decay, it is variance</strong>, and
+variance across connectors sharing one credential path points at the session-start connector read.
+<strong>That strengthens the three-step fix, because starting a NEW session is the only step that re-runs that
+read.</strong></div>
+
+<h2>This week's pegs at a glance</h2>
+<table>
+<tr><th>Date</th><th>Peg</th></tr>
+<tr><td><strong>Mon 28 Sep</strong></td><td>Newsletter Issue 6 scheduled date. <strong>Issue 5 has missed six slots and the fold-or-send decision is due before this fires.</strong></td></tr>
+<tr><td>Tue 29 Sep</td><td>Approve partner outreach (weekly anchor)</td></tr>
+<tr><td>Wed 30 Sep</td><td>Prep event, 24h before the Connecticut date</td></tr>
+<tr><td><strong>Thu 1 Oct</strong></td><td><strong>Connecticut Public Act 26-64 genetic provisions take effect.</strong> Signed 27 May 2026; later phases 1 Jan 2027 and 1 Jul 2027.</td></tr>
+<tr><td>Fri 2 Oct</td><td>Send newsletter (weekly anchor)</td></tr>
+<tr><td>Weekdays</td><td>Shoot block, 45 min, 11:00 IST. <strong>Normally skipped when nothing is queued. There is no such day.</strong></td></tr>
+</table>
+
+<h2>What changed</h2>
+<p>Nothing on the calendar, because nothing could be written. The full diff is written out in
+<code>reports/calendar/sentinel-log.md</code> so it is executable the moment the connector returns.</p>
+<p><strong>Five internal holds expire inside the window</strong> and are logged there: no self-correction episode and
+the botanical photo family (1 Oct), the Vitara explainer concept (2 Oct), the chain and rust family (3 Oct), and the
+rope-knot family (4 Oct).</p>
+<p><strong>The rule that held for a sixth week:</strong> VIBRANT has no readout date and Vitara has no IDE decision
+date, so no events exist for either. Today's sweep added real detail on Vitara and still no date.
+<em>A company having a plan is not a company having a date.</em></p>
+<p><strong>One standing question retired rather than re-asked:</strong> whether posting slots belong on the calendar at
+all. Asked since 6 September, twenty-one days, unanswered. The default stands: they live in the PM post plans. Say the
+word and it reopens.</p>
+
+<div class="k"><strong>Most important date in the next 14 days: Thursday 1 October</strong>, when Connecticut Public
+Act 26-64's genetic provisions take effect. It is the only externally-dated, verified peg in the window, and it is the
+lead item for whichever newsletter issue actually goes out.</div>
+</body></html>
