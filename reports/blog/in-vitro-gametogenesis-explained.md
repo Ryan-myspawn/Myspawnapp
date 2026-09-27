@@ -1,0 +1,132 @@
+# In Vitro Gametogenesis, Explained: How Close Are Lab-Grown Eggs and Sperm, Really?
+
+Freshness check: written 27 September 2026, built on the OHSU *Nature Communications* paper of 30 September 2025, whose first anniversary falls this week and which is therefore a year old rather than new.
+Primary audience: Men 25-55.
+Trend-hook used: the recurring conflation of two different fertility stories that keep arriving in the same search result.
+
+**Direct answer: in vitro gametogenesis (IVG) means making eggs or sperm from ordinary body cells, such as skin. In mice it works completely: researchers have produced live, fertile pups from lab-made gametes. In humans it does not work yet. No laboratory anywhere has produced a mature, usable human egg or sperm cell from a body cell. The furthest anyone has got is early-stage precursor cells, plus one 2025 proof of concept that made egg-like cells which fertilized but produced embryos with chromosomal abnormalities in every case. The researchers who did it estimate roughly ten more years before it could even be tested in people.**
+
+That last sentence is the one that gets lost. Almost everything else on this page is context for it.
+
+## What IVG actually is
+
+Every cell in your body carries the same genome. A skin cell and an egg cell differ not in their DNA but in which parts of it are switched on, and in how many chromosome copies they carry. A body cell is **diploid**: two sets of chromosomes. A gamete is **haploid**: one set, so that egg and sperm together make a complete genome.
+
+IVG is the attempt to take a body cell, reset it to a stem-cell-like state, and then walk it forward down the germ-cell path until it becomes a gamete. Two things have to happen. The cell has to become the right *kind* of cell, and it has to halve its chromosome count through **meiosis**, a specialized division that body cells never perform.
+
+Meiosis is the wall. Getting a cell to look like a germ cell has been done. Getting it to divide like one, correctly, in a dish, has not.
+
+## Where the science actually stands
+
+### Mice: solved
+
+In mice, the full path has been reconstituted. Researchers led by **Katsuhiko Hayashi** and **Mitinori Saitou** produced the first proof that gametes could be made outside the body starting from non-reproductive cells, and both oogenesis and spermatogenesis have since been rebuilt in vitro from induced pluripotent stem cells, producing **live and fertile offspring** ([Human Reproduction review, 2025](https://academic.oup.com/humrep/article/40/9/1605/8182733)). **Label: peer-reviewed, and replicated.**
+
+This is why the field is taken seriously. It is not speculative in principle. It has been done in a mammal.
+
+### Humans: partway, and stuck at the hard part
+
+Human primordial germ cell-like cells have been derived from both embryonic and induced pluripotent stem cells. Saitou's group went further and generated **human oogonia**, an early precursor on the egg lineage, in vitro ([*Science*, 2018](https://www.science.org/doi/10.1126/science.aat1674)). **Label: peer-reviewed.** He remains the only researcher to have taken human cells that far.
+
+Oogonia are not eggs. They are several developmental steps short of one, and the remaining steps are the ones nobody has completed in a dish, for humans or for any non-human primate.
+
+There is also a structural reason human progress is slower than mouse progress, and it is not funding. Human primordial germ cells are specified at roughly **two weeks** of embryonic development, and most jurisdictions restrict human embryo culture to **14 days**. The moment you most need to observe is the moment you are least permitted to reach.
+
+### The 2025 result that made headlines, stated with its limits
+
+On **30 September 2025**, a team at **Oregon Health and Science University** published in *Nature Communications* a proof of concept they called **mitomeiosis**: transferring the nucleus of a human skin cell into a donated egg stripped of its own nucleus, then inducing it to discard half its chromosomes ([OHSU](https://news.ohsu.edu/2025/09/30/ohsu-researchers-develop-functional-eggs-from-human-skin-cells)). **Label: peer-reviewed.** It is the first time anyone has artificially reduced the chromosome count of a human body cell.
+
+The numbers matter more than the headline. The team made **82 eggs**. After fertilization, **about 9 percent** were still developing at day six. **Every embryo carried chromosomal abnormalities.** The lead researcher's own public summary was that it *"partially works, and partially doesn't"* ([STAT](https://www.statnews.com/2025/09/30/fertility-pioneer-shoukhrat-mitalipov-research-update/)). The team's own estimate is **roughly ten more years** of research before the technique could be tested in people, and even then only with permission for a clinical trial.
+
+Note also what this technique requires: **a donated human egg to start with.** That makes it a different proposition from the pure IVG goal of building a gamete from a body cell alone.
+
+## The confusion worth clearing up: Fertilo is not IVG
+
+This is the single most common mix-up in this subject, and it shows up constantly because both stories get returned by the same searches.
+
+**Fertilo**, from the company Gameto, uses engineered **ovarian support cells** to mature a woman's **own retrieved immature eggs** outside the body. The starting material is her eggs. The technique helps them finish maturing with less hormonal stimulation ([Gameto](https://www.gametogen.com/)). **Label for the manufacturing method: peer-reviewed. Label for the company's efficiency claims: company-announced.**
+
+**That is not in vitro gametogenesis.** No eggs are created from body cells. Fertilo is a maturation technology applied to existing eggs; IVG is the creation of a gamete where there was none. They share a research neighborhood and nothing else.
+
+If you read a headline suggesting a company is already "making eggs," check which of these two things it describes. It is almost always the first.
+
+## What it would change, if it worked
+
+Assume, for argument, that IVG eventually works in humans. The consequences named most often in the literature are:
+
+- **Infertility from lack of viable gametes** becomes treatable in a way it currently is not, including for people who lost fertility to cancer treatment or age.
+- **Same-sex couples** could in principle have a child genetically related to both partners.
+- **Heritable disease** could be addressed at the gamete stage rather than by selecting among embryos, which is what [polygenic embryo screening](/blog/polygenic-embryo-screening-explained) attempts today with real statistical limits.
+- **Embryo numbers** change scale. Current IVF is constrained by how many eggs can be retrieved. IVG is not obviously constrained the same way, which is why the bioethics literature on it is large and unsettled.
+
+Each of those is conditional on a technology that has not produced a single mature human gamete. Writing them in the present tense is the mistake to avoid.
+
+## What any of this has to do with preserving a sample today
+
+Honestly: less than the marketing around this subject implies, and we would rather say so.
+
+Storing a genetic record does not give anyone lab-grown gametes, does not reserve a place in a future trial, and does not confer any health benefit. **MySpawn stores a record. It does not create descendants, and it never will.** What storage does is keep a readable copy of a genome that would otherwise degrade, which is a narrower and more defensible claim, and one we have set out in detail in [how long DNA actually lasts](/blog/how-long-does-dna-last).
+
+The honest connection is about *reading*, not *making*. A stored sample gets more useful as sequencing improves, because the record stays fixed while the instruments get better. Nothing about IVG is required for that to be true, and nothing about IVG is promised by it.
+
+## FAQ
+
+### Has anyone made a human egg from a skin cell?
+Not a mature, usable one. The closest is the OHSU mitomeiosis proof of concept published 30 September 2025, which produced egg-like cells from skin-cell nuclei placed in donated eggs. They fertilized, roughly 9 percent were still developing at day six, and all resulting embryos had chromosomal abnormalities. **Label: peer-reviewed proof of concept, not a clinical technique.**
+
+### How long until IVG is available?
+The OHSU team's own public estimate is about ten more years of research before human testing could even be attempted, contingent on regulatory permission. Treat any shorter timeline you see as a claim requiring a source, and check whether that source is a study or a company.
+
+### Could two men have a genetically related child through IVG?
+In principle, that is one of the possibilities the field discusses, because the technique would not depend on which body the starting cell came from. In practice it requires a working method that does not exist, plus a regulatory framework that does not exist either. It is not close.
+
+### Is Fertilo the same thing as IVG?
+No. Fertilo matures a woman's own retrieved immature eggs using engineered ovarian support cells. IVG would create a gamete from a non-reproductive cell. Fertilo starts with eggs; IVG starts without them.
+
+### Why is progress in mice so far ahead of progress in humans?
+Partly biology and partly rules. Mouse germ cell development is shorter and easier to observe, and the same experiments can be run to a live birth. In humans, primordial germ cells are specified at roughly two weeks of development, while most jurisdictions cap human embryo culture at 14 days, which limits observation of exactly the window that matters.
+
+### Does storing DNA now let me use IVG later?
+No, and be wary of anyone who implies otherwise. Stored genetic material is a record. IVG, if it ever works, is a laboratory process requiring living cells and a clinical pathway. The two are not connected, and no storage service can promise access to a technology that does not exist. Legal control over stored reproductive material is a separate question again, covered in [posthumous conception law](/blog/posthumous-conception-law).
+
+---
+
+**If what you actually want is a readable copy of a genome kept somewhere accountable, that is a smaller and more honest purchase than anything on this page.** MySpawn stores a genetic record for **$99 a year**, held at GenVault, an independent CAP-accredited, ISO 9001 and ISO 20387 certified, FDA-registered biorepository in New Jersey. Storage only: no result, no score, no health claim. The first 1,000 members lock the founding rate.
+
+---
+
+## SEO package
+
+- **Title tag:** In Vitro Gametogenesis: How Close Is It Really? (55 chars)
+- **Meta description:** IVG works in mice and not yet in humans. What the 2025 OHSU skin-cell result did and did not show, and why Fertilo is not IVG. (127 chars)
+- **URL slug:** `in-vitro-gametogenesis-explained`
+- **Primary keyword:** in vitro gametogenesis
+- **Secondary keywords:** eggs from skin cells; how close is IVG; can two men have a biological child; IVG timeline; mitomeiosis explained; is Fertilo IVG
+- **Internal links:** `/blog/polygenic-embryo-screening-explained`, `/blog/how-long-does-dna-last`, `/blog/posthumous-conception-law`
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Has anyone made a human egg from a skin cell?", "acceptedAnswer": {"@type": "Answer", "text": "Not a mature, usable one. The closest result is the OHSU mitomeiosis proof of concept published 30 September 2025, which produced egg-like cells from skin-cell nuclei placed in donated eggs. They fertilized, about 9 percent were still developing at day six, and all resulting embryos carried chromosomal abnormalities."}},
+    {"@type": "Question", "name": "How long until in vitro gametogenesis is available?", "acceptedAnswer": {"@type": "Answer", "text": "The OHSU team's own estimate is roughly ten more years of research before human testing could be attempted, and only with regulatory permission. Shorter timelines should be checked against whether the source is a study or a company."}},
+    {"@type": "Question", "name": "Could two men have a genetically related child through IVG?", "acceptedAnswer": {"@type": "Answer", "text": "It is one of the possibilities the field discusses, because the technique would not depend on which body the starting cell came from. It requires a working method that does not exist and a regulatory framework that does not exist. It is not close."}},
+    {"@type": "Question", "name": "Is Fertilo the same thing as IVG?", "acceptedAnswer": {"@type": "Answer", "text": "No. Fertilo matures a woman's own retrieved immature eggs using engineered ovarian support cells. In vitro gametogenesis would create a gamete from a non-reproductive cell. Fertilo starts with eggs; IVG starts without them."}},
+    {"@type": "Question", "name": "Why is IVG progress in mice so far ahead of humans?", "acceptedAnswer": {"@type": "Answer", "text": "Partly biology and partly rules. Mouse germ cell development is shorter and can be followed through to live birth. In humans, primordial germ cells are specified at roughly two weeks of development while most jurisdictions cap embryo culture at 14 days, limiting observation of the window that matters most."}},
+    {"@type": "Question", "name": "Does storing DNA now let me use IVG later?", "acceptedAnswer": {"@type": "Answer", "text": "No. Stored genetic material is a record. IVG, if it ever works, is a laboratory process requiring living cells and a clinical pathway. No storage service can promise access to a technology that does not exist."}}
+  ]
+}
+```
+
+## Sources
+
+1. OHSU, "OHSU researchers develop functional eggs from human skin cells", 30 September 2025, reporting the *Nature Communications* mitomeiosis paper. https://news.ohsu.edu/2025/09/30/ohsu-researchers-develop-functional-eggs-from-human-skin-cells **Label: peer-reviewed study, institutional press release for the summary.**
+2. STAT, "Human eggs from skin cells: 'Partially works, and partially doesn't'", 30 September 2025. https://www.statnews.com/2025/09/30/fertility-pioneer-shoukhrat-mitalipov-research-update/ **Label: reported interview.**
+3. Yamashiro et al., "Generation of human oogonia from induced pluripotent stem cells in vitro", *Science*, 2018. https://www.science.org/doi/10.1126/science.aat1674 **Label: peer-reviewed.**
+4. "Stem cell-derived gametes: what to expect when expecting their clinical introduction", *Human Reproduction*, 2025. https://academic.oup.com/humrep/article/40/9/1605/8182733 **Label: peer-reviewed review.**
+5. National Academies, "State of the Science: In Vitro-Derived Human Gametes as a Reproductive Technology". https://www.ncbi.nlm.nih.gov/books/NBK599666/ **Label: expert consensus report.**
+6. "Reconstitution of germ cell and gonadal development for in vitro gamete production", PubMed PMID 42309720. **Label: peer-reviewed review. Cited but NOT read: pubmed.ncbi.nlm.nih.gov is unreachable from our network, so nothing in this article rests on it.**
+7. Gameto, Fertilo product information. https://www.gametogen.com/ **Label: company material. Used only to describe what the company says its own product does.**
+
+**Word count:** **1,605 prose words**, measured rather than estimated. **Counting basis, stated because this metric has been wrong in both directions before:** the count runs from the direct answer to the end of the CTA, **excludes** the three-line freshness header, the SEO package, the JSON-LD and this sources list, and counts link anchor text while **excluding** the URLs inside the links.
