@@ -101,3 +101,25 @@
   **What has NOT changed:** the Connecticut cut instruction retired on 25 September stays retired. **The item is verified and belongs in whichever issue goes out.**
 
   Next Gmail-enabled run: `newer_than:27d` sweep, ONE catch-up digest, oldest-first triage, personal (not templated) replies for anything older than a week, **and the newsletter decision first, because by then it will be a question about two issues rather than one.**
+
+## 2026-09-27: NO TRIAGE POSSIBLE, DAY 29. AND THE FAILURE MODE CHANGED TODAY, WHICH IS THE ONLY NEW INFORMATION.
+
+**The Gmail connector state is DIFFERENT today, and it is worse in a way worth recording precisely.**
+
+**On every previous day since 30 August, the Gmail tools were present and individually returned `needs_reconnect` when called.** Today the tools are **not loadable at all**: the Gmail MCP server withdrew its entire tool surface pending authorization, and a direct lookup of `search_threads` returns **"No matching deferred tools found."**
+
+**WHY THE DISTINCTION MATTERS, and it is not pedantry.** A tool that answers `needs_reconnect` is a live connection refusing a scoped request. **A tool that does not exist is a server that never completed its handshake.** **Those have different fixes, and only one of them is the one we have been recommending for four weeks.** The three-step fix still applies, but today's state suggests the session-start read is failing earlier than assumed rather than returning stale credentials.
+
+**COUNT DISCIPLINE, because this operation has been wrong about a count before.** The previously recorded running total of **twenty Gmail false recoveries** describes days when the tools were present and refused. **Today is not a twenty-first instance of that, because the tools were not present to refuse.** **It is logged as a distinct first, not folded into the old tally.**
+
+**ACTIONS TAKEN AND NOT TAKEN.**
+- **Zero threads triaged, zero classified, zero drafts created.** `create_draft` is as unreachable as `search_threads`.
+- **Nothing was inferred about the inbox.** There is no basis to say it is quiet, busy, or clear. **An unreachable inbox is not an empty one**, and reporting "inbox clear" today would be a fabrication.
+- **The digest is written to `reports/outbox/inbox-digest-2026-09-27.html` instead of sent**, as on all twenty-eight previous days.
+- **No rule was bent.** No message was sent to anyone, nothing was deleted or marked spam, and no correspondent detail appears anywhere, which is trivially satisfied by there being none.
+
+**THE THREE-STEP FIX, twenty-ninth asking, unchanged in substance:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, because connectors are read at session start and a reconnect cannot reach a session already running; (3) re-point all 15 triggers to the new session ID, **which this agent can execute the moment a new session ID exists.**
+
+**NEWSLETTER: the decision window closes tomorrow.** Issue 5 has now missed **six** slots. Issue 6 is written and dated for **Monday 28 September**, which is tomorrow. **Recommendation unchanged and now urgent: option (b), fold Issue 5's Connecticut item into Issue 6 as its lead and retire Issue 5.** The item is **Public Act 26-64, signed 27 May 2026, genetic provisions effective 1 October 2026**, phased 1 January 2027 and 1 July 2027. **A 1 October item reads well on 28 September and badly on 5 October. After tomorrow, option (a) stops being available on its own terms.**
+
+**Next Gmail-enabled run, unchanged:** `newer_than:29d` sweep, ONE catch-up digest, oldest-first triage, personal rather than templated replies for anything older than a week, **and the newsletter decision first.**

@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MySpawn Inbox Digest: 2026-09-27</title>
+<style>body{font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:700px;margin:0 auto;padding:22px;color:#16181d;background:#fff}
+.hdr{border-left:4px solid #b3261e;padding:10px 14px;background:#fdf3f2;margin-bottom:18px}
+.n{background:#f4f6fb;border-left:4px solid #3B82F6;padding:12px 14px;margin:16px 0}
+.k{background:#fff8e1;border-left:4px solid #b58900;padding:12px 14px;margin-top:18px}
+code{background:#eef0f4;padding:1px 5px;border-radius:3px}</style></head><body>
+<div class="hdr"><strong>UNDELIVERABLE BY EMAIL.</strong> Intended recipient: ryan@myspawnapp.com, subject
+&ldquo;MySpawn Inbox Digest: 2026-09-27&rdquo;. Written to the repository because the connector that would send it
+is the same one that is down.</div>
+
+<h1>MySpawn Inbox Digest: Sunday 27 September 2026</h1>
+
+<p><strong>No triage was possible. Day 29.</strong> Zero threads read, zero classified, zero drafts prepared.</p>
+
+<div class="n"><strong>The failure mode changed today, and it is the only new information in this digest.</strong><br><br>
+On every previous day since 30 August the Gmail tools were <em>present</em> and returned <code>needs_reconnect</code>
+when called. Today they are <em>not loadable at all</em>: the Gmail server withdrew its whole tool surface pending
+authorization, and a direct lookup of <code>search_threads</code> returns &ldquo;no matching tools found.&rdquo;<br><br>
+That distinction is not pedantry. A tool that answers <code>needs_reconnect</code> is a live connection refusing a
+scoped request. A tool that does not exist is a server that never completed its handshake. <strong>Today's state
+suggests the session-start read is failing earlier than we have been assuming.</strong><br><br>
+It is logged as a distinct first, <strong>not</strong> as a twenty-first instance of the old tally, because the tools
+were not present to refuse.</div>
+
+<p><strong>Needs you today:</strong> cannot be determined. <strong>FYI list:</strong> cannot be determined.
+<strong>Automated mail ignored:</strong> cannot be counted.<br>
+<em>An unreachable inbox is not an empty one.</em> Reporting &ldquo;inbox clear&rdquo; today would be a fabrication,
+so this digest does not report it.</p>
+
+<p><strong>No rule was bent.</strong> Nothing was sent to anyone, nothing deleted or marked spam, and no correspondent
+detail appears anywhere.</p>
+
+<h2>The fix, twenty-ninth asking</h2>
+<ol>
+<li>Reconnect at <a href="https://claude.ai/customize/connectors">claude.ai/customize/connectors</a>.</li>
+<li><strong>Start a NEW session.</strong> Connectors are read at session start, so a reconnect cannot reach a session
+already running. This is the step that has never been done.</li>
+<li>Re-point all 15 triggers to the new session ID. <strong>I can do this one myself the moment a new session ID
+exists.</strong></li>
+</ol>
+
+<div class="k"><strong>The newsletter decision window closes tomorrow.</strong> Issue 5 has now missed six slots.
+Issue 6 is written and dated for <strong>Monday 28 September</strong>, which is tomorrow.<br><br>
+Recommendation unchanged and now urgent: <strong>option (b), fold Issue 5's Connecticut item into Issue 6 as its lead
+and retire Issue 5.</strong> The item is Public Act 26-64, signed 27 May 2026, genetic provisions effective
+<strong>1 October 2026</strong>, phased 1 January 2027 and 1 July 2027. A 1 October item reads well on 28 September and
+badly on 5 October. After tomorrow, option (a) stops being available on its own terms.</div>
+
+<p><strong>Most important email to answer today:</strong> unknown, and that is the honest answer. Nothing can be read,
+so nothing can be ranked. The most important <em>action</em> today is the three-step connector fix, because it is the
+blocker on this and on four other dead lanes.</p>
+</body></html>
