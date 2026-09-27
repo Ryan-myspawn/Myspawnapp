@@ -471,3 +471,24 @@ Everything the fertility and legacy-tech lanes returned is already here: the **2
 - **The at-need urgency line is unchanged and still the most aggressive copy in the category:** cremation destroys DNA, so collect before the procedure. **Real biology, deployed at a grieving buyer in the worst week of their life.** Our counter remains pre-need and is unchanged.
 
 **Rotation: next quiet-day dive is CELLSAVE**, which has never had a dive of its own and is the thinnest entry in section 1 of this file.
+
+---
+
+### 2026-09-27: NOT a quiet day. A THIRD PRICING MODEL enters the file, and a second consecutive watched entity turns out to be a name rather than a thing.
+
+**Full detail in `reports/competitors/watch-2026-09-27.md`.** Summary of what changes in this baseline:
+
+**NEW COMPANY, section 1: AMERICORD (americordblood.com).** US cord-blood and newborn-stem-cell bank. Reported to be running **September 2026 promotions on multi-service plans**, with discounts on a **30-year plan** and a **lifetime plan**.
+**EPISTEMIC STATUS: `www.americordblood.com` is unreachable from our egress proxy, so this is search-index-only. The two discount percentages the index returned are deliberately NOT recorded here and must not be quoted.** What is recorded is the existence of a promotion and the shape of the ladder.
+**THE STRUCTURAL POINT, and it is the finding rather than the discount: PREPAID TERM STORAGE IS A THIRD PRICING MODEL AND THIS FILE DID NOT CONTAIN IT.** Everything tracked so far is annual (us, Acorn, the cord-blood annuals) or one-time-and-you-keep-it (the home capsule). **A 30-year prepaid plan offers institutional custody WITHOUT an annual decision, which removes the thing customers dislike about our model while keeping the thing they like.**
+**THE COUNTER WE DO NOT CURRENTLY MAKE ANYWHERE, and it is fair rather than clever: a prepaid term converts an annual renewal risk into a COUNTERPARTY risk, paid up front.** What happens in year 31, and what happens if the institution does not reach year 30. **Write it before somebody asks.** **Threat level: medium.**
+
+**POSITIVE CONTROL, recorded because this week made it easy to assume the opposite.** Today's sweep independently returned **Cryo-Cell at $710 to start plus $199/year** and **Cells4Life at $185/year after the first year**, both **matching `reports/blog/dna-banking-cost.md` exactly**, where they are recorded as verified live on **30 August 2026**. **Four weeks, no drift.**
+**Two corrections in seven days, both against us, could suggest the whole file is unreliable. It is not.** **The figures recorded WITH their units and a verification date held perfectly. The two that failed, Acorn and SecuriGene, were the two recorded fast and without currencies.** **The defect was the shortcut, not the file.**
+
+**CELLSAVE: the rotation dive ran and produced a finding about our own record-keeping instead of about the company.** A direct search for CellSave cord-blood pricing and 2026 marketing **returned other providers entirely** (Cryo-Cell, Cells4Life, Americord, CBR, MiracleCord, Cordlife, Cell Safe Bank) and **CellSave did not surface for its own product category.** **Two readings and we cannot distinguish them: either it is not meaningfully present in the US consumer market we compete in, or our query was wrong. The second is the humbler assumption and neither is established.**
+**WHAT IS ESTABLISHED IS ABOUT US.** The CellSave entry has never contained a price, a country, a product page or a date.
+**SECOND CONSECUTIVE DAY ON WHICH A WATCHED ENTITY WAS BEING TRACKED AS A NAME RATHER THAN AS A THING.** Yesterday: Vitara on the science watchlist, carried for weeks as "the live artificial-womb item" with no record of what it builds. Today: CellSave.
+**STANDING ACTION ADDED TO THIS FILE: every baseline entry with no price, no country and no dated check is a name, not a competitor. Audit them and either fill them in or drop them. Carrying a name costs nothing and tells you nothing, which is exactly why it survives.**
+
+**Rotation: next quiet-day dive is AMERICORD**, which is now the most interesting entry in section 1 and the only one representing a pricing model we have never argued against.
