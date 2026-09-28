@@ -353,3 +353,28 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 ## SEARCH NOTE 2026-09-27
 **"mooring rope bollard harbour" with orientation=squarish returned ZERO results. "mooring rope" with no orientation filter returned 2,343.** **The orientation filter is far more destructive on narrow queries than it looks**, and a square canvas does not require a square source: a landscape source cropped to square is the normal case. **Default to no orientation filter and crop afterwards.**
 **"canal lock gate" returned 54 results, two of them usable.** Narrow infrastructure queries are thin but clean, which continues the pattern: **weathered infrastructure nobody sells is the only supply category still reliably open.**
+
+## CONSUMED 2026-09-28
+- `7nwR31ggK8M` derelict industrial structure at twilight -> Ad_AskForItInAUnit_165
+- `Sxs2E3QYoJ4` antique printing-press type trays -> Ad_EitherItExistsOrItDoesnt_168
+
+## DO-NOT-USE additions 2026-09-28
+| ID | Why killed |
+|---|---|
+| Xrk_dnQ1si0 | Concrete boundary marker (Ismet BELAOUEDJ @michaelsinaloa). **Arabic script painted across the marker base**, plus bright midday sky, buildings and a footbridge. **Not darkenable, and a USA-only product should not run type it cannot read.** Do not re-source. |
+| vv0OomxL4gA | Empty white shelves (Celso A. Torres Pirron @celsoramone). Flat, bright and domestic; reads as an empty closet, not an archive. **Separately, "shelves" is the visual hook of Ad_50, Ad_68 and Ad_103.** Removed from the usable list. |
+| OnI_TNcIv9U | Dark server rack (Tyler @tylergm). **Already used on Ad_FilesWereFine_113.** Never the same photo on two new concepts. Keep for vertical re-layouts of 113 only. |
+
+## BANKED 2026-09-28 (vetted by search metadata; inspect at full size before use)
+| ID | Subject note | Photographer | Raw URL | WxH |
+|---|---|---|---|---|
+| 60NulquhzoI | Black transmission tower, PORTRAIT, clean sky. **Same pylon family as Ad_167 shipped today: hold until 5 October.** | Severin Demchuk (@sdmk) | https://images.unsplash.com/photo-1504250746301-659b6b611c48 | 4000x6000 |
+| bFMwQb6YRU8 | Utility pole silhouette at sunset, PORTRAIT, color #404073. Same family hold. | Filipe Paulo (@fpaulo2k1) | https://images.unsplash.com/photo-1517358133568-31ec5656304e | 4000x6000 |
+| h0z0ptvGVR8 | Electric towers, landscape, base color #262626 (already dark). Same family hold. | Alexandru Boicu (@boiq) | https://images.unsplash.com/photo-1572211281255-bb9fd6f3ca0e | 6016x4016 |
+| GPjdFjD8X0s | Old stone bridge, Oland, base color #264026. **Same bridge family as Ad_166 shipped today: hold until 5 October.** | Jonas Gold (@goldlife) | https://images.unsplash.com/photo-1604243993256-872be65557ac | 4032x3024 |
+| QDAzBw6_yrc | Stone border marker in grass, France/Switzerland boundary. **CAUTION: the marker is etched with a cross, which reads religious in a legacy ad.** Bright green, needs heavy darkening. | Valentin Zickner (@vzickner) | https://images.unsplash.com/photo-1758380415452-2d3a7cc662d7 | 4313x2875 |
+
+## SEARCH NOTE 2026-09-28
+**"milepost stone distance marker" returned ZERO results; "boundary stone marker field" returned 2,289.** **Third instance this month of a narrow compound query returning nothing while a two-word version of the same idea returns thousands.** The pattern now has three data points (mooring rope 27 Sep, tree rings 26 Sep, milepost today): **compound noun phrases are the thing that kills a query, not the subject.**
+**"electricity pylon dusk" returned 2,444 and every one of the top eight was usable.** **Weathered infrastructure nobody sells remains the only reliably open supply category**, and the power grid is the largest example of it we have found.
+**THE METHOD PAID AGAIN, TWICE: grepping the log BEFORE downloading killed the gauge brief and a repeat server photo.** One of those was a brief written by our own Content Factory four hours earlier. **The grep does not care who wrote the brief, which is the point of it.**
