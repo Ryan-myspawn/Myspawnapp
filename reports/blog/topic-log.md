@@ -63,6 +63,17 @@
 
 Note 2026-08-25: the `23andme-alternative` article (queued for Aug 24, skipped in the processing gap) was written today instead with a fresher peg (July 14, 2026 multistate settlement); the queue shifts one day. PRICING: all articles from today forward use $99/year (annual fee): the pre-Aug-25 archive still contains the old one-time framing and needs a correction pass before republishing/promotion (founder to confirm which articles are live).
 
+### Added 2026-09-28 by the rank tracker (volumes unverified, no Semrush data)
+**These carry NO volume and NO difficulty figures. They are editorial judgment about search intent, not data. Re-validate every one when Semrush units return, and DROP any with no volume rather than writing the article to justify the entry.**
+1. **who owns your dna after you die** : lane (d). The plainest phrasing of the question our custody positioning answers, and nothing in the published set targets it directly. **Rank tracker's #1 pick.**
+2. **what happens to embryos if a fertility clinic closes** : lane (d). Uncovered, high stakes, pairs with the shutdown article.
+3. **does cremation destroy dna** : lane (a). Already queued for 29 September.
+4. **genetic data broker** : lane (d). Already queued for 28 September.
+5. **digital executor vs legacy contact** : lane (e). A distinction our platform-settings article explains without ever naming.
+6. **what happens to my dna sample if i cancel** : lane (d). Cancellation is a different question from retention policy, and our 16 September research found providers differ.
+7. **pet dna preservation** : lane (e). An adjacent market we have never touched. **Scope decision needed before writing: possibly off-brand, and that is a founder call.**
+8. **can you clone a pet from stored dna** : lane (b). High intent, and the honest answer is no. **RAIL FLAG, BINDING: writable only as a plain debunk stating we do no cloning and promise no descendant creation. If it cannot be written without implying otherwise, do not write it.**
+
 ## Standing founder keywords (search intent to target and monitor)
 - **"gen z not having kids"** (2026-08-20): swept daily by Trend Radar; feed deltas into future articles and refreshes of the 08-23 piece.
 - **"23andMe alternative"**, **"sperm freezing cost"**, **"gifts for dad"** (2026-08-21): commercial intercepts, queued below.
