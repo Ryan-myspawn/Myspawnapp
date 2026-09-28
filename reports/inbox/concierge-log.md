@@ -123,3 +123,27 @@
 **NEWSLETTER: the decision window closes tomorrow.** Issue 5 has now missed **six** slots. Issue 6 is written and dated for **Monday 28 September**, which is tomorrow. **Recommendation unchanged and now urgent: option (b), fold Issue 5's Connecticut item into Issue 6 as its lead and retire Issue 5.** The item is **Public Act 26-64, signed 27 May 2026, genetic provisions effective 1 October 2026**, phased 1 January 2027 and 1 July 2027. **A 1 October item reads well on 28 September and badly on 5 October. After tomorrow, option (a) stops being available on its own terms.**
 
 **Next Gmail-enabled run, unchanged:** `newer_than:29d` sweep, ONE catch-up digest, oldest-first triage, personal rather than templated replies for anything older than a week, **and the newsletter decision first.**
+
+## 2026-09-28: NO TRIAGE POSSIBLE, DAY 30. The failure mode OSCILLATED, which settles yesterday's open question.
+
+**Gmail's tools loaded normally today.** Full schemas for `search_threads` and `create_draft` returned. **The call itself then returned `needs_reconnect`.**
+
+**THAT IS THE MILDER OF THE TWO MODES, AND YESTERDAY IT WAS THE WORSE ONE.** At 04:00 UTC on 27 September the Gmail tools were **not loadable at all**: the server had withdrawn its entire tool surface and a direct lookup found nothing. **Twenty-four hours later the same connector is back in the loadable-but-unauthorized state, with nothing fixed in between.**
+
+**WHY THIS MATTERS MORE THAN ANOTHER TALLY MARK.** Yesterday evening's Calendar Sentinel proposed that the two failure modes were **variance rather than a progression**, on the evidence of two different connectors failing differently on the same day. **Today settles it from the other direction: one connector, two modes, twenty-four hours apart, moving from worse to milder on its own.**
+
+**THE OPERATIONAL CONSEQUENCE, and it is the reason to write this down: observing a "better" failure state is NOT evidence of recovery.** A run that finds the tools loadable might reasonably read that as progress. **It is not progress. It is the same outage presenting differently**, and the only thing that changes it is the session-start connector read.
+
+**COUNT DISCIPLINE.** This **is** a false recovery in the established sense (tools present, call refused), so **the running total goes to twenty-one.** Yesterday's tools-not-loadable event stays logged separately and is still not folded into this tally, because the tools were not present to refuse.
+
+**ACTIONS TAKEN AND NOT TAKEN.**
+- **Zero threads triaged, zero classified, zero drafts created.**
+- **Nothing inferred about the inbox.** An unreachable inbox is not an empty one, and this digest does not report "inbox clear", because that would be a fabrication.
+- Digest written to `reports/outbox/inbox-digest-2026-09-28.html` instead of sent, as on all twenty-nine previous days.
+- **No rule bent:** nothing sent, nothing deleted or marked spam, no correspondent detail recorded anywhere.
+
+**THE THREE-STEP FIX, thirtieth asking, and today's evidence points straight at step 2:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, which is the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**NEWSLETTER: THE DECISION WINDOW IS NOW.** Issue 6 is written and dated for **today, Monday 28 September**. Issue 5 has missed **seven** slots. **The recommendation is unchanged and this is the last day it can be acted on as written: fold Issue 5's Connecticut item into Issue 6 as its lead and retire Issue 5.** The item is **Public Act 26-64, signed 27 May 2026, genetic provisions effective 1 October 2026**, phased 1 January 2027 and 1 July 2027. **That date is three days away. It reads as a heads-up today and as history next week.**
+
+**Next Gmail-enabled run, unchanged:** `newer_than:30d` sweep, ONE catch-up digest, oldest-first triage, personal rather than templated replies for anything older than a week, **and the newsletter decision first.**
