@@ -492,3 +492,27 @@ Everything the fertility and legacy-tech lanes returned is already here: the **2
 **STANDING ACTION ADDED TO THIS FILE: every baseline entry with no price, no country and no dated check is a name, not a competitor. Audit them and either fill them in or drop them. Carrying a name costs nothing and tells you nothing, which is exactly why it survives.**
 
 **Rotation: next quiet-day dive is AMERICORD**, which is now the most interesting entry in section 1 and the only one representing a pricing model we have never argued against.
+
+---
+
+### 2026-09-28: the rotation dive lands on AMERICORD as scheduled, corrects yesterday's own entry, and finds the only competitor in this file that puts an INTEGER on the word "lifetime"
+
+**Full detail in `reports/competitors/watch-2026-09-28.md`.** No dated competitive event in the last 24 to 48 hours; this is rotation output, not news. Summary of what changes in this baseline:
+
+**1. SELF-CORRECTION TO YESTERDAY'S ENTRY, and it is a taxonomy error rather than a number error.** Yesterday this file recorded prepaid term storage as **"a third pricing model this file did not contain"**, set against annual and one-time-and-you-keep-it, and attributed it to Americord. **Today's dive shows the same company ALSO charges annual storage fees, reported in the range of $175 to $250.** **So it is not three models held by three kinds of company. One company offers both, and the customer chooses which risk to carry.**
+**WHAT SURVIVES: the argument. A prepaid term still converts renewal risk into counterparty risk paid up front, and year thirty-one is still unanswered by most of the category.** **WHAT DOES NOT: the tidy three-way split.** **The tidiness is what made it wrong**, which is the same failure class as the SecuriGene currency error two days earlier: a clean story imposed on messier facts. **If a comparison asset is ever built, it compares the two ways to PAY, not three kinds of company.**
+
+**2. A COMPETITOR DEFINES "LIFETIME" AS 78 YEARS, IN WRITING.** Reported Americord plan structure: an **Essential plan at 20 years for $3,499** ($599 processing plus $2,900 storage); a **lifetime plan at $5,699** with **"lifetime" defined as 78 years**; **$280 upfront** for kit and shipping; a 24-month interest-free option; and a **$110,000 quality guarantee**.
+**EPISTEMIC STATUS: search-index only. `www.americordblood.com` is unreachable from our egress proxy, which is our container refusing the connection and is NOT evidence about the company. No figure above may be quoted in any MySpawn asset without a primary check.** **That is now the fourth outstanding thirty-seconds-in-a-browser ask: StoryWorth (23 Sep), Acorn (25 Sep), SecuriGene (26 Sep), Americord (today). All four are blocked by the same container, not by four companies.**
+**THE FINDING IS THE DEFINITION, NOT THE PRICE.** Most of this category uses "lifetime" as a mood. **Putting an integer on it is the answer to "what happens in year thirty-one", written down, and it is more honest than not.** **Said plainly even though it belongs to a competitor.**
+**SO WHAT FOR MYSPAWN, and it is uncomfortable: our own equivalent question is what happens if MySpawn ceases to operate, and our published answer is still PARTIAL because the continuity document is drafted and unpublished.** **A competitor has now put a number on its longest promise while ours is a draft.**
+
+**3. NEW GENERAL RULE, earned today: PROMOTIONAL PERCENTAGES ARE THE LEAST STABLE NUMBERS IN ANY COMPETITOR RECORD.** Three different discount pairs for one company across two days: **20/35 (yesterday), 21/34 ("current", today), 15/30 ("as of February 2026", today).** **Yesterday this file deliberately recorded that a promotion existed and refused to record the percentages. Today is the evidence that was right.** **Standing rule: record that a promotion exists and what it applies to. Never record the number.**
+
+**4. NUCLEUS GENOMICS, new line for section 3.** Reported: **as of March 2026, expanded services to India, Saudi Arabia and Jordan.** **Label: company-profile material, older than the 24-hour window, newly discovered.** **Threat level low, relevance reputational.** MySpawn is USA only and we do not compete for those markets; what matters is that **the embryo-screening lane is internationalizing and that lane's reputation travels to ours.** **Rails unchanged: polygenic scores are probabilistic, we comment and never endorse, and the Herasight-versus-Nucleus overstatement dispute remains on file and unresolved.**
+
+**5. STORYWORTH, fourth secondary data point, flag does NOT clear.** Today's sweep reports **$59, $109 and $199** plans; **the $109 middle tier is new to our record**, the other two match. **Same source family that failed three of four factual claims in deep-dive #27.** **A source agreeing with itself across four retrievals is not corroboration. CONTESTED stands and no StoryWorth figure may appear in any asset.**
+
+**Lanes with nothing to report:** no dated motion from SecuriGene, Acorn, Tomorrow Bio, Alcor or the Cryonics Institute; none in fertility preservation (Cofertility's $16M total raised is aggregator material and adds nothing operational); nothing from Orchid or Herasight beyond the Nucleus line; nothing from HereAfter AI or Empathy.
+
+**Rotation: next quiet-day dive is CRYO-CELL**, the oldest entry in section 1 that has never had a dive of its own and the one whose figures are currently our best positive control, which makes it the right place to test whether the control still holds.
