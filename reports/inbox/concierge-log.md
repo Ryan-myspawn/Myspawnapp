@@ -147,3 +147,35 @@
 **NEWSLETTER: THE DECISION WINDOW IS NOW.** Issue 6 is written and dated for **today, Monday 28 September**. Issue 5 has missed **seven** slots. **The recommendation is unchanged and this is the last day it can be acted on as written: fold Issue 5's Connecticut item into Issue 6 as its lead and retire Issue 5.** The item is **Public Act 26-64, signed 27 May 2026, genetic provisions effective 1 October 2026**, phased 1 January 2027 and 1 July 2027. **That date is three days away. It reads as a heads-up today and as history next week.**
 
 **Next Gmail-enabled run, unchanged:** `newer_than:30d` sweep, ONE catch-up digest, oldest-first triage, personal rather than templated replies for anything older than a week, **and the newsletter decision first.**
+
+---
+
+## 2026-09-29, 04:08 UTC: DAY 31, AND THE FAILURE MODE FLIPPED BACK
+
+**GMAIL'S TOOLS COULD NOT BE LOADED AT ALL THIS RUN.** Not "loaded and refused the call": **absent.** The Gmail server is listed as requiring authentication, `mcp__Gmail__search_threads` returns **no matching deferred tool**, and a keyword search for Gmail inbox tools returned four tools from four unrelated servers and **nothing from Gmail.**
+
+**THIS IS THE THIRD DISTINCT MODE OBSERVED IN FOUR CALENDAR DAYS, AND THE SECOND FLIP.**
+| When | Mode |
+|---|---|
+| 27 Sep, 04:00 | Tools **not loadable** (Calendar loaded the same day and failed at authorization) |
+| 28 Sep, 04:00 | Tools loadable, call returned `needs_reconnect` |
+| 28 Sep, ~15:55 | Tools loaded, then **disconnected mid-run** |
+| 29 Sep, 04:08 | Tools **not loadable** again |
+
+**THE DIAGNOSIS IS NOW OVERDETERMINED. THIS IS VARIANCE IN THE SESSION-START CONNECTOR READ, NOT A PROGRESSIVE DECAY.** A state that looked "better" on Monday is "worse" again today with nothing changed in between, **and the reverse happened between Saturday and Sunday.** **A better failure state is not evidence of recovery, and a worse one is not evidence of deterioration.** Neither direction means anything. Only a **new session** re-runs the read.
+
+**COUNT DISCIPLINE, HELD.** This is **not** a false recovery in the established sense, because the tools were never present to refuse. **The false-recovery tally stays at twenty-one.** This is the **second** tools-not-loadable event and it is logged separately, exactly as the first one was on 27 September. **Two tallies, two meanings, neither inflated to make the outage sound worse.**
+
+**ACTIONS TAKEN AND NOT TAKEN.**
+- **Zero threads triaged, zero classified, zero drafts created.** No `create_draft` call was possible and none was attempted against a tool that does not exist.
+- **Nothing inferred about the inbox.** An unreachable inbox is not an empty one. **This digest does not say "inbox clear"**, because that would be a fabrication, and it has not said it on any of the thirty previous days either.
+- Digest written to `reports/outbox/inbox-digest-2026-09-29.html` instead of sent.
+- **No rule bent:** nothing sent, nothing deleted or marked spam, no correspondent detail recorded anywhere.
+
+**THE THREE-STEP FIX, thirty-first asking:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**NEWSLETTER: THE WINDOW RECOMMENDED YESTERDAY HAS NOW CLOSED, AND THE RECOMMENDATION CHANGES BECAUSE OF IT.** Issue 6 was written and dated for **Monday 28 September** and was not sent, because nothing can be sent. Issue 5 has now missed **eight** slots.
+**The Connecticut item is Public Act 26-64, signed 27 May 2026, genetic provisions effective 1 OCTOBER 2026, phased 1 January 2027 and 1 July 2027. That is TWO DAYS away.**
+**Revised recommendation: stop treating it as a heads-up and re-cut it as an in-force item.** A "this takes effect on Thursday" lead written today survives publication at any point this week; **a "coming soon" lead is wrong from Thursday morning onward.** **Retire Issue 5, fold the item into Issue 6, and rewrite its lead sentence in the present tense before anything is sent.**
+
+**Next Gmail-enabled run, unchanged:** `newer_than:30d` sweep, ONE catch-up digest, oldest-first triage, personal rather than templated replies for anything older than a week, **and the newsletter decision first.**
