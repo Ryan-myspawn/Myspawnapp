@@ -118,3 +118,24 @@ Two 2026 sources point opposite ways about the same generation. **Northwestern M
 **Longpost #102, "On Thursday a new genetic privacy law takes effect. Here is the mechanism inside it that actually matters.", to X.**
 
 **It is the pick because it has an expiry date and nothing else in the bank does.** Connecticut's genetic provisions take effect **1 October**. The piece reads as a heads-up today, as commentary tomorrow, and as history on Friday. **It is zero product, it is built on a statutory mechanism rather than a scare, and it is the only asset we hold that gets worse by waiting.**
+
+---
+
+## CORRECTION, ISSUED 15:20 UTC THE SAME DAY, AGAINST THIS FILE'S OWN SCIENCE WATCH
+
+**THE ASRM IVG ETHICS OPINION IS NOT A DELTA AND THIS FILE SHOULD NOT HAVE CALLED IT ONE.** Today's Deep Production run grepped `production-log.md` before drafting an episode on it and found it immediately:
+
+- **18 August 2026**, episode **"The Pregnancy Robot Is Fake. What's Real Is Wilder."**, built on the Kaiwa/EctoLife debunk, Vitara's FDA IDE **and the ASRM IVG ethics opinion.**
+- **6 September 2026**, episode **"The Rulebook Before the Game"**, a governance synthesis whose four locks included **"pre-written IVG rules"** and an **"ASRM soft lock against a live market."**
+
+**We have used this item twice, and the second time it was the spine of an entire episode about exactly the point this file called new: a rulebook arriving before the technology.**
+
+**WHAT IS CORRECTED.** The Science Watch header claiming a thirteen-day drought was broken is **wrong. The drought stands at FOURTEEN consecutive days.** The concept **"The Rulebook Came First" is KILLED**: it is the 6 September episode with a new title.
+
+**WHAT IS NOT CORRECTED, because it is still true:** the opinion exists, it was not opened, and **IVG has still produced no mature human gametes.** Nothing factual in the entry is wrong. **What was wrong is the word "delta", which is a claim about OUR archive rather than about the world.**
+
+**ROOT CAUSE, and it is structural rather than careless.** The Trend Radar's freshness check compares against **previous trend radars.** This item has never appeared in one. **Episode subjects live in `production-log.md`, and the Trend Radar does not read that file.** **Two logs, two scopes, and an item can look new in one while being twice-used in the other.**
+
+**FIX PROPOSED AND NOT YET ADOPTED: the Science Watch must grep `production-log.md` before calling anything a delta.** One line. **This is the second time in six days that the 24 September QC amendment, checking claims against our own archive, would have saved a whole item.**
+
+**The original entry above is left standing and annotated rather than deleted**, because what this file said at 13:04 is part of the record.
