@@ -140,7 +140,7 @@
 - **X2 names no company and quotes no figure**, and says outright that neither price is a lie. **PASS.**
 - **X1 and X3 name nobody.** X3's definitions are stated as general regulatory vocabulary, not as a claim about any product. **PASS.**
 - **T2's re-identification point is framed as a statement about the molecule and explicitly not as an accusation against any company. PASS.**
-- **Pricing: "ninety-nine dollars a year" (evergreen), "Ninety-nine dollars a year, billed annually" (X2). No "once", no "one-time", no "no subscription". PASS.**
+- **Pricing: "ninety-nine dollars a year" (evergreen), "Ninety-nine dollars a year, billed annually" (X2). "One-time" and "no subscription" appear nowhere. The word "once" appears EXACTLY ONCE, in the evergreen's opening line ("said yes to something once"), where it modifies an act of consent and not a payment. Checked rather than assumed, because this exact QC line was inaccurate on 28 September. PASS.**
 - **Health rail: the evergreen states we do not analyze, score or interpret anything. No health claim anywhere. PASS.**
 
 **THREE-PERSONA BENCH (men 25-55).**
