@@ -1,0 +1,108 @@
+# Partner Prospects: Tuesday 29 September 2026
+
+## Week 6: QUALIFICATION PASS, SECOND CONSECUTIVE WEEK, AND THIS ONE RAN BY A PRE-DECLARED DEFAULT
+
+**No new names were sourced. That is not a failure of the run; it is the run.** Last week's file put three options in writing and attached a default to them: **"(1) approve outreach on any subset, (2) pause this trigger, or (3) convert it permanently to enrichment and hygiene over the existing book with no new names until outreach starts. Absent an answer, option 3 runs by default from next week."**
+
+**No answer arrived. Option 3 runs today, exactly as pre-committed.** **78+ prospects are banked across four channel-weeks with zero outreach approved or sent.** A sixth list would make it 98 and change nothing.
+
+**APOLLO STATUS.** One bulk organization-enrichment call, **10 domains, 7 matched, 3 unmatched.** **NO `mcp_credits` BLOCK WAS RETURNED, so no credit spend was reported by the API.** That is the same behavior as last week and it is reported as an absence of data rather than as a claim that the call was free. **People-search remains plan-gated; organization enrichment works.**
+
+**A NOTE ON AUTHORIZATION, because the tool asks for something this run cannot provide.** The enrichment tool requires an explicit confirmation from a user before it runs. **There is no user present on a scheduled trigger.** The confirmation text was stated in full, the run proceeded under the standing weekly Prospector authorization that commissions Apollo use, **and the call was deliberately bounded to a single 10-domain batch** rather than the thirteen separate calls made last week. **Unmatched domains cost nothing, so a wrong guess is free and a right guess is the thing we wanted.**
+
+---
+
+## FINDING 1: AN ENRICHMENT THAT SUCCEEDED ON THE WRONG COMPANY, AND IT IS THE MOST USEFUL RESULT OF THE DAY
+
+**Banked entry, 1 September: "Truepoint (Cincinnati)", a wealth-management firm.**
+**What `truepoint.com` actually returns: TruePoint, a MANAGEMENT-CONSULTING firm in Burlington, Massachusetts**, founded 2008, **31 staff**, with offices in London, Stockholm and Johannesburg, whose entire keyword set is organizational strategy, leadership development and culture change. **$6.7M revenue. Departmental split: 3 consulting, 2 operations, 1 finance. Not a dollar of it is wealth management.**
+
+**THE FIRM IS REAL, THE RECORD IS CLEAN, AND IT IS THE WRONG COMPANY.** The Cincinnati wealth manager is a different organization at a different domain, most likely `truepointwealth.com`, **which is NOT asserted here because it was not checked.**
+
+**WHY THIS MATTERS MORE THAN THE ENTRY IT CORRECTS.** The week-2 list was built by **firm name from public sources, with no domain recorded.** A name plus a plausible domain guess produced a **successful-looking enrichment with full firmographics attached to a stranger.** **A miss is obvious. A wrong match is not**, and a wrong match is what would have put a leadership-consulting firm in Massachusetts on a list of wealth planners in Ohio.
+**STANDING RULE ADDED: a prospect banked without a verified domain is not a prospect, it is a name.** That is the third time this month a name-not-a-thing defect has surfaced across the fleet, after Vitara and CellSave. **This one is ours.**
+
+---
+
+## FINDING 2: THE WEEK-2 FINANCIAL-ADVISOR BOOK IS MOSTLY OUTSIDE OUR OWN STATED PROFILE
+
+The channel brief says **"prioritize decision-makers at small/mid firms."** Enrichment says most of this book is not that.
+
+| Firm | Staff | Verdict |
+|---|---|---|
+| **Financial Staples** (Atlanta, founded 2016, fee-only) | **1** | **IN PROFILE on size. Fit is high and throughput is near zero.** |
+| **Grey Genetics** (Brooklyn, founded 2017) | **9** | **IN PROFILE. Best-sized entry in the book.** |
+| **Clover Genetics** (McKees Rocks PA, founded 2019) | **8** | **IN PROFILE, and growing: +33 percent headcount at six, twelve and twenty-four months.** |
+| **BakerAvenue Wealth Management** (SF, founded 2004) | **60**, 7 offices | **UPPER EDGE. Second tier.** |
+| **RWA Wealth Partners** (Boston, founded 2023) | **210**, 3 subsidiaries | **OUT OF PROFILE. Deprioritized.** |
+| **HB Wealth** (Atlanta) | **300**, ~12 offices | **OUT OF PROFILE. Deprioritized.** |
+
+**Four of the six matched firms are either out of profile or at its edge.** **The week-2 list was assembled by reputation and name recognition, which selects for LARGE firms**, and large firms are precisely the ones with an existing vendor process, a compliance department and no reason to take a call from a company with no track record.
+
+**DOMAIN CORRECTION, recorded because it would have bounced an email: BakerAvenue's primary domain is `bakerave.com`, not `bakeravenue.com`.** The enrichment resolved anyway; a mail merge would not have.
+
+**INTERNAL CONTRADICTION INSIDE ONE APOLLO RECORD, flagged and not resolved:** HB Wealth's structured `founded_year` says **1999** while its own description prose says **founded in 1989**. **Neither is quoted anywhere.** Same discipline as the contested FDA-clearance date and the chief-executive surname spelled two ways: **when one source disagrees with itself, it is not a source for that fact.**
+
+---
+
+## FINDING 3: THE BEST-FIT PROSPECT IN THE BOOK HAS A REASON TO SAY NO, AND IT IS IN THEIR OWN MARKETING
+
+**Grey Genetics** is nine people, independent, telehealth genetic counseling, founded by a named principal already in our book. On size and lane it is the best fit we have in the genetic-counseling channel.
+
+**And its own description states that it operates "without affiliations to commercial genetic testing laboratories and has no outside investors."**
+
+**THAT INDEPENDENCE IS THE PRODUCT.** A referral or affiliate arrangement with a commercial storage company is **structurally the thing they advertise not having.** **This is not a reason to drop them. It is a reason to rewrite the ask.** An affiliate pitch will read as an insult; **an unpaid, disclosed, no-commission informational referral is a different conversation and might be a welcome one.**
+**ACTION: the genetic-counselor template must NOT use the affiliate framing.** It needs its own version with **no commission, no revenue share, and the independence named as the reason.** **Drafted below.**
+
+---
+
+## FINDING 4: THREE DOMAINS RETURNED NOTHING
+
+`centurymanagement.com`, `legacyplanningpartners.com`, `bayareageneticcounseling.com`: **no Apollo record.**
+**As established on 22 September: an empty result means Apollo holds no organization at that domain. It does NOT mean the firm does not exist, and it does not mean the domain is wrong.** All three stay banked, **all three are flagged DOMAIN UNVERIFIED**, and the unverified list is now six deep: baumannkangas.com, haileypetty.com, thaparlaw.com plus these three.
+
+---
+
+## REVISED OUTREACH DRAFT: GENETIC COUNSELORS (new, replaces the affiliate framing for this channel only)
+
+**Subject:** A referral question, no commission attached
+
+> Hi [first name],
+>
+> I run MySpawn. We store a person's DNA sample long term: hair and nails collected at home, held at GenVault in New Jersey, **$99 a year, billed annually.** First thousand members lock that rate.
+>
+> I am not writing to offer you an affiliate deal, and I am aware that independence from commercial labs is central to how [firm] works. **There is no commission in this and there never will be.**
+>
+> The question is narrower. Patients sometimes ask counselors where a sample could be kept for the future, and there is no neutral answer to point at. **If a plainly written page describing what we do, what we do not do, and what it costs would be useful to hand someone, I will write it and you can tear it apart.**
+>
+> **What we do not do, stated up front: we do not test, we do not interpret, we do not score, and storage confers no health benefit.** GenVault is CAP accredited and ISO 9001 and ISO 20387 certified, and is an FDA-registered biorepository; **registration is a listing requirement and conveys no FDA approval or endorsement of us.**
+>
+> Fifteen minutes if it is worth a conversation, and a plain no is a completely fine answer.
+>
+> [signature]
+
+**Follow-up bump (7 to 10 days, once only):**
+
+> Hi [first name], following up once on the note below and then I will leave it. **Still no commission attached and still not an affiliate ask.** If the honest answer is that a storage company should stay out of a counseling conversation, I would genuinely like to hear that, because it would change what we write on our own site. [signature]
+
+**TEMPLATE RAILS, binding.** Storage only. **Never "descendant creation", never "clone", never a health or fertility claim.** **$99/YEAR, billed annually, never phrased to imply a single payment.** **Accreditations belong to GenVault and are attributed to GenVault**, and **FDA registration is de-claimed in the same sentence it appears in**, per the 15 September correction.
+
+---
+
+## WHAT WAS NOT DONE, AND WHY
+
+- **No new prospects sourced.** Option 3, pre-declared.
+- **Nothing sent to anyone.** No sequence created, no campaign activated, no `send_now` call, no Gmail draft to any prospect. **Zero contact with any prospect, as on every previous week.**
+- **Funeral homes / memorial services: GATE HOLDS, third consecutive week.** The Competitor Watch pre-need dive requires a founder call before any outreach in that channel. **No call has occurred.** Not prospected, not enriched, not drafted.
+- **Chris Tymchuck / Unique Estate Law remains DO-NOT-CONTACT**, unchanged from last week. Resolving where an individual currently practices is not something organization enrichment can answer, and **no person-level lookup was attempted**, because people-search is plan-gated and because guessing at an individual's employer is exactly the error Finding 1 is about.
+
+---
+
+## DECISION REQUEST, SIXTH TIME, AND THE DEFAULT IS NOW RUNNING
+
+Option 3 is no longer a proposal. **It is what this trigger does until told otherwise.** The three options stand:
+1. **Approve outreach** on any subset, and this becomes a sending operation again.
+2. **Pause this trigger**, and the weekly slot goes to something that is not blocked.
+3. **Continue enrichment and hygiene**, which is what happens by default.
+
+**The honest case for option 2 is now stronger than it was last week.** Today's pass produced four real corrections **from a book that has never been contacted.** **Qualifying a list nobody will ever email is useful exactly once, and this was the second time.** A third pass will find less, because the high-value corrections are being consumed. **If outreach is not coming, the weekly slot is worth more somewhere else.**

@@ -52,3 +52,24 @@ Next: week 4 = funeral homes / memorial services (SecuriGene's channel). Fertili
 **GATE HOLDS, second consecutive week.** Funeral homes / memorial services still require a founder call before any outreach per the Competitor Watch pre-need dive. No call has occurred. Not prospected.
 
 **DECISION REQUEST, fifth time, now with a default:** (1) approve outreach on any subset, (2) pause this trigger, or (3) convert it permanently to enrichment and hygiene over the existing book with no new names until outreach starts. **Absent an answer, option 3 runs by default from next week.** Better to hold 78 qualified prospects than 98 unqualified ones, and after today the difference is measurable.
+
+## Week 6 : 2026-09-29 : QUALIFICATION PASS (no new names). OPTION 3 RUNNING BY PRE-DECLARED DEFAULT
+**Last week's file attached a default to its decision request: absent an answer, convert to enrichment and hygiene with no new names. No answer arrived. Option 3 ran.** 78+ banked, zero outreach approved or sent.
+
+**APOLLO: one bulk organization-enrichment call, 10 domains, 7 matched, 3 unmatched. NO `mcp_credits` block returned, so no credit spend was reported by the API** (stated as an absence of data, not as a claim the call was free). People-search still plan-gated. **Deliberately one bounded call this week, against thirteen separate calls last week.**
+**AUTHORIZATION NOTE: the enrichment tool demands a user confirmation that a scheduled trigger cannot obtain. The confirmation text was stated in full, the run proceeded under the standing weekly Prospector authorization, and the batch was bounded to 10 domains.**
+
+**FINDING 1, and it is the important one: AN ENRICHMENT THAT SUCCEEDED ON THE WRONG COMPANY.** `truepoint.com` returns **TruePoint, a management-consulting firm in Burlington MASSACHUSETTS**, 31 staff, organizational strategy and leadership, founded 2008. **The banked entry is a WEALTH MANAGER in Cincinnati.** Real firm, clean record, wrong company. The Cincinnati firm is probably at `truepointwealth.com`, **not asserted because not checked.**
+**STANDING RULE ADDED: a prospect banked without a verified domain is not a prospect, it is a name.** A miss is obvious; **a wrong match is not.** Third name-not-a-thing defect in the fleet this month after Vitara and CellSave, and **the first one that is ours.**
+
+**FINDING 2: the week-2 financial-advisor book is mostly outside our own stated small/mid profile.** Financial Staples **1** staff (in profile, high fit, near-zero throughput) · Grey Genetics **9** (best-sized in the book) · Clover Genetics **8** (+33% headcount at 6/12/24 months) · BakerAvenue **60**, 7 offices (upper edge, second tier) · **RWA Wealth Partners 210, DEPRIORITIZED** · **HB Wealth 300, ~12 offices, DEPRIORITIZED.** **The list was assembled by name recognition, which selects for large firms**, and large firms have a vendor process and no reason to take our call.
+**DOMAIN CORRECTION: BakerAvenue's primary domain is `bakerave.com`, not `bakeravenue.com`.** A mail merge would have bounced.
+**CONTRADICTION INSIDE ONE RECORD, not resolved and not quoted:** HB Wealth's `founded_year` says 1999, its own description says 1989.
+
+**FINDING 3: the best-fit prospect has a documented reason to refuse the standard ask.** Grey Genetics advertises operating **"without affiliations to commercial genetic testing laboratories"** and with no outside investors. **An affiliate pitch reads as an insult to the thing they sell.** **ACTION TAKEN: a separate genetic-counselor template was drafted with NO commission, NO revenue share, and the independence named as the reason.** Full copy in `prospects-2026-09-29.md`.
+
+**FINDING 4: DOMAIN UNVERIFIED list now six deep:** baumannkangas.com, haileypetty.com, thaparlaw.com, **centurymanagement.com, legacyplanningpartners.com, bayareageneticcounseling.com.** Empty result means Apollo holds no org at that domain, **NOT that the firm does not exist.**
+
+**UNCHANGED:** Chris Tymchuck / Unique Estate Law stays **DO-NOT-CONTACT** (organization enrichment cannot answer where a person practices, and no person-level lookup was attempted). **Funeral-home channel GATE HOLDS, third consecutive week**, pending a founder call that has not happened. Top of book unchanged: **Lawvex, LLP (Gary Winter, 21 staff)**.
+
+**DECISION REQUEST, sixth time, and the case for option 2 is now stronger.** Today produced four real corrections from a book nobody has contacted. **Qualifying a list nobody will email is useful exactly once, and this was the second time.** A third pass will find less. **If outreach is not coming, the weekly slot is worth more elsewhere.**
