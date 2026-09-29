@@ -378,3 +378,18 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 **"milepost stone distance marker" returned ZERO results; "boundary stone marker field" returned 2,289.** **Third instance this month of a narrow compound query returning nothing while a two-word version of the same idea returns thousands.** The pattern now has three data points (mooring rope 27 Sep, tree rings 26 Sep, milepost today): **compound noun phrases are the thing that kills a query, not the subject.**
 **"electricity pylon dusk" returned 2,444 and every one of the top eight was usable.** **Weathered infrastructure nobody sells remains the only reliably open supply category**, and the power grid is the largest example of it we have found.
 **THE METHOD PAID AGAIN, TWICE: grepping the log BEFORE downloading killed the gauge brief and a repeat server photo.** One of those was a brief written by our own Content Factory four hours earlier. **The grep does not care who wrote the brief, which is the point of it.**
+
+## CONSUMED 2026-09-29
+- `N6jxoR1PcbE` microphone mesh head, warm light (dlxmedia.hu @dlxmedia) -> Ad_NineYearsThreeDays_169
+
+## DO-NOT-USE additions 2026-09-29
+| ID | Why killed |
+|---|---|
+| 84TTwulld6c | Level crossing with barriers (viktor rejent @viktor_rejent). **Shot through a car windshield with the dashboard in frame**, flat overcast daylight, European crossing furniture, and a legible sign on the signal post. Four independent problems. Do not re-source. |
+| 8Nyb-I6haOo | Farm gate (Austin Neill @arstyy). Bright tropical green valley, **a horse in frame**, and the gate is **CLOSED**. Not darkenable into our system. |
+| WvP402vSiFk | Train at railway crossing (Kris Tian @kris_tian). Not downloaded: a train present is the opposite of any "permission, nothing arrived yet" concept, and livery text is near-certain. |
+
+## SEARCH NOTE 2026-09-29
+**THE NARROW-COMPOUND-QUERY FAILURE IS NOW AT FOUR INSTANCES AND THE RULE ALREADY EXISTED.** "railway level crossing barrier" returned **2 results in total**; the two-word version was never tried. Prior instances: "mooring rope bollard harbour" 0 (27 Sep), "tree rings cross section" 5 (26 Sep), "milepost stone distance marker" 0 (28 Sep). **Two-word queries, no orientation filter, crop afterwards. Today three concepts died because the rule was not applied.**
+**SECOND FINDING, and it is different in kind: "turnstile" returned 1,773 results whose top entries were a crowd of people and A REFRIGERATOR.** That is not thin supply, it is **mis-tagging**, and it means a large result count is not evidence of usable supply. **Read the top results before trusting a total.**
+**THE RESERVE IS NOW NEARLY EMPTY OF USABLE ENTRIES.** What remains is mostly on hold (pylon family until 5 Oct, bridge family until 5 Oct, scale and card-holder families) or already consumed by prior ads. **This is the fourteenth asking for a sourcing-only run and today is its cleanest argument: the single ad that shipped came from the reserve.**
