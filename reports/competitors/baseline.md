@@ -516,3 +516,23 @@ Everything the fertility and legacy-tech lanes returned is already here: the **2
 **Lanes with nothing to report:** no dated motion from SecuriGene, Acorn, Tomorrow Bio, Alcor or the Cryonics Institute; none in fertility preservation (Cofertility's $16M total raised is aggregator material and adds nothing operational); nothing from Orchid or Herasight beyond the Nucleus line; nothing from HereAfter AI or Empathy.
 
 **Rotation: next quiet-day dive is CRYO-CELL**, the oldest entry in section 1 that has never had a dive of its own and the one whose figures are currently our best positive control, which makes it the right place to test whether the control still holds.
+
+---
+
+### 2026-09-29: A QUIET NEWS DAY, AND THE ROTATION DIVE CORRECTED THIS FILE'S OWN CLAIM FROM TWO DAYS AGO
+
+**Full detail in `reports/competitors/watch-2026-09-29.md`.** No dated competitive event in 24 to 48 hours across all four lanes. **The file exists because a correction is not a quiet day.**
+
+**1. ANNOTATION TO THE 27 SEPTEMBER "POSITIVE CONTROL" ENTRY ABOVE, which is corrected in place rather than rewritten.** That entry said today's sweep "independently returned Cryo-Cell at $710 to start plus $199/year and Cells4Life at $185/year, both matching `dna-banking-cost.md` exactly", and concluded that **"the figures recorded WITH their units and a verification date held perfectly."**
+**Today's Cryo-Cell dive returns $185/year for cord blood AND $370/year for cord blood plus cord tissue, both attached to CRYO-CELL**, plus **$710 as SPECIAL pricing against $1,685 for standard processing including testing and first-year storage.** ([cryo-cell.com cost page](https://www.cryo-cell.com/cord-blood-banking-costs) and comparison directories, **via search index; pages not opened, general-web fetching refused for the third consecutive day**.)
+**WHAT IS WRONG IS NOT THE ARTICLE. `dna-banking-cost.md` publishes a RANGE across three providers ($710-$1,195 up front, $185-$199/year), and a range that contains today's figures is a correct range.** **What is wrong is this file's claim ABOUT the article: we said two company-specific figures matched exactly, when what matched was a three-provider range**, which is a far weaker test because a range is much harder to falsify.
+**AND THE CONCLUSION FLATTERED US.** It was used as evidence that our disciplined records hold while our sloppy ones fail. **That may still be true; it is not what the 27 September check demonstrated.** **Third self-correction in eight days, second one running in our own favor.**
+
+**2. NEW STANDING RULE, and it is the general form of yesterday's:** yesterday's rule was **never record a promotional percentage.** Today's is **record which number a competitor DISPLAYS and which number they also have, and never record either as "the price."** **$710 against $1,685 is not a discount, it is a display choice**, and the gap is larger than any percentage we have seen quoted. **Our own archive's up-front range may be anchored on promotional pricing: flagged as an uncertainty, NOT corrected, because the page cannot be opened.**
+**SO WHAT FOR MYSPAWN, positioning rather than pricing: we have ONE number. $99 a year, billed annually, first thousand lock the founding rate. There is no standard-versus-special ladder to explain.** **That is unusual in this category and we have never said it out loud.**
+
+**3. ACORN BIOLABS, entry materially changed.** Newly discovered and older than the window: a **2026 NewBeauty Award for Best Secretome Treatment** for its **YOU Secretome**, alongside the Fast Company 2026 listing already on file. **Label: awards and trade coverage, via search index; acorn.me remains unreachable from our container.**
+**Acorn's cell banking increasingly feeds an APPLIED REGENERATIVE PRODUCT. That is a materially different business from ours.** **They bank cells intended to be USED on you; we store a genetic record and sell no treatment.** **Threat level: low on price, MEDIUM on category definition**, because a consumer who has heard of cell banking may now expect banking to come with a treatment attached.
+**RAIL ATTACHED: no MySpawn asset may imply a competitor's treatment does not work, or that storage confers a health benefit. Storage confers no health benefit; that sentence protects us in both directions.**
+
+**Rotation: next quiet-day dive is CBR (cordblood.com)**, the third name in our own published three-provider row and the only one of the three that has never had a dive. **Given today's finding, the dive's first job is to establish whether our published up-front range is built on standard or promotional pricing.**
