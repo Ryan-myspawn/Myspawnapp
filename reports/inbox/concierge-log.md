@@ -179,3 +179,35 @@
 **Revised recommendation: stop treating it as a heads-up and re-cut it as an in-force item.** A "this takes effect on Thursday" lead written today survives publication at any point this week; **a "coming soon" lead is wrong from Thursday morning onward.** **Retire Issue 5, fold the item into Issue 6, and rewrite its lead sentence in the present tense before anything is sent.**
 
 **Next Gmail-enabled run, unchanged:** `newer_than:30d` sweep, ONE catch-up digest, oldest-first triage, personal rather than templated replies for anything older than a week, **and the newsletter decision first.**
+
+---
+
+## 2026-09-30, 04:08 UTC: DAY 32, AND THE FIRST BACK-TO-BACK REPEAT OF A FAILURE MODE
+
+**GMAIL'S TOOLS COULD NOT BE LOADED AGAIN.** A keyword search for Gmail inbox tools returned **four tools from four unrelated servers and nothing from Gmail.** Same mode as yesterday.
+
+**THIS IS THE FIRST TIME IN THE OUTAGE THAT TWO CONSECUTIVE OBSERVATIONS HAVE MATCHED.**
+| When | Mode |
+|---|---|
+| 27 Sep, 04:00 | Tools **not loadable** |
+| 28 Sep, 04:00 | Tools loadable, call returned `needs_reconnect` |
+| 28 Sep, ~15:55 | Tools loaded, then **disconnected mid-run** |
+| 29 Sep, 04:08 | Tools **not loadable** |
+| 30 Sep, 04:08 | Tools **not loadable** |
+
+**AND IT CHANGES NOTHING, WHICH IS THE POINT WORTH WRITING DOWN.** The temptation with a repeat is to read it as the system settling into a stable state. **Two samples of the same value are not a trend.** **A variable process repeats by chance all the time**, and four of the five observations above still disagree with each other. **The diagnosis is unchanged: this is variance in the session-start connector read, not a decay and not a stabilization.** Only starting a NEW session re-runs the read it lives in.
+
+**COUNT DISCIPLINE, HELD.** **The false-recovery tally stays at twenty-one**, because the tools were not present to refuse. **This is the THIRD tools-not-loadable event (27 Sep, 29 Sep, today)** and it is tallied separately, as the first two were. **Two tallies, two meanings, neither inflated.**
+
+**ACTIONS TAKEN AND NOT TAKEN.**
+- **Zero threads triaged, zero classified, zero drafts created.** No `create_draft` call was possible and none was attempted against a tool that does not exist.
+- **Nothing inferred about the inbox.** An unreachable inbox is not an empty one. **This digest does not say "inbox clear"**, and has not on any of the thirty-one previous days.
+- Digest written to `reports/outbox/inbox-digest-2026-09-30.html` instead of sent.
+- **No rule bent:** nothing sent, nothing deleted or marked spam, no correspondent detail recorded anywhere.
+
+**THE THREE-STEP FIX, thirty-second asking:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**NEWSLETTER: THE DATE IS NOW TOMORROW AND THE ADVICE NARROWS TO ONE SENTENCE.** Issue 6 was dated for Monday 28 September and could not be sent; **Issue 5 has now missed NINE slots.** The Connecticut item is **Public Act 26-64, signed 27 May 2026, genetic provisions effective 1 OCTOBER 2026, phased 1 January 2027 and 1 July 2027.** **That is tomorrow.**
+**Yesterday the advice was to re-cut it as an in-force item. Today that is no longer optional: any sentence written in the future tense is wrong from tomorrow morning.** **Retire Issue 5, fold the item into Issue 6, and write its lead in the present tense.** **A newsletter that cannot be sent still needs to be correct on the day somebody can send it.**
+
+**Next Gmail-enabled run, unchanged:** `newer_than:30d` sweep, ONE catch-up digest, oldest-first triage, personal rather than templated replies for anything older than a week, **and the newsletter decision first.**
