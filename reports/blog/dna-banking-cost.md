@@ -26,7 +26,7 @@ Direct answer: **in 2026, banking biological material costs anywhere from $99 a 
 | DNA record, home capsule (SecuriGene) | Purified DNA in a sealed capsule | **Roughly $389-$580 one-time**, currency and channel unconfirmed (+$250/extra capsule; + shipping/collection fees). See the 26 September correction below. | **You**: it lives on your shelf |
 | Live-cell banking (Acorn Biolabs) | Living follicle cells | ~$945 collection + **~$16/month, about $190/year (CONTESTED, see note)** | Provider cryostorage |
 | Sperm banking (Fellow, Legacy) | Reproductive material | ~$199 kit + **$240-245/year** | CLIA/FDA-registered lab |
-| Cord blood (CBR, Cryo-Cell, Cells4Life) | Newborn stem cells | $710-$1,195 up front + $185-199/year | Provider cryostorage (newborns only) |
+| Cord blood (CBR, Cryo-Cell, Cells4Life) | Newborn stem cells | **roughly $710 to $1,795 up front + roughly $185 to $400/year, with prepaid multi-year and lifetime plans well above that. FIGURES UNVERIFIED, see correction note** | Provider cryostorage (newborns only) |
 | Polygenic embryo screening | (Not storage: analysis) | up to ~$50,000 | n/a |
 
 Sources: [SecuriGene kit pricing](https://www.securigene.com/dna-banking/dna-banking-capsule/), [Fellow kit + cryo](https://www.meetfellow.com/kit-plus-cryo), cord-blood provider pages ([CBR](https://www.cordblood.com/enroll), [Cryo-Cell](https://www.cryo-cell.com/cord-blood-banking-costs), [Cells4Life](https://cells4life.us/pricing/)), Acorn public pricing coverage, screening prices per CBS News reporting. Prices move; check current pages.
@@ -50,7 +50,7 @@ Neither model is wrong. A capsule on your shelf beats nothing by miles. The ques
 
 The price jumps in the table aren't markup mysteries: they're physics and liability:
 
-- **Living cells and reproductive material need cold chains.** Liquid-nitrogen cryostorage, monitoring, and medical-grade handling explain the $185-245/year band across [sperm banking](/blog/sperm-freezing-cost) and cord blood. A dried DNA record needs none of that: [keratin samples are stable at room temperature for decades](/blog/best-dna-sample-type), which is precisely why record storage can cost $99/year.
+- **Living cells and reproductive material need cold chains.** Liquid-nitrogen cryostorage, monitoring, and medical-grade handling explain the recurring-fee band across [sperm banking](/blog/sperm-freezing-cost) and cord blood. **The cord-blood end of that band is wider than this article originally stated; see the correction note.** A dried DNA record needs none of that: [keratin samples are stable at room temperature for decades](/blog/best-dna-sample-type), which is precisely why record storage can cost $99/year.
 - **Medical products carry medical overhead.** Cord blood is transplant material; sperm is fertility treatment input. Different products, different regulation, honestly different prices. A DNA record is information custody: it can't conceive anyone or treat anything, and doesn't pretend to.
 - **The $50,000 row isn't storage at all**: polygenic screening is analysis, listed here because searchers conflate the categories. Storage keeps; screening selects. We're structurally in the first business only.
 
@@ -76,7 +76,7 @@ If you want a readable biological record kept safely for decades, it's the cheap
 Hair + nails collection kit, purified-record storage at GenVault (independent CAP-accredited, ISO 9001/20387, FDA-registered, New Jersey), written custody directives, and Memory Vault milestone video messages. First 1,000 members lock the founding rate. Storage only.
 
 **How much does cord blood banking cost compared to DNA banking?**
-Cord blood: $710-1,195 up front plus $185-199/year, newborns only. DNA-record banking: from $99/year, any age. Different products: one stores transplant-capable stem cells, the other stores your genetic record.
+Cord blood: roughly $710 to $1,795 up front plus roughly $185 to $400 a year, with prepaid multi-year and lifetime plans well above that, newborns only. Figures unverified. DNA-record banking: from $99/year, any age. Different products: one stores transplant-capable stem cells, the other stores your genetic record.
 
 ---
 
@@ -94,7 +94,7 @@ Cord blood: $710-1,195 up front plus $185-199/year, newborns only. DNA-record ba
     {"@type": "Question", "name": "Why is sperm banking more expensive than DNA banking?", "acceptedAnswer": {"@type": "Answer", "text": "Cryogenic storage. Reproductive material must remain viable, requiring liquid nitrogen and monitoring at roughly $240 per year, while a dried DNA record stays stable at ambient temperature."}},
     {"@type": "Question", "name": "Is DNA banking worth it?", "acceptedAnswer": {"@type": "Answer", "text": "For a readable biological record kept safely for decades, it is the least expensive tier of biological preservation, and the only one whose value grows as sequencing technology improves. It is not fertility preservation and stores no living cells."}},
     {"@type": "Question", "name": "What does MySpawn's $99 per year include?", "acceptedAnswer": {"@type": "Answer", "text": "A hair and nails collection kit, record storage at GenVault, an independent CAP-accredited, ISO 9001/20387, FDA-registered biorepository in New Jersey, written custody directives, and Memory Vault milestone video messages. The first 1,000 members lock the founding rate."}},
-    {"@type": "Question", "name": "How much does cord blood banking cost compared to DNA banking?", "acceptedAnswer": {"@type": "Answer", "text": "Cord blood banking runs $710-1,195 up front plus $185-199 per year and is available only at birth. DNA-record banking starts around $99 per year at any age. They store different things: stem cells versus a genetic record."}}
+    {"@type": "Question", "name": "How much does cord blood banking cost compared to DNA banking?", "acceptedAnswer": {"@type": "Answer", "text": "Cord blood banking runs roughly $710 to $1,795 up front plus roughly $185 to $400 per year, with prepaid multi-year and lifetime plans well above that, and is available only at birth. DNA-record banking starts around $99 per year at any age. They store different things: stem cells versus a genetic record."}}
   ]
 }
 ```
@@ -107,3 +107,15 @@ Cord blood: $710-1,195 up front plus $185-199/year, newborns only. DNA-record ba
 5. Polygenic screening pricing per CBS News coverage, 2026 (verified Aug 31)
 
 **Word count:** ~1,400 (body, excl. SEO package/JSON-LD).
+
+---
+
+## Correction note, 30 September 2026
+
+**The cord-blood row in this article was too narrow and it understated the category.** It originally printed **$710 to $1,195 up front plus $185 to $199 a year** for CBR, Cryo-Cell and Cells4Life, verified live on 30 August 2026.
+
+**A rotation check of CBR on 30 September returned figures outside that range on both axes**: annual storage reported at **$210 per sample per year**, a widely promoted option at **$1,795 up front then $400 a year**, and prepaid plans reported at **$7,385 for eighteen years** and **$11,385 for lifetime storage**. **A large headline discount percentage is advertised on the lifetime plan; this article deliberately does not reproduce it**, because promotional percentages are the least stable numbers in this category.
+
+**What that means plainly: the range this article printed did not contain one of the three providers it named.** The row has been widened and flagged rather than replaced, because **substituting one unverified number for another repeats the error instead of fixing it.** **Today's figures are search-index material; `cordblood.com` was not opened.**
+
+**The 30 August verification is not being called dishonest.** Prices move, plans are renamed, and a figure can be right on the day it is checked. **What was wrong was continuing to present a month-old range as current.**

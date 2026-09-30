@@ -536,3 +536,23 @@ Everything the fertility and legacy-tech lanes returned is already here: the **2
 **RAIL ATTACHED: no MySpawn asset may imply a competitor's treatment does not work, or that storage confers a health benefit. Storage confers no health benefit; that sentence protects us in both directions.**
 
 **Rotation: next quiet-day dive is CBR (cordblood.com)**, the third name in our own published three-provider row and the only one of the three that has never had a dive. **Given today's finding, the dive's first job is to establish whether our published up-front range is built on standard or promotional pricing.**
+
+---
+
+### 2026-09-30: THE CBR DIVE SETTLES YESTERDAY'S FLAG, AND THE ANSWER IS WORSE THAN THE FLAG
+
+**Full detail in `reports/competitors/watch-2026-09-30.md`.** No dated competitive event in 24 to 48 hours across all four lanes.
+
+**1. OUR PUBLISHED CORD-BLOOD RANGE DID NOT CONTAIN CBR ON EITHER AXIS.** `dna-banking-cost.md` printed **$710 to $1,195 up front plus $185 to $199 a year** for CBR, Cryo-Cell and Cells4Life, verified live 30 August 2026. **Today's CBR dive returns annual storage at $210 per sample per year, a promoted option at $1,795 up front then $400 a year, and prepaid plans at $7,385 for eighteen years and $11,385 for lifetime storage** ([cordblood.com](https://www.cordblood.com/enroll), **via search index; the site was not opened**). **$210 and $400 exceed our annual band; $1,795 exceeds our up-front band.**
+**A large headline discount percentage is advertised on the lifetime plan and is DELIBERATELY NOT RECORDED**, per the 28 September rule.
+**ACTION: `dna-banking-cost.md` widened and flagged in FOUR places including the JSON-LD**, to "roughly $710 to $1,795 up front plus roughly $185 to $400 a year, with prepaid multi-year and lifetime plans well above that, figures unverified", **with a dated correction note appended.** **NOT substituted**, per the rule set 23 September and applied to Acorn and SecuriGene: swapping one unverified number for another repeats the error. **The 30 August verification is not called dishonest; what was wrong was presenting a month-old range as current.**
+**THE PATTERN, AND IT IS THE THIRD IN A ROW: every correction this week made a competitor look MORE expensive and us look better** (SecuriGene 26 Sep, the positive-control overstatement 29 Sep, this today). **That is what the sort-by-who-they-flatter audit predicts of an archive whose unflattering numbers nobody is motivated to check. Assume the remaining unchecked prices skew the same way.**
+
+**2. THE LADDER HAS FOUR RUNGS, WHICH SETTLES YESTERDAY'S QUESTION AT CATEGORY LEVEL.** CBR displays an annual fee, a promoted up-front-plus-annual option, an eighteen-year prepaid plan and a lifetime prepaid plan. **Yesterday: a company has the price it shows you and the price it also has. Today: the ladder can have four rungs, and which one a customer meets depends on the page they land on and the promotion running.**
+**SO WHAT: we have ONE number. $99 a year, billed annually, first thousand lock the founding rate. No ladder, no prepaid tier, no lifetime option, no promotional percentage.** **RAIL: a four-rung ladder is NOT dishonest and no asset may imply it is. The contrast is that we have nothing to explain.**
+
+**3. ACORN, one line added.** The YOU secretome was **soft-launched in late 2024**, with the first half of 2026 spent scaling in the US. **Label: trade press, index-level, newly discovered.** **Moves the entry from "they also have a product" to "the product has been shipping for roughly two years", which is a materially different competitor from the cell-banking company this file described in August.** Threat unchanged: low on price, medium on category definition.
+
+**4. NOTED FOR THE NEXT DIVE: a search for "Orchid" returns Orchid Cellmark, an unrelated older DNA testing company.** Recorded so the next embryo-screening dive does not mistake one for the other. **Same defect class as the wrong-company enrichment caught yesterday in the Prospector.**
+
+**Rotation: next quiet-day dive is CELLS4LIFE**, the last of the three providers named in our own published row and the only one whose figures have never been independently re-checked. **Given today, the dive's first job is to establish whether the remaining third of that row is also outside the range we printed.**
