@@ -7,25 +7,18 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 |---|---|---|---|---|---|
 | YmGmv_UUhq4 | Vintage index card holder, numbered lines, PORTRAIT; HOLD: too close to the card-catalog hook of Ad_PaperProof_90 until that clears | Dani Adkins (@freefolkphoto) | https://unsplash.com/photos/vintage-index-card-holder-with-numbered-lines-YmGmv_UUhq4 | https://images.unsplash.com/photo-1770317238801-8802c1996668 | 3939x5908 |
 | j06gLuKK0GM | Gold balance scale on pale wood, portrait; bright, needs heavy darkening. HOLD until the weighing/scale lane clears the 7-day window | Elena Mozhvilo (@miracleday) | https://unsplash.com/photos/small-gold-balance-scale-on-colorful-wood-j06gLuKK0GM | https://images.unsplash.com/photo-1587740896339-96a76170508d | 3989x4914 |
-| ZqH5HlQF8rs | Cars on road at night, portrait, moody; verify plates at full res before use | Josh Hild (@joshhild) | https://unsplash.com/photos/cars-on-road-during-night-time-ZqH5HlQF8rs | https://images.unsplash.com/photo-1616867404146-b05b5bc3f331 | 3648x5472 |
 | 7nwR31ggK8M | Abandoned building silhouette against twilight sky; unfinished/waiting lane | Gennaro Scarpati (@gnnr_ph) | https://unsplash.com/photos/silhouette-of-an-abandoned-building-against-a-twilight-sky-7nwR31ggK8M | https://images.unsplash.com/photo-1763155037313-e2a91f277ddb | 5597x3731 |
 | 9SHxu3a9tZY | Industrial structure silhouetted against sunset, very dark base colour | Tobias Kalinke (@tobikamera) | https://unsplash.com/photos/industrial-structure-silhouetted-against-a-vibrant-sunset-sky-9SHxu3a9tZY | https://images.unsplash.com/photo-1762987389512-8ecdc5c5ee53 | 5788x3862 |
 | EPFnAlwCzyQ | Large clock on a building at night, warm; landscape (note: clock spans too much width to adapt to 9:16) | Thierry Biland (@thierry_biland) | https://unsplash.com/photos/a-large-clock-on-top-of-a-building-at-night-EPFnAlwCzyQ | https://images.unsplash.com/photo-1710161976056-c13c2f94d3ca | 7008x4672 |
-| Mcm9zLNPomY | Lit window behind roller shutter, portrait; window reads small: needs a tight crop | Nick Night (@nicknight) | https://unsplash.com/photos/a-window-that-has-a-light-in-it-Mcm9zLNPomY | https://images.unsplash.com/photo-1643552840088-2ab319c8a48e | 2225x3956 |
 | GJao3ZTX9gU | Hand signing contract, no face; HOLD until the hand/pen lane is clear of the 7-day window | Cytonn Photography (@cytonn_photography) | https://unsplash.com/photos/person-writing-on-white-paper-GJao3ZTX9gU | https://images.unsplash.com/photo-1521791055366-0d553872125f | 6016x4016 |
 | ECJEr6N3ISo | Man in dark airplane seat by window; semi-profile visible: likely organic-only | Ehud Neuhaus (@paramir) | https://unsplash.com/photos/man-sitting-on-airplane-seat-ECJEr6N3ISo | https://images.unsplash.com/photo-1545668887-5884d6085d50 | 4912x7360 |
 
 | uNnN7IBN9As | Svalbard mountain range, bright, needs tint | Fredrik Solli Wandem (@fredrikwandem) | https://unsplash.com/photos/a-snowy-mountain-range-uNnN7IBN9As | https://images.unsplash.com/photo-1661511762608-fda6b7b45f18 | 5844x3126 |
 
-| Sxs2E3QYoJ4 | Antique printing-press trays full of metal type | Fabian Kleiser (@fabiankleiser) | https://unsplash.com/photos/antique-printing-press-trays-filled-with-metal-type-Sxs2E3QYoJ4 | https://images.unsplash.com/photo-1777621543796-f6c62717d932 | 6000x4000 |
 | keS16pDFiCM | Store aisle, yellow/red goods, portrait orientation | Oxana Melis (@oksdesign) | https://unsplash.com/photos/a-store-aisle-filled-with-lots-of-yellow-and-red-items-keS16pDFiCM | https://images.unsplash.com/photo-1631856956423-2b95dae0ba74 | 5304x7952 |
 
-| 0Bt_3aHVB6w | Empty office interior, columns, grey light | Sergei Wing (@sergeiwing) | https://unsplash.com/photos/empty-brown-and-white-building-0Bt_3aHVB6w | https://images.unsplash.com/photo-1564605503978-7650b149b9c0 | 6000x4000 |
-| N6jxoR1PcbE | Microphone mesh head, warm light, dark ground | dlxmedia.hu (@dlxmedia) | https://unsplash.com/photos/microphone-with-yellow-light-N6jxoR1PcbE | https://images.unsplash.com/photo-1745848413113-4f39bdad5769 | 6960x4640 |
 | 31-pOduwZGE | Long-exposure crosswalk crowd, no identifiable faces | mauro mora (@mauromora) | https://unsplash.com/photos/timelapse-photo-of-people-passing-the-street-31-pOduwZGE | https://images.unsplash.com/photo-1461088945293-0c17689e48ac | 5016x3343 |
 
-| OnI_TNcIv9U | Dark server rack, green cast (desaturate) | Tyler (@tylergm) | https://unsplash.com/photos/a-rack-of-electronic-equipment-in-a-dark-room-OnI_TNcIv9U | https://images.unsplash.com/photo-1680992046626-418f7e910589 | 7008x3944 |
-| vv0OomxL4gA | Empty white shelves, portrait; absence imagery | Celso A. Torres Pirron (@celsoramone) | https://unsplash.com/photos/empty-shelves-in-a-white-room-with-a-tile-floor-vv0OomxL4gA | https://images.unsplash.com/photo-1650315532817-02e0e9245e74 | 2576x4576 |
 
 ## UNVETTED (from Aug 27 search catalog: alt text only, verify pixels before use)
 | ID | Alt text | Photographer | Raw URL | WxH |
@@ -362,8 +355,6 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 | ID | Why killed |
 |---|---|
 | Xrk_dnQ1si0 | Concrete boundary marker (Ismet BELAOUEDJ @michaelsinaloa). **Arabic script painted across the marker base**, plus bright midday sky, buildings and a footbridge. **Not darkenable, and a USA-only product should not run type it cannot read.** Do not re-source. |
-| vv0OomxL4gA | Empty white shelves (Celso A. Torres Pirron @celsoramone). Flat, bright and domestic; reads as an empty closet, not an archive. **Separately, "shelves" is the visual hook of Ad_50, Ad_68 and Ad_103.** Removed from the usable list. |
-| OnI_TNcIv9U | Dark server rack (Tyler @tylergm). **Already used on Ad_FilesWereFine_113.** Never the same photo on two new concepts. Keep for vertical re-layouts of 113 only. |
 
 ## BANKED 2026-09-28 (vetted by search metadata; inspect at full size before use)
 | ID | Subject note | Photographer | Raw URL | WxH |
@@ -393,3 +384,18 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 **THE NARROW-COMPOUND-QUERY FAILURE IS NOW AT FOUR INSTANCES AND THE RULE ALREADY EXISTED.** "railway level crossing barrier" returned **2 results in total**; the two-word version was never tried. Prior instances: "mooring rope bollard harbour" 0 (27 Sep), "tree rings cross section" 5 (26 Sep), "milepost stone distance marker" 0 (28 Sep). **Two-word queries, no orientation filter, crop afterwards. Today three concepts died because the rule was not applied.**
 **SECOND FINDING, and it is different in kind: "turnstile" returned 1,773 results whose top entries were a crowd of people and A REFRIGERATOR.** That is not thin supply, it is **mis-tagging**, and it means a large result count is not evidence of usable supply. **Read the top results before trusting a total.**
 **THE RESERVE IS NOW NEARLY EMPTY OF USABLE ENTRIES.** What remains is mostly on hold (pylon family until 5 Oct, bridge family until 5 Oct, scale and card-holder families) or already consumed by prior ads. **This is the fourteenth asking for a sourcing-only run and today is its cleanest argument: the single ad that shipped came from the reserve.**
+
+## BANKED 2026-09-30 (alt-text level only: VERIFY PIXELS BEFORE USE)
+| ID | Alt text / subject note | Photographer | Raw URL | WxH |
+|---|---|---|---|---|
+| h0Vxgz5tyXA | Brown wooden board, close grain | Keith Misner (@keithmisner) | https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg | 5760x3840 |
+| kS1UuxzkuJE | Brown wooden panel, square native | DDP (@moino007) | https://images.unsplash.com/photo-1548268364-3acee266b695 | 4000x4000 |
+| FqmrlQ2cezk | Brown wooden surface, portrait | Bogdan Kupriets (@kupriets) | https://images.unsplash.com/photo-1531315788127-40f75965cbe8 | 2741x3655 |
+| K6vkTjYciX8 | Parquet floor pattern close-up, warm | Alex Cooper (@alexcooper13) | https://images.unsplash.com/photo-1761053133165-0f3acdaf1770 | 6000x4000 |
+| o6Qwcv-abjs | Wood floor with a white door, tall portrait; **HOLD: door family, cooldown vs Ad_TheDateIsTheProduct_141 (18 Sep)** | Kiwihug (@kiwihug) | https://images.unsplash.com/photo-1648624219254-1adcd4e49bc6 | 4807x7202 |
+| PrZw3_3xUxI | Plain white painted wall, texture; **adjacent to 158's concrete corner, needs a 7-day gap and an idea it actually carries** | Bernard Hermant (@bernardhermant) | https://images.unsplash.com/photo-1521811628991-7a3ea581f7d1 | 6000x4000 |
+| BuMVDXZTGn0 | Stacked chairs and tables in a dark basement room; **abandonment register, only usable where that is the point** | Jonny Clow (@jonnyclow) | https://images.unsplash.com/photo-1417816491410-d61e1546e539 | 4000x3000 |
+| o6lXCVe27Bw | Empty building site, bright, portrait; unfinished lane | Brands&People (@brandsandpeople) | https://images.unsplash.com/photo-1615412998261-e96a5ea9b81e | 3265x4898 |
+
+**RESERVE HYGIENE NOTE, 2026-09-30.** Two rows were consumed on 28 and 29 September and never removed (`Sxs2E3QYoJ4` printing trays, `N6jxoR1PcbE` microphone), which made the reserve look deeper than it was on a day when its depth was the question. **Both removed today along with the five rows this run consumed or killed.** **A reserve that is not pruned on the day it is used is a count, not an inventory.**
+
