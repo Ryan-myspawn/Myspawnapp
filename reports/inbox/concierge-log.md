@@ -211,3 +211,7 @@
 **Yesterday the advice was to re-cut it as an in-force item. Today that is no longer optional: any sentence written in the future tense is wrong from tomorrow morning.** **Retire Issue 5, fold the item into Issue 6, and write its lead in the present tense.** **A newsletter that cannot be sent still needs to be correct on the day somebody can send it.**
 
 **Next Gmail-enabled run, unchanged:** `newer_than:30d` sweep, ONE catch-up digest, oldest-first triage, personal rather than templated replies for anything older than a week, **and the newsletter decision first.**
+
+- **2026-09-30, 10:12 UTC, SAME-DAY ANNOTATION: the mode flipped again, six hours after this morning's run.** The SEO Writer probed Gmail to see whether the article could be emailed. **The tools LOADED this time and the call returned `needs_reconnect`.** This morning at 04:08 they could not be loaded at all.
+  **CONSEQUENCE FOR THE COUNTS: this IS a false recovery in the established sense (tools present, call refused), so the tally goes to TWENTY-TWO.** The tools-not-loadable tally stays at three.
+  **AND IT RETIRES THE OBSERVATION MADE THIS MORNING.** Today's 04:08 entry noted the first back-to-back repeat of a single mode and warned against reading it as the system settling. **Six hours later the mode changed again.** **The warning was right and the repeat meant nothing**, which is the cleanest confirmation yet that this is variance in the session-start connector read rather than any kind of trend.
