@@ -556,3 +556,22 @@ Everything the fertility and legacy-tech lanes returned is already here: the **2
 **4. NOTED FOR THE NEXT DIVE: a search for "Orchid" returns Orchid Cellmark, an unrelated older DNA testing company.** Recorded so the next embryo-screening dive does not mistake one for the other. **Same defect class as the wrong-company enrichment caught yesterday in the Prospector.**
 
 **Rotation: next quiet-day dive is CELLS4LIFE**, the last of the three providers named in our own published row and the only one whose figures have never been independently re-checked. **Given today, the dive's first job is to establish whether the remaining third of that row is also outside the range we printed.**
+
+## 2026-10-01: ROTATION DIVE, CELLS4LIFE, AND THE FIRST ERROR FOUND POINTING THE OTHER WAY
+
+**FLAGGED, NOT CORRECTED.** `dna-banking-cost.md` names **CBR, Cryo-Cell and Cells4Life** in a **US-dollar** range and links **`cells4life.us/pricing/`**. **Today's sweep returns a Cells4Life describing itself as the UK's largest cord-blood provider, priced in pounds**: reported UK private costs of **£550 to £3,000** to freeze, **over £100 a year** to store, **around £2,000 for 20 years**, and a **SecurePlus** add-on at **£175** blood only or **£290** blood and tissue. **All via search index; no page opened.**
+
+**TWO READINGS, AND WE CANNOT CHOOSE BETWEEN THEM FROM HERE.** Either `cells4life.us` is a separate US entity and the article is fine, **or the .us domain fronts the UK operation** and a GBP-priced, UK-market provider is sitting inside a dollar range written for American readers. **Calling it a correction would repeat the 29 September overclaim exactly.**
+
+**COMBINED WITH WHAT WE ALREADY HOLD, the row is now thin in two places:** the **$185** figure was reattributed to **Cryo-Cell** on 29 September, and **Cells4Life's market and currency are now in question.** **One of the three named providers has lost its figure and one has lost its certainty.**
+
+**ACTION AND ITS CONDITION, written down so it is not re-decided on a whim:** **the article is NOT edited today**, because its cord-blood row already carries FIGURES UNVERIFIED plus a dated correction note and a third flag buys nothing. **The attribution changes when a page can be opened, or when a US entity is independently confirmed.**
+
+**WHY THIS ENTRY MATTERS MORE THAN THE FINDING.** Yesterday this file recorded that three consecutive corrections had all made competitors look more expensive and us look better, and said that was a reason to hunt for errors pointing the other way. **The very next dive produced one.** **The audit works, and that is the durable result.**
+
+**NEW ENTRY, CATEGORY-LEVEL, newly discovered and older than the window.** Published criticism circulated through **BMJ Group** that **some private biobanks overinflate the value of umbilical cord blood banking in marketing to expectant parents**, with the category under scrutiny for **unproven claims and high costs** (News-Medical, 25 July 2024, via search index). **FILED AS A RAIL RATHER THAN AS MATERIAL: a criticism of a neighboring category is not a selling point for ours, and leaning on "they overclaim" puts us one unverified sentence from becoming it.** The charge is overstating the value of stored material; **our equivalent temptation is overstating what a stored DNA record will be worth later, which our existing rails already forbid.**
+
+**SEARCH-HYGIENE NOTE REPEATED, because it cost time again today:** "Orchid" returns both the embryo-screening company and **Orchid Cellmark**, an unrelated older DNA testing business. **Query the full company name with a product term attached.**
+
+**ROTATION: next quiet-day dive is HEREAFTER AI**, the only legacy-tech name in this file with no description attached. **An entry with no description and no dated check is a name, not a watch item.**
+
