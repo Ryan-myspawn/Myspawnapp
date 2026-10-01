@@ -215,3 +215,17 @@
 - **2026-09-30, 10:12 UTC, SAME-DAY ANNOTATION: the mode flipped again, six hours after this morning's run.** The SEO Writer probed Gmail to see whether the article could be emailed. **The tools LOADED this time and the call returned `needs_reconnect`.** This morning at 04:08 they could not be loaded at all.
   **CONSEQUENCE FOR THE COUNTS: this IS a false recovery in the established sense (tools present, call refused), so the tally goes to TWENTY-TWO.** The tools-not-loadable tally stays at three.
   **AND IT RETIRES THE OBSERVATION MADE THIS MORNING.** Today's 04:08 entry noted the first back-to-back repeat of a single mode and warned against reading it as the system settling. **Six hours later the mode changed again.** **The warning was right and the repeat meant nothing**, which is the cleanest confirmation yet that this is variance in the session-start connector read rather than any kind of trend.
+
+## 2026-10-01, 04:08 UTC: NO TRIAGE. Gmail day 33.
+
+**Probe result, stated precisely because the mode matters more than the failure.** The Gmail tool schemas **LOADED**, and `search_threads` with `newer_than:1d in:inbox` returned **`needs_reconnect`**. **That is a false recovery in the established sense: tools present, call refused.** **False-recovery tally: TWENTY-THREE. Tools-not-loadable tally: three, unchanged.**
+
+**Threads read: 0. Drafts created: 0. Automated mail ignored: unknown, because the inbox could not be opened.** **No count is invented.**
+**No rule bent:** nothing sent, nothing deleted, nothing marked spam, no correspondent detail recorded anywhere. **The digest to ryan@myspawnapp.com could not be sent and is written to `reports/outbox/` instead, which is where every undeliverable digest has gone for thirty-three days.**
+
+**THE THREE-STEP FIX, THIRTY-THIRD ASKING, unchanged because nothing about it has changed:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, which is the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**NEWSLETTER: THE DATE HAS PASSED AND THE ADVICE CHANGES TENSE RATHER THAN CONTENT.** Connecticut's genetic provisions took effect **this morning, 1 October 2026**. **Every future-tense sentence in Issue 5 is now wrong**, not merely stale. **Issue 5 has missed TEN slots.** **Retire it, fold the Connecticut item into Issue 6, and write the lead in the present tense: the right exists now.** Later phases remain dated **1 January 2027** and **1 July 2027** and those stay in the future tense.
+**One naming point settled last night and recorded here so the newsletter does not stall on it:** coverage calls the statute **SB 4** and one of our blog articles calls it **PA 26-64**. **Same instrument, bill number and the public act it became.** The science watchlist and longpost #68 already use SB 4. **No correction is required and none should be made.**
+
+**Next Gmail-enabled run, unchanged in shape and one item longer:** `newer_than:30d` sweep, **ONE** catch-up digest rather than thirty-three, oldest-first triage, personal rather than templated replies for anything older than a week, **the newsletter decision first**, and **the present-tense rewrite before anything else is drafted.**
