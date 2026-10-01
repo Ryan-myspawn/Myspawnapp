@@ -8,7 +8,7 @@ We quote two of these credentials in our own marketing, which is exactly why thi
 
 ### ISO 20387 — the international biobanking standard
 
-ISO 20387:2018 is the general requirements standard for biobanking, and its stated objective is to promote confidence in biobanking. It applies to organisations banking biological material from humans, animals, fungi, plants and microorganisms.
+ISO 20387:2018 is the general requirements standard for biobanking, and its stated objective is to promote confidence in biobanking. It applies to organizations banking biological material from humans, animals, fungi, plants and microorganisms.
 
 An accreditation assessment against it is genuinely broad. Independent assessors examine the **quality management system, personnel qualifications and competence, material handling, the storage environment and equipment, and reporting** ([ANAB](https://anab.ansi.org/accreditation/iso-20387-biobanking-accreditation/); [A2LA](https://a2la.org/accreditation/iso-20387-biobanking/)). It covers the whole specimen lifecycle — acquisition, processing, storage, distribution and **disposal** — and includes risk-management requirements. The standard also requires biobanks to produce objective evidence that the material they hold is of comparable quality, through mechanisms such as proficiency testing and certified reference materials.
 
@@ -27,13 +27,13 @@ This is the credential most likely to be misread, including in good faith.
 
 **FDA registration is not FDA approval.** The FDA's position is explicit: assignment of a registration number means only that the facility is registered, and it **does not convey FDA approval or endorsement of the facility or its products**. FDA does not approve establishments at all. A registered facility receives a number the agency uses to identify the firm for inspections, import screening and other regulatory activity.
 
-The clean way to hold the distinction: **registration applies to establishments; approval, clearance or authorisation applies to products.** The FDA issues warning letters over false "FDA-registered" and "FDA-approved" claims, which tells you how routinely the phrase is stretched.
+The clean way to hold the distinction: **registration applies to establishments; approval, clearance or authorization applies to products.** The FDA issues warning letters over false "FDA-registered" and "FDA-approved" claims, which tells you how routinely the phrase is stretched.
 
 So "FDA-registered" is a real fact and a low bar. It tells you a facility is on a list and is inspectable. It tells you nothing about quality, and nobody at the FDA has evaluated the storage of your sample.
 
 ### Two others you will see, and what they are
 
-- **ISO 9001** is a general quality-management standard. It is not biobanking-specific. It says an organisation runs a documented, auditable quality system — useful context, not a storage credential.
+- **ISO 9001** is a general quality-management standard. It is not biobanking-specific. It says an organization runs a documented, auditable quality system — useful context, not a storage credential.
 - **CLIA** certifies laboratories performing diagnostic testing on human specimens. It is about *testing*, not *storage*. A company that tests and a company that stores need different things, and CLIA on a storage pitch is a category error worth noticing.
 
 ## The question accreditation does not answer
@@ -51,7 +51,7 @@ So the accreditation logos are necessary and not sufficient. They answer "is thi
 ## How to check any of this yourself
 
 1. **Ask which body issued the accreditation**, not just which standard. ISO 20387 is assessed by accreditation bodies such as ANAB or A2LA; a claim of "ISO 20387 compliant" without a named accrediting body is a different and weaker claim than "accredited."
-2. **Ask whether the accreditation covers the specific site** holding your material. Multi-site organisations do not automatically carry one site's accreditation everywhere.
+2. **Ask whether the accreditation covers the specific site** holding your material. Multi-site organizations do not automatically carry one site's accreditation everywhere.
 3. **Treat "FDA-registered" as a fact, not a rating.** If a company leans on it heavily, that is informative.
 4. **Ask the retention question separately and in writing:** how long, on what terms, what happens on non-payment, and what happens on insolvency or acquisition.
 5. **Time how long that takes you to find.** If the answer only exists inside a terms document, that is a design choice someone made.
@@ -74,7 +74,7 @@ Storage is **$99/year**, and the first 1,000 members lock the founding rate. If 
 ## FAQ
 
 ### Is "FDA-registered" the same as FDA-approved?
-No, and the difference is large. Registration means a facility has notified the FDA that it exists and is subject to inspection. It conveys no approval or endorsement of the facility or its products. Approval, clearance and authorisation apply to products, not establishments.
+No, and the difference is large. Registration means a facility has notified the FDA that it exists and is subject to inspection. It conveys no approval or endorsement of the facility or its products. Approval, clearance and authorization apply to products, not establishments.
 
 ### Which is better, ISO 20387 or CAP accreditation?
 Neither supersedes the other. CAP's biorepository program launched in 2012 and ISO 20387 was published in 2018, and they are complementary pathways assessed by different bodies. Holding both is stronger than holding either, because two independent assessors have looked.
@@ -114,7 +114,7 @@ It means the company says it follows the standard. Accreditation means an indepe
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type":"Question","name":"Is FDA-registered the same as FDA-approved?","acceptedAnswer":{"@type":"Answer","text":"No. Registration means a facility has notified the FDA that it exists and is subject to inspection. It conveys no approval or endorsement of the facility or its products. Approval, clearance and authorisation apply to products, not establishments."}},
+    {"@type":"Question","name":"Is FDA-registered the same as FDA-approved?","acceptedAnswer":{"@type":"Answer","text":"No. Registration means a facility has notified the FDA that it exists and is subject to inspection. It conveys no approval or endorsement of the facility or its products. Approval, clearance and authorization apply to products, not establishments."}},
     {"@type":"Question","name":"Which is better, ISO 20387 or CAP accreditation?","acceptedAnswer":{"@type":"Answer","text":"Neither supersedes the other. CAP's biorepository program launched in 2012 and ISO 20387 was published in 2018; they are complementary pathways assessed by different bodies. Holding both is stronger than holding either."}},
     {"@type":"Question","name":"Does accreditation mean my sample is guaranteed for decades?","acceptedAnswer":{"@type":"Answer","text":"No. Accreditation assesses the facility's competence and processes, including handling, storage and disposal. The duration of your storage and what happens on closure, acquisition or non-payment are set by your contract, not by the standard."}},
     {"@type":"Question","name":"Is CLIA certification relevant to DNA storage?","acceptedAnswer":{"@type":"Answer","text":"Not directly. CLIA covers laboratories performing diagnostic testing on human specimens. Storage and testing are different activities, and CLIA cited as a storage credential is a category error."}},
