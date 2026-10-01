@@ -395,7 +395,19 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 | o6Qwcv-abjs | Wood floor with a white door, tall portrait; **HOLD: door family, cooldown vs Ad_TheDateIsTheProduct_141 (18 Sep)** | Kiwihug (@kiwihug) | https://images.unsplash.com/photo-1648624219254-1adcd4e49bc6 | 4807x7202 |
 | PrZw3_3xUxI | Plain white painted wall, texture; **adjacent to 158's concrete corner, needs a 7-day gap and an idea it actually carries** | Bernard Hermant (@bernardhermant) | https://images.unsplash.com/photo-1521811628991-7a3ea581f7d1 | 6000x4000 |
 | BuMVDXZTGn0 | Stacked chairs and tables in a dark basement room; **abandonment register, only usable where that is the point** | Jonny Clow (@jonnyclow) | https://images.unsplash.com/photo-1417816491410-d61e1546e539 | 4000x3000 |
-| o6lXCVe27Bw | Empty building site, bright, portrait; unfinished lane | Brands&People (@brandsandpeople) | https://images.unsplash.com/photo-1615412998261-e96a5ea9b81e | 3265x4898 |
 
 **RESERVE HYGIENE NOTE, 2026-09-30.** Two rows were consumed on 28 and 29 September and never removed (`Sxs2E3QYoJ4` printing trays, `N6jxoR1PcbE` microphone), which made the reserve look deeper than it was on a day when its depth was the question. **Both removed today along with the five rows this run consumed or killed.** **A reserve that is not pruned on the day it is used is a count, not an inventory.**
+
+## BANKED 2026-10-01 (alt-text and thumbnail level: verify at full resolution before use)
+| ID | Subject note | Photographer | Raw URL | WxH |
+|---|---|---|---|---|
+| Y00zaehWn4w | Three metal letterboxes on a brick wall, black and white; **downloaded and eyeballed today, killed only for same-batch family repetition with Ad_175** | Simonetta Pugnaghi (@pugnaghis) | https://images.unsplash.com/photo-1698677853707-16f794235f0b | 5298x3655 |
+| ZsgPd6ovNag | Single lit matchstick, shallow focus, near-black ground | Devin Avery (@devintavery) | https://images.unsplash.com/photo-1515283736202-cbe98351a5d8 | 5184x3456 |
+| VUuzVBYywGM | Matchbox on a black surface, flat-lay | Kelly Sikkema (@kellysikkema) | https://images.unsplash.com/photo-1646617653720-c1b0e9179ec4 | 5568x3712 |
+| rE1fEr1ajwc | Lit match in the dark, portrait, very dark ground | Pixel Poetree (@harshit3901) | https://images.unsplash.com/photo-1709129456322-96e1a0e18cfb | 3024x4032 |
+| sMwqGrLvN58 | Machined steel component on black textile, studio close-up | Immo Wegmann (@tinkerman) | https://images.unsplash.com/photo-1618232527909-bd5e6f62030e | 6016x4000 |
+| gHe1Uyb0mXk | Small black and white device on grey textile, dark | Bluepikachu (@bluepikachu) | https://images.unsplash.com/photo-1619107974153-ea1dabf5253b | 3264x4928 |
+
+**RESERVE NOTE, 2026-10-01.** `o6lXCVe27Bw` removed: **killed today on double adjacency** (concrete as subject, five days out, plus the interior-opening-onto-a-bright-doorway composition of Ad_TheDateIsTheProduct_141). **A reserve row that is killed should leave the reserve rather than sit there looking available**, which is the hygiene rule set on 30 September.
+**AND A WARNING FOR WHOEVER SEARCHES "anvil" NEXT: the query returns a firearm in its top results.** Excluded on sight today, recorded so it is not rediscovered.
 
