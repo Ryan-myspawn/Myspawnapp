@@ -334,3 +334,12 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 
 **Standing rails repeated because today's sweep brushed them:** IVG has produced **no mature human gametes**; Fertilo matures a woman's own retrieved eggs and **is not IVG**; no active program aims to replace pregnancy entirely; **EctoLife and the "pregnancy robot" remain debunked fakes**; **the ER-100 clearance date remains CONTESTED and unquotable.**
 
+## Update log: 2026-10-02
+
+**NO SCIENCE DELTAS, SEVENTEENTH CONSECUTIVE DAY.** The male-fertility sweep returned the **2022 *Human Reproduction Update* analysis (1973 to 2018: concentration down over 50 percent, total count down 62.3 percent)** and 2017 coverage, **both already held. Not deltas.**
+
+**THE APPLE LEGACY-CONTACT BLOCKER MOVED AND DID NOT CLEAR, and the distinction is recorded deliberately.** The three-year access window logged here on **25 September as secondary-sourced and unverified** now has **three independent secondary sources**, including an academic digital-death directory and a law-firm article. **The rule set on 25 September named the clearing condition: Apple's own support pages. Those were not opened.** **Corroboration is not verification, and three sources agreeing is still not the source we said we needed.** **The blocker STANDS and the figure remains unusable in any asset.**
+
+**NEW PLATFORM FACT, and it is a gap in our own published article rather than a watch item.** **Ancestry is reported to offer a Legacy Contact who, on verification of a qualifying event such as death, receives full account access and ASSUMES OWNERSHIP of the account including all personal information in it.** ([Provision record of the Ancestry privacy statement](https://conductatlas.com/platform/ancestry/ancestry-privacy-statement/provision/CA-P-014884/legacy-contact-and-account-transfer/), via search index.)
+**`platform-legacy-settings-explained.md` carries thirteen mentions of "legacy contact" and does not mention Ancestry at all.** **Of every platform in that article, Ancestry is the only one holding genetic data and the only one where the contact appears to take ownership rather than custody.** **Handed to the 3 October blog article with a binding condition: verify against a primary source or do not print it.**
+
