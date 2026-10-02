@@ -33,7 +33,7 @@ If you are mapping your own risks, our guide to [how to preserve your DNA](https
 
 Here is the distinction that decides everything: **a database entry and a physical sample are not the same thing, and they fail differently.**
 
-- **Data companies** (testing apps, ancestry databases) hold a digital file derived from your spit kit. When they fail, the file is an asset, and you saw above where assets go. This is also the pattern in adjacent industries: when the AI memoir service HereAfter AI shut down in 2026, users were told to email support to retrieve recordings of their deceased relatives, with no published deadline or guarantee ([Afterlife AI](https://www.afterlife.ai/hereafter-ai-shutting-down)).
+- **Data companies** (testing apps, ancestry databases) hold a digital file derived from your spit kit. When they fail, the file is an asset, and you saw above where assets go. This is also the pattern in adjacent industries. **STATUS FLAGGED 2 OCTOBER 2026, see the correction note at the end of this article:** an AI memoir service was **reported** in 2026 to be winding down, with users told to email support to retrieve recordings of relatives and no published deadline or guarantee ([Afterlife AI](https://www.afterlife.ai/hereafter-ai-shutting-down)). **That report comes from a competing service, and a later sweep returned live pricing pages for the company it describes. We therefore no longer assert that the company shut down**, and the pattern below stands on its own without that example.
 - **Accredited biorepositories** hold the physical material itself under laboratory standards written for hospitals and research institutions: **CAP accreditation** (College of American Pathologists), **ISO 20387** (the international biobanking standard), and **FDA registration**. These facilities operate under chain-of-custody rules, documented transfer procedures, and inspection regimes that exist independently of any one company's marketing site.
 
 An accredited facility can still have a parent company fail. The difference is that a physical sample under a custody chain has somewhere lawful and documented to go, and a regulator watching the transfer. A row in a startup's database has neither by default.
@@ -98,3 +98,20 @@ The facility that physically holds samples should hold CAP accreditation and ISO
   ]
 }
 ```
+
+---
+
+## Correction note, 2 October 2026
+
+**This article originally stated as fact that a named AI memoir service "shut down in 2026".** It was sourced to a report published by **a competing service**, which our own evidence standards rank as a conflicted source on exactly that question.
+
+**On 2 October 2026 a routine competitor sweep returned live 2026 pricing for that company**, including an annual plan, a lifetime plan and monthly tiers, plus a current app-store listing. **That contradicts the shutdown claim.**
+
+**We have not resolved which is right, and we are not going to guess.** Neither the company's own site nor the app listing was opened from our systems; **both the original report and today's contradicting material are secondary.**
+
+**What has changed in the text:** the sentence no longer asserts that the company shut down. It now says a wind-down was **reported**, names the conflict of interest in the source, and notes the contradiction. **The original claim is described here rather than deleted, because removing it quietly would hide the error instead of correcting it.**
+
+**The argument of this article does not depend on that example.** The distinction between a database entry and a physical sample under a custody chain holds regardless of what happened to any one company.
+
+**This correction runs against us.** It makes an illustration we used repeatedly less certain, and it was found by a check that had no reason to flatter anybody.
+

@@ -44,7 +44,7 @@
 - **So what:** this category generates the controversy cycles we newsjack (trust tone = our distance from them). Never let coverage imply MySpawn does screening. Founder has flagged the IG Reels creator ecosystem around embryo-IQ / "new race" content as priority watch (see content-rules.md).
 
 ## 4. Legacy-tech (memory/story preservation)
-- **HereAfter AI: SHUTTING DOWN**: homepage shutdown notice confirmed July 2026; no explanation, deadline, or refund policy published; users told to email support to retrieve recordings ([Afterlife AI report](https://www.afterlife.ai/hereafter-ai-shutting-down)). *Newly discovered on first run: see watch-2026-08-18.md.*
+- **HereAfter AI: STATUS CONTESTED AS OF 2 OCTOBER 2026, see that day's watch file. DO NOT CALL THIS A FAILURE IN ANY ASSET.** Originally recorded here as SHUTTING DOWN on homepage shutdown notice confirmed July 2026; no explanation, deadline, or refund policy published; users told to email support to retrieve recordings ([Afterlife AI report](https://www.afterlife.ai/hereafter-ai-shutting-down)). *Newly discovered on first run: see watch-2026-08-18.md.*
 - **StoryWorth:** book-from-prompts incumbent; steady. **Empathy:** estate/bereavement logistics app (insurer/employer channel). **StoryFile / You, Only Virtual:** griefbot lane; grief-tech industry sized ~$5B with rising consent-ethics coverage ([Hospice News, Apr 2026](https://hospicenews.com/2026/04/09/ai-grief-bots-present-new-complexities-in-bereavement-care/), [CBS](https://www.cbsnews.com/news/ai-grief-bots-legacy-technology/)).
 - **So what:** ECHO lives here reputationally: our framing must stay "playful fiction, clearly labeled," never "talk to your dead relative."
 
@@ -574,4 +574,24 @@ Everything the fertility and legacy-tech lanes returned is already here: the **2
 **SEARCH-HYGIENE NOTE REPEATED, because it cost time again today:** "Orchid" returns both the embryo-screening company and **Orchid Cellmark**, an unrelated older DNA testing business. **Query the full company name with a product term attached.**
 
 **ROTATION: next quiet-day dive is HEREAFTER AI**, the only legacy-tech name in this file with no description attached. **An entry with no description and no dated check is a name, not a watch item.**
+
+## 2026-10-02: ROTATION DIVE, HEREAFTER AI, AND IT CONTRADICTED THE MOST-REUSED ENTRY IN THIS FILE
+
+**CONTESTED, not corrected.** This file has held since **18 August** that HereAfter AI was shutting down, and the 19 September deep dive called it **"the one clear failure"** in legacy tech. **Today's dive returns live 2026 pricing for the same company: $49.99/year, a $299 lifetime plan, monthly tiers reported at $3.99, $5.99 and $7.99, a 14-day trial and a current app-store listing.** All via search index; nothing opened at its own domain.
+
+**THE PROVENANCE PROBLEM IS OURS.** The shutdown record cites **afterlife.ai, a competing service writing about a rival**, which our own evidence standards rank as conflicted on exactly the question it answers. **This file treated it as settled for six weeks.**
+
+**NEITHER SIDE IS VERIFIED.** Aggregator directories recycle dead pricing pages, and a competitor's report is not a homepage. **The honest state is CONTESTED.**
+
+**EXPOSURE, NAMED:** one published blog article, four longpost files, ten production packs. **`what-happens-dna-company-shuts-down` asserted a named company's shutdown as fact and has been EDITED IN PLACE today**, with the assertion softened to "reported", the source's conflict of interest named in the text, and a dated correction note appended. **It got an edit rather than a flag because it named a company and asserted its failure**, which is a different class of risk from an uncertain price range.
+
+**CLEARING CONDITION:** resolves when the company's own site or app listing is opened directly, or when a source independent of both afterlife.ai and the aggregator directories reports its status. **Until then no asset may call it a failure.**
+
+**THIRD INSTANCE OF THE PRICE-LADDER FINDING, and the first outside biological storage.** An annual plan, a lifetime plan, three monthly tiers and a free trial is **five or six displayed prices for one service.** **The pattern is not a cord-blood quirk; it is how the category prices.** **And a "$299 lifetime" is a lifetime promise with no integer attached**, which is the same standard this file praised a cord-blood company for meeting on 28 September. **No conclusion is drawn about the company, because the figures are unverified. BINDING: none of these figures may appear in any creative asset.**
+
+**NEW ENTRY: TOMORROW.BIO, which has been on the monitored list since August with ZERO description in this file.** Reported: **20 people and 10 pets cryopreserved, over 800 registered; a 5 million euro seed round in May 2025; planned US locations in New York, California and Florida** with local teams. **Label: named trade press, older than the window, newly discovered.** **Threat low; relevance is that a cryonics brand expanding into three US states meets our audience, and the access-gap framing gets a sharper bottom rung.** No price recorded; none verified.
+
+**ROTATION: next quiet-day dive is TOMORROW.BIO**, promoted ahead of the queue. **Its first job is a one-paragraph description, not a price.**
+
+**THE PATTERN WORTH KEEPING:** **two consecutive rotation dives have now produced errors running AGAINST us**, after three consecutive flattering ones. **What the audit is finding is that our oldest entries are the least checked.**
 
