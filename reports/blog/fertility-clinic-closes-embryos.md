@@ -1,0 +1,119 @@
+# What Happens to Your Embryos if the Fertility Clinic Closes?
+
+**If a fertility clinic closes, what happens to your stored embryos is decided almost entirely by a document you already signed: the disposition agreement in your cryostorage consent. Most of these name a choice for each scenario, including death, divorce, completion of treatment, a decision to stop, and failure to pay storage fees. Your practical options are usually to transfer the embryos to another facility, to have them discarded, or to move them to a long-term storage company. The worst outcome is not closure. It is becoming unreachable, because embryos whose owners cannot be contacted fall into a category clinics call "abandoned", and no one has clean authority over those.**
+
+Clinics close for ordinary reasons: a physician retires, a practice is sold, a lease ends, a business fails. The embryos do not disappear when the lights go off. Here is how the chain of responsibility actually runs, and the two things worth doing this week whether or not your clinic is going anywhere.
+
+**Epistemic note, stated up front.** This article draws on peer-reviewed and institutional literature on embryo disposition and abandonment, plus published clinic consent forms, **read through a search index rather than opened at their own domains.** Nothing is quoted from a statute or a contract. **Laws differ by state and contracts differ by clinic, so treat this as a map of the terrain and read your own paperwork.** It is not legal or medical advice.
+
+## The document that decides is one you already signed
+
+Every reputable program has you sign a **consent to disposition of cryopreserved embryos** before anything is frozen. It is not a formality. **It is the instruction set the clinic will follow when it can no longer ask you.**
+
+Published consent forms from academic fertility centers show the shape clearly: the agreement asks you to choose, in advance, what should happen to the embryos **in each of a list of hypothetical circumstances**. ([Mass General Fertility Center consent to disposition](https://www.massgeneral.org/assets/MGH/pdf/obgyn/fertility/consent-forms/mass-general-fertility-center-consent-to-disposition-cryopreserved-embryos.pdf), [University of Rochester consent documents](https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/fertility-center/documents/consent-receive-embryos.pdf).)
+
+### The scenarios the form actually lists
+
+The recurring list across published forms covers:
+
+- **Death of a patient**, and sometimes death of each partner separately
+- **Separation or divorce**
+- **Successful completion of IVF treatment**, when you have the family you intended
+- **A decision to discontinue treatment**
+- **Failure to pay storage fees**
+
+Each gets a choice: continue storage, donate to another person or couple, donate to research, or thaw and discard.
+
+**The scenario that is usually missing is the one in this article's title.** Most forms do not have a line that says "if this clinic ceases to operate." **What they have instead is the non-payment clause, which is the one that ends up doing the work**, because a closing clinic's first visible symptom is often a billing relationship that stops functioning normally.
+
+## Non-payment is a disposition choice, whether or not you meant it to be
+
+This is the part that surprises people, and it is in the documents in plain language.
+
+**If a patient's chosen disposition is unavailable, or if they fail to preserve their choices through non-payment of storage fees, the clinic is typically authorized to discard and destroy the embryos.**
+
+Read that as a mechanism rather than as a threat. **The clinic is not looking for a reason.** It is holding material it has no authority to move, no authority to destroy, and no funding to keep, and the contract is the only thing that resolves the deadlock.
+
+**Which means the single highest-value thing you can do is boring: make sure the card on file is current and the email address on the account is one you still read.** A storage invoice that silently fails is the beginning of most bad outcomes in this area, and it is the failure mode nobody plans for because nobody thinks of a card expiry as a decision about embryos.
+
+## "Abandoned" is a real category, and nobody wants to be in it
+
+When a facility cannot reach the people whose embryos it holds, and payment has stopped, the material becomes what the literature calls **abandoned**.
+
+The academic framing is blunt about the position this puts clinics in: **despite an intricate legislative framework, gaps leave fertility clinics and storage facilities choosing between discarding embryos without clear authorization and storing them indefinitely.** How any given clinic resolves that depends on **the consents and cryostorage agreements in place, the physician's own tolerance of risk, and in some cases state law and the ethical positions of professional bodies.** ([Peer-reviewed literature on embryo abandonment](https://pmc.ncbi.nlm.nih.gov/articles/PMC6001352), [Cattapan and Baylis, *Frozen in Perpetuity*](https://cdn.dal.ca/content/dam/dalhousie/pdf/sites/noveltechethics/nte-Cattapan%20+%20Baylis_Frozen%20in%20Perpetuity.pdf), [clinic-facing discussion of unclaimed embryos](https://www.progress.org.uk/clinic-dilemma-over-unclaimed-frozen-embryos/).)
+
+**Note what that sentence does not contain: a national rule.** There is no single federal answer that resolves abandoned embryos in the United States, which is why two clinics in two states can behave differently and both be acting reasonably.
+
+**The practical consequence is counterintuitive.** Being contactable is worth more than being right. **A patient who disagrees with the clinic but answers the phone has options. A patient who is unreachable has whatever the contract defaults to.**
+
+## What you can actually do when a clinic announces it is closing
+
+There are three live routes, and in most cases all three are available.
+
+**1. Transfer to another clinic.** If you are in contact with the facility, you can ask it to transfer the material to a clinic that is still open. This is the most common outcome and it is logistically routine; cryoshipping between facilities is a normal service.
+
+**2. Ask for them to be discarded.** If you are finished, you can instruct the clinic to thaw and discard. **Say it in writing and keep the confirmation**, which is the same discipline that applies to any custody instruction.
+
+**3. Move to a dedicated long-term storage company.** A separate industry exists for exactly this, independent of any one clinic. It changes who holds the material and it does not change who decides.
+
+**The thing that is not on the list is doing nothing.** When closure is announced there is usually a **stated window** to make arrangements, and in reported cases of clinic failure families have been given a matter of weeks. ([Reporting on families given weeks to collect embryos after a clinic scandal](https://www.progress.org.uk/parents-have-weeks-to-collect-embryos-caught-up-in-crete-fertility-clinic-scandal/).)
+
+## The gap between the paperwork and the law
+
+Two separate systems govern your embryos and they do not always agree.
+
+**The contract** is specific, signed, and usually enforceable. **The law** is a patchwork: state courts have reached different conclusions when a disposition agreement collides with a later dispute, most famously in divorce cases. We wrote up the related problem of **who decides about stored genetic material after a death** in our guide to [posthumous conception law](/blog/posthumous-conception-law), where the same pattern appears: **the document usually wins, and the exceptions are where the document was silent.**
+
+**So the question to ask of your own paperwork is not "what does the law say."** It is: **does my agreement name a choice for every scenario on the list, and is that still the choice I would make today?** Agreements signed before a marriage, a divorce, a diagnosis or a completed family frequently are not.
+
+## Where MySpawn sits, and what we do not do
+
+**MySpawn is not a fertility service. We do not store embryos, eggs or sperm, we provide no reproductive service of any kind, and nothing we offer is a substitute for a clinic or a cryostorage company.** We store a DNA record collected from hair and nails, with a living donor, at ambient temperature. **If you have embryos in storage, this article is the useful part and our product is not relevant to it.**
+
+The reason we wrote it is that the **custody failure mode is identical across every category of stored biological material**, and it is the thing our own lane is built around. The pattern repeats whether the material is an embryo, a tissue sample or a genetic record: **the contract decides, non-payment is a decision, unreachability is the real risk, and almost nobody reads the clause until the facility sends an email they were not expecting.** We cover the version of this that happens when a storage company itself fails in [what happens when a DNA company shuts down](/blog/what-happens-dna-company-shuts-down), and the standards question in [what biobank accreditation actually certifies](/blog/biobank-accreditation-explained).
+
+## Frequently asked questions
+
+### Who owns frozen embryos?
+There is no single national answer in the United States. In practice the disposition agreement signed with the clinic controls what happens in the scenarios it names, and courts have reached different conclusions when that agreement is challenged, particularly in divorce. The reliable move is to read your own agreement rather than to rely on a general rule.
+
+### What happens if I stop paying embryo storage fees?
+Published consent forms commonly provide that if a patient fails to preserve their chosen disposition through non-payment, the clinic is authorized to discard and destroy the embryos. Non-payment functions as a disposition choice. A lapsed card or an abandoned email address can therefore produce an outcome nobody intended.
+
+### Can embryos be moved to another clinic?
+Yes. If you are in contact with the facility you can ask for the embryos to be transferred to a clinic that is still operating, or to a dedicated long-term cryostorage company. Shipping between facilities is a routine service rather than an exceptional one.
+
+### What does "abandoned embryos" mean?
+It describes embryos whose owners cannot be reached and whose storage fees have stopped. The literature describes clinics being left to choose between discarding them without clear authorization and storing them indefinitely, with the outcome depending on the consent documents, state law and the clinic's own risk tolerance.
+
+### Does a will cover my frozen embryos?
+Not reliably on its own. Stored reproductive material is usually governed first by the storage contract and the disposition agreement, and the interaction with a will varies by state. If your intention has changed, update the clinic paperwork rather than assuming the will will carry it.
+
+---
+
+**MySpawn stores a DNA record for $99/year, billed annually, and the first 1,000 members lock the founding rate. We are storage only: no testing, no selection, no reproductive service of any kind.** If you want the custody questions rather than the fertility ones, start with [how long labs keep your DNA sample](/blog/how-long-labs-keep-dna-sample).
+
+---
+
+## SEO package
+
+- **Title tag (57):** If a Fertility Clinic Closes, What Happens to Embryos?
+- **Meta description (151):** Clinic closures are decided by the disposition agreement you already signed. What it covers, why non-payment counts as a choice, and your three options.
+- **URL slug:** `fertility-clinic-closes-embryos`
+- **Primary keyword:** what happens to embryos if a fertility clinic closes
+- **Secondary keywords:** embryo disposition agreement; abandoned embryos; frozen embryo storage fees; transfer embryos to another clinic; who owns frozen embryos; embryo storage contract
+- **Internal links:** `/blog/posthumous-conception-law`, `/blog/what-happens-dna-company-shuts-down`, `/blog/biobank-accreditation-explained`, `/blog/how-long-labs-keep-dna-sample`
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Who owns frozen embryos?","acceptedAnswer":{"@type":"Answer","text":"There is no single national answer in the United States. In practice the disposition agreement signed with the clinic controls what happens in the scenarios it names, and courts have reached different conclusions when that agreement is challenged, particularly in divorce. The reliable move is to read your own agreement rather than to rely on a general rule."}},
+    {"@type":"Question","name":"What happens if I stop paying embryo storage fees?","acceptedAnswer":{"@type":"Answer","text":"Published consent forms commonly provide that if a patient fails to preserve their chosen disposition through non-payment, the clinic is authorized to discard and destroy the embryos. Non-payment functions as a disposition choice, so a lapsed card or an abandoned email address can produce an outcome nobody intended."}},
+    {"@type":"Question","name":"Can embryos be moved to another clinic?","acceptedAnswer":{"@type":"Answer","text":"Yes. If you are in contact with the facility you can ask for the embryos to be transferred to a clinic that is still operating, or to a dedicated long-term cryostorage company. Shipping between facilities is a routine service rather than an exceptional one."}},
+    {"@type":"Question","name":"What does abandoned embryos mean?","acceptedAnswer":{"@type":"Answer","text":"It describes embryos whose owners cannot be reached and whose storage fees have stopped. The literature describes clinics being left to choose between discarding them without clear authorization and storing them indefinitely, with the outcome depending on the consent documents, state law and the clinic's own risk tolerance."}},
+    {"@type":"Question","name":"Does a will cover my frozen embryos?","acceptedAnswer":{"@type":"Answer","text":"Not reliably on its own. Stored reproductive material is usually governed first by the storage contract and the disposition agreement, and the interaction with a will varies by state. If your intention has changed, update the clinic paperwork rather than assuming the will will carry it."}}
+  ]
+}
+```
