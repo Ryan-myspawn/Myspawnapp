@@ -411,3 +411,10 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 **RESERVE NOTE, 2026-10-01.** `o6lXCVe27Bw` removed: **killed today on double adjacency** (concrete as subject, five days out, plus the interior-opening-onto-a-bright-doorway composition of Ad_TheDateIsTheProduct_141). **A reserve row that is killed should leave the reserve rather than sit there looking available**, which is the hygiene rule set on 30 September.
 **AND A WARNING FOR WHOEVER SEARCHES "anvil" NEXT: the query returns a firearm in its top results.** Excluded on sight today, recorded so it is not rediscovered.
 
+
+## RESERVE NOTE, 2026-10-02
+**`j06gLuKK0GM` (gold balance scale, Elena Mozhvilo @miracleday) is REMOVED.** It was consumed by today's run and killed on two independent grounds: **the pastel rainbow-painted planks behind it go muddy under the cold dark template without going serious, and scales-of-justice is the most worn visual in any copy about legal rights.** Removed rather than left sitting there looking available, per the 30 September hygiene rule.
+
+**NOTHING WAS BANKED TODAY, and that is the finding.** Of three photographs downloaded, **two were killed at full resolution for legible text a thumbnail hid** (a payphone fascia carrying three named companies and three street addresses; a pegboard carrying the brand name MAXIMUM on a tool handle). **Neither is bankable for a later run: the defect is in the file, not in the fit.** The reserve is therefore shallower tonight than it was this morning.
+
+**A WARNING FOR WHOEVER SEARCHES HARDWARE OR TOOLS NEXT: hand tools carry maker marks that survive any usable crop.** Today's pegboard photo was dark, well composed and by an enthusiast rather than a seller, which is exactly the profile the 25 September structural finding says to trust, **and it still failed on a brand mark.** That finding is about who photographs a subject. It says nothing about what is cast into the subject itself.
