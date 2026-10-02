@@ -229,3 +229,16 @@
 **One naming point settled last night and recorded here so the newsletter does not stall on it:** coverage calls the statute **SB 4** and one of our blog articles calls it **PA 26-64**. **Same instrument, bill number and the public act it became.** The science watchlist and longpost #68 already use SB 4. **No correction is required and none should be made.**
 
 **Next Gmail-enabled run, unchanged in shape and one item longer:** `newer_than:30d` sweep, **ONE** catch-up digest rather than thirty-three, oldest-first triage, personal rather than templated replies for anything older than a week, **the newsletter decision first**, and **the present-tense rewrite before anything else is drafted.**
+
+## 2026-10-02, 04:08 UTC: NO TRIAGE. Gmail day 34.
+
+**Probe result.** The Gmail tool schemas **LOADED** and `search_threads` with `newer_than:1d in:inbox` returned **`needs_reconnect`**. **False recovery in the established sense: tools present, call refused.** **False-recovery tally: TWENTY-FOUR. Tools-not-loadable tally: three, unchanged.**
+
+**Threads read: 0. Drafts created: 0. Automated mail ignored: unknown, because the inbox could not be opened.** **No count is invented.**
+**No rule bent:** nothing sent, nothing deleted, nothing marked spam, no correspondent detail recorded anywhere. **Digest written to `reports/outbox/` instead, as every undeliverable digest has been for thirty-four days.**
+
+**THE THREE-STEP FIX, THIRTY-FOURTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**A NOTE ON WHAT THE OUTAGE IS NOW COSTING, stated once rather than repeated daily.** Thirty-four days is long enough that the backlog has changed character. **It is no longer "some unread mail".** A customer who wrote on 29 August has had no reply for five weeks; **any press enquiry in that window is dead on arrival**; and **the catch-up run will face a month of threads whose context has moved on.** The prepared catch-up plan stands and is unchanged: `newer_than:30d` sweep, **ONE** digest rather than thirty-four, oldest-first triage, **personal rather than templated replies for anything older than a week.**
+
+**NEWSLETTER: nothing new to decide and that is deliberate.** Yesterday's run **retired Issue 5** and set the order: **Issue 6 on Monday 5 October, Issue 7 the following Thursday.** **It needs no further revisiting until a send is actually possible**, and re-litigating a settled queue every morning is how a decision becomes noise.
