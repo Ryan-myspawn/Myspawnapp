@@ -418,3 +418,19 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 **NOTHING WAS BANKED TODAY, and that is the finding.** Of three photographs downloaded, **two were killed at full resolution for legible text a thumbnail hid** (a payphone fascia carrying three named companies and three street addresses; a pegboard carrying the brand name MAXIMUM on a tool handle). **Neither is bankable for a later run: the defect is in the file, not in the fit.** The reserve is therefore shallower tonight than it was this morning.
 
 **A WARNING FOR WHOEVER SEARCHES HARDWARE OR TOOLS NEXT: hand tools carry maker marks that survive any usable crop.** Today's pegboard photo was dark, well composed and by an enthusiast rather than a seller, which is exactly the profile the 25 September structural finding says to trust, **and it still failed on a brand mark.** That finding is about who photographs a subject. It says nothing about what is cast into the subject itself.
+
+## BANKED 2026-10-03, WITH KILL REASONS AND EXPIRY DATES
+**All four were downloaded and inspected. All four are clean on signage, faces and brand marks.** **They are banked WITH the reason they could not be used today and the date that reason lapses**, so a later run does not rediscover and re-kill them.
+
+| ID | Subject note | Photographer | Raw URL | WxH | Blocked by, and until when |
+|---|---|---|---|---|---|
+| L0Zyjihp6Ck | Dark weathered leather case, "1942" scratched into the lid, metal clasp; **inspected at full resolution, nothing legible but the year** | Mohamed Benziane (@abdellahbnz) | https://images.unsplash.com/photo-1784152634009-6bc6ccfafd94 | 2721x4081 | **LUGGAGE family, Ad_TheHalfYourWillCannotReach_149 (24 Sep). Usable from about 8 October** if no further luggage ad ships. **Best photo of the day.** |
+| q8oq3ifOifw | Near-black cast-iron machine part with pale petals scattered across it, no text | Ahamed Rasel (@ah_rasel5) | https://images.unsplash.com/photo-1651056223915-b709056e0dc5 | 3744x5616 | **DARK INDUSTRIAL HARDWARE cooldown set 2 October after Ad_172 and Ad_177. Usable from 9 October.** |
+| uyDTAcZxSqs | Close-up of a studded, riveted dark surface; reads as sealed plate rather than as a door | ANASTASIIA BUCHINSKAIA (@anamilanofoto) | https://images.unsplash.com/photo-1707521852685-de045e9d54a7 | 2610x4640 | **DOOR family, Ad_137 and Ad_141. Also NOTE: 2610px native is thin for a 2160px canvas with any crop.** |
+| jkD-_s4Q_tE | Rusted metal door against a stone wall, very dark, large native size | Eriks Abzinovs (@pixworthmedia) | https://images.unsplash.com/photo-1571849652524-bbd7fbc9f590 | 5304x7952 | **DOOR family, and a door photo was killed yesterday on the same ground. Needs a clear gap plus a concept the door actually serves.** |
+
+**KILLED OUTRIGHT AND NOT BANKED:** `ySMLDRerHZs` (vintage press numbering unit, Alex Zaj @alexzaj): printing-press family, **Ad_EitherItExistsOrItDoesnt_168, five days, inside the window**. `lwzh6wi8osI` (New York Said @newyorksaid): **the phrase "IN PURSUIT OF MAGIC" is set in white serif across the subject.**
+
+**A WARNING FOR WHOEVER SEARCHES "antique safe combination dial" NEXT: the query returns SEVEN results in total, three of which are listed above.** **That is the supply, not a sampling problem.** Try the object from a different direction or try a different object.
+
+**AND THE REASON THE RESERVE MATTERS MORE THAN USUAL TODAY:** this run shipped **zero creatives**, and the fallback of re-rendering backlog ads was unavailable because **72 of 167 committed HTML masters reference local source files that no longer exist.** **A banked, vetted, dated reserve is the only thing standing between a thin search day and a zero day.**
