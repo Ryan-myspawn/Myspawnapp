@@ -15,6 +15,7 @@
 
 ### Tomorrow Bio (tomorrow.bio) · Alcor · Cryonics Institute
 - **Model:** whole-body/brain cryopreservation; Tomorrow Bio (Berlin, 2019) is the aggressive content marketer (provider-comparison SEO pages); Alcor legacy leader since 1972. ([tomorrow.bio](https://www.tomorrow.bio/), [alcor.org comparison](https://www.alcor.org/provider-comparison/))
+- **DATE RESOLVED 2026-10-03: the round closed 22 MAY 2025, sixteen months before we logged it.** Led by **Blast.Club** (FR) with **Truventuro / Nils Regge** (DE); earmarked for US expansion with planned New York, California and Florida locations. The entry below is kept verbatim so the error is visible rather than overwritten. ([Startbase](https://www.startbase.de/news/tomorrow-bio-erhaelt-5-millionen-euro-seed-finanzierung/), [Seedtable round record dated 2025-05](https://seedtable.com/companies/tomorrowbio/funding-rounds/seed-2025-05), via search index.)
 - **2026-08-25 (newly discovered; announcement date unverified: reported by mainsights.io and longevity.technology):** Tomorrow.Bio closed the first tranche of a **€5M seed** (co-led Blast.Club, Truventuro) explicitly to **expand into the US, starting NY / CA / FL**. *So what:* the loudest "preserve yourself" marketer in Europe is entering our home market with funding: expect their comparison-SEO machine to start ranking on US preservation keywords; our accessible-first-rung counter gets more relevant, and their arrival raises the whole category's search volume (net tailwind, watch their keyword footprint).
 - **Threat:** low commercially (five-figure+ commitments, different buyer), high narratively: cryonics headlines shape the "preserve yourself" conversation we ride; US expansion raises the narrative volume domestically.
 
@@ -595,3 +596,27 @@ Everything the fertility and legacy-tech lanes returned is already here: the **2
 
 **THE PATTERN WORTH KEEPING:** **two consecutive rotation dives have now produced errors running AGAINST us**, after three consecutive flattering ones. **What the audit is finding is that our oldest entries are the least checked.**
 
+
+---
+
+## 2026-10-03
+
+**FULLY QUIET IN THE 24-TO-48-HOUR WINDOW, all four lanes.** No dated item for SecuriGene / DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter AI, StoryWorth or Empathy. The fertility and embryo-screening sweep returned only the **26 August 2026 Nucleus x Legacy partnership**, now returned and logged as already-held on **at least four separate days**.
+
+**THE SCHEDULED TOMORROW.BIO DIVE RAN AND IT CORRECTED THIS FILE.** The **EUR 5M seed** entered on 25 August 2026 behind an honest "announcement date unverified" flag **closed on 22 May 2025**, sixteen months earlier, led by **Blast.Club** with **Truventuro (Nils Regge)**. **The August entry is kept verbatim above the correction rather than overwritten, so the error stays visible.**
+
+**FOURTH STALE-DATE INSTANCE IN TWENTY-FOUR HOURS, AND THE ONLY ONE ALREADY INSIDE OUR OWN FILES.** The other three are in today's Trend Radar: a November 2009 bankruptcy returned as breaking news, a September 2025 paper attributed to a different company in 2026, and a TikTok format from 17 September returned as current. **The defect is not only in what a search returns. It is in what we have already written down on the strength of one.**
+
+**RULE PROPOSED, NOT ADOPTED UNILATERALLY: every baseline entry carrying an unverified date gets a REVIEW DATE written beside it, and if the date is unresolved by then the entry is demoted to "undated, provenance unknown" rather than left reading as news.** **Thirty-nine days is too long for a flag that was raised correctly on day one.**
+
+### 2026-10-03 deep-dive: TOMORROW.BIO (description, which is what this file was missing)
+
+Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pinheiro**. Sells human and pet cryopreservation. **The operational core is a response capability rather than a facility: SST teams (Standby, Stabilization and Transportation)** of doctors, EMTs and trained personnel, based in **Berlin and Zurich**, dispatched in advance when a death is foreseeable. On **legal pronouncement** the team begins **mechanical chest compressions, oxygen, medication and cooling with ice and water**, then **perfuses a cryoprotectant** to limit ice-crystal formation. **Cryo-ambulances** continue cooling in transit to storage at **minus 196 C** held by the sister organisation **European Biostasis Foundation, Rafz, Switzerland**. **May 2025 coverage: 20 people and 10 pets preserved, over EUR 160M in pre-contracted commitments. BOTH FIGURES ARE SIXTEEN MONTHS OLD AND SHOULD BE ASSUMED OUT OF DATE**, which is Finding 1 applied to itself.
+
+**DIFFERENTIATION PROOF, structural rather than rhetorical.** **Their product is a clock:** everything of value happens in the hours after a pronouncement and needs a trained team to physically arrive, which is why their capital goes into ambulances, rosters and geographic coverage rather than storage. **Ours has no clock:** collection happens while the person is alive, at home, in about seven minutes, with no window to miss and no geography to cover.
+
+**AND IT CUTS AGAINST US WHERE IT SHOULD.** What we store is a record. What they attempt is a person. **Those are different ambitions and our copy must never blur them.** **NO COMPARISON CLAIM OF ANY KIND IS APPROVED FOR CREATIVE FROM THIS ENTRY.** The description exists so this file can say what the company is, which it could not do for six weeks.
+
+**ROTATION: with Tomorrow.Bio done, the next quiet-day dive is STORYWORTH**, which the 2 October note already had as next in the standing order. **The instruction from 2 October stands: go backwards through this file's OLDEST entries**, because the last four dives have all found errors in old material.
+
+**THE PATTERN, now at THREE consecutive, and the count is stated exactly because this file has twice mis-tallied a consecutive-day figure.** Earlier, three consecutive rotation dives produced corrections that flattered us. **The three since have each produced one that does not: Cells4Life (1 October, flagged rather than corrected), HereAfter AI (2 October, contested, with a published article edited in place), and Tomorrow.Bio (3 October, a sixteen-month-stale entry of our own).** **The audit is working in the direction that matters.**
