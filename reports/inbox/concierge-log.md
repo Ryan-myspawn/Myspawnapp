@@ -242,3 +242,26 @@
 **A NOTE ON WHAT THE OUTAGE IS NOW COSTING, stated once rather than repeated daily.** Thirty-four days is long enough that the backlog has changed character. **It is no longer "some unread mail".** A customer who wrote on 29 August has had no reply for five weeks; **any press enquiry in that window is dead on arrival**; and **the catch-up run will face a month of threads whose context has moved on.** The prepared catch-up plan stands and is unchanged: `newer_than:30d` sweep, **ONE** digest rather than thirty-four, oldest-first triage, **personal rather than templated replies for anything older than a week.**
 
 **NEWSLETTER: nothing new to decide and that is deliberate.** Yesterday's run **retired Issue 5** and set the order: **Issue 6 on Monday 5 October, Issue 7 the following Thursday.** **It needs no further revisiting until a send is actually possible**, and re-litigating a settled queue every morning is how a decision becomes noise.
+
+## 2026-10-03, 04:08 UTC: NO TRIAGE. Gmail day 35.
+
+**Probe result.** The Gmail tool schemas **LOADED** and `search_threads` with `newer_than:1d in:inbox` returned `needs_reconnect`. **Tools present, call refused: a false recovery in the established sense.** **False-recovery tally: TWENTY-FIVE. Tools-not-loadable tally: three, unchanged.**
+
+**Threads read: 0. Drafts created: 0. Automated mail ignored: unknown, because the inbox could not be opened.** **No count is invented.**
+**No rule bent:** nothing sent, nothing deleted, nothing marked spam, no correspondent detail recorded anywhere. **Digest written to `reports/outbox/` instead, as every undeliverable digest has been for thirty-five days.**
+
+### A CATEGORY ERROR IN OUR OWN FILE, FOUND AND CORRECTED
+
+Last night's Content Factory PM run probed Gmail twice and its outbox digest recorded both as **"tools not loadable"**. **That is the wrong category.** Both probes loaded the tool schemas and were refused at the call, which is a **false recovery**, and this operation tracks the two states as separate tallies precisely because they imply different fixes. **`reports/outbox/content-factory-pm-2026-10-02.html` is corrected in place today with a dated note rather than silently edited.**
+
+**The two evening probes are NOT added to the false-recovery count.** That count has tracked **the daily concierge probe**, one per day, since it was started. **Counting ad-hoc probes from other runs into it would change what the number measures halfway through its own series**, which is the defect this operation has logged twice already in consecutive-day tallies. **The tally stays one per concierge run and the evening probes are recorded here as corroboration instead.**
+
+### THE FIRST HARD DEADLINE THIS OUTAGE WILL BREAK IS FORTY-EIGHT HOURS AWAY, and it is worth stating once
+
+**Issue 6 of the newsletter is scheduled for Monday 5 October, 9:00am ET.** Today is Saturday. **If the connector is not restored by Sunday evening, Issue 6 misses its slot and becomes the eleventh missed send in this queue.**
+
+**That matters more than the raw day count, because Issue 6 is the issue that survived.** Issue 5 was retired on 1 October after missing ten slots, for a reason the file recorded: **it was built on a countdown to a date that then passed.** Issue 6 carries no date dependency at all, which is why three weeks of delay cost it nothing. **A missed slot does not kill it. But the lesson the file drew on 1 October, that every issue must be written so a three-week delay costs it nothing, has now been tested twice and held twice, and it only holds for as long as the queue is short.**
+
+**THE THREE-STEP FIX, THIRTY-FIFTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**Catch-up plan unchanged and not re-litigated:** `newer_than:30d` sweep, **ONE** digest rather than thirty-five, oldest-first triage, **personal rather than templated replies for anything older than a week.**
