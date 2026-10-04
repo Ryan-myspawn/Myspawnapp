@@ -164,3 +164,72 @@ Whether posting slots should exist as calendar events at all, or stay in the PM 
 
 ### STANDING QUESTION, retired rather than re-asked
 Whether posting slots should exist as calendar events at all, or stay in the PM post plans. **Asked since 6 September, twenty-one days, unanswered.** The previous entry said it would stop being re-asked after one more run. **This is that run. The question is retired and the default stands: posting slots live in the PM post plans, not on the calendar.** It can be reopened any time by saying so.
+
+---
+
+## 2026-10-04: NO CALENDAR WRITES POSSIBLE, second consecutive week. And the window has NO external peg in it at all, which is the run's real finding.
+
+**`list_calendars` returned "needs you to sign in again." Zero events read, zero created, zero updated, zero deleted.** Window checked on paper: **4 October to 25 October.**
+
+### THE CONNECTOR STATE, recorded precisely because last week's entry turned a precise reading into a diagnosis
+
+**The Google Calendar tools WERE loadable today.** `list_calendars` was present with a full schema and was called normally. **The call returned a re-authentication error, and the server then DISCONNECTED**, moving Google Calendar out of the available set and into the needs-authorization set for the rest of the session.
+
+**That is the same fault class as 27 September: handshake completes, authorization fails.** It is not the Gmail fault class of 4 October 04:00, where the tool surface was absent entirely. **The one new detail is the disconnect after the refusal**, which last week's run did not see.
+
+**COUNT DISCIPLINE, applied the same way as last week: this is an observation about failure MODE, not a new tally mark.** The false-recovery tally stays at **25** and the tools-not-loadable tally stays at **4**. **Google Calendar is now a fifth connector in the unauthorized set** alongside Gmail, Google Drive, Atlassian Rovo, Canva and Inkbox. **Gmail is at day 37.**
+
+### THE FINDING: THERE IS NO EXTERNAL PEG IN THIS WINDOW. NONE.
+
+**Last week's window had exactly one externally-dated verified peg, Connecticut Public Act 26-64 on 1 October. That date has passed.** This week's sweep of the trend radar, the science watchlist's pending events, the blog topic log and the production log found **zero externally-dated events between 4 and 25 October.**
+
+**GTA 6 remains the next one and it is still outside the window: release 19 November, forty-six days out, entering the 21-day window on 29 October, twenty-five days from today.** Confirmed against today's radar rather than carried from memory.
+
+**VIBRANT still has no readout date. Vitara still has no IDE decision date. No events created for either. That rule has now held for SEVEN consecutive weeks.** A company having a plan is still not a company having a date.
+
+**What that means for the diff below: every single item in it is one of our own commitments.** There is nothing in the next three weeks that the outside world is going to do to us on a schedule. **That is worth saying plainly, because a calendar with only internal deadlines in it is a calendar that only matters if we keep them.**
+
+### THE DIFF I WOULD HAVE APPLIED, written to be executable the moment the connector returns
+
+**DATED INTERNAL COMMITMENTS in the window. All ours, all missable.**
+
+| Date | Event to create | Why |
+|---|---|---|
+| **Mon 5 October** | `[MySpawn] Newsletter Issue 6 scheduled send` 9:00am ET | **Issue 6 is written and dated for tomorrow. Ten sends have already been missed. If this one slips it is the eleventh.** |
+| **Sun 4 October** | `[MySpawn] Prep: Newsletter Issue 6 sends tomorrow` 24h prior | Standing rule: every hard peg gets a prep event 24 hours before. **This one is already inside 24 hours as this run executes.** |
+| **Mon 5 October** | `[MySpawn] Blog lane (b): what a DNA record can and cannot tell you` | **Carries a BINDING pre-condition**: grep "what DNA can tell", "limits of" and "cannot tell you", and READ `polygenic-embryo-screening-explained` first. **Three consecutive queued topics came back already owned, so the condition is not a formality.** |
+| **Tue 6 October** | `[MySpawn] Blog lane (c): video messages to descendants` | Angle is format obsolescence. **Conditional on a hard check against `digital-time-capsule`.** |
+| **Thu 8 October** | `[MySpawn] Newsletter Issue 7 scheduled send` | Issues 3 and 4 remain held. |
+| **Wed 7 October** | `[MySpawn] Prep: Newsletter Issue 7 sends tomorrow` | Standing 24h rule. |
+
+**WEEKLY ANCHORS, all unverifiable and all to be created if absent.**
+- `[MySpawn] Approve partner outreach`, Tuesday evening IST: **6, 13, 20 October**.
+- `[MySpawn] Send newsletter`, Friday morning IST: **9, 16, 23 October**. **See the escalation below before creating these.**
+- `[MySpawn] Shoot block`, 45 minutes at 11:00 IST, **every weekday from 5 to 23 October**. **The rule says skip days with nothing queued. There is no such day.** The filming backlog is **NINETEEN days** and four scripts have been written into it since Friday. **Every weekday qualifies, which is the problem rather than the schedule.**
+
+### THE NEWSLETTER ANCHOR NO LONGER DESCRIBES THE CADENCE, and "one-off exception" has now failed three times
+
+**On 20 September this log proposed keeping the Friday anchor as the default and treating Issue 5's Monday slot as a one-off exception.** That proposal should now be withdrawn by its own author.
+
+| Issue | Scheduled day | On the Friday anchor? |
+|---|---|---|
+| Issue 5 | Monday | No |
+| **Issue 6** | **Monday 5 October** | **No** |
+| **Issue 7** | **Thursday 8 October** | **No** |
+
+**Three consecutive issues, zero of them on the anchor.** A default that the last three instances all departed from is not a default. **PROPOSED, not applied, because the cadence is a founder decision and not a calendar-hygiene one: either move the anchor to match what is actually being scheduled, or keep Friday and schedule to it.** The current arrangement books a slot nobody uses and then books the real send somewhere else, which makes the calendar actively misleading rather than merely incomplete.
+
+### INTERNAL HOLDS EXPIRING IN THE WINDOW
+These are not calendar events. They are dated commitments this operation made to itself and they are easy to lose.
+
+| Expiry | Hold |
+|---|---|
+| **about 8 October** | **Luggage photo family**, held after Ad_149 (24 September). Blocks `L0Zyjihp6Ck`, recorded as the best photograph in the reserve. |
+| **9 October** | **Dark-industrial-hardware family**, cooldown set 2 October after Ad_172 and Ad_177. |
+| **11 October** | **Fence family**, set TODAY after Ad_EverythingInItIsFine_178 shipped. Blocks three fence photographs banked in the same run. |
+
+### STANDING QUESTION: still retired, not reopened
+Whether posting slots should exist as calendar events. **Retired on 27 September after twenty-one days unanswered. Default stands: posting slots live in the PM post plans.** Not re-asked here.
+
+### MOST IMPORTANT DATE IN THE NEXT 14 DAYS
+**Monday 5 October: Newsletter Issue 6.** Ten sends have been missed. **It is the only thing in the next fortnight whose failure has a running count attached to it.**
