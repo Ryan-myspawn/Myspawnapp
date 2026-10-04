@@ -620,3 +620,32 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **ROTATION: with Tomorrow.Bio done, the next quiet-day dive is STORYWORTH**, which the 2 October note already had as next in the standing order. **The instruction from 2 October stands: go backwards through this file's OLDEST entries**, because the last four dives have all found errors in old material.
 
 **THE PATTERN, now at THREE consecutive, and the count is stated exactly because this file has twice mis-tallied a consecutive-day figure.** Earlier, three consecutive rotation dives produced corrections that flattered us. **The three since have each produced one that does not: Cells4Life (1 October, flagged rather than corrected), HereAfter AI (2 October, contested, with a published article edited in place), and Tomorrow.Bio (3 October, a sixteen-month-stale entry of our own).** **The audit is working in the direction that matters.**
+
+---
+
+## 2026-10-04
+
+**FULLY QUIET IN THE 24-TO-48-HOUR WINDOW, all four lanes.** No dated item for SecuriGene / DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter AI, StoryWorth or Empathy.
+
+### 2026-10-04 deep-dive: STORYWORTH, and the dive refused its obvious subject
+
+**StoryWorth arrived in the rotation with its pricing CONTESTED since 23 September and FOUR secondary data points already logged** (23, 26, 29 September, 1 October), **all from the same source family that failed three of four factual claims in an earlier dive.** **A fifth sweep would have produced a fifth number from the same family and cleared nothing.**
+
+**THE SLOT WAS SPENT ON A DIFFERENT QUESTION**, which is the Tomorrow.Bio correction from yesterday applied a second time: **a rotation dive is not obliged to re-attempt the number it cannot verify.**
+
+**FOR THE RECORD, FIFTH TIME: today's sweep surfaced another figure attached to a StoryWorth customer account. It is NOT logged as a price and NOT substituted for anything.** **The CONTESTED flag stands, no StoryWorth figure may appear in any asset, and the clearing condition is unchanged: their own help center, opened directly, which our proxy blocks.**
+
+**THE QUESTION ASKED INSTEAD: what happens to a StoryWorth account and a half-finished book if the storyteller dies?**
+- **Published and clear, but answering a different question:** when a Basic or Color subscription ends, the customer gets an email offering renewal or printing and **has a few months to edit without losing access to the account or the stories.**
+- **Not found: any published answer to the death question** (who can access, who can complete or close the book, what becomes of the partial manuscript).
+- **One customer account of it happening**, from a review round-up: a grandfather received StoryWorth as a gift, died a few months later, and the family was left with **"a book with a few answers but mostly blank pages"**, with the reviewer saying **"There should be better options for when people pass away."**
+
+**STATED PRECISELY BECAUSE THIS FILE HAS GOT THIS WRONG BEFORE: we could not FIND a published policy, which is NOT the same as there being none.** **StoryWorth's help center is unreachable from our container, which is our network and not evidence about the company.** **Logged as an OPEN QUESTION, not as a failing.**
+
+**SO WHAT: differentiation proof, and it points inward rather than outward.** The custody question for a memoir service is **the one its customers are most likely to meet and least likely to have asked.** **The useful move is not to point at them. It is to publish OUR answer to the identical question**, because this operation is now three articles deep into telling readers to demand written answers about account inheritance, cancellation and sample destruction. **On 24 September the newsletter already used our own missing export page as an admission. This is the same shape and the obligation is larger.** **Recorded as a blog-queue to-do, NOT as a competitive attack line. Posture unchanged: never attack them, truthful comparison only.**
+
+**ONE PATTERN NOTE, not a correction.** The Acorn sweep returned **three different funding figures across three sources**: $3.3M, a US$8M Series A closed May 2024, and $11M. **Probably different rounds or cumulative totals rather than a contradiction, and not reconciled from an index.** **Acorn's pricing and currency remain open since 25 September.**
+
+**ROTATION: StoryWorth done. Continuing backwards through this file's oldest entries, the next quiet-day dive is CELLSAVE**, which has sat on the monitored list since the first run with no dive of its own.
+
+**THE PATTERN, now at FOUR consecutive.** Cells4Life (1 Oct, flagged), HereAfter AI (2 Oct, contested, article edited in place), Tomorrow.Bio (3 Oct, a sixteen-month-stale entry of our own), **and today, a dive that declined to manufacture a fifth unverifiable number.** **Three of those four corrections point at our own record rather than at a competitor.**
