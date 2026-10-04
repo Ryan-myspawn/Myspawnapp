@@ -49,7 +49,7 @@ The checklist is short and the completion rate (20 percent) is embarrassing for 
 
 This is the newest layer, and the one most often misunderstood. Preserving your DNA is not about producing descendants, and no honest company should let you believe otherwise. We are a DNA preservation company and we will say it plainly: storage is storage. What a preserved genome actually is, for a childfree person, is the **reference copy of your branch of the family**.
 
-Your nieces, nephews, cousins and their children share your bloodline and will someday ask the questions every family eventually asks: where did we come from, what conditions run in us, who was this person in the photos. A preserved sample is the family archive answering at full fidelity, decades after the fact, from an accredited, FDA-registered biorepository rather than a shoebox. It costs $99, once, and it makes your branch of the family tree the best-documented one in it. For more on why the physical sample and its custody matter, see [what happens to your DNA when a company shuts down](https://myspawn.me/blog/what-happens-dna-company-shuts-down) and our [complete preservation guide](https://myspawn.me/blog/how-to-preserve-your-dna).
+Your nieces, nephews, cousins and their children share your bloodline and will someday ask the questions every family eventually asks: where did we come from, what conditions run in us, who was this person in the photos. A preserved sample is the family archive answering at full fidelity, decades after the fact, from an accredited, FDA-registered biorepository rather than a shoebox. It costs $99 a year, billed annually, and it makes your branch of the family tree the best-documented one in it. For more on why the physical sample and its custody matter, see [what happens to your DNA when a company shuts down](https://myspawn.me/blog/what-happens-dna-company-shuts-down) and our [complete preservation guide](https://myspawn.me/blog/how-to-preserve-your-dna).
 
 ## The one-weekend version
 
@@ -78,7 +78,7 @@ A will or trust with a named executor, beneficiary designations, durable power o
 
 ---
 
-*The record layer takes one weekend: the MySpawn kit is $99, once, for the first 1,000 members, stored at an independent accredited biorepository, and sealing your first Memory Vault video takes thirty seconds.*
+*The record layer takes one weekend: the MySpawn kit is $99 a year, billed annually, with the first 1,000 members locking the founding rate, stored at an independent accredited biorepository, and sealing your first Memory Vault video takes thirty seconds.*
 
 ---
 
@@ -104,3 +104,7 @@ A will or trust with a named executor, beneficiary designations, durable power o
   ]
 }
 ```
+
+---
+
+**Correction, 4 October 2026.** An earlier version of this article described MySpawn DNA storage as "$99, once." **MySpawn storage is $99 per year, billed annually**, with the first 1,000 members locking the founding rate. The price strings have been corrected. **Nothing else in the article changes: no argument here rested on the fee being one-time**, which is why the fix is a string fix rather than a rewrite. The error dates from before the 25 August 2026 pricing correction and survived in this file for forty days.

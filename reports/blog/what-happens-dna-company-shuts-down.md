@@ -73,7 +73,7 @@ The facility that physically holds samples should hold CAP accreditation and ISO
 
 ---
 
-*Preserving DNA is the one part of this you can control before any company's fate is decided. The MySpawn kit is $99, once, for the first 1,000 members, with samples held by an independent, accredited biorepository. And writing a [free letter to 2126](https://myspawn.me/letter.html) costs nothing at all.*
+*Preserving DNA is the one part of this you can control before any company's fate is decided. The MySpawn kit is $99 a year, billed annually, with the first 1,000 members locking the founding rate, and samples held by an independent, accredited biorepository. And writing a [free letter to 2126](https://myspawn.me/letter.html) costs nothing at all.*
 
 ---
 
@@ -115,3 +115,7 @@ The facility that physically holds samples should hold CAP accreditation and ISO
 
 **This correction runs against us.** It makes an illustration we used repeatedly less certain, and it was found by a check that had no reason to flatter anybody.
 
+
+---
+
+**Correction, 4 October 2026.** An earlier version of this article described MySpawn DNA storage as "$99, once." **MySpawn storage is $99 per year, billed annually**, with the first 1,000 members locking the founding rate. The price strings have been corrected. **Nothing else in the article changes: no argument here rested on the fee being one-time**, which is why the fix is a string fix rather than a rewrite. The error dates from before the 25 August 2026 pricing correction and survived in this file for forty days.

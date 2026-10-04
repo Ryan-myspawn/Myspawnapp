@@ -37,7 +37,7 @@ You can postpone a decision indefinitely. Two things do not postpone with you:
 This is the quiet trend inside the loud one. People who answer "not yet" or "maybe never" are increasingly doing option-preserving moves that don't require deciding:
 
 - **Recording the people they love now.** Thirty-second videos of parents and grandparents, sealed to future dates. Whatever the family ends up looking like, the record exists.
-- **Banking the biological record.** A DNA sample preserved at an accredited facility is decision-neutral: it serves genealogy, family health history, and whatever the future makes possible, without committing you to anything. (This is what MySpawn does: $99, once, for the first 1,000 members, stored by GenVault, an independent CAP-accredited, ISO 9001/20387, FDA-registered biorepository in New Jersey. Storage only, no promises beyond it.)
+- **Banking the biological record.** A DNA sample preserved at an accredited facility is decision-neutral: it serves genealogy, family health history, and whatever the future makes possible, without committing you to anything. (This is what MySpawn does: $99 a year, billed annually, with the first 1,000 members locking the founding rate, stored by GenVault, an independent CAP-accredited, ISO 9001/20387, FDA-registered biorepository in New Jersey. Storage only, no promises beyond it.)
 - **Getting the paperwork straight.** Wills, beneficiaries, and healthcare directives matter more, not less, when your family structure is still undecided; see [the full preservation guide](https://myspawn.me/blog/how-to-preserve-your-dna) for the layer-by-layer version.
 
 Undecided is a valid plan. The only unforced error is letting "not yet" quietly harden into "too late" because nothing was preserved while the decision was open.
@@ -61,7 +61,7 @@ Three decision-neutral moves: record the people you love (video beats everything
 
 ---
 
-*Keeping the option open costs less than the debate about it: the MySpawn kit is $99, once, stored at an independent accredited biorepository, and recording your first Memory Vault video takes thirty seconds.*
+*Keeping the option open costs less than the debate about it: the MySpawn kit is $99 a year, billed annually, stored at an independent accredited biorepository, and recording your first Memory Vault video takes thirty seconds.*
 
 ---
 
@@ -87,3 +87,7 @@ Three decision-neutral moves: record the people you love (video beats everything
   ]
 }
 ```
+
+---
+
+**Correction, 4 October 2026.** An earlier version of this article described MySpawn DNA storage as "$99, once." **MySpawn storage is $99 per year, billed annually**, with the first 1,000 members locking the founding rate. The price strings have been corrected. **Nothing else in the article changes: no argument here rested on the fee being one-time**, which is why the fix is a string fix rather than a rewrite. The error dates from before the 25 August 2026 pricing correction and survived in this file for forty days.
