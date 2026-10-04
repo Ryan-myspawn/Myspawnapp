@@ -265,3 +265,26 @@ Last night's Content Factory PM run probed Gmail twice and its outbox digest rec
 **THE THREE-STEP FIX, THIRTY-FIFTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
 
 **Catch-up plan unchanged and not re-litigated:** `newer_than:30d` sweep, **ONE** digest rather than thirty-five, oldest-first triage, **personal rather than templated replies for anything older than a week.**
+
+## 2026-10-04, 04:08 UTC: NO TRIAGE. Gmail day 36.
+
+**Probe result, and the CATEGORY CHANGED today.** `mcp__Gmail__search_threads` was called and returned **"No such tool available"**. A follow-up tool search for the Gmail schemas returned **"No matching deferred tools found"**. **The tool schemas did not load at all.**
+
+**This is TOOLS-NOT-LOADABLE, not a false recovery.** **Tools-not-loadable tally: FOUR. False-recovery tally: twenty-five, unchanged.**
+
+**The distinction is recorded carefully because it was recorded wrongly in the other direction twenty-four hours ago.** Yesterday this file corrected the Content Factory PM digest, which had logged two tools-present-call-refused probes as "tools not loadable". **Today's probe is the genuine article: the schemas are absent from the session, not present and refusing.** **The two tallies now stand at twenty-five and four, and both numbers mean something different about what is broken.**
+
+**Threads read: 0. Drafts created: 0. Automated mail ignored: unknown, because the inbox could not be opened.** **No count is invented.**
+**No rule bent:** nothing sent, nothing deleted, nothing marked spam, no correspondent detail recorded anywhere. **Digest written to `reports/outbox/` instead, as every undeliverable digest has been for thirty-six days.**
+
+### THE DEADLINE NAMED YESTERDAY IS TONIGHT
+
+Yesterday this file said: **"If the connector is not restored by Sunday evening, Issue 6 misses its slot."** **Today is Sunday.** **Newsletter Issue 6 is scheduled for tomorrow, Monday 5 October, 9:00am ET.**
+
+**Nothing about that needs re-arguing and the queue is not reopened.** The decision was settled on 1 October: **Issue 6 first because its lead carries no date dependency, Issue 7 a clear week later, Issues 3 and 4 held.** **That remains correct whether or not tomorrow's slot is met.**
+
+**What IS worth stating once: Issue 6 will survive missing it.** It survived three weeks of delay intact for the same reason it was put first, which is that **a research-resource closure and an egress rebuild are as true in October as they were in September.** **The eleventh missed send costs the queue nothing it has not already paid.** **That is a fact about Issue 6's construction, not a reason to relax about the connector**, and the 1 October lesson stands: until the connector is restored, **every issue should be written so that a three-week delay costs it nothing.**
+
+**THE THREE-STEP FIX, THIRTY-SIXTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**Catch-up plan unchanged and not re-litigated:** `newer_than:30d` sweep, **ONE** digest rather than thirty-six, oldest-first triage, **personal rather than templated replies for anything older than a week.**
