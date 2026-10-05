@@ -324,3 +324,25 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **THE THREE-STEP FIX, THIRTY-SEVENTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
 
 **Catch-up plan unchanged and not re-litigated:** `newer_than:30d` sweep, **ONE** digest rather than thirty-seven, oldest-first triage, **personal rather than templated replies for anything older than a week.**
+
+### ADDENDUM 2026-10-05, 10:15 UTC: GMAIL CAME BACK AND REFUSED. FALSE RECOVERY TWENTY-SIX. And the tool surface that appeared is missing the one tool every trigger depends on.
+
+**Six hours after this morning's entry, the Gmail tool surface loaded.** Gmail left the needs-authentication list, **23 Gmail tools were advertised**, and `search_threads` and `create_draft` returned **full schemas**.
+
+**`search_threads` was then called with a read-only query (`in:inbox newer_than:2d`, metadata view, 5 threads) and returned "needs you to sign in again." The server then disconnected.**
+
+**Category: FALSE RECOVERY. Tally: TWENTY-SIX.** Tools-not-loadable stays at five. **The outage has now produced both categories within a single day**, which the 27 September entry predicted when it concluded the pattern is variance rather than progression.
+
+### THE NEW FINDING, AND IT OUTLASTS TODAY'S OUTAGE
+
+**The advertised Gmail surface contains NO SEND TOOL.** The 23 tools offered were: `search_threads`, `get_thread`, `get_message`, `create_draft`, `get_draft`, `list_drafts`, `create_label`, `list_labels`, `label_message`, `label_thread`, `unlabel_message`, `unlabel_thread`, `update_message_labels`, `apply_sensitive_message_label`, `apply_sensitive_thread_label`, `mark_message_spam`, `mark_thread_spam`, `unmark_message_spam`, `unmark_thread_spam`, `trash_message`, `trash_thread`, `untrash_message`, `untrash_thread`.
+
+**There is no `send_message` and no send tool of any kind in that list.**
+
+**Why that matters beyond today: every trigger in this fleet specifies delivery as "email via Gmail send_message".** The Concierge, the Content Factory, the Production pack, the Founder Brief, the SEO Rank Tracker, the SEO Writer, the Competitor Watch and the Calendar Sentinel all end on that instruction. **If the surface that eventually stays up is the one seen today, authorization alone does not restore sending.**
+
+**STATED WITH ITS LIMIT, because overclaiming here would be worse than useless: the surface seen today may be partial, and a different or fuller set may appear on a later load.** **What is recorded is exactly what was advertised in this session, nothing inferred about Google's API or about what the connector could expose.**
+
+**WHAT IT CHANGES PRACTICALLY. `create_draft` WAS advertised.** If reads and drafts come back but sending does not, **the Concierge's core job still works**, because its hard rule was always drafts-only and never sending. **The digests are the part that breaks**, and the honest fallback for those is the one already in use: write to `reports/outbox/` and tell the founder where to find them. **Nothing about this is a reason to route around the connector**, and this morning's decision on the Zapier route stands unchanged.
+
+**THE THREE-STEP FIX IS UNCHANGED, and today is evidence for step 2 rather than against it.** Tools loaded and authorization failed inside the same session, which is exactly the failure a **new session** re-runs. **Thirty-eighth asking.**
