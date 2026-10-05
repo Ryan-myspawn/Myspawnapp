@@ -20,7 +20,7 @@
 - **Threat:** low commercially (five-figure+ commitments, different buyer), high narratively: cryonics headlines shape the "preserve yourself" conversation we ride; US expansion raises the narrative volume domestically.
 
 ### CellSave
-- Cord-blood/newborn stem-cell banking heritage brand; no fresh consumer-DNA-legacy motion found this run. **Watch item only.**
+- Cord-blood/newborn stem-cell banking heritage brand. **UPDATED 2026-10-05 after deep-dive #31: NO public consumer-market signal findable via general search, checked 5 October 2026.** A direct pricing and operations search returned the category (Cord Blood Registry, Cryo-Cell, hospital explainers) and **zero CellSave-specific results.** **The previous line read "watch item only", which implied we were watching something visible. We are not.** Revisit only if the name surfaces in a sweep on its own.
 
 ### New entrants / funeral-industry DNA offerings
 - Nothing new found this run beyond SecuriGene's funeral-home footprint. Watch for legacy-box startups bundling DNA cards.
@@ -128,6 +128,32 @@
   **Posture: never name any of these companies to sell against them**, and now doubly so, because two of the four are doing fine. **Threat level: none. Citation value: the aggregate claim is dead; the demand observation is high.**
 
   **Next dive: You, Only Virtual**, the last of the four whose status we have never checked directly, and the only one that could still be a genuine failure.
+
+- **2026-10-05:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. **No watch file written, per quiet-day discipline.** No email (**Gmail day 38, false recovery twenty-six this morning**; log-only).
+
+  **THREE NON-DELTAS WORTH RECORDING, because two of them are repeat offenders.**
+
+  **(1) THE TOMORROW.BIO SEED SURFACED FOR THE THIRD TIME, and one result dated itself.** The €5 million seed round came back again in today's funding sweep. **One of today's results states plainly that "the last funding was announced in May 2025."** This file corrected that item on 3 October as sixteen months stale after it had already been logged once before. **Third surfacing. It belongs on the stale-item register permanently: any Tomorrow.Bio funding result is the May 2025 seed until proven otherwise.**
+
+  **(2) AN ACORN CONTRADICTION THAT IS NOT ONE, reconciled rather than left sitting.** Today's sweep returned **"Acorn Biolabs secures $11 million"** (BetaKit headline) and **"more than US$8 million in Series A funding led by Merz Aesthetics", dated 29 May 2024** (press release). Those look like conflicting numbers and are not: **this file already holds "~$11.3M total equity"**, so the **$8M is the Series A specifically and the ~$11M is cumulative equity across rounds.** **Recorded so a future run does not log it as a discrepancy or, worse, as a new raise.**
+
+  **(3) THE NUCLEUS EMBRYO-LONGEVITY CONTROVERSY IS FOUR MONTHS OLD.** Today's radar surfaced a live-reading backlash over embryo selection by predicted life expectancy at **$6,000**, with "eugenics" and "baby catalog" framing and the note that the practice is illegal across most of Europe. **The source carrying it is dated 7 June 2026.** The company is already in ten files here. **Non-delta, and a rerun rather than a finding.**
+
+  **DEEP-DIVE #31: CELLSAVE, AND THE DIVE'S FIRST FINDING IS THAT THE COMPANY IS NOT FINDABLE.**
+
+  **CellSave came up in the rotation as the oldest unrevisited entry.** Its baseline line has read **"cord-blood/newborn stem-cell banking heritage brand; no fresh consumer-DNA-legacy motion found this run. Watch item only"** since it was written, and it has never been revisited.
+
+  **A direct search for CellSave pricing and current operations returned the CATEGORY and not the COMPANY.** Cord-blood price guides, Cord Blood Registry, Cryo-Cell's fiscal Q1 2026 results, hospital health-library explainers. **Zero CellSave-specific results.** **That is the honest output of the dive and it is being recorded as such rather than padded with category data dressed as company data.** **Recommendation: CellSave's baseline line should say "no public consumer-market signal findable via general search, checked 5 October 2026" instead of "watch item only", which implies we are watching something that is visible.**
+
+  **WHAT THE CATEGORY DATA IS GENUINELY WORTH, kept separate from the company that could not be found.**
+
+  **US cord-blood banking runs roughly $1,000 to $3,500 upfront plus roughly $100 to $400 a year** *(consumer price guides, 2026, directional rather than filed)*. **Cord Blood Registry's published structure is the useful artifact: about $1,795 upfront with $400 a year, OR about $7,385 for eighteen years with no yearly fees, OR about $11,385 upfront for lifetime storage** *(as reported in a 2026 consumer price guide; not confirmed against CBR's own page, and the sweep could not establish whether the prepaid figures include the upfront fee: DO NOT quote the arithmetic, only the structure)*.
+
+  **THE TACTIC WORTH COUNTERING, and it sharpens a position this file has held since 21 August.** This file's standing note says **SecuriGene can truthfully say "no annual fee" and we cannot and must not.** The CBR structure shows the same category **selling both models side by side and pricing the no-annual-fee option as a PREPAYMENT in the thousands.**
+
+  **So the honest counter is not "annual is better." It is that "no annual fee" always means one of two things, and the buyer should be told which: either you PREPAID it, or somebody stopped being paid to look after it.** In cord blood the prepayment is explicit and on the price list. **That framing is defensible, does not require us to disparage a competitor's genuine structural advantage, and does not depend on an arithmetic we could not verify.**
+
+  **DO NOT SHIP THIS AS COPY WITHOUT CONFIRMING CBR'S FIGURES AGAINST CBR'S OWN PAGE.** The structural argument survives without any number; the moment a number appears in an asset, it needs a primary source.
 
 - **2026-09-20:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth or Empathy. Sweeps returned only baseline material (Acorn's Fast Company 2026 listing and secretome scaling; Nucleus's March 2026 India and Middle East expansion; **StoryWorth's own reported totals of more than one million books printed and around 35 million stories collected**, newly noted and undated: **date before citing**). **No watch file written**, per quiet-day discipline. No email (**Gmail day 21**; log-only).
 
