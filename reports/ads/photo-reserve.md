@@ -470,3 +470,26 @@ None. The single photo used today was sourced fresh, for the ninth consecutive d
 **FINDING TWO, and it is new. THE GREP IS NOW KILLING IDEAS ON BRAND POSITION, NOT ONLY ON REPETITION.** The substitute object chosen after the jar died was **something frozen in clear ice**. The repetition check killed it at nine days against Ad_ColdIsNotTheOnlyWay_157. **The second kill is the one worth recording: longpost #49 and the 6 September explainer are both built on the fact that we deliberately do NOT freeze DNA, so ice as our metaphor for safekeeping would have contradicted a position we have published and defended twice.** **No repetition rule would have caught that. Reading what the prior entries ARGUE, not just which objects they used, is what caught it**, and that is a cheap addition to a grep that is already being run.
 
 **AND THE REASON THE RESERVE DID NOT HELP TODAY, stated plainly.** Nine rows were banked on 1 and 3 October and **not one of them could carry today's concept**: four are matches, two are dark industrial hardware under a cooldown that runs to 9 October, two are doors, and the best photograph in the bank (`L0Zyjihp6Ck`, the 1942 leather case) is held on the luggage family until about 8 October. **A reserve banked against yesterday's brief does not answer today's.** That is not an argument against the reserve. **It is the argument for the sourcing-only run, which would bank against FAMILIES rather than against a brief, and which is now at its eighteenth asking.**
+
+
+## CONSUMED 2026-10-05
+- `BuMVDXZTGn0` basement interior with one lit table (Jonny Clow @jonnyclow) -> Ad_ScreeningIsATest_179. **Row removed from the 30 September bank below by this note.**
+
+## CORRECTION 2026-10-05: THE 30 SEPTEMBER ENTRY FOR `BuMVDXZTGn0` WAS WRONG
+**It was banked at alt-text level as "Stacked chairs and tables in a dark basement room; abandonment register, only usable where that is the point."**
+**The photograph contains no stacked chairs and is not an abandonment picture.** It is **a vast empty concrete hall with ONE small lit folding table, papers on it, four chairs**, everything else dark. **It is an institutional-scale picture, not a derelict one, and it was consumed today for exactly that quality.**
+**This is the 25 September rule for the fourth time: an alt names the SUBJECT and not the FRAME.** **Every row in this file banked at alt-text or thumbnail level should be read as a HYPOTHESIS about the photograph, not a description of it.**
+
+## HOLDS THAT EXPIRED TODAY, 2026-10-05 (checked, available, NOT consumed)
+These were verified available this run and deliberately not used, because **none of them carries today's commissioned headline and a photo that does not earn its concept is a generic stock pairing the mandate forbids by name.** Recorded so the next run does not re-derive their availability.
+| ID | Subject | Photographer | Raw URL | WxH | Status |
+|---|---|---|---|---|---|
+| 60NulquhzoI | Black transmission tower, PORTRAIT, clean sky | Severin Demchuk (@sdmk) | https://images.unsplash.com/photo-1504250746301-659b6b611c48 | 4000x6000 | **HOLD EXPIRED 5 Oct. Downloaded and eyeballed today: clean, no faces, no text, strong silhouette. BUT bright teal and pink, needs heavy darkening, and the palette fights our navy.** Also: **Ad_167 and Ad_172 already own the infrastructure argument**, so it needs a headline that is not "hardware you never look at" |
+| bFMwQb6YRU8 | Utility pole silhouette at sunset, PORTRAIT | Filipe Paulo (@fpaulo2k1) | https://images.unsplash.com/photo-1517358133568-31ec5656304e | 4000x6000 | **HOLD EXPIRED 5 Oct.** Same family caveat |
+| h0z0ptvGVR8 | Electric towers, landscape, already dark #262626 | Alexandru Boicu (@boiq) | https://images.unsplash.com/photo-1572211281255-bb9fd6f3ca0e | 6016x4016 | **HOLD EXPIRED 5 Oct.** The darkest of the three and the easiest to composite |
+| GPjdFjD8X0s | Old stone bridge, Oland, base color #264026 | Jonas Gold (@goldlife) | https://images.unsplash.com/photo-1604243993256-872be65557ac | 4032x3024 | **HOLD EXPIRED 5 Oct** |
+| 0-IKoef3Ukw | Knotted rope, very dark #262626, near-square | Tim Boote (@toboote) | https://images.unsplash.com/photo-1451994860973-8f9242f631b5 | 3820x3056 | **HOLD EXPIRED 4 Oct** |
+| 34shxWFCAh8 | Grayscale rope, light, needs heavy darkening | Saskia van Manen (@saskiaworldwide) | https://images.unsplash.com/photo-1519142891393-97f6fce43ee4 | 4592x3064 | **HOLD EXPIRED 4 Oct** |
+| Mh9m3kKBO9Y, hQInliiNf9M, kAIB9RXFdyM | Three weathered tree stumps, rings and lichen | James Wainscoat (@tumbao1949), Haberdoedas (@haberdoedas) | (see 26 September bank) | 5142 to 5464 square | **BOTANICAL HOLD EXPIRED 1 October.** Four days available and unused |
+
+**THE COUNT THAT MATTERS: ten reserve photographs are available right now and none of them was used, because the run had ONE commissioned headline and a photograph must earn its concept.** **That is the argument for the sourcing-only run in one line: the reserve is not shallow, it is unmatched to the briefs, because it was banked against briefs instead of against families.** **Nineteenth asking.**
