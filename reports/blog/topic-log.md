@@ -63,6 +63,19 @@
 
 Note 2026-08-25: the `23andme-alternative` article (queued for Aug 24, skipped in the processing gap) was written today instead with a fresher peg (July 14, 2026 multistate settlement); the queue shifts one day. PRICING: all articles from today forward use $99/year (annual fee): the pre-Aug-25 archive still contains the old one-time framing and needs a correction pass before republishing/promotion (founder to confirm which articles are live).
 
+### Added 2026-10-05 by the rank tracker (volumes unverified, SIXTH consecutive week with no Semrush data)
+**These carry NO volume and NO difficulty figures. They are editorial judgment about search intent, not data. Re-validate every one when Semrush units return, and DROP any with no volume rather than writing the article to justify the queue entry.** Each was checked this run against all 47 published slugs and against this log.
+**Context for whoever reads this next: the 28 September and 14 September rank-tracker picks are ALL published. This block is currently the whole rank-tracker queue.**
+1. **do hospitals keep newborn blood samples** (Guthrie card / newborn blood spot retention) : lane (d). **Rank tracker's #1 pick.** Real and surprising answer, varies by state, **and we already own the underlying material**: Guthrie-card longevity is the receipt behind our ambient-storage position. "Guthrie" and "blood spot" return ZERO across all 47 articles. Reaches **parents**, an audience the published set barely addresses.
+2. **what to do with a parent's DNA results after they die** : lane (a). **Distinct from `who-inherits-your-dna-testing-account`**, which is about the account; this is about data the family already holds.
+3. **how to confirm a DNA company destroyed your sample** : lane (d). The verification question nothing published answers. **Supported by the 2023 FTC order surfaced 1 October**, where a company failed to destroy samples it had promised to destroy.
+4. **DNA testing without consent** : lane (d). Legally live and uncovered; returns zero across the published set.
+5. **can a DNA sample be re-tested years later** : lane (b). **The load-bearing claim of our own product, and we have never written the article.** **Adjacency disclosed: `how-to-preserve-your-dna` has one clause on family re-testing, which is a mention inside another article, not coverage.**
+6. **how to write a letter to your future child** : lane (c). **Adjacency disclosed: `letter-to-future-grandchildren` exists.** Different audience, nearer horizon. **Queued WITH a cannibalization check attached, not queued clean.**
+7. **what is a biological will** : lane (d). **Flagged as the least certain of the seven and listed last on purpose. Drop it first if units return and the volume is not there.**
+
+**DELIBERATELY NOT PROPOSED, for rules rather than taste:** anything in the **military or government-biobank lane** (retired); **pet DNA preservation** (plausible volume, off-product); **embryo-in-divorce terms** (the gamete rail, where we must never imply MySpawn addresses reproductive risk).
+
 ### Added 2026-09-28 by the rank tracker (volumes unverified, no Semrush data)
 **These carry NO volume and NO difficulty figures. They are editorial judgment about search intent, not data. Re-validate every one when Semrush units return, and DROP any with no volume rather than writing the article to justify the entry.**
 1. **who owns your dna after you die** : lane (d). The plainest phrasing of the question our custody positioning answers, and nothing in the published set targets it directly. **Rank tracker's #1 pick.**
