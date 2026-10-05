@@ -288,3 +288,39 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **THE THREE-STEP FIX, THIRTY-SIXTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
 
 **Catch-up plan unchanged and not re-litigated:** `newer_than:30d` sweep, **ONE** digest rather than thirty-six, oldest-first triage, **personal rather than templated replies for anything older than a week.**
+
+---
+
+## 2026-10-05 (Monday, 04:08 UTC): GMAIL DAY 38. Inbox not opened. And today the run checked whether a way AROUND the connector exists, found one, and did not take it.
+
+**Probe result: `mcp__Gmail__*` schemas are ABSENT.** A tool search for Gmail search, thread and draft tools returned **no Gmail tools at all**: only three Zapier tools whose descriptions happen to mention Gmail.
+
+**Category: TOOLS-NOT-LOADABLE, same as yesterday. Tally: FIVE. False-recovery tally: twenty-five, unchanged.** Two consecutive days in the same category, which is the first time this outage has repeated a category back to back rather than alternating.
+
+**Threads read: 0. Drafts created: 0. Automated mail ignored: unknown, because the inbox could not be opened. No count is invented.**
+**No rule bent:** nothing sent, nothing deleted, nothing marked spam, no correspondent detail recorded anywhere.
+
+### THE NEW THING TODAY, AND IT IS A DECISION NOT TO ACT
+
+**A second route to Gmail exists in this session.** The Zapier connector is authorized and advertises Gmail actions through `GoogleMailV2CLIAPI`, including reading threads and creating drafts. **It was checked and it was not used.**
+
+**What the check found, exactly.** `inspect_zapier_actions` with no arguments returned **`{"apps":[]}`**: **zero actions enabled and no connected accounts.** Reaching Gmail through Zapier would therefore have required **provisioning a connection and enabling actions first**, which is a configuration change to the founder's Zapier account.
+
+**THREE REASONS IT WAS NOT DONE, in order of weight.**
+1. **It is an outward action nobody asked for.** The standing instruction names **Gmail MCP tools** specifically. Connecting a second service to the founder's mailbox is not an implementation detail of that instruction; it is a different decision, and it belongs to the founder.
+2. **It would have widened access rather than restored it.** The broken thing is one connector's authorization. The fix proposed here would have been a new integration holding mailbox credentials, standing after today's run ended.
+3. **It could not have been done read-only.** The account has nothing enabled, so there was no existing narrow permission to borrow. Every version of this route starts with provisioning.
+
+**WHAT THE FOUNDER SHOULD TAKE FROM IT: the route exists and it is one decision away.** If routing the Concierge through Zapier is wanted, say so and it can be set up. **Until then the answer to "why has this run produced nothing for thirty-eight days" is that the one sanctioned path is closed, and the unsanctioned one was found, examined and left alone on purpose.**
+
+### THE DEADLINE NAMED ON FRIDAY AND AGAIN YESTERDAY ARRIVES TODAY
+
+**Newsletter Issue 6 is scheduled for TODAY, Monday 5 October, 9:00am ET.** Gmail is the send path. **It is day 38.**
+
+**No re-argument, and the queue is not reopened.** Yesterday's entry already said the useful part: **Issue 6 will survive missing it**, because it was built so a three-week delay costs it nothing, and **the eleventh missed send costs the queue nothing it has not already paid.**
+
+**What is worth adding once, and only because today is the day: the count stops being a count at some point and becomes a description of the product.** Eleven missed sends is no longer a backlog of eleven emails. **It is a newsletter that has not shipped since August**, and the honest way to describe it to anyone outside this operation is that we do not currently have one. **Recorded as a fact, not as pressure.**
+
+**THE THREE-STEP FIX, THIRTY-SEVENTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**Catch-up plan unchanged and not re-litigated:** `newer_than:30d` sweep, **ONE** digest rather than thirty-seven, oldest-first triage, **personal rather than templated replies for anything older than a week.**
