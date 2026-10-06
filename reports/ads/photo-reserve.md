@@ -493,3 +493,14 @@ These were verified available this run and deliberately not used, because **none
 | Mh9m3kKBO9Y, hQInliiNf9M, kAIB9RXFdyM | Three weathered tree stumps, rings and lichen | James Wainscoat (@tumbao1949), Haberdoedas (@haberdoedas) | (see 26 September bank) | 5142 to 5464 square | **BOTANICAL HOLD EXPIRED 1 October.** Four days available and unused |
 
 **THE COUNT THAT MATTERS: ten reserve photographs are available right now and none of them was used, because the run had ONE commissioned headline and a photograph must earn its concept.** **That is the argument for the sourcing-only run in one line: the reserve is not shallow, it is unmatched to the briefs, because it was banked against briefs instead of against families.** **Nineteenth asking.**
+
+## BANKED 2026-10-06 (lane LIVE, rung (a); yield was a CLUSTER, not a spread)
+| ID | Subject | Photographer | Raw URL | Native | Status |
+|---|---|---|---|---|---|
+| NQZbP9UHxoc | Large warehouse of stacked boxes, already dark (#260c0c) | Xu Guo (@bitterguard) | https://images.unsplash.com/photo-1635468609223-4e59675ac96d | 4000x4000 | **USABLE, new family. NOT yet opened at full resolution: this row is a hypothesis about a photograph, not a description of one.** |
+| kXFg4q18IOQ | Tightly packed library shelves, Stockholm, #262626 | Jack Bodine (@jackbodine) | https://images.unsplash.com/photo-1772452591742-711023a30e09 | 5988x5988 | **HOLD until 2026-10-11**: same bookshelf family as Ad_HowManyStudies_164 (27 Sep). |
+| C7h2_bSPPjc | Yle sound archive, tape library | Yle Archives (@ylearchives) | https://images.unsplash.com/photo-1691334690767-41b6a9e578aa | 4888x5166 | **NOT FOR PAID. A person is in frame handling tapes.** Organic only, if ever. |
+
+**CONSUMED 2026-10-06: `YmGmv_UUhq4` on Ad_NotForHowItWent_180.** **Its reserve description was WRONG for the fifth time in this file's history: it is a film magazine exposure log, not an index card holder, and the error changed which risk mattered.** The briefed risk was legible handwriting; **the actual risk was printed signage, "MAGAZINE NO.", which had to be cropped out of the vertical at visual verify.**
+
+**NOT BANKED, deliberately: `TjNCLm_qCBg` "a box of old metal type" (Michael Tutino @m2tno).** It passed every visual rail and was killed on an eight-day hook repeat. **Banking a hook we cannot use for several weeks is how this file fills with photographs that will be rejected again.**
