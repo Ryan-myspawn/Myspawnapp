@@ -346,3 +346,24 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **WHAT IT CHANGES PRACTICALLY. `create_draft` WAS advertised.** If reads and drafts come back but sending does not, **the Concierge's core job still works**, because its hard rule was always drafts-only and never sending. **The digests are the part that breaks**, and the honest fallback for those is the one already in use: write to `reports/outbox/` and tell the founder where to find them. **Nothing about this is a reason to route around the connector**, and this morning's decision on the Zapier route stands unchanged.
 
 **THE THREE-STEP FIX IS UNCHANGED, and today is evidence for step 2 rather than against it.** Tools loaded and authorization failed inside the same session, which is exactly the failure a **new session** re-runs. **Thirty-eighth asking.**
+
+---
+
+## 2026-10-06 (Tuesday, 04:08 UTC): GMAIL DAY 39. FALSE RECOVERY TWENTY-SEVEN. Inbox not opened.
+
+**Probe: the Gmail tools loaded with full schemas** (`search_threads`, `create_draft` and a label tool all returned complete definitions). **`search_threads` was then called with the standard read-only triage query (`in:inbox newer_than:1d`, 25 threads, minimal view) and returned "needs you to sign in again." The server disconnected afterward.**
+
+**Category: FALSE RECOVERY. Tally: TWENTY-SEVEN.** Tools-not-loadable stays at five. **Second consecutive day in this category**, after two consecutive days in the other one over the weekend. **The alternation continues to look like variance rather than progression, which is the 27 September diagnosis unchanged.**
+
+**Threads read: 0. Drafts created: 0. Automated mail ignored: unknown, because the inbox could not be opened. No count is invented.**
+**No rule bent:** nothing sent, nothing deleted, nothing marked spam, no correspondent detail recorded anywhere.
+
+**NOT RE-ASSERTED TODAY: the missing-send-tool finding.** Yesterday's entry recorded that the full 23-tool surface contained no send tool, with its limit stated. **Today only three tools were requested, so today's probe says nothing about the full surface and is not offered as confirmation.** **The 5 October record stands exactly as written.**
+
+**CONTEXT, recorded without being turned into a tally: thirteen MCP servers hit CONNECT_TIMEOUT in this session's startup today**, including several with nothing to do with Google. **That is a broader infrastructure wobble and it is noted so a future run does not read today's Gmail failure as necessarily the same fault as yesterday's.**
+
+**NEWSLETTER: Issue 6's slot passed yesterday unsent. That is the ELEVENTH missed send.** Issue 7 is scheduled for Thursday 8 October and Gmail is the send path for both. **Not re-argued: the 4 October entry already said Issue 6 was built to survive delay.** The fact now worth repeating once a week rather than once a day is that **a newsletter that has not shipped since August is not a backlog, it is an absence.**
+
+**THE THREE-STEP FIX, THIRTY-NINTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**Catch-up plan unchanged:** `newer_than:30d` sweep, **ONE** digest rather than thirty-nine, oldest-first triage, **personal rather than templated replies for anything older than a week.**
