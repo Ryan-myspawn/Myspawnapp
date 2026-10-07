@@ -367,3 +367,24 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **THE THREE-STEP FIX, THIRTY-NINTH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
 
 **Catch-up plan unchanged:** `newer_than:30d` sweep, **ONE** digest rather than thirty-nine, oldest-first triage, **personal rather than templated replies for anything older than a week.**
+
+---
+
+## 2026-10-07 (Wednesday, 04:10 UTC): GMAIL DAY 40. TOOLS NOT LOADABLE, SIX. Inbox not opened.
+
+**Probe, and the distinction from yesterday is the point of recording it.** A tool search on `gmail search threads create draft` returned **no Gmail tool at all**: the four results were Todoist, two Adobe tools and a Google Ads tool. **A second probe by exact name, `select:mcp__Gmail__search_threads,mcp__Gmail__create_draft,mcp__Gmail__send_message`, returned "No matching deferred tools found."** **Gmail is in this session's needs-authentication list and its tool surface is not callable.**
+
+**Category: TOOLS NOT LOADABLE. Tally: SIX.** False recovery stays at twenty-seven. **Yesterday was the opposite state: the tools loaded with full schemas and the call was refused.** **Those are two different faults and the distinction is kept because this operation has twice been wrong by collapsing them.**
+
+**The alternation is now four days deep and still looks like variance rather than progression**, which is the 27 September diagnosis unchanged. **It is not offered as a trend.**
+
+**Threads read: 0. Drafts created: 0. Automated mail ignored: UNKNOWN, because the inbox could not be opened. No count is invented.**
+**No rule bent:** nothing sent, nothing deleted, nothing marked spam, nothing drafted, no correspondent detail recorded anywhere.
+
+**WHAT CANNOT BE SAID TODAY, stated so a future run does not read more into this entry than it holds.** **Today's probe asked for three tools by name and got none, so it says nothing about how many tools the Gmail surface would expose if it loaded**, and in particular **it is not confirmation of the 5 October finding that the full 23-tool surface contained no send tool.** **That record stands exactly as written on 5 October and is not re-asserted here.**
+
+**NEWSLETTER: Issue 7 is scheduled for TOMORROW, Thursday 8 October, and Gmail is its send path.** Issue 6's slot passed on 5 October unsent, the eleventh miss. **On the evidence of forty days, Issue 7 will be the twelfth unless the connector is reconnected today.** **Said once, not re-argued: a newsletter that has not shipped since August is not a backlog, it is an absence.**
+
+**THE THREE-STEP FIX, FORTIETH ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
+
+**Catch-up plan unchanged:** `newer_than:30d` sweep, **ONE** digest rather than forty, oldest-first triage, **personal rather than templated replies for anything older than a week.**
