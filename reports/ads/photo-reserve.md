@@ -504,3 +504,14 @@ These were verified available this run and deliberately not used, because **none
 **CONSUMED 2026-10-06: `YmGmv_UUhq4` on Ad_NotForHowItWent_180.** **Its reserve description was WRONG for the fifth time in this file's history: it is a film magazine exposure log, not an index card holder, and the error changed which risk mattered.** The briefed risk was legible handwriting; **the actual risk was printed signage, "MAGAZINE NO.", which had to be cropped out of the vertical at visual verify.**
 
 **NOT BANKED, deliberately: `TjNCLm_qCBg` "a box of old metal type" (Michael Tutino @m2tno).** It passed every visual rail and was killed on an eight-day hook repeat. **Banking a hook we cannot use for several weeks is how this file fills with photographs that will be rejected again.**
+
+## BANKED 2026-10-07 (lane LIVE, rung (a); yield was a CLUSTER again, all three on one hold)
+| ID | Subject | Photographer | Raw URL | Native | Status |
+|---|---|---|---|---|---|
+| fp-wJCFjfAU | Dark abandoned room, light from above, already dark (#404040) | Aditya Varma (@justvarma) | https://images.unsplash.com/photo-1764299924215-72b28b181fba | 2886x2885 | **HOLD until 2026-10-12**: same dark-abandoned-interior family as Ad_ScreeningIsATest_179 (5 Oct). **Strong future earn for dormancy or abandonment. NOT opened at full resolution.** |
+| gVg4q3fQsSA | Empty room, Angel Island abandoned buildings, light, needs heavy darkening | Ronan Furuta (@ronan18) | https://images.unsplash.com/photo-1643088219661-e1260c10c8fd | 6779x6779 | **HOLD until 2026-10-12**, same family. Very large native. **NOT opened at full resolution.** |
+| 2BGyzcSxWoA | Ladder against a wall beside a window, base #0c260c | Yuri Krupenin (@cubeofwood) | https://images.unsplash.com/photo-1699987230548-fb44838019d2 | 4754x4754 | **HOLD until 2026-10-12**, same family, **but the ladder is a distinct object and may clear earlier for an ACCESS concept rather than an abandonment one.** **NOT opened at full resolution.** |
+
+**CONSUMED 2026-10-07: `bljLnIUDl2Y` on Ad_TheRuleYouAssumedExists_181.** Hold had expired 22 September and was checked rather than assumed. **Its reserve description was ACCURATE for once, and it undersold the photo: the room is walled floor to ceiling in hundreds of numbered drawers, and the crop excludes three open drawers containing documents so that no handwriting can be legible at any resolution.**
+
+**REFUSED AND DELIBERATELY NOT BANKED: `Y7M4LwBd72Q`, described by its own author as "Abandoned Insane Asylum".** **Refused on REGISTER, not on repetition.** **A brand about biological custody does not borrow the visual language of institutional psychiatry, and no crop fixes what the description says.** **Recorded so a future run does not surface it and spend the same minutes deciding again.**
