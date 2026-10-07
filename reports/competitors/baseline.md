@@ -129,6 +129,32 @@
 
   **Next dive: You, Only Virtual**, the last of the four whose status we have never checked directly, and the only one that could still be a genuine failure.
 
+- **2026-10-07:** **Fully quiet, all four lanes, third consecutive day.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. **No watch file written, per quiet-day discipline.** No email (**Gmail day 40, tools not loadable, tally six**; log-only).
+  **The embryo-screening sweep returned one dated item and it is thirteen months old:** a law-firm "Nucleus and Orchid embryo testing investigation" page, **slug-dated 8 September 2025.** Not news, not logged as an event.
+
+  **BOOKKEEPING ERROR IN THIS FILE, FOUND TODAY: THE DEEP-DIVE COUNTER HAS TWO #31s.** **26 September is labelled "deep-dive #31: SECURIGENE / DNA MEMORIAL" and the CellSave line in section 1 is labelled "after deep-dive #31", dated 5 October.** Several dives between them carry no number at all. **The running count is therefore not reliable and should not be cited as a total.** **Fix adopted rather than proposed: dives are identified by DATE from today onward. Today's is labelled #33 only because the file's last label was #32, and that number is not evidence of how many dives have happened.** No retroactive renumbering: rewriting thirty labels to fix a counter nobody needs is how a second error gets introduced.
+
+  **A NAMED NEXT-DIVE WAS SKIPPED ON 6 OCTOBER AND IS HONOURED TODAY.** The 5 October entry ended "Next dive: You, Only Virtual, the last of the four whose status we have never checked directly, and the only one that could still be a genuine failure." **6 October spent the slot on Empathy instead, which it earned, but the named pick was dropped silently.** **Recorded so the pattern does not repeat: a named next-dive is either done or explicitly deferred.**
+
+### 2026-10-07 deep-dive (#33 by the file's last label): YOU, ONLY VIRTUAL, and it closes a thread that has been running since September
+
+**THE FINDING, AND IT POINTS AGAINST US: You, Only Virtual is operating. It is not a failure.**
+
+- **It rebranded.** As of **April 2025** the tagline is reported as **"Versonas: Legacy Through Technology"**, and the product is a "Versona", an AI personality built from text messages, voice recordings and video chats.
+- **It has a current product line.** **Versona Voice**, which generates AI phone calls in a deceased person's voice.
+- **It is treated as an established vendor in 2026 academic literature**, named alongside HereAfter.ai and StoryFile in work on AI grief technologies.
+- **Founder: Justin Harrison**, who has publicly tied the company's origin to his mother's stage-4 cancer diagnosis. *(Public, repeatedly self-reported; recorded as context, and this file does not build content on a named individual's family illness.)*
+
+**SO THE FOUR-COMPANY THREAD IS NOW CLOSED, FOUR OF FOUR, AND THE AGGREGATE CLAIM IS DEAD.** This file spent weeks able to say that grief-tech and digital-afterlife companies were failing. **Checked directly, two were fine, one was contested, and the last candidate for a genuine failure turns out to have rebranded and shipped a new product.** **No asset may use "these companies die" as a claim. The demand observation stands; the mortality claim does not.**
+
+**A MARKET-SIZE FIGURE SURFACED AND IS REFUSED UNDER OUR OWN STANDING RULE.** The sweep returned **a digital-afterlife market projected at $80 billion by 2034, up from roughly $22 billion in 2024.** **Deep-dive #29 (24 September) established that no asset may quote a category market-size number, and that rule is applied here rather than re-argued.** **Not banked, not quoted, recorded only as the reason it is not.**
+
+**ONE GENUINELY NEW WATCH ITEM, labelled honestly.** Two journal articles on AI grief technologies surfaced, one on **framings and portrayals of "normal" grief** and one on **principles of CONSENT and NON-ADDICTION in AI grief bots** *(both carry a 2026 article identifier; the month was not established and neither paper was opened from this container)*. **SO WHAT, and it is the sharpest thing in today's run: ECHO is an AI widget, and a peer-reviewed literature on consent and non-addiction in exactly this product class is now forming.** **The useful move is to read that literature before it is quoted at us, and to be able to say what ECHO does about consent and about repeat use. We currently cannot.** **Logged as an OPEN QUESTION against our own product, not against a competitor.**
+
+**THREAT LEVEL: none.** YOV is a conversational-AI product with no biological custody. **Differentiation unchanged and it does not require naming them.**
+
+**ROTATION: You, Only Virtual done, and the backwards pass through the oldest entries resumes. Next quiet-day dive is NUCLEUS GENOMICS**, which has sat in the embryo-screening lane since the first run with no dive of its own and which surfaced in today's sweep attached to a law-firm investigation page we have never assessed. **Its first job is to date that page's subject matter, not to repeat its headline.**
+
 - **2026-10-06:** **Fully quiet, all four lanes.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. **No watch file written, per quiet-day discipline.** No email (**Gmail day 39, false recovery twenty-seven**; log-only).
   **Everything returned was stale funding news: Empathy's $10M seed and its May 2025 Series C, Cofertility's $16M Series A, Orchid's $4.5M seed.** **The copyright-footer rule set 5 October fired again inside this sweep**, which is now its fourth firing in two days.
 
