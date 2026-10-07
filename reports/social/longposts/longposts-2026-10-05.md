@@ -156,6 +156,8 @@ Then there is the part nobody mentions. **What happens to the card afterward.**
 
 **New Jersey retained residual newborn blood spots for 23 years** *(as reported in state and legal coverage)*. Parents were not meaningfully told.
 
+> **CORRECTION NOTE ADDED 2026-10-07, BEFORE THIS POST GOES OUT.** The 23-year figure is accurate and it is now HISTORICAL. **New Jersey announced a policy change in June 2024: identified newborn screening blood spots are retained for TWO YEARS by default, with the parent or guardian able to choose a longer or shorter period** ([NJ DOH, 20 June 2024](https://www.nj.gov/health/news/2024/approved/20240620b.shtml)). **This post is written in the past tense throughout and is therefore not wrong, but it is INCOMPLETE in a way a reader would feel misled by: nothing in it says the policy changed.** **BINDING: if this post is published, it must carry one added sentence saying the retention period was reduced to two years in June 2024.** Found by the 7 October blog run while researching `do-hospitals-keep-newborn-blood-samples`.
+
 **The Institute for Justice, a public-interest law firm, sued the state in November 2023** on behalf of parents who said they had no idea.
 
 **In June 2024, New Jersey Attorney General Matt Platkin issued a directive** shortening the retention period, restricting how the spots could be used, and requiring clearer communication with parents *(reported; the directive itself is the primary document)*.
