@@ -515,3 +515,20 @@ These were verified available this run and deliberately not used, because **none
 **CONSUMED 2026-10-07: `bljLnIUDl2Y` on Ad_TheRuleYouAssumedExists_181.** Hold had expired 22 September and was checked rather than assumed. **Its reserve description was ACCURATE for once, and it undersold the photo: the room is walled floor to ceiling in hundreds of numbered drawers, and the crop excludes three open drawers containing documents so that no handwriting can be legible at any resolution.**
 
 **REFUSED AND DELIBERATELY NOT BANKED: `Y7M4LwBd72Q`, described by its own author as "Abandoned Insane Asylum".** **Refused on REGISTER, not on repetition.** **A brand about biological custody does not borrow the visual language of institutional psychiatry, and no crop fixes what the description says.** **Recorded so a future run does not surface it and spend the same minutes deciding again.**
+
+## BANKED 2026-10-08 (lane LIVE, rung (a); seven vetted, all holds set)
+| ID | Subject | Photographer | Raw URL | Native | Status |
+|---|---|---|---|---|---|
+| SuL_iNJb7r0 | High-angle gray concrete building, heavy repetition, #262626 | Ricardo Gomez Angel (@rgaleriacom) | https://images.unsplash.com/photo-1512811904883-6f79f0edd2a6 | 4724x4724 | **HOLD until 2026-10-13.** Adjacent to Ad_148 (identical circular windows) and Ad_179 (concrete basement): check both before use |
+| 8Le94yEAeAI | Black and white high-rise, bright, needs heavy darkening, #8c8c8c | Ricardo Gomez Angel (@rgaleriacom) | https://images.unsplash.com/photo-1621077310732-f1974c789926 | 7087x6649 | **HOLD until 2026-10-13.** Bright source: will need the inverted filter chain |
+| WDdxcnkKQCw | Pocket watch, selective focus, #26260c | Dicky Jiang (@dicky_juwono) | https://images.unsplash.com/photo-1534672062631-cc37c6fea687 | 4760x4760 | **HOLD until 2026-10-15, LONGER THAN USUAL ON PURPOSE.** Time-telling objects are a crowded family here: Ad_TwoClocks_83 and six `clock` hits. Use only for a concept that is about a reading, not about elapsed time |
+| xGe-giHNLnE | Palm tree against power lines, dusk, #73738c | Spencer Ord (@spencer_ord) | https://images.unsplash.com/photo-1668933235829-758c38139e08 | 4000x4000 | **HOLD until 2026-10-22.** Same wire family as Ad_182, consumed today: a fortnight apart at minimum |
+| N4WuHcMbU6Y | Dark flat-lay, white and black cube on black, #262626 | Devin Rista (@devinrista) | https://images.unsplash.com/photo-1602640571918-a92c3af85ca4 | 3024x3024 | **HOLD until 2026-10-13.** Clean negative space, good for a one-object concept |
+| bl-11xKn35w | Dark flat-lay, black table, #262626 | Devin Rista (@devinrista) | https://images.unsplash.com/photo-1602640571916-e72436b8e738 | 3024x3024 | **HOLD until 2026-10-13.** Same shoot as the entry above: never use both |
+| dXd968VkQ24 | Close-up of writing on a dark wall, texture, #262626 | Hannes Kocholl (@h8nnes) | https://images.unsplash.com/photo-1646491320662-9c94de8e0b8d | 4000x4000 | **HOLD until 2026-10-13, CONDITIONAL: the writing must be rendered and read at 100 percent first.** Ad_SomebodyWroteItDown_135 was killed for exactly this |
+
+**CONSUMED 2026-10-08: `wkBjPeqe_KQ` on Ad_TheCautiousVersionCameFirst_182, `k7aWm3TYPn8` on Ad_TheyRebuiltTheRoom_183, `pNEle5Jmeo8` on Ad_NobodySetTheInterval_184.** All three were sourced fresh today rather than drawn from reserve, **because every reserve entry was still inside its hold window.**
+
+**REFUSED AND DELIBERATELY NOT BANKED: `UOnhn_QBpQI`, two men standing in scaffolding (Naitian Wang @tonywang7).** Composition was the strongest in its search. **Refused because identifiable people in a paid ad carry right-of-publicity exposure the Unsplash licence does not cover**, and this lane's rule prefers no faces at all for paid.
+
+**LANE REFUSED ON REGISTER: the `microscope` search returned mostly National Cancer Institute micrographs of cancer cells.** Not banked, individually or as a lane. **A brand about biological custody does not sell storage against an image of a malignancy.**
