@@ -427,3 +427,11 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **THIS CONFIRMS THE 5 OCTOBER FINDING AND UPGRADES IT FROM AN OBSERVATION TO A STANDING CONSTRAINT.** **Every trigger in this fleet instructs "email via Gmail send_message". On this surface that tool does not exist.** **So even a genuine reconnect would not, on its own, make the digests sendable: it would make DRAFTS possible.** **The Inbox Concierge's own rule, that suggested replies are created with create_draft ONLY, remains fully achievable. The dozen "email the report to ryan@" instructions do not.**
 
 **WHAT THAT MEANS PRACTICALLY, said plainly rather than left for the founder to discover: the reconnect is still necessary and is no longer sufficient.** **Either a send-capable tool has to be added to the Gmail connector, or the fleet's delivery path needs to change, and the second is cheaper: `reports/outbox/` already holds every undelivered digest as rendered HTML.**
+
+### ADDENDUM, same day, 15:0x UTC: FALSE RECOVERY TWENTY-NINE, AND THE DROP-OFF REVERSED WITHIN THE HOUR
+
+**The Deep Production run re-probed Gmail read-only and it failed again.** The tool surface was announced and callable; the call came back needing a fresh sign-in. **Category: FALSE RECOVERY. Tally: TWENTY-NINE.** Tools-not-loadable stays at seven.
+
+**THE PART WORTH RECORDING IS NOT THE FAILURE, IT IS THE LIST.** At 14:19 Gmail and Google Drive had **dropped off** the needs-authentication list, which this log called a signal no previous false recovery produced. **By this run they are listed again, alongside Atlassian Rovo, Canva and Inkbox.** So the drop-off lasted under an hour and carried no state change with it.
+
+**STANDING RULE, adopted today and stated so a later run does not relearn it: absence from the needs-authentication list is NOT evidence of recovery. Only a successful read-only call counts.** The list is a hint about configuration, not a report on the credential. **Twenty-nine false recoveries, and the one that looked strongest was the one that produced a new way to be wrong.**
