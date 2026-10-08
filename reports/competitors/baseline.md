@@ -129,6 +129,31 @@
 
   **Next dive: You, Only Virtual**, the last of the four whose status we have never checked directly, and the only one that could still be a genuine failure.
 
+- **2026-10-08:** **Fully quiet, FOURTH consecutive day.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. **No watch file written, per quiet-day discipline.** No email (**Gmail day 41; false recovery TWENTY-EIGHT at 14:20 today**; log-only).
+  **ONE SMALL PRODUCT FACT BANKED, from the company's own blog rather than a database: StoryWorth launched a "Family Newsletters" feature in AUGUST 2026**, collecting short updates and photographs from several invited relatives while events are recent. **SO WHAT: it moves StoryWorth from a one-storyteller product toward a multi-contributor one, which is a different shape of company.** **Its PRICING remains CONTESTED and this does not clear it.**
+  **Everything else returned was stale:** Acorn's January 2026 hair-regeneration clinical update and its May 2024 Series A; Tomorrow Bio's May 2025 first close; Cofertility's May 2025 Series A and a 9 September 2026 press feature. **Nothing inside the window.**
+
+### 2026-10-08 deep-dive: NUCLEUS GENOMICS, never dived, and it produced the most useful external document this file has found
+
+**THE FINDING, dated and specific: on 11 SEPTEMBER 2026 the National Advertising Division recommended that Nucleus Genomics MODIFY OR DISCONTINUE certain claims for its Nucleus IVF+ embryo screening. The company said it would appeal** *(GlobeNewswire release; not opened at its own domain)*.
+
+**What was challenged is the part worth reading.** The material included **a slideshow culminating in a "Compare your embryos" chart assigning five embryos specific values for cancer risk, type 2 diabetes, autism spectrum disorder risk, eye and hair colour, height and IQ**, and **an Instagram video in which the founder asks a woman whether she wants her baby "taller" or "smarter."**
+
+**SO WHAT FOR MYSPAWN, and it is differentiation proof rather than an attack line.** **A self-regulatory advertising body has formally challenged a genetics company's marketing claims in our adjacent category.** **That is the strongest external evidence this file has ever found for the posture we already hold: honest science, no scoring, no prediction, no trait language.** **It is also a warning aimed at us: the body that did this reviews advertising, and we run advertising.**
+
+**POSTURE, and it is a hard rail: we do not name them in any asset, ever.** **Our ads do not need a villain and an ad built on another company's regulatory trouble is an ad about them.** **The useful move is the one this file has reached twice before: publish our own answer, do not point at theirs.**
+
+**THREE THINGS DELIBERATELY NOT BANKED.**
+- **A 2026 price.** The only confirmable figure is **about $6,000 at the June 2025 launch of Nucleus Embryo, for analysis of up to 20 embryos.** **No 2026 pricing was found and none is asserted.**
+- **The Genomic Prediction trade-secrets lawsuit against Nucleus and two named individuals.** **Allegations only, no 2026 update located, and it names private individuals.** **Recorded here as existing and nowhere else.**
+- **Base editing of embryos.** Reported as something the company wants to explore, in the founder's own framing of gene editing as "eventually being part of this 'stack'". **An intention is not a product and we do not report intentions as capabilities.**
+
+**ONE CONTEXT LINE THAT IS OURS TO USE WITHOUT NAMING ANYBODY: medical societies either have no guidelines for polygenic embryo screening or do not recommend it for estimating risks of complex disease, and the absence of regulation has left no standardised method for embryo scoring.** **That is a statement about a field, not about a company, and it is safe in an asset.**
+
+**THREAT LEVEL: none to us directly.** Different product, different buyer, different moment. **Reputation-adjacent only, which is why this file watches the lane at all.**
+
+**ROTATION: Nucleus done. Continuing backwards through the oldest never-dived entries, the next quiet-day dive is HERASIGHT**, the last embryo-screening name with no dive of its own. **Its first job is a one-paragraph description and a date, not a price.**
+
 - **2026-10-07:** **Fully quiet, all four lanes, third consecutive day.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, CI, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, Empathy or HereAfter. **No watch file written, per quiet-day discipline.** No email (**Gmail day 40, tools not loadable, tally six**; log-only).
   **The embryo-screening sweep returned one dated item and it is thirteen months old:** a law-firm "Nucleus and Orchid embryo testing investigation" page, **slug-dated 8 September 2025.** Not news, not logged as an event.
 

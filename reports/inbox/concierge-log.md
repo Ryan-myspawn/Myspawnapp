@@ -409,3 +409,21 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **THE THREE-STEP FIX, FORTY-FIRST ASKING:** (1) reconnect at https://claude.ai/customize/connectors; (2) **start a NEW session**, the only step that re-runs the connector read this outage lives in; (3) re-point all 15 triggers to the new session ID, **executable by this agent the moment a new session ID exists.**
 
 **Catch-up plan unchanged:** `newer_than:30d` sweep, **ONE** digest rather than forty-one, oldest-first triage, **personal rather than templated replies for anything older than a week.**
+
+### ADDENDUM, same day, 14:20 UTC: FALSE RECOVERY TWENTY-EIGHT, AND IT LOOKED BETTER THAN ANY PREVIOUS ONE
+
+**At 14:19 the Gmail and Google Drive tool surfaces appeared, and BOTH SERVERS DROPPED OFF THE NEEDS-AUTHENTICATION LIST.** **That is a signal no previous false recovery has produced.** On every prior occasion the tools loaded while the server stayed listed as needing authentication.
+
+**Probed read-only, immediately, before claiming anything.**
+- **Gmail `search_threads`, query `in:inbox newer_than:2d`, metadata-only view: "MCP server Gmail needs you to sign in again."** Server disconnected afterwards and Gmail returned to the needs-authentication list.
+- **Google Drive `search_files` against the ads folder ID: "MCP server Google_Drive needs you to sign in again."** Same outcome, same return to the list.
+
+**Category: FALSE RECOVERY. Tally: TWENTY-EIGHT.** Tools-not-loadable stays at seven. **Drive's failure today is the same category and is recorded as such**, which makes it the first time both servers have produced a false recovery in the same minute.
+
+**THE LESSON IS A NEW ONE AND IT IS WORTH MORE THAN THE TALLY: ABSENCE FROM THE NEEDS-AUTHENTICATION LIST IS NOT EVIDENCE OF RECOVERY.** **It is the strongest-looking signal this operation has seen, and it was wrong.** **From today, the only thing that counts as recovery is a successful read-only call. Nothing in a tool listing, a server list or an authentication list may be reported as a working connector.**
+
+**AND A SECOND FINDING, NOW CONFIRMED FROM THE FULL SURFACE RATHER THAN A THREE-NAME PROBE.** **The announced Gmail surface today carried TWENTY-THREE tools and NOT ONE of them sends mail.** Drafts, labels, threads, messages, trash, spam, sensitive-label tools: **no send tool of any kind.** **An explicit probe for `send_message`, `send_draft`, `send_email` and `reply_to_thread` returned "No matching deferred tools found."**
+
+**THIS CONFIRMS THE 5 OCTOBER FINDING AND UPGRADES IT FROM AN OBSERVATION TO A STANDING CONSTRAINT.** **Every trigger in this fleet instructs "email via Gmail send_message". On this surface that tool does not exist.** **So even a genuine reconnect would not, on its own, make the digests sendable: it would make DRAFTS possible.** **The Inbox Concierge's own rule, that suggested replies are created with create_draft ONLY, remains fully achievable. The dozen "email the report to ryan@" instructions do not.**
+
+**WHAT THAT MEANS PRACTICALLY, said plainly rather than left for the founder to discover: the reconnect is still necessary and is no longer sufficient.** **Either a send-capable tool has to be added to the Gmail connector, or the fleet's delivery path needs to change, and the second is cheaper: `reports/outbox/` already holds every undelivered digest as rendered HTML.**
