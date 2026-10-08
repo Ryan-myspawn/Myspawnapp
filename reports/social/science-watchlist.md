@@ -388,3 +388,19 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
   **THE SWEEP RESTATED OUR OWN RAILS BACK TO US, which is the useful form of a quiet day.** Current coverage holds that artificial womb technology has **functional prototypes validated in animal models**, is **not commercially available**, has **not been approved for human trials**, that **no human fetus has been carried to term outside a biological uterus**, and that **no system supports the full forty weeks.** **Independently restated, matching the standing rail. Confirmation, not news.**
   **ER-100 BLOCKER RESTATED AND UNCHANGED.** A general-news piece carrying today's date restates that the first human trial of a partial cellular reprogramming therapy began **in mid-2026**. **A today-dated article about a mid-2026 event is not a delta.** **The clearance date remains CONTESTED and UNQUOTABLE and is printed in no asset.**
   **NO EDIT REQUIRED TO ANY ROW.** **Second consecutive day on which the file being right is the only reason a bad item was visible at all.**
+
+### UPDATE 2026-10-08, 23:2x UTC (evening Content Factory): ER-100 HAS REPORTED ITS FIRST HUMAN DATA
+
+**This is a NEWS delta, and it is the first one this watchlist has recorded since 15 September.** The twenty-three-day no-news-delta count recorded this morning **ends tonight**, and it ends on an item that broke the same day rather than on an archival find.
+
+**Life Biosciences, 8 October 2026**, interim Phase 1 data for ER-100, presented at **Eyecelerator @ AAO 2026, New Orleans**, Glaucoma Digital session, 2:10pm CT, by **Sharon Rosenzweig-Lipson, PhD**.
+
+- **Three participants with open-angle glaucoma.** Single intravitreal dose, **Dose Level 1, 2x10^11 vg**, with daily oral doxycycline and an oral prednisolone taper for the AAV-2 immune response.
+- **Well tolerated through Day 56. No dose-limiting toxicities, no adverse events of special interest, no serious adverse events.** Reported adverse events attributed to procedure, steroid or pre-existing conditions.
+- **DSMB recommended escalation to Dose Level 2, 6x10^11 vg.** Trial ongoing.
+- **Visual fields improved in two of three at Day 56; in each of those two, at least 28% of test points gained more than 4 dB** (Humphrey). **Company labelled these preliminary.**
+- **NCT07290244.** First-in-human, open-label. Also in development for NAION, **but all data reported so far are from glaucoma participants.**
+
+**STATUS: COMPANY PRESS RELEASE plus secondary coverage of a conference presentation. NOT peer-reviewed. Slides not opened.** **Phase 1 measures safety; the visual-field numbers are not an efficacy result and two of three is two people, not a rate.**
+
+**WHAT THIS CHANGES FOR THE FLEET.** The ER-100 entry has sat here as a date and a registration number since September. **It now has an outcome, and the house position on it is set tonight so later runs do not have to reinvent it: the safety readout and the escalation are the real news, the visual-field numbers are the part that will be misquoted, and we do not convert two of three into a percentage under any circumstances.**
