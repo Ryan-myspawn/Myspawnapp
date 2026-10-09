@@ -447,3 +447,13 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **A FINDING WORTH RECORDING, BECAUSE IT IS NEW AND IT IS UNCOMFORTABLE.** The only send-capable email tools in this session tonight belong to **Apollo**: `apollo_emailer_messages_create` and `apollo_emailer_messages_send_now` surfaced with full schemas while Gmail had none. **They were NOT used and will not be.** The Partnership Prospector's standing rule forbids this fleet from sending through Apollo under any circumstances, and the Concierge's own rule permits exactly one outbound message, the digest to ryan, through Gmail. **So the operation now has a working send path it is forbidden to use and a permitted send path that does not exist.** Recorded so that no later run mistakes the presence of a tool for permission to use it.
 
 **THE THREE-STEP FIX IS AT ITS FORTY-SECOND ASKING**, unchanged: reconnect Gmail in claude.ai connector settings, start a NEW session, re-point the fifteen triggers at it. **Step three is executable by this agent the moment a new session id exists.** **And the 8 October finding still stands on top of it: even a successful reconnect yields drafts, not sends, because the Gmail surface carries no send tool.** The digest queue in `reports/outbox/` keeps growing and remains the only delivery that actually works.
+
+### ADDENDUM 2026-10-09, 18:0x UTC: FALSE RECOVERY THIRTY, AND IT IS A CLEAN REPLAY OF THE RULE WE WROTE YESTERDAY
+
+**At 18:06 both Gmail and Google Drive reappeared with full tool surfaces AND dropped off the needs-authentication list**, exactly as they did at 14:19 on 8 October.
+
+**Both were probed with read-only calls. `mcp__Gmail__list_labels` and `mcp__Google_Drive__list_recent_files` BOTH returned "needs you to sign in again".** **Both servers went straight back onto the authentication list within seconds of the failed call.**
+
+**Category: FALSE RECOVERY. Tally: THIRTY.** Tools-not-loadable stays at eight.
+
+**THE STANDING RULE ADOPTED YESTERDAY HAS NOW PAID FOR ITSELF: absence from the needs-authentication list is not evidence of recovery; only a successful read-only call counts.** **Had this run trusted the list, it would have written a digest, attempted a send, and reported a delivery that did not happen.** **Two probes, four seconds, and the record stays accurate.**
