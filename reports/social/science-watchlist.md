@@ -404,3 +404,17 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 **STATUS: COMPANY PRESS RELEASE plus secondary coverage of a conference presentation. NOT peer-reviewed. Slides not opened.** **Phase 1 measures safety; the visual-field numbers are not an efficacy result and two of three is two people, not a rate.**
 
 **WHAT THIS CHANGES FOR THE FLEET.** The ER-100 entry has sat here as a date and a registration number since September. **It now has an outcome, and the house position on it is set tonight so later runs do not have to reinvent it: the safety readout and the escalation are the real news, the visual-field numbers are the part that will be misquoted, and we do not convert two of three into a percentage under any circumstances.**
+
+### UPDATE 2026-10-09, 13:1x UTC (Trend Radar): A CONTRADICTION BANKED WHOLE, NOT HALF
+
+**NEW, reported 7 October 2026:** *Frontiers in Endocrinology* study of **179 men** at an assisted reproductive technology clinic in **Jinan, China**. Higher **neonicotinoid** insecticide levels in semen associated with lower sperm concentration; **27 percent difference between the highest and lowest exposure quartiles**; analysis run on insecticide **mixtures** rather than single chemicals. *(Peer-reviewed. Read via The New Lede coverage, 7 October 2026. Paper not opened. **Clinic population, NOT a general-population sample**, and that limit travels with the number everywhere it is used.)*
+
+**AND THE THREE STUDIES THAT POINT THE OTHER WAY, banked in the same entry so the file can never serve half of this:**
+- **Beijing sperm donors, 2026 publication: concentration up 12.3 percent, total count up 18.7 percent, 2011 to 2018.**
+- **Irish single-centre review: concentration up nearly 23 percent over its study period**, with the authors calling it unexpected and contrary to widely cited global-decline reports.
+- **2025 meta-analysis of fertile US men: no statistically significant change in sperm concentration.**
+*(All peer-reviewed, all via abstracts and coverage, none opened at its own domain.)*
+
+**HOUSE POSITION, SET NOW SO LATER RUNS DO NOT HAVE TO IMPROVISE ONE: we do not have a view on whether sperm counts are falling, and we will not take one.** **The decline narrative is the familiar one; the recent single-population evidence is mixed.** **MySpawn is storage. We never imply we address fertility, and we never sell against a number four studies disagree about.** The only claim we make in this lane is that **a biological record taken today is a record of today.**
+
+**COMPETITOR LEAD, UNVERIFIED, recorded here rather than in the baseline because it is not yet a fact: a policy commentary describes Herasight as predicting height, BMI, longevity and IQ from embryo screening.** **Single-sourced, undated, advocacy publication.** **Not usable in content. The next competitor dive still owes this file a description and a date from a primary source.**
