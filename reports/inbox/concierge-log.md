@@ -457,3 +457,9 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **Category: FALSE RECOVERY. Tally: THIRTY.** Tools-not-loadable stays at eight.
 
 **THE STANDING RULE ADOPTED YESTERDAY HAS NOW PAID FOR ITSELF: absence from the needs-authentication list is not evidence of recovery; only a successful read-only call counts.** **Had this run trusted the list, it would have written a digest, attempted a send, and reported a delivery that did not happen.** **Two probes, four seconds, and the record stays accurate.**
+
+### ADDENDUM 2026-10-09, 23:1x UTC: FALSE RECOVERY THIRTY-ONE, SAME DAY AS THIRTY
+
+**Gmail reappeared off the needs-authentication list for the SECOND time today.** `mcp__Gmail__list_labels` returned "needs you to sign in again", and the server returned to the list immediately.
+
+**Category: FALSE RECOVERY. Tally: THIRTY-ONE.** Tools-not-loadable stays at eight. **Two false recoveries in one day is a first**, and it is recorded as frequency rather than as progress: **the surface is flapping, the credential is not.**

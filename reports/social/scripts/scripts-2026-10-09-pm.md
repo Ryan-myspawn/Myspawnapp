@@ -110,3 +110,114 @@
 | **Persona bench, 50-year-old estate planner** | **PASS** | "It stays yours" is his whole question answered in three words. |
 | **Bench result** | **3 of 3** | |
 | **Ship-blockers** | **TWO** | **(1) ONE TAKE, ONE LOCKED CAMERA. If this is cut together from several distances it becomes a montage about perspective and loses the only idea it has.** **(2) No company named, in any cut, including captions. If a name goes in, the piece does not go out.** |
+
+---
+---
+
+# EVENING RUN: Friday 9 October 2026, 23:11 UTC
+
+**Freshness check:** **THE US DAY WAS QUIET.** A delta sweep for anything that broke since 13:00 UTC returned nothing inside the window; the freshest items found were 45 to 50 days old, including the September Longevity Biotech Report **already spent by longpost #130 this morning**. **No newsjack is available and none is invented.** So this run takes the brief's quiet-day branch: one evergreen, three X drafts, two Threads posts, and the morning plan.
+
+**Primary audience:** Men 25-55.
+
+**Trend-hook used:** **none, stated plainly.** Everything below is built from material this fleet verified earlier in the week, and each item carries its own date.
+
+---
+
+## EVERGREEN, PROMOTED: "The Reflection"
+
+**Banked at 15:07 today by the Deep Production run and built out here, which is the condition the bank exists for.** Direct precedent four times: 4 October's "The Wrong Order", 5 October's "The Hold Music", 6 October's "The Field That Isn't On The Form" and 7 October's "Seven Minutes, Then Decades" were all banked in the afternoon and promoted the same evening. **Marked PROMOTED rather than BANKED so it is counted once.**
+
+**And the honest note about why it is this one rather than a tenth new format: the unshot backlog is nine scripts deep at twenty-three days.** **Converting something already banked costs the backlog nothing new. Inventing a tenth format would have added to it.** The 17:11 run declined a promotion today for that reason; this run makes the opposite call because the quiet-day branch requires an evergreen and a promotion is the cheapest honest way to supply one.
+
+**Runtime:** ~60 seconds. **Platform:** Reels primary, Shorts secondary.
+
+**FORMAT: THE ENTIRE PIECE IS A REFLECTION IN A DARK WINDOW AT NIGHT.** You never see him directly, only his image held on the glass with the room behind him. **At the final beat the light outside comes up and the reflection fades out of existence while he is still talking.** `reflection` returns two hits across the scripts directory, **both opened, both shot directions inside other formats rather than formats in themselves.**
+
+**Sound:** room tone. **No music.** One distant exterior sound as the light rises, if it exists naturally; nothing added.
+
+| # | SHOT | VO / ON SCREEN |
+|---|---|---|
+| 1 | [The reflection, steady, centre. The room behind him is lit; outside is black.] | **VO:** "You can see me because it is dark out there." |
+| 2 | [No movement.] | **VO:** "Nothing about me is different in a minute. The conditions are." |
+| 3 | [Still.] | **VO:** "A record needs three things holding it up. A company that still exists." **[ON SCREEN: 1]** |
+| 4 | [Still.] | **VO:** "A format somebody can still read." **[ON SCREEN: 2]** |
+| 5 | [Still.] | **VO:** "And a person who still has the login." **[ON SCREEN: 3]** |
+| 6 | [The glass begins to change. Very slightly.] | **VO:** "Take any one away and the record does not get corrupted. It just stops being reachable, which from where you are standing is the same thing." |
+| 7 | [Light rising outside. The reflection thinning.] | **VO:** "People plan for the first one. Some plan for the second." |
+| 8 | [Nearly gone.] | **VO:** "Almost nobody plans for the third." |
+| 9 | [He is gone. The window is a window.] | **[ON SCREEN: myspawn.me: $99 a year, billed annually.]** |
+
+**Platform cuts.**
+- **Reels:** as written. **The fade is the piece; it cannot be shortened to fit a round number.**
+- **Shorts:** open at beat 6, already changing, then return to beat 1. Shorts needs the visual event early.
+- **TikTok:** not recommended. **A sixty-second slow dissolve is the wrong instrument for that feed, and saying so is cheaper than shooting a cut that will not work.**
+- **7-SECOND TEASER:** beat 1 ("You can see me because it is dark out there") straight to beat 9, the empty window. **Two states, nothing in between.**
+
+**Ship-blockers, carried forward from the bank unchanged.** **(1) Real reflection in real glass. Not a mirror, not a composite. If the image is faked, the piece is a lie about its own subject.** **(2) The light change must be practical and continuous. If it cuts, this becomes an edit about disappearing rather than a disappearance.**
+
+**Captions.**
+- **Reels A:** "Three things hold a record up. Most people plan for one of them."
+- **Reels B:** "Nothing about him changed. The conditions did."
+- **Shorts A:** "A company that still exists. A format somebody can read. A person who still has the login."
+- **Shorts B:** "It does not get corrupted. It stops being reachable. From where you are standing that is the same thing."
+- **Hashtags:** #legacy #digitallegacy #dna #estateplanning #archives #myspawn
+
+---
+
+## THREE X DRAFTS
+
+**Draft 1, the week's hardest number.** "A registry study compared what patients' own genetic test reports said against what the laboratory had most recently submitted to ClinVar. 49 of 481 classifications, 10.2 percent, were already out of date. The lab had changed its mind and published it. The patient was still holding the old paper. (Genetics in Medicine, 2021, data through Oct 2020.)"
+
+**Draft 2, the beneficiary one, and it is the most useful thing we published this week.** "Kennedy v. Plan Administrator for DuPont, 555 U.S. 285 (2009). A man named his wife as beneficiary of his savings plan. They divorced. The decree gave up her interest. He never filed a new form. The plan paid her about $400,000 and the Supreme Court said that was correct. Go and read the form."
+
+**Draft 3, the method, not the news.** "Four published answers to how often two labs disagree about the same gene: 2.5 percent, 3.6 percent, about 11.7 percent, and a literature range of 12 to 83 percent. None of them is wrong. They are counting different denominators. Ask what is in the denominator before you quote any health statistic."
+
+---
+
+## TWO THREADS POSTS
+
+**Threads 1.** "I keep noticing that the best thing we publish is never a discovery. It is a disagreement.
+
+Four studies on sperm counts that do not agree. Four professional bodies on who should tell you your genetic result changed, who also do not agree. Four published answers to how often two labs read the same gene differently.
+
+None of that is a scandal. It is what a live question looks like from inside. The skill worth having is not picking a winner. It is noticing which question each study actually answered."
+
+**Threads 2.** "Something I did not know until this week: there are no guidelines for when a laboratory should re-examine a genetic result it already gave you.
+
+Not lax guidelines. None. Each lab sets its own interval, and most will only re-look if somebody asks.
+
+So if a genetic result is ever going to drive a real decision, put a reminder in your calendar and be the somebody."
+
+---
+
+## TOMORROW MORNING POST PLAN, Saturday 10 October
+
+| Time (ET) | Platform | Asset | Why |
+|---|---|---|---|
+| **9:00am** | **Facebook** | **Longpost #125, our own public correction.** | **Third consecutive day this has been the pick and it has not gone out.** It remains the only asset in the bank with no precondition attached, and Saturday morning is Facebook's strongest window for a 600-word read. **If it does not go tomorrow it should be formally retired rather than re-nominated a fourth time.** |
+| **10:30am** | **X** | **Draft 2, the Kennedy beneficiary case.** | Saturday is when people actually have an hour to open a drawer and look at paperwork. **It is the only thing this fleet published this week that a reader can act on the same morning.** |
+| **12:00pm** | **Reels** | **"How Big Is the Claim?"** (this afternoon's script). | Needs no props, no second location and no graphics, so it is the most likely thing to actually get shot this weekend. **Posting it is downstream of filming it, and the filming backlog is the real bottleneck.** |
+| **4:00pm** | **X** | **Draft 1, the 10.2 percent.** | Two X posts in a day only works if they are different ideas. One is law, one is laboratory practice. |
+| **Hold** | **Shorts, TikTok** | **nothing new.** | **Nine unshot scripts, twenty-three days.** Adding slots does not add content. |
+
+**THE HONEST LINE AT THE BOTTOM OF THE PLAN: every row above assumes somebody films or posts.** **This fleet has produced thirteen assets in two days and has no evidence that any of them reached a platform.** **The constraint stopped being research a long time ago.**
+
+---
+
+## QC GATE, evening run
+
+| Check | Verdict | Note |
+|---|---|---|
+| **Freshness** | **PASS** | **Quiet day declared in the first line rather than papered over with a stale item.** The one candidate the sweep returned, the September Longevity Biotech Report, was already spent by longpost #130 this morning and is named here so it is not quietly reused. |
+| **Evergreen format** | **PASS** | `reflection` returns two hits, both opened, both shot directions. **Marked PROMOTED, not BANKED, so today's pack is counted once.** |
+| **Banned lanes** | **PASS** | No retired framing. No descendant-creation promise. |
+| **Claims check** | **PASS** | Every figure in the X and Threads drafts carries its source and its date, including the five-year age of the ClinVar registry figures and the 2009 date on Kennedy. **Draft 3 states explicitly that none of the four answers is wrong.** |
+| **Rumor vs peer-reviewed** | **LABELLED** | Both X drafts citing studies name the journal and the data window. |
+| **Right of publicity** | **PASS** | Kennedy is a published Supreme Court case and the parties are named only as the case names them. **No living private individual is named anywhere.** |
+| **Pricing** | **PASS** | "$99 a year, billed annually" on the evergreen end card. No "once". |
+| **Persona bench, 38-year-old father** | **PASS** | The beneficiary draft is aimed straight at him and costs him an hour. |
+| **Persona bench, 29-year-old optimizer** | **PASS** | Draft 3 is a method he can reuse on any statistic. **Twelfth consecutive clear.** |
+| **Persona bench, 50-year-old estate planner** | **PASS** | Kennedy is his entire world and he probably does not know it. |
+| **Bench result** | **3 of 3** | |
+| **Ship-blockers** | **TWO, both carried from the bank** | Real glass, and a practical continuous light change with no cut. |
