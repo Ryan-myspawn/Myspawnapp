@@ -435,3 +435,15 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **THE PART WORTH RECORDING IS NOT THE FAILURE, IT IS THE LIST.** At 14:19 Gmail and Google Drive had **dropped off** the needs-authentication list, which this log called a signal no previous false recovery produced. **By this run they are listed again, alongside Atlassian Rovo, Canva and Inkbox.** So the drop-off lasted under an hour and carried no state change with it.
 
 **STANDING RULE, adopted today and stated so a later run does not relearn it: absence from the needs-authentication list is NOT evidence of recovery. Only a successful read-only call counts.** The list is a hint about configuration, not a report on the credential. **Twenty-nine false recoveries, and the one that looked strongest was the one that produced a new way to be wrong.**
+
+## 2026-10-09, 04:10 UTC: DAY 42. NO TRIAGE PERFORMED.
+
+**Gmail did not load at all this run.** The server is listed both as requiring authentication and as having failed to connect, `CONNECT_TIMEOUT` after 30000ms, alongside thirteen others. **An explicit probe for `search_threads` and `list_labels` by exact name returned "No matching deferred tools found", and a keyword search for Gmail threads, messages and drafts returned only Apollo's emailer tools.**
+
+**Category: TOOLS NOT LOADABLE. Tally: EIGHT.** False recovery stays at twenty-nine. **The distinction holds and matters: yesterday the surface appeared and the call was refused; today the surface never appeared.**
+
+**NO THREADS WERE READ. NO DRAFTS WERE CREATED. NO DIGEST WAS SENT.** Nothing is invented about the state of the inbox, in either direction. **Forty-two days of inbox state are now unobserved**, and the brief's own instruction, that a quiet inbox gets a three-line email and is never padded, cannot be followed because quiet and unread are not distinguishable from here.
+
+**A FINDING WORTH RECORDING, BECAUSE IT IS NEW AND IT IS UNCOMFORTABLE.** The only send-capable email tools in this session tonight belong to **Apollo**: `apollo_emailer_messages_create` and `apollo_emailer_messages_send_now` surfaced with full schemas while Gmail had none. **They were NOT used and will not be.** The Partnership Prospector's standing rule forbids this fleet from sending through Apollo under any circumstances, and the Concierge's own rule permits exactly one outbound message, the digest to ryan, through Gmail. **So the operation now has a working send path it is forbidden to use and a permitted send path that does not exist.** Recorded so that no later run mistakes the presence of a tool for permission to use it.
+
+**THE THREE-STEP FIX IS AT ITS FORTY-SECOND ASKING**, unchanged: reconnect Gmail in claude.ai connector settings, start a NEW session, re-point the fifteen triggers at it. **Step three is executable by this agent the moment a new session id exists.** **And the 8 October finding still stands on top of it: even a successful reconnect yields drafts, not sends, because the Gmail surface carries no send tool.** The digest queue in `reports/outbox/` keeps growing and remains the only delivery that actually works.
