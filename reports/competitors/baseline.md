@@ -743,3 +743,27 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **ROTATION: StoryWorth done. Continuing backwards through this file's oldest entries, the next quiet-day dive is CELLSAVE**, which has sat on the monitored list since the first run with no dive of its own.
 
 **THE PATTERN, now at FOUR consecutive.** Cells4Life (1 Oct, flagged), HereAfter AI (2 Oct, contested, article edited in place), Tomorrow.Bio (3 Oct, a sixteen-month-stale entry of our own), **and today, a dive that declined to manufacture a fifth unverifiable number.** **Three of those four corrections point at our own record rather than at a competitor.**
+
+- **2026-10-09:** **Fully quiet, FIFTH consecutive day.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter AI, StoryWorth or Empathy. **No `watch-2026-10-09.md` file written, per the brief's quiet-day rule.** Two items surfaced and were REJECTED as out of window rather than reported as news: **Acorn named to Fast Company's Most Innovative Companies 2026 in the "Small but Mighty" category, company page dated 1 May 2026** (five months old), and **Nucleus IVF+ expansion to 160 clinics across India and the Middle East plus a Southern California Reproductive Center partnership, described as "in 2026" with no month** (undated, and an undated year is not a delta). **Both are banked below as baseline facts, which is what they are, instead of being passed off as movement.**
+
+### QUIET-DAY DEEP DIVE: HERASIGHT (the rotation's named target, and it delivered exactly what the rotation asked for)
+
+**The rotation's instruction was: a description and a date, not a price. We got the description, and the date is CONTESTED, which is the finding.**
+
+**WHAT IT IS.** A polygenic embryo-screening company. Its platform combines **ultra-low-pass sequencing, family medical history, ancestry-aware polygenic scoring, embryo simulation and disease-trait risk stratification**. It offers polygenic scores for IVF embryos covering disease risk **and traits including intelligence**.
+
+**FOUNDERS, named consistently across sources: Tobias Wolfram and Alex Strudwick Young.** **Young was one of the lead authors of the SSGAC's 2022 study on polygenic prediction of educational attainment**, which explains the company's technical centre of gravity better than any marketing page does.
+
+**THE DATE IS NOT ONE DATE.** One source says **founded 2023**; another says **founded 2025**. **PitchBook's earliest recorded deal is a March 2023 early-stage VC round, which favours 2023 and is the most checkable of the three signals.** **Public debut was mid-2025**, announced by Young on X with a claim that predictors for **17 diseases** had been validated within families; **one source puts the announcement in late July 2025 and others in August 2025.** **Recorded as a RANGE with both ends attributed, per the evidence standard, rather than picked.**
+
+**FUNDING: NO DISCLOSED TOTAL.** PitchBook lists it private and venture-backed with **NZVC, Compagnie d'Investissements et de Gestion Privée, Draper Associates and LongGame Ventures** as investors, **and gives no round amounts.** MIT Technology Review reports a separate fund has invested. **There is no total raised to report and we are not estimating one.**
+
+**ONE NUMBER REFUSED.** A secondary source gives a price of **around $50,000**. **Single-sourced, secondary, and the source itself flags it as unverified. NOT banked, and it must not appear in content.** **This is the third competitor price refused on sourcing after StoryWorth and Acorn, and the pattern is worth naming: in this sector the price is the hardest fact to get and the easiest one to repeat.**
+
+**METHODOLOGICALLY, THE ONE THING WORTH RESPECTING.** Herasight's scientists test whether their scores correctly predict traits of **adult siblings** rather than relying only on unrelated biobank participants, and have published a preprint on it (`ImputePGTA`, medRxiv, 2025). **Within-family validation is a genuinely harder test than population correlation, and saying so costs us nothing.** *(Preprint. NOT peer-reviewed, and labelled that way here so a later run does not upgrade it.)*
+
+**SO WHAT FOR MYSPAWN.** **Differentiation proof, and the cleanest in the file.** Herasight sells prediction about a person who does not exist yet. **We sell custody of a record of a person who does.** The two are not competitors for the same dollar and should never be framed as such; the useful contrast in copy is **claim size**, not price. **Threat level: none directly. Reputation adjacency: real**, because this is the lane that produces the headlines our category gets judged by.
+
+**AND A CORRECTION TO THIS MORNING'S RADAR, which banked a Herasight lead as unverified.** That lead came from a policy commentary and described the company as predicting height, BMI, longevity and IQ. **The description is broadly corroborated here by better sources, so the lead is upgraded from unverified to sourced.** **The radar was right to refuse to use it before this check, and the check took one search.**
+
+**ROTATION: Herasight done. The next quiet-day dive is CELLSAVE**, carried from the StoryWorth entry and still the oldest monitored name with no dive of its own. **Its first job is the same as Herasight's was: a description and a date.**
