@@ -418,3 +418,21 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 **HOUSE POSITION, SET NOW SO LATER RUNS DO NOT HAVE TO IMPROVISE ONE: we do not have a view on whether sperm counts are falling, and we will not take one.** **The decline narrative is the familiar one; the recent single-population evidence is mixed.** **MySpawn is storage. We never imply we address fertility, and we never sell against a number four studies disagree about.** The only claim we make in this lane is that **a biological record taken today is a record of today.**
 
 **COMPETITOR LEAD, UNVERIFIED, recorded here rather than in the baseline because it is not yet a fact: a policy commentary describes Herasight as predicting height, BMI, longevity and IQ from embryo screening.** **Single-sourced, undated, advocacy publication.** **Not usable in content. The next competitor dive still owes this file a description and a date from a primary source.**
+
+### UPDATE 2026-10-10, 13:1x UTC (Trend Radar): A NEWS DELTA WITH A FIVE-MONTH-OLD PAPER INSIDE IT, AND A RE-SURFACED ITEM THE FILE CAUGHT
+
+**NEW TO THIS FILE:** *American Journal of Obstetrics and Gynecology*, **Jian Li et al., DOI 10.1016/j.ajog.2026.05.005, PubMed 42173184.** IVF-conceived babies carried a **higher overall proportion of LINE-1 retrotransposon DNA** than naturally conceived babies, statistically significant. **Eleven loci differed on insertion frequency, fourteen on deletion frequency.** **No significant difference between standard IVF and ICSI.** Difference reported as clearer among girls, with boys showing a similar but less certain trend.
+
+**THE TWO NUMBERS THAT GOVERN HOW THIS MAY BE USED: 33 IVF-conceived and 42 naturally conceived offspring, per a preprint version. Seventy-five children.**
+
+**STATUS: peer-reviewed, read via coverage and abstract, NOT opened at its own domain.** **The authors call the findings preliminary.** **The "associated with long-term disease risks" in the title is INFERRED FROM GENE PROXIMITY, not demonstrated, and that inference sits in the title itself.**
+
+**DATE DISCIPLINE, RECORDED BECAUSE IT IS THE USABLE PART: the paper is from roughly MAY 2026. The news cycle is from about 7 OCTOBER 2026.** **A news date is not a research date.** This is the eighth firing of the date rule in five days and the first time the gap has been five months.
+
+**HOUSE POSITION, SET NOW: we have NO view on whether IVF alters retrotransposon dynamics and will not acquire one from a press cycle.** **Nothing this fleet publishes may suggest that an IVF-conceived child is damaged.** The only usable angle is how a finding travels, and the species of claim involved.
+
+**RE-SURFACED, NOT NEW, AND THE FILE CAUGHT IT:** today's sweep returned Conception's **"first early human eggs from stem cells"** as though current. **It dates from about 1 July 2026, roughly 101 days ago, announced by CEO and co-founder Matt Krisiloff via social media. This file has held it since: `primary oocyte` returns seven hits here and `Krisiloff` two.** **Nothing banked.**
+
+**AND THE RAIL IS RESTATED WITH THE DISTINCTION THAT PROTECTS IT: those primary oocytes are IMMATURE EGGS THAT CANNOT BE FERTILISED.** **IVG has produced NO mature human gametes.** Backed by *Nature Biotechnology*, February 2026, Landecker and Clark, and by the immaturity of the Conception result itself.
+
+**CALENDAR ITEM BANKED: ASRM 2026 Scientific Congress, 24 to 28 October, Baltimore.** **Fourteen days out and the most likely source of a genuine fertility-science delta this month.** *(Dates taken from a company exhibition announcement, NOT from ASRM's own page. Verify before building on it.)*
