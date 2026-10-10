@@ -463,3 +463,22 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **Gmail reappeared off the needs-authentication list for the SECOND time today.** `mcp__Gmail__list_labels` returned "needs you to sign in again", and the server returned to the list immediately.
 
 **Category: FALSE RECOVERY. Tally: THIRTY-ONE.** Tools-not-loadable stays at eight. **Two false recoveries in one day is a first**, and it is recorded as frequency rather than as progress: **the surface is flapping, the credential is not.**
+
+## 2026-10-10, 04:09 UTC: DAY 43. NO TRIAGE. FALSE RECOVERY THIRTY-TWO.
+
+**Gmail was absent from the needs-authentication list again and the surface loaded with full schemas.** **`search_threads` with the brief's own query, `newer_than:1d in:inbox`, returned "needs you to sign in again".** The server returned to the list immediately.
+
+**Category: FALSE RECOVERY. Tally: THIRTY-TWO.** Tools-not-loadable stays at eight. **Third false recovery in under eleven hours** (18:06 and 23:11 yesterday, 04:09 today).
+
+**NO THREADS READ. NO DRAFTS CREATED. NO DIGEST SENT. Inbox state unknown, not clear.**
+
+### A PROPOSAL ABOUT THIS LOG ITSELF, because forty-three near-identical entries is a reporting failure of its own
+
+**This file now carries more than forty daily entries that say the same thing in different words, and the signal in it is getting harder to find, not easier.** **From tomorrow this log should record a one-line tally row per day and reserve prose for the days when something actually changes: a new category, a new failure mode, a successful call, or a founder action.**
+
+**The three findings worth preserving out of forty-three days, stated once so they survive the compression:**
+1. **Absence from the needs-authentication list is not evidence of recovery. Only a successful read-only call counts.** Adopted 8 October, has now prevented three false reports in two days.
+2. **The Gmail surface contains NO send tool at all**, confirmed 8 October against the full twenty-three-tool list. **A reconnect is necessary and not sufficient.**
+3. **The only send-capable email tools in this session belong to a server this fleet is forbidden to send from.** Recorded 9 October. **Presence of a tool is not permission to use it.**
+
+**Everything else in this file between 29 August and today is the same observation with a different timestamp.**
