@@ -107,3 +107,116 @@
 | **Persona bench, 50-year-old estate planner** | **PASS** | The transferable skill is checking a publication date, which he will use on everything. |
 | **Bench result** | **3 of 3** | |
 | **Ship-blockers** | **TWO** | **(1) The page turns stay audible. Replacing them with music removes the only rhythm the format has.** **(2) No cut may read as a warning to parents. If it does, it does not ship in any ratio.** |
+
+---
+---
+
+# EVENING RUN: Saturday 10 October 2026, 23:11 UTC
+
+**Freshness check:** **THE US DAY WAS QUIET.** A delta sweep for anything breaking since 13:00 UTC returned nothing dated today. **Two items surfaced and both were refused as undated leads rather than banked: a report of a European sperm donor passing a cancer-predisposition variant to at least twenty-three children, and an Estonian exome study reporting a diagnosis in twelve percent of infertile men.** **Neither carried a date in our reading, and the first is adjacent to the donor-anonymity episode we already built on 7 October.** **A summary with no date attached is a lead, not a claim.**
+
+**Primary audience:** Men 25-55.
+
+**Trend-hook used:** **none, and stated plainly.** Quiet-day branch taken: one evergreen, three X drafts, two Threads posts, and the morning plan.
+
+---
+
+## EVERGREEN, PROMOTED: "The Handover"
+
+**Banked at 15:06 today by the Deep Production run and built out here.** Same precedent as last night and the four days before it. **Marked PROMOTED rather than BANKED so today's output is counted once.**
+
+**Runtime:** ~60 seconds. **Platform:** Reels primary, Shorts secondary.
+
+**FORMAT: THE CAMERA NEVER RISES ABOVE THE TABLE.** The entire piece is **two pairs of hands** passing one small sealed container back and forth. **No faces, no bodies above the forearm, and the second pair of hands is never explained.**
+
+**Sound:** room tone. The container touching the table is the only percussion. **No music.**
+
+| # | SHOT | VO / ON SCREEN |
+|---|---|---|
+| 1 | [Overhead, locked. A bare table. First pair of hands places a small sealed container down.] | **VO:** "This is the part nobody photographs." |
+| 2 | [Second pair of hands enters frame, takes it, turns it once.] | **VO:** "Not the freezer. Not the building. The handover." |
+| 3 | [Second pair writes something out of focus, slides the container back.] | **VO:** "Every time something changes hands, somebody is supposed to write it down." **[ON SCREEN: who, when, from whom]** |
+| 4 | [First pair takes it, moves it to the other side of frame.] | **VO:** "Not what it is. Who had it, and when." |
+| 5 | [Both pairs withdraw. The container sits alone.] | **VO:** "If that record exists, this is custody." |
+| 6 | [Hold on the container. Nothing moves for three seconds.] | **VO:** "If it does not, this is just an object on a table that somebody remembers putting there." |
+| 7 | [Cut to black.] | **[ON SCREEN: myspawn.me: GenVault holds it, in New Jersey. $99 a year, billed annually.]** |
+
+**Platform cuts.**
+- **Reels:** as written. **The three-second hold at beat 6 is the piece and must not be trimmed.**
+- **Shorts:** open at beat 5, the container alone, then return to beat 1.
+- **TikTok:** viable here, unlike last night's slow dissolve. **Hands-on-table is a native TikTok grammar; keep the full beat list and burn the on-screen text larger.**
+- **7-SECOND TEASER:** beat 1 into beat 6. **One object, two states, no explanation.**
+
+**Ship-blockers, carried from the bank unchanged.** **(1) No faces, ever, including reflections in the container.** **(2) Any writing must be genuinely illegible or genuinely nonsense. A legible form implies a real institution we are not entitled to depict.**
+
+**Captions.**
+- **Reels A:** "Not the freezer. The handover. That is the part that decides whether it is still yours."
+- **Reels B:** "Who had it, and when. That is the whole of custody."
+- **Shorts A:** "If the record exists, this is custody. If it does not, it is an object somebody remembers putting there."
+- **TikTok A:** "Four hands, one table, and the only question that matters about anything you store."
+- **Hashtags:** #custody #dna #legacy #chainofcustody #storage #myspawn
+
+---
+
+## THREE X DRAFTS
+
+**Draft 1, today's dive, pointed at ourselves.** "Looked into how a large cord blood bank actually operates in the US. Their American arm does not run the lab. They contract processing to two named facilities in two states. My first thought was that this is a story. My second was that it is exactly what we do: MySpawn is a brand, GenVault holds the sample. Contract storage is the industry. What varies is whether anybody tells you."
+
+**Draft 2, the date trap.** "A study hit the news this week comparing DNA from IVF-conceived and naturally conceived children. Before you read the headline: 33 children in one group, 42 in the other. The authors call it preliminary. The disease link in the title is inferred from which genes the differences sit near, not shown. And the paper is from May."
+
+**Draft 3, the four words.** "Four words that test any company holding anything of yours: who physically holds it. The follow-up is harder and it is the one that matters: what happens to my material if your contract with them ends. We have published that question three times this month. Our own answer page does not exist yet. That is a debt, not a feature."
+
+---
+
+## TWO THREADS POSTS
+
+**Threads 1.** "We shipped nothing today.
+
+The ad copy was finished. The photo search worked. Three candidates came back and all three were refused: one was a chain-link fence we used six days ago, one came from a contributor whose free-photo count is zero so the licence is uncertain, and one simply did not say what the headline said.
+
+The reserve was full and every entry was inside its hold window, so we did not raid it.
+
+A zero is a worse day than a two. It is a much better day than shipping the fence."
+
+**Threads 2.** "Something I did not expect to find this week: the thing that limits us is no longer research.
+
+We have a rule that we never repeat a visual idea. Not within a week, ever. That rule is correct, and it means that the better we get at catching repeats, the sooner we run out of ideas we are allowed to use.
+
+That is arithmetic, not failure. The answer is to bank more on good days, not to loosen the rule."
+
+---
+
+## TOMORROW MORNING POST PLAN, Sunday 11 October
+
+| Time (ET) | Platform | Asset | Why |
+|---|---|---|---|
+| **9:30am** | **X** | **Draft 1, the contract-lab admission.** | **It is the strongest thing this fleet produced this week and it is against our own interest, which is the only reliable way to be believed in this category.** Sunday morning X is slower and this one rewards a reader who stops. |
+| **11:00am** | **Facebook** | **Longpost #114, "The will is in the box. The box is sealed."** | **A deliberate substitution, and the reason is below.** |
+| **1:00pm** | **Reels** | **"Turn It Back"** (this afternoon's calendar script). | Weekend afternoon, and it needs a wall calendar and one take. **Most likely thing on the list to actually get shot.** |
+| **5:00pm** | **X** | **Draft 3, the four words.** | Two X posts work when one is a finding and one is an instruction. This is the instruction, and it admits our own gap in its last line. |
+| **Hold** | **Shorts, TikTok** | **nothing new.** | **Ten unshot scripts, twenty-four days.** |
+
+### LONGPOST #125 IS RETIRED FROM THE DAILY PICK, AND THE REASONING IS WRITTEN DOWN RATHER THAN LEFT IMPLICIT
+
+**Yesterday's plan attached a condition: if #125 did not go out today it should be formally retired rather than nominated a fifth time.** **The condition cannot be evaluated, because we have no analytics access and cannot see whether anything posted.** **So it is not being retired for failing. It is being retired from the DAILY PICK LIST for a different and better reason: a slot that is spent re-nominating the same asset every morning is a slot that cannot carry a dated one.**
+
+**#125 is not killed and nothing about it has gone stale.** **It moves to a standing post-whenever item.** **This is the first asset this operation has formally de-scheduled, and it should be the model: an asset that is picked daily and posted never is costing a slot, not holding one.**
+
+---
+
+## QC GATE, evening run
+
+| Check | Verdict | Note |
+|---|---|---|
+| **Freshness** | **PASS** | **Quiet day declared in the first line.** **Two undated leads refused rather than banked**, one of them adjacent to an episode we already built. |
+| **Evergreen format** | **PASS** | Two pairs of hands, camera never above the table. **PROMOTED, not BANKED, so today counts once.** |
+| **Banned lanes** | **PASS** | No retired framing. No descendant-creation promise. |
+| **Claims check** | **PASS** | Draft 2 carries the sample sizes, the authors' own hedge, the inference behind the title and the May publication date. **Draft 1 names no company and describes our own structure accurately.** |
+| **Right of publicity** | **PASS** | No individual named anywhere. **No competitor named in any draft.** |
+| **Pricing** | **PASS** | "$99 a year, billed annually" on the evergreen end card. |
+| **Against-interest content** | **PRESENT in three of five items** | Draft 1 admits our structure is identical to the one we examined. Draft 3 admits the custody-page debt. Threads 1 reports a zero-output day in public. |
+| **Persona bench, 38-year-old father** | **PASS** | Draft 3 gives him four words to use on anybody holding anything of his. |
+| **Persona bench, 29-year-old optimizer** | **PASS** | Draft 2 is a numbers correction. **Thirteenth consecutive clear.** |
+| **Persona bench, 50-year-old estate planner** | **PASS** | The evergreen is custody, which is his entire question. |
+| **Bench result** | **3 of 3** | |
+| **Ship-blockers** | **TWO, carried from the bank** | No faces including reflections, and no legible writing. |
