@@ -767,3 +767,25 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **AND A CORRECTION TO THIS MORNING'S RADAR, which banked a Herasight lead as unverified.** That lead came from a policy commentary and described the company as predicting height, BMI, longevity and IQ. **The description is broadly corroborated here by better sources, so the lead is upgraded from unverified to sourced.** **The radar was right to refuse to use it before this check, and the check took one search.**
 
 **ROTATION: Herasight done. The next quiet-day dive is CELLSAVE**, carried from the StoryWorth entry and still the oldest monitored name with no dive of its own. **Its first job is the same as Herasight's was: a description and a date.**
+
+- **2026-10-10:** **Fully quiet, SIXTH consecutive day.** No dated item in the 24-48h window for SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter AI, StoryWorth or Empathy. **No `watch-2026-10-10.md` file written, per the quiet-day rule.** **Three items surfaced and were REJECTED as out of window: a Science piece on genetics-group criticism of embryo screening (older coverage, no date in our reading), Cofertility's seed round and an April 2025 Series A, and Legacy's $25M Series B from 2022.** **None is a delta and none is banked as one.**
+
+### QUIET-DAY DEEP DIVE: CELLSAVE (the rotation's named target, carried since the StoryWorth entry)
+
+**The rotation's instruction was a description and a date. Both obtained, and the structural finding is better than either.**
+
+**WHAT IT IS.** A cord blood and stem cell bank, **a brand of the CSG-BIO (CSG.BIO) Group**, operating as several regional entities rather than one company. **The US arm, CellSave America, is headquartered in Scottsdale, Arizona.** Its packages cover **four tissue sources: cord blood, cord tissue, placenta tissue and amnion placental tissue**, which is a wider scope than most family banks advertise.
+
+**DATES, AND THEY ARE REGIONAL RATHER THAN CORPORATE.** **CellSave Arabia launched 11 September 2006**, by the UAE Minister of Health. **CellSave by ADSCC opened its Abu Dhabi lab in 2023.** **NO founding year was found for the US entity**, and we are not inferring one from the group's. **The US page claims a client inventory "built over 20 years" and families from over 80 countries across 6 continents**, which is a company self-description, not an audited figure.
+
+**THE FINDING, AND IT POINTS STRAIGHT BACK AT US: CellSave America does not run its own US laboratory. It contracts processing to two third parties, Cryopoint (BHC LLC) in Brownsburg, Indiana, and Vitalant New Jersey in Montvale, New Jersey**, both described as FDA-registered and AABB-accredited cord blood processing laboratories.
+
+**WHY THAT MATTERS AND WHY IT IS NOT A CRITICISM: MySpawn does exactly the same thing.** We are a brand; **GenVault holds the sample**, in New Jersey. **The difference we can actually claim is not vertical integration, it is disclosure: we name our storer on the front of the product and in every ad.** **Any copy that implies competitors are deceptive for using a contract laboratory would be dishonest, because contract processing is the industry norm and we are part of it.**
+
+**THE USABLE ANGLE, stated as a question rather than an accusation: "Who physically holds it, and does the company tell you without being asked?"** **That question is answerable about us in one sentence and takes real work to answer about most of this sector.** **Threat level: none directly, different product and different customer moment. Differentiation proof: strong, and it is about transparency rather than structure.**
+
+**NO US PRICING FOUND. Not estimated, not inferred from the regional entities.** **This is the fourth competitor in a row whose price we could not establish from public sources, after StoryWorth, Acorn and Herasight, and the pattern is now worth naming: in this sector the price is behind a consultation, and any competitor price quoted in our content without a primary source is a liability.**
+
+**ACCREDITATION LANGUAGE, noted for precision: CellSave is described as AABB-accredited and FDA-registered.** **AABB is a different accreditor from CAP, which is ours via GenVault, and the two are not interchangeable in copy.** **GenVault's accreditations are GenVault's and CellSave's are CellSave's; neither set is ever to be used loosely.**
+
+**ROTATION: CellSave done. The next quiet-day dive is TOMORROW BIO**, the oldest remaining monitored name whose only entry is a sixteen-month-stale note corrected on 3 October. **Its first job is the same: a description and a date.**
