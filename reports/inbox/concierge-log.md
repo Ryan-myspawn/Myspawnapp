@@ -482,3 +482,13 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 3. **The only send-capable email tools in this session belong to a server this fleet is forbidden to send from.** Recorded 9 October. **Presence of a tool is not permission to use it.**
 
 **Everything else in this file between 29 August and today is the same observation with a different timestamp.**
+
+---
+
+## COMPRESSED FORMAT STARTS HERE (proposed 2026-10-10, adopted 2026-10-11)
+
+**One row per day. Prose only when something actually changes: a new category, a new failure mode, a successful call, or a founder action.** The three findings worth preserving from the first forty-three days are stated in the 10 October entry above and are not restated here.
+
+| Date | Day | Probe | Result | Category | FR tally | TNL tally | Triage |
+|---|---|---|---|---|---|---|---|
+| 2026-10-11 | 44 | `search_threads newer_than:1d in:inbox` | needs you to sign in again | FALSE RECOVERY | **33** | 8 | none. Inbox state unknown, not clear. |
