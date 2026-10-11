@@ -233,3 +233,71 @@ Whether posting slots should exist as calendar events. **Retired on 27 September
 
 ### MOST IMPORTANT DATE IN THE NEXT 14 DAYS
 **Monday 5 October: Newsletter Issue 6.** Ten sends have been missed. **It is the only thing in the next fortnight whose failure has a running count attached to it.**
+
+---
+
+# Run: Sunday 11 October 2026, 18:08 UTC
+
+## THE RUN COULD NOT TOUCH THE CALENDAR. STATED FIRST.
+
+**Google Calendar was probed at 18:1x with a read-only `list_events` call for the next 21 days. The server returned "needs you to sign in again."** **Zero events were read. Zero were created, updated or deleted.**
+
+**This is a PROBED-AND-REFUSED finding, not an assumption.** The standing rule in this operation is that only a successful read-only call counts as recovery; the mirror of it is that only an attempted call counts as a finding. **Calendar now joins Google Drive, which was probed and refused at 13:1x today, and Gmail, which is on day 44.** **Three of the fleet's four delivery and state connectors are unauthorized on the same day.**
+
+**Consequence for this file: what follows is a DIFF AS A PLAN rather than a diff as an action.** Every line below is what a run with write access should do, in the order it should do it. **Nothing below has been applied. Do not read this log in six weeks and assume these events exist.**
+
+## PEGS IN THE NEXT 21 DAYS (11 October to 1 November)
+
+| Date | Peg | Source and status |
+|---|---|---|
+| **Mon 12 Oct** | Blog article, lane (d), "Who regulates a DNA storage company" | Queued in `reports/blog/topic-log.md` with a binding three-file read condition |
+| **Mon 13 Oct** | Blog article, lane (a), records-request procedural | Queued today, binding: procedural or killed |
+| **Tue 13 Oct** | Longpost Studio run (every 2 days) | **Owes a personal essay that is NOT an ops confessional**, condition recorded this morning |
+| **Thu 22 Oct** | **HARD DEADLINE: shoot "Presented At" or kill it** | Written into the script itself today. **A pre-conference filter published mid-conference is a reaction, not a filter.** |
+| **Fri 23 Oct** | ASRM prep reminder, 24h before | Per the brief's hard-peg rule |
+| **Sat 24 Oct** | **ASRM 2026 Scientific Congress opens, Baltimore Convention Center, 1 West Pratt Street** | **VERIFIED TODAY on ASRM's own asrm.org and asrmcongress.org pages.** Banked 10 Oct on a weaker source; that verification blocker is retired. Runs to **Wed 28 Oct**. Master Class Summit **Sun 25 Oct**. |
+| **Sat 24 Oct** | **Ad_PresentedAtIsNotPublishedIn_188 expires. PULL from rotation, do not re-date.** | Written into today's concept doc |
+| **Thu 29 Oct** | GTA 6 enters the 21-day calendar window | Release 19 November, outside today's horizon |
+
+## EVENTS A WRITE-CAPABLE RUN SHOULD CREATE
+
+**Recurring anchors, if missing:**
+- `[MySpawn] Approve partner outreach`, Tuesday evening IST: **13, 20, 27 October**.
+- `[MySpawn] Send newsletter`, Friday morning IST: **16, 23, 30 October**. **Read the escalation below first.**
+- `[MySpawn] Shoot block`, 45 minutes at 11:00 IST, **every weekday 12 to 30 October**. **The rule says skip days with nothing queued. There is still no such day**, and today added two more shootable scripts plus an episode, an explainer and an evergreen.
+
+**Hard pegs:**
+- `[MySpawn] ASRM 2026 Scientific Congress`, all-day, **24 to 28 October**, Baltimore Convention Center, 1 West Pratt Street. Description should carry the verification note and the fake-registration-site warning ASRM publishes.
+- `[MySpawn] ASRM prep`, **Friday 23 October**, 24h before.
+- `[MySpawn] SHOOT OR KILL: Presented At`, **Thursday 22 October**. **This is the one with teeth.**
+- `[MySpawn] Pull Ad_188 from rotation`, **Saturday 24 October**.
+
+## THE NEWSLETTER ANCHOR: THE ESCALATION IS NOW WORSE THAN WHEN IT WAS RAISED
+
+On 20 September this log proposed keeping the Friday anchor and treating a Monday send as a one-off. **That proposal was withdrawn by its own author on the last run, after three consecutive issues landed off the anchor.**
+
+**The situation has since changed in a way that makes the anchor question secondary. The sending queue is now THREE DEEP: Issues 6, 7 and 8 are written and unsent.**
+
+**A calendar anchor schedules a send. It does not perform one.** **Creating three more Friday "Send newsletter" events on top of three unsent issues would be scheduling a fourth failure rather than fixing three.** **PROPOSED, not applied: suspend the recurring newsletter anchor until the queue is empty, and replace it with a single dated event, "Clear the newsletter backlog", because the problem is not when to send, it is that nothing sends.**
+
+## INTERNAL HOLDS: STATUS IN THE WINDOW
+
+| Hold | Status |
+|---|---|
+| Luggage photo family (expiry ~8 Oct) | **EXPIRED.** `L0Zyjihp6Ck` is available. |
+| Dark-industrial-hardware family (expiry 9 Oct) | **EXPIRED.** |
+| **Fence family (expiry 11 Oct)** | **EXPIRES TODAY.** The three fence photographs banked on 3 October are free from tomorrow. **Note the irony on the record: `fence` killed the strongest candidate of 10 October on a six-day collision, and the hold it collided with lapses today.** |
+
+**AGENT-SIDE PROPOSAL CARRIED FORWARD, STILL UNAPPLIED: shorten default photo-reserve holds from fourteen days to seven where the subject family returns zero new candidates.** Today's run did not need the reserve, so the proposal costs nothing to defer again, but it has now been carried three times.
+
+## WHAT CHANGED SINCE THE LAST RUN
+
+1. **ASRM moved from banked-and-unverified to verified and dated**, on the organisation's own pages. It is the single most consequential calendar fact in this file.
+2. **Two new deadlines were created by today's own output** and both are self-imposed: the 22 October shoot-or-kill, and the 24 October ad pull. **An operation that writes its own expiry dates into its assets is one that can be held to them. That only works if they reach a calendar.**
+3. **Calendar write access was lost**, or at least confirmed lost. Previous runs in this file assumed it.
+
+## MOST IMPORTANT DATE IN THE NEXT 14 DAYS
+
+**Thursday 22 October: shoot "Presented At", or kill it.**
+
+**Not 24 October, and the distinction is the point.** The congress is the bigger event, but nothing about it is ours to miss. **22 October is the last day the ASRM filter asset is worth making**, and it is the only date in the next fortnight where inaction permanently forecloses something we already built. **The newsletter backlog has a larger running count, but it can be cleared on any day. This one cannot.**
