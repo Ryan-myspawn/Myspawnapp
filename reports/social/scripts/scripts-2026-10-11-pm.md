@@ -186,3 +186,150 @@ The Deep Production pack written at 15:06 declared in writing what it took and w
 [2] Courthouse News, "Privacy class action over genetic data moves forward": https://www.courthousenews.com/privacy-class-action-over-genetic-data-moves-forward/ *(named journalism. FETCH ATTEMPTED 11 Oct 2026, FAILED on DNS. Source of the judge's name, the ruling date and the quoted phrase.)* Surviving statutes per Bloomberg Law: https://news.bloomberglaw.com/litigation/genealogy-site-owner-verogen-unable-to-shake-dna-privacy-claims
 [3] ASRM 2026 Scientific Congress, 24-28 October 2026, Baltimore Convention Center: https://www.asrm.org/news-and-events/asrm-scientific-congress-and-expo/asrm-2026/asrm-2026-landing-page/ and https://asrmcongress.org/register/ *(organisation's own pages, via search index)*
 [4] Abstract-to-publication figures: Cochrane methodology review, 425 reports and approximately 307,000 abstracts, 37 percent published in full (95% CI 35-39). **Publication year NOT established from our sources and that limitation is stated on camera.** Eye-and-vision meta-analysis, 19 reports and 12,261 abstracts, 38.0 percent (95% CI 31.7-44.3): https://pmc.ncbi.nlm.nih.gov/articles/PMC7193525/ *(systematic reviews, tier 1, via search index)*
+
+---
+
+# EVENING RUN: Sunday 11 October 2026, 23:10 UTC
+
+## THE US DAY WAS QUIET. ONE LINE, AS THE BRIEF ASKS.
+
+**Nothing broke between roughly 13:00 and 23:10 UTC.** Two delta sweeps were run, one on biotech and longevity and one on discourse. **Neither returned a single item dated today.** The biotech sweep returned a Week 39 roundup, a late-September opinion piece and the $617 billion figure that longpost #130 already spent on 9 October. The discourse sweep returned pronatalism background with no current flashpoint, the newest dated item being from **May 2026**. **Nothing is newsjacked tonight, and nothing is invented to fill the slot.**
+
+**So this run produces the quiet-day package: one evergreen in an unused format, three X drafts, two Threads posts, and tomorrow's post plan.**
+
+---
+
+## EVERGREEN: "The Smoke Detector"
+
+**Format check:** **`smoke detector` returns ZERO across every file in `reports/social/scripts/` and across `production-log.md`.** Also checked and rejected as already used or too close: `receipt` (52 hits, it is a named ad style), `expiry` (7), `jar` (3), `thermal` (2), `faded` (2), `spare key` (1). **Also unavailable despite returning zero: `printer`, because Deep Production banked "The Printer" at 15:06 today and this run is not going to collide with its own operation six hours later.**
+**Primary audience:** Men 25-55 (38-year-old provider leads, and this one is squarely his).
+**Trend-hook used:** none, and that is declared. **This is the quiet-day evergreen slot. The week's theme it draws on is real and dated: a privacy control that existed and was allegedly bypassed, and a citation label that sat wrong in four of our own files for thirty-four days.**
+**Lane:** evergreen, zero product until the final card.
+**Length:** 42 seconds.
+
+### Script
+
+**[SHOT 1: static, low angle, a white smoke detector on a ceiling. Nothing happens. 4 sec]**
+**VO:** "This has been on your ceiling for six years."
+
+**[ON SCREEN TEXT: "6 years"]**
+
+**[SHOT 2: same shot, held. Still nothing. 4 sec]**
+**VO:** "You installed it. You did the right thing. It is the responsible item in the house."
+
+**[SHOT 3: a hand enters frame from below, reaching up. 3 sec]**
+**VO:** "When did you last press the button?"
+
+**[ON SCREEN TEXT: "When did you last press it?"]**
+
+**[SHOT 4: the thumb presses. Hold on silence for a full two seconds before anything happens. 5 sec]**
+**(SOUND NOTE: the two seconds of silence before the beep is the whole shot. Do not cut it short in the edit. If the edit feels too long here, it is correct.)**
+
+**[SHOT 5: it beeps. Hand withdraws. 3 sec]**
+**VO:** "Fine. This one works."
+
+**[SHOT 6: cut to a phone screen, a privacy settings list, several toggles switched off. Thumb only. 6 sec]**
+**VO:** "Now. Every privacy setting you have ever switched off. Every account with a beneficiary on it. Every box you ticked that said do not share."
+
+**[SHOT 7: the phone, held still. 6 sec]**
+**VO:** "Which of those have you pressed the button on? Not set. Tested."
+
+**[ON SCREEN TEXT: "Set is not tested."]**
+
+**[SHOT 8: back to the ceiling detector, static, silent. 5 sec]**
+**VO:** "A thing that is supposed to protect you, that nobody has checked, is not protection. It is a decoration you feel calm about."
+
+**[SHOT 9: black card, white text. 6 sec]**
+**VO:** "Pick one this week. Press the button."
+
+**[ON SCREEN TEXT: "myspawn.me"]**
+
+**SOUND/MUSIC:** **none at all until the beep, which is diegetic.** No bed, no sting, no music under the close. **Every other asset this week carried sound; this one is built on the absence of it, and shot 4's silence is the format.**
+
+### Platform cuts
+- **TikTok:** full cut. The two-second silence before the beep is a native TikTok device and it holds.
+- **Reels:** move SHOT 6 to position 2, so the phone appears before the second ceiling beat. Reels needs the stakes earlier.
+- **Shorts:** full cut as written.
+- **7-SECOND TEASER:** SHOT 1 and SHOT 3 only, ending on "When did you last press the button?" **Text card: "Set is not tested."** No beep, no resolution.
+
+**UGC loop:** "Reply with the one you are going to test first."
+
+---
+
+## THREE X DRAFTS
+
+**1. The correction, lead post.**
+> On 6 September I said this on camera: "An October 2025 study in NAR Molecular Medicine. Peer-reviewed."
+>
+> October 2025 was the preprint. Peer review came 3 February 2026.
+>
+> I called a preprint reviewed and dated the review four months early. The finding held. My label did not.
+>
+> It sat in four of our files for 34 days.
+
+**2. The harder half of the same correction, posted separately rather than as a reply, because it is a different argument.**
+> The wrong label was the small error.
+>
+> The study ran 28 days, on 32 fixed-tissue samples, compared by the method's own authors.
+>
+> We sell storage measured in decades.
+>
+> The label was wrong by four months. The extrapolation was wrong by about thirty years.
+
+**3. The filter, with a fuse on it.**
+> In 13 days the largest fertility meeting in America opens in Baltimore.
+>
+> One check on everything that comes out of it: does the article say "presented at" or "published in"?
+>
+> A Cochrane methodology review of 425 reports and ~307,000 abstracts: 37% were ever published in full (95% CI 35-39). Mostly clinical medicine.
+>
+> Two words.
+
+---
+
+## TWO THREADS POSTS
+
+**1.**
+> Ten people set the privacy toggle on a DNA genealogy site. They did the thing you are supposed to do.
+>
+> On about 30 September a federal judge ruled they can take to trial the claim that law enforcement users could get around it anyway. Motion to dismiss only. Nothing proven.
+>
+> The allegation is not that the policy lied. It is that the switch did not control what it looked like it controlled.
+>
+> Which raises a question almost nobody asks a company holding their data: who tested the setting, and has anyone outside the building ever checked?
+
+**2.**
+> Seventeen states will now hand an adopted adult their own original birth certificate. Virginia joined on 1 July 2026. West Virginia and Wyoming still want a court order. Guides saying fifteen are out of date and still circulating.
+>
+> Here is the part people find out after the year-long application: a birth certificate gives you names. It does not give you a medical history.
+>
+> If your family's health history is a blank, the records request and the appointment are two different jobs, and only one of them has a clock on it.
+
+---
+
+## TOMORROW MORNING POST PLAN, Monday 12 October
+
+| Platform | Asset | Local time | Why |
+|---|---|---|---|
+| **X** | **X draft 1, the correction** | 09:00 ET | **Named this morning as the week's publish-first item and nothing since has beaten it.** Monday morning is when a correction reads as housekeeping rather than as damage control, which is exactly the register we want. |
+| **X, second slot** | X draft 2, the 28-days line | 15:00 ET | Posted separately, not threaded. **It is a different argument and threading it would let the first post's admission absorb it.** |
+| **Facebook** | **Longpost #133, the seventeen-states piece** | 12:00 ET | The practical-guide lane's audience is on Facebook at lunchtime and the asset ends with a question, which is what that platform rewards. |
+| **Threads** | Threads post 1, the opt-out loophole | 10:30 ET | Threads carries legal-procedural material better than X does, and the post ends on a question a reader can answer about their own accounts. |
+| **Instagram / TikTok / Shorts** | **NOTHING, and it is worth saying why** | : | **There is no shot footage. The filming backlog is now eleven scripts and twenty-five days.** We have four finished static ads from today that could carry a feed slot, **but the ad lane's output is paid creative and the Image Ads run flagged Ad_190 as organic-first.** **If one thing posts to Instagram tomorrow, make it Ad_CheckTheDateOnTheStudy_190.** |
+| **Reddit** | **NOTHING. Blocked, 21 consecutive days.** | : | Backlog is ten deep. |
+
+---
+
+## QC GATE, evening run
+
+| Item | Freshness | Banned lanes | Claims | 3-persona bench | Verdict |
+|---|---|---|---|---|---|
+| **Evergreen "The Smoke Detector"** | **PASS. `smoke detector` returns ZERO across the scripts directory and the production log.** Six candidate formats checked and rejected by grep, with counts recorded. **`printer` refused despite returning zero, because our own 15:06 run banked it today.** | None. No letter framing, no retired lane, no em dashes. | **No factual claim in the script at all.** Zero product until the final card, which is a URL and nothing else. | Father **strong**, and this is his asset. Optimizer **pass**. Estate planner **strong**: "set is not tested" is his whole profession. | **PASS** |
+| **X drafts 1-3** | PASS. Draft 1 and 2 are the first public statement of today's correction. Draft 3 carries the 13-day fuse. | None. | **Draft 1 quotes our own script verbatim and gives both dates.** Draft 2 states the 28-day limit. **Draft 3 carries the confidence interval AND the "mostly clinical medicine" limitation inside a 280-character format, which is the hard part.** | 3 of 3 on all three. | **PASS** |
+| **Threads posts 1-2** | PASS. | None. | **Post 1 states "motion to dismiss only, nothing proven" inside the post rather than in a footnote.** Post 2 dates the Virginia change and flags the stale fifteen-state count. | 3 of 3 on both. | **PASS** |
+
+**Bench summary: 6 of 6 items PASS, 0 fixed, 0 killed. One format refused on a self-collision six hours old rather than on the log.** **No email: there is no send-capable Gmail tool in this session, confirmed by a targeted tool search at 12:5x today.**
+
+---
+
+**Tomorrow's single most important post: X draft 1, the correction, 09:00 ET. We spent today finding an error in four of our own files, and a correction that never leaves the repository is a correction we made for our own comfort.**
