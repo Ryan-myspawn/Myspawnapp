@@ -835,7 +835,7 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 
 **THE PREDICTION FAILED, AND THE FAILURE IS MORE USEFUL THAN A CONFIRMATION WOULD HAVE BEEN.** **Acorn has BOTH: a mandatory specialist consultation to qualify you, AND a storage store that publishes exact prices.** The rule as stated yesterday predicted that a consultation-gated company would not publish prices. It does.
 
-**WHAT IT IS.** A cell-banking service that cryopreserves **living stem cells collected from hair follicles**, raised **$8m** for the model *(Longevity.Technology, undated in our reading)*. **This is NOT our product and the distinction has to travel with every number below: Acorn preserves LIVING CELLS in cryostorage. MySpawn preserves a DNA RECORD at ambient temperature. Different物 physics, different promise, different failure modes.**
+**WHAT IT IS.** A cell-banking service that cryopreserves **living stem cells collected from hair follicles**, raised **$8m** for the model *(Longevity.Technology, undated in our reading)*. **This is NOT our product and the distinction has to travel with every number below: Acorn preserves LIVING CELLS in cryostorage. MySpawn preserves a DNA RECORD at ambient temperature. Differentphysics, different promise, different failure modes.**
 
 **THE PRICING, AND IT IS THE FIRST COMPETITOR IN SIX DIVES WE CAN STATE TO THE DOLLAR.**
 - **Collection and processing: "From $945"** on the US landing page, **with the first step being a specialist consultation** who confirms you are "a good candidate". Affirm payment plans offered. **A 2024 Acorn page gives "around $945 plus tax at most clinics" and says clinics set their own fees**; one Vancouver clinic lists a **$900** collection procedure.
