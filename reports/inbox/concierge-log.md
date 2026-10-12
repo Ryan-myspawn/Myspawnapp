@@ -492,3 +492,10 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 | Date | Day | Probe | Result | Category | FR tally | TNL tally | Triage |
 |---|---|---|---|---|---|---|---|
 | 2026-10-11 | 44 | `search_threads newer_than:1d in:inbox` | needs you to sign in again | FALSE RECOVERY | **33** | 8 | none. Inbox state unknown, not clear. |
+| 2026-10-12 | 45 | `search_threads newer_than:1d in:inbox` | needs you to sign in again | FALSE RECOVERY | **34** | 8 | none. Inbox state unknown, not clear. |
+
+**2026-10-12 note, and it is the first material change to this log's framing in weeks.** **Yesterday a targeted tool search established that this session holds NO send-capable Gmail tool at all: only `search_threads`, `get_message`, `get_thread`, `create_draft`, the label tools and the trash/spam tools.** **That changes what this lane's failure actually is.** For forty-five days the log has recorded an authentication problem. **There are two problems, and only one of them is authentication.**
+
+**(1) READ is blocked by authentication.** Fixable by re-authorising Gmail in claude.ai connector settings. **(2) SEND does not exist as a capability.** **Re-authorising Gmail would restore triage and drafting and would NOT restore the daily digest**, because `create_draft` is the only composition tool present and a draft is not a sent digest.
+
+**So the founder ask changes shape: "reconnect Gmail" is necessary and not sufficient. The digest needs either a send-capable tool added, or a different delivery path.** Recorded here because a future run reading forty-five identical lines would reasonably conclude that one reconnection fixes everything, and it does not.
