@@ -185,3 +185,142 @@ The 15:06 Deep Production pack took both Science Watch items and left me **the l
 
 [1] *Cell Systems* blastoid study, coverage dated 7 October 2026: https://earth.com/science/these-lab-grown-models-look-like-human-embryos-but-appearances-can-mislead *(Secondary science coverage. FETCH ATTEMPTED 12 Oct at 17:2x, FAILED on DNS. **The percentages reported in that coverage are NOT used in the script for exactly this reason.**)*
 [2] Acorn Biolabs published US storage pricing, $190/year and $1,650 for ten years, plus collection "from $945": https://store.acorn.me/en-us/ and https://www.acorn.me/lp/acorn-cell-banking *(The company's own pages, used as facts about itself. Via search index; not opened at their own domains. Full dive in `reports/competitors/baseline.md`, 12 October.)*
+
+---
+
+# EVENING RUN: Monday 12 October 2026, 23:10 UTC
+
+## THE US DAY WAS QUIET. ONE LINE, AS THE BRIEF ASKS.
+
+**Nothing broke between roughly 13:00 and 23:10 UTC.** The delta sweep returned a **January 2026** *Science* heritability study, a **June 2026** conference abstract and a **30 September** Nature sidebar. **The newest item is twelve days old and the headline item is nine months old. Nothing is newsjacked tonight.**
+
+**ONE ITEM BANKED FOR THE WATCHLIST RATHER THAN USED, and the label matters: a *Science* study published JANUARY 2026, from the Weizmann Institute and Karolinska Institutet, reporting that genetics may account for up to 55 percent of lifespan, above earlier estimates.** **`Weizmann` and `Karolinska` both return ZERO fleet-wide, so the SOURCE is new to us even though `heritab` has two prior hits.** **It is nine months old and is NOT a delta. It is a receipt we did not have, and the next run that needs a heritability figure should check it before reaching for an older one.** *(Peer-reviewed. Via search summary; not opened at its own domain.)*
+
+---
+
+## EVERGREEN: "The Coat Pocket"
+
+**Format check:** **`coat pocket` returns ZERO across `production-log.md` and every file in `reports/social/scripts/`.** **A disambiguation, because a naive grep would have killed this: `receipt` returns 54 hits and every one of them is the ad lane's "receipts style" LAYOUT, not a physical receipt as a subject.** **The style is a way of arranging type. This is an object that erased itself. Mention versus explain, and the distinction saved the slot.**
+**Also unavailable despite being unused: `printer` and `fuse box`, both banked by our own production runs on 11 and 12 October.**
+**Primary audience:** Men 25-55 (50-year-old estate planner leads).
+**Trend-hook used:** none, declared. **Quiet-day evergreen slot.** The week's theme it draws on is real: a label that was wrong, a setting nobody tested, and a model mistaken for the thing.
+**Lane:** evergreen. **Zero product until the final card.**
+**Length:** 38 seconds.
+
+### Script
+
+**[SHOT 1: a coat on a hook. A hand goes into the pocket. 4 sec]**
+**VO:** "This is a coat you have not worn since last winter."
+
+**[SHOT 2: the hand comes out with a folded slip of paper. 4 sec]**
+**VO:** "And this was a receipt."
+
+**[ON SCREEN TEXT: "This was a receipt."]**
+
+**[SHOT 3: the paper unfolds. It is blank. Completely. Hold it. 6 sec]**
+**(SOUND NOTE: nothing. No music anywhere in this script. Paper and room tone only.)**
+
+**[SHOT 4: the blank paper held flat, turned over. Still blank. 5 sec]**
+**VO:** "Thermal paper. The print is not ink sitting on the surface. It is a chemical reaction in the paper itself, and heat, light and time undo it."
+
+**[SHOT 5: the blank slip set down on a table. 6 sec]**
+**VO:** "Nobody lost this. It was not thrown away. It was kept, carefully, in a pocket, in a dark cupboard, for ten months."
+
+**[ON SCREEN TEXT: "It was stored. It just stopped being readable."]**
+
+**[SHOT 6: direct, flat. 7 sec]**
+**VO:** "Which is the distinction almost nobody makes about anything they are keeping. Storing a thing and keeping it readable are two different jobs, and only one of them happens by leaving it alone."
+
+**[SHOT 7: black card. 6 sec]**
+**VO:** "Go and look at the oldest thing you are relying on still being legible."
+
+**[ON SCREEN TEXT: "myspawn.me"]**
+
+**SOUND/MUSIC:** **none at all.** The unfolding paper is the only sound event and it has to be clean.
+
+### Platform cuts
+- **TikTok:** full cut. The blank-paper reveal at four seconds is a native TikTok beat.
+- **Reels:** move SHOT 4's thermal-paper explanation to position 3, before the "nobody lost this" line. Reels viewers want the mechanism sooner.
+- **Shorts:** full cut.
+- **7-SECOND TEASER:** SHOT 1 and the unfold, ending on the blank paper. **Text card: "It was stored. It just stopped being readable."** No explanation.
+
+**UGC loop:** "Reply with the oldest thing you are assuming is still readable."
+
+---
+
+## THREE X DRAFTS
+
+**1. The week's cleanest line, from today's ad lane.**
+> Objects survive by accident.
+>
+> Records survive on purpose.
+>
+> A leather case from 1942 outlasted whoever packed it. What was inside it did not, unless somebody chose to keep that too.
+
+**2. The fairness line, because a competitive point that concedes the other side travels further than one that does not.**
+> A competitor charges about twice what we do for storage.
+>
+> They are keeping living cells alive in cryogenic conditions. That needs a machine that must not fail for decades.
+>
+> Cryo costs more because it is harder, not because anyone is overcharging. If you need living cells, pay for cryo.
+>
+> We store a record. Different job.
+
+**3. The one with no product in it at all.**
+> Two words to carry into the next two weeks of fertility headlines: does the article say "presented at" or "published in"?
+>
+> One means a committee thought it was worth an audience.
+>
+> The other means strangers tried to break it and could not.
+
+---
+
+## TWO THREADS POSTS
+
+**1.**
+> There are two different things people mean by "the police got my DNA" and almost no coverage separates them.
+>
+> One is a search of a relative-matching genealogy database. That reaches you through your cousins. You are not the suspect; you are the profile that made the family tree possible.
+>
+> The other is a request to a company for a named person's records. That runs through legal process and looks like any other subpoena.
+>
+> Different mechanisms, different legal routes, different defences. And the first one has no individual fix: you can opt out of everything and still be found through a relative who opted in.
+
+**2.**
+> Scientists build things called blastoids: stem cells arranged so they organise themselves into the shape of a very early embryo. They exist because studying real human embryos is restricted and limited, which is a good reason.
+>
+> A study covered last week did something unusual. Instead of reporting how close the models got, it compared four different ways of building them and reported how far apart those four were from each other.
+>
+> Which means "blastoid" is not one thing with one fidelity. Some recipes are close. At least one is not close at all. All of them get the same word.
+>
+> These are models of embryos. Not embryos. And nothing to do with lab-grown eggs or sperm, which is a different problem with a different wall in front of it.
+
+---
+
+## TOMORROW MORNING POST PLAN, Tuesday 13 October
+
+| Platform | Asset | Local time | Why |
+|---|---|---|---|
+| **X** | **X draft 1, "objects survive by accident"** | 09:00 ET | **The week's best standalone line and the only one that needs no news peg.** Yesterday's correction post was Monday's pick and should have run; if it did not, run it first and move this to 15:00. |
+| **X, second slot** | X draft 3, the "presented at" two-word test | 15:00 ET | **Eleven days to ASRM. The filter is worth more before the headlines than after**, and this is the free version of the explainer we have not yet shot. |
+| **Facebook** | **Blog article, "Can Police Get Your DNA From a Consumer Test?"** | 12:00 ET | Published this morning. **`police` and `law enforcement` returned zero across all 54 prior articles, so this is the first time we have anything to say on a question our audience has actually wondered about.** |
+| **Threads** | Threads post 1, the two-things distinction | 10:30 ET | Threads carries a long procedural distinction better than X, and the post ends on the part with no individual fix, which is the part people reply to. |
+| **Instagram** | **Ad_ItOutlastedThePersonWhoPackedIt_193** | 11:00 ET | Shipped today. **The only one of today's three ads whose argument does not depend on a news story.** |
+| **TikTok / Shorts** | **NOTHING, and the reason is unchanged and getting worse.** | : | **The filming backlog is twelve scripts and twenty-six days.** Two more were written today. **The 22 October shoot-or-kill date on the ASRM filter is ten days away.** |
+| **Reddit** | **NOTHING. Blocked, 22 consecutive days.** | : | Backlog ten deep. Six days to the 18 October cutoff condition. |
+
+---
+
+## QC GATE, evening run
+
+| Item | Freshness | Banned lanes | Claims | 3-persona bench | Verdict |
+|---|---|---|---|---|---|
+| **Evergreen "The Coat Pocket"** | **PASS, and the check is the interesting part. `coat pocket` returns ZERO, but `receipt` returns 54 and ALL 54 are the ad lane's "receipts style" layout rather than a physical receipt.** A naive grep would have killed this. **`printer` and `fuse box` were refused despite being unused, because our own runs banked them on 11 and 12 October.** | None. No letter framing, no retired lane, no em dashes. | **One factual claim: thermal paper prints by a chemical reaction in the paper rather than by ink on the surface, and heat, light and time undo it.** That is textbook and is stated as mechanism, not as a study. **No product claim until the final card, which is a URL.** | Father **pass**. Optimizer **pass**. Estate planner **strong**, and this is his asset: the whole subject is a document that failed quietly. | **PASS** |
+| **X drafts 1-3** | PASS. Draft 1 is today's ad line, draft 2 today's competitor finding, draft 3 the ASRM filter. | None. | **Draft 2 concedes the competitor's cost structure in the post itself, not in a reply.** Draft 3 carries both halves of the distinction. | 3 of 3 on all three. | **PASS** |
+| **Threads posts 1-2** | PASS. | None. | **Post 1 states the no-individual-fix part plainly rather than implying a product solves it.** **Post 2 carries the hard scope line: models of embryos, not embryos, and nothing to do with gametes.** **Neither post states the blastoid percentages, consistent with this afternoon's decision to cut unverifiable numbers.** | 3 of 3 on both. | **PASS** |
+
+**Bench summary: 6 of 6 items PASS, 0 fixed, 0 killed.** **One format refused on a self-collision from our own 11 and 12 October runs, and one format SAVED by distinguishing a layout name from a physical object.** **No email: no send-capable Gmail tool in this session.**
+
+---
+
+**Tomorrow's single most important post: the blog article on police access, on Facebook at 12:00 ET. It is the first thing we have ever published on a question that returned zero across all 54 prior articles, and a gap that size does not stay open.**
