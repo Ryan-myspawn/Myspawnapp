@@ -525,3 +525,31 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 3. **how long are sperm donor records kept** : slug `how-long-donor-records-kept` : lane (d). **BINDING CHECK: `donor record` returns ONE hit, yesterday's `legacy-planning-no-family-health-history`, which covers the ten-year floor in a section. Writable ONLY as the PROCEDURAL piece, how to request donor records before the retention minimum expires, naming who to ask and what to ask for. If it comes out as another explanation of the ten-year rule, KILL it.** Backed by 21 CFR 1271.55(d)(4) and the 22 July 2026 N.D. Ill. filing.
 
 **STILL OPEN from the 5 October block, carried rather than re-queued:** how to confirm a DNA company destroyed your sample · DNA testing without consent · how to write a letter to your future child *(cannibalization check attached)* · what is a biological will *(least certain; drop first)*.
+
+| 2026-10-12 | **Can Police Get Your DNA From a Consumer Test?** | `police-access-consumer-dna` | (d) trust and custody | can police get your DNA from a consumer test | forensic genetic genealogy · GEDmatch law enforcement opt out · can police search 23andMe · DNA database warrant · genetic genealogy state laws · does opting out stop police DNA search | 1,662 prose words, COUNTED |
+
+**Notes on the 2026-10-12 article.**
+
+**THE QUEUED TOPIC WAS KILLED BY ITS OWN BINDING CONDITION, AND THE CONDITION'S ESCAPE HATCH TURNED OUT TO BE ALREADY OCCUPIED.** The 12 October queue item was lane (d), "Who regulates a DNA storage company, and what happens if nobody does", with a binding instruction to READ three articles and write it only as the question accreditation does NOT answer, or kill it. **`biobank-accreditation-explained` contains a section titled, in exactly those words, "The question accreditation does not answer."** **The permitted reframe was already a heading inside the file the condition told me to check.** Add `what-happens-dna-company-shuts-down`'s "The law that does not cover this" and `genetic-privacy-laws`'s "State laws: where the real movement is", and three published articles cover three angles of the regulator question between them. **KILLED, on the condition's own terms, and the kill is recorded with its reasoning rather than as a shrug.**
+
+**THE SUBSTITUTE CAME FROM THIS MORNING'S RANK TRACKER, SAME LANE, AND THE GAP IS THE LARGEST FOUND IN MONTHS: `police`, `law enforcement`, `subpoena` and `golden state` ALL RETURN ZERO across the 54 published articles.** `GEDmatch` had one hit and `warrant` one, the latter in an FDA context. **This is the first time a rank-tracker pick has been promoted to same-day substitute, and it worked because the tracker had already run the grep.**
+
+**THE SPINE IS A DISTINCTION NOBODY DRAWS: two different things get called "police got my DNA".** A search of a relative-matching database reaches you through your cousins. A records request reaches you through your account. **They have different mechanisms, different legal routes and different defences, and almost all coverage conflates them.**
+
+**DATED RECEIPTS: GEDmatch opt-in May 2019 with default out; 75-80 percent of new users opting in against under 25 percent of existing; about 260,000 opted in by May 2020; a Cornell law journal estimate that nearly 90 percent of profiles became unsearchable. Maryland and Montana 2021, the first two states, with Montana requiring a probable-cause warrant and Maryland judicial authorization plus serious-crime limits plus covert-collection restrictions. 23andMe's transparency report last updated 30 April 2026, no NSLs, no FISA orders.**
+
+**THREE THINGS REPORTED AS UNRESOLVED RATHER THAN RESOLVED, which is becoming this blog's signature: the DOJ interim policy's release and effective dates CONFLICT across sources and the article says so; Maryland SB 678's enactment could NOT be confirmed and the article refuses to assume it; and the Orlando warrant case cited by the EFF is UNDATED in our reading and is labelled as mechanism-established, case-unverified.**
+
+**AGE LABELS CARRIED IN THE BODY, NOT JUST THE SOURCE GRADES: four of nine sources are two to seven years old** (NPR 2024, TechCrunch 2021, EFF 2019, BuzzFeed 2019, Cornell 2020) **and each carries its age where it is used.**
+
+**PRODUCT BOUNDARY, THE STRONGEST AVAILABLE AND STILL STATED AGAINST INTEREST: we are not a relative-matching network, which is a fact about architecture; and "we will not claim we are beyond legal process. No US company is. A valid court order reaches a storage company the same way it reaches anyone else, and any company telling you otherwise is selling you a feeling."**
+
+**LENGTH: 1,662 prose words, inside the 1,200-1,800 house range, measured not estimated.** **Yesterday's 2,010-word overage produced a lesson that was applied today: the FAQ answers were written tight from the start rather than cut in three passes afterwards.**
+
+**LINK HYGIENE: three internal links, all three slugs verified present. FAQPage JSON-LD parsed; six entries, and ONE MISMATCH WAS CAUGHT AND FIXED, the "Which states regulate this?" heading aligned to the JSON's fuller question rather than the other way round, because the fuller phrasing is the search query. Zero em dashes.**
+
+**BLANKET EPISTEMIC LABEL, fifteenth consecutive day: no source opened at its own domain.** **The two-state count is what this article rests on, and the article states that if a third state has acted since 2021 we did not find it, which is a limitation rather than a finding.**
+
+**QUEUE.**
+- **13 October, lane (a): "What a records request actually looks like."** **CARRIED. BINDING, unchanged: procedural or killed. Name the form, the office and the fee structure. If it comes out as another survey of which states allow what, it duplicates 11 October and must be killed.** **READ `legacy-planning-no-family-health-history` first.**
+- **14 October, lane (d): "Does life insurance ask for genetic test results?"** **Promoted from this morning's rank-tracker block. BINDING CHECK, carried from the tracker: `life insurance` appears in FIVE published articles and `GINA` in SIXTEEN. READ the five before drafting. If any EXPLAINS the GINA insurance gap rather than mentioning it, KILL and take "how long are sperm donor records kept" instead, which carries its own procedural-or-killed condition.**
