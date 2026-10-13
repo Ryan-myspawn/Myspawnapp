@@ -493,9 +493,21 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 |---|---|---|---|---|---|---|---|
 | 2026-10-11 | 44 | `search_threads newer_than:1d in:inbox` | needs you to sign in again | FALSE RECOVERY | **33** | 8 | none. Inbox state unknown, not clear. |
 | 2026-10-12 | 45 | `search_threads newer_than:1d in:inbox` | needs you to sign in again | FALSE RECOVERY | **34** | 8 | none. Inbox state unknown, not clear. |
+| 2026-10-13 | 46 | `ToolSearch select:mcp__Gmail__search_threads`, then a keyword search | **no Gmail tool returned at all** | **TOOLS NOT LOADABLE** | 34 | **9** | none. Inbox state unknown, not clear. |
 
 **2026-10-12 note, and it is the first material change to this log's framing in weeks.** **Yesterday a targeted tool search established that this session holds NO send-capable Gmail tool at all: only `search_threads`, `get_message`, `get_thread`, `create_draft`, the label tools and the trash/spam tools.** **That changes what this lane's failure actually is.** For forty-five days the log has recorded an authentication problem. **There are two problems, and only one of them is authentication.**
 
 **(1) READ is blocked by authentication.** Fixable by re-authorising Gmail in claude.ai connector settings. **(2) SEND does not exist as a capability.** **Re-authorising Gmail would restore triage and drafting and would NOT restore the daily digest**, because `create_draft` is the only composition tool present and a draft is not a sent digest.
 
 **So the founder ask changes shape: "reconnect Gmail" is necessary and not sufficient. The digest needs either a send-capable tool added, or a different delivery path.** Recorded here because a future run reading forty-five identical lines would reasonably conclude that one reconnection fixes everything, and it does not.
+
+**2026-10-13 note: TODAY'S FAILURE IS A DIFFERENT CATEGORY FROM YESTERDAY'S AND THE TALLIES ARE KEPT APART ON PURPOSE.**
+
+**Yesterday was a FALSE RECOVERY: the tool loaded and the call came back "needs you to sign in again". Today the tool did not load.** `ToolSearch select:mcp__Gmail__search_threads` returned **"No matching deferred tools found"**, and a follow-up keyword search for gmail, threads and inbox returned an Apollo emailer report, a Todoist search, a GitHub commit search and WebSearch. **No Gmail tool of any kind was available to call.**
+
+**So no probe of the inbox was possible today, as distinct from a probe that failed.** **False recovery stays at 34. Tools-not-loadable goes to 9.**
+
+**WHY THE DISTINCTION IS WORTH THE TWO COLUMNS: a false recovery is a statement about the Gmail ACCOUNT. A not-loadable is a statement about this SESSION'S connector plumbing, and the session reported Gmail in both its "requires authentication" list and its "still connecting" list within the same minute.** **One of those is fixable by the founder at claude.ai and the other is not fixable by anyone here.** **A single merged counter would have hidden which.**
+
+**UNCHANGED AND RESTATED ONCE: even a fully reconnected Gmail would restore reading and drafting and NOT sending, because no send-capable Gmail tool exists in this session. Forty-six days, and the digest has never been deliverable.**
+
