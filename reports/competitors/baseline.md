@@ -853,3 +853,33 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **SO WHAT FOR MYSPAWN. Pricing pressure: NONE, and the opposite is closer to true, because we are half their annual rate for a product with no compressor to fail. Copy angle: STRONG, and it is the duration structure rather than the price. Differentiation proof: moderate. Threat level: LOW, different product and different customer moment.**
 
 **ROTATION: Acorn done. Herasight, CellSave, Tomorrow Bio and Acorn are now dived.** **The next quiet-day dive is SECURIGENE / DNA MEMORIAL**, the oldest monitored name never dived and **the single closest thing to a direct competitor on this list**. **Its first job: establish what it actually sells, at what price, and whether the storage fee is recurring or one-time, because that is the comparison our own customers will make.**
+
+## 2026-10-13: SECURIGENE / DNA MEMORIAL, and the pricing model we are not allowed to claim
+
+**DELTA SWEEP: QUIET. Nothing dated 12 or 13 October for any monitored name.** Nucleus Genomics was the only name returning results and every item was known or older: $14m Series A (Jan 2025, ~$32m total), a possibly-stale $400 saliva price, March 2026 agreements with Indira IVF (reported 165+ clinics, India) and Abu Ghosh Fertility Group (Saudi Arabia, Jordan), a June 2026 IVF+ partnership with the Fertility Institute of Hawaii, and a carrier-screening product named Preview, date cut off in our reading. **None reported as a delta.**
+
+**THE DIVE'S PREDICTION WAS MADE BEFORE RESEARCH AND IS SCORED: yesterday's refined rule, "a company publishes the prices it controls and ranges the prices a third party sets", predicted published direct prices and unpublished funeral-home prices. CONFIRMED on both halves.** The rule now has one failure of its crude form (Tomorrow Bio to Acorn), one refinement, and one clean confirmation.
+
+**WHAT SECURIGENE SELLS AND FOR HOW MUCH** *(all via search index; no page opened at its own domain; the "indefinitely" and "no annual storage fees" claims are the vendor's own and are unverified)*:
+- **DNA Banking Capsule, at-home: $389**, described as storing DNA **indefinitely at home without expensive equipment or annual storage fees.**
+- **Post-Mortem DNA Banking Capsule: $498 USD**, with a Certificate of Analysis for DNA quantity and purity. **Engraving $29 name-and-date, $49 custom.**
+- **A reseller listing shows $498 to $1,218** with genetic-test bundles (paternal ancestry $617 total, comprehensive health $1,218 total). **Roughly 600 days old. STALE, labelled, not quoted as current.**
+- **Forensic tissue cryopreservation, a DIFFERENT product: from $3,200, 10-year storage tier $2,000. DO NOT let this figure migrate into a DNA-capsule comparison.**
+- **Channel: DNA Legacy by SecuriGene states over 1,000 funeral homes across North America**, purchasable from a funeral home or online.
+- **Turnaround: 10 to 14 business days from sample receipt.**
+
+**THE FINDING, AND IT IS THE MOST IMPORTANT ENTRY THIS FILE HAS: a direct competitor's pricing model is the one our binding pricing fact FORBIDS US FROM CLAIMING.** We are $99 a year, billed annually, and may never write "one-time" or "no annual fee". **SecuriGene can write both, because for its capsule they appear to be true.**
+
+**THE ARITHMETIC A PROSPECT WILL DO IN FOUR SECONDS: $389 once against $99 a year breaks even at about 3.9 years. At five years $495 against $389. At ten years $990 against $389. Below four years we are cheaper. Above four we are not, and framing does not change it.**
+
+**THE HONEST COUNTER IS CUSTODY AND IT CUTS BOTH WAYS. Their $389 buys a capsule the household keeps and stores itself. Our $99 a year buys custody at an independently accredited third-party biorepository, GenVault in New Jersey, whose accreditations are GenVault's and not ours.** **Their model has no company to outlive and no annual invoice, and it depends entirely on a family not losing a small object across decades. Ours removes that failure mode and substitutes dependence on a company and a facility continuing to exist and be paid.** **Two genuinely different bets, and an honest page says so in those words.**
+
+**AND A SCEPTICISM WE APPLY TO OURSELVES FIRST: "indefinitely" is unverified. We spent two weeks establishing that an ambient-storage claim measured over 28 days cannot carry a decades promise. We will not attack their claim using a standard we do not meet.**
+
+**THE TACTIC TO COUNTER IS NOT THE PRICE, IT IS THE FUNERAL HOME.** Over 1,000 North American locations is distribution at the exact moment a family is thinking about what remains of a person, sold by someone already trusted in that room. **No paid social reaches that moment.** **We have no equivalent and no route to one without the partnership lane that has not progressed in eight weeks.**
+
+**SO WHAT: pricing pressure HIGH and real for the first time in this file; copy angle STRONG but only honest with a time horizon; differentiation proof STRONG on custody, Memory Vault and ECHO; THREAT LEVEL THE HIGHEST RECORDED HERE.**
+
+**BINDING INSTRUCTION FOR EVERY CONTENT AGENT: the "cheapest item in the stack" framing now has a counterexample and survives only with a time horizon attached. Below four years we are cheaper than SecuriGene's capsule; above four years we are not. NEVER write a price-superiority line against the DNA-capsule category without that horizon.**
+
+**ROTATION: SecuriGene done. Dived: Herasight, CellSave, Tomorrow Bio, Acorn, SecuriGene.** **Next quiet-day dive: ALCOR or CRYONICS INSTITUTE, with a narrower job than usual: establish what the membership-plus-preservation structure obliges a member to pay ANNUALLY, because every cryo comparison we have made so far used a headline preservation figure and ignored the dues.**
