@@ -97,6 +97,7 @@
 - **Caption:** "Published today. Animals, not people, and the distinction is the whole story." 2 hashtags.
 - **Brand fit: HIGH.** Founder-priority IVG lane, men 25-55, foresight framing, and the hardest product boundary stated as the punchline rather than buried.
 - **Risk flags, three: (1) the review was NOT opened at its own domain and MDPI is a publisher some viewers discount, so cite the journal and volume on screen and let them check. (2) The species boundary must appear ON SCREEN, not just in the voiceover, because a clipped version of beat 2 without beat 3 is a claim we would have to correct. (3) Do not let this drift into a reproductive-services implication: we sell storage.**
+- **WITHDRAWN AT 15:3x, SAME DAY, BY THE DEEP PRODUCTION RUN. This concept is superseded by the 7-minute long-form explainer in `reports/social/weekly/production-2026-10-13.md`, which is built on the same review and carries all three risk flags above, including the on-screen species boundary. ONE asset on this material, not two. Do not build this Short.**
 
 ### Concept 2 (40-60 ANGLE, Memory Vault, video-message framing): "Everything on the list got more expensive. The one thing nobody puts on the list did not get easier."
 - **Platform:** Reels / Shorts, 35 to 45 seconds, slower cut, 40-60 read.
