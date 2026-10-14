@@ -81,6 +81,7 @@
 - **Caption:** "The render and the trial are not the same object." 2 hashtags.
 - **Brand fit: HIGH.** Honest-science positioning, 40-60 mortality-and-grandchildren adjacency, and it sells nothing.
 - **Risk flags, three: (1) the trial detail is from named journalism read via a search summary and NOT opened at its own domain; open it before this is recorded. (2) The two fakes must be named ONLY as debunks, per the standing register. (3) Do not let the sentence "none became pregnant" imply a judgement about the researchers: it is an early-stage result and the script must say so in the same breath.**
+- **WITHDRAWN AT 15:3x, SAME DAY, BY THE DEEP PRODUCTION RUN. Superseded by the 18-to-22-minute episode "Fewer Than Ten Women" in `reports/social/weekly/production-2026-10-14.md`, which is built on the same material and carries all three risk flags, including the protection against reading the result as a scandal. ONE asset on this material, not two. Do not build this Short.** **Second consecutive day a radar Short has been withdrawn by the production run rather than disclosed around, and the pattern is now deliberate.**
 
 **NOT PROPOSED, AND WHY.** A Rubedo concept: last night's Content Factory already wrote the script, "Eleven Point Seven", and a second asset from this lane today would be the duplication this fleet withdrew a Short to avoid yesterday. **A negative-pronatalism concept: it is an argument rather than a finding, and the first asset in that lane should not be built on a framing we have not read at source.**
 
