@@ -72,7 +72,12 @@ VO: "We store a DNA record. Ninety-nine dollars a year, billed annually. Differe
 
 ---
 
-## SCRIPT 2: "What They Showed / What They Measured" (44 seconds)
+## SCRIPT 2: "What They Showed / What They Measured" (44 seconds) :: KILLED AT 23:1x, DO NOT SHOOT
+
+**KILLED THE SAME EVENING IT WAS WRITTEN. The freshness claim below is WRONG and is left in place rather than edited, so the error is visible.**
+**An evergreen called "Two Columns" already exists, from 21 September, using the same two-column device and closing with "If a company can only fill in the left column, that is the answer." This script closes with "If a company can only fill the left one, that is the finding."**
+**Both of today's freshness checks were scoped to the last five or six evergreens and both missed it.**
+**REPLACEMENT NAMED: shoot the 21 September "Two Columns" instead. It is stronger, it has a news spine, and it is equally unshot.** See `scripts-2026-10-14-evening.md`.
 
 **Promoted from the evergreen bank, where the 15:0x production run logged it as hook plus beats two hours ago. Finished here as a shootable script.** **FORMAT CHECK: the last six evergreens were four household-object metaphors, one strike-through list and one stacked-numbers piece. A PERSISTENT TWO-COLUMN split that stays on screen for the whole runtime has not been used.**
 
