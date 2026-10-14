@@ -494,6 +494,7 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 | 2026-10-11 | 44 | `search_threads newer_than:1d in:inbox` | needs you to sign in again | FALSE RECOVERY | **33** | 8 | none. Inbox state unknown, not clear. |
 | 2026-10-12 | 45 | `search_threads newer_than:1d in:inbox` | needs you to sign in again | FALSE RECOVERY | **34** | 8 | none. Inbox state unknown, not clear. |
 | 2026-10-13 | 46 | `ToolSearch select:mcp__Gmail__search_threads`, then a keyword search | **no Gmail tool returned at all** | **TOOLS NOT LOADABLE** | 34 | **9** | none. Inbox state unknown, not clear. |
+| 2026-10-14 | 47 | `ToolSearch` loaded 23 Gmail tools, then `search_threads newer_than:1d in:inbox` | needs you to sign in again | **FALSE RECOVERY** | **35** | 9 | none. Inbox state unknown, not clear. |
 
 **2026-10-12 note, and it is the first material change to this log's framing in weeks.** **Yesterday a targeted tool search established that this session holds NO send-capable Gmail tool at all: only `search_threads`, `get_message`, `get_thread`, `create_draft`, the label tools and the trash/spam tools.** **That changes what this lane's failure actually is.** For forty-five days the log has recorded an authentication problem. **There are two problems, and only one of them is authentication.**
 
@@ -511,3 +512,12 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 
 **UNCHANGED AND RESTATED ONCE: even a fully reconnected Gmail would restore reading and drafting and NOT sending, because no send-capable Gmail tool exists in this session. Forty-six days, and the digest has never been deliverable.**
 
+
+
+**DAY 47, AND THE FAILURE MOVED BACK ONE STEP, WHICH IS WORTH MORE THAN IT SOUNDS.** Yesterday no Gmail tool could be loaded at all. **Today twenty-three Gmail tools loaded cleanly into the session, were callable, and the first call was refused with "needs you to sign in again."** **False recovery goes to 35. Tools-not-loadable holds at 9.**
+
+**THE DIAGNOSTIC VALUE IS THE WHOLE ENTRY: the tool surface is present and the authorization is not.** That localises the fault to the connector's OAuth grant rather than to this session's tool registry. **Yesterday's failure could have been either. Today's can only be the first.** **This is the clearest signal in forty-seven days about WHICH of the three-step fix matters: step one, reconnect Gmail in claude.ai connector settings.**
+
+**AND THE PART THAT DOES NOT IMPROVE, RESTATED BECAUSE TODAY'S TOOL LIST CONFIRMS IT RATHER THAN SOFTENING IT: the twenty-three tools that loaded include `search_threads`, `get_thread`, `create_draft`, `list_drafts`, labels, trash and spam controls. THERE IS NO SEND-CAPABLE TOOL AMONG THEM.** **So even a successful reconnect restores TRIAGE and DRAFTING and still not the digest.** **Forty-seven days, and the delivery path has never existed. Forty-ninth asking on the delivery path, forty-seventh on the connector fix.**
+
+**NOTHING WAS DONE TO THE INBOX TODAY. No thread was read, no draft was created, no label was changed, nothing was trashed or marked spam.** **The inbox state is UNKNOWN, which is not the same as clear, and this log will keep saying so until a probe succeeds.**
