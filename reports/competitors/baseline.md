@@ -883,3 +883,31 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **BINDING INSTRUCTION FOR EVERY CONTENT AGENT: the "cheapest item in the stack" framing now has a counterexample and survives only with a time horizon attached. Below four years we are cheaper than SecuriGene's capsule; above four years we are not. NEVER write a price-superiority line against the DNA-capsule category without that horizon.**
 
 **ROTATION: SecuriGene done. Dived: Herasight, CellSave, Tomorrow Bio, Acorn, SecuriGene.** **Next quiet-day dive: ALCOR or CRYONICS INSTITUTE, with a narrower job than usual: establish what the membership-plus-preservation structure obliges a member to pay ANNUALLY, because every cryo comparison we have made so far used a headline preservation figure and ignored the dues.**
+
+## 2026-10-14: ALCOR'S ANNUAL OBLIGATION, AND TWO CORRECTIONS TO THIS FILE
+
+**DELTA SWEEP: QUIET. Nothing dated 13 or 14 October for any monitored name.** Sweeps returned only held material (Nucleus about $32m total funding, March 2026 expansion; Orchid whole-genome embryo reports).
+
+**NEWLY DISCOVERED, BANKED, NOT DELTAS: ClinicalTrials.gov NCT07841769, "Polygenic Embryo Selection", estimated start 1 October 2026, comparing morphology-based against polygenic-based selection.** **`NCT07841769` returned ZERO across this file, the watchlist and the blog archive.** *(Registry entry, not opened.)* **And: ASRM committees concluded in DECEMBER 2025 that polygenic embryo screening is unproven and should not be used clinically at this time.** *(Secondary summary; verify at asrm.org before quoting. Stronger than any citation we currently use in that lane, and the congress is ten days away.)*
+
+**THE DIVE'S PREMISE WAS WRONG, AND CHECKING IT ANYWAY WAS WORTH MORE THAN A CONFIRMATION.** Yesterday's rotation claimed every cryo comparison had "ignored the dues". **Dive #13 on 4 September already logged "$100+/month membership dues" and CI's "$1,250 lifetime or $120/yr". The dues were recorded imprecisely, not ignored.**
+
+**WHAT THE ANNUAL OBLIGATION ACTUALLY IS** *(all via search summaries of alcor.org pages; NOT opened at the domain; the schedule found is published as a 2025 schedule and a 2026 revision is NOT confirmed; Alcor states costs can change on 90 days' notice)*:
+- **Dues are AGE-INDEXED: current age x $15 per year for adults 19+. A 30-year-old pays $450/yr; a 50-year-old pays $750/yr. New member at 18: $200. Minor: $60.**
+- **Comprehensive Member Standby is a SEPARATE mandatory $200/yr for cryopreservation members in the continental US and Canada, non-refundable.**
+- **A 50-year-old's recurring obligation is therefore about $950 a year BEFORE any preservation funding.**
+- **Dues lock at the rate on the day you join**, and Alcor says it has raised dues before for non-Lifetime members. **After 40 years of membership, dues drop to $60/yr.**
+- **Associate Membership (no cryonics arrangements): $10/month, $30/quarter or $120/yr.**
+- **Preservation is funded separately, usually by life insurance: minimum death benefit currently $80,000 neuro and $200,000 whole body.**
+
+**TWO CORRECTIONS TO THIS FILE, RECORDED RATHER THAN SILENTLY OVERWRITTEN, because a baseline that quietly changes its own numbers is not a memory, it is a rumour:**
+1. **Dive #13's "$100+/month" is $1,200+/yr, which the age formula does not reach for anyone under about 80. We were HIGH, and the SHAPE was wrong: we recorded a flat rate where the structure is age-indexed.**
+2. **Dive #13's whole-body "~$220,000" is the DATED figure. Today's source gives the current whole-body minimum death benefit as $200,000 and attributes $220,000 to an old Alcor FAQ.**
+
+**CI's $120/yr traces to an Alcor-hosted comparison page roughly 1,700 days old and is UNVERIFIED for 2026. No current CI dues schedule was found.**
+
+**SO WHAT. Pricing pressure NONE, and now precise: a 50-year-old pays Alcor about $950/yr in dues and standby alone, roughly 9.6x our $99/yr, before preservation funding, and theirs rises every birthday while ours does not.** **Copy angle STRONG and it is the AGE INDEXING rather than the size of the number: our founding-rate lock is a QUANTITY cap, theirs is a DATE lock on an age-indexed fee. Both reward joining early; only one charges you more for having waited.** **MANDATORY CAVEAT WHEREVER THIS APPEARS, exactly as with Acorn: Alcor preserves a body or brain cryogenically and maintains an endowment to buy liquid nitrogen indefinitely; we store a DNA record at ambient temperature. Their price is higher because the job is harder.** **Threat level NONE direct.**
+
+**TACTIC WORTH STEALING, AND WE ALMOST HAVE IT: dues locked at the rate on the day you join, published as a POLICY rather than as a promotion.** We say "first 1,000 members lock the founding rate", which is the same mechanic framed as scarcity. **Stating it as a policy would be stronger and costs nothing. Founder decision.**
+
+**ROTATION: next quiet-day dive is CRYONICS INSTITUTE alone, one narrow job: find a CURRENT dues schedule at cryonics.org, because our only figure is about 1,700 days old and we have now been caught once this week citing a stale number.**
