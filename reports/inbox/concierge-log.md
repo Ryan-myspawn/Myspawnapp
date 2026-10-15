@@ -495,6 +495,7 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 | 2026-10-12 | 45 | `search_threads newer_than:1d in:inbox` | needs you to sign in again | FALSE RECOVERY | **34** | 8 | none. Inbox state unknown, not clear. |
 | 2026-10-13 | 46 | `ToolSearch select:mcp__Gmail__search_threads`, then a keyword search | **no Gmail tool returned at all** | **TOOLS NOT LOADABLE** | 34 | **9** | none. Inbox state unknown, not clear. |
 | 2026-10-14 | 47 | `ToolSearch` loaded 23 Gmail tools, then `search_threads newer_than:1d in:inbox` | needs you to sign in again | **FALSE RECOVERY** | **35** | 9 | none. Inbox state unknown, not clear. |
+| 2026-10-15 | 48 | `ToolSearch select:mcp__Gmail__search_threads`, then a keyword search for gmail inbox threads drafts | **no Gmail tool returned at all**; the keyword search returned Apollo and Todoist tools instead | **TOOLS NOT LOADABLE** | 35 | **10** | none. Inbox state unknown, not clear. |
 
 **2026-10-12 note, and it is the first material change to this log's framing in weeks.** **Yesterday a targeted tool search established that this session holds NO send-capable Gmail tool at all: only `search_threads`, `get_message`, `get_thread`, `create_draft`, the label tools and the trash/spam tools.** **That changes what this lane's failure actually is.** For forty-five days the log has recorded an authentication problem. **There are two problems, and only one of them is authentication.**
 
@@ -521,3 +522,14 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **AND THE PART THAT DOES NOT IMPROVE, RESTATED BECAUSE TODAY'S TOOL LIST CONFIRMS IT RATHER THAN SOFTENING IT: the twenty-three tools that loaded include `search_threads`, `get_thread`, `create_draft`, `list_drafts`, labels, trash and spam controls. THERE IS NO SEND-CAPABLE TOOL AMONG THEM.** **So even a successful reconnect restores TRIAGE and DRAFTING and still not the digest.** **Forty-seven days, and the delivery path has never existed. Forty-ninth asking on the delivery path, forty-seventh on the connector fix.**
 
 **NOTHING WAS DONE TO THE INBOX TODAY. No thread was read, no draft was created, no label was changed, nothing was trashed or marked spam.** **The inbox state is UNKNOWN, which is not the same as clear, and this log will keep saying so until a probe succeeds.**
+
+
+**DAY 48, AND THE FAILURE MOVED BACK TO WHERE IT WAS ON DAY 46.** Yesterday twenty-three Gmail tools loaded and the first call was refused with a sign-in error, which localised the fault to the OAuth grant. **Today no Gmail tool loads at all: a direct `select:` returned "No matching deferred tools found", and a keyword search for gmail, inbox, threads and drafts returned Apollo and Todoist tools instead.** **False recovery holds at 35. Tools-not-loadable goes to 10.**
+
+**THE TWO-COLUMN TALLY IS NOW EARNING ITS KEEP, AND THIS IS THE CLEAREST DEMONSTRATION SO FAR.** Across three consecutive days the failure has been **not-loadable (46), loadable-but-unauthorized (47), not-loadable (48)**. **A single merged counter would have read "47 days broken" and said nothing. The split says the fault is not stable, and an unstable fault is a different repair from a persistent one.**
+
+**WHAT YESTERDAY ESTABLISHED IS NOT UNDONE BY TODAY, and that is worth stating plainly so the finding is not lost: on day 47 the tool surface was present and the authorization was not. That remains the only direct evidence this log has ever had about WHICH of the three-step fix matters, and it still points at step one, reconnect Gmail in claude.ai connector settings.** **Today's result adds that the tool registry itself is also intermittent, which means a reconnect may need to be retried on a day when the tools load.**
+
+**AND THE PART THAT NEVER CHANGES: even a fully working Gmail restores reading and drafting and NOT sending.** Yesterday's twenty-three loaded tools included `search_threads`, `get_thread`, `create_draft`, `list_drafts`, labels, trash and spam controls, **and no send-capable tool at all.** **Forty-eight days, and the digest has never been deliverable. Fiftieth asking on the delivery path, forty-eighth on the connector fix.**
+
+**NOTHING WAS DONE TO THE INBOX TODAY. No thread read, no draft created, no label changed, nothing trashed or marked spam. Inbox state UNKNOWN, which is not the same as clear.**
