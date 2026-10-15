@@ -533,3 +533,19 @@ Yesterday this file said: **"If the connector is not restored by Sunday evening,
 **AND THE PART THAT NEVER CHANGES: even a fully working Gmail restores reading and drafting and NOT sending.** Yesterday's twenty-three loaded tools included `search_threads`, `get_thread`, `create_draft`, `list_drafts`, labels, trash and spam controls, **and no send-capable tool at all.** **Forty-eight days, and the digest has never been deliverable. Fiftieth asking on the delivery path, forty-eighth on the connector fix.**
 
 **NOTHING WAS DONE TO THE INBOX TODAY. No thread read, no draft created, no label changed, nothing trashed or marked spam. Inbox state UNKNOWN, which is not the same as clear.**
+
+**ADDENDUM, 2026-10-15 at ~14:20 UTC: TODAY'S ROW IS NOW ONLY TRUE OF THE MORNING, AND THE CORRECTION MATTERS MORE THAN THE ROW DID.**
+
+The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE**: a `ToolSearch select:mcp__Gmail__search_threads` returned no matching deferred tool, and a keyword search returned Apollo and Todoist tools instead.
+
+**At roughly 14:17 UTC the same session was offered twenty-three Gmail tools.** Named, in full, because the composition is the finding: `apply_sensitive_message_label`, `apply_sensitive_thread_label`, `create_draft`, `create_label`, `get_draft`, `get_message`, `get_thread`, `label_message`, `label_thread`, `list_drafts`, `list_labels`, `mark_message_spam`, `mark_thread_spam`, `search_threads`, `trash_message`, `trash_thread`, `unlabel_message`, `unlabel_thread`, `unmark_message_spam`, `unmark_thread_spam`, `untrash_message`, `untrash_thread`, `update_message_labels`.
+
+**THREE THINGS FOLLOW AND ALL THREE ARE WORTH RECORDING.**
+
+**1. The fault moved WITHIN a single day, which is new.** The split tally has shown it moving between days: not-loadable on 46, loadable-but-unauthorized on 47, not-loadable on 48. **It has now moved between the morning and the afternoon of day 48.** **The row above is not retracted, because it was accurate when written; it is scoped.** **The practical consequence for whoever attempts the reconnect: a single attempt that finds no tools proves nothing about the next hour.**
+
+**2. No attempt was made to use them, and that is deliberate.** This addendum is an instrumentation note. **Nothing was read, drafted, labelled, trashed or marked spam, and the standing rules are unchanged: drafts only, never a send to anyone but the digest, never a delete, never a spam mark.** **Inbox state remains UNKNOWN, which is not the same as clear.**
+
+**3. THE SEND PROBLEM IS CONFIRMED AGAIN, AND IT IS STILL THE ONE THAT MATTERS.** **Twenty-three tools, and not one of them sends.** The set covers search, read, label, draft, trash and spam. **There is no `send_message` and no send-draft equivalent.** **So even a fully working reconnect restores triage and drafting and NEVER restores the daily digest, or any of the five other lanes whose briefs end with "email it to ryan@myspawnapp.com".** Four other runs today (SEO Writer, Longpost Studio, Newsletter, Trend Radar) each ended with an undeliverable email written to `reports/outbox/` for this reason.
+
+**FOUNDER ITEM, UNCHANGED IN SUBSTANCE AND NOW WITH A COMPLETE TOOL LIST ATTACHED: the connector as exposed to this session cannot send email at all. If sending is wanted, the connector's scope has to change, not just its authorization.**

@@ -911,3 +911,32 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **TACTIC WORTH STEALING, AND WE ALMOST HAVE IT: dues locked at the rate on the day you join, published as a POLICY rather than as a promotion.** We say "first 1,000 members lock the founding rate", which is the same mechanic framed as scarcity. **Stating it as a policy would be stronger and costs nothing. Founder decision.**
 
 **ROTATION: next quiet-day dive is CRYONICS INSTITUTE alone, one narrow job: find a CURRENT dues schedule at cryonics.org, because our only figure is about 1,700 days old and we have now been caught once this week citing a stale number.**
+
+---
+
+## 2026-10-15
+
+**24-to-48-hour sweep returned no dated competitive event** across SecuriGene / DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter, StoryWorth and Empathy. **A file was written anyway (`watch-2026-10-15.md`), against the standing quiet-day discipline, for one reason: the bonus dive found an error in our own rotation instruction and the correction needed a dated home.**
+
+**THE CORRECTION, AND IT IS THE DAY'S MOST IMPORTANT ENTRY.** Yesterday's rotation note commissioned a Cryonics Institute dive on the stated grounds that **"our only figure is roughly 1,700 days old."** **It is 42 days old.** Deep-dive #14, dated 5 September 2026, records CI's figures as verified on **3 September 2026** at cryonics.org/membership.html. **The instruction mis-stated the freshness of our own file by a factor of forty, inside a note whose subject was the cost of citing a stale number.** **BINDING FROM TODAY: a rotation note that asserts how old one of our figures is must cite the baseline entry and its date, or not make the claim. The check is one grep.**
+
+**DEEP-DIVE #21: CRYONICS INSTITUTE, ANNUAL STRUCTURE.** The dive took the job the 13 October rotation actually set and that was never answered for CI: what the membership-plus-preservation structure obliges a member to pay annually. *(All figures from CI's own FAQ at cryonics.org/faq, read via search index; cryonics.org NOT opened from this machine.)*
+- **Lifetime membership: a single $1,250 payment, no initiation fee.**
+- **Annual membership: a $200 INITIATION FEE plus $120 a year**, payable quarterly at $35. **The $200 initiation fee is NEW to this file; deep-dive #14 recorded the $120 and missed it.**
+- **Preservation minimum: $28,000 for lifetime members, $35,000 for annual members**, paid once at death, including vitrification perfusion and long-term storage.
+- **CI's own FAQ states an annual member who later upgrades to lifetime saves $7,000.**
+- **Explicitly NOT covered: distance-related costs, local funeral-director fees and transport to Michigan, all paid to third parties rather than to CI.**
+
+**THE STRUCTURAL FINDING: at CI the annual route costs $7,000 more at death.** The yearly fee is a deferral that prices itself, not a cheaper way in. **That is the OPPOSITE architecture from Alcor's, where the 14 October dive established dues indexed to current age (age times $15 a year) plus $200 a year for Comprehensive Member Standby. Alcor prices the waiting; CI prices the not-committing.** **Neither is guessable from the headline preservation figure, which is why the question was worth asking. The cryo annual-structure question is now CLOSED for both incumbents.**
+
+**SOURCE CONFLICT, RECORDED NOT RESOLVED:** a Substack guide lists annual membership at **$125 plus a $75 initiation fee** against CI's own **$120 plus $200**. CI's own page wins on hierarchy. **An optional standby figure of $60,000 appears in a 2021 source: roughly five years old, labelled, NOT usable.**
+
+**STEAL, and it is different from #14's price-stability steal: CI publishes the arithmetic of its own two options, including the sentence that one of them costs $7,000 more.** A company naming which of its own tiers is worse value buys more trust than the $7,000 costs it. **Our founding-rate lock is the same kind of fact and we have never written out its arithmetic plainly.**
+
+**COUNTER, guard rails intact: different promise, different price universe, and we never mock people who believe in revival.** The honest contrast is architectural, not price: **their model asks a family to execute logistics at the worst possible moment against a funded five-figure minimum; ours is seven minutes at a kitchen table, pre-need, $99 a year billed annually.** **Per the binding instruction added 13 October: no price-superiority line against anyone in this category without a time horizon attached.** $99 a year is not cheaper than $1,250 once over a long enough life, and that sentence travels with the comparison.
+
+**ONE RE-SURFACED ITEM, TREATMENT UNCHANGED.** A truncated index reference to the **Genomic Prediction** federal lawsuit against Nucleus and named individuals. **Already on file as allegations only, no 2026 update located, names private individuals. It stays in this file and goes in no asset. A truncated snippet is not an update to a lawsuit.**
+
+**ROTATION: next quiet-day dive is CRYO-CELL**, the pick the 26 September rotation set which never ran. **Narrow job: re-verify the $710 entry and $199 a year, because a control that is never re-tested is not a control.**
+
+**No email (no send-capable Gmail tool exists among the twenty-three that loaded today); repository delivery only.**
