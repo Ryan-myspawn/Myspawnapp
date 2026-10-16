@@ -549,3 +549,16 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **3. THE SEND PROBLEM IS CONFIRMED AGAIN, AND IT IS STILL THE ONE THAT MATTERS.** **Twenty-three tools, and not one of them sends.** The set covers search, read, label, draft, trash and spam. **There is no `send_message` and no send-draft equivalent.** **So even a fully working reconnect restores triage and drafting and NEVER restores the daily digest, or any of the five other lanes whose briefs end with "email it to ryan@myspawnapp.com".** Four other runs today (SEO Writer, Longpost Studio, Newsletter, Trend Radar) each ended with an undeliverable email written to `reports/outbox/` for this reason.
 
 **FOUNDER ITEM, UNCHANGED IN SUBSTANCE AND NOW WITH A COMPLETE TOOL LIST ATTACHED: the connector as exposed to this session cannot send email at all. If sending is wanted, the connector's scope has to change, not just its authorization.**
+| 2026-10-16 | 49 | `ToolSearch` loaded `search_threads` and `create_draft` on the first try, then `search_threads newer_than:1d in:inbox` | needs you to sign in again | **FALSE RECOVERY** | **36** | 10 | none. Inbox state unknown, not clear. |
+
+**Notes on day 49.**
+
+**THE FAULT ALTERNATED AGAIN AND THE PATTERN IS NOW UNMISTAKABLE.** Day 45 false recovery, 46 not-loadable, 47 false recovery, 48 not-loadable, **49 false recovery.** **Five days, alternating, with yesterday's addendum recording that it also flipped WITHIN day 48, from not-loadable at 04:08 to twenty-three tools loaded at 14:17.** **A fault that alternates daily and intraday is not a connector that is switched off. It is a grant that is being re-established and losing authorization, or two paths to the same server disagreeing about its state.**
+
+**WHY THE SPLIT TALLY WAS WORTH KEEPING, stated again because today is the clearest instance: a merged counter would read "49 days broken" and say nothing. The split reads 36 false recoveries against 10 not-loadable, alternating, which points at the OAuth grant rather than at the connector's presence.** That is a different repair.
+
+**TODAY'S CALL LOADED CLEANLY ON THE FIRST ATTEMPT**, with `search_threads` and `create_draft` both returned by a single `select:` query and no keyword fallback needed. **The tools are fine. The authorization is not.** **Step one is unchanged and is now in its 49th day: reconnect Gmail in claude.ai connector settings.** This session cannot run OAuth and will not ask for codes or tokens.
+
+**THE SECOND FINDING IS UNCHANGED AND STILL MATTERS MORE THAN THE FIRST.** Yesterday's addendum listed all twenty-three tools that load when the grant works. **Not one of them sends.** The set covers search, read, label, draft, trash and spam. **So a successful reconnect restores triage and drafting and never restores the digest, or any of the five other lanes whose briefs end with "email it to ryan@myspawnapp.com".** **If sending is wanted, the connector's SCOPE has to change, not just its authorization, and those are two separate pieces of work.**
+
+**NOTHING WAS DONE TO THE INBOX: no thread read, no draft created, no label changed, nothing trashed or marked spam.** **Inbox state UNKNOWN, which is not the same as clear.** No digest could be sent, so none was attempted.
