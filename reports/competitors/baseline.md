@@ -940,3 +940,29 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **ROTATION: next quiet-day dive is CRYO-CELL**, the pick the 26 September rotation set which never ran. **Narrow job: re-verify the $710 entry and $199 a year, because a control that is never re-tested is not a control.**
 
 **No email (no send-capable Gmail tool exists among the twenty-three that loaded today); repository delivery only.**
+
+---
+
+## 2026-10-16
+
+**24-to-48-hour sweep returned no dated competitive event** across SecuriGene / DNA Memorial, CellSave, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter, StoryWorth and Empathy. **A file was written anyway (`watch-2026-10-16.md`) because the rotation dive found that one of our own control figures had drifted.**
+
+**MINOR ITEM, NEWLY DISCOVERED, EIGHT DAYS OLD: Acorn Biolabs lists an 8 October 2026 recognition as Best Emerging Disruptor at OCTANE's 2026 High Tech Awards**, in its own words recognising its commitment to personalised cell banking. *(Company's own site, via search index.)* `OCTANE`, `High Tech Awards` and `Emerging Disruptor` were fleet-zero. **SO WHAT: almost nothing. An award is not a product, a price or a customer.** Logged so a later sweep does not treat it as new.
+
+**DEEP-DIVE #22: CRYO-CELL, AND THE CONTROL DID NOT FULLY HOLD.** *(All figures from Cryo-Cell's own pages plus one third-party comparison, read via search index; cryo-cell.com NOT opened from this machine.)*
+- **HELD EXACTLY: storage at $199 per year**, on the enrollment page with the usual subject-to-increase caveat, and **$199 for both standard and premium cord blood**, with **cord tissue a separate $199 a year.** **Matches the 30 August verification and the 28 September re-check to the dollar. Seven weeks, no drift on the recurring line.**
+- **DID NOT HOLD: the entry figure.** Our baseline says "from $710 entry". Current pages give **standard cord blood at $1,685 retail for the first year** (processing, testing and first-year storage included), **from $885 on a current October offer**, **premium at $2,035 retail or $1,235 on offer**, and an **18-year prepaid at $5,068 for cord blood only.** A third-party comparison separately lists an **$895 collection and processing fee described as based on 2025 prices.**
+
+**THE DRIFT IS IN THE PROMOTIONAL LAYER RATHER THAN THE LIST PRICE, AND THAT IS THE FINDING.** The recurring fee is stable to the dollar; **the entry number swings by eight hundred dollars depending on whether a promotion is live, and our file recorded one number without recording which kind it was.**
+
+**BINDING FROM TODAY: every competitor price in this file must state whether it is a LIST price or a PROMOTIONAL price, and carry the date observed.** **A promotional price captured without that label becomes a false constant the moment the promotion ends, and then sits here looking exactly like a verified fact.** **The 30 August $710 is marked SUPERSEDED rather than deleted or called wrong, because we cannot establish what kind of number it was.**
+
+**SECOND METHODOLOGY FAULT IN OUR OWN RECORDS IN TWO DAYS.** Yesterday a rotation note mis-stated the age of our own Cryonics Institute figure by a factor of forty. Today a baseline entry carries a competitor's entry price with no indication of its kind. **Both were found by re-testing something we already believed, which is an argument for the rotation existing at all.**
+
+**ONE NEW RECEIPT THAT CLOSES A LOOP OPENED ON 30 AUGUST.** Deep-dive #8 called the prepaid multi-year bundle the tactic worth stealing and named a "decade of storage, locked" SKU as a plausible future MySpawn offer. **The number is now on file: Cryo-Cell's 18-year prepaid is $5,068 for cord blood alone, against $3,582 for eighteen years at $199.** **The prepaid costs MORE in nominal terms, so the bundle sells price certainty rather than savings.** **That is more useful to us than a discount would have been, because our founding-rate lock is the same kind of promise.**
+
+**COUNTER, guard rails intact: different sample, different moment, different job, and per the binding 13 October instruction no price-superiority line without a time horizon.** The honest comparison is structural: **their recurring line alone is twice ours, after an entry fee somewhere between $885 and $1,685 depending on the week.** **Threat: low, unchanged. Pricing-anchor value: high, and higher than before, because we now hold a list price, an offer price and a prepaid figure for one product rather than one number of unknown kind.**
+
+**ROTATION: next quiet-day dive is ACORN BIOLABS**, which surfaced today on its own and whose consumer pricing this file has never carried. **Narrow job: find a current US consumer price for the cell-collection and storage service, and if no public price exists, RECORD THAT AS THE FINDING rather than substituting category data**, which is the error the CellSave dive caught on 5 October.
+
+**No email (the Gmail connector refused this morning's call, and no tool it exposes sends mail); repository delivery only.**
