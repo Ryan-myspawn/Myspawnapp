@@ -1,0 +1,139 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MySpawn Blog: Dead Man's Switch: How They Actually Work, and Why Most of Them Fail</title><style>
+body{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:24px;line-height:1.55;color:#0F172A;background:#fff}
+h1{font-size:28px;line-height:1.2} h2{font-size:21px;margin-top:28px} h3{font-size:17px}
+code{background:#F1F5F9;padding:1px 5px;border-radius:3px;font-size:90%}
+pre{background:#0F172A;color:#E2E8F0;padding:14px;border-radius:6px;overflow-x:auto;font-size:13px}
+blockquote{border-left:3px solid #7C3AED;margin:12px 0;padding:4px 14px;color:#334155}
+a{color:#4F46E5} .row{font-size:13px;color:#334155;border-bottom:1px solid #E2E8F0;padding-bottom:6px}
+</style></head><body>
+<p><strong>Freshness check:</strong> This angle has not been used in the last 7 days. <code>dead man&#x27;s switch</code>, <code>deadman</code>, <code>check-in interval</code> and <code>proof of life</code> return ZERO across every file in this repository except the queue note that proposed this article. The two adjacent published pieces were read in full before drafting and are handed off to in the body rather than competed with.</p>
+
+<p><strong>Primary audience:</strong> Men 25-55</p>
+
+<p><strong>Trend / hook used:</strong> No news peg, and that is stated rather than dressed up. The hook is a category that has quietly accumulated at least three incompatible designs while almost every explainer still describes only one of them.</p>
+
+<p><strong>Epistemic note, stated up front.</strong> <strong>Most sources below are vendor-written comparisons published by companies selling competing products in this exact category, which is the weakest source class we use.</strong> Treat every interval, price and feature as reported rather than verified, and check the current setting inside the product before you rely on it. <strong>No page was opened at its own domain</strong>, because DNS resolution failed from this machine for the nineteenth consecutive day. This is not legal or security advice.</p>
+
+<h1>Dead Man&#x27;s Switch: How They Actually Work, and Why Most of Them Fail</h1>
+
+<p><strong>A dead man&#x27;s switch is a system that does something if you stop confirming you are alive.</strong> The classic version emails a message to people you named after you miss enough check-ins. <strong>The thing almost nobody tells you is that the trigger is the easy part.</strong> Switches rarely fail because the timer misfires. They fail because of what happens after it fires: the message arrives and the thing it points at has moved, expired, been rotated, or was never transferable in the first place.</p>
+
+<h2>Three designs, not one</h2>
+
+<p>Most explainers describe a timer and stop. There are at least three release models in current products and they fail in different directions.</p>
+
+<p><strong>Timer only.</strong> You check in; miss the deadline and the payload goes out. No human in the loop. <strong>Fast, and the most prone to a false release</strong> if you are on a long flight, in hospital, or simply on holiday without signal.</p>
+
+<p><strong>Human verification.</strong> You miss several check-ins, the service notifies the contacts you named, and <strong>those people are asked to confirm your status before anything is delivered.</strong> Slower, and far harder to trip by accident. LastSend is described as working this way.</p>
+
+<p><strong>Request based, with no check-ins at all.</strong> Nothing happens on a schedule. <strong>A recipient has to actively request access, and then a waiting period runs during which you can deny it.</strong> AbsentKey is the example given for this model. The burden is inverted: you are not proving you are alive, somebody else is asserting that you are not.</p>
+
+<p><strong>Which one you want depends entirely on which error you would rather make.</strong> A timer risks sending early. A verification or request model risks sending late, or never, if the person you named does not act. <strong>There is no design that avoids both, and any product implying otherwise is selling you a feeling.</strong></p>
+
+<h2>Real intervals, so you can calibrate</h2>
+
+<p><strong>The long-running example is deadmansswitch.net, which describes itself as having operated continuously since 2008.</strong> Its intervals run from one day to years. <strong>Its default schedule is the useful number: reminders at 30, 45 and 52 days, with delivery at 60 days after your last check-in.</strong> Free accounts are limited to a single day after the trigger. <em>(Service&#x27;s own description, read via a search index.)</em></p>
+
+<p>At the other end, an App Store listing for a mobile switch gives <strong>check-in intervals from one hour to seven days</strong>, with a later version extending to 30 days. Lifechecker.app is described with <strong>daily-to-monthly intervals plus grace periods and pause modes</strong>: the pause being the feature that solves the holiday problem the timer model creates.</p>
+
+<p><strong>And there is a hardware version worth knowing exists, because it clarifies the concept.</strong> BusKill is a USB cable that locks or wipes a laptop when the cable is physically pulled from the machine. <strong>Same logic, seconds instead of months, and it exists to defend a laptop in a coffee shop rather than an estate.</strong></p>
+
+<h2>The failure is almost never the trigger</h2>
+
+<p>Here is the part the category does not advertise.</p>
+
+<p><strong>Failure one: the payload goes stale and the switch does not know.</strong> A switch delivers whatever you loaded into it on the day you loaded it. Rotate a password six months later and the envelope still contains the old one. <strong>The switch fires perfectly and delivers nothing usable,</strong> and because it fires correctly, nothing in the system tells you it failed. This is the single most common way these setups die, and it is silent.</p>
+
+<p><strong>Failure two: somebody else can disarm it without telling you.</strong> Bitwarden&#x27;s emergency access, which is a dead man&#x27;s switch in all but name, has a documented behaviour worth sitting with: <strong>if your trusted contact deletes their own Bitwarden account, they are removed as your contact and have to be re-invited.</strong> Your arrangement can be quietly undone by another person&#x27;s unrelated housekeeping. <strong>Nothing about your own setup changes, and nothing warns you.</strong></p>
+
+<p><strong>Failure three: the thing it unlocks was never yours to pass on.</strong> A credential is not ownership. Handing someone a password is not the same as transferring an account, and many terms of service prohibit exactly that. Where real assets are involved, the legal route and the access route are separate problems, which is the point we made in <a href="/blog/small-estate-affidavit-vs-probate">what a small estate affidavit is, and when it beats probate</a>.</p>
+
+<p><strong>Failure four: it was never tested.</strong> A switch you have never let run to completion is a guess. The only honest test is to set a short interval, deliberately miss the check-ins, and see what your recipient actually receives.</p>
+
+<h2>The design that solves the staleness problem</h2>
+
+<p><strong>If the payload is credentials, do not ship a copy of them. Ship access to the live vault.</strong> Password managers build this directly and it is structurally better than any envelope.</p>
+
+<p><strong>Bitwarden&#x27;s emergency access</strong> lets you designate a trusted contact who requests access; <strong>if you neither accept nor deny the request, access is granted automatically once the waiting period expires.</strong> The contact can be on a free account even though the feature sits on a paid tier for the owner. <strong>Sources disagree about the configurable range, one giving one hour to seven days and another giving immediate to thirty days, so check it in the app rather than trusting either number here.</strong> <strong>Proton</strong> added a comparable feature: <strong>up to five trusted individuals, each needing their own Proton account, with a custom waiting period.</strong></p>
+
+<p><strong>Why this beats a sealed envelope: the vault is live.</strong> Rotate a password tomorrow and your contact still gets the current one, because they are getting the vault rather than a snapshot of it. <strong>Failure one disappears entirely.</strong> Failure two does not: the contact still has to have an account and still has to act.</p>
+
+<h2>What to actually do, in order</h2>
+
+<p><strong>Write the inventory first.</strong> A plain list of what exists and roughly where, containing no secrets at all. <strong>This is the step people skip and it is the one that costs nothing.</strong> A switch that fires into a vacuum is useless, because nobody knew to look.</p>
+
+<p><strong>Pick the error you prefer.</strong> Timer if your people are unreliable and you would rather risk an early send. Verification or request-based if false alarms would be worse than a delay.</p>
+
+<p><strong>Make the payload a pointer, not a copy.</strong> Live vault access, not a text file of passwords.</p>
+
+<p><strong>Set a calendar reminder to test it annually</strong>, and actually let it fire once.</p>
+
+<p><strong>And keep the legal authority separate from the access.</strong> They are different mechanisms with different failure modes, which is the same lesson as <a href="/blog/safe-deposit-box-after-death">what belongs in a safe deposit box, and what does not</a>: the thing that proves who may act and the thing that lets them act are rarely the same object.</p>
+
+<p><strong>On the platform-level versions of this idea,</strong> Google, Apple, Meta and TikTok each ship something adjacent, and we took those apart separately in <a href="/blog/platform-legacy-settings-explained">what happens to your accounts when you die</a>. <strong>The short version is that Google&#x27;s Inactive Account Manager is the only one of the four that actually hands somebody your files, and that it fires on inactivity rather than on death.</strong> That limitation is the whole subject of this article, stated by Google&#x27;s own design.</p>
+
+<h2>Where MySpawn sits</h2>
+
+<p><strong>Nothing on this page is something MySpawn does for you.</strong> We do not operate a dead man&#x27;s switch, we do not hold your passwords, and we have no check-in timer. <strong>We store a physical DNA record</strong> taken from hair and nail clippings at GenVault in New Jersey, an independent facility that is ISO 9001 and ISO 20387 certified, CAP accredited and FDA-registered, at ambient temperature, for <strong>$99 a year, billed annually</strong>, with the first 1,000 members locking the founding rate. No cloning, no gene editing, no service that creates a descendant.</p>
+
+<p><strong>We are in this article for one reason: we are subject to failure one.</strong> A record nobody knows about is functionally identical to a credential nobody can use. <strong>The thing that makes our product work is not the storage. It is that somebody in your family knows it exists and knows who to contact</strong>: which is also the thing we cannot do for you, and which is why the inventory step sits first on the list above.</p>
+
+<h2>FAQ</h2>
+
+<h3>Is a dead man&#x27;s switch legally binding?</h3>
+
+<p>No. It is a delivery mechanism, not an instrument. It can deliver a message, a location, or access, but it does not transfer ownership of anything and it does not substitute for a will or a trust. Treat it as plumbing attached to a plan, never as the plan.</p>
+
+<h3>What interval should I choose?</h3>
+
+<p>There is no correct answer, only a trade. Published defaults cluster around 30 to 60 days for message-delivery services and hours to days for vault access, which tells you those two jobs are not the same job. Pick by asking which mistake you would rather make: sending early, or not sending at all.</p>
+
+<h3>What happens if I am just on holiday?</h3>
+
+<p>With a timer-only service, the switch may fire. Several products address this with pause modes and grace periods, and verification models ask a human before releasing. If you travel off-grid regularly, a timer-only switch with a short interval is the wrong product for you.</p>
+
+<h3>Can I put passwords in a dead man&#x27;s switch?</h3>
+
+<p>You can, and it is the design most likely to fail silently, because the copy goes stale the moment you rotate anything. Prefer a password manager&#x27;s emergency access, where your contact gets the live vault rather than a snapshot of it.</p>
+
+<h3>How do I know it still works?</h3>
+
+<p>By testing it end to end at least once a year, with a short interval, and looking at what your recipient actually receives. A switch that has never run to completion is an assumption, not a system.</p>
+
+<p><strong>If you are setting one of these up this month, do the free part first: write down what exists and who should know.</strong> Then decide whether the biological record of your family belongs on that list alongside the accounts. <a href="https://myspawn.me">MySpawn is $99 a year, billed annually</a>, and the first 1,000 members lock the founding rate.</p>
+
+<h2>SEO PACKAGE</h2>
+
+<ul>
+<li><strong>Title tag:</strong> Dead Man&#x27;s Switch: How They Work, and How They Fail</li>
+<li><strong>Meta description:</strong> The three release models, real check-in intervals, and the four ways a dead man&#x27;s switch fails after the trigger works perfectly.</li>
+<li><strong>URL slug:</strong> <code>dead-mans-switch-how-they-fail</code></li>
+<li><strong>Primary keyword:</strong> what is a dead man&#x27;s switch</li>
+<li><strong>Secondary keywords:</strong> dead man&#x27;s switch check-in interval · dead man&#x27;s switch for passwords · Bitwarden emergency access waiting period · best dead man&#x27;s switch service · dead man&#x27;s switch vs legacy contact · how to test a dead man&#x27;s switch</li>
+<li><strong>Internal links:</strong> <a href="/blog/platform-legacy-settings-explained">platform-legacy-settings-explained</a> · <a href="/blog/small-estate-affidavit-vs-probate">small-estate-affidavit-vs-probate</a> · <a href="/blog/safe-deposit-box-after-death">safe-deposit-box-after-death</a></li>
+</ul>
+
+<h3>FAQPage JSON-LD</h3>
+
+<pre>
+{&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@type&quot;:&quot;FAQPage&quot;,&quot;mainEntity&quot;:[
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;Is a dead man&#x27;s switch legally binding?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;No. It is a delivery mechanism, not a legal instrument. It can deliver a message, a location or access, but it transfers ownership of nothing and does not substitute for a will or trust. Treat it as plumbing attached to a plan.&quot;}},
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;What interval should I choose?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;There is no correct answer, only a trade-off. Published defaults cluster around 30 to 60 days for message delivery and hours to days for vault access. Choose by deciding which mistake is worse for you: sending early, or not sending at all.&quot;}},
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;What happens if I am just on holiday?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;With a timer-only service the switch may fire. Several products offer pause modes and grace periods, and verification models ask a human before releasing anything. If you travel off-grid regularly, a short-interval timer-only switch is the wrong product.&quot;}},
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;Can I put passwords in a dead man&#x27;s switch?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;You can, and it is the design most likely to fail silently, because a stored copy goes stale the moment you rotate a credential. Prefer a password manager&#x27;s emergency access, where the contact receives the live vault rather than a snapshot.&quot;}},
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;How do I know it still works?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;Test it end to end at least once a year with a short interval and look at what the recipient actually receives. A switch that has never run to completion is an assumption rather than a system.&quot;}}
+]}
+</pre>
+
+<h2>SOURCES</h2>
+
+<p>1. <strong>Release-model taxonomy (timer-only, human verification, request-based) and the named examples LastSend and AbsentKey.</strong> <strong>Grade: VENDOR-WRITTEN COMPARISONS published by companies competing in this category. The weakest class we use, and the article says so in its own epistemic note rather than only here.</strong> The taxonomy is consistent across several independent vendors, which is why it is reported; the rankings inside those pages are not.</p>
+<p>2. <strong>deadmansswitch.net:</strong> intervals from one day to years, default reminders at 30, 45 and 52 days, delivery at 60 days after the last check-in, free tier limited to one day after, operating since 2008. <strong>Grade: the service&#x27;s own description of itself, read via search index. Primary as to its own features, promotional as to everything else.</strong></p>
+<p>3. <strong>Mobile App Store listing</strong> (one hour to seven days, later extended to 30 days) and <strong>Lifechecker.app</strong> (daily to monthly, grace periods, pause modes). <strong>Grade: product listings via search index.</strong></p>
+<p>4. <strong>BusKill</strong>, a hardware USB dead man&#x27;s switch that locks or wipes a machine when the cable is pulled. <strong>Grade: encyclopaedia entry via search index. Included to clarify the concept, not as a recommendation.</strong></p>
+<p>5. <strong>Bitwarden emergency access:</strong> trusted contact requests access; if the owner neither accepts nor denies, access is granted automatically when the waiting period expires; the contact may hold a free account; <strong>a contact who deletes their own Bitwarden account is removed and must be re-invited.</strong> <strong>Grade: Bitwarden help documentation plus third-party guides, via search index.</strong> <strong>SOURCE CONFLICT STATED IN THE ARTICLE RATHER THAN RESOLVED: one guide gives a one-hour-to-seven-day waiting-period range, another gives immediate to thirty days. Neither was verified and the article tells the reader to check in the app.</strong></p>
+<p>6. <strong>Proton emergency access:</strong> up to five trusted individuals, each requiring a Proton account, custom waiting period. <strong>Grade: coverage of a product announcement, via search index.</strong></p>
+<p>7. <strong>1Password&#x27;s Emergency Kit was searched for and NOT found in the result set, so it is absent from this article rather than described from memory.</strong></p>
+
+</body></html>
