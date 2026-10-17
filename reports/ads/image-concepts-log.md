@@ -588,3 +588,23 @@
 **BOTH SHIPPED ADS WERE FIXED RATHER THAN SHIPPED AS FIRST RENDERED, AND BOTH FAULTS WERE THE SAME FAULT: the composition buried the subject under the type.** Ad_200 hid a glowing machine behind the headline; Ad_201 pushed an empty table below the gradient. **Both were caught by looking at the render rather than by trusting the geometry, which is the only reason the visual-verify step exists.** **Worth carrying forward: when a photo's subject is small and centred, the default photo-layer scale in this generator is too tight, and the first guess will put the subject exactly where the headline goes.**
 
 **THE BRAND-MARK CHECK WAS RUN AT FULL RESOLUTION AND ITS RESULT REPORTED PRECISELY.** This lane set itself a vending-machine brand blocker this morning in the evergreen brief, and the honest finding is not "clean" but "nothing resolves into a readable word at 2160px, including one side panel with partial characters". **Stating the limit is the point; a blanket "no brands" would have been a stronger claim than the check supports.**
+
+**Notes on the 2026-10-17 run.**
+
+**ZERO FINISHED CREATIVES AGAINST A TARGET OF TEN. NO CONCEPT CODES WERE ISSUED, so this log gains no rows, and that absence is the entry.** The next concept code remains **202**.
+
+**THE LANE WAS FULLY LIVE AND STILL PRODUCED NOTHING, which is a more useful finding than an outage.** Egress self-test `images.unsplash.com` 200; the MCP search connector worked on every call; **the control discipline from 15 October was applied, and `example.com` returned 000 in the same loop and is again confirmed NOT a valid control.** **Fallback ladder rung (a), the top rung, all run.**
+
+**SIX QUERIES. FOUR RETURNED ZERO RESULTS** (`industrial cooling unit`, `single wooden chair dark room`, `coat hanging on wall hook`, `empty coat hook`, all squarish, content_filter high, no colour filter per the binding 14 October rule). **The two that produced downloadable candidates BOTH FAILED THE MANDATORY VISUAL VERIFY.**
+
+**THE TWO KILLS ARE THE RUN'S CONTENT AND BOTH WERE INVISIBLE IN THE SEARCH METADATA.** `HDfQ1uXmFh0` (Konrad Koller, @onetdev) carries a **legible third-party manufacturer brand mark, "GREE", on the condenser that is the photo's only subject**, so it could not be composed out the way Ad_197's vault wheel was on 15 October. `UvrHVj707bI` (snap wander, @passimage) is **dense with legible third-party names and logos and carries what appears to be a real telephone number**, which is a worse problem than branding. **Neither search result gave any warning. The thumbnail inspection is the only thing standing between this lane and publishing a stranger's phone number in a paid ad.**
+
+**ONE FURTHER KILL AT THE SEARCH STAGE, ON A RULE RATHER THAN ON QUALITY: `kGfYL_Wey-s`, a wax seal pressing into an envelope, was the single most visually appropriate result for the stamp concept and was refused because a wax seal on an envelope is LETTER IMAGERY and the letter-to-the-future lane is retired in ad concepts.**
+
+**THE QUOTA CLAUSE'S ESCAPE ROUTE WAS CHECKED AND IS BLOCKED, which is new information.** The brief says a thin day should still reach ten via more verticals of proven ads. **Every photo-composited square from 15 and 16 October already has its vertical, and the squares that genuinely lack one are PRE-PHOTO-MANDATE illustrated creatives** (checked: `Ad_PreservedSecret_123`, `Ad_MissingLineItem_92`, `Ad_BoringBox_91`, none of which contains an Unsplash source). **Adapting those would ship non-photo creatives, which the permanent mandate forbids while egress is working.** **So: the backlog of proven PHOTO ads is fully adapted, and the backlog of unadapted ads is from the illustrated era.**
+
+**SIX READY CONCEPTS ARE BANKED UNSHIPPED in `image-concepts-2026-10-17.md`, each with the photograph it needs.** The hooks were never the constraint today.
+
+**QC GATE: PASS 0, FIXED 0, KILLED 6, SHIPPED 0. Every kill was on a rule this lane wrote down after a previous mistake. The gates worked; there was nothing behind them.**
+
+**FIFTEENTH ASKING, AND THE EVIDENCE IS NOW 8, THEN 4, THEN 0: LOWER THE DAILY TARGET FROM 10 TO 4-6.** **The stateable problem is that a compliant photograph here must be dark or darkenable, face-free, brand-free, text-free, not a render or a staged mockup, AND must earn a specific concept. Ten of those a day do not exist.** **A 4-to-6 target would have been met on 15 and 16 October and would have made today a smaller miss, and more importantly it would free the search budget to BANK to the reserve rather than consume it.** **The reserve standing at one held entry is the proximate cause of today's zero: with a healthy reserve, four of the six banked concepts would have shipped.**
