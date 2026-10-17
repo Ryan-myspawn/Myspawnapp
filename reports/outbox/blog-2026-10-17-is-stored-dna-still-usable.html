@@ -1,0 +1,136 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How Do You Know a Stored DNA Sample Is Still Usable?</title><style>
+body{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;max-width:760px;margin:0 auto;padding:24px;line-height:1.55;color:#0F172A;background:#fff}
+h1{font-size:28px;line-height:1.2} h2{font-size:21px;margin-top:28px} h3{font-size:17px}
+code{background:#F1F5F9;padding:1px 5px;border-radius:3px;font-size:90%}
+pre{background:#0F172A;color:#E2E8F0;padding:14px;border-radius:6px;overflow-x:auto;font-size:13px}
+blockquote{border-left:3px solid #7C3AED;margin:12px 0;padding:4px 14px;color:#334155}
+a{color:#4F46E5} .row{font-size:13px;color:#334155;border-bottom:1px solid #E2E8F0;padding-bottom:6px}
+</style></head><body>
+<p><strong>Freshness check:</strong> This angle has not been used in the last 7 days. <code>still usable</code>, <code>sample integrity</code>, <code>A260</code>, <code>spectrophotomet</code> and <code>degraded sample</code> return ZERO fleet-wide. <code>viability</code> returns four blog hits and <code>quality control</code> two, and <strong>both were read at body level before a word was drafted</strong>: the viability hits are collection-window notes and a living-cells-versus-information distinction, and the quality-control hit is a CLIA record-retention category. <strong>No published article explains how sample integrity is MEASURED.</strong></p>
+
+<p><strong>Primary audience:</strong> Men 25-55</p>
+
+<p><strong>Trend / hook used:</strong> No news peg, and that is declared rather than dressed up. This is a question-shaped topic from our own science watch: the thing every storage customer eventually wants to know and almost no storage company explains.</p>
+
+<p><strong>Epistemic note, stated up front.</strong> The instrument specifications below come from <strong>manufacturer application notes, a peer-reviewed comparison, and biobank and laboratory guidance</strong>, and <strong>none was opened at its own domain</strong>, because DNS resolution has failed from this machine for twenty-one consecutive days. Treat every threshold as reported rather than verified. <strong>This is not laboratory advice and no number here should be used as an acceptance criterion without validating it for your own workflow.</strong></p>
+
+<h1>How Do You Know a Stored DNA Sample Is Still Usable?</h1>
+
+<p><strong>You measure three different things, with three different instruments, and the one most people mean by &quot;still usable&quot; is the one a standard quantification cannot tell you at all.</strong> How much DNA is there, how clean is it, and how broken is it are separate questions. A sample can quantify beautifully and be shredded. The honest answer to &quot;is it still good&quot; is that somebody has to spend a little of it to find out, and the useful question for anyone paying for storage is not what the measurements are but <strong>who runs them, how often, and what happens when one comes back poor.</strong></p>
+
+<h2>Question one: how much is there</h2>
+
+<p><strong>The fast answer comes from a spectrophotometer</strong>, the NanoDrop-style instrument that reads ultraviolet absorbance at 260 nanometres. One or two microlitres, a few seconds, a number.</p>
+
+<p><strong>Its weakness is that it is not fussy about what it counts.</strong> Free nucleotides, RNA and some contaminants also absorb at 260 nm, so the reading is total absorbance rather than intact double-stranded DNA.</p>
+
+<p><strong>The fluorometer answers the same question differently, and the gap between them is large.</strong> A Qubit-style instrument uses a dye that binds specifically to double-stranded DNA, so it reports the thing you actually have. **A peer-reviewed comparison in <em>PLOS ONE</em> found spectrophotometry-based methods reported mean DNA concentrations three to four times higher than the fluorometric method on the same bacterial extracts.** <em>(Peer-reviewed. Via search index.)</em></p>
+
+<p><strong>One nuance worth carrying, because the simple version is wrong.</strong> New England Biolabs&#x27; own technical note says that <strong>in general, fluorescence measurements are not more accurate or reproducible, but that for dilute samples they give more reproducible results.</strong> <em>(Manufacturer technical note, via search index.)</em> <strong>So &quot;the fluorometer is more accurate&quot; is not quite right. It is more specific about what it counts, which matters most when there is little to count.</strong></p>
+
+<h2>Question two: how clean is it</h2>
+
+<p><strong>Purity is read off ratios of absorbance at different wavelengths, and there are two.</strong></p>
+
+<p><strong>A260/A280 catches protein and phenol.</strong> The working target for DNA is around <strong>1.8</strong>, and NEB puts pure double-stranded DNA in buffered solution at <strong>1.85 to 1.88</strong>. Considerably lower suggests protein or phenol; noticeably above 2 suggests RNA carryover.</p>
+
+<p><strong>A260/A230 catches the other contamination family</strong>: organic solvents, guanidine salts, carbohydrates, EDTA. The usual target is <strong>2.0 to 2.2</strong>, with values below about 1.8 treated as a warning. <strong>Promega publishes a more lenient guideline of greater than 1.5</strong>, which is a reminder that these are not universal constants: <strong>they are thresholds different laboratories set differently.</strong></p>
+
+<p><strong>And purity is not integrity.</strong> A perfectly clean sample can be perfectly broken.</p>
+
+<h2>Question three, the one that actually answers the question</h2>
+
+<p><strong>Fragment length is measured by electrophoresis</strong>, and on an automated system it produces a single score: <strong>the DNA Integrity Number, or DIN.</strong></p>
+
+<p><strong>DIN runs on a scale of 1 to 10. High means intact. Low means strongly degraded.</strong> Agilent says the score comes from an algorithm built on the analysis of roughly <strong>7,000 different genomic DNA samples</strong>. <em>(Manufacturer application note, via search index.)</em> <strong>We could not find a public description of the formula</strong>, which is worth knowing before anyone treats a DIN as an objective physical constant.</p>
+
+<p><strong>Reported thresholds, and they vary by what you intend to do with the sample.</strong> One source treats <strong>DIN of 7 or higher</strong> as high-quality genomic DNA with minimal degradation, and another study used <strong>DIN 7</strong> as its quality-control cutoff. <strong>An FFPE sequencing study set its threshold at DIN greater than 3</strong>, after low-DIN samples produced poor on-target rates.</p>
+
+<p><strong>There is also a floor below which the score simply is not produced: no DIN is determined below about 3 nanograms per microlitre</strong>, with one source giving a functional range of roughly <strong>5 to 300 ng/µL.</strong> <strong>So an extremely depleted sample does not get a bad integrity score. It gets no integrity score</strong>, which is a different and more awkward result.</p>
+
+<h2>The three things nobody tells you</h2>
+
+<p><strong>One: testing consumes the sample.</strong> Every microlitre spent on quality control is a microlitre that no longer exists. <strong>&quot;Just test it every year&quot; is advice with a cost attached</strong>, and for a small archival sample that cost is not trivial. A custodian who tests constantly and a custodian who never tests are both making a trade, and only one of them is likely to tell you so.</p>
+
+<p><strong>Two: you cannot run any of this yourself.</strong> These are laboratory instruments. <strong>The practical consequence is that for a consumer, sample integrity is not something you verify. It is something you take on trust from somebody who can verify it</strong>, which makes the custodian&#x27;s testing policy more important than any single number.</p>
+
+<p><strong>Three: thresholds are decisions, not facts.</strong> DIN 7 and DIN 3 are both defensible cutoffs for different purposes. A260/A230 above 2.0 and above 1.5 are both published. <strong>A laboratory that tells you a sample &quot;passed&quot; without telling you the threshold has told you almost nothing.</strong> That pattern is the same one we took apart in <a href="/blog/biobank-accreditation-explained">what biobank accreditation actually proves</a>: a standard certifies process, and the acceptance criteria are still somebody&#x27;s choice.</p>
+
+<h2>What to actually ask a storage provider</h2>
+
+<p><strong>Four questions, in this order.</strong></p>
+
+<p><strong>Do you test stored samples after intake, or only at intake?</strong> Intake-only is a legitimate model, particularly for dry-state storage where there is little expected to change. It is also a very different product from periodic re-testing, and you should know which you bought.</p>
+
+<p><strong>If you re-test, on what interval, and how much sample does it consume?</strong></p>
+
+<p><strong>What are your acceptance thresholds, by number?</strong> Not &quot;we verify quality&quot;. A number, and what it is measured with.</p>
+
+<p><strong>What happens if a sample falls below them?</strong> This is the one that separates real answers from marketing. <strong>Is there a notification? A re-collection? A refund? Nothing?</strong> A provider who has never thought about a failing result has told you how likely they think it is, which is not the same as how likely it is.</p>
+
+<h2>Where MySpawn sits, including what we cannot answer</h2>
+
+<p><strong>We store a physical DNA record from hair and nail clippings at GenVault in New Jersey, an independent facility that is ISO 9001 and ISO 20387 certified, CAP accredited and FDA-registered, at ambient temperature, for $99 a year, billed annually</strong>, with the first 1,000 members locking the founding rate. We run no test, generate no result and offer no cloning, gene editing or any service that creates a descendant.</p>
+
+<p><strong>And here is the part that costs us something to publish: we do not currently have a published re-testing schedule or published acceptance thresholds for stored member samples.</strong> <strong>Four of the questions in the section above are questions we would have to answer by asking our own storage partner, and we have not published those answers.</strong> <strong>Until we do, the honest position is that a customer cannot verify our sample integrity any more than they can verify anyone else&#x27;s, and anybody telling you otherwise about any provider in this category is overstating what a certificate proves.</strong></p>
+
+<p><strong>What we can say precisely is what the storage model is</strong>, which is the thing that determines how much any of this matters. <strong>A dry, ambient-temperature record is a different preservation problem from living cells in liquid nitrogen</strong>, and we explain what actually degrades DNA over time, and what does not, in <a href="/blog/how-long-does-dna-last">how long DNA lasts</a>. <strong>If you want the shortest version: what you store and how you collect it constrains the ceiling long before storage does</strong>, which is the argument in <a href="/blog/best-dna-sample-type">which DNA sample type is best</a>.</p>
+
+<h2>FAQ</h2>
+
+<h3>Can I test my own stored DNA sample?</h3>
+
+<p>Not practically. Quantification, purity ratios and integrity scoring all require laboratory instruments, and integrity scoring in particular needs an electrophoresis system. The realistic path is asking your custodian what they measure and what their thresholds are.</p>
+
+<h3>Does a high DNA concentration mean the sample is good?</h3>
+
+<p>No, and this is the most common confusion in the subject. Concentration answers how much, not how intact. A sample can read high on a spectrophotometer, partly because that instrument also counts RNA, free nucleotides and some contaminants, and still be heavily fragmented.</p>
+
+<h3>What is a good A260/A280 ratio for DNA?</h3>
+
+<p>Around 1.8 is the usual target, with pure double-stranded DNA in buffered solution reported at roughly 1.85 to 1.88. Much lower suggests protein or phenol contamination; noticeably above 2 suggests RNA. Treat it as a purity check and not as an integrity check.</p>
+
+<h3>What DIN score counts as acceptable?</h3>
+
+<p>It depends entirely on the intended use. Scores of 7 or higher are commonly treated as high-quality genomic DNA, while one FFPE sequencing study set its usable threshold at above 3. There is no single universal pass mark, which is why a laboratory should state the number it used.</p>
+
+<h3>How often should a stored sample be re-tested?</h3>
+
+<p>There is no settled answer, and the honest trade-off is that every test consumes some of the sample. Ask a provider what interval they use and how much material each test costs, because a provider that re-tests frequently is spending your sample to reassure you.</p>
+
+<p><strong>If you are choosing a storage provider this month, skip the brochure and ask the four questions above. Then ask them of us.</strong> <a href="https://myspawn.me">MySpawn is $99 a year, billed annually</a>, and the first 1,000 members lock the founding rate.</p>
+
+<h2>SEO PACKAGE</h2>
+
+<ul>
+<li><strong>Title tag:</strong> How Do You Know a Stored DNA Sample Is Still Usable?</li>
+<li><strong>Meta description:</strong> Three measurements, three instruments, and the one most people mean by &quot;still usable&quot; is the one quantification cannot answer. What to ask a provider.</li>
+<li><strong>URL slug:</strong> <code>is-stored-dna-still-usable</code></li>
+<li><strong>Primary keyword:</strong> how to tell if a DNA sample is still good</li>
+<li><strong>Secondary keywords:</strong> DNA integrity number DIN · A260/A280 ratio DNA · Qubit vs NanoDrop DNA · how to test DNA sample quality · degraded DNA sample · DNA storage quality control</li>
+<li><strong>Internal links:</strong> <a href="/blog/biobank-accreditation-explained">biobank-accreditation-explained</a> · <a href="/blog/how-long-does-dna-last">how-long-does-dna-last</a> · <a href="/blog/best-dna-sample-type">best-dna-sample-type</a></li>
+</ul>
+
+<h3>FAQPage JSON-LD</h3>
+
+<pre>
+{&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@type&quot;:&quot;FAQPage&quot;,&quot;mainEntity&quot;:[
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;Can I test my own stored DNA sample?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;Not practically. Quantification, purity ratios and integrity scoring all require laboratory instruments, and integrity scoring needs an electrophoresis system. The realistic path is to ask your custodian what they measure and what thresholds they apply.&quot;}},
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;Does a high DNA concentration mean the sample is good?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;No. Concentration answers how much, not how intact. A sample can read high on a spectrophotometer, which also counts RNA, free nucleotides and some contaminants, and still be heavily fragmented.&quot;}},
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;What is a good A260/A280 ratio for DNA?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;Around 1.8 is the usual target, with pure double-stranded DNA in buffered solution reported at roughly 1.85 to 1.88. Much lower suggests protein or phenol; noticeably above 2 suggests RNA carryover. It is a purity check, not an integrity check.&quot;}},
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;What DIN score counts as acceptable?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;It depends on intended use. A DIN of 7 or higher is commonly treated as high-quality genomic DNA, while one FFPE sequencing study set its usable threshold above 3. There is no universal pass mark, so a laboratory should state the number it used.&quot;}},
+{&quot;@type&quot;:&quot;Question&quot;,&quot;name&quot;:&quot;How often should a stored sample be re-tested?&quot;,&quot;acceptedAnswer&quot;:{&quot;@type&quot;:&quot;Answer&quot;,&quot;text&quot;:&quot;There is no settled answer, and every test consumes some of the sample. Ask a provider what interval they use and how much material each test costs, because frequent re-testing spends your sample to reassure you.&quot;}}
+]}
+</pre>
+
+<h2>SOURCES</h2>
+
+<p>1. <strong>Spectrophotometric versus fluorometric quantification</strong>, including the finding that spectrophotometry-based methods reported mean DNA concentrations three to four times higher than Qubit on the same extracts. ***PLOS ONE*, comparison of DeNovix, NanoDrop and Qubit.<strong> </strong>Grade: PEER-REVIEWED. Via search index; not opened at its own domain.**</p>
+<p>2. <strong>New England Biolabs technical note on analysing nucleic acid concentration and purity</strong>: A260/A280 of 1.85 to 1.88 for pure dsDNA in buffered solution, and the statement that fluorescence measurements are <strong>not</strong> in general more accurate or reproducible but are more reproducible for dilute samples. <strong>Grade: manufacturer technical note. Via search index.</strong> <strong>This source is included specifically because it CONTRADICTS the simpler claim that fluorometry is more accurate, and the article carries the contradiction rather than the simpler version.</strong></p>
+<p>3. <strong>A260/A230 targets of 2.0 to 2.2, with contamination indicated below about 1.8</strong>, and <strong>Promega&#x27;s more lenient guideline of greater than 1.5.</strong> <strong>Grade: manufacturer and vendor guidance. Via search index.</strong> <strong>The disagreement between the two is reported in the article as evidence that thresholds are decisions rather than constants.</strong></p>
+<p>4. <strong>DNA Integrity Number</strong>: 1 to 10 scale, high meaning intact, derived from an algorithm built on roughly 7,000 genomic DNA samples; <strong>no public description of the formula was found and the article says so.</strong> <strong>Agilent application notes on the Genomic DNA ScreenTape assay. Grade: manufacturer application note. Via search index.</strong></p>
+<p>5. <strong>DIN thresholds</strong>: 7 or higher treated as high-quality in one source and used as a QC cutoff in a study; <strong>greater than 3 set as the threshold in an FFPE sequencing study after low-DIN samples showed poor on-target rates</strong>; <strong>no DIN determined below about 3 ng/µL, with a functional range reported as roughly 5 to 300 ng/µL.</strong> <strong>Grade: manufacturer notes and secondary study summaries. Via search index.</strong></p>
+<p>6. <strong>Biobank DNA quality guidance</strong> (CTRNet, &quot;Assessing Quality of DNA&quot;) surfaced in the same search and is noted as corroborating the three-measurement structure. <strong>Grade: institutional guidance document. NOT opened, and no figure in this article rests on it alone.</strong></p>
+
+</body></html>
