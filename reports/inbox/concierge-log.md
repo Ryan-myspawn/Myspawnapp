@@ -562,3 +562,16 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **THE SECOND FINDING IS UNCHANGED AND STILL MATTERS MORE THAN THE FIRST.** Yesterday's addendum listed all twenty-three tools that load when the grant works. **Not one of them sends.** The set covers search, read, label, draft, trash and spam. **So a successful reconnect restores triage and drafting and never restores the digest, or any of the five other lanes whose briefs end with "email it to ryan@myspawnapp.com".** **If sending is wanted, the connector's SCOPE has to change, not just its authorization, and those are two separate pieces of work.**
 
 **NOTHING WAS DONE TO THE INBOX: no thread read, no draft created, no label changed, nothing trashed or marked spam.** **Inbox state UNKNOWN, which is not the same as clear.** No digest could be sent, so none was attempted.
+| 2026-10-17 | **50** | `ToolSearch select:mcp__Gmail__search_threads` loaded on the first try, then `search_threads newer_than:1d in:inbox` | needs you to sign in again | **FALSE RECOVERY** | **37** | 10 | none. Inbox state unknown, not clear. |
+
+**Notes on day 50.**
+
+**YESTERDAY'S ALTERNATION HYPOTHESIS IS FALSIFIED TODAY, AND SAYING SO IS THE POINT OF HAVING WRITTEN IT DOWN.** Day 49's note recorded five days alternating (45 false recovery, 46 not-loadable, 47 false recovery, 48 not-loadable, 49 false recovery) and concluded the fault "alternates daily and intraday". **Day 50 is a SECOND false recovery in a row. The alternation was a pattern in five points and it did not survive the sixth.** **What survives is narrower and still useful: the tools load more often than not, and when they load the authorization is refused. The variation is in whether the tool list arrives, not in whether the grant works. The grant has not worked once in fifty days.**
+
+**THE SPLIT TALLY NOW READS 37 FALSE RECOVERY TO 10 NOT-LOADABLE.** **Three quarters of the failures are authorization failures with a healthy tool list.** **That is the number that should drive the repair: this is an OAuth grant problem, not a connector-presence problem, and it has been one for fifty days.**
+
+**FIFTY DAYS IS WORTH STATING PLAINLY RATHER THAN BURYING IN A TALLY.** **The Inbox Concierge has run fifty consecutive times and has never once read a thread, drafted a reply or sent a digest.** Every run has produced an instrumentation note and nothing else. **The lane is not degraded. It has never functioned.**
+
+**AND THE SECOND FINDING STILL MATTERS MORE THAN THE FIRST, UNCHANGED: of the twenty-three tools this connector exposes when the grant works, NOT ONE SENDS.** **So even a perfect reconnect fixes triage and drafting and never fixes the digest, or any of the five other lanes whose briefs end with "email it to ryan@myspawnapp.com".** **Two separate pieces of work: reconnect the grant, and widen the scope. Doing only the first leaves six lanes still delivering to a repository.**
+
+**NOTHING WAS DONE TO THE INBOX: no thread read, no draft created, no label changed, nothing trashed or marked spam. Inbox state UNKNOWN, which is not the same as clear.** No digest could be sent, so none was attempted.
