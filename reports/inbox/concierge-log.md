@@ -575,3 +575,22 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **AND THE SECOND FINDING STILL MATTERS MORE THAN THE FIRST, UNCHANGED: of the twenty-three tools this connector exposes when the grant works, NOT ONE SENDS.** **So even a perfect reconnect fixes triage and drafting and never fixes the digest, or any of the five other lanes whose briefs end with "email it to ryan@myspawnapp.com".** **Two separate pieces of work: reconnect the grant, and widen the scope. Doing only the first leaves six lanes still delivering to a repository.**
 
 **NOTHING WAS DONE TO THE INBOX: no thread read, no draft created, no label changed, nothing trashed or marked spam. Inbox state UNKNOWN, which is not the same as clear.** No digest could be sent, so none was attempted.
+| 2026-10-18 | **51** | `ToolSearch select:mcp__Gmail__search_threads` loaded on the first try, then `search_threads newer_than:1d in:inbox` | needs you to sign in again | **FALSE RECOVERY** | **38** | 10 | none. Inbox state unknown, not clear. |
+
+**Notes on day 51.**
+
+**THIRD CONSECUTIVE FALSE RECOVERY, AND THE SPLIT TALLY IS NOW 38 TO 10.** Days 49, 50 and 51 are all the same fault: **the tool schema loads perfectly on the first attempt and the call is then refused for authorization.** **Yesterday's note recorded that day 50 had falsified the alternation hypothesis written on day 49. Day 51 confirms the falsification rather than merely repeating it: three in a row is not an alternating pattern under any reading.**
+
+**THE HYPOTHESIS IS NOW CLOSED RATHER THAN LEFT OPEN, which is the useful outcome of having written it down and then watched it fail twice.** **There is no daily pattern. There is one dominant failure mode, authorization, running at roughly four in five, with an occasional connector-absence failure mixed in.** **No future run should try to predict tomorrow from today's fault type.**
+
+**A SECOND PROBE WAS MADE YESTERDAY EVENING BY A DIFFERENT LANE AND IT AGREES.** The 2026-10-17 Longpost Studio run called `list_labels` at about 11:5x UTC and received the same sign-in refusal, after which the server disconnected. **So the fault was observed twice on 17 October, in two lanes, four hours apart, and once again this morning: three observations, one fault.**
+
+**FIFTY-ONE CONSECUTIVE RUNS. STILL NEVER ONCE: a thread read, a draft created, a digest sent.**
+
+**THE DECISION QUEUE ITEM IS UNCHANGED AND IS NOW AT ITS FIFTY-SECOND ASKING, and the two halves must be fixed separately because fixing one does not touch the other.**
+**(a) THE GRANT.** Re-authorize the Gmail connector from claude.ai connector settings. **This session cannot run an OAuth flow and will never ask for a code, a token or a callback URL.** **This fixes triage and drafting, which is 38 of the 48 recorded failures.**
+**(b) THE SCOPE, WHICH IS THE BIGGER ONE AND IS NOT AN AUTHORIZATION PROBLEM AT ALL.** **Of the twenty-three tools this connector exposes when the grant works, NOT ONE SENDS MAIL.** There is no `send_message`, no `send_draft`, no equivalent. **So a perfect reconnect still leaves every "email it to ryan@myspawnapp.com" instruction unexecutable, across the Concierge, Longpost Studio, Trend Radar, Competitor Watch, Deep Production, Content Factory AM and PM, Newsletter and Image Ads.** **That is nine lanes whose delivery step depends on a capability the connector does not expose. The connector's SCOPE has to change, not just its authorization.**
+
+**NOTHING WAS DONE TO THE INBOX: no thread read, no draft created, no label changed, nothing trashed or marked spam. Inbox state UNKNOWN, which is not the same as clear.** No digest could be sent, so none was attempted.
+
+**ONE OPERATIONAL NOTE FOR THE FOUNDER, because fifty-one days of identical notes is itself information: this lane currently costs a run a day and produces one row in this table.** **If the connector is not going to be repaired soon, the honest recommendation is to DISABLE this trigger until it is, rather than keep a daily job whose only output is a record of its own inability to run.** **That is a founder decision and this session is not making it.**
