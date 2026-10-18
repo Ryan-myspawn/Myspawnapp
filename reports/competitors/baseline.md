@@ -5,7 +5,11 @@
 
 ### SecuriGene / DNA Memorial (dnalegacy.com)
 - **Model:** "DNA Preservation Memorial Capsule": home-storage certified device; heavy funeral-home channel (claims 1,000+ funeral homes in North America); post-mortem DNA banking as keepsake + hereditary-disease documentation. ([securigene.com](https://www.securigene.com/dna-banking/), [dnalegacy.com](https://www.dnalegacy.com/))
+- **PRICING: DO-NOT-QUOTE FLAG FROM 26 SEPTEMBER STILL STANDS, re-tested 18 October and NOT lifted.** Archive holds $498 (21 Aug), $389 pre-need / $498 at-need (blog, 2 Sep), and a 26 Sep re-check returning $580 USD plus a $920 option, $389.00 CAD, and $250 per additional capsule. **18 October's sweep returned $498 on BOTH the US and Canadian sites, which would have looked like a resolution, and it was NOT written in: the retrieved pages were cached roughly 200 to 600 DAYS ago, placing them BEFORE the 26 September check.** **Updating to $498 would have resolved a contested figure by reverting to an older one while appearing to confirm it.**
+- **PRODUCT DISTINCTION RECORDED 18 OCTOBER, and it may explain the whole mess: there are TWO products.** A living-person home kit, the **"DNA Banking Capsule" at $389.00**, and the **"Post-Mortem DNA Banking Capsule" at $498.00**. **HYPOTHESIS, LABELLED AND UNRESOLVED: the $389-versus-$498 gap may be PRODUCT rather than TIMING, which would mean the pre-need/at-need explanation we invented and then flagged was wrong for a second reason.** **This does NOT lift the flag. It is a better hypothesis for the next dive to test.**
+- **ALSO RECORDED 18 OCTOBER, dates unestablished:** personalised engraving **$29 per capsule** for name and dates, **$49** for custom text; a funeral-home reseller listing the capsule from **$498.00 to $1,218.00** with add-ons and an **additional capsule at $250** (matching our confirmed figure); and the company statement that preservation takes **10 to 14 BUSINESS DAYS** after the lab receives samples. **`10-14 business` was fleet-zero: this is the first turnaround figure we hold for any direct-adjacent competitor, and we have never published ours.**
 - **Positioning:** memorial/grief moment, B2B2C via funeral directors. Home capsule = no custody chain, no accredited facility: our differentiation proof.
+- **PRICE COMPARISON CARRIES THE 13 OCTOBER RULE: no price-superiority line without a time horizon.** **Against a one-time $389, our $99 a year billed annually costs MORE from year four onward.** **That sentence travels with the comparison every time.** The honest frame is not cheaper: an annual fee buys an accredited facility and a custody chain, a one-time fee buys a device in your house.
 - **Threat:** low-medium (different entry moment: death vs life). **Steal/counter:** their funeral-channel distribution is real; our counter is "preserve while alive, with a story attached" (Memory Vault).
 
 ### Acorn Biolabs (acorn.me)
@@ -994,3 +998,23 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **Sourcing: nothing opened at its own domain. Twenty-second consecutive day of DNS failure, verified today against a known-allowlisted control (`images.unsplash.com` 200).**
 
 **No email (no send-capable tool exists among the Gmail tools exposed, and the connector refused to load earlier today); repository delivery only.**
+
+---
+
+## 2026-10-18
+
+**NO dated competitive event in the 24-to-48-hour window** across SecuriGene / DNA Memorial, CellSave, Acorn Biolabs, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter, StoryWorth and Empathy. **A file was written (`watch-2026-10-18.md`) for the third day running and for a third distinct reason.**
+
+**DEEP-DIVE #24: SECURIGENE / DNA MEMORIAL. THE QUEUED CONDITION COULD NOT BE MET, AND THE REASON IS THE FINDING: it is not that no price exists, it is that no price can be DATED.** Today's sweep offered a tidy answer, $498 on both the US and Canadian sites, matching our oldest figure and contradicting the 26 September check. **The retrieved pages were cached roughly 200 to 600 days ago, placing them BEFORE that check. The flag stands and nothing was updated.** Full reasoning and the three additive, uncontested details are in the company's entry above.
+
+**THE RUN'S MOST USEFUL OUTPUT IS A PROPOSED STANDING RULE, BECAUSE TWO LANES HIT THE SAME MECHANISM WITHIN FOUR HOURS TODAY.** This morning's Trend Radar ran a short-form sweep that returned only roundups whose retrieved copies were older than their headline dates, and recorded a binding note about it. **This afternoon's competitor dive hit the same thing on a price.** **PROPOSED AND APPLIED FROM TODAY: when a search result reports a cache age, that age is PART OF THE FINDING and is recorded beside the figure. A page cached 200 to 600 days ago is not evidence about today's price, however current the figure looks.**
+
+**FOURTH CONSECUTIVE DAY IN WHICH THE ROTATION PRODUCED A RECORDS FINDING RATHER THAN A COMPETITOR MOVE, AND THE FOUR ARE ALL DIFFERENT IN KIND.** 15 October: a note mis-stated the age of our own figure by a factor of forty. 16 October: a price recorded without whether it was list or promotional. 17 October: two entries in one file disagreeing with each other. **18 October: a stale answer declined, and the decline recorded as the result.** **In four days this rotation has found four methodology faults and zero competitor moves. That remains the strongest argument both FOR the rotation existing and for asking whether a DAILY competitive sweep is the right cadence.**
+
+**BANKED, EXPLICITLY NOT A DELTA AND SEVENTEEN MONTHS OLD: Tomorrow Bio reported as having cryopreserved 20 PEOPLE and 10 PETS with more than 800 signed up**, alongside a €5 million seed raise for US expansion. *(Named trade coverage, May 2025. `cryopreserved 20` was fleet-zero, so the enrolment figures are new to us; the company and its US-expansion intent are long on file.)* **SO WHAT: it is a third enrolment data point beside the Alcor and Cryonics Institute dues structures dived on 14 and 15 October, and it is old. It is not news and no asset may report it as such.**
+
+**RECORDED AND DELIBERATELY NOT BANKED: Nucleus Genomics reported raising $14 million in Series A for a $32 million total.** *(GenomeWeb, UNDATED in our reading. Both figures fleet-zero.)* **An undated funding figure is the exact shape of item this fleet has refused eleven times this month. Logged so the next dive can date it rather than rediscover it.**
+
+**ROTATION: next quiet-day dive is TOMORROW BIO**, next in the stated order. **Narrow job: a current US consumer price, LIST or PROMOTIONAL, with the date observed AND the cache age of whatever page it comes from.** **Second job if a dateable SecuriGene page can be found: test the product-versus-timing hypothesis for $389 against $498.**
+
+**No email (no send-capable tool among the Gmail tools exposed, and the connector refused again this morning on day 51); repository delivery only.**
