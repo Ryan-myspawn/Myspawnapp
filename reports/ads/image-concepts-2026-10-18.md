@@ -57,3 +57,15 @@
 **The recommendation is unchanged and is now better supported: 4 new squares plus verticals as available, with a standing instruction to bank 6 to 10 vetted photographs on every run where search works.** **The reserve still holds ONE entry, on hold until 29 October, and it is the reason a thin search day becomes a thin shipping day.**
 
 **NOTHING WAS BANKED TO THE RESERVE TODAY EITHER, and that is the honest failure inside a better day: four queries produced one usable photograph and it shipped immediately.**
+
+## DRIVE DELIVERY CHECK, RUN IMMEDIATELY AFTER THE PUSH
+
+**EMPTY. Both folder IDs queried (`1RrHCVW5hxdIt9H29i0IpUzdYDrgWOQK0` and the canonical `1lAt1u2rpngRjiRx2Yh-TTPj58g3aIQda`). No files.**
+
+**TODAY'S CHECK IS CLEANER THAN YESTERDAY'S AND THAT MATTERS.** This morning's radar recorded an honest qualification on the empty-Drive finding: **yesterday's ad run shipped zero, so nothing was pushed for the mirror to carry, and an empty folder was consistent with a working mirror that had nothing to do.** **That qualification does not apply today. This push contained two JPEGs, both under 950KB, both mirror-safe by the hard rule, and the folder is still empty minutes later.**
+
+**SEVENTH CONSECUTIVE EMPTY DAY, and the first one since 16 October where a push definitely gave the mirror something to carry.**
+
+**THE PRESCRIBED RENAME RE-TRIGGER WAS AGAIN NOT FIRED, and the reason is now partly different from the standing one.** The standing reason since 15 October is that re-triggering a mechanism that has never once fired is noise, and that a rename would break the filenames published in this concept doc. **Today there is a second and simpler reason: a mirror can lag, and a check run minutes after a push is not evidence that it will not arrive in an hour.** **Firing a re-trigger on a few minutes of silence would destroy the only clean test this lane has had in a week.** **The right next step is for tomorrow's radar Drive check to look for these two files by name, which is a stronger test than counting an empty folder.**
+
+**FOUNDER QUESTION, SEVENTH ASKING, AND TODAY IT IS SHARPER THAN BEFORE: two mirror-safe JPEGs were pushed to `assets/ads/2026-10-18/` and did not arrive. Is the n8n mirror running at all?**

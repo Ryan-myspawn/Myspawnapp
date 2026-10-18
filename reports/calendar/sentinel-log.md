@@ -301,3 +301,27 @@ On 20 September this log proposed keeping the Friday anchor and treating a Monda
 **Thursday 22 October: shoot "Presented At", or kill it.**
 
 **Not 24 October, and the distinction is the point.** The congress is the bigger event, but nothing about it is ours to miss. **22 October is the last day the ASRM filter asset is worth making**, and it is the only date in the next fortnight where inaction permanently forecloses something we already built. **The newsletter backlog has a larger running count, but it can be cleared on any day. This one cannot.**
+
+---
+
+## 2026-10-18 (weekly run)
+
+**NO CALENDAR WORK WAS DONE. The connector refused.**
+
+**`list_events` for the next 21 days returned: "MCP server Google_Calendar needs you to sign in again", after which the server disconnected.** **No events were listed, created, updated or deleted. Calendar state is UNKNOWN, which is not the same as correct.**
+
+**THIS IS THE SAME FAULT CLASS AS THE GMAIL CONNECTOR, AND NAMING THAT IS THE USEFUL PART.** This morning's Inbox Concierge run, day 51, received the identical refusal from Gmail: the tool schema loaded cleanly on the first attempt and the call was then refused for authorization. **Two different Google connectors, six hours apart, same failure mode.** **That points at the account's connector authorisation rather than at either service, and it means a single re-authorisation pass may fix both.**
+
+**WHAT THIS RUN WOULD HAVE DONE, recorded so it is one step rather than a re-derivation when access returns.**
+1. **Thursday 22 October: "[MySpawn] SHOOT OR KILL: Presented At explainer".** **This is the most important date in the next fourteen days and it is four days away.** It is self-imposed, which is exactly why it needs to be on a calendar: nobody else will enforce it.
+2. **Saturday 24 October: "[MySpawn] ASRM 2026 Congress opens, Baltimore"**, running to 28 October, with the standing note that the 24 October ad pull is due. **Confirmed on ASRM's own pages on 11 October.**
+3. **Daily weekday "Shoot block", 11:00 IST, 45 minutes.** **Under the normal rule this is created only on days whose PM post plan lists assets to shoot. On current evidence that is EVERY weekday, because the backlog is roughly twenty-two unshot scripts and today's two packs added four more.**
+4. **Weekly anchors, if missing: "Approve partner outreach" (Tuesday evening IST) and "Send newsletter" (Friday morning IST).** **The newsletter anchor is worth creating even though the lane cannot send, because the queue is four issues deep and the bottleneck is a decision rather than a draft.**
+
+**NOTHING WAS CREATED, SO NOTHING IS CLAIMED. The list above is a plan, not a record.**
+
+**NO EMAIL: no send-capable Gmail tool exists and the Gmail connector refused this morning. Repository delivery only.**
+
+## MOST IMPORTANT DATE IN THE NEXT 14 DAYS
+
+**Thursday 22 October: shoot "Presented At", or kill it. Four days away, and it is the one date in the fortnight that only this operation can miss.**
