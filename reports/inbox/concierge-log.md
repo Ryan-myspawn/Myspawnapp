@@ -594,3 +594,14 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NOTHING WAS DONE TO THE INBOX: no thread read, no draft created, no label changed, nothing trashed or marked spam. Inbox state UNKNOWN, which is not the same as clear.** No digest could be sent, so none was attempted.
 
 **ONE OPERATIONAL NOTE FOR THE FOUNDER, because fifty-one days of identical notes is itself information: this lane currently costs a run a day and produces one row in this table.** **If the connector is not going to be repaired soon, the honest recommendation is to DISABLE this trigger until it is, rather than keep a daily job whose only output is a record of its own inability to run.** **That is a founder decision and this session is not making it.**
+| 2026-10-19 | **52** | `ToolSearch select:mcp__Gmail__search_threads` loaded on the first try, then `search_threads newer_than:1d in:inbox` | needs you to sign in again | **FALSE RECOVERY** | **39** | 10 | none. Inbox state unknown, not clear. |
+
+**Notes on day 52. DELIBERATELY SHORT, and the brevity is the point.**
+
+**FOURTH CONSECUTIVE FALSE RECOVERY. Split tally 39 to 10.** Nothing new was learned today and nothing new is written. **Yesterday's entry observed that fifty-one days of identical notes is itself information; writing a fifty-second long one would contradict that observation.**
+
+**The two halves of the fix are unchanged and are not restated in full here, because they are stated in full on day 51 and have not moved: (a) re-authorize the Gmail connector from claude.ai connector settings; (b) the connector's SCOPE must change, because none of the twenty-three tools it exposes sends mail, so a perfect reconnect still leaves nine lanes unable to deliver.**
+
+**ONE NEW DATA POINT, AND IT IS THE ONLY REASON THIS ENTRY IS LONGER THAN A ROW: the Google Calendar connector returned the IDENTICAL refusal yesterday evening, six hours after Gmail returned it in the morning.** **Two different Google connectors, same wording, same day.** **That is recorded in `reports/calendar/sentinel-log.md` and it points at the account's connector authorisation rather than at either service.** **PRACTICAL CONSEQUENCE: one re-authorisation pass may fix both lanes, so they should be tried together rather than separately.**
+
+**NOTHING WAS DONE TO THE INBOX: no thread read, no draft created, no label changed, nothing trashed or marked spam. Inbox state UNKNOWN, which is not the same as clear.** No digest could be sent, so none was attempted.
