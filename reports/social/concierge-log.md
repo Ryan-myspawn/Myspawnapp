@@ -1,0 +1,6 @@
+
+## 2026-10-19 (Gmail day 53, recorded from the SEO Writer run rather than the concierge run)
+**FALSE RECOVERY, sixth consecutive, and today it is a STRONGER negative than the previous five.** On the five before this, the finding was that the schemas load and the calls are refused, with the summary note that **of the 23 exposed Gmail tools, not one sends.** Today the SEO Writer attempted **`create_draft`**, which is the ONE Gmail write the standing concierge rule permits, to `ryan@myspawnapp.com`, and it was refused: *"MCP server Gmail needs you to sign in again."* The server then dropped off the connected list entirely.
+**Why that matters: the previous fifty-two runs could not distinguish "no send tool exists" from "no Gmail write works at all." Today they are distinguished. Drafting is refused too, so the blocker is authorisation, not tool coverage.**
+**Paired with Google Calendar, which returned the identical refusal on 18 October six hours after Gmail's. Two Google connectors, same wording: one re-authorisation pass via claude.ai connector settings should be attempted for BOTH together.** This session cannot run OAuth and will not ask for codes or tokens.
+**Fifty-three consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
