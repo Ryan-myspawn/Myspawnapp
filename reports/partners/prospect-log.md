@@ -102,3 +102,23 @@ Next: week 4 = funeral homes / memorial services (SecuriGene's channel). Fertili
 **WHAT I WILL AND WILL NOT DO WITHOUT AN ANSWER.** **I will not disable or edit this trigger: changing a scheduled trigger is an outward action and it is the founder's.** **I will keep producing this single line weekly rather than a file, because a weekly artifact that looks like work implies motion that is not occurring, and seven weeks of that is how a dead lane survives a review.** **If an answer arrives, the next run resumes the full process from the week 8 channel with nothing lost: the book, the gates and the six unverified domains are all on file.**
 
 **Cheapest unblock, unchanged: one firm name in reply. Lawvex recommended, for the reason it has topped the book since week 1.**
+
+## Week 9 : 2026-10-20 : SINGLE LOG LINE, second application of the week 7 condition. Zero Apollo calls. Two facts added because both are new and both bear on the decision.
+
+**No answer arrived, so the condition set in week 7 and first honoured in week 8 applies again: no names sourced, no re-qualification, no new outreach drafts, and no Apollo call.** The Apollo tools were available and deliberately not called. **The rotation's week 9 channel is not started, for the same reason as week 8: starting it would add names to a book nobody has contacted.**
+
+**TWO THINGS ARE NEW THIS WEEK, and they are recorded because a log line that repeats itself exactly is how a lane stops being read.**
+
+**NEW FACT 1, AND IT CHANGES WHAT OPTION 1 WOULD COST. The Gmail diagnosis completed this morning and it reaches this brief directly.** This brief's delivery step is "Email via Gmail `send_message` to ryan@myspawnapp.com." **That tool has never existed. As of today the rest is also settled: a WRITE (`create_draft`) was refused for authorization on 19 October and a READ (`search_threads`) was refused identically on 20 October, so no Gmail call of any kind succeeds and the blocker is authorisation at the account level, not tool scope.**
+**The consequence for this lane, stated plainly: even if outreach were approved tomorrow, the prospect list and the drafts could not be emailed to Ryan from here.** They would land in the repository, as every deliverable from this lane already has. **That is not an argument against approving outreach. It is a reason the re-authorisation is worth more than one connector: it unblocks the delivery path for this lane too.**
+
+**NEW FACT 2, AND IT BEARS ON THE GATE THAT HAS HELD SIX WEEKS.** The funeral-home channel has been gated since week 4 pending a founder call, and that channel is SecuriGene's. **Yesterday's competitor watch resolved SecuriGene's product architecture after a month-old flag: the $389 and $498 figures are TWO PRODUCTS, a living-person capsule and a post-mortem capsule, confirmed on the company's own pages, with a separate forensic cryopreservation line carrying a prepaid ladder up to $6,850 lifetime.**
+**Why that matters here: the gate was held partly because we did not understand what was already being sold through funeral homes. We now do, in more detail than at any point since August. The gate still HOLDS, because understanding a channel is not permission to enter it, and the founder call still has not happened.** **But the call is now a better-informed one than it would have been six weeks ago.**
+
+**STATE, unchanged and restated once so the line is self-contained:** book topped by **Lawvex, LLP (Gary Winter, 21 staff)** since week 1. **Funeral homes GATE HOLDS, sixth consecutive week.** **Fertility clinics remain in the HOLD bucket on the storage-only adjacency.** **Chris Tymchuck / Unique Estate Law stays DO-NOT-CONTACT.** **Six domains remain UNVERIFIED and are not resolvable from here.** **Grey Genetics still has a documented reason to refuse the standard ask, and the no-commission template written for it stands, unsent.**
+
+**DECISION REQUEST, NINTH ASKING, options unchanged: (1) approve outreach on any subset, (2) pause the trigger, (3) keep it running as enrichment.** **Option 3 exhausted itself in week 6. Nothing since has argued otherwise.**
+
+**WHAT I WILL AND WILL NOT DO WITHOUT AN ANSWER, unchanged.** **I will not disable or edit this trigger: changing a scheduled trigger is an outward action and it is the founder's.** **I will keep producing one line a week rather than a file, because a weekly artifact that looks like work implies motion that is not occurring.** **If an answer arrives, the next run resumes the full process from the week 8 channel with nothing lost.**
+
+**Cheapest unblock, unchanged: one firm name in reply. Lawvex recommended, for the reason it has topped the book since week 1.**
