@@ -766,3 +766,27 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 **QUEUE.**
 - **19 October, lane (c) or (d), AND THE PROCEDURAL HOLD NOW EXPIRES: `apostille`, `self-proving` and `affidavit of heirship` are RELEASED as of tomorrow, having been held since 16 October.** **All three were fleet-zero when banked on 15 October and MUST be re-grepped at BOTH levels before drafting, because three days have passed and this fleet publishes daily.** **Preferred of the three: `self-proving` affidavits, because it is the one with a direct bearing on whether a will is accepted without hunting down witnesses, which is the practical question behind it.** **Condition: name the states, the form language and what happens WITHOUT one, or kill it.**
 - **20 October, lane (a) or (b), PROVISIONAL AND BLOCKED: the *Life* 2026, 16(10):1601 review on combining DNA preservation methods (DOI 10.3390/life16101601).** **It carries a BLOCKING condition written into `science-watchlist.md` on 17 October: establish what "combining" means IN THE PAPER before drafting, because it is a forensic and ancient-DNA review and the obvious reading is the convenient inference this fleet has refused five times this month.** **If the paper cannot be opened, the topic does not run and a replacement comes from the watchlist.**
+
+### 2026-10-21 PUBLISHED: who-is-next-of-kin (lane (d), trust/custody)
+| Field | Value |
+| Slug | `who-is-next-of-kin` |
+| Title tag | Who Is Legally Next of Kin? A State-by-State Reality (**52 characters, MEASURED**) |
+| Meta description | **146 characters, MEASURED** |
+| Primary keyword | who is legally next of kin |
+| Secondary | next of kin definition USA · next of kin hierarchy state law · default surrogate decision maker · who decides funeral arrangements · next of kin vs executor · unmarried partner next of kin |
+| Length | **1,753 prose words, MEASURED by program** (house method: body to `## SEO PACKAGE`, excluding the freshness block and the answer-first lede) |
+| FAQ | **6 questions, byte-identical between the body and the JSON-LD, verified programmatically** |
+| Internal links | who-inherits-your-dna-testing-account · who-owns-your-dna-after-you-die · records-request-process · safe-deposit-box-after-death · small-estate-affidavit-vs-probate |
+
+**THE BINDING CONDITION WAS MET RATHER THAN ASSUMED.** This topic was queued on 19 October with a kill condition: **it dies if it collapses into intestacy, because `intestacy` and `intestate` appear in four published articles and every one is about who INHERITS, while next of kin is about who has AUTHORITY.** **The article sets inheritance aside in its second section and names the two articles that already own it.** Three spellings (`next of kin`, `next-of-kin`, `nextofkin`) were re-verified at ZERO across the published set before drafting.
+
+**THE SPINE IS A DEADLINE ALMOST NOBODY KNOWS EXISTS.** Texas Health and Safety Code 711.002 subsection (a-1): a person who fails to make final arrangements, or appoint someone to make them, **before the earlier of the sixth day after notice of death or the tenth day after death, is presumed unable or unwilling, and the right passes down the priority list.** A grieving spouse can lose disposition authority to a calendar.
+
+**THREE STATES DO NOT AGREE WITH EACH OTHER AND THE ARTICLE SAYS SO IN ONE PARAGRAPH: Washington (RCW 7.70.065, amended 2022) ranks a GUARDIAN ABOVE the health care agent; New York's FHCDA permits only ONE surrogate; California after its 2022 amendments has NO mandated hierarchy at all.** **That is the article's real finding: "next of kin" is not one list, and any source presenting it as one is describing a country that does not exist.**
+
+**SOURCING LABEL, PRINTED IN THE ARTICLE ITSELF AND NOT ONLY HERE: `statutes.capitol.texas.gov`, `www.americanbar.org` and `texas.public.law` all returned 000 against a control returning 200. Every source was read through a search index rather than opened at its own domain, and the article tells the reader so twice and tells them to verify the current statute.** **Twenty-eighth consecutive day with no source opened at its own domain.**
+**ONE SOURCE WAS DELIBERATELY DOWNGRADED IN THE ARTICLE: the ABA's broader overview of surrogate consent laws dates from 2014 and is named as too old to support any current ranking.** The 2023 Bifocal update is used instead.
+**THE PRODUCT PARAGRAPH ARGUES AGAINST ITSELF ON PURPOSE: "a stored sample is not a legal instrument and it does not create authority over anything."** $99 a year, billed annually, stated once.
+
+**NEXT TWO QUEUED.** **(1) "DNA testing without consent" (lane (d)), the second choice carried from 19 October, still unwritten.** **(2) "what is a health care proxy and how is it different from a power of attorney" (lane (c)), which this article creates demand for and does not answer: it tells the reader five times that naming an agent is the fix and never explains the document.** **Binding condition on (2): it must stay on the DOCUMENT and must not re-litigate the priority lists, or it is this article again.**
+**STILL BLOCKED: the *Life* 2026 16(10):1601 review (DOI 10.3390/life16101601), on an unreachable mdpi.com.**
