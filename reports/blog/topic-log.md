@@ -790,3 +790,29 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 
 **NEXT TWO QUEUED.** **(1) "DNA testing without consent" (lane (d)), the second choice carried from 19 October, still unwritten.** **(2) "what is a health care proxy and how is it different from a power of attorney" (lane (c)), which this article creates demand for and does not answer: it tells the reader five times that naming an agent is the fix and never explains the document.** **Binding condition on (2): it must stay on the DOCUMENT and must not re-litigate the priority lists, or it is this article again.**
 **STILL BLOCKED: the *Life* 2026 16(10):1601 review (DOI 10.3390/life16101601), on an unreachable mdpi.com.**
+
+### 2026-10-22 PUBLISHED: dna-testing-without-consent (lane (d), trust/custody)
+| Field | Value |
+| Slug | `dna-testing-without-consent` |
+| Title tag | Can Someone DNA Test You Without Your Consent? (**46 characters, MEASURED**) |
+| Meta description | **152 characters, MEASURED** |
+| Primary keyword | dna testing without consent |
+| Secondary | is it illegal to test someone's dna · genetic privacy laws by state · dna testing consent laws florida · test a relative's dna · secret paternity test legality · who can consent to a dna test |
+| Length | **1,478 prose words, MEASURED by program** (house method) |
+| FAQ | **6 questions, byte-identical between body and JSON-LD, verified programmatically** |
+| Internal links | who-inherits-your-dna-testing-account · police-access-consumer-dna · records-request-process |
+
+**THE QUEUED TOPIC FOR TODAY WAS KILLED BY GREP BEFORE ANY RESEARCH WAS SPENT, AND THAT IS THE RUN'S BEST RESULT.** Yesterday's run queued a health-care-proxy explainer as first choice. **`single-no-kids-legacy-planning` already carries H3 headings for the healthcare proxy, the durable power of attorney and the living will, explains proxy versus living will, and covers the default surrogate fallback. Substantially occupied.** **Killed at the grep, zero searches spent, and the article that ran instead was the queue's second item.** This is the 19 October procedure (grep before researching) paying for itself a third time.
+
+**ONE ADJACENCY DISCLOSED IN THE ARTICLE ITSELF: `genetic-privacy-laws` explains the express-consent duties that bind COMPANIES. This article is about a private person collecting somebody else's sample, which is a different actor and a different body of law.** The article states the distinction rather than relying on the reader to spot it.
+
+**THE SPINE IS A DISTINCTION MOST COVERAGE MISSES: consent to be TESTED is not consent to be DISCLOSED.** Florida bars disclosing or selling someone's genetic results without express consent **even when the sample was collected with consent**, and knowingly analysing another person's DNA without express consent is a **third-degree felony**.
+
+**THE SECOND HALF OF THE ARTICLE IS ABOUT WHO THE COMPANIES DECIDED SHOULD CARRY THE RISK, AND IT IS THE PART WITH NO STATUTE IN IT.** The consumer services require the SUBMITTER to represent they are authorised; one laboratory's terms disclaim responsibility for obtaining consent outright. **The representation is the customer's, so the exposure is too.**
+
+**SOURCING LABELS, PRINTED IN THE ARTICLE AND NOT ONLY HERE, AND THIS IS THE WEAKEST-SOURCED ARTICLE THIS LANE HAS PUBLISHED IN A FORTNIGHT.** `www.leg.state.fl.us`, `www.insideprivacy.com` and `www.ancestry.com` all returned 000 against a control at 200. **Twenty-ninth consecutive day with no source opened at its own domain.** **Three further limits are printed in the body rather than hidden: our result returned TWO different Florida section numbers and we could not determine which carries which rule; the 23andMe terms were read from a CANADIAN version; the Ancestry terms were read from a 2019 version.** **A Canadian forensic laboratory's terms are cited explicitly as an illustration of drafting practice and NOT as a statement about US law.** **The exceptions summary is labelled as coming from a low-authority commercial site and called a pointer rather than an authority.**
+
+**THE PRODUCT PARAGRAPH ARGUES AGAINST ITSELF AGAIN: "the consent question does not go away because a sample is stored rather than tested", followed by three questions the reader is told to ask any custodian including us.** $99 a year, billed annually, stated once, with "storage only: we do not test, analyse, interpret or sequence anything".
+
+**NEXT TWO QUEUED.** **(1) "What happens to your DNA sample if the company is acquired" (lane (d))**, the acquisition case as distinct from the shutdown case already covered by `what-happens-dna-company-shuts-down` and `data-ownership-after-acquisition`. **BINDING CONDITION: both of those must be re-read at BODY level first, and if either already explains the acquisition mechanics the topic dies rather than being softened.** **(2) "Video messages to descendants: what actually survives" (lane (c))**, Memory Vault territory, **with the binding condition that it must use VIDEO-message framing and must never drift into the retired letter-to-the-future lane.**
+**STILL BLOCKED: the *Life* 2026 16(10):1601 review (DOI 10.3390/life16101601), on an unreachable mdpi.com.**
