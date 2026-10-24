@@ -671,3 +671,18 @@
 **ONE PHOTOGRAPHER-LEVEL DISCLOSURE MADE RATHER THAN OMITTED: a different photo by `jiwon_kang` was refused on 17 October on banned-lane grounds (a wax seal on an envelope is letter imagery). That was a refusal of a SUBJECT, not of an account.**
 **TODAY'S CONCENTRATION STATISTIC APPEARS ON NEITHER CREATIVE, DELIBERATELY.** The Ad Copy Lab placed it on three Meta concepts this morning and the Content Factory script carries it. **A fourth and fifth asset on one figure in one day is saturation, not a theme.**
 **NINETEENTH ASKING: LOWER THE DAILY TARGET FROM 10 TO 4-6.** Evidence line: **8, 4, 0, 2, 4, 8, 3, 4.** **Eighth consecutive day under target, third running where the relief valve was exhausted before the run began.**
+
+### 2026-10-23: NO RUN
+**The Image Ad run scheduled for 18:09 UTC did not execute; twelve runs fired into an idle session between 22 October 18:09 and 24 October 04:02 (`reports/missed-runs-2026-10-24.md`).** **No concepts were drafted, so this date carries no entry and must not be counted as a zero-output day.** **Together with 22 October, twenty creatives were lost.**
+
+### 2026-10-24
+| Code | Headline | Visual hook | Photo |
+| `Ad_AskYourCustodianFourThings_211` | Ask your custodian these four things. | Wall of numbered wooden archive drawers, navy-tinted | `bljLnIUDl2Y` Stuart Jenkins (@stu_jenkins) |
+| `Ad_AskYourCustodianFourThings_211_9x16 (adaptation)` | same | same photo, re-laid out for 1080x1920 | same |
+| `Ad_SomeoneHasToWatchIt_212` | You can keep it yourself. Someone has to watch it. | Industrial racking of shrink-wrapped pallets receding into dark | `NQZbP9UHxoc` Xu Guo (@bitterguard) |
+| `Ad_SomeoneHasToWatchIt_212_9x16 (adaptation)` | same | same photo, re-laid out for 1080x1920 | same |
+
+**FOUR FINISHED, NOT TEN, AND SIX BACKLOG VERTICALS WERE DELIBERATELY NOT MANUFACTURED.** **Evidence line, ninth consecutive day under target: 8, 4, 0, 2, 4, 8, 3, 4, 4. Founder decision, twenty-first asking: lower the target from 10 to 4-6.**
+**211 is the first creative in this log that prints a question MySpawn currently fails** ("the certificate is the one we have not published yet"), matching the partial the same day's Deep Production episode scored against us on air. **Binding: rewrite that clause when the certificates are published, never quietly delete it.**
+**212 is the first creative built on the possession-versus-custody taxonomy from the 22 October competitor dive, and it replaces the "$99 a year beats $498 at your funeral" line that dive proved was not like-for-like.** The comparison is custody RISK, not cost, and the ad concedes both options can fail.
+**TWO PROCESS NOTES WORTH REUSING. (1) A legible drawer NUMBER was adjudicated as an index rather than as somebody's paperwork and accepted, against a same-day blocker written broadly. (2) Ad 212's scale was re-derived in BOTH directions per the 18 October rule and went UP past 1.00 to 1.34, the first time in this run series.**
