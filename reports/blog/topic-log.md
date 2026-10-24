@@ -816,3 +816,31 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 
 **NEXT TWO QUEUED.** **(1) "What happens to your DNA sample if the company is acquired" (lane (d))**, the acquisition case as distinct from the shutdown case already covered by `what-happens-dna-company-shuts-down` and `data-ownership-after-acquisition`. **BINDING CONDITION: both of those must be re-read at BODY level first, and if either already explains the acquisition mechanics the topic dies rather than being softened.** **(2) "Video messages to descendants: what actually survives" (lane (c))**, Memory Vault territory, **with the binding condition that it must use VIDEO-message framing and must never drift into the retired letter-to-the-future lane.**
 **STILL BLOCKED: the *Life* 2026 16(10):1601 review (DOI 10.3390/life16101601), on an unreachable mdpi.com.**
+
+### 2026-10-24 PUBLISHED: leaving-money-directly-to-grandchildren (lane (c), legacy planning)
+| Field | Value |
+| Slug | `leaving-money-directly-to-grandchildren` |
+| Title tag | Leaving Money Directly to Grandchildren: 2026 Rules (**51 characters, MEASURED**) |
+| Meta description | **137 characters, MEASURED** |
+| Primary keyword | leaving money directly to grandchildren |
+| Secondary | generation-skipping transfer tax 2026 · GST exemption 2026 · generation skipping trust · direct skip grandchild · predeceased parent exception · can I leave money to grandchildren instead of children |
+| Length | **1,799 prose words, MEASURED by program** (house method) |
+| FAQ | **6 questions, byte-identical between body and JSON-LD, verified programmatically** |
+| Internal links | what-to-leave-grandchildren · who-is-next-of-kin · time-capsule-unlock-dates · single-no-kids-legacy-planning |
+
+**BOTH QUEUED TOPICS WERE KILLED BY A BODY-LEVEL GREP BEFORE ANY RESEARCH WAS SPENT, and that is a first: the procedure has killed one topic three times, never two in one run.**
+**(1) "What happens to your DNA sample if the company is acquired" DIED on its own binding condition.** `data-ownership-after-acquisition.md` carries H2 headings "The clause that decides it", "What bankruptcy has that an acquisition does not" and "The genetic case, and why it was different". **That IS the acquisition mechanics. The condition said the topic dies rather than being softened, so it died.**
+**(2) "Video messages to descendants: what actually survives" DIED on adjacency the queue had not checked.** `video-message-18th-birthday.md` already carries "Format for the decades" (MP4/H.264, three copies in two places, revisit formats once a decade), a section titled "The delivery problem: where most messages die", and a FAQ answering the best long-term format. **"What actually survives" is substantially occupied by an article we published ourselves.**
+
+**REPLACEMENT FOUND BY GREP, NOT BY SEARCH: `generation-skipping`, `generation skipping`, `direct skip`, `skip person` and `custodial account` all return ZERO across `reports/blog/`.** The two incidental hits on `529` and `UTMA` are inside unrelated articles and are not topical coverage. **Lane rotation also favoured this: 21 and 22 October were both custody and legal-mechanics pieces, so this is lane (c).**
+
+**THE SPINE IS THAT THE TAX IS A NON-PROBLEM FOR ALMOST EVERY READER AND THE ARTICLE SAYS SO IN ITS OWN MIDDLE.** The GST exemption rose to about **$15 million per person for 2026** under the One Big Beautiful Bill Act signed 4 July 2025, the rate is a flat **40 percent**, and the annual gift exclusion is **$19,000** per recipient for 2026 per Rev. Proc. 2025-32. **The article then states plainly that at a $15m exemption none of this applies to a reader leaving a grandchild $20,000 and a box of photographs, and redirects them to the two sections that do.**
+
+**THE ONE PRIMARY-SOURCE SECTION IS THE PREDECEASED PARENT RULE,** IRC 2651(e), which promotes a grandchild out of skip-person status when their parent is already dead at the relevant time. **Two Treasury documents are cited at irs.gov URLs (TD 9214, 2005, and the 2004 proposed regulations), which is the best source quality this lane has had in a fortnight.** The timing trap (funding a trust before the child dies) is labelled practitioner commentary rather than authority.
+
+**SOURCING LIMITS, PRINTED IN THE BODY AND NOT ONLY HERE.** **Thirtieth consecutive day with no source opened at its own domain: `www.irs.gov`, `www.taxnotes.com`, `www.govinfo.gov` and `q3adv.com` all returned 000 against `images.unsplash.com` at 200 in the same loop.** The three 2026 figures come from law-firm and advisory commentary, not an IRS page we opened, **and the article tells the reader to confirm them against Form 709 instructions and Rev. Proc. 2025-32 before acting.** One guide found in the same search still prints the superseded pre-OBBBA figure of $13.9 million; it is not cited. **The Capital Group figures carry both standing labels (high-net-worth only, not a US-only sample) each of the two times they appear.** A closing disclaimer states the article is not legal or tax advice and that no source was opened at its own domain.
+
+**THE PRODUCT PARAGRAPH ARGUES AGAINST ITSELF FOR THE THIRD RUN RUNNING: "a stored sample is not an estate plan. It will not move an asset, satisfy a tax, name a beneficiary or skip a generation."** $99 a year, billed annually, stated once, with storage-only scope.
+
+**NEXT TWO QUEUED.** **(1) "What is a taxable termination and why does it arrive decades late" (lane (c))** , the trust-timing half this article names in one bullet and does not work through. **BINDING CONDITION: it must stay on TIMING and trustee discretion; if it re-explains the exemption or the 40 percent rate it is this article again.** **(2) "Does a power of attorney let someone access my DNA account" (lane (d))**. **BINDING CONDITION: `who-inherits-your-dna-testing-account` must be re-read at BODY level first, because an agent-versus-executor distinction may already be in it.**
+**STILL BLOCKED: the *Life* 2026 16(10):1601 review (DOI 10.3390/life16101601), on an unreachable mdpi.com.**
