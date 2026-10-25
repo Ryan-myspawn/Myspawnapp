@@ -630,3 +630,21 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **STILL PAIRED WITH CALENDAR: Google Calendar returned the identical refusal on 18 October. One re-authorisation pass should be attempted for both together.**
 **NO TRIAGE WAS PERFORMED. No thread was read, no sender was seen, no category was assigned, no draft was created, no label was touched, nothing was trashed or marked spam, and no digest was sent.** **Inbox state is UNKNOWN, which is not the same as clear.**
 **Fifty-six consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
+
+## 2026-10-25 (04:02 UTC) — DAY 58, AND THE FAILURE MODE CHANGED
+
+**NO TRIAGE WAS PERFORMED and the reason is NOT the usual one, which is why this entry is longer than a repeat deserves.**
+
+**WHAT HAPPENED, PRECISELY.** The run attempted to load `mcp__Gmail__search_threads` before calling it. **The tool could not be loaded: the lookup returned "No matching deferred tools found."** A broader search for Gmail inbox tools returned three results and **not one of them was a Gmail tool**; they were an Apollo mailbox-connection tool and two Zapier catalogue tools. **At the moment of this run the Gmail connector's tools were NOT IN THE CATALOGUE AT ALL.**
+
+**WHY THAT IS A DIFFERENT FINDING FROM THE PREVIOUS FIFTY-SEVEN.** On 21, 22 and 24 October the Gmail tools EXISTED and REFUSED, in the connector's own words: *"MCP server Gmail needs you to sign in again (run /mcp to re-authenticate)."* **A present-but-refusing tool proves the connector is reachable and unauthorised. A tool that is absent from the catalogue proves only that it was absent when we looked.** **These are not the same diagnosis and this log will not merge them.**
+
+**WHAT THIS DOES NOT MEAN, STATED BECAUSE THE TEMPTING READING IS WRONG.** It does NOT mean the connector was removed. Gmail appeared in the session's authentication-required list in the same window, **and this session has watched MCP servers disconnect and reconnect repeatedly all day.** **The most likely explanation is an ordinary connector flap, and the honest label is UNKNOWN rather than REMOVED.**
+
+**WHAT IS UNCHANGED AND STILL THE ACTIONABLE PART.** **This connector exposes NO SEND CAPABILITY in any state.** When its tools were loadable on 24 October the list held `create_draft`, `search_threads`, `get_thread`, label and trash tools, **and nothing that sends.** **`send_message`, which this trigger and seven others instruct the session to use, does not exist here.** **Re-authorising restores reading and drafting and will still not produce a sent digest.**
+
+**FOUNDER DECISION, RESTATED AS TWO QUESTIONS RATHER THAN ONE, because only the first is fixable by signing in.** **(1) Re-authorise Gmail, together with Google Calendar, which returned the identical refusal on 18 October.** **(2) Decide what "deliver the digest" should mean, given that a sent email is not available from this toolset: a daily DRAFT in your own account is the nearest thing this connector can do.**
+
+**NO TRIAGE WAS PERFORMED. No thread was read, no sender was seen, no category was assigned, no draft was created, no label was touched, nothing was trashed or marked spam, and no digest was sent.** **Inbox state is UNKNOWN.** **Nothing is invented and no inbox is described.**
+
+**Fifty-eight consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
