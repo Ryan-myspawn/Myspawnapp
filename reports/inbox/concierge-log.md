@@ -631,7 +631,7 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NO TRIAGE WAS PERFORMED. No thread was read, no sender was seen, no category was assigned, no draft was created, no label was touched, nothing was trashed or marked spam, and no digest was sent.** **Inbox state is UNKNOWN, which is not the same as clear.**
 **Fifty-six consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
 
-## 2026-10-25 (04:02 UTC) — DAY 58, AND THE FAILURE MODE CHANGED
+## 2026-10-25 (04:02 UTC) : DAY 58, AND THE FAILURE MODE CHANGED
 
 **NO TRIAGE WAS PERFORMED and the reason is NOT the usual one, which is why this entry is longer than a repeat deserves.**
 
