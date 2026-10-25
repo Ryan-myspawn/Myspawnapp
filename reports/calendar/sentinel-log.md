@@ -325,3 +325,47 @@ On 20 September this log proposed keeping the Friday anchor and treating a Monda
 ## MOST IMPORTANT DATE IN THE NEXT 14 DAYS
 
 **Thursday 22 October: shoot "Presented At", or kill it. Four days away, and it is the one date in the fortnight that only this operation can miss.**
+
+## 2026-10-25 (weekly run)
+
+**NO CALENDAR WORK WAS DONE. The connector refused again, in its own words, and this is the SECOND consecutive weekly refusal.**
+
+**`list_events` for 25 October to 15 November returned: "MCP server Google_Calendar needs you to sign in again (run /mcp to re-authenticate)", after which the server disconnected.** **No events were listed, created, updated or deleted. Calendar state is UNKNOWN, which is not the same as empty, and nothing below is claimed as a record.**
+
+**ONE DIAGNOSTIC DETAIL WORTH ADDING, BECAUSE IT MATCHES A GMAIL FINDING AND IS THEREFORE A PATTERN RATHER THAN A QUIRK.** **Google Calendar was NOT in the session's authentication-required list before the call. It appeared there only AFTER the refusal.** **The Gmail lane recorded exactly this on 22 October: the pre-call listing is not a reliable indicator of connector health, and only the call itself is.** **Two connectors, two lanes, same behaviour. Treat the pre-call listing as advisory and always make the call.**
+
+**STILL PAIRED WITH GMAIL: Gmail is on day 58 and this connector's second consecutive weekly refusal is the same fault class. One re-authorisation pass should cover both.**
+
+## SCORING THE LAST RUN'S OWN PREDICTION, WHICH IS THE PART THIS LOG OWES
+
+**The 18 October run named Thursday 22 October as "the most important date in the next fourteen days" and said it was "the one date in the fortnight that only this operation can miss."**
+
+**It was missed.** **22 October passed with nothing shot, and the "Presented At" explainer was neither shot nor formally killed.** **It is now in limbo, which is the worst of the two available outcomes, because a killed asset frees a slot and an unshot one does not.**
+**The 24 October ASRM ad pull named in the same entry also passed unactioned: that day's Image Ad run shipped two concepts and neither was ASRM-related.**
+
+**THE HONEST READING: this log has now twice named a self-imposed date in advance, and the operation has twice let it pass.** **That is not a calendar problem. A calendar would not have changed it, and saying so is more useful than pretending the connector is the blocker here.**
+
+## WHAT THIS RUN WOULD HAVE DONE, recorded so it is one step rather than a re-derivation when access returns
+
+**Window checked: 25 October to 15 November 2026, 21 days, containing 15 weekdays, 3 Tuesdays (27 Oct, 3 Nov, 10 Nov) and 3 Fridays (30 Oct, 6 Nov, 13 Nov).**
+
+**DATED PEGS INSIDE THE WINDOW, in order:**
+1. **Monday 26 October: "[MySpawn] DECISION: explainer slot, ship or formally kill".** **NEW THIS WEEK and it is the most actionable item in the fortnight.** This afternoon's Deep Production pack declined the explainer for the second consecutive day and wrote a binding condition: a third consecutive decline is a pattern, so tomorrow must either ship an explainer or formally kill the slot and say the lane is exhausted. **It may not decline a third time on grounds of "nothing fresh".** **A self-imposed decision point with a date is exactly what this calendar is for.**
+2. **Wednesday 28 October: "[MySpawn] ASRM 2026 Congress closes, Baltimore".** The congress is running now. **The 24 October ad pull it was pegged to has already passed unactioned, so this is a closing marker rather than a prompt.**
+3. **Thursday 29 October: "[MySpawn] Photo reserve hold expires: p89q19F4EL4".** The single held entry in `reports/ads/photo-reserve.md` comes off hold. **Low stakes and worth one line, because the reserve has now gone SEVEN consecutive runs without a bank and its one asset should not expire unnoticed.**
+4. **Daily weekday "Shoot block", 11:00 IST, 45 minutes, 26 October to 13 November.** **The normal rule creates these only on days whose PM post plan lists assets to shoot. On current evidence that is EVERY weekday: the backlog is roughly thirty-two unshot scripts and grew by one today.**
+5. **Weekly anchors if missing: "Approve partner outreach" Tuesday evenings IST (27 Oct, 3 Nov, 10 Nov) and "Send newsletter" Friday mornings IST (30 Oct, 6 Nov, 13 Nov).** **The newsletter anchor is still worth creating even though the lane cannot send, because the queue is now FIVE issues deep and Issue 3 still carries a lead downgraded on 8 September.**
+
+**DATED PEGS OUTSIDE THE WINDOW, named so next week's run does not rediscover them:**
+- **Thursday 19 November: GTA 6 release. 25 days out, four days beyond this window.** **Next week's run will have it in range and should create it with a prep reminder 24 hours before.**
+- **Monday 7 December: CMS CLIA comment deadline. 43 days out.** **Longpost #156 has been named publish-first NINE times and has not gone out. This is the single most consequential date the operation holds, and it is not yet creatable under the 21-day rule.**
+
+**NO WATCHLIST PEGS ARE CREATABLE: Vitara still has no FDA IDE decision date and VIBRANT still has no readout date.** Both remain undated in `science-watchlist.md`, so neither can become an event.
+
+**NOTHING WAS CREATED, SO NOTHING IS CLAIMED. The list above is a plan, not a record.**
+
+**NO EMAIL: no send-capable Gmail tool exists in this connector in any state, and the Gmail connector's tools could not even be loaded this morning. Repository delivery only.**
+
+## MOST IMPORTANT DATE IN THE NEXT 14 DAYS
+
+**Monday 26 October: ship an explainer or formally kill the slot. One day away.** **It is the only date in the fortnight that this operation set for itself THIS WEEK, and the last two self-imposed dates both passed unactioned, which is the reason to name it rather than assume it.**
