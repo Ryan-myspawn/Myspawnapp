@@ -686,3 +686,15 @@
 **211 is the first creative in this log that prints a question MySpawn currently fails** ("the certificate is the one we have not published yet"), matching the partial the same day's Deep Production episode scored against us on air. **Binding: rewrite that clause when the certificates are published, never quietly delete it.**
 **212 is the first creative built on the possession-versus-custody taxonomy from the 22 October competitor dive, and it replaces the "$99 a year beats $498 at your funeral" line that dive proved was not like-for-like.** The comparison is custody RISK, not cost, and the ad concedes both options can fail.
 **TWO PROCESS NOTES WORTH REUSING. (1) A legible drawer NUMBER was adjudicated as an index rather than as somebody's paperwork and accepted, against a same-day blocker written broadly. (2) Ad 212's scale was re-derived in BOTH directions per the 18 October rule and went UP past 1.00 to 1.34, the first time in this run series.**
+
+### 2026-10-25
+| Code | Headline | Visual hook | Photo |
+| `Ad_WhatWeHaveDataFor_213` | What we have data for, and what we do not | Rendered wall meeting rough grey on a hard horizontal line | `qWJOS0TTlBw` MAURO BIGHIN (@mauro_bighin) |
+| `Ad_WhatWeHaveDataFor_213_9x16 (adaptation)` | same | same photo, re-laid out for 1080x1920 | same |
+| `Ad_ChildfreeIsNotABlankSpace_214` | Childfree is not a blank space. | Stacked split log ends, cut faces square to camera | `0UmrKpxzcJg` Michael Schreiber (@schreibmich) |
+| `Ad_ChildfreeIsNotABlankSpace_214_9x16 (adaptation)` | same | same photo, re-laid out for 1080x1920 | same |
+
+**FOUR FINISHED, NOT TEN, AND SIX BACKLOG VERTICALS WERE AGAIN DELIBERATELY NOT MANUFACTURED. Evidence line, TENTH consecutive day under target: 8, 4, 0, 2, 4, 8, 3, 4, 4, 4. Founder decision, twenty-second asking: lower the target from 10 to 4-6.**
+**214 CLEARS THE OLDEST ITEM IN THIS LANE'S QUEUE. The childfree direction was queued 21 October and never attempted on any run since; it carried a binding register condition, "orderly, never abandoned", and that condition FAILED the first render and forced a rebuild rather than being waved through.**
+**213 DEPARTS FROM ITS OWN BRIEF AND SAYS SO. The scripts brief specified a hard VERTICAL division; the shipped photograph divides HORIZONTALLY. The purpose was met, the instruction was not, and both halves of that are on the record.**
+**THREE PROCESS NOTES WORTH REUSING. (1) The scale rule went in BOTH directions on the SAME RUN for the first time: 213 down to brightness 0.52, the lowest yet, and 214 up to 1.15, the second consecutive run above 1.00. (2) The Unsplash API colour field reported #262626 for a frame that is plainly mid-tone warm brown; derive brightness from the frame you can see, and treat the API colour as a hint rather than a measurement. (3) A photograph was killed by TWO independent gates on TWO different grounds one day apart, adjacency here and legible mastheads on 24 October, which is the clearest evidence yet that the reserve file pays for itself.**
