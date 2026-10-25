@@ -586,3 +586,22 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
   **SECOND FIGURE FROM THE SAME STUDY, FLEET-ZERO AND ARGUABLY THE BETTER ONE: more than two thirds living with parents at 23, around three times the millennial rate a decade earlier, with the study also reporting that the vast majority still plan to have children.** **SO WHAT: the headline says young people are not having children; the study says they are having them later and still intend to.**
   **ONE DISAGREEMENT RECORDED AND NOT RESOLVED: a secondary source gives the millennial comparison as 24 percent by age 25 where UCL's own pages say one in four by 23.** **An age cutoff drifting two years between retellings is exactly the failure this fleet exists to catch.**
   **SOURCING LIMIT THAT BEARS ON THE FENCE ITSELF: thirty-third checked day with no source opened at its own domain. We are describing UCL's sample from search snippets of UCL's own pages. IF A FUTURE RUN CAN REACH `cls.ucl.ac.uk`, CONFIRM THE COHORT SIZE AND BIRTH YEARS FIRST, because those two numbers are doing all the fencing work.**
+
+## 2026-10-25 (23:1x UTC) OPEN QUESTION RAISED AGAINST OUR OWN MARKETING CLAIM
+
+**AMBIENT VERSUS FROZEN: we have been asserting more than we can currently source, and no run before tonight had checked.**
+
+**What the evening delta sweep surfaced, none of it news:**
+- **Cache DNA**, MIT spinout founded 2021 by **James Banal** and **Professor Mark Bathe**, stores DNA at room temperature in a polymer that sets to a glass-like solid. **MIT News, 12 September 2025, so thirteen months old.** MIT reported the process could store and recover all 50,000 base pairs of a human genome without damage.
+- **Cache's own product page labels its ambient-preservation reagent RESEARCH USE ONLY**, stated range 2C to 35C. **`research use only` was fleet-zero before tonight.**
+- **An independent 2013 protocol study called it "premature to advocate a transition to DNA storage at room temperature" and described dry storage as "an additional layer of security for FROZEN samples" rather than a replacement.**
+- A separate evaluation of the DNAstable product reported protection "similar to" traditional -20C freezing.
+- A Stanford room-temperature pilot document estimates **923,000 addressable samples** on that campus. **The sweep could NOT confirm the reported Euan Ashley link to Cache DNA, and that association is recorded as UNVERIFIED and must not be repeated.**
+
+**WHY THIS MATTERS TO US, STATED AGAINST INTEREST: MySpawn sells ambient storage, and the oldest independent source here treats ambient as a supplement to frozen rather than a substitute.** The caution is thirteen years old and the 2025 chemistry is clearly better, so this is NOT evidence that ambient is wrong. **It is evidence that "ambient is simply fine" is a stronger sentence than our sourcing supports.**
+
+**BINDING UNTIL RESOLVED: no asset may claim or imply that ambient storage is equivalent to, or better than, frozen storage for long-term viability.** Assets may state what is documented: that ambient removes the power and cold-chain failure mode, and that the facility is accredited. **The 25 October evening evergreen "The Power Cut" was written to this fence deliberately and rests on custody rather than on temperature.**
+
+**NAMED NEXT STEP, so this does not become another item that recirculates for eight days: find and read the primary stability literature for ambient DNA storage at 20-plus years, and establish what GenVault's own validation data says.** **The second half of that is answerable by asking GenVault and is a founder action, not a search.** **It also connects to the unpublished-certificates item: two shipped assets now commit us to publishing accreditation documentation we have not published.**
+
+**NOTE ON THE SOURCING LIMIT, THIRTY-THIRD CHECKED DAY: every item above comes from search snippets, not from documents opened at their own domains.** The MIT News date is the single most load-bearing fact here, because it is what makes this evidence rather than news, and it should be confirmed directly before any external use.
