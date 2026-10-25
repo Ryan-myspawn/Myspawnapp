@@ -844,3 +844,28 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 
 **NEXT TWO QUEUED.** **(1) "What is a taxable termination and why does it arrive decades late" (lane (c))** , the trust-timing half this article names in one bullet and does not work through. **BINDING CONDITION: it must stay on TIMING and trustee discretion; if it re-explains the exemption or the 40 percent rate it is this article again.** **(2) "Does a power of attorney let someone access my DNA account" (lane (d))**. **BINDING CONDITION: `who-inherits-your-dna-testing-account` must be re-read at BODY level first, because an agent-versus-executor distinction may already be in it.**
 **STILL BLOCKED: the *Life* 2026 16(10):1601 review (DOI 10.3390/life16101601), on an unreachable mdpi.com.**
+
+### 2026-10-25 PUBLISHED: power-of-attorney-dna-account (lane (d), trust/custody)
+| Field | Value |
+| Slug | `power-of-attorney-dna-account` |
+| Title tag | Can Power of Attorney Access Your DNA Account? (**46 characters, MEASURED**) |
+| Meta description | **143 characters, MEASURED** |
+| Primary keyword | power of attorney dna account |
+| Secondary | can power of attorney access online accounts · RUFADAA agent authority · digital assets power of attorney clause · catalogue versus content electronic communications · agent versus executor digital assets · dna account access incapacity |
+| Length | **1,394 prose words, MEASURED by program** (house method) |
+| FAQ | **6 questions, byte-identical between body and JSON-LD, verified programmatically** |
+| Internal links | who-inherits-your-dna-testing-account · digital-legacy-what-happens · genetic-privacy-laws · single-no-kids-legacy-planning |
+
+**THE QUEUED BINDING CONDITION WAS MET AND THE TOPIC SURVIVED IT, which is the first survival after two consecutive kills.** The condition was to re-read `who-inherits-your-dna-testing-account` at BODY level before writing. **Done: that article is entirely about death (legacy contacts, digital executors, matches afterwards), carries ONE incidental mention of login credentials, and says nothing about an agent acting while the principal is alive.** `attorney-in-fact` and `Stored Communications` both return ZERO across `reports/blog/`.
+**A SECOND ADJACENCY WAS CHECKED UNPROMPTED AND IS DISCLOSED IN THE ARTICLE ITSELF: `digital-legacy-what-happens` already explains RUFADAA's three-tier hierarchy.** **So this article refuses to re-explain it, spends one paragraph pointing at it, and stays on the one question that guide does not answer: what an AGENT gets while you are alive.** **Lane rotation also fits: 24 October was lane (c).**
+
+**THE SPINE IS A DISTINCTION AND A DISAGREEMENT.** The distinction: an agent acts while you are alive and their authority ENDS at death, where an executor's begins. **The gap is incapacity, where the executor has no authority because you are not dead.** The disagreement: on whether a general grant reaches the CATALOGUE, **a Pennsylvania firm's write-up says yes (20 Pa.C.S. 3909) and a Connecticut guide says no (45a-334j).** **Both are reported, neither is resolved, and the article says plainly that state variants are exactly where a model act stops being uniform.**
+
+**THE BEST ORIGINAL POINT IS NOT LEGAL: on a DNA account almost everything of value sits on the CONTENT side of the line, so an agent who wins the catalogue tier gets a date and a subject line and nothing a family would want.** **Plus the practical wall: consumer DNA companies recognise a product setting, not a fiduciary, so a statutory entitlement meets a support queue with no process for it.**
+
+**SOURCING LIMITS, PRINTED IN THE BODY.** **Thirty-second checked day with no source opened at its own domain: `www.jdjlaw.com`, `www.braverman-law.com`, `lawyermarc.com` and `settledestate.com` all returned 000 against `images.unsplash.com` at 200 in the same loop.** **Every source is a SECONDARY description of an enacted state variant and the article says so.** The California 2025 amendment reference (sections 879.1 and 879.2) is labelled a pointer to check rather than a statement of law. A closing disclaimer states the article is not legal advice and that no source was opened at source.
+
+**THE PRODUCT PARAGRAPH ARGUES AGAINST ITSELF FOR THE FOURTH RUN RUNNING, and this one is the bluntest yet: "naming us does not name an agent, and a stored sample is not a power of attorney... the document is the thing that does the work here. We are not it."** $99 a year, billed annually, stated once, with storage-only scope.
+
+**NEXT TWO QUEUED.** **(1) "What is a taxable termination and why does it arrive decades late" (lane (c))**, carried from yesterday unused. **BINDING CONDITION UNCHANGED: it must stay on TIMING and trustee discretion; if it re-explains the GST exemption or the 40 percent rate it is the 24 October article again.** **(2) "What a biorepository custody agreement should say" (lane (d))**, created by this article's own closing section, which tells the reader to read that agreement with suspicion and does not say what to look for. **BINDING CONDITION: `biobank-accreditation-explained` and `what-happens-dna-sample-if-i-cancel` must both be re-read at BODY level first; if either already lists the terms, the topic dies rather than being softened.**
+**STILL BLOCKED: the *Life* 2026 16(10):1601 review (DOI 10.3390/life16101601), on an unreachable mdpi.com.**
