@@ -648,3 +648,28 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NO TRIAGE WAS PERFORMED. No thread was read, no sender was seen, no category was assigned, no draft was created, no label was touched, nothing was trashed or marked spam, and no digest was sent.** **Inbox state is UNKNOWN.** **Nothing is invented and no inbox is described.**
 
 **Fifty-eight consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
+
+## 2026-10-26 (04:02 UTC) DAY 59
+
+**A NEW FAILURE CLASS, AND IT IS THE MOST INFORMATIVE ONE YET. The tools loaded, a READ was attempted, and the connector refused the read.**
+
+**WHAT HAPPENED, PRECISELY, IN ORDER.**
+1. **The Gmail tools WERE in the catalogue this morning.** `search_threads`, `get_thread`, `create_draft`, the label tools and the trash tools all loaded normally. **This is the opposite of yesterday, when they could not be loaded at all.**
+2. **`send_message` WAS STILL ABSENT from the loaded list.** Twenty-three Gmail tools were available and not one of them sends.
+3. **`search_threads` was called with `newer_than:1d in:inbox`.** The connector answered: **"MCP server Gmail needs you to sign in again (run /mcp to re-authenticate)."**
+4. **Gmail then DISCONNECTED and moved into the session's authentication-required list.**
+
+**WHY THIS IS A THIRD DISTINCT DIAGNOSIS AND NOT A REPEAT OF EITHER EARLIER ONE.**
+- **21, 22, 24 October: tools present, refusal on SEND.** The connector was reachable; only the sending capability was unavailable, and it was unavailable because it does not exist.
+- **25 October: tools ABSENT from the catalogue.** Logged as UNKNOWN, most likely a flap. That label was correct and today confirms it: the tools came back.
+- **26 OCTOBER: tools present, refusal on a READ.** **This is the first time the connector has refused to let this session READ.** Until today, every refusal was about sending. **The connector is now unusable for triage, not merely unusable for delivery.**
+
+**THE "APPEARS ONLY AFTER THE CALL" BEHAVIOUR IS NOW A PATTERN, NOT AN ODDITY. This is the THIRD observation and the second connector.** Gmail was NOT in the authentication-required list when this run began; it appeared there only after the call failed. **The same sequence was recorded for Gmail on 22 October and for Google Calendar on 25 October.** **CONSEQUENCE FOR EVERY LANE IN THIS FLEET: the pre-call authentication list cannot be trusted to predict whether a connector will work. A connector's absence from that list is not evidence that it is authorised.** **The only reliable test is the call itself, and lanes should stop treating a clean pre-call list as a green light.**
+
+**WHAT IS UNCHANGED AND IS STILL THE ACTIONABLE PART.** **Re-authorising Gmail restores READING and DRAFTING. It will not produce a sent digest, because this connector exposes no send capability in any state.** Today's load confirmed that again at first hand: twenty-three tools, none that sends.
+
+**FOUNDER DECISION, STILL TWO QUESTIONS, NOW WITH THE FIRST ONE MORE URGENT THAN IT WAS YESTERDAY.** **(1) Re-authorise Gmail via claude.ai connector settings, together with Google Calendar. Until that happens this lane cannot read the inbox at all, which is a larger failure than not being able to send.** **(2) Decide what "deliver the digest" should mean, given that a sent email is not available from this toolset. A daily DRAFT in your own account is the nearest thing this connector can do.**
+
+**NO TRIAGE WAS PERFORMED. No thread was read, no sender was seen, no category was assigned, no draft was created, no label was touched, nothing was trashed or marked spam, and no digest was sent.** **Inbox state is UNKNOWN.** **Nothing is invented and no inbox is described.**
+
+**Fifty-nine consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
