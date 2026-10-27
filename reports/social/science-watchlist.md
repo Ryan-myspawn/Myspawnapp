@@ -605,3 +605,19 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 **NAMED NEXT STEP, so this does not become another item that recirculates for eight days: find and read the primary stability literature for ambient DNA storage at 20-plus years, and establish what GenVault's own validation data says.** **The second half of that is answerable by asking GenVault and is a founder action, not a search.** **It also connects to the unpublished-certificates item: two shipped assets now commit us to publishing accreditation documentation we have not published.**
 
 **NOTE ON THE SOURCING LIMIT, THIRTY-THIRD CHECKED DAY: every item above comes from search snippets, not from documents opened at their own domains.** The MIT News date is the single most load-bearing fact here, because it is what makes this evidence rather than news, and it should be confirmed directly before any external use.
+
+## 2026-10-27 GAMETO / FERTILO: NO DELTA, BUT THE ITEM HAS CROSSED INTO ITS OWN WINDOW
+
+**NOT A NEW FACT. A CHANGED CALENDAR.** The watchlist has carried, since before this run, that **Gameto's US Phase 3 trial of Fertilo expects an INTERIM READOUT in LATE 2026**. **It is 27 October 2026. "Late 2026" is now.**
+
+**SO WHAT: this is the most likely source of a genuine 24-hour news hook in this lane between now and year end**, in a stretch where six consecutive radars have declared no external hook exists. **The first run to catch the readout gets a real peg instead of a declared absence.** **STANDING INSTRUCTION FOR EVERY RADAR FROM TODAY: check for a Gameto Fertilo Phase 3 interim result before declaring Science Watch empty.**
+
+**A PRECISION FENCE THAT MUST TRAVEL WITH ANY COVERAGE, BINDING.** **Fertilo is EX VIVO MATURATION of a patient's OWN immature oocytes using stem-cell-derived support cells. It is NOT in vitro gametogenesis.** **The standing accuracy line is separate and unchanged: IVG has produced NO mature human gametes.** **An asset that reports a Fertilo readout as an IVG result will be wrong in a way that looks authoritative, and this fence exists to stop that.**
+
+**FOUR DETAILS BANKED AS BACKFILL, EXPLICITLY NOT AS NEWS.** All four were fleet-zero before today and **none of them changed in the last 48 hours**; they are gaps in our file rather than events in the world, and a radar that reported them as a delta would be inflating a quiet day.
+- **$44M Series C led by Overwater Ventures, August 2025**, bringing total raised to about **$127M**. (`Overwater` and `127 million` were both fleet-zero.)
+- Regulatory clearance in several countries including **Peru, Mexico, Australia, Japan, India and Singapore**.
+- **Ameno**, a menopause programme supported by ARPA-H funding. (`Ameno` fleet-zero.)
+- **Deovo**, an in vitro organoid model of the female reproductive system for drug discovery and testing. (`Deovo` fleet-zero.)
+
+**SOURCING LIMIT: all of the above comes from search snippets of trade press and company coverage, on the thirty-fifth consecutive checked day with no source opened at its own domain.** **The readout date is the load-bearing fact here, and it should be confirmed against ClinicalTrials.gov (NCT06858111) or Gameto's own releases before any asset is built on it.**
