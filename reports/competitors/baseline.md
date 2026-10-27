@@ -1106,3 +1106,29 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 - **Rotation: Herasight CLOSED. Next quiet-day dive: StoryWorth**, queued since the Orchid dive and never run; pricing CONTESTED and the August 2026 "Family Newsletters" launch unpriced.
 - **Orchid funding: a stale conflict recorded and NOT adopted.** $12M in one product write-up against $16.5M in a database profile. Neither dated to window; `16.5` was absent from this file before today.
 - **Nucleus: the Southern California Reproductive Center IVF+ item (27 May 2026) and the Bloomberg India / Middle East expansion (March 2026) were rediscovered by the sweep and are ALREADY ON FILE.** Not deltas.
+
+- **2026-10-27: QUIET SWEEP, and NO WATCH FILE WRITTEN, which is a decision rather than an omission.** **NO DATED EVENT in the 24-48 hour window** for SecuriGene/DNA Memorial, CellSave, Acorn Biolabs, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus, Herasight, HereAfter, StoryWorth or Empathy. **The sweep returned nothing at all on SecuriGene, Alcor and HereAfter AI, recorded rather than silently omitted.** Acorn returned only its 2024 Series A (about CAD 11M, roughly US$8M, led by Merz Aesthetics, close dated 29 May 2024) and the 2019-era $3.3M seed, both already on file and neither in window. **The brief routes the quiet-day bonus dive to THIS file and says to skip the watch file; that is what this run did rather than writing a file to look busy.**
+
+### 2026-10-27 deep-dive: STORYWORTH (marketing and pricing snapshot). ROTATION ITEM CLEARED AFTER BEING QUEUED SINCE THE ORCHID DIVE.
+
+**THE HEADLINE IS THAT A CONTESTED ENTRY IS NOW RESOLVED.** This file has carried StoryWorth's pricing as **CONTESTED** for weeks. It is no longer.
+
+**TIERS, first year, consistent across most 2026 sources:** **Basic $59**, **Color $109**, **Unlimited $199**.
+**BOOKS INCLUDED:** Basic and Color each include **one hardcover**; Unlimited includes **two**. Basic is black-and-white with a colour cover and allows up to **480 pages**; Color is full colour and caps at **300 pages**.
+**EXTRA COPIES:** **$39** black-and-white, **$79** colour up to 300 pages, **$99** colour above 300 pages. One source adds **$20 more at printing** to take a colour book from 300 to 480 pages.
+**SHIPPING:** included book ships printed in the USA with free economy shipping inside the US; noticeable shipping cost outside it.
+
+**THE RENEWAL STRUCTURE IS THE PART THAT MATTERS AND IT IS NOT WHAT THE TIER PRICES SUGGEST.** **Only the Unlimited plan auto-renews, and it renews at $99 A YEAR.** **The $59 Basic and $109 Color plans are one-time annual purchases that do NOT auto-renew.**
+
+**SO WHAT FOR MYSPAWN, STATED CAREFULLY BECAUSE THE OBVIOUS VERSION IS WRONG.** **StoryWorth's auto-renewing tier is $99 a year. That is our price, to the dollar, in an adjacent legacy-tech category.** **This is NOT a competitive threat and they are NOT a substitute: a question-and-book service and a biorepository storage contract are different products solving different problems, and any asset implying otherwise would be dishonest.** **What it IS, is a PRICE ANCHOR.** A $99 annual recurring charge is an established, accepted price point in the legacy category, held by a company with far more consumer awareness than us. **That supports our pricing rather than pressuring it, and it is the first external evidence this file has produced for that.**
+
+**BINDING ON ANY ASSET THAT USES THIS: the comparison is a price ANCHOR, never a product comparison, and the standing pricing rule applies unchanged.** **Both figures are ANNUAL and RECURRING, so no asset may frame this as our-annual-against-their-one-time or the reverse.** **Note also that StoryWorth's $59 and $109 tiers are genuinely non-renewing, so a careless version of this comparison could get the direction of the recurring/one-off distinction backwards.**
+
+**ONE TACTIC WORTH COUNTERING, AND IT IS THE EXACT OPPOSITE OF THE HERASIGHT FINDING.** Sources report that the **buy buttons and the plan cards on StoryWorth's own pricing page disagree**: $59 and $109 on the buttons against **$69 and $99** on the cards. **Where Herasight publishes no price at all, StoryWorth publishes two different ones on the same page.** **Both failures do the same thing to a buyer: they make the real number something you can only discover by committing.** **COUNTER: our own price appears once, in one place, and the 26 October ad "A price you can negotiate is not a price" is already built on exactly this argument. This dive is the second independent example supporting it.**
+
+**SOURCING LIMIT: all of the above is from third-party review and comparison sites, several of which are competitors to StoryWorth and therefore not disinterested.** **Nothing was opened at storyworth.com itself, on the thirty-fifth consecutive checked day with no source opened at its own domain.** **The tier prices are consistent across most carriers, which is why the entry moves from CONTESTED to RESOLVED; the $69/$99 card figures come from a single carrier and are recorded as a reported inconsistency rather than as a second price list.**
+
+**The August 2026 "Family Newsletters" launch remains UNPRICED: none of today's sources attach a cost to it.**
+
+**ROTATION: StoryWorth CLOSED. Next quiet-day dive: EMPATHY**, which has never been dived and returned nothing at all in today's sweep.
+**THE NUCLEUS WHITEPAPER NEXT STEP IS UNCHANGED AND UNMET for the FOURTH consecutive run:** fetch `mynucleus.com/labs/traits-whitepaper` and record the within-family figures and the five-embryo spread in the document's own words with its own date. **Blocked on page access, not on effort, and every number in that entry stays labelled secondary until it is read.**
