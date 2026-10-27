@@ -902,3 +902,28 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 **The ambient-versus-frozen fence set last night was respected: the article makes no storage-superiority claim of any kind.**
 
 **NEXT TWO QUEUED.** **(1) "How long does probate actually take" (lane c, from rank tracker)**, which also rotates out of (d) as required. **BINDING CONDITION UNCHANGED: it must give ranges and the variables that move them; if it becomes another what-is-probate explainer it is already owned.** **(2) "Transfer on death: what it does and does not move" (lane c, from rank tracker).** **BINDING CONDITION UNCHANGED: `small estate affidavit` is owned by FOUR articles and sits directly adjacent. Body-read two of them first; if the transfer-on-death mechanism is already explained inside one, this dies.**
+
+## 2026-10-27: `how-long-does-probate-take` (lane c, legacy/estate planning)
+
+**Primary keyword:** how long does probate take. **Secondaries:** probate timeline, creditor claim period, probate by state, ancillary probate, contested will timeline, small estate timeline.
+**1,455 prose words MEASURED. Title 36 chars. Meta 146 chars. FAQ 6/6 BYTE-IDENTICAL to the JSON-LD, verified programmatically, and the JSON block was parsed rather than eyeballed. All gates passed on the FIRST measure, which has not happened since 25 October.**
+
+**THE ROTATION BINDING FROM YESTERDAY IS MET: this is lane (c), out of the two consecutive lane (d) articles.** Both queued topics were lane (c), so the rotation cost nothing.
+
+**THE TOPIC'S BINDING CONDITION WAS MET AND IS WORTH RESTATING: "it must give ranges and the variables that move them; if it becomes another what-is-probate explainer it is already owned."** The article never defines probate. **It opens on the ranges, spends four sections on the variables, and its spine is that the published ranges CONTRADICT EACH OTHER.**
+
+**THE NEAREST COLLIDER WAS BODY-READ BEFORE DRAFTING, NOT ASSUMED SAFE.** `small-estate-affidavit-vs-probate` has a section titled "The waiting period is where plans break", which sounds fatal to this topic. **It is not: that section covers the waiting period BEFORE an affidavit may be used (California 40 days, Texas 30 days), which is the affidavit's precondition rather than the duration of a full probate.** **Two different clocks, and the distinction is what let this topic survive.**
+
+**THE ANGLE CAME OUT OF THE RESEARCH RATHER THAN BEING BROUGHT TO IT, and that is the most reusable thing here.** The sweep returned nine guides whose figures disagree: national averages of about 16 months, about 20 months, and 6 to 12 months; **and FLORIDA listed at 6-12 months in some sources and 9-18 in others, a nine-month gap on one state.** **Rather than averaging them into a false consensus, the article prints the conflict and says why: almost every source in this category is a marketing blog for a probate service, not a court statistics office.**
+
+**FOUR EPISTEMIC DISCLOSURES, TWO OF THEM AGAINST THE ARTICLE'S OWN USEFULNESS.**
+**(1) A CITATION CAUGHT AND REFUSED. A source attributes California's four-month creditor rule to Probate Code section 19100. That section governs claims against TRUSTS, not against a decedent's estate in probate.** The article states the rule, flags that the pinpoint section is NOT vouched for, and tells anyone citing us not to repeat it. **This is the second date-or-citation trap caught in two days, after the closed-consultation tense trap on 26 October.**
+**(2) NEW YORK REPORTED UNRESOLVED: seven months from issuance of letters against six months from publication, different clocks from different events, one source an AI-generated answer site. Not averaged.**
+**(3) TEXAS AND FLORIDA creditor windows: NOT FOUND, stated as a gap rather than filled with a plausible number.**
+**(4) THE WHOLE TABLE IS LABELLED as marketing content and the article tells the reader it is not a substitute for a state court or an attorney.**
+
+**ONE FACT WAS DELIBERATELY LEFT OUT: the federal estate tax return's nine-month deadline.** It is a genuine timeline driver and it was NOT verified in this run's research. **Asserting it from memory would have been the exact failure this article is about.**
+
+**THE PRODUCT SECTION CONCEDES AND NARROWS, sixth run running.** "Probate timing is not a problem we fix" and "we are not going to pretend that storing one shortens anything." **The only benefit claimed is that a sample held under contract sits outside the estate clock, and it is explicitly called narrow.** $99 a year, billed annually, storage-only scope.
+
+**NEXT TWO QUEUED.** **(1) "Transfer on death: what it does and does not move" (lane c, from rank tracker).** **BINDING CONDITION UNCHANGED: `small estate affidavit` is owned by FOUR articles and sits directly adjacent. Body-read two of them first; if the transfer-on-death mechanism is already explained inside one, this dies.** **(2) "Biobank consent" follow-up is NOT queued: it shipped yesterday. The rank tracker's remaining picks are `ancillary probate`, now partly spent by today's variable three, and that partial spend should be checked before it is drafted.**
