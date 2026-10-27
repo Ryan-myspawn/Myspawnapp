@@ -673,3 +673,19 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NO TRIAGE WAS PERFORMED. No thread was read, no sender was seen, no category was assigned, no draft was created, no label was touched, nothing was trashed or marked spam, and no digest was sent.** **Inbox state is UNKNOWN.** **Nothing is invented and no inbox is described.**
 
 **Fifty-nine consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
+
+## 2026-10-27 (04:02 UTC) DAY 60
+
+**SAME FAILURE CLASS AS YESTERDAY, AND THE REPEAT IS THE FINDING. Short entry by design: yesterday's was long because the class was new, and padding a reproduction would make a stable fault look like a fresh one.**
+
+**Identical sequence, verified step by step.** The twenty-three Gmail tools loaded normally, `send_message` was again absent from them, `search_threads` was called with `newer_than:1d in:inbox`, and the connector answered **"MCP server Gmail needs you to sign in again (run /mcp to re-authenticate)"** before disconnecting into the authentication-required list.
+
+**WHAT YESTERDAY COULD NOT ESTABLISH AND TODAY DOES: the read refusal REPRODUCES.** On 26 October it was a single observation and could have been a flap, which is why it was labelled a new class rather than a new state. **Two consecutive days of the same refusal on the same call makes it a STABLE STATE.** **The connector is reliably unusable for triage, not intermittently.**
+
+**FOURTH OBSERVATION of the appears-only-after-the-call pattern**, across two connectors (Gmail 22 and 26 October, Calendar 25 October, Gmail today). **Gmail was absent from the authentication-required list when this run began and appeared there only after the call failed.** The fleet-wide consequence recorded yesterday stands and is reinforced: **the pre-call list cannot predict whether a connector works, and the call is the only test.** This lane has now run that test twice and got the same answer twice.
+
+**NOTHING ELSE IS NEW. The actionable item is unchanged: re-authorising restores reading and drafting and will not produce a sent digest, because this connector exposes no send capability in any state.**
+
+**NO TRIAGE WAS PERFORMED. No thread read, no sender seen, no category assigned, no draft created, no label touched, nothing trashed or marked spam, no digest sent.** **Inbox state is UNKNOWN and no inbox is described.**
+
+**Sixty consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
