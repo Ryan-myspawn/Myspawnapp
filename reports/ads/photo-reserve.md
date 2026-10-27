@@ -20,6 +20,11 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | 31-pOduwZGE | Long-exposure crosswalk crowd, no identifiable faces | mauro mora (@mauromora) | https://unsplash.com/photos/timelapse-photo-of-people-passing-the-street-31-pOduwZGE | https://images.unsplash.com/photo-1461088945293-0c17689e48ac | 5016x3343 |
 
 
+| Y2p9vFdGCIA | **ALT-TEXT LEVEL ONLY, not opened:** "Bare trees and yellow barrier at night". Dark base (#262626), square 4000x4000. Night-barrier register; verify the barrier carries no legible sign before use | jerry chen (@jerry_chen_) | https://unsplash.com/photos/Y2p9vFdGCIA | https://images.unsplash.com/photo-1775178120095-305710ceac50 | 4000x4000 |
+| ApOEpxd86Us | **ALT-TEXT LEVEL ONLY, not opened:** "Floating logs connected in a line on water", a log boom. Designed restraint, calm, navy base (#264059). **HOLD until 1 November: the split-log family ran as Ad_213 on 25 October** | Di Chen (@dichen_cd) | https://unsplash.com/photos/ApOEpxd86Us | https://images.unsplash.com/photo-1762776332145-586f25fd2113 | 3825x4017 |
+| tRrIXmtOmL4 | **ALT-TEXT LEVEL ONLY, not opened:** "A brushed metal surface with fine vertical lines and a diagonal light reflection". Material surface, no subject. **Weak on its own: it decorates rather than earns, so pair it only with a concept about SURFACE** | apryan widodo (@apryan_cahyo) | https://unsplash.com/photos/tRrIXmtOmL4 | https://images.unsplash.com/photo-1667892702884-faa077e80d7b | 3024x3024 |
+| aktSS0loNEA | **ALT-TEXT LEVEL ONLY, not opened:** "Black and white view of jagged volcanic rocks in shallow tide pools". Very dark (#262626), square 4000x4000. Geological-time register | Sven Kriegel (@svenkriegel) | https://unsplash.com/photos/aktSS0loNEA | https://images.unsplash.com/photo-1791739567252-0ab5452a2635 | 4000x4000 |
+
 ## UNVETTED (from Aug 27 search catalog: alt text only, verify pixels before use)
 | ID | Alt text | Photographer | Raw URL | WxH |
 |---|---|---|---|---|
@@ -610,3 +615,6 @@ These were verified available this run and deliberately not used, because **none
 - **2026-10-26: ONE QUERY RECORDED AS FAILED so it is not retried blind. `rebar grid`, squarish, content_filter high, per_page 5: ZERO results.** **That is the THIRD total-zero return in two days, after `empty parking lot dusk` and `numbered lockers row` on 25 October.** **All three are two or three word compound-noun subjects. The pattern is now specific enough to act on: a compound technical noun returns nothing, while a single common noun (`scaffolding`, 203 results) returns plenty. Prefer ONE common word.**
 - **2026-10-26: A REJECTION GROUND THAT IS NEW TO THIS FILE AND SHOULD BE STANDING. `bCPwAe2FQ-8` (Andrijana Bozic, "letter") was rejected not for anything in the frame but because a LETTER as hero image re-opens the RETIRED letter-to-the-future lane visually, with no copy required.** **RECOMMENDED STANDING BLOCKER: no hero image whose subject is a handwritten or posted letter, for as long as that lane stays retired.**
 - **2026-10-26: THE CROP-SAVE RULE RESTATED BECAUSE IT HAS NOW WORKED TWICE. `bxYR-CkJ1Ps` was rejected at the thumbnail for a legible handwritten note and recovered by cropping the note out, exactly as `NQZbP9UHxoc` was recovered on 24 October.** **The gate's question is whether a SHIPPABLE FRAME exists inside the photograph, not whether the whole photograph is clean.**
+
+- 7QPx5t6uWVk: CONSUMED 2026-10-27 as Ad_NobodyWarnedYou_217 (raised bascule bridge). Shipped as a 3000x3000 crop at (358,0); the full frame's bottom band is barred for signs, distant figures and a locally identifiable roofline.
+- zK8qOTNDELo: DO NOT USE. Rideau Canal, Ottawa: locally identifiable non-US setting, declined 2026-10-27.
