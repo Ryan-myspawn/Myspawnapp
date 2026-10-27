@@ -53,3 +53,11 @@ Four candidates banked at ALT-TEXT LEVEL ONLY, labelled as such in `photo-reserv
 
 **TWO FINISHED, NOT TEN. Evidence line, TWELFTH consecutive day under target: 4, 0, 2, 4, 8, 3, 4, 4, 4, 4, 4, 2.** **Founder decision, twenty-fourth asking: lower the daily target from 10 to 4-6.**
 **Backlog verticals were again NOT manufactured to make up the number.** Today's shortfall is one new concept rather than one, and padding it with re-cuts of proven ads would have reported a volume this run did not earn.
+
+# DELIVERY
+
+**Repository: pushed to `claude/trend-radar`. Two HTML masters and two JPEGs, 340,519 and 561,544 bytes, both well under the 950KB mirror ceiling. Zero PNG files committed, as the mirror-safe rule requires.**
+
+**Drive mirror: CLEAN NEGATIVE, eighth consecutive.** A `fullText contains` query for the ad code returned zero matches minutes after the push. **A rename re-trigger was deliberately NOT fired: it would change the delivery filename for a mirror that has shown no sign of listening for eight runs, which is churn rather than recovery. Fourteenth asking: is the n8n mirror running?**
+
+**Email: NOT SENT. Gmail refused again, this time on drafting, and the connector dropped on the call.** The identical failure has now been reproduced THREE times across two days, which moves it past "stable state" to entrenched. **`send_message` has never existed in any state of this connector; re-authorising restores reading and drafting only.** The email that would have gone out is reproduced in this document's content above. **Re-authorising Gmail and Calendar remains the top unanswered founder decision, and it now blocks reads, drafts and sends alike.**
