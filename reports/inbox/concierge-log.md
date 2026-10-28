@@ -689,3 +689,19 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NO TRIAGE WAS PERFORMED. No thread read, no sender seen, no category assigned, no draft created, no label touched, nothing trashed or marked spam, no digest sent.** **Inbox state is UNKNOWN and no inbox is described.**
 
 **Sixty consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
+
+## 2026-10-28 (04:02 UTC) DAY 61
+
+**THIRD CONSECUTIVE DAY, AND THE NEW INFORMATION IS NOT FROM THIS RUN.** Kept short by the convention set on day 60: a reproduction gets a short entry.
+
+**This run: `search_threads` called with `newer_than:1d in:inbox`, answered "MCP server Gmail needs you to sign in again (run /mcp to re-authenticate)", connector disconnected into the authentication-required list.** Identical to days 59 and 60.
+
+**WHAT IS ACTUALLY NEW: the refusal has now been reproduced across THREE DIFFERENT OPERATIONS, not just three days.** Reading was refused on 26, 27 and 28 October. **Drafting was refused separately at ~18:20 UTC on 27 October, during the Image Ad run, which is the first time `create_draft` itself was tested since the fault appeared.** Sending has never been possible in any state, because `send_message` does not exist among the tools this connector exposes. **So all three capabilities this lane depends on are confirmed unavailable by direct call, rather than inferred from one failure.**
+
+**FIFTH OBSERVATION of the appears-only-after-the-call pattern.** Gmail was again absent from the pre-call authentication-required list and appeared there only after the call failed. **The rule stands unchanged: the call is the only test.**
+
+**ACTIONABLE ITEM UNCHANGED AND NOW BETTER EVIDENCED: re-authorising Gmail restores reading and drafting only. It will not produce a sent digest. If a digest must reach ryan@myspawnapp.com by email, this connector cannot be the path, and that is a product decision rather than a bug to wait out.**
+
+**NO TRIAGE WAS PERFORMED. No thread read, no sender seen, no category assigned, no draft created, no label touched, nothing trashed or marked spam, no digest sent.** **Inbox state is UNKNOWN and no inbox is described.**
+
+**Sixty-one consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
