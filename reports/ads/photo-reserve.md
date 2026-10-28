@@ -25,6 +25,10 @@ Banked, attributed photos for connector-down days. Remove a row when used; a res
 | tRrIXmtOmL4 | **ALT-TEXT LEVEL ONLY, not opened:** "A brushed metal surface with fine vertical lines and a diagonal light reflection". Material surface, no subject. **Weak on its own: it decorates rather than earns, so pair it only with a concept about SURFACE** | apryan widodo (@apryan_cahyo) | https://unsplash.com/photos/tRrIXmtOmL4 | https://images.unsplash.com/photo-1667892702884-faa077e80d7b | 3024x3024 |
 | aktSS0loNEA | **ALT-TEXT LEVEL ONLY, not opened:** "Black and white view of jagged volcanic rocks in shallow tide pools". Very dark (#262626), square 4000x4000. Geological-time register | Sven Kriegel (@svenkriegel) | https://unsplash.com/photos/aktSS0loNEA | https://images.unsplash.com/photo-1791739567252-0ab5452a2635 | 4000x4000 |
 
+| SJNicnSjI-o | **ALT-TEXT LEVEL ONLY, not opened:** "a group of metal objects", square 2692x2692, bright (#f3f3f3) so expect a downward brightness derivation. Fastener family, same as Ad_218: **HOLD until 4 November** | Random Thinking (@randomthinking) | https://unsplash.com/photos/SJNicnSjI-o | https://images.unsplash.com/photo-1655927858183-fe31d5dd1080 | 2692x2692 |
+| NE2g8n03XGs | **ALT-TEXT LEVEL ONLY, not opened:** "a close up of a screw on a blue background", 4122x4122, source colour #0c2640 which is already close to our navy. **Risk to check at full resolution: a single object on a seamless coloured background often IS a staged product shot, which is a standing blocker** | Kajetan Powolny (@brutalgeometric) | https://unsplash.com/photos/NE2g8n03XGs | https://images.unsplash.com/photo-1712003752927-d4d14921f96a | 4122x4122 |
+| Lrw5FlacXjo | **ALT-TEXT LEVEL ONLY, not opened:** "Close-up of rusty metal pieces joined together", very large at 8736x8736, dark (#404040). Decay-and-joining register rather than interchangeability | Haberdoedas (@haberdoedas) | https://unsplash.com/photos/Lrw5FlacXjo | https://images.unsplash.com/photo-1744210492534-74330469a9a8 | 8736x8736 |
+
 ## UNVETTED (from Aug 27 search catalog: alt text only, verify pixels before use)
 | ID | Alt text | Photographer | Raw URL | WxH |
 |---|---|---|---|---|
@@ -618,3 +622,7 @@ These were verified available this run and deliberately not used, because **none
 
 - 7QPx5t6uWVk: CONSUMED 2026-10-27 as Ad_NobodyWarnedYou_217 (raised bascule bridge). Shipped as a 3000x3000 crop at (358,0); the full frame's bottom band is barred for signs, distant figures and a locally identifiable roofline.
 - zK8qOTNDELo: DO NOT USE. Rideau Canal, Ottawa: locally identifiable non-US setting, declined 2026-10-27.
+
+- 0XeINWr8Phg: CONSUMED 2026-10-28 as Ad_MostOfWhatYouOwn_218 (pile of used fasteners). Used full-frame, no crop.
+- tvczNEOPVDo: DO NOT USE. Pencil-sketch render, not a photograph (standing blocker), rejected 2026-10-28.
+- kIXKMFGlZz4: DO NOT USE. Posted by an account trading as a stainless-screw seller, so it is the seller's own product imagery and a brand mark by provenance, rejected 2026-10-28.
