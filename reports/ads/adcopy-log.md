@@ -73,3 +73,23 @@
 **STILL HELD, NOT USED, FOURTH CONSECUTIVE WEEK: "The promise was not broken. It was obsoleted."** Banked 7 October. **Hold condition unchanged and still unmet.**
 
 **LAUNCH-FIRST RECOMMENDATION: M2 at $10/day.** It is the only asset whose claim needs no label, no caveat and no third-party figure to stand up. **M1 is the better argument and the worse first test.**
+
+| 2026-10-28 | **The Price Was Set Between Companies** (the axis is WHO THE PRICE WAS FOR: an access gap measured in a figure two corporations agreed in public, rather than in anyone's survey data) | "A price for reproductive optionality was set this week. Between two companies." | Receipt: **up to $1.3825 billion, announced 27 October 2026, upfront NOT disclosed, figure includes unachieved development/regulatory/sales milestones, transaction NOT closed, product NOT FDA approved and its US trial still recruiting.** Label: wire and trade press read through a search index, Bloomberg dated 27 October 2026, no outlet opened at its own domain. | M1 25-40 future-optionality (LEAD), M2 40-60 family-history, M3 childfree; T1 "Up To" single-number teardown, T2 "The Boring Shelf" two-shelf comparison |
+
+**ANGLE GREPPED CLEAN BEFORE WRITING: `billion`, `acquisition`, `what you can buy`, `priced` and `between corporations` ALL return ZERO across this log and every prior `adcopy-*.md`.** **ONE ADJACENCY DISCLOSED RATHER THAN CLAIMED CLEAN: `access gap` returns 2 and the 21 October batch was also an access-gap angle. The mechanism differs (that one measured the gap in somebody else's inheritance data; this measures it in a price two companies agreed in public) and the disclosure is the honest version of a near-repeat.**
+
+**A COMPLIANCE RAIL WAS WRITTEN BEFORE THE COPY RATHER THAN APPLIED AFTER IT, which is new for this lane and was necessary.** The hook is a fertility-biotech transaction and the obvious drift is implying our storage is adjacent to fertility preservation. **This morning's blog states the opposite in terms, so a paid unit drifting there would contradict our own published page.** **Rail: no asset may imply that DNA storage preserves fertility, substitutes for egg or sperm freezing, or gives access to any therapy in the news. The acquisition is context for a price comparison, never a product adjacency.** M1's long copy and RSA description 3 both say so explicitly.
+
+**ALL SEVENTEEN CHARACTER COUNTS WERE PRODUCED BY A PROGRAM BEFORE THE COPY WAS TYPED INTO THE FILE, AND ALL SEVENTEEN PASSED ON THE FIRST MEASUREMENT.** **First clean first pass in this lane; the 21 October batch needed one rewrite at 93 against a 90 limit.**
+
+**AN A/B CELL WAS DELIBERATELY LEFT EMPTY AND THE EMPTY CELL IS RECORDED AS A DECISION: M3's headline B-variant.** The obvious B against "A complete plan can still have a copy" is a guilt-adjacent line, and **this lane will not produce it even as a losing variant**, because a variant that runs is a variant that was served.
+
+**ONE RSA HEADLINE IS INFORMATION-INTENT RATHER THAN PRODUCT-INTENT, which is new here: "What Is In Vitro Maturation?" points at today's blog article.** **Binding: it sits in its own ad group against the blog URL and never against the signup page, or it is a bait mismatch.** **The matrix makes it readable: if it converts at product rates, the blog is doing sales work and should be resourced as such.**
+
+**ONE ITEM FLAGGED FOR LEGAL REVIEW: M1's headline "The price was not set for you", which sits beside a third party's transaction.** It names nobody and characterises nobody, and **neither company is named in any asset in this batch, deliberately.** **Recommendation: run M1 only with long copy visible on the same surface, never as a headline-plus-image unit alone.**
+
+**STANDING CAVEAT SHARPENED, SIXTH ASKING ACROSS THE FLEET: M2 asserts GenVault's CAP, ISO 9001, ISO 20387 and FDA-registered status in PAID copy while those certificates remain unpublished.** **A paid unit asserting an accreditation is the strongest argument yet for publishing the documents.**
+
+**STILL HELD, NOT USED, FIFTH CONSECUTIVE WEEK: "The promise was not broken. It was obsoleted."** Banked 7 October. Hold condition unchanged and still unmet.
+
+**LAUNCH-FIRST RECOMMENDATION: M2 at $10/day.** It is the only asset whose claim needs no news peg, no label and no third-party figure, which makes it the only readable baseline. **M1 is the stronger argument and the worse first test: its performance would be inseparable from the news cycle that produced it.**
