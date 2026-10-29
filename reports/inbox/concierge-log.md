@@ -705,3 +705,17 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NO TRIAGE WAS PERFORMED. No thread read, no sender seen, no category assigned, no draft created, no label touched, nothing trashed or marked spam, no digest sent.** **Inbox state is UNKNOWN and no inbox is described.**
 
 **Sixty-one consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
+
+## 2026-10-29 (04:02 UTC) DAY 62
+
+**FOURTH CONSECUTIVE DAY. Short entry, per the day-60 convention: a reproduction gets a short entry.**
+
+**This run: `search_threads` with `newer_than:1d in:inbox`, answered "MCP server Gmail needs you to sign in again (run /mcp to re-authenticate)", connector disconnected into the authentication-required list.** Identical to days 59, 60 and 61.
+
+**NOTHING NEW TO REPORT, AND SAYING SO IS THE ENTRY.** Day 61 established the useful fact, that all three capabilities this lane depends on are confirmed unavailable by direct call rather than inferred from one failure. **A fifth paragraph restating that would be padding a stable fault into something that looks like movement.** **SIXTH observation of the appears-only-after-the-call pattern; the rule is unchanged and the call remains the only test.**
+
+**ACTIONABLE ITEM UNCHANGED: re-authorising Gmail restores reading and drafting only. It cannot produce a sent digest, because this connector exposes no send capability in any state.**
+
+**NO TRIAGE WAS PERFORMED. No thread read, no sender seen, no category assigned, no draft created, no label touched, nothing trashed or marked spam, no digest sent.** **Inbox state is UNKNOWN and no inbox is described.**
+
+**Sixty-two consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
