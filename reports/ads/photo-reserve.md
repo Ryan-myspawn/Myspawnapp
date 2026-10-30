@@ -626,3 +626,17 @@ These were verified available this run and deliberately not used, because **none
 - 0XeINWr8Phg: CONSUMED 2026-10-28 as Ad_MostOfWhatYouOwn_218 (pile of used fasteners). Used full-frame, no crop.
 - tvczNEOPVDo: DO NOT USE. Pencil-sketch render, not a photograph (standing blocker), rejected 2026-10-28.
 - kIXKMFGlZz4: DO NOT USE. Posted by an account trading as a stainless-screw seller, so it is the seller's own product imagery and a brand mark by provenance, rejected 2026-10-28.
+
+## Banked 2026-10-30 (road and route family, from the "road splitting two directions" search). ALT-TEXT LEVEL ONLY: none of these has been opened at full resolution, so each must be downloaded and looked at before any composition.
+
+| Unsplash ID | Raw URL | Native | Photographer | Subject note |
+|---|---|---|---|---|
+| 5s7MHXIz0PU | https://images.unsplash.com/photo-1629130550120-db73df0b5c3e?fm=jpg&q=95&w=2915 | 2915x2915 | Jonathan Cooper (@theshuttervision), https://unsplash.com/photos/aerial-view-of-road-between-trees-5s7MHXIz0PU | Aerial road between trees. Mid-tone, will need darkening. |
+| qKPsQwe8EIw | https://images.unsplash.com/photo-1604249590764-45f559188eaf?fm=jpg&q=95&w=3072 | 3072x3072 | Miha Arh (@arhmi), https://unsplash.com/photos/black-and-white-road-during-night-time-qKPsQwe8EIw | Black and white road at night. Already dark, the easiest of this set. |
+| nUk16CAkx6Q | https://images.unsplash.com/photo-1725122770464-0e81086dad05?fm=jpg&q=95&w=3236 | 3236x3240 | ashinJPG (@ashjpeg), https://unsplash.com/photos/a-car-driving-down-a-curvy-winding-road-nUk16CAkx6Q | Curving road from above. CHECK BEFORE USE: a car is in frame, so verify no plate or badge is legible. |
+| vJ9sNhJxaGY | https://images.unsplash.com/photo-1579743769583-050e8ed165f8?fm=jpg&q=95&w=3000 | 3000x3333 | Colton Sturgeon (@coltonsturgeon), https://unsplash.com/photos/gray-concrete-road-between-green-trees-during-daytime-vJ9sNhJxaGY | Road between trees, daytime. Not square; needs a crop plan. |
+| 6BGOhQJjSzg | https://images.unsplash.com/photo-1635547621234-72220f7f062b?fm=jpg&q=95&w=5473 | 5473x5889 | Mark Patterson (@mrpatt), https://unsplash.com/photos/an-aerial-view-of-a-road-in-the-snow-6BGOhQJjSzg | Aerial road in snow. VERY BRIGHT, brightness must be re-derived well below 1.0. |
+| tcp1ZMzVT8o | https://images.unsplash.com/photo-1752758059746-953f58acf984?fm=jpg&q=95&w=6112 | 6112x5855 | Declan Sun (@declansun), https://unsplash.com/photos/airport-runway-markings-show-direction-and-boundaries-tcp1ZMzVT8o | Runway markings. FLAGGED: runway paint usually includes large legible numerals, which is the legible-text blocker. Verify a clean crop exists or discard. |
+
+**REJECTED FROM THIS SEARCH, with reasons, so they are not re-proposed:** `dUbKcgu0zjw` (two identifiable people standing in frame), `VWMkC5NxUU8` and `ZQVTb-RRVSw` (road signage, legible-text blocker), `g-lwpiXPTMI` (street with cars close enough that plates may read), `rE6GcqgZFZ8` (a single painted line, too thin a subject to carry a frame).
+**CONSUMED TODAY AND REMOVED FROM CONSIDERATION:** `SxQn-Or41ok`, used on Ad_BothNumbersAreReal_219.
