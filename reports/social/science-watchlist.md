@@ -641,3 +641,21 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
   **(2) A COMPANY CLAIM WITH ITS LABEL ATTACHED AT BANKING TIME: coverage reports the approach could remove the need for hormone injections and shorten treatment cycles to "as little as three days".** **The source itself flags these efficacy claims as PRECLINICAL and COMPANY-REPORTED.** *So what:* it is an input-side claim about a process rather than an outcome, and the four qualifying words will not survive the first retelling while the number will.
   **(3) SECTOR FIGURE: longevity biotech raised approximately $3.74 billion in Q1 2026 alone, with a September 2026 opinion piece arguing the field is ahead of its science and that trials remain early. Label: trade and opinion coverage read through a search index.**
   **NOT BANKED BECAUSE ALREADY OURS: the early-2026 FDA clearance of epigenetic reprogramming trials including Life Biosciences, which returns 24 hits in this file alone.** **Fourth time this month a sweep has returned something already on file as though it were current; the 29 October method note stands unchanged.**
+
+## ADDED 2026-10-31 (BACKFILL, not a discovery): engineered endometrium implantation model
+
+**"Modeling Human Embryo Implantation In Vitro", *Cell*, 23 December 2025. PEER-REVIEWED.** Stanford with the Babraham Institute and the IVI Foundation. **Francisco Dominguez (IVI) reported as lead author; Matteo Mole listed among the Stanford authors.**
+
+**WHAT IT IS.** A three-dimensional, cell-engineered endometrium built from stromal and epithelial cells, reported to match an endometrial biopsy in cellular architecture and to respond to hormone stimulation. **Human embryos and blastoids implanted into it and reached post-implantation milestones**, with single-cell RNA sequencing at day 14 mapping embryo-endometrium interactions. **A separate Beijing-led study published the same week is reported to have used roughly 50 IVF embryos and roughly 1,000 blastoids in lab-made endometrial models.**
+
+**WHAT IT IS NOT. This is an implantation MODEL, not an artificial womb, and it must never be filed under the artificial-womb entries.** **Every experiment was stopped before 14 days under the legal and ethical limit.** Consumer headlines ran to "human life begin without a mother"; the paper's claim is a window onto implantation.
+
+**EPISTEMIC LABEL: peer-reviewed primary research, read via coverage and abstract, NOT opened at its own domain.** **BINDING CONDITION before any outbound use: the 14-day stop must appear on screen or in text, not only in a voiceover, and no reproductive capability may be implied.**
+
+**SO WHAT:** the front-row-seat beat working as intended. A real advance in observing the earliest stage of development, nowhere near a product, and **it changes nothing about what can be done with a stored sample today.**
+
+**HOW IT WAS MISSED, recorded because the method failure is reusable.** **`endometrium`, `uterus lining`, `Babraham` and `Dominguez` returned ZERO across every report in this repository, ten months after publication.** **A daily delta sweep structurally cannot find something that broke before its window opened.** **RECOMMENDATION: one deliberate backfill pass over the last twelve months of this beat rather than relying on daily sweeps to rediscover it.**
+
+## ALSO ADDED 2026-10-31: two behaviour figures, both backfill
+
+**UCL, June 2026: only one in ten people from Gen Z (born 1997 to 2012) had had a child by age 23, against one in four millennials at a similar age.** **CDC, April 2026: among mothers under 30 birth rates DECREASED between 2024 and 2025, while among mothers over 30 they INCREASED.** **Both are behaviour measures rather than stated preference, which is the register this fleet holds least of.** **The CDC item is also the primary source longpost #179 explicitly said it had not verified: it must be opened at its own domain and confirmed before either figure is used outbound.**
