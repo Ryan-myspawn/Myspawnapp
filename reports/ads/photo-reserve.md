@@ -640,3 +640,12 @@ These were verified available this run and deliberately not used, because **none
 
 **REJECTED FROM THIS SEARCH, with reasons, so they are not re-proposed:** `dUbKcgu0zjw` (two identifiable people standing in frame), `VWMkC5NxUU8` and `ZQVTb-RRVSw` (road signage, legible-text blocker), `g-lwpiXPTMI` (street with cars close enough that plates may read), `rE6GcqgZFZ8` (a single painted line, too thin a subject to carry a frame).
 **CONSUMED TODAY AND REMOVED FROM CONSIDERATION:** `SxQn-Or41ok`, used on Ad_BothNumbersAreReal_219.
+
+## Banked 2026-10-31. **THINNEST SEARCH THIS LANE HAS SEEN: the query returned 3 results in total, so only 2 usable entries are banked rather than the usual 6 to 10.** ALT-TEXT LEVEL ONLY.
+
+| Unsplash ID | Raw URL | Native | Photographer | Subject note |
+|---|---|---|---|---|
+| ZNvYJ9mHdhA | https://images.unsplash.com/photo-1787371267055-5681ca6c4792?fm=jpg&q=95&w=5942 | 5942x5942 | M Yunus Roikhan R (@ynsroikhn), https://unsplash.com/photos/grey-tactile-paving-with-circular-studs-ZNvYJ9mHdhA | Tactile paving, raised studs, harsh sunlight. TEXTURE not subject; would need a concept about surfaces or guidance underfoot. |
+| IHW1voPU8dk | https://images.unsplash.com/photo-1787371267669-0b32a154224d?fm=jpg&q=95&w=5967 | 5967x5967 | M Yunus Roikhan R (@ynsroikhn), https://unsplash.com/photos/grey-interlocking-concrete-pavers-IHW1voPU8dk | Interlocking pavers, long diagonal shadows. Mid-bright (#a6a6a6), will need darkening. Same photographer as the row above, so do not use both. |
+
+**CONSUMED TODAY AND REMOVED FROM CONSIDERATION:** `wG63CSZ7oIc`, used on Ad_AgreedNotFound_220.
