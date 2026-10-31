@@ -733,3 +733,15 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NO TRIAGE WAS PERFORMED. No thread read, no sender seen, no category assigned, no draft created, no label touched, nothing trashed or marked spam, no digest sent.** **Inbox state is UNKNOWN and no inbox is described.**
 
 **Sixty-three consecutive runs. Never once read a thread, drafted a reply, or sent a digest.**
+
+## 2026-10-31, day 65
+
+**NO TRIAGE WAS PERFORMED. No thread read, no sender seen, no category assigned, no draft created, no label touched, nothing trashed or marked spam, no digest sent.** **Inbox state is unknown and is reported as unknown.**
+
+**THE CAPABILITY WAS TESTED BY CALLING IT, NOT ASSUMED FROM YESTERDAY, per the standing rule that the pre-call authentication list cannot predict whether a connector works and the call itself is the only test.** `search_threads` with `newer_than:1d in:inbox` returned: **MCP server "Gmail" needs you to sign in again.**
+
+**THE REFUSAL CHANGED SHAPE TODAY AND THE DIFFERENCE IS WORTH RECORDING PRECISELY.** On previous days individual tools refused while the server remained listed as connected. **Today the whole Gmail server dropped to needs-authentication and then disconnected, so every Gmail capability is refused at the server level rather than per tool.** **This is a cleaner signal, not a worse one: it means a single re-authorisation would restore reading and drafting together, rather than leaving a partial state to be discovered tool by tool.**
+
+**WHAT RE-AUTHORISATION WOULD AND WOULD NOT FIX, restated so the decision is not made on a false expectation.** It would restore **reading** (`search_threads`, `get_thread`, `get_message`) and **drafting** (`create_draft`), which is everything this lane actually needs, because the lane's hard rule is that suggested replies are created as drafts only. **It would NOT add a send capability, because the Gmail connector exposes no send tool in any state: the tool listing carries `create_draft`, `get_message`, `search_threads`, labelling and trash tools, and no `send_message` at all.** **Every lane in this fleet that ends with "email the report via Gmail send_message" is therefore specified against a tool that does not exist, and that is a specification error rather than an outage.** Reports are delivered as HTML in the session instead, and have been throughout.
+
+**Sixty-four consecutive runs. Never once read a thread, drafted a reply, or sent a digest.** **The founder decision is unchanged and is now the single longest-running blocked item in the fleet: re-authorise Gmail, and separately decide what the fleet's trigger prompts should say in place of a send tool that has never existed.**
