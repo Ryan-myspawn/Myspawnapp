@@ -649,3 +649,11 @@ These were verified available this run and deliberately not used, because **none
 | IHW1voPU8dk | https://images.unsplash.com/photo-1787371267669-0b32a154224d?fm=jpg&q=95&w=5967 | 5967x5967 | M Yunus Roikhan R (@ynsroikhn), https://unsplash.com/photos/grey-interlocking-concrete-pavers-IHW1voPU8dk | Interlocking pavers, long diagonal shadows. Mid-bright (#a6a6a6), will need darkening. Same photographer as the row above, so do not use both. |
 
 **CONSUMED TODAY AND REMOVED FROM CONSIDERATION:** `wG63CSZ7oIc`, used on Ad_AgreedNotFound_220.
+
+## Banked 2026-11-01. **ONE ENTRY, AND IT IS BANKED WITH A DECLINE ATTACHED, which is new in this file: the photograph was downloaded, viewed at full resolution and rejected for today's concept, and it is recorded so it is not re-proposed for the wrong one.**
+
+| Unsplash ID | Raw URL | Native | Photographer | Subject note |
+|---|---|---|---|---|
+| hP_rcZ8WOFs | https://images.unsplash.com/photo-1758277894796-8a9e9a4b0b47?fm=jpg&q=95&w=4096 | 4096x3826 | Julian Schultz (@cochinoraw), https://unsplash.com/photos/hP_rcZ8WOFs | **A yellow industrial safety sign, paint cracked and flaking from rusted metal, lettering broken into the fragments CAUT, H RING, PRO, REQU.** **DECLINED 1 November on two grounds and both must be cleared before it is used: (1) the saturated yellow IS the photograph, and the house treatment at saturate 0.10 to 0.18 reduces it to brown; any use needs an agreed saturation exception. (2) It reads as industrial decay and abandonment, so it does NOT fit any concept about a current, maintained or updated record.** **WHERE IT WOULD EARN ITS PLACE: a concept about a safety claim nobody kept up, or about a warning that was posted once and never revisited. That is a real MySpawn argument and is not yet in the log.** |
+
+**NOTHING CONSUMED TODAY: zero creatives were produced, so no reserve entry was spent.**
