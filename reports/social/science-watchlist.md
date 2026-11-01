@@ -659,3 +659,19 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 ## ALSO ADDED 2026-10-31: two behaviour figures, both backfill
 
 **UCL, June 2026: only one in ten people from Gen Z (born 1997 to 2012) had had a child by age 23, against one in four millennials at a similar age.** **CDC, April 2026: among mothers under 30 birth rates DECREASED between 2024 and 2025, while among mothers over 30 they INCREASED.** **Both are behaviour measures rather than stated preference, which is the register this fleet holds least of.** **The CDC item is also the primary source longpost #179 explicitly said it had not verified: it must be opened at its own domain and confirmed before either figure is used outbound.**
+
+## ADDED 2026-11-01 (BACKFILL): the FDA appropriations rider on heritable genetic modification
+
+**WHAT IT DOES.** Congress has attached a rider to the FDA's annual appropriations act **every year since the act signed in December 2015** (fiscal year 2016 onward). **It bars the FDA from using funds to review or approve clinical-use applications involving embryos with heritable genetic modification.** **Effect: there is currently NO legal route to bring a heritable human genome edit into a US clinical trial, because the agency may not review the application at all.**
+
+**THE MECHANISM, which is the part worth carrying.** The 2015 text provides that such IND applications **"shall be deemed to have not been received"**. **That exists to defeat the default rule under which an application clears automatically if the agency does not act within 30 days: a plain ban on acting would have produced automatic approval, so the drafters made the application legally invisible instead.**
+
+**SCOPE IS WIDER THAN ASSUMED: the FDA has interpreted the rider to preclude not only germline gene editing but also mitochondrial transfer and cytoplasmic transfer.**
+
+**CURRENT SECTION NUMBER, CARRIED WITH ITS CAVEAT.** A June 2026 analysis of the FY2027 appropriations report identifies **Section 734**. **LABEL: House bill provision, may change before enactment; the enacted FY2026 text was NOT verified.** **BINDING CONDITION for any outbound use: say that this is an annually renewed appropriations rider, not a permanent statute, and never state the section number without its House-provision caveat.**
+
+**SO WHAT.** **Every germline-startup or "designer baby" headline aimed at a US audience meets a wall that is budgetary rather than scientific or ethical.** **It also underwrites our storage-only position: we say we never promise descendant creation as policy, and in the US it is additionally the law of the regulator's purse.**
+
+**EPISTEMIC LABELS:** policy analysis plus a peer-reviewed policy forum in *Science* (Cohen and Adashi, "The FDA is prohibited from going germline"), a Congressional Research Service product (R44824), an AAMC advocacy page, and a June 2026 FDA-law analysis. **Read through coverage; not opened at source.**
+
+**HOW IT WAS MISSED, recorded because the cause is structural.** **This is a LEGAL constraint, and the Science Watch sweep is defined over experiments, companies and papers. A science-only sweep cannot see a law.** **RECOMMENDATION: add a standing governance line to this beat covering appropriations riders, agency guidance and professional-society positions, which between them determine what the science is allowed to become.**
