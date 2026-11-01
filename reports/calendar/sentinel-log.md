@@ -369,3 +369,41 @@ On 20 September this log proposed keeping the Friday anchor and treating a Monda
 ## MOST IMPORTANT DATE IN THE NEXT 14 DAYS
 
 **Monday 26 October: ship an explainer or formally kill the slot. One day away.** **It is the only date in the fortnight that this operation set for itself THIS WEEK, and the last two self-imposed dates both passed unactioned, which is the reason to name it rather than assume it.**
+
+---
+
+# 2026-11-01 (Sunday). FIFTEENTH CONSECUTIVE BLOCKED RUN.
+
+**NOTHING WAS READ AND NOTHING WAS WRITTEN. No event created, updated or deleted. The calendar's current contents are unknown to this run.**
+
+**THE CAPABILITY WAS TESTED BY CALLING IT.** `list_events` for 1 to 22 November returned: **MCP server "Google_Calendar" needs you to sign in again.** **The server then dropped off the connected list.** **This is the same shape as the Gmail failure on day 65: a whole-server authentication demand rather than a per-tool refusal.**
+
+**THE TWO BLOCKED CONNECTORS NOW MATCH, WHICH IS WORTH ONE LINE FOR THE FOUNDER.** Gmail and Google Calendar are both Google connectors and both are now demanding re-authentication. **If one re-authorisation covers the Google connectors as a group, a single action could unblock two lanes: this one and the Inbox Concierge.** **That is a hypothesis from the matching error shape, not something this session can verify.**
+
+## WHAT CHANGED SINCE LAST WEEK'S PLAN
+
+**ONE SELF-IMPOSED DATE WAS MET, and it is the first time that has happened.** Last week's plan made **Monday 26 October, "ship an explainer or formally kill the slot"**, the most important date in the fortnight, and noted that the previous two self-imposed dates had both passed unactioned. **The explainer slot shipped on 27, 28, 30, 31 October and 1 November, and was formally declined with three documented kills on 29 October. The decision was taken and the slot is healthy. That peg is closed, not expired.**
+
+**Two pegs from last week's plan have simply passed:** the ASRM 2026 Congress close on 28 October, and the photo-reserve hold expiry on 29 October.
+
+## WHAT THIS RUN WOULD HAVE DONE, recorded so it is one step rather than a re-derivation when access returns
+
+**Window: 1 to 22 November 2026, 21 days. 15 weekdays. Tuesdays 3, 10 and 17 November. Fridays 6, 13 and 20 November.**
+
+**DATED PEGS INSIDE THE WINDOW:**
+1. **Thursday 19 November: "[MySpawn] GTA 6 release".** **NOW IN RANGE for the first time, 18 days out.** Create the peg **and a prep reminder event 24 hours before, Wednesday 18 November**, per the standing rule for hard content pegs. **This is the only externally-dated peg in the window and it has been tracked in the radar since August.**
+2. **Daily weekday "[MySpawn] Shoot block", 11:00 IST, 45 minutes, 2 to 20 November.** **The rule says create these only on days whose PM post plan lists assets to shoot. Every PM post plan in the last eight runs has listed assets, so on the rule's own terms all 15 weekdays qualify.** **BUT THE HONEST NOTE BELONGS HERE: nothing has been filmed in roughly two weeks, eight consecutive post plans have produced no confirmed upload, and three strong recordable assets exist from the last 48 hours alone.** **Creating 15 blocks against a two-week drought is calendar theatre. RECOMMENDATION FOR WHEN ACCESS RETURNS: create ONE block, Monday 2 November, and do not create the rest until one asset is actually shot.**
+3. **Weekly anchors if missing: "[MySpawn] Approve partner outreach" Tuesday evenings IST (3, 10, 17 November) and "[MySpawn] Send newsletter" Friday mornings IST (6, 13, 20 November).** **The newsletter anchor remains the emptiest recurring commitment in the operation: six issues are written and unsent, and the send capability does not exist in the Gmail connector in any state.** **An anchor that cannot be executed is worse than no anchor, so the newsletter anchor should be created only once a send route exists.**
+
+**DATED PEGS OUTSIDE THE WINDOW, named so next week does not rediscover them:**
+- **Monday 7 December: CMS CLIA comment deadline. 36 days out.** **Longpost #156 has now been named publish-first TWELVE times and has not gone out.** **It is still the single most consequential date this operation holds, and the gap between naming it and acting on it is now the clearest measurable failure in the fleet.**
+
+**NO WATCHLIST PEGS ARE CREATABLE.** Vitara still has no FDA IDE decision date. VIBRANT still has no readout date. **Gameto's FIRST Phase 3 interim readout is described as anticipated in late 2026 with no date, so it cannot become an event either.** **The appropriations rider added to the watchlist today is annually renewed but carries no published date this session could verify, so it is NOT creatable as a peg; it becomes one only when a specific appropriations date is confirmed.**
+
+**NOTHING WAS CREATED, SO NOTHING IS CLAIMED. The list above is a plan, not a record.**
+
+**NO EMAIL: no send-capable tool exists in the Gmail connector in any state, and the Gmail server itself is unreachable. Repository delivery only.**
+
+## MOST IMPORTANT DATE IN THE NEXT 14 DAYS
+
+**There is no dated peg inside 14 days.** GTA 6 on 19 November is 18 days out and falls in the 21-day window but outside the fortnight. **Saying so plainly is more useful than promoting a weaker item to fill the slot.** **The most important thing in the next 14 days is not a date at all: it is the first shot asset, because eight post plans have now queued content that was never filmed, and no calendar entry fixes that.**
