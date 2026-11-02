@@ -1025,3 +1025,23 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 **TWO COMPLETE ZEROS CONSIDERED AND DELIBERATELY NOT QUEUED: `perpetual care` and `trust protector`, both 0 bodies.** Too narrow for men 25-55 and too far from anything we sell. **A zero is not by itself a reason to write.**
 
 **SUBSTRING TRAP LOGGED: `disclaim` appeared to return 8 articles. The hits are dominated by `disclaimer`, which is boilerplate.** Same failure mode as `POD` returning `PODCAST` the previous night.
+
+## 2026-11-02 PUBLISHED: `genetic-test-validated-meaning.md`
+
+**Lane b (science explained). Title 48 chars, meta 143, prose 1,620 words, FAQ 6 prose and 6 in JSON-LD, all MEASURED by program after writing.**
+
+**THE QUEUED CONDITION WAS DISCHARGED BY BEING PARTLY FAILED, and that is why this article is not the one that was queued.** The queued topic was "Coverage is not validity", condition: re-grep `training population` and `polygenic` on the day because three other lanes had used the material. **Result: `polygenic` returns 8 articles with 60 mentions, and `polygenic-embryo-screening-explained.md` holds 33 of them. A polygenic-framed piece would have been the ninth.** **So the polygenic framing was KILLED and the greps were pushed outward until a real gap appeared.**
+
+**THE GAP IS A WHOLE VOCABULARY MISSING FROM 73 ARTICLES: `analytical validity` 0, `clinical validity` 0, `clinical utility` 0, `predictive value` 0, `sensitivity` 0, `specificity` 0, `false positive` 0, `laboratory developed` 0, `LDT` 0, `EGAPP` 0, `809.3` 0.** `CLIA` appears in 7 articles, so the article deliberately does not re-explain CLIA basics; it uses CLIA only to make the point that a laboratory quality framework does not speak to clinical validity.
+
+**NINTH CONFIRMED FIRING OF THE SUBSTRING-GREP RULE, AND THE WORST ONE YET.** **`ACCE` returned ALL 73 articles, which read as total saturation of the exact framework the article is built on.** Resolved by occurrence count: **411 hits are `acceptedAnswer`, from our own FAQ JSON-LD blocks, plus 188 `access`, 13 `accept` and the rest. Real hits: ZERO.** **Our own structured-data boilerplate is now a grep hazard, which is new. Any four-letter uppercase token must be occurrence-counted before it is believed.**
+
+**FRESH 2026 ANCHOR, and it is unused anywhere in the archive: the FDA's May 2024 laboratory developed tests rule was vacated by a federal district court in Texas on 31 March 2025, and on 19 September 2025 the FDA removed "including when the manufacturer of these products is a laboratory" from 21 CFR 809.3(a).** The practical consequence carries the article: question 1 has a regulator and questions 2 and 3 largely do not.
+
+**ONE ITEM REFUSED IN THE TEXT RATHER THAN QUIETLY DROPPED:** a secondary source referred to H.R. 8890, said to be introduced 19 May 2026. **Existence, text and status could not be confirmed, so the article states that it is not relying on it and tells the reader to check Congress.gov, including about that paragraph.**
+
+**SOURCING LIMIT STATED INSIDE THE ARTICLE: none of the nine cited sources was opened at its own domain, because this environment's network policy blocks the hosts, cdc.gov among them.**
+
+**Internal links: `genetic-test-result-reanalysis`, `fda-clearance-vs-approval`, `biobank-loses-accreditation`.** **No clinical-validity claim is made for MySpawn anywhere, and the product section says explicitly that we generate no results and promise nothing about what a future test will read from a stored sample.**
+
+**NEXT TWO QUEUED.** **(1) "What a reduction of scope means on an accreditation certificate" (lane d), carried with its condition UNCHANGED: the 1 November article already introduces scope reduction twice, so a dedicated piece may NOT re-explain the concept and must earn its place on reading an actual certificate's scope statement, or it dies.** **(2) "What happens to your online accounts when you die" (lane c, from the 2 November rank-tracker refill, top pick). BINDING CONDITION UNCHANGED: five articles already touch digital assets in passing and `RUFADAA` appears in 4, so two of them must be body-read first. If one already explains the fiduciary-access mechanism, this dies and candidate 2 from the refill takes the slot.**
