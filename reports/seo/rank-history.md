@@ -54,3 +54,13 @@ NO DATA: Semrush API units exhausted for the FOURTH consecutive week (subscripti
 **A TWO-LEVEL GREP TRAP CAUGHT, AND IT NEARLY RE-QUEUED A JUST-PUBLISHED ARTICLE. The phrase "cryo tank" returns ZERO across all 67 published bodies while `cryo-tank-failure.md` is published and live.** **BINDING FROM HERE: a phrase-level zero is not proof a topic is unowned. Check the SLUG LIST as well as the bodies on every refill.**
 **FIVE CANDIDATES QUEUED, ALL GAP-VERIFIED AND NONE VOLUME-VERIFIED, and the distinction is stated in the topic-log entry itself.** **#1 pick: "biobank consent", zero across 67 articles, inside our own category, and the front half of a journey whose back half `sample destruction` already owns five times.**
 **Blog performance unverifiable for the SIXTH consecutive week. Re-probed verbosely this week rather than carried forward: our own proxy at 127.0.0.1:40175 answers `CONNECT www.myspawn.me:443` with `HTTP/1.1 403 Forbidden` while the control host negotiated normally in the same loop.** **This also CORRECTED the founder brief published three hours earlier, which had used a bare `%{http_code}` probe, seen 000, and wrongly concluded the problem was "about the domain rather than our egress".**
+
+## 2026-11-02 snapshot
+
+**NO DATA. TENTH CONSECUTIVE.** `domain_overview` returned `no_api_units` on a live call: active subscription, insufficient API units, flagged not retryable. Top-up at https://www.semrush.com/mcp-access . One call spent, no competitor queried. **Positions: none. Deltas: none.**
+
+**Blog performance unverifiable for the SEVENTH consecutive week, on two grounds both re-checked rather than carried: no rank data, and `myspawn.me` refused by our own egress with a 403 on CONNECT while the control host negotiated 200 in the same loop. The proxy reports `"selective": false`, so this is the environment's network policy denying the host.**
+
+**CROSS-LANE NOTE: last week's correction of the founder brief held.** This morning's brief used the verbose probe, reached the egress diagnosis independently, and withdrew its own earlier "deploy pending" framing. **First demonstrated case here of a correction surviving a week and transferring between lanes.**
+
+**Seven keyword candidates queued to `topic-log.md`, all GAP-VERIFIED at two levels against 73 articles and NONE volume-verified.** Two complete zeros (`perpetual care`, `trust protector`) were deliberately NOT queued as too far from the audience and the product. **One substring trap logged: `disclaim` returning 8 articles is mostly the word `disclaimer`.**
