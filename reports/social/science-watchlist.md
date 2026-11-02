@@ -675,3 +675,23 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 **EPISTEMIC LABELS:** policy analysis plus a peer-reviewed policy forum in *Science* (Cohen and Adashi, "The FDA is prohibited from going germline"), a Congressional Research Service product (R44824), an AAMC advocacy page, and a June 2026 FDA-law analysis. **Read through coverage; not opened at source.**
 
 **HOW IT WAS MISSED, recorded because the cause is structural.** **This is a LEGAL constraint, and the Science Watch sweep is defined over experiments, companies and papers. A science-only sweep cannot see a law.** **RECOMMENDATION: add a standing governance line to this beat covering appropriations riders, agency guidance and professional-society positions, which between them determine what the science is allowed to become.**
+
+## FIRST TRIAL DESIGN BLOCK (NCT06858111), added 2026-11-02
+
+**This fleet has cited this NCT number in 17 files and had never recorded what the trial tests. Added now, two-source corroborated.**
+
+- **Comparator: MediCult IVM, as an ACTIVE comparator.** The registry classifies it as a device; trade coverage describes it as CooperSurgical's Medicult IVM and the first product of its kind to market. **LABELLED: both can be true since CooperSurgical is the manufacturer, but neither source states that link directly, so it is not asserted.**
+- **Primary question: whether Fertilo is superior to MediCult IVM. NOT whether it beats conventional IVF.**
+- **Design:** randomised, parallel-group, quadruple-masked.
+- **Target enrolment: about 500 per the registry.** **UNRECONCILED: a separate report says "more than 320 patients". Plausibly enrolment to date against a 500 target, but NEITHER SOURCE SAYS SO. Both figures recorded, neither reconciled.**
+- **Sites and dates:** 11 sites, 1 country. Start 17 April 2025. Registry updated 29 September 2026. Primary completion estimated May 2027.
+- **Eligibility: women 18 to 35 with AMH of at least 3 ng/mL.** **This selects for good ovarian reserve by design.**
+- **Outcomes: primary is cumulative ongoing pregnancy across up to the first two embryo transfers. LIVE BIRTH IS SECONDARY.**
+
+**WHY THIS MATTERS TO EVERY FUTURE SWEEP: the widely-quoted "more than double the success rate of standard IVM" is a comparison against another IVM product, in a population selected for good ovarian reserve, on an ongoing-pregnancy endpoint.** **None of that makes the product bad. All of it means the claim needs three qualifiers, and any fleet asset citing the doubling figure must carry them.**
+
+**Status restated and unchanged: Fertilo is in vitro MATURATION, not gametogenesis. No mature human gametes have been produced by anyone. Fertilo is investigational in the US with no FDA authorisation. The Ferring acquisition, up to about $1.3825 billion, is not yet closed.**
+
+### Update Log
+
+- **2026-11-02:** Added the FIRST trial design block above. **Four consecutive no-delta news days; the value came from reading a registry entry this fleet had cited 17 times without opening.** **Also recorded: Reddit is now confirmed blocked from this session (403 on CONNECT for both `www.reddit.com` and `old.reddit.com`), making it the seventh confirmed-blocked host and the Reddit Radar section structurally undeliverable as written.** **And a refusal that the logs earned: a promotional "Genetic Waypoint" ambient-DNA capsule resurfaced and was NOT logged as new, because `Waypoint` was already recorded on 8 September as unverified and re-confirmed as old on 30 October.**
