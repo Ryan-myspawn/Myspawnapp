@@ -1065,3 +1065,27 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 **Internal links: `genetic-test-validated-meaning`, `biobank-loses-accreditation`.** **Sourcing limit stated in the article: none of the four cited sources was opened at its own domain.**
 
 **NEXT TWO QUEUED.** **(1) "What a reduction of scope means on an accreditation certificate" (lane d), carried a second time with a NEW problem recorded: its binding condition requires earning its place on how to read an ACTUAL certificate's scope statement, and accreditor sites are unreachable from this session under the network policy. BINDING: if the next run cannot obtain a real scope statement, this candidate is KILLED rather than carried a third time.** **(2) "How long does a DNA sample actually last" (lane a, rank-tracker candidate 4). BINDING CONDITION UNCHANGED: `viable` returns 9 and `viability` 5, so two of those articles must be body-read first, and any storage-duration claim about our own service needs a source we can point at.**
+
+## 2026-11-04 PUBLISHED: `how-to-read-scope-of-accreditation.md`
+
+**Lane d (trust/custody). Title 36 chars, meta 142, prose 1,254 words, FAQ 6 prose and 6 in JSON-LD, all MEASURED after writing.**
+
+**BOTH QUEUED CANDIDATES WERE IN TROUBLE AND ONE DIED OUTRIGHT. THE KILL IS THE DAY'S PROCESS FINDING.**
+
+**CANDIDATE 2 IS DEAD AND SHOULD NEVER HAVE BEEN QUEUED: "How long does a DNA sample actually last" is already published TWICE.** **`how-long-does-dna-last.md` carries sections on the 521-year half-life, record holders, what destroys DNA, ambient-temperature studies and whether anyone can still read it. `is-stored-dna-still-usable.md` carries quantity, quality and the question that actually answers it.** **Struck from the pool.**
+
+**AND THE RANK TRACKER'S GAP CHECK IS WHAT FAILED, WHICH IS WORTH FIXING RATHER THAN SHRUGGING AT.** On 2 November it recorded this candidate as `viable` 9 bodies, `viability` 5, **"0 slugs"**. **That is true and useless: the slug is `how-long-does-dna-last`, which contains neither "viable" nor "viability".** **The check searched the SLUG LIST for the KEYWORD instead of reading the slug list for the TOPIC.** **BINDING ADDITION, and it is the second refinement to this rule in two days: a slug check means READING the slug list for topics a human would recognise, not grepping it for the candidate's keyword. A keyword grep of slugs will miss any article whose title uses different words, which is most of them.**
+
+**CANDIDATE 1 SURVIVED ITS KILL CONDITION, which was that it dies if a real scope statement could not be obtained.** **Obtained, through the search index, from named documents: European Accreditation EA-4/17 on describing scopes for medical laboratories (rev 00, December 2008), a published A2LA model scope for a fictitious calibration laboratory, an ISOBudgets worked example of a calibration laboratory's scope fields, and a Unitest guide to reading an ISO/IEC 17025 schedule.**
+
+**FRESHNESS, ALL ZERO ACROSS 75 PUBLISHED ARTICLES: `scope of accreditation` 0, `flexible scope` 0, `17025` 0, `schedule of accreditation` 0, `accredited activities` 0, `certificate number` 0, `EA-4/17` 0, `test-specific` 0.**
+
+**THE BINDING CONDITION WAS HONOURED: the article does NOT re-explain scope reduction.** The 1 November piece says check the scope; this one says what you are looking at when you do, and links across in one sentence.
+
+**THE BEST MATERIAL IS THE FLEXIBLE SCOPE: under EA-4/17 an organisation may add activities on defined criteria, so a scope is a living document and a saved copy is a snapshot.** Plus the transferable sentence that a laboratory accredited for one method may also run tests nobody assessed.
+
+**HONEST LIMIT STATED INSIDE THE ARTICLE AND REPEATED IN THE FAQ: every worked example is from testing, calibration or medical laboratory accreditation. Biobanking is ISO 20387 and NO equivalent published model scope for biobanks could be found.** **The article refuses to present a testing-laboratory template as a biobank one, which is the same gap the 1 November article flagged for sanctions and it has not closed.**
+
+**Internal links: `biobank-loses-accreditation`, `genetic-test-validated-meaning`. Sourcing limit stated: none of the five sources opened at its own domain, and A2LA and ISOBudgets are labelled as industry rather than standards-body publications.**
+
+**NEXT TWO QUEUED, AND THE POOL NEEDS A REFILL BECAUSE BOTH OLD QUEUE ENTRIES ARE NOW SPENT OR DEAD.** **(1) "What happens to prepaid services if the company shuts down" (lane d, rank-tracker candidate 7). BINDING CONDITION UNCHANGED AND IT IS THE HARDEST ONE IN THE POOL: it must address our own case explicitly, including what a MySpawn member would actually have if MySpawn stopped operating, and if that cannot be answered honestly the article does not ship and the founder sees the question instead.** **(2) "Can a spouse override a will" (lane c, rank-tracker candidate 6). BINDING CONDITION, NEW: the 3 November scripts and longpost #188 both used this material, every available source is a law-firm marketing page and they conflict, so the article must report the conflict and name no state's percentage as settled.**
