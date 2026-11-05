@@ -1208,3 +1208,35 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
   **TWO NEW NAMES, LEADS ONLY.** **SAPYEN (`Sapyen` ZERO across `reports/`): UK, reported to have launched sperm freezing "for one dollar" on 21 May 2026 per a press release. NOT logged as a competitor: outside our stated USA scope, press-release sourcing, and a one-dollar headline is almost always an acquisition price with an unstated recurring cost. Entity, jurisdiction and cost structure unverified.** **POSTERITY HEALTH (`Posterity` ZERO in baseline): reported $13M Series A in February, men's fertility, adjacent rather than direct.**
   **HANDOVER FROM THE 3 NOVEMBER PM RUN, NOW LOGGED: Human Longevity Inc. reported to have launched a $599 clinical-grade whole-genome sequencing product with AI insights in May 2026 (`Human Longevity` ZERO in this baseline).** **SO WHAT: not a price competitor to annual storage and we should not pretend it is. What it moves is the consumer price of a full genome read, which is the number our store-now-read-later argument quietly depends on.** **Lead: May 2026, secondary sourcing, entity unverified.**
   **Everything else unchanged. Bonus deep dive skipped for a SIXTH run (Cofertility unreachable). The leads-file re-scope proposed yesterday is running and took two entries today.**
+
+## 2026-11-05: FULLY QUIET DAY. NO WATCH FILE WRITTEN, PER THE BRIEF.
+
+**NO MATERIAL CHANGES IN ANY OF THE FOUR MONITORED GROUPS.** Watched: embryo screening (Nucleus Genomics queried by name), fertility preservation, direct-adjacent DNA and cryo, legacy tech. **Everything the sweep returned is already in this file.**
+
+**THREE ITEMS RETURNED AND ALL THREE WERE ALREADY OURS, which is the fourth time in eight days the file has prevented a re-report.** The March 2026 expansion of Nucleus "optimization" embryo testing to India and the Middle East: `India` returns 7 here and `Middle East` 4. A Fertility Institute of Hawaii joining the Nucleus IVF+ network: `Hawaii` returns 1 here and 1 in the watch files. The $14M Series A of January 2025 and the $5,999 embryo product of June 2025: both logged, `5,999` returning 2.
+
+**THE ROTATION IS BEING ADVANCED RATHER THAN SKIPPED FOR A SEVENTH TIME, and that is a decision this run is making rather than deferring.**
+
+**THE PROBLEM, stated once:** the bonus deep-dive rotation has pointed at **Cofertility** since 29 October, `www.cofertility.com` is denied by this environment's network policy, and the slot has now been skipped **six consecutive runs.** **Two consecutive declines is a judgement and three is a pattern; six is a broken rotation.** **Continuing to name a blocked target as "next" produces a skip line every day and no intelligence.**
+
+**THE DECISION: Cofertility's deep-dive slot is SUSPENDED, not skipped, and the rotation moves on.** **Suspension means the slot is not consumed: it returns to the front of the rotation the day `cofertility.com` is allowed in the environment's network settings, and the leads file continues to accumulate index-sourced items against it in the meantime.** **This costs nothing and stops the rotation idling.**
+
+---
+
+### QUIET-DAY DEEP DIVE: NUCLEUS GENOMICS (the advanced rotation's first target, chosen because it is reachable through the index and has never had a dive)
+
+**SOURCING LABEL, applied to everything below: all of it is index-sourced coverage and company releases read through a search index. No page was opened at its own domain.** Nothing here is a price we have confirmed on a live page.
+
+**THE HOOK, AND IT IS A SINGLE WORD DOING ENORMOUS WORK: "optimization".** Bloomberg's March 2026 headline uses it in quotation marks, which is a reporter's flag rather than a neutral description. **The company's IVF+ release frames the same thing as helping "establish a new standard for how families plan for the next generation".** **Those are two registers for one product: a technical-sounding noun for the service page and a warm generational line for the clinic channel.**
+
+**THE PRICING DISPLAY, and it is the opposite of ours.** One report gives the Nucleus Embryo product at **$5,999 at its June 2025 launch**. *(Reported figure, not confirmed on a live page.)* **What matters is not the size of the number, it is that the number travels through coverage rather than through a page we can read.** This is the same structural finding this lane recorded about a fertility competitor yesterday: **a price you can only find in somebody else's article is a price the seller has not committed to.**
+
+**THE CHANNEL IS THE TACTIC WORTH NOTING.** The IVF+ network signs individual fertility clinics, most recently a Hawaii institute. **The consumer is not the buyer in that motion; the clinic is.** A clinic that has joined a network will recommend the test as part of its own process, which converts a controversial direct-to-consumer product into a routine step inside an existing appointment. **That is a far stronger distribution position than advertising, and it is invisible from the outside.**
+
+**WHAT TO COUNTER, and it is not the product.** We do not sell screening, we take no position on whether anyone should use it, and attacking it would be a competitor move rather than an honest one. **What we can say, and have been saying all week, is the structural thing: ask where a price is published, and ask what a credential actually names.** **A company whose headline figure lives in a Bloomberg article and whose warm framing lives in a clinic release is a live illustration of the argument, and it does not need to be named to make it.**
+
+**ONE TACTIC WORTH STEALING, stated plainly because the brief asks for it.** **The clinic-channel motion is the tactic.** Our equivalent is not fertility clinics; it is estate attorneys and family offices, which the Partnership Prospector has recommended for eleven consecutive weeks without an answer. **This dive is the clearest external evidence yet that the channel motion beats the advertising motion in this category, and it arrives on the same day a paid batch was written with a release condition nobody has cleared.**
+
+**THREAT LEVEL: LOW AND UNCHANGED.** Different product, different buyer, different promise. **Reputation-adjacent only: when embryo "optimization" takes a public hit, the word "genetics" takes it with them, and we are in that blast radius without being in that business.**
+
+**NEXT IN THE ADVANCED ROTATION: SecuriGene / DNA Memorial**, which is direct-adjacent, has never had a dive, and is the closest thing in the watch list to our actual product.
