@@ -1240,3 +1240,43 @@ Founded **2019 in Berlin** by **Dr. Emil Kendziorra** and **Fernando Azevedo Pin
 **THREAT LEVEL: LOW AND UNCHANGED.** Different product, different buyer, different promise. **Reputation-adjacent only: when embryo "optimization" takes a public hit, the word "genetics" takes it with them, and we are in that blast radius without being in that business.**
 
 **NEXT IN THE ADVANCED ROTATION: SecuriGene / DNA Memorial**, which is direct-adjacent, has never had a dive, and is the closest thing in the watch list to our actual product.
+
+## 2026-11-06: FULLY QUIET DAY. NO WATCH FILE WRITTEN, PER THE BRIEF.
+
+**NO MATERIAL CHANGES IN ANY OF THE FOUR MONITORED GROUPS.** The rotation's named target was swept with its own query.
+
+**THE ROTATION TARGET WAS ALREADY OURS, AND MOST OF WHAT THE SWEEP RETURNED IS ON FILE.** `SecuriGene` returns 92 mentions in this file, `capsule` 37 and `498` 24; deep dives #2 and #19 already cover the product architecture. **This dive therefore reports only what is new, which is three small facts and one arithmetic finding against OUR OWN marketing line. Nothing is padded to fill the slot.**
+
+### THREE SMALL NEW FACTS
+
+**1. DNA Memorial has a corporate identity this file never recorded: a division of CG Labs Inc., Thunder Bay, Ontario.** `Thunder Bay` and `CG Labs` both return ZERO here. *(Press-release sourced, 2015, read through a search index.)* **Worth having because it is the first time we can name the legal entity behind a watched brand rather than the brand.**
+
+**2. A reseller distribution claim: SecuriGene partnered with over 1,000 funeral homes.** *(Undated claim, index-sourced. NOT logged as a fact: a partner count with no date and no source document is a marketing figure.)* **If true it is the same channel tactic the Nucleus dive identified yesterday: the consumer is not the buyer, the funeral director is.** **Two competitors in two days whose distribution runs through a professional who is already in the room.**
+
+**3. A figure not previously on file: a forensic-type option listed at $848, and a reseller single-capsule listing at $498 with multiples at $996, $1,494 and $2,988.** *(Reseller page, undated, Chinese-language version. Treat as unverified.)*
+
+### THE FINDING: THE RESELLER LADDER CONTRADICTS OUR CONFIRMED ADDITIONAL-CAPSULE PRICE
+
+**Our file records, confirmed 26 September, that additional capsules are $250 each.** **On that basis two capsules should be $748 and three $998.** **The reseller ladder is straight multiples of $498: $996 and $1,494.**
+
+**Those are different pricing models, not different numbers.** One prices the capsule as a repeated product; the other prices the first capsule and discounts the rest. **This does not resolve anything. It adds a fourth reading to a price this file has already flagged DO-NOT-QUOTE since 26 September, and it is the second competitor in three days whose own surfaces disagree about its own prices.** **The flag stands and is now better evidenced.**
+
+### THE ARITHMETIC FINDING, AND IT IS AGAINST OUR OWN COUNTER-LINE
+
+**This file carries a stored counter for MySpawn: "$99 a year while you're alive beats $498 at your funeral."**
+
+**Run the arithmetic and that line is fragile.** **At $99 a year, a member passes $498 at 5.03 years. Six years is $594. Ten years is $990. Twenty years is $1,980, which is four times their capsule.** **Against their $389 living-person kit the crossover is 3.93 years.**
+
+**So the sentence is true only for a member who stores for under five years, which is not the member we are selling to.** **A storage product whose entire pitch is decades cannot win a lifetime-cost comparison against a one-time purchase, and we should stop writing sentences that imply it can.**
+
+**THE HONEST COMPARISON, which is structural rather than numerical: they sell an OBJECT you keep; we sell CUSTODY you rent.** A capsule returned to a family is cheaper forever and is then subject to every hazard a family home contains: moves, floods, estate clearances, and nobody whose job it is to notice. **An accredited biorepository is more expensive forever and somebody's job is to notice.** **Both of those are true, and the comparison only works when both halves are said.**
+
+**A CLAIM IN THIS ENTRY WAS CHECKED AND TURNED OUT TO BE WRONG, AND IT IS CORRECTED HERE RATHER THAN DELETED.** A first draft of this section said the counter-line had never reached paid copy and that `beats $498` returned zero across `reports/ads/`. **It returns one.** `image-concepts-log.md` records that creative **212, built on 22 October, "replaces the '$99 a year beats $498 at your funeral' line that dive proved was not like-for-like."**
+
+**So the ad lane caught this fifteen days before this file did, and acted on it.** **What is genuinely new today is only the arithmetic: the crossover is 5.03 years against $498 and 3.93 years against $389, computed rather than asserted.** **What is genuinely wrong is this file: the baseline still carries a counter-line the creative lane retired on 22 October.** **A memory file that contradicts a shipped decision is worse than one that is merely out of date, because the next dive reads it as current.**
+
+**ACTION RECORDED, not taken: strike the stored counter-line from this file's SecuriGene entry so it matches the 22 October decision.** **Editing a stored positioning line is a founder decision, so it is flagged here and nowhere else.**
+
+**THREAT LEVEL: LOW AND UNCHANGED, but the reason has shifted.** It is not that they are a weaker product. **It is that they are a different one, and the five-year crossover means the honest sales conversation is about what custody is worth, not about price.**
+
+**NEXT IN THE ADVANCED ROTATION: Freeze Health**, which has never had a dive and is the last unvisited name in the fertility-preservation group. **Cofertility's slot remains SUSPENDED, per yesterday's decision, and returns to the front the day its domain is allowed.**
