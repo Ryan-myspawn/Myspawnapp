@@ -801,3 +801,9 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **ONE THING WORTH RECORDING TODAY RATHER THAN REPEATING THE ASK: the cost of this outage is no longer only the unread inbox.** **Yesterday four separate fleet runs ended with a package that had no email route, and each one fell back to writing a file and surfacing it in chat.** **That fallback works for this session and does not work for anyone who is not reading this session.** **If the digest route is not restored, the honest framing is not that email is broken; it is that the fleet currently has no way to reach anyone who is not watching it work.**
 
 **MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
+
+## 2026-11-06, day 71
+
+**NO TRIAGE. No thread read, no draft created, no digest sent. Inbox state unknown.** `search_threads` called with `newer_than:1d in:inbox`; server returned the re-authentication refusal. **State 2, unchanged for a fifth day.** **Seventy consecutive runs.**
+
+**MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
