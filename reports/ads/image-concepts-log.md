@@ -785,3 +785,11 @@
 **FINDING WORTH KEEPING: the reserve is a fallback for SEARCH OUTAGES, not for CONCEPT VARIETY.** It answers "can I get a photograph today" and cannot answer "can I get one that is not like the last three". **The fallback ladder is drafted as though one entry covers both.** **RE-SCOPE PROPOSED, executable without permission on the next run with spare capacity: bank BY OBJECT CLASS, asking what the last fourteen days consumed and banking deliberately away from it. A reserve of eleven photographs of the ground is one photograph.**
 
 **NOTHING WEAK WAS SHIPPED IN PLACE OF THE CONCEPT, and no vertical was available as a substitute: every ad directory back to 1 October already carries matching squares and verticals, recorded 2 November and unchanged.**
+
+## 2026-11-07
+- **Ad_NoOneLooked_225** (1:1 and 9:16). "No one reported a problem. No one looked." Empty dark concrete wall, Unsplash `2exJKlfFscI`, David Foodphototasty (@phototastyfood). Shipped.
+- Declined: the handed-over "two identical empty containers" direction, after the "buckets" search returned nothing usable (decline 1).
+- Declined: reserve photo `wNZfcbJnWYo`, a large painted numeral 3 in centre frame at full resolution (decline 2). Moved to DO-NOT-USE.
+- **Correction to 2026-11-06.** That run concluded the index does not hold pairs of objects. `two identical doors` returns 267 results, so the conclusion was wrong. The constraint is the object class, not the pairing.
+- Exposure: source already dark at mean L 80.4, built at 1.02, raised to 1.14 on inspection. The "start bright and come down" rule is restated as "set exposure by inspection in the direction the source demands".
+- Output: 1 creative, 2 ratios, against a nominal target of 10. Target lowering raised for the 33rd time.
