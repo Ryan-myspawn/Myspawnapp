@@ -807,3 +807,11 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NO TRIAGE. No thread read, no draft created, no digest sent. Inbox state unknown.** `search_threads` called with `newer_than:1d in:inbox`; server returned the re-authentication refusal. **State 2, unchanged for a fifth day.** **Seventy consecutive runs.**
 
 **MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
+
+## 2026-11-07, day 72
+
+**NO TRIAGE. No thread read, no draft created, no digest sent. Inbox state unknown.** `search_threads` called with `newer_than:1d in:inbox`; server returned the re-authentication refusal. **State 2, unchanged for a sixth day.** **Seventy-one consecutive runs.**
+
+**ONE THING WORTH ADDING TODAY, because the number has crossed a line that makes it countable rather than merely long.** **Seventy-one runs at one run a day is seventy-one days of an unread inbox for a company whose product is custody.** **If a single customer question arrived on any of those days it has been sitting unanswered for up to ten weeks, and this lane cannot tell you whether one did, because that is exactly the thing it cannot see.** **The honest statement is not "the inbox is quiet". It is "we do not know".**
+
+**MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
