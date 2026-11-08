@@ -696,3 +696,16 @@ These were verified available this run and deliberately not used, because **none
 
 ## SEARCH NOTE 2026-11-07
 `buckets` (10 results inspected): nothing usable, people or wrong object in every hit. `two identical doors`: **267 results**, which **disproves** yesterday's conclusion that the index lacks pairs. `plain concrete wall texture`: 251 results, several usable, one shipped. Consistent with the long-standing shape in this file: **the index is thick on architecture and surfaces and thin on plain domestic objects.** The rule that follows: before blaming the index for a composition, test that composition against a class the index is known to be rich in. If it works there, the problem is the class, not the composition.
+
+## DO-NOT-USE additions 2026-11-08
+| ID | Why killed |
+|---|---|
+| -i17wZCX3To | charlesdeluvio, alt text "white paper on white surface". At full resolution it is a blank **ENVELOPE**. Clean frame, no text, no face, and still unusable: **an envelope is the visual signature of the retired letter-to-the-future lane.** Recorded with the reason because the alt text will tempt a future run exactly the same way. |
+
+## CONSUMED 2026-11-08
+- `7y0jtu0dVEY` sourced fresh this run, not from the reserve. Banked here for re-renderability: a fan of stacked blank textured sheets on a dark surface, no text, no person. Karen Bullaro (@ksbullaro), https://unsplash.com/photos/a-pile-of-white-paper-sitting-on-top-of-a-table-7y0jtu0dVEY, raw https://images.unsplash.com/photo-1693592772086-e80960b134ed, 3024x3024 native, mean L 195.3. Consumed by Ad_AskWhenItLastMoved_226, so spent, not available.
+
+## SEARCH NOTE 2026-11-08
+`folded paper crease` returned 126 total and twelve inspected. **Three were explicitly labelled by their own uploader as "3D Rendering ... For Mockup", which the photo mandate forbids; several more were origami; one was envelopes; one was mattresses.** **Real photographs matching the brief: two, and one of those was the killed envelope.**
+**NEW NOTE FOR THIS FILE, and it is about the reserve rather than the search: a search that works perfectly can still yield nothing bankable.** The mandate asks for 6 to 10 vetted photos per working search, and today's honest answer is zero. **That is a different condition from a connector outage and should be recorded as such, so a future reader does not read an empty banking line as evidence the lane was down.**
+**AND A STANDING WARNING ADDED: on Unsplash, "paper" in alt text covers renders, origami, envelopes and mockups far more often than it covers a sheet of paper.** Budget for it when a concept depends on plain stationery.

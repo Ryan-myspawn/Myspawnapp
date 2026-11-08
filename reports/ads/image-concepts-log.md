@@ -793,3 +793,13 @@
 - **Correction to 2026-11-06.** That run concluded the index does not hold pairs of objects. `two identical doors` returns 267 results, so the conclusion was wrong. The constraint is the object class, not the pairing.
 - Exposure: source already dark at mean L 80.4, built at 1.02, raised to 1.14 on inspection. The "start bright and come down" rule is restated as "set exposure by inspection in the direction the source demands".
 - Output: 1 creative, 2 ratios, against a nominal target of 10. Target lowering raised for the 33rd time.
+
+## 2026-11-08
+- **Ad_AskWhenItLastMoved_226** (square). "Ask when it last moved." Visual hook: a fan of stacked blank sheets on a dark surface. Unsplash `7y0jtu0dVEY`, Karen Bullaro (@ksbullaro). Shipped.
+- **Ad_AskWhenItLastMoved_226_9x16 (adaptation).**
+- Declined: `-i17wZCX3To`, alt text says "white paper", the photo is a blank ENVELOPE and envelopes are the retired letter lane. Moved to DO-NOT-USE.
+- Declined as a class: the `folded paper crease` search is dominated by 3D renders, which the photo mandate forbids. Twelve results, two real photographs, one of them the envelope.
+- **The handed-over direction (a single sheet with one fold crease) was NOT findable.** The shipped pairing is different and is argued in the concept doc rather than forced to match the brief.
+- Exposure: first bright-source run since the 7 November rule. Started at brightness 0.90 and it held on first inspection. Rule worked as intended.
+- Nothing banked to the reserve: a working search that yields nothing bankable is not the same as a connector outage, and the distinction is recorded.
+- Output: 1 new concept, 2 ratios, against a target of 10. Target raised for the 34th time.
