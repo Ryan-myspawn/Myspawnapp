@@ -137,3 +137,17 @@
 **AND TODAY THE CARRY-OVER HAS A DIFFERENT MEANING, WHICH IS THE POINT OF THIS REPORT.** For six days this pick has been a finished asset waiting on a camera, recorded here as though no camera existed. **Today's Drive check shows a camera, a pipeline and 59 reels.** **So the pick stands, and the question attached to it changes from "will anything ever be shot" to "why is this not in the queue that is already shooting".** The second question has an answer and somebody knows it.
 
 **POST TODAY: "Better Than What?"**
+
+---
+
+## CORRECTION, issued 15:0x the same day by the Deep Production run
+
+**SCIENCE WATCH OVERSTATED ITS ONE ITEM AND CONCEPT 1 IS WITHDRAWN.**
+
+The Cleveland Clinic no-decline analysis was reported above as new to the fleet because `53 year` and `remained stable` returned zero. **The substance has been on air since 15 October**, in the episode "The Panic Came From A Real Number", which carried it as a counterweight **with its age and its different population attached**. This morning's entry carried neither, so the October handling was the better one.
+
+**CONCEPT 1, "The Other Number", IS WITHDRAWN.** It is a 24-day-old episode with a new phrase on it.
+
+**HOW THE CHECK FAILED, because it is more useful than the item was.** The mechanism grep `Cleveland Clinic` returns NINE hits. **This run did execute it, read the hits as a different Cleveland Clinic study, and did not open the production log to check.** **The two-level grep rule gains a clause: when a mechanism grep returns hits you believe are a different subject, open them. A hit you have explained away is not a zero.**
+
+**Everything else in this report stands, including the Drive finding, which was verified by direct calls rather than by grep.**

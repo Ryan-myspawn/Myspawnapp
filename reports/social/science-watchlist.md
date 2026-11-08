@@ -726,3 +726,13 @@ Nature / Nature Communications / Nature Medicine / Nature Aging · NEJM · Human
 **SPELLING TRAP LOGGED.** `sperm-maxxing` returns **ZERO** fleet-wide and `spermmaxxing` returns **13**. The term is in our files thirteen times and the hyphenated grep finds none of them. **Rule: a freshness grep on a coined internet term must be run in every spelling the internet uses, or it will report a gap that is not there.**
 
 **FERTILO / NCT06858111: not swept today, by design.** The 7 November run set a weekly cadence and recorded it so the interval is honoured rather than forgotten. **Next check 14 November. The dated on-air falsifier, 31 December 2026, is 53 days out.**
+
+### Correction to the 2026-11-08 Update Log, issued 15:0x the same day
+
+**THE ENTRY ABOVE OVERSTATED ITS OWN NOVELTY AND IS CORRECTED IN PLACE RATHER THAN DELETED.**
+
+It recorded the Cleveland Clinic no-decline analysis as new to the fleet, on the grounds that `53 year` and `remained stable` both returned ZERO. **The substance has been on air since 15 October.** The episode "The Panic Came From A Real Number" carries "the Cleveland Clinic no-decline counterweight carried WITH its age and its different population so it settles nothing."
+
+**WHAT WAS NEW WAS THE PHRASE, NOT THE FINDING. And the October handling was BETTER than this morning's**, because it carried the analysis's age and its different population, and the morning entry carried neither. **Treat the October formulation as this fleet's position on the item.**
+
+**THE RULE THAT SHOULD HAVE CAUGHT IT, with the clause it was missing.** The mechanism grep `Cleveland Clinic` returns NINE hits. **The radar ran it, saw nine, and explained them away as a different Cleveland Clinic study without opening the production log.** **NEW CLAUSE: when a mechanism grep returns hits you believe are a different subject, open them. A hit you have explained away is not a zero.** This is the mirror of the self-grep hazard: that rule says do not trust a single hit, this one says do not dismiss several.
