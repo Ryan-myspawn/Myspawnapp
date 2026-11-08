@@ -815,3 +815,13 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **ONE THING WORTH ADDING TODAY, because the number has crossed a line that makes it countable rather than merely long.** **Seventy-one runs at one run a day is seventy-one days of an unread inbox for a company whose product is custody.** **If a single customer question arrived on any of those days it has been sitting unanswered for up to ten weeks, and this lane cannot tell you whether one did, because that is exactly the thing it cannot see.** **The honest statement is not "the inbox is quiet". It is "we do not know".**
 
 **MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
+
+## 2026-11-08, day 73
+
+**NO TRIAGE. No thread read, no draft created, no digest sent. Inbox state unknown.** `search_threads` called with `newer_than:1d in:inbox`; the server returned the re-authentication refusal and the Gmail connector then disconnected for the remainder of this run. **State 2, unchanged for a seventh day.** **Seventy-two consecutive runs.**
+
+**NOTHING NEW IS CLAIMED TODAY.** Yesterday's entry made the only argument this lane has left to make: seventy-two days of an unread inbox at a company whose product is custody, with no way to tell from inside this lane whether a customer question is sitting in it. Repeating that reasoning at greater length would be padding. The count is the entry.
+
+**A PROCEDURAL NOTE THAT IS NOT ABOUT GMAIL.** This run can neither read the inbox nor send the digest, and both halves fail for the same reason, but **only one of them would work even if authentication were restored.** No Gmail tool available to this session sends mail; `create_draft` exists, `send_message` does not and never has. **So the digest step of this trigger's specification has never been executable, independently of the authentication problem, and would still not be executable tomorrow if the connector came back today.** Recorded here because fixing the authentication alone would leave this lane half broken and look like a fix.
+
+**MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
