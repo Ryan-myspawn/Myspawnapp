@@ -1314,3 +1314,29 @@ A fresh look at Legacy's published plans returns **one sample on a renewable one
 **THREAT LEVEL: UNCHANGED across all four groups.**
 
 **NEXT IN THE ADVANCED ROTATION: Tomorrow Bio or Alcor, whichever returns a dated item first; both have had dives but neither recently.** **Before that, the roll-call audit proposed in Finding 1 should run, because it is worth more than another dive.**
+
+- **2026-11-08:** **FULLY QUIET ON COMPETITOR MOVEMENT. No dated item inside the 24-48h window in any of the four monitored groups**, so no `watch-2026-11-08.md` is written, per the brief's own instruction. Swept: SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility (domain still blocked), Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, HereAfter, Empathy. **Embryo-screening sweep returned May 2026 NPR coverage, already here. Legacy-tech sweep returned Uare.ai's $10.3M seed from November 2025 and LifeAfter's December 2025 vault launch, both outside the window and neither new to this file's subject matter.**
+
+### QUIET-DAY DEEP DIVE: ALCOR AND TOMORROW BIO PRICING, and the dive finds a hole in OUR OWN method rather than in theirs
+
+**THE ROTATION'S CONDITION WAS NOT MET AND THE SLOT WAS TAKEN ANYWAY, which is a decision and is recorded as one.** The standing instruction was "Tomorrow Bio or Alcor, whichever returns a dated item first". **Neither returned a dated item.** Rather than skip, which is how the Cofertility slot broke, the dive was run on what the sweep did return: a spread of pricing and membership figures for both. **The condition is hereby rewritten as "whichever returns material first", because a dated-item condition on two companies that rarely generate dated items reproduces the exact failure this lane suspended a slot over nine days ago.**
+
+**WHAT IS GENUINELY NEW TO THIS FILE.** `222,603` returned ZERO, `neuropreservation` returned 1, `1,600 members` returned 1. Most Tomorrow Bio and Alcor material is already here at 66 and 65 mentions, so only the new is reported.
+
+- **Tomorrow Bio dues history:** raised in 2024 **from 25 euros per month to 50 euros per month**, with 500 euros per year and 9,999 euros lifetime also listed. **LABEL: blog and aggregator sources, undated or unclearly dated. The lifetime figure was already on file; the rise from 25 to 50 is new.**
+- **Alcor dues are age-banded:** one source gives **60 dollars per year for ages 1 to 17** against roughly **700 dollars per year for an adult**. **LABEL: same source class. New to this file.**
+- **Preservation prices, and they conflict across sources rather than agreeing:** Tomorrow Bio at 222,603 dollars plus 55 dollars monthly in one source, 200,000 euros whole body and 75,000 euros brain-only in another, 200,000 euros and 60,000 euros in a third. Alcor at 220,000 dollars whole body and 80,000 dollars neuro. **LABEL: four sources, four arrangements, none opened at its own domain. Recorded as a spread, not reconciled, and deliberately not averaged.**
+
+**THE FINDING THAT MATTERS, and it is about us.** The sweep produced **a third Alcor membership figure: roughly 1,600**, against the **"around 1,500"** this fleet published on 31 October and the **1,442** taken from a German-language profile on 2 November.
+
+**ON 2 NOVEMBER THIS LANE WROTE A METHOD RULE: where a figure is a monotonic counter, a lower value establishes that the source is earlier, which lets two undated sources be sequenced without dating either.** It was written about Alcor's **cryopreservation patient count**, and for that figure it holds: intake with no transfers out and no losses.
+
+**IT DOES NOT TRANSFER TO MEMBERSHIP, AND WE DID NOT SAY SO AT THE TIME.** A membership roll is **not** monotonic. Members lapse, cancel, and are removed when they die into the patient count, which is the one movement that decrements membership and increments the counter we were reasoning about. **So 1,442, 1,500 and 1,600 cannot be sequenced by size, and nothing about which is newest follows from any of them being larger.**
+
+**WHAT WE ARE DOING ABOUT IT: nothing to the published figures, and one line added to the rule.** **The 2 November method note is amended to carry its scope condition: it applies only to a counter that can be shown to move in one direction, and the burden is on the run invoking it to say WHY the counter is monotonic, not to assume it from the figure looking like a count.** **The three membership figures stay on file as three unreconciled figures, which is what they are.**
+
+**SO WHAT FOR MYSPAWN, and it is a positioning line rather than a threat.** The cryonics field's own published pricing cannot be pinned down to a single number by four sources reading the same public pages. **That is the strongest available external argument for the thing we sell as a differentiator: a single posted figure, $99 a year, billed annually, with nothing tiered behind it.** **The counter-risk is symmetrical and worth saying out loud: if an outsider swept OUR pricing from four aggregators they should find one number, and if they do not, this argument is ours to lose.**
+
+**THREAT LEVEL: none today.** No competitor moved.
+
+**NEXT IN THE ADVANCED ROTATION: CellSave**, which has had no dive and is direct-adjacent. **Cofertility's slot remains SUSPENDED and returns to the front the day its domain is allowed. The rotation's selection condition is now "returns material first", per the rewrite above.**
