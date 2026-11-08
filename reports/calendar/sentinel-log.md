@@ -407,3 +407,47 @@ On 20 September this log proposed keeping the Friday anchor and treating a Monda
 ## MOST IMPORTANT DATE IN THE NEXT 14 DAYS
 
 **There is no dated peg inside 14 days.** GTA 6 on 19 November is 18 days out and falls in the 21-day window but outside the fortnight. **Saying so plainly is more useful than promoting a weaker item to fill the slot.** **The most important thing in the next 14 days is not a date at all: it is the first shot asset, because eight post plans have now queued content that was never filmed, and no calendar entry fixes that.**
+
+---
+
+# Run of 2026-11-08 (Sunday)
+
+**BLOCKED, SECOND CONSECUTIVE WEEK. `list_events` returned the re-authentication refusal and the Google Calendar connector then disconnected. No event was read, created, updated or deleted. Nothing is claimed.**
+
+## LAST WEEK'S HYPOTHESIS IS DISPROVED, AND IT WAS DISPROVED BY ACCIDENT THIS MORNING
+
+Last week this log noted that Gmail and Google Calendar were both refusing re-authentication, and offered a hypothesis: **"If one re-authorisation covers the Google connectors as a group, a single action could unblock two lanes."** It was labelled at the time as an inference from a matching error shape rather than a verified fact, which is the only reason it is cheap to retract now.
+
+**IT IS WRONG.** At 13:08 today the Trend Radar made a series of successful Google **Drive** calls: it listed folders, resolved folder IDs, read file metadata and enumerated 59 reels. **Drive is a Google connector and it is fully authorised right now, while Gmail and Calendar are both refusing.**
+
+**So the connectors authorise individually, and there is no group action.** Unblocking this lane and unblocking the Inbox Concierge are two separate re-authorisations, not one.
+
+**WORTH KEEPING AS A METHOD NOTE:** the hypothesis was not tested, it was refuted by a different lane doing unrelated work. **A guess that sits in a log labelled as a guess gets checked eventually. The same guess written as a fact would have become a founder instruction to do one thing where two are needed.**
+
+## WHAT THIS RUN WOULD HAVE DONE
+
+**Window: 8 to 29 November 2026, 21 days. 15 weekdays (9 to 13, 16 to 20, 23 to 27). Tuesdays 10, 17, 24. Fridays 13, 20, 27.**
+
+**DATED PEGS INSIDE THE WINDOW:**
+
+1. **Thursday 19 November: "[MySpawn] GTA 6 release", plus a prep reminder Wednesday 18 November**, per the standing 24-hour rule. **11 days out and now INSIDE the fortnight for the first time.** **This is the only externally dated peg in the window.** **A NOTE THAT MATTERS MORE THAN THE PEG: the radar has carried a 12 November internal writing deadline for this arc, which is 4 days away, and no GTA 6 asset exists. The peg is creatable; the asset is not yet real.**
+
+2. **Daily weekday "[MySpawn] Shoot block", 11:00 IST, 45 minutes.** **LAST WEEK'S RECOMMENDATION IS WITHDRAWN AND REPLACED, because this morning's Drive finding changed its factual basis.** Last week this log argued that creating 15 blocks against a two-week filming drought was calendar theatre, and recommended creating exactly one. **That argument rested on "nothing is being filmed", which turns out to be false: there is an active reel pipeline with at least 59 numbered reels, the most recent dated 4 November.** **What is actually true is narrower and the distinction is the whole point: a pipeline exists, and our scripts cannot be confirmed to be in it.** **REVISED RECOMMENDATION: create no shoot blocks at all until that question is answered.** A block booked against a pipeline that already has its own schedule is not theatre, it is interference, and it is a worse error than the one avoided last week.
+
+3. **Weekly anchors: "[MySpawn] Approve partner outreach", Tuesday evenings IST (10, 17, 24 November).** Creatable. **The Partnership Prospector has been raised unanswered eleven times, so this anchor would be booking time for a lane with no instruction, but an empty calendar slot for a pending decision is honest.**
+
+4. **"[MySpawn] Send newsletter", Friday mornings IST (13, 20, 27 November): STILL DO NOT CREATE.** **Seven issues are now written and unsent, and the position is unchanged and now verified twice over: no Gmail tool available to this session sends mail, and Gmail is additionally refusing authentication.** **An anchor that cannot be executed is worse than no anchor.** **This is the seventh week this line has been written.**
+
+**DATED PEGS OUTSIDE THE WINDOW, carried so next week does not rediscover them:**
+
+- **Monday 7 December: CMS CLIA comment deadline. 29 days out, and it enters the 21-day window on 16 November.** **Longpost #156 has now been named publish-first THIRTEEN times without going out.** **It remains the single most consequential date this operation holds.**
+
+**NO WATCHLIST PEGS ARE CREATABLE, unchanged.** Vitara has no FDA IDE decision date. VIBRANT has no readout date. **Gameto's Phase 3 interim readout is anticipated "late 2026" with no date, so it cannot become an event; the operation's own on-air falsifier, 31 December 2026, is 53 days out and IS a real date, but it is ours rather than theirs and belongs in the watchlist, not the calendar.**
+
+**NOTHING WAS CREATED, SO NOTHING IS CLAIMED. The list above is a plan, not a record.**
+
+**NO EMAIL: no send-capable tool exists in the Gmail connector in any state, and Gmail is refusing authentication besides. Repository delivery only.**
+
+## MOST IMPORTANT DATE IN THE NEXT 14 DAYS
+
+**Thursday 19 November, the GTA 6 release, 11 days out.** It is the first time in three weeks that this line can name an actual date rather than concede there is none. **The honest qualifier travels with it: the internal writing deadline for that arc is Thursday 12 November, 4 days away, and nothing has been written against it.**
