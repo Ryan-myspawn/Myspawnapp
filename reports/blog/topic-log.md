@@ -1177,3 +1177,15 @@ The radar's platform sweep found that **"legacy contact" covers three incompatib
 **MySpawn section is self-limiting:** a DNA record is not a will, disposes of no property and appoints nobody. The only connection claimed is a habit, that capacity and custody are both questions about what was true at a specific instant. **Internal links: `self-proving-affidavit-will`, `can-a-spouse-override-a-will`.** **Sourcing limit stated on the page: no source opened at its own domain, and nothing on the page is legal advice.**
 
 **NEXT TWO QUEUED.** **(1) "What does an executor actually do" (lane c), held to 14 November for the fleet-repetition reason above.** **(2) "How long does a bank keep records after you die" (lane d).** **NOT YET GREPPED: it is queued as a candidate, not as a confirmed gap, and the next run must grep it before writing rather than inherit this line as clearance.** That instruction is here because a queue entry reading as pre-cleared is exactly how a repeat gets published.
+
+## QUEUE ADDITIONS from the rank tracker, 2026-11-09
+
+**All five GAP-VERIFIED at two levels against 81 published articles (bodies AND slug list) and NONE volume-verified**, because Semrush returned `no_api_units` for an eleventh consecutive week and no volume or difficulty figure could be retrieved.
+
+1. **Who decides what happens to the body (right of sepulcher)** *(from rank tracker, #1 pick)*. `sepulcher` 0, no slug; `disposition of remains` returns 1, so the phrase is touched once and the authority question never asked.
+2. **No-contest clauses in a will** *(from rank tracker)*. `no-contest` 0, `in terrorem` 0, no slug. **Pairs directly with `testamentary-capacity-explained`, published 8 November, which ends on who proves what.**
+3. **How long a bank keeps records after you die** *(from rank tracker)*. `bank records` 0, no slug. **This CLOSES the handover left in this log on 8 November, which queued the topic and explicitly flagged it as not yet grepped. It is now grepped and clean.**
+4. **Dormant accounts and unclaimed property** *(from rank tracker)*. `dormant account` 0, `unclaimed property` 0, no slug; `escheat` returns 2, so the mechanism is named and the consumer-facing question is not.
+5. **Letter of instruction** *(from rank tracker, CONDITIONAL)*. `letter of instruction` 0, no slug. **BINDING CONDITION: the word "letter" sits beside the RETIRED letter-to-the-future lane. This is an estate document, not a message to the future, and the distinction must be explicit in the first paragraph. If a run cannot hold that separation, KILL it rather than publish it.**
+
+**THREE CANDIDATES TESTED AND DELIBERATELY NOT QUEUED:** `advance directive` returns 2, `guardianship` 3, `conservator` 3. **That is partial coverage, not a gap, and queueing partial coverage is how this queue filled with dead entries in October.**

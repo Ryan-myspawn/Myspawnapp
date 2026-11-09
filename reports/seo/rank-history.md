@@ -64,3 +64,17 @@ NO DATA: Semrush API units exhausted for the FOURTH consecutive week (subscripti
 **CROSS-LANE NOTE: last week's correction of the founder brief held.** This morning's brief used the verbose probe, reached the egress diagnosis independently, and withdrew its own earlier "deploy pending" framing. **First demonstrated case here of a correction surviving a week and transferring between lanes.**
 
 **Seven keyword candidates queued to `topic-log.md`, all GAP-VERIFIED at two levels against 73 articles and NONE volume-verified.** Two complete zeros (`perpetual care`, `trust protector`) were deliberately NOT queued as too far from the audience and the product. **One substring trap logged: `disclaim` returning 8 articles is mostly the word `disclaimer`.**
+
+## 2026-11-09 snapshot
+
+**NO DATA. ELEVENTH CONSECUTIVE.** `domain_overview` returned `no_api_units` on a live call: active subscription, insufficient API units, not retryable. Top-up at https://www.semrush.com/mcp-access . One call spent, no competitor queried. **Positions: none. Deltas: none.**
+
+**Blog performance unverifiable for the EIGHTH consecutive week, both grounds re-tested rather than carried.** Verbatim: proxy answers `CONNECT www.myspawn.me:443` with `HTTP/1.1 403 Forbidden`; curl reports `CONNECT tunnel failed, response 403`; control host returned 200 in the same loop.
+
+**FIVE queued, the brief's floor, and THREE candidates deliberately rejected as partially owned (`advance directive` 2, `guardianship` 3, `conservator` 3).** Queueing partial coverage is exactly how this queue filled with dead entries in October, and the October reframing holds: **the queue is a gap list that decays, not a backlog to drain.**
+
+**#3 in the queue CLOSES AN EXPLICIT HANDOVER: yesterday's SEO Writer queued "how long does a bank keep records after you die" and flagged that it had NOT been grepped, with an instruction not to inherit the line as clearance. It is now grepped at both levels and clean.** First time an ungrepped-queue flag has been raised and then honoured by the next run.
+
+**SECOND SPELLING TRAP IN TWO DAYS:** `healthcare proxy` 2 against `health care proxy` 0, the same class as `spermmaxxing` yesterday.
+
+**A STANDING OBSERVATION, stated once:** three published articles trace to this queue (`who-is-next-of-kin`, `cryo-tank-failure`, `biobank-consent-what-you-are-agreeing-to`) and **zero outputs trace to Semrush in eleven weeks.** The gap-list half of this lane works without the data half.
