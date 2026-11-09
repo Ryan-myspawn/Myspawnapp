@@ -736,3 +736,17 @@ It recorded the Cleveland Clinic no-decline analysis as new to the fleet, on the
 **WHAT WAS NEW WAS THE PHRASE, NOT THE FINDING. And the October handling was BETTER than this morning's**, because it carried the analysis's age and its different population, and the morning entry carried neither. **Treat the October formulation as this fleet's position on the item.**
 
 **THE RULE THAT SHOULD HAVE CAUGHT IT, with the clause it was missing.** The mechanism grep `Cleveland Clinic` returns NINE hits. **The radar ran it, saw nine, and explained them away as a different Cleveland Clinic study without opening the production log.** **NEW CLAUSE: when a mechanism grep returns hits you believe are a different subject, open them. A hit you have explained away is not a zero.** This is the mirror of the self-grep hazard: that rule says do not trust a single hit, this one says do not dismiss several.
+
+### Update Log, 2026-11-09
+
+**NO MATERIAL CHANGE TO ANY ENTRY. One item surfaced, was checked against the mechanism terms first, and was discarded.**
+
+**THE ITEM:** September 2025 coverage of OHSU creating human eggs from adult skin-cell DNA, carrying the figure **82 functional developing eggs** created and fertilised. *(News coverage of a published study, index-sourced.)* **Not new to us by a wide margin: `OHSU` 80, `Mitalipov` 62, `mitomeiosis` 34, `82 functional` 4.**
+
+**RECORDED BECAUSE OF THE ORDER OF OPERATIONS, NOT THE ITEM.** The clause added to the two-level grep rule yesterday afternoon, after it failed twice in one morning, says: **when a mechanism grep returns hits you believe are a different subject, open them; a hit you have explained away is not a zero.** **Today the mechanism greps ran before anything was drafted and killed the item in one step.** First clean application.
+
+**A GENUINE ZERO, DECLINED RATHER THAN BANKED.** `George Church` and `somatic cell nuclear transfer` both return **ZERO fleet-wide**. **The item behind the gap is August 2025 coverage describing a lab as "a step closer" to growing eggs on demand, with a startup reportedly planning to finish the work. Fifteen months old, no figure, no named endpoint.** **Declined. A zero in our files measures our coverage, not the item's quality.**
+
+**WHAT THE ZERO DOES JUSTIFY, as a note for whoever picks the next science-story subject: our IVG coverage names ONE laboratory eighty times and another not once.** That concentration is worth knowing before a subject is chosen.
+
+**FERTILO / NCT06858111: not swept today, by design. Weekly cadence set 7 November, next check 14 November. Dated on-air falsifier 31 December 2026, 52 days out.**
