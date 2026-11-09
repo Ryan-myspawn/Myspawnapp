@@ -825,3 +825,15 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **A PROCEDURAL NOTE THAT IS NOT ABOUT GMAIL.** This run can neither read the inbox nor send the digest, and both halves fail for the same reason, but **only one of them would work even if authentication were restored.** No Gmail tool available to this session sends mail; `create_draft` exists, `send_message` does not and never has. **So the digest step of this trigger's specification has never been executable, independently of the authentication problem, and would still not be executable tomorrow if the connector came back today.** Recorded here because fixing the authentication alone would leave this lane half broken and look like a fix.
 
 **MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
+
+## 2026-11-09, day 74
+
+**NO TRIAGE. No thread read, no draft created, no digest sent. Inbox state unknown.** `search_threads` called with `newer_than:1d in:inbox`; the server returned the re-authentication refusal and the connector then disconnected. **State 2, unchanged for an eighth day. Seventy-three consecutive runs.**
+
+**ONE THING IS GENUINELY NEW TODAY, and it narrows the ask rather than repeating it.** Yesterday's Calendar Sentinel had carried a hypothesis from last week that Gmail and Google Calendar, both refusing with the same error shape, might re-authorise together as a group. **That hypothesis is now disproved.** Yesterday's Trend Radar made a series of successful Google **Drive** calls while doing unrelated work: it listed folders, resolved IDs and enumerated 59 files. **Drive is a Google connector and it is fully authorised right now, while Gmail and Calendar both refuse.**
+
+**SO THE CONNECTORS AUTHORISE INDIVIDUALLY AND THERE IS NO SINGLE ACTION.** Unblocking this lane is its own re-authorisation, separate from the Calendar one. **The ask is smaller and more specific than it was yesterday: re-authorise Gmail. Not "the Google connectors".**
+
+**AND THE SECOND HALF OF THE ASK IS UNCHANGED AND INDEPENDENT:** even with authentication restored, the digest step of this trigger cannot run, because no Gmail tool available to this session sends mail. `create_draft` exists; `send_message` does not. **Re-authorising Gmail would restore triage and drafting and would still leave the digest undeliverable.**
+
+**MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
