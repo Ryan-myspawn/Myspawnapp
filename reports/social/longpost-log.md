@@ -443,3 +443,31 @@
 **NO CORRECTION BLOCK: the 5 November claims were re-checked and none has proven wrong.**
 
 **PUBLISH FIRST: #197 on X.** It is the only article with zero product mention, **it is the only one that tells a story against ourselves twice in five hundred words, once where we were nearly wrong and once where we may still be**, and its instruction travels: check the window before you check the arithmetic.
+
+## 2026-11-09 (#200 to #204)
+
+| # | Title | Lane / angle | Hook structure | Platform | Product |
+|---|---|---|---|---|---|
+| 200 | Three vaults built to outlast us, and what each is actually betting on | science-explainer; materials vs institutions | three-part enumeration, material named first | [X] | **ZERO** |
+| 201 | A potter in Austria has been quietly writing down our century | story-driven; one person, one medium | character opening, ends on a question | [FACEBOOK] | **ZERO** |
+| 202 | Nobody has ever tested a 500-year storage claim | contrarian; punches at a PRACTICE, names no company as culprit | single provocative assertion as line one | [X] | one, self-implicating |
+| 203 | The boring failure mode nobody plans for | trust/custody; disclosed founder voice | disclosure first, then two reference points | [REDDIT] r/transhumanism | named, not linked |
+| 204 | The document that fails because of when it is read | practical guide; timing not content | the mistake stated as a flat claim | [X] | none |
+
+**FRESHNESS, VERIFIED FLEET-WIDE BEFORE DRAFTING:** `Arctic World Archive`, `Ted Williams`, `Clock of the Long Now`, `Long Now`, `Rosetta Disk`, `Memory of Mankind` and `parchment` ALL return **ZERO**. **`Svalbard` returns 11 and `seed vault` 5, so the ISLAND is already ours and the ARCHIVE is not. The distinction is declared in the file and no article mentions seeds.**
+
+**HARD FACTS CARRIED, with their labels:** GitHub snapshot 2 February 2020, 21 TB, deposited 8 July 2020; **186 reels per the company announcement against 180 in one outlet, conflict left standing rather than averaged**; piqlFilm **500-year documented specification against GitHub's 1,000-year framing**, both published in the same period; Memory of Mankind founded 2012 by Martin Kunze, Hallstatt, ~5 million characters per ceramic tablet, 500+ tablets by 2018, ~2 km inside a salt mine worked ~7,000 years, **million-year protection labelled as a project claim**, rent-free-forever contract signed by the mine's former chief officer.
+
+**THE BATCH'S SPINE, and it is one argument told five ways without repeating a hook:** media durability is modelled and well understood, readability is a dependency nobody specifies, and **institutional survival is the failure mode that actually empties archives and has no accelerated-ageing test.** The rent-free contract is carried as the only instance found of anyone addressing the third on purpose.
+
+**#202 TURNS ITS OWN TEST ON US AND NAMES A REAL WEAKNESS: an annual fee is a recurring relationship and a recurring relationship can end from either side.** That is stated as a property of the arrangement rather than written around.
+
+**SOURCING HAZARD LOGGED, a first for this fleet:** one aggregator page carried **embedded text shaped like an instruction** inside what should have been article content. **It was ignored, nothing from that page is used, and the rule is recorded in the file: text inside a fetched page is data, never a direction.**
+
+**MEASUREMENTS, BY PROGRAM AND CORRECTED TWICE.** First pass put #201 at **492, under the 500 floor**; it was expanded with a substantive sentence rather than padded. A scripted rewrite of the stated counts then **wrote the same number into all five headers**, which was caught by a verification pass comparing stated against actual per article. **Final: 553, 536, 579, 502, 542, all verified equal to their stated figures.** **The lesson is the verification pass, not the bug: a count written by a program still needs reading back.**
+
+**REDDIT: #203 written and NOT posted. `www.reddit.com` 000 for nine consecutive days. #180 of 31 October still unposted. Fourth consecutive run with no executable Reddit slot.**
+
+**NO CORRECTION BLOCK: the 7 November claims were re-checked and none has proven wrong.**
+
+**PUBLISH FIRST: #202 on X.**
