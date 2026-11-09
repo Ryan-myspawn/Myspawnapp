@@ -803,3 +803,11 @@
 - Exposure: first bright-source run since the 7 November rule. Started at brightness 0.90 and it held on first inspection. Rule worked as intended.
 - Nothing banked to the reserve: a working search that yields nothing bankable is not the same as a connector outage, and the distinction is recorded.
 - Output: 1 new concept, 2 ratios, against a target of 10. Target raised for the 34th time.
+
+## 2026-11-09
+- **Ad_WhyDoesItRecur_227** (square). "Why does it recur?" Visual hook: top-down asphalt with a continuous unbroken line and a segmented dashed line in the same frame. Unsplash `wmoml4uefao`, Bence Balla-Schottner (@ballaschottner). Shipped.
+- **Ad_WhyDoesItRecur_227_9x16 (adaptation).** **Re-composed after the first render:** the centre crop lost the dashed line and therefore half the argument. The photo layer was re-offset to the source's right edge. **A vertical that drops the element the concept rests on is a blind crop in effect, however deliberately it was composed.**
+- **Zero declines, a first in a week.** The three previous runs took two, two and one. **The difference is that today's direction named a COMMON road feature instead of a scarce staged object**, which is the same lesson the 20 September and 8 November search notes both reached.
+- **Mirror-safe miss caught and fixed:** the export loop floors at q60 and the vertical finished at 964,726 bytes, over the ceiling. Re-exported with chroma subsampling 2 at 947,352. **A step-down loop with a floor can terminate above the limit; re-check after the loop.**
+- Pricing rail: "one-time" appears once, describing a competing structure, which is the only permitted context. Not applied to MySpawn anywhere.
+- Output: 1 new concept, 2 ratios, against a target of 10. Target raised for the 35th time.
