@@ -1340,3 +1340,29 @@ A fresh look at Legacy's published plans returns **one sample on a renewable one
 **THREAT LEVEL: none today.** No competitor moved.
 
 **NEXT IN THE ADVANCED ROTATION: CellSave**, which has had no dive and is direct-adjacent. **Cofertility's slot remains SUSPENDED and returns to the front the day its domain is allowed. The rotation's selection condition is now "returns material first", per the rewrite above.**
+
+- **2026-11-09:** **FULLY QUIET. No dated item inside the 24-48h window in any of the four monitored groups**, so no `watch-2026-11-09.md` is written, per the brief. Swept: SecuriGene/DNA Memorial, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, Legacy, Fellow, Cofertility (domain still blocked), Freeze Health, Orchid, Nucleus, Herasight, StoryWorth, HereAfter, Empathy. **The embryo-screening sweep returned the same May 2026 NPR coverage already on file for the third consecutive day.**
+
+**THE SWEEP PRODUCED ZERO NEW FACTS, AND THE REASON IS WORTH A LINE BECAUSE IT IS THE SELF-GREP RULE PAYING OFF.** Two price ranges came back that looked new: **US cord-blood banking at roughly $1,000 to $3,500 upfront with roughly $100 to $400 a year.** Both greps returned **exactly one hit**, which is the hazard case the rule names. **Both were opened. Both are already on file at line 244, with better detail than today's source: Cord Blood Registry's three published structures, about $1,795 upfront with $400 a year, about $7,385 for eighteen years with no yearly fee, or about $11,385 for lifetime storage.** **Nothing was added. A run that had trusted the count would have filed a worse version of a fact it already held.**
+
+### QUIET-DAY NOTE: the rotation target could not be dived, and that is now a pattern rather than an incident
+
+**The rotation's named target was CellSave.** A direct search for CellSave pricing **returned nothing about CellSave at all**: every result was a different company's cord-blood page, a consumer price guide, or a hospital explainer.
+
+**THIS IS THE SECOND TIME, AND THE FIRST ONE IS ON FILE.** On 6 November the target was Freeze Health and the finding was recorded in exactly these words: a direct search returned nothing about it, not a thin result, not an undated one, and the engine returned other companies' pages instead.
+
+**BUT THE CONCLUSION IS DIFFERENT THIS TIME, AND IT INVERTS THE OBVIOUS ONE.** `CellSave` returns **65 mentions in this file.** **The company is already among the best-covered names we track.** So the failure today is not a coverage gap, it is the rotation selecting a name whose marketing the index cannot currently surface, for a company we have already dived.
+
+**WHAT THAT MEANS FOR THE ROTATION, stated as a proposal rather than a change already made:** the rotation has been selecting by "who has not had a dive recently", and that has now produced a suspended slot (Cofertility, blocked domain), a dead slot (Freeze Health, invisible to the index) and today's redundant slot. **A better selector is "which name do we hold the least about", which is answerable in one grep of this file and would have skipped CellSave at 65 mentions.**
+
+### THE ONE THING WORTH TAKING FROM TODAY, and it is a copy angle rather than an intelligence item
+
+A result title in the cord-blood category reads, in substance, **one-time versus annual fees**, presented as the decision the buyer has to make. **`one-time vs annual`, `annual vs prepaid` and `why annual` all return ZERO in this file and ZERO across `reports/ads/`.**
+
+**SO WHAT FOR MYSPAWN, and it cuts both ways.** The adjacent category **markets that choice to buyers directly**, which means a prospect arriving at our page may already have been taught to ask why a storage fee recurs. **That is useful: the question is not hostile, it is the category's own framing, and we have a straight answer.** It is also a warning: **our pricing rail exists because "one-time" was once written in our own copy by mistake, and the one place a competitor category actively pushes that word is the place our own error would be most costly to repeat.**
+
+**NO NUMBER FROM ANY COMPETITOR'S PAGE IS FILED FROM THIS OBSERVATION**, because none was verified at its own domain today. **The angle is filed; the prices are not.**
+
+**THREAT LEVEL: none today.** No competitor moved.
+
+**NEXT IN THE ADVANCED ROTATION: selected by least-held rather than least-recent, per the proposal above. On that basis the target is Empathy**, which returns the fewest mentions of any name on the watch list and has never had a dive. **Cofertility remains SUSPENDED until its domain is allowed.**
