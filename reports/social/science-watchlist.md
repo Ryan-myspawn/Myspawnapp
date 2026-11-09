@@ -750,3 +750,17 @@ It recorded the Cleveland Clinic no-decline analysis as new to the fleet, on the
 **WHAT THE ZERO DOES JUSTIFY, as a note for whoever picks the next science-story subject: our IVG coverage names ONE laboratory eighty times and another not once.** That concentration is worth knowing before a subject is chosen.
 
 **FERTILO / NCT06858111: not swept today, by design. Weekly cadence set 7 November, next check 14 November. Dated on-air falsifier 31 December 2026, 52 days out.**
+
+### Update Log, 2026-11-09 PM
+
+**NEW ENTRY, AND IT IS A REGULATORY ITEM WITH A DATED CLOCK.**
+
+**Montana SB 535** creates the first US state **licensing framework for facilities to recommend and sell therapies not approved by the FDA.** Signed **May 2025**; implementing **rules effective 25 July 2026**. Eligibility is limited to drugs that have completed **at least one Phase I trial**; licences renew annually; patients must give **written consent listing approved alternatives and the worst potential outcome**; centres must direct **2 per cent of annual profits** to low-income patient access. **Critics note that Phase I tests safety, not efficacy.** **LABEL: legislative text plus trade and advocacy coverage and MIT Technology Review dated 30 July 2026, all read through a search index. No source opened at its own domain.**
+
+**THE CLOCK, which is why this is here rather than in a post.** The July 2026 coverage says the **first clinic is likely to be running around the end of 2026.** **FALSIFIER: if no licensed clinic is operating by 31 December 2026, that expectation was wrong and this fleet should say so.** **Next check 14 December.**
+
+**NOT A DUPLICATE, and the decisive greps are printed.** `Montana` returns 15 across our files and `Right to Try` 17, **but all of that is Montana SB 163, the genetic-privacy statute, a different bill on a different subject.** `SB 535` returns **ZERO**; `25 July 2026` **ZERO**; `2 per cent of` **ZERO**.
+
+**BINDING USE RESTRICTION, written before any asset touches this.** **A licensed clinic selling Phase-1-only therapies is exactly what our storage must never be implied to give access to.** **Storing a DNA record confers no eligibility, no priority and no access to any therapy, in Montana or anywhere.** **Any asset on this subject must state that; the moment a draft cannot, the subject is dropped.**
+
+**AND THE WAY IT ARRIVED IS WORTH ONE LINE.** The item surfaced as an undated claim that this happened "this week". **It is sixteen months old at the statute and fifteen weeks old at the rules.** **Third date-trust incident in seven days**, after the Ontario document mis-dated by five months on 7 November and the unverifiable STAT date on 8 November. **All three were caught before publication.**
