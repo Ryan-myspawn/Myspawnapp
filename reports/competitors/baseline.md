@@ -1366,3 +1366,47 @@ A result title in the cord-blood category reads, in substance, **one-time versus
 **THREAT LEVEL: none today.** No competitor moved.
 
 **NEXT IN THE ADVANCED ROTATION: selected by least-held rather than least-recent, per the proposal above. On that basis the target is Empathy**, which returns the fewest mentions of any name on the watch list and has never had a dive. **Cofertility remains SUSPENDED until its domain is allowed.**
+
+- **2026-11-10:** **FULLY QUIET. No dated item inside the 24-48h window in any of the four monitored groups**, so no `watch-2026-11-10.md`. Two sweeps run: one general across the four groups, one on the rotation target. **The general sweep returned a 2017 sperm-bank screening partnership, a 2020 cryobank rebrand and the same May 2026 NPR embryo-screening coverage now on its fourth consecutive appearance.** Nothing dated today.
+
+### CORRECTION TO YESTERDAY'S OWN ENTRY, and it is the exact failure the proposal was meant to fix
+
+**Yesterday this file proposed replacing the deep-dive rotation's "least-recently dived" selector with "least-held", on the grounds that it is answerable in one grep. It then named Empathy as the next target, describing it as returning "the fewest mentions of any name on the watch list."**
+
+**That was asserted without running the grep. It is wrong.** Counted today:
+
+| Name | Mentions in this file |
+|---|---|
+| **Cryonics Institute** | **39** |
+| Freeze Health | 46 |
+| Fellow | 49 |
+| HereAfter | 60 |
+| CellSave | 69 |
+| Empathy | **70** |
+| Tomorrow Bio | 73 |
+
+**Empathy is sixth from the bottom, not first. The least-held name is the Cryonics Institute at 39.**
+
+**THE LESSON IS NARROW AND WORTH KEEPING.** A selector whose whole justification is "it is answerable in one grep" is worthless if the run that proposes it does not run the grep. **Proposing a measurement and then estimating it in the same breath is the same failure this operation corrected in the radar on 8 November, in a different lane, with different words.** **The selector stands. The application was wrong and is corrected here rather than quietly re-aimed.**
+
+### QUIET-DAY DEEP DIVE: EMPATHY (run before the correction, and kept because it produced material)
+
+**Already heavily held at 70 mentions, so only what is NEW is reported.** `72M` returns 2 and `Series C` 4, so **the May 2025 $72M Series C is already on file and is not re-reported.**
+
+**NEW TO THIS FILE:**
+- **Total funding reported at about $162M across four rounds.** `162M` returned **ZERO**. *(Investor data aggregator, index-sourced.)*
+- **"Eight of the top ten US life insurers"** as partners, and **over 45 million people supported across North America**, both dated April 2026. `eight of the top ten` and `45 million` both returned **ZERO**. *(Investor data aggregator; treat with the caution that source class deserves.)*
+- **A REACH CONFLICT, left standing rather than reconciled.** That 45 million figure sits against a separate claim of **five million employees and 35 million policyholders.** **`35 million` already returns 3 here, so the smaller pair is the figure we hold.** **The two are not obviously the same quantity and no attempt is made to make them agree.**
+- **Pricing remains non-public.** Empathy is free to users whose employer, insurer, bank or health plan partners with it, and **cannot be bought directly.** The only pricing comparisons available come from competitors' own comparison pages.
+
+### THE FINDING THAT MATTERS, and it is a gap in the watch list rather than a fact about Empathy
+
+The pricing comparisons came from **Elayne** and **SwiftProbate**. **Both return ZERO in this file.**
+
+**That means a whole adjacent sub-category exists that we do not track: post-loss administration and probate-support platforms.** They are not DNA companies and they are not cryonics. **They are the software layer around exactly the estate-administration problem our blog has written about four times in the last week**, and at least two of them are competing hard enough to maintain head-to-head comparison pages against Empathy.
+
+**SO WHAT FOR MYSPAWN: a copy angle and a watch-list proposal, and no threat.** They do not sell storage and we do not sell probate help. **The angle is that somebody is already answering "what do I actually do now" for the families who will one day be asked to retrieve a stored record**, which is the handover point our custody writing keeps arriving at. **PROPOSAL: add post-loss administration as a fifth monitored group, with Elayne and SwiftProbate as its first two names.** Not added unilaterally; the four groups are the founder's specification.
+
+**THREAT LEVEL: none today.** No competitor moved.
+
+**NEXT IN THE ADVANCED ROTATION: the CRYONICS INSTITUTE, at 39 mentions, selected by the least-held rule WITH THE COUNT ACTUALLY RUN.** Cofertility remains SUSPENDED until its domain is allowed.
