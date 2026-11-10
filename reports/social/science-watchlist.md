@@ -764,3 +764,19 @@ It recorded the Cleveland Clinic no-decline analysis as new to the fleet, on the
 **BINDING USE RESTRICTION, written before any asset touches this.** **A licensed clinic selling Phase-1-only therapies is exactly what our storage must never be implied to give access to.** **Storing a DNA record confers no eligibility, no priority and no access to any therapy, in Montana or anywhere.** **Any asset on this subject must state that; the moment a draft cannot, the subject is dropped.**
 
 **AND THE WAY IT ARRIVED IS WORTH ONE LINE.** The item surfaced as an undated claim that this happened "this week". **It is sixteen months old at the statute and fifteen weeks old at the rules.** **Third date-trust incident in seven days**, after the Ontario document mis-dated by five months on 7 November and the unverifiable STAT date on 8 November. **All three were caught before publication.**
+
+### Update Log, 2026-11-10
+
+**NO MATERIAL CHANGE TO ANY ENTRY. No science delta for a fourteenth day. One COVERAGE GAP recorded, which is not the same thing as a finding and is labelled as such.**
+
+**THE GAP: uterus transplantation. `womb transplant`, `uterus transplant` and `living-donor` ALL return ZERO across every file in this repository.**
+
+**Why it is worth an entry.** This fleet holds a published blog article on artificial wombs, a full episode, and a standing on-air position that EctoLife and the pregnancy robot are fabrications. **That body of work exists to draw the line between what exists and what people imagine exists.** **And the technology that actually gestates a human today, after a transplant, has never appeared in one sentence we have written.** **The distinction we keep drawing has only ever had two terms and there are three.**
+
+**NOTHING ABOUT THE TECHNOLOGY IS BANKED, AND THAT IS DELIBERATE.** An op-ed retrieved today states the first UK birth from a living-donor womb transplant occurred in 2025 and that the US FDA is reviewing protocols for ex-utero fetal support. *(Op-ed, undated in the index.)* **`ex-utero` and `reviewing protocols` also return zero here and will stay at zero until a better source exists.** **After three date-trust incidents in seven days, an undated op-ed is precisely the source class this fleet has learned not to file from.** **The GAP is verified. The CLAIMS are not.**
+
+**USE RESTRICTION.** Uterus transplantation has **no preserve-now angle** and no product relevance; storing a DNA record confers nothing related to it. **Its value is editorial only, as the missing third term.** **Any asset must source the technology properly first; a piece that narrates our own gap instead of the subject is not shippable.**
+
+**CHECKED AND NOT BANKED TODAY:** `Rejoovenate` (2 hits, both the 6 November sweep, still undated and thin); a reproductive-longevity drug-discovery trade piece, undated; a "seven years away" estimate for lab-grown gametes, which stays at zero because an undated estimate is not a finding.
+
+**STANDING CLOCKS, neither due:** Fertilo interim readout, next check **14 November**, falsifier 31 December 2026, **51 days out**. Montana SB 535 first clinic, next check **14 December**, falsifier 31 December 2026.
