@@ -64,7 +64,8 @@ Counts: **1 PASS, 1 FIXED-then-PASS, 0 KILLED.** Four photo candidates declined 
 
 ## DELIVERY
 
-- **Drive:** checked after push, result recorded in the run notes. The two folder IDs in this lane's trigger prompt remain dead; the live tree is `MySpawn Master` / `04 - Marketing and Social Content` / `Reels and Finished Videos`.
+- **Drive, checked after the push at a76780c:** **NEGATIVE, for the 32nd consecutive run.** Nothing matching either `_hd.jpg` filename appears in recent Drive activity, so the n8n mirror did not fire. **No rename re-trigger was attempted:** the trigger prescribes one `git mv` retry, and thirty-one prior negatives say the mirror is not running rather than that a single delivery was missed. **A rename commit against a mirror that is not running adds a commit and changes nothing.**
+- **Drive, incidental but worth recording for the reels question:** **still nothing newer than Reel 59, uploaded 4 November. That is 6 days with no new reel**, against the cadence that produced 59 numbered reels between 25 May and 4 November. The two folder IDs in this lane's trigger prompt remain dead; the live tree is `MySpawn Master` / `04 - Marketing and Social Content` / `Reels and Finished Videos`, and nothing has been filed into it since 8 September.
 - **Gmail:** the connector has refused every call since 2 November, so **no email was sent and none was drafted to anyone outside the founder loop.** The run is delivered to the founder in chat instead.
 
 **RUN FIRST: Ad_WhatYouKnewAndWhen_228 (square).**
