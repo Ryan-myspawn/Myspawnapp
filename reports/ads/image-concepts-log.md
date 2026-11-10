@@ -811,3 +811,20 @@
 - **Mirror-safe miss caught and fixed:** the export loop floors at q60 and the vertical finished at 964,726 bytes, over the ceiling. Re-exported with chroma subsampling 2 at 947,352. **A step-down loop with a floor can terminate above the limit; re-check after the loop.**
 - Pricing rail: "one-time" appears once, describing a competing structure, which is the only permitted context. Not applied to MySpawn anywhere.
 - Output: 1 new concept, 2 ratios, against a target of 10. Target raised for the 35th time.
+
+## 2026-11-10
+- **Ad_WhatYouKnewAndWhen_228** (square). "What you knew, and when." Visual hook: a single SWITCHED-OFF matte grey desk lamp against a bare wall carrying blind-light from a window. Unsplash `6dqcAkxbpt0`, Balint Mendlik (@balintm). Shipped.
+- **Ad_WhatYouKnewAndWhen_228_9x16 (adaptation).** Re-layout, not a crop: type moves into the empty wall band between the blind-light and the shade.
+- **The object-class grep the Content Factory ordered was run and returned hits in eight files, not a zero.** All three lamp precedents were opened. Nearest occupancy 22 days (street lamps, 19 Oct); nearest matching object 61 days (Ad_NothingHappens_115, 10 Sep), **and that one is LIT at night while this one is UNLIT in a bright room.** Class clear; ad built rather than declined.
+- **Footnote worth keeping: Ad_NothingHappens_115's source page title reads "a table with a lit candle on top of it".** The 10 September concept doc called it a lamp. **An object class is only as reliable as the word the concept doc chose for it**, which is a second-order version of the two-level grep hazard.
+- **Four candidates declined with printed reasons:** one lit 3D render (mandate forbids renders), two lamps switched ON (opposite of the concept), one genuinely unlit lamp in a cluttered workshop with packaging text in frame. **The handover's "decline rather than substitute a candle, a bulb or a window" was honoured and no substitution was made.**
+- **New layout, forced by arithmetic rather than chosen for novelty.** The shade sits at source y 0.56 to 0.88, so in any square framing of a square source it sits low, and the proven bottom-text template would have run the headline across the focal subject. The square went to a right-hand navy panel instead. **Recorded because it generalises: when the subject is low in a square source, the bottom-text template is unavailable, and that is a property of the photograph, not a failure of the composition.**
+- Exposure: bright source at mean L 223.8, built at 0.90, inspected before first export, taken DOWN to 0.78 / contrast 1.32. One inspection, one move.
+- Mirror-safe: 470,406 and 756,940 bytes, both q92 first pass; **ceiling re-checked after the loop terminated**, per the 9 November lesson.
+- Reserve: **seven entries banked in the STAIRCASE class**, chosen by object-class scarcity rather than convenience, which is the 6 November re-scope executed for the first time.
+- Output: 1 new concept, 2 ratios, against a target of 10. **Target lowering raised for the 36th time.**
+
+| Date | Code | Headline | Visual hook |
+|---|---|---|---|
+| 2026-11-10 (lane LIVE) | Ad_WhatYouKnewAndWhen_228 | What you knew, and when. | Unsplash photo: single SWITCHED-OFF grey desk lamp against a wall lit by window blinds (Balint Mendlik @balintm, `6dqcAkxbpt0`) |
+| 2026-11-10 (lane LIVE) | Ad_WhatYouKnewAndWhen_228_9x16 | (adaptation) | Vertical of 228, type re-laid into the empty wall band |
