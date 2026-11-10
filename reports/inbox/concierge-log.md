@@ -837,3 +837,13 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **AND THE SECOND HALF OF THE ASK IS UNCHANGED AND INDEPENDENT:** even with authentication restored, the digest step of this trigger cannot run, because no Gmail tool available to this session sends mail. `create_draft` exists; `send_message` does not. **Re-authorising Gmail would restore triage and drafting and would still leave the digest undeliverable.**
 
 **MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
+
+## 2026-11-10, day 75
+
+**NO TRIAGE. No thread read, no draft created, no digest sent. Inbox state unknown.** `search_threads` called with `newer_than:1d in:inbox`; the server returned the re-authentication refusal and the connector then disconnected. **State 2, unchanged for a ninth day. Seventy-four consecutive runs.**
+
+**NOTHING NEW TO ADD, AND THIS ENTRY IS DELIBERATELY SHORT.** Yesterday narrowed the ask from "the Google connectors" to **"re-authorise Gmail"**, after Drive was observed working while Gmail and Calendar refused. That narrowing is the last genuinely new thing this lane had to say, and repeating it at length today would be padding a log that is already long enough to make the point by itself.
+
+**THE TWO ASKS, restated in one line each and not argued:** re-authorise Gmail, which restores triage and drafting; and fix the trigger specification, because **no Gmail tool available to this session sends mail**, so the digest step cannot run even with authentication restored.
+
+**MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
