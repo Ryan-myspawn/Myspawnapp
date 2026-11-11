@@ -1410,3 +1410,47 @@ The pricing comparisons came from **Elayne** and **SwiftProbate**. **Both return
 **THREAT LEVEL: none today.** No competitor moved.
 
 **NEXT IN THE ADVANCED ROTATION: the CRYONICS INSTITUTE, at 39 mentions, selected by the least-held rule WITH THE COUNT ACTUALLY RUN.** Cofertility remains SUSPENDED until its domain is allowed.
+
+- **2026-11-11:** **FULLY QUIET ON COMPETITOR MOVEMENT. No dated item inside the 24-48 hour window in any of the four monitored groups**, so no `watch-2026-11-11.md` is written, per the brief's own instruction. Swept: SecuriGene / DNA Memorial, CellSave, Acorn Biolabs, Tomorrow Bio, Alcor, Cryonics Institute, funeral-industry DNA offerings, Legacy, Fellow, Cofertility, Freeze Health, Orchid, Nucleus Genomics, Herasight, HereAfter AI, StoryWorth, Empathy. **Everything returned was stale and already in this file:** Cofertility's April 2025 Series A of $7.25M against $16M total, led by Next Ventures and Offline Ventures; Nucleus Genomics' January 2025 $14M Series A against roughly $32M total and its $400 saliva product; Orchid's $12M and $2,500-per-embryo launch price from December 2023. **Nothing was returned for Tomorrow Bio or Alcor at all.** **Cofertility remains SUSPENDED pending its domain being allowed; the proposal is now in its 13th day.**
+
+  **THE DAY'S MOST IMPORTANT FINDING IS THAT THE ROTATION SELECTOR WAS MEASURING THE WRONG THING, AND IT PICKED THE WRONG TARGET YESTERDAY.**
+
+  **Yesterday this lane corrected itself once already**, replacing a named guess with a counted answer and selecting the Cryonics Institute at **39 mentions** as the least-held name. **The count was run. The metric was wrong.**
+
+  **Here is the problem, and this file contains its own proof.** On 7 November an audit of `Freeze Health` found that **all 39 of its mentions were ROLL-CALL LINES** of the form "no dated item inside the 24-48h window for SecuriGene, CellSave, Acorn, Tomorrow Bio, Alcor, Cryonics Institute, ...". **Every monitored name appears in every quiet-day roll call. On a landscape that is quiet most days, that is most of the corpus.** **So a raw mention count measures HOW LONG A NAME HAS BEEN ON THE LIST, not how much we know about it.**
+
+  **RE-RUN WITH ROLL-CALL LINES EXCLUDED** (lines mentioning the name but not also naming Nucleus, which appears in every roll call), across `reports/competitors/`:
+
+  | Company | Raw mentions | Roll-call excluded |
+  |---|---|---|
+  | **Freeze Health** | 76 | **21** |
+  | DNA Memorial | 77 | 24 |
+  | Fellow | 85 | 27 |
+  | Cryonics Institute | 82 | 35 |
+  | Acorn Biolabs | 60 | 37 |
+  | Empathy | 114 | 48 |
+  | CellSave | 112 | 56 |
+  | HereAfter | 110 | 58 |
+  | Tomorrow Bio | 124 | 61 |
+
+  **THE RANKING INVERTS AT THE TOP. The genuinely least-researched name is FREEZE HEALTH at 21, not the Cryonics Institute at 35.** Raw mentions put Acorn Biolabs lowest of all at 60; substantive mentions put it fifth.
+
+  **AND THE ABSOLUTE NUMBERS ARE NOT REPRODUCIBLE, WHICH IS A SECOND AND SEPARATE PROBLEM.** Yesterday's table recorded Cryonics Institute at 39. **No scope tried today returns 39:** 31 in `reports/competitors/`, 41 across competitors plus social, 82 by matching lines, 82 by files across all of `reports/`. **The ORDERING yesterday recorded is reproducible; the FIGURES are not, because the run recorded results without recording the command that produced them.**
+
+  **TWO RULES WRITTEN, and the second is the general one.**
+  1. **The least-held selector counts SUBSTANTIVE mentions only. A roll-call line is not knowledge.**
+  2. **A count that is going to be relied on later must be published with the command that produced it, not just the number.** **A figure nobody can re-run is an assertion wearing a number's clothes**, which is the same objection this lane makes to competitors' marketing claims every week.
+
+  **DEEP-DIVE #40, CRYONICS INSTITUTE, AND IT IS REPORTED HONESTLY AS MOSTLY A RE-READ.** The dive was run because yesterday selected CI, and the work is kept rather than thrown away. **But most of what the sweep returned is already in this file, from deep-dive #14 of 5 September and deep-dive #21 of 15 October:** the $1,250 lifetime membership, the $200 initiation plus $120 a year annual membership, and the **$28,000 for lifetime members against $35,000 for annual members** preservation minimum. **This file records a 15 October correction where a run commissioned a CI dive believing our figures were 1,700 days old when they were 42. A third dive that re-reported the same prices would be that error again.**
+
+  **WHAT IS GENUINELY NEW, each verified at zero prior hits before being written here:**
+  - **"PRICE PROTECTION": CI's funding page states that members who PREPAY IN FULL are protected against future price increases.** `price protection` returned ZERO across every report directory. **This is the single most useful finding of the day, because it is the same mechanism as our founding-rate lock, arrived at independently by an organisation that has been running since the 1970s.** **The difference is the price of entry: theirs requires prepaying the whole preservation minimum; ours requires being among the first 1,000 members at $99 a year, billed annually.**
+  - **A $30,000 completion fee for stabilization and transport, performed by Suspended Animation.** `Suspended Animation` returned ZERO in `reports/competitors/`. **This matters to the price picture: the preservation minimum is not the total.** A third-party guide puts optional transport as high as **$95,000** depending on membership status and location. **LABEL: that figure is from a guide roughly nine months old, not from CI, and is recorded as third-party rather than as their price.**
+  - **A household-of-two membership at $1,875.** `1,875` returned ZERO. A further close family member at $625 is recorded with less confidence, because that string already returns one hit and it was not opened.
+  - **2026 organisational figures: 294 patients and 2,053 members**, per the Cryonics Wiki, **with Wikipedia giving a different count.** **THE CONFLICT IS LEFT STANDING rather than averaged.** **THE 8 NOVEMBER SCOPE CONDITION ON THE MONOTONIC-COUNTER RULE APPLIES AND IS THE REASON THESE TWO NUMBERS ARE TREATED DIFFERENTLY: patients is monotonic, so 294 can be ordered against any earlier reading; MEMBERSHIP IS NOT, because members lapse, die into the patient count, or resign.** **We hold no prior CI patient figure, so 294 is a new baseline rather than a correction.** **Note also that the 248 figure in `watch-2026-11-02.md` is ALCOR'S, not CI's, and this file already records a 30 October incident where a source misattributed Alcor's 263 to CI. The name collision was checked for before writing this line.**
+
+  **TACTIC WORTH STEALING, and it is a copy tactic rather than a pricing one.** CI states plainly on its own site that **membership fees are not refundable, whether paid in whole or in part.** **That is an unflattering term published by the company itself, in its own words, where a prospect will read it.** **Our positioning is honest science and radical custody transparency, and the test of that positioning is whether our own least flattering term appears on our own page with the same flatness.**
+
+  **SO WHAT FOR MySpawn, in one line each:** price protection is **differentiation proof** that rate-locking is a recognised mechanism rather than a marketing gimmick, and a **copy angle** for explaining the founding rate; the completion fee is a **copy angle** about headline prices that are not totals; the refundability statement is a **copy tactic**; none of today's items is pricing pressure and none raises the threat level.
+
+  **NEXT IN THE ADVANCED ROTATION: FREEZE HEALTH, at 21 substantive mentions, selected by the CORRECTED least-held rule with the command recorded.** Command: `grep -rih "<name>" reports/competitors | grep -vi "Nucleus" | wc -l`. **Cofertility remains SUSPENDED until its domain is allowed.**
