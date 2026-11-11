@@ -847,3 +847,19 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **THE TWO ASKS, restated in one line each and not argued:** re-authorise Gmail, which restores triage and drafting; and fix the trigger specification, because **no Gmail tool available to this session sends mail**, so the digest step cannot run even with authentication restored.
 
 **MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
+
+## 2026-11-11, day 76
+
+**NO TRIAGE. No thread read, no draft created, no digest sent. Inbox state unknown.** `search_threads` called with `newer_than:1d in:inbox`; the server returned the re-authentication refusal and the connector then disconnected. **State 2, unchanged for a tenth day. Seventy-five consecutive runs.**
+
+**TEN DAYS IS THE THRESHOLD THIS LANE SET FOR ITSELF ON OTHER SUBJECTS, SO IT IS APPLIED HERE.** The standard this fleet uses elsewhere is that **two consecutive failures are a judgement and three are a pattern that gets escalated.** This is seventy-five. **The escalation has been standing since 2 November and the only thing that has changed since is that the ask got narrower, on 9 November, when Drive was observed working while Gmail refused.**
+
+**WHAT TODAY ADDS, and it is small but it is not nothing:** the refusal is no longer a silent error. The server now answers with an explicit instruction to sign in again, and the connector then drops out of the session's tool list entirely. **Earlier in the outage the call simply failed; now the system states the remedy.** That is weak evidence that the credential has fully expired rather than being intermittently rejected, which in turn means **waiting will not fix it and no amount of retrying from this side will either.**
+
+**THE TWO ASKS, UNCHANGED:**
+1. **Re-authorise Gmail specifically.** Not "the Google connectors": Drive has been authorised throughout and was used successfully as recently as yesterday evening. This restores triage and drafting.
+2. **Fix the trigger specification.** **No Gmail tool available to this session sends mail.** `create_draft` exists; `send_message`, which this trigger names, does not. Re-authorising Gmail restores triage and drafting and still leaves the digest undeliverable.
+
+**NOTHING WAS SENT, DELETED, MARKED, OR FORWARDED. No correspondent detail exists in this entry because no correspondent was read.**
+
+**MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
