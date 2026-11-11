@@ -471,3 +471,33 @@
 **NO CORRECTION BLOCK: the 7 November claims were re-checked and none has proven wrong.**
 
 **PUBLISH FIRST: #202 on X.**
+
+## 2026-11-11 (#205 to #209)
+
+| # | Title | Lane / angle | Hook structure | Platform | Product |
+|---|---|---|---|---|---|
+| 205 | We told you the reliable half. Here is the other one. | science-explainer; a correction of our own prior article | **admission of our own error as line one** | [X] | one, self-negating |
+| 206 | Somebody has to mow it in 2126, and somebody worked out how to pay for that | story-driven / trust; funding mechanics of an open-ended promise | second-person observation, ends on a question | [FACEBOOK] | **ZERO** |
+| 207 | An industry audited its own safety net and published the number anyway | contrarian; punches at a BELIEF, names a company only as publisher | **a bare statistic as line one** | [X] | one, self-implicating |
+| 208 | If your business holds a customer's physical property, you are already in a legal category | practical guide; disclosed founder voice | disclosure first, then a category name | [REDDIT] r/Entrepreneur | named, not linked |
+| 209 | Nails: 2 to 2,295 nanograms. Hair: 31 out of 49. | science-explainer; material science of what people actually keep | **two bare figures as the headline** | [X] | one, self-limiting |
+
+**BATCH SPINE: the paperwork under "forever".** Four of five are about the funding and legal machinery institutions use to make an open-ended promise mean something. **Last run's spine was media durability; this is the layer beneath it, and the distinction is declared so the two are not read as one subject twice.**
+
+**A CORRECTION IS DISCHARGED IN PUBLIC.** #42 of 5 September told readers the best clocks "achieve excellent test-retest stability within about 1.5 years". **That was the technical half presented as the whole question.** The 2026 *Aging Cell* paper reports that technical reproducibility **does not predict** biological reliability, pooled ICC roughly 0.4 to 0.7, none excellent, with estimates moving by slide position. **#205 is the correction and it runs as its own article rather than a footnote.**
+
+**FRESHNESS, AND IT WAS NOT A CLEAN SHEET.** `Horvath` and `GrimAge` return 2 longpost files each and **both were opened**: #42 of 5 September and #139 of 13 October already covered the r = 0.96 correlation, the absence of reference standards, the two-year error bar and the sign-disagreement between clocks. **#205 is not a re-run of either; it is the first article to separate technical from biological reliability, and it exists because our own prior article conflated them.** `Biomemory` was tested and ABANDONED: #147 of 17 October already covered DNA Shield. **Zeros confirmed for the four new subjects: `endowment care` 0, `software escrow` 0, `source code escrow` 0, `bailment` 0, `receivership` 0, `successor trustee` 0, `custodial agreement` 0 across every report directory.**
+
+**A PRIOR LANE DECISION IS DELIBERATELY REVERSED, AND THE REASON IS FORMAT.** The blog lane tested `perpetual care`, found zero, and **declined it as too narrow for men 25-55 and too far from anything we sell.** That was a judgement about search intent and it was right for that format. **A longpost is not answering a query, so the same zero is an opportunity rather than a dead end.** Recorded here so a later run does not read the two decisions as a contradiction.
+
+**HARD FACTS CARRIED, with labels.** Mississippi's irrevocable trust with principal untouchable, income-only spending, instalment deposits and the Secretary of State's power to order deposits where a cemetery is believed insolvent; Michigan's **15% of gross proceeds** where the seller is not the cemetery; South Carolina's **$15,000** minimum and board permission for principal; Virginia's **recover-only-at-double** rule; Georgia's unofficial AG opinion barring a customer add-on fee; **Mississippi SB 2530 (2026) raising thresholds from $50,000 to $75,000, status explicitly unconfirmed.** Iron Mountain's 2007 figures of **97.4% incomplete** and **74% requiring developer input**; a provider's **0.688%** arbitrated disputes over two decades and **87%** compile failure for unverified deposits, both labelled as provider material. Bailment's three standards of care; *Preston v. Prather* and *Mandujano v. Guerra* as category-shifting cases. **433 nail samples from 113 subjects at 2 to 2,295 nanograms on a 15-CpG, four-marker panel (preprint); 10 loci succeeding in 31 of 49 plucked-hair individuals.** The 2024 InCHIANTI cohort, **699 adults, up to 24 years**, where the slope carried the mortality signal the snapshot did not.
+
+**TWO NUMBERS REFUSED AND THE REFUSALS ARE IN THE ARTICLES.** The commercial test-retest precision figure in years, untraceable to a primary study. And the circulating "10 to 15% typical" and "70 to 90% of pre-need payments" cemetery figures, which **contradict the statutes actually read**; #206 names their existence and sends the reader to their own state code.
+
+**NON-DISPARAGEMENT, CHECKED EXPLICITLY ON #207.** Iron Mountain appears once, as the **publisher** of an unflattering statistic about the whole deposit population. The article says in its own text that the target is a belief, not a company. **An industry publishing a bad number about its own product is the strongest source class available.**
+
+**MEASUREMENTS, BY PROGRAM AND READ BACK.** 565, 501, 579, 597, 606, every one verified equal to the figure stated in the file. **FOUR OF FIVE WERE UNDER THE 500 FLOOR ON THE FIRST PASS at 420, 459, 477 and 474**, and every fix was additional sourced material, named in the run notes, rather than padding. **That is the second consecutive run where the floor was missed on the first pass, which is now a pattern: the house voice drafts tight and the expansion step should be budgeted rather than treated as a repair.**
+
+**REDDIT: #208 written and NOT posted. `www.reddit.com` 000 for ten consecutive days. #180 of 31 October and #203 of 9 November also still unposted. Fifth consecutive run with no executable Reddit slot.** **Subreddit deliberately varied to r/Entrepreneur after r/transhumanism was used on 9 November.**
+
+**PUBLISH FIRST: #205 on X.**
