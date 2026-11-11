@@ -126,3 +126,25 @@ Static ad only, no script, second consecutive day. Subject from today's Competit
 
 ## 2026-11-10: "What You Knew, And When" (emotional demographic)
 Static ad plus a script, ending a three-day run of ad-only packs. Subject is the TIMING of the probable-cause test from today's published blog, deliberately distinct from the script's three-regimes content; the two share no sentence. Emotional demographic taken because no proven style is outside the seven-day window (comparison 1 day, receipts 2, emotional demographic 3), with the distance declared as a partial for a second day. Visual direction is a single switched-off desk lamp, with PAPER AND ROADS BOTH BARRED to avoid collision with the 8 and 9 November creatives, plus two explicit instructions to the image lane: run your own object-class grep on `lamp`, and decline rather than substitute a candle, bulb or window. Price line verified.
+
+## 2026-11-11 (WEEKLY LAB): "What Does The Guarantee Cost?"
+
+**ANGLE: the CONDITION attached to a price guarantee.** Not what a thing costs, not how many prices it displays, not whether its pages agree. **A promise about a FUTURE price, and the fact that there is always something you must do to get it.**
+
+**THREE NEIGHBOURS OPENED AND NAMED RATHER THAN COUNTED:** 30 September "How Many Prices Does It Have?" (the COUNT of prices), 28 October "The Price Was Set Between Companies" (WHO the price was for), 4 November "Ask It, Then Check It" (surface consistency). **None is about a guarantee wrapped around a future price.**
+
+**`price protection`, `price increase` and `future price` ZERO across four directories. `founding rate` 2 and `first 1,000` 3 in this log, ALL FIVE OPENED: every one is a price line inside an asset about something else. The founding rate has never been the ANGLE before today.**
+
+**SOURCE: this afternoon's competitor sweep, index-sourced.** The Cryonics Institute is reported to offer price protection to members who prepay in full. **Their domain returns 403 at our own proxy and nothing of theirs is quoted in any asset. No competitor is named in any customer-facing line.**
+
+**SAME-DAY CASCADE DISCLOSED: the Deep Production episode of the same date runs on the same finding. The episode asks what the guarantee is WORTH; this batch asks what it COSTS THE BUYER TO QUALIFY.**
+
+**DELIVERED:** 3 Meta concepts, one per audience, all character counts measured by program; 2 spark scripts at 15s; 5 RSA headlines and 3 descriptions, all measured; a six-row A/B matrix with a readability condition attached.
+
+**VISUAL DIRECTIONS, ALL FROM GENUINE ZEROS IN `image-concepts-log.md`:** a wall thermostat held at one number; an old card price tag with the written side turned away; one empty chair in a full row with no face in frame.
+
+**SECOND FINDING, AND IT GENERALISES: THE OBJECT-CLASS GREP IS CONTAMINATED BY OUR OWN JARGON.** Of thirteen classes tested, **`gate` returned 12 almost entirely from "QC Gate", `counter` returned 1 from "monotonic counter", and `meter` matched inside longer words.** **A raw count on a common English word is not a measurement of image reuse.** **This is the same family as the hyphenation trap written last night: the grep has to be read against the vocabulary the project actually uses, in both directions.**
+
+**COMPLIANCE: all eight checks PASS. ONE ITEM FLAGGED FOR LEGAL REVIEW and it blocks four assets.** "First 1,000 members lock the founding rate" is a forward-looking price commitment in paid advertising and needs published terms behind it covering scope, duration and transfer of the business. **Concept A, Concept B, RSA headline 4 and RSA description 2 are held until that term is published.** **The Deep Production pack named the same gap independently this afternoon, which is two lanes reaching the same unpublished-term problem on the same day without coordinating.**
+
+**LAUNCH FIRST AT $10/DAY: Concept C (childfree legacy), because it is the only concept that does not depend on the unpublished price-lock term and can run tomorrow.**
