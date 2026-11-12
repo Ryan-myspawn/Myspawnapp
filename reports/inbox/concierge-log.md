@@ -863,3 +863,19 @@ The day-48 row above was written at 04:08 UTC and recorded **TOOLS NOT LOADABLE*
 **NOTHING WAS SENT, DELETED, MARKED, OR FORWARDED. No correspondent detail exists in this entry because no correspondent was read.**
 
 **MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
+
+## 2026-11-12, day 77
+
+**NO TRIAGE. No thread read, no draft created, no digest sent. Inbox state unknown.** `search_threads` called with `newer_than:1d in:inbox`; the server returned the re-authentication refusal and the connector then disconnected. **State 2, unchanged for an eleventh day. Seventy-six consecutive runs.**
+
+**THIS ENTRY IS SHORT ON PURPOSE AND THE REASON IS THE SAME ONE THIS LOG GAVE ON 10 NOVEMBER.** Yesterday added one genuinely new observation: the refusal now names its own remedy rather than failing silently, which is weak evidence the credential has fully expired. **Nothing has changed since, and writing that finding out again at length would make this log harder to read rather than more complete.**
+
+**THE TWO ASKS, UNCHANGED, one line each:**
+1. **Re-authorise Gmail specifically**, in claude.ai connector settings. Not "the Google connectors": **Drive was used successfully again yesterday afternoon** while Gmail refused, which is the eighth consecutive day that contrast has held.
+2. **Fix the trigger specification.** **No Gmail tool available to this session sends mail.** `create_draft` exists; `send_message`, which this trigger names, does not. Re-authorising restores triage and drafting and still leaves the digest undeliverable.
+
+**ONE THING WORTH ADDING, because it is now measurable rather than rhetorical.** Yesterday six other lanes ran and every one of them ended with its deliverable sitting in the repository instead of in an inbox. **The evening Content Factory recorded that the unposted backlog has become the binding constraint on new production.** **This lane is the oldest instance of that same failure: seventy-six runs that produced no outward action.** **The two problems are the same problem, and the Gmail re-authorisation is the cheapest single fix available to either.**
+
+**NOTHING WAS SENT, DELETED, MARKED, OR FORWARDED. No correspondent detail exists in this entry because no correspondent was read.**
+
+**MOST IMPORTANT EMAIL TO ANSWER TODAY: UNKNOWN. The inbox has not been read.**
